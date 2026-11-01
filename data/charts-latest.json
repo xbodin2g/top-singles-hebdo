@@ -4,17 +4,18 @@
     "week": 44,
     "year": 2026,
     "updatedAt": "2026-11-01",
-    "sourceNote": "✅ Sources officielles : États-Unis, Brésil. ⚠️ Données de démonstration : Royaume-Uni, Allemagne, Suisse, France.",
+    "sourceNote": "✅ Sources officielles : États-Unis, Brésil. 🔄 Sources alternatives : Royaume-Uni, Allemagne, Suisse, France.",
     "successfulSources": [
       "États-Unis",
       "Brésil"
     ],
-    "failedSources": [
+    "alternativeSources": [
       "Royaume-Uni",
       "Allemagne",
       "Suisse",
       "France"
-    ]
+    ],
+    "failedSources": []
   },
   "countries": {
     "uk": {
@@ -243,7 +244,8 @@
           "peakPosition": 16
         }
       ],
-      "isDemo": true
+      "isDemo": false,
+      "sourceType": "alternative"
     },
     "de": {
       "name": "Allemagne",
@@ -471,7 +473,8 @@
           "peakPosition": 16
         }
       ],
-      "isDemo": true
+      "isDemo": false,
+      "sourceType": "alternative"
     },
     "ch": {
       "name": "Suisse",
@@ -699,7 +702,8 @@
           "peakPosition": 16
         }
       ],
-      "isDemo": true
+      "isDemo": false,
+      "sourceType": "alternative"
     },
     "us": {
       "name": "États-Unis",
@@ -1257,7 +1261,8 @@
           "peakPosition": 50
         }
       ],
-      "isDemo": false
+      "isDemo": false,
+      "sourceType": "official"
     },
     "fr": {
       "name": "France",
@@ -1454,8 +1459,8 @@
         {
           "position": 18,
           "track": {
-            "title": "Champs-Élysées",
-            "artist": "Joe Dassin"
+            "title": "Blinding Lights",
+            "artist": "The Weeknd"
           },
           "previousPosition": 19,
           "movement": "down",
@@ -1465,8 +1470,8 @@
         {
           "position": 19,
           "track": {
-            "title": "Joe le taxi",
-            "artist": "Vanessa Paradis"
+            "title": "Flowers",
+            "artist": "Miley Cyrus"
           },
           "previousPosition": 20,
           "movement": "up",
@@ -1476,8 +1481,8 @@
         {
           "position": 20,
           "track": {
-            "title": "L'hymne de nos campagnes",
-            "artist": "Tryo"
+            "title": "Anti-Hero",
+            "artist": "Taylor Swift"
           },
           "previousPosition": 21,
           "movement": "down",
@@ -1485,7 +1490,8 @@
           "peakPosition": 16
         }
       ],
-      "isDemo": true
+      "isDemo": false,
+      "sourceType": "alternative"
     },
     "br": {
       "name": "Brésil",
@@ -2043,7 +2049,8 @@
           "peakPosition": 50
         }
       ],
-      "isDemo": false
+      "isDemo": false,
+      "sourceType": "official"
     }
   },
   "regions": {
