@@ -36,6 +36,18 @@ SOURCES = {
         "flag": "🇺🇸",
         "url": "https://www.billboard.com/charts/hot-100/",
         "region": "anglo"
+    },
+    "fr": {
+        "name": "France",
+        "flag": "🇫🇷",
+        "url": "https://snepmusique.com/les-tops/le-top-de-la-semaine/top-singles/",
+        "region": "europe"
+    },
+    "br": {
+        "name": "Brésil",
+        "flag": "🇧🇷",
+        "url": "https://pro-musicabr.org.br/home/top-50-streaming/",
+        "region": "latam"
     }
 }
 
@@ -74,28 +86,22 @@ def scrape_uk_official_charts():
         soup = BeautifulSoup(response.text, 'html.parser')
         
         entries = []
-        # Structure : Number X, Title, Artist, LW, Peak, Weeks
-        chart_items = soup.find_all('div', class_='chart-item') or soup.find_all('article')
+        text = response.text
+        pattern = r'Number\s+(\d+).*?<h2[^>]*>(.*?)</h2>.*?<p[^>]*>(.*?)</p>'
+        matches = re.findall(pattern, text, re.DOTALL | re.IGNORECASE)
         
-        # Fallback : chercher par pattern
-        if not chart_items:
-            # Chercher dans le texte brut
-            text = response.text
-            pattern = r'Number\s+(\d+).*?<h2[^>]*>(.*?)</h2>.*?<p[^>]*>(.*?)</p>'
-            matches = re.findall(pattern, text, re.DOTALL | re.IGNORECASE)
-            
-            for rank, title, artist in matches[:50]:
-                entries.append({
-                    "position": int(rank),
-                    "track": {
-                        "title": title.strip(),
-                        "artist": artist.strip()
-                    },
-                    "previousPosition": None,
-                    "movement": "same",
-                    "weeksOnChart": 1,
-                    "peakPosition": int(rank)
-                })
+        for rank, title, artist in matches[:50]:
+            entries.append({
+                "position": int(rank),
+                "track": {
+                    "title": title.strip(),
+                    "artist": artist.strip()
+                },
+                "previousPosition": None,
+                "movement": "same",
+                "weeksOnChart": 1,
+                "peakPosition": int(rank)
+            })
         
         return entries[:50]
     except Exception as e:
@@ -109,7 +115,6 @@ def scrape_germany_offizielle_charts():
         soup = BeautifulSoup(response.text, 'html.parser')
         
         entries = []
-        # Chercher dans les tableaux
         tables = soup.find_all('table')
         
         for table in tables:
@@ -121,7 +126,6 @@ def scrape_germany_offizielle_charts():
                     if rank_text.isdigit():
                         rank = int(rank_text)
                         
-                        # Extraire artiste et titre
                         info_cell = cells[2] if len(cells) > 2 else None
                         if info_cell:
                             text = info_cell.get_text(separator='|', strip=True)
@@ -130,7 +134,6 @@ def scrape_germany_offizielle_charts():
                             title = parts[0].strip() if len(parts) > 0 else ""
                             artist = parts[1].strip() if len(parts) > 1 else ""
                             
-                            # Chercher les métadonnées
                             weeks_text = info_cell.get_text()
                             weeks_match = re.search(r'In Charts:\s*(\d+)', weeks_text)
                             peak_match = re.search(r'Peak:\s*(\d+)', weeks_text)
@@ -175,23 +178,17 @@ def scrape_swiss_hitparade():
         soup = BeautifulSoup(response.text, 'html.parser')
         
         entries = []
-        # Structure simple : rang, mouvement, artiste, titre, semaines, peak
-        
-        # Chercher les éléments de classement
         items = soup.find_all('tr') or soup.find_all('div', class_='chart-entry')
         
         current_rank = 0
         for item in items:
             text = item.get_text(separator='|', strip=True)
-            
-            # Pattern : rang | mouvement | artiste | titre
             parts = [p.strip() for p in text.split('|') if p.strip()]
             
             if len(parts) >= 3 and parts[0].isdigit():
                 current_rank += 1
                 rank = int(parts[0])
                 
-                # Détecter si c'est une nouvelle entrée
                 is_new = 'neu' in text.lower() or 'new' in text.lower()
                 
                 title = ""
@@ -204,7 +201,6 @@ def scrape_swiss_hitparade():
                     artist = parts[1]
                     title = parts[2]
                 
-                # Extraire semaines et peak
                 weeks_match = re.search(r'W\s*(\d+)', text)
                 peak_match = re.search(r'P\s*(\d+)', text)
                 
@@ -241,24 +237,16 @@ def scrape_billboard_hot100():
         soup = BeautifulSoup(response.text, 'html.parser')
         
         entries = []
-        
-        # Billboard utilise une structure complexe
-        # Chercher les éléments de classement
         chart_items = soup.find_all('div', class_='o-chart-results-list-row-container') or \
                      soup.find_all('li', class_='lrv-u-width-100p')
         
         if not chart_items:
-            # Fallback : chercher dans le HTML brut
             text = response.text
-            
-            # Pattern pour extraire les données
-            # Format : rang, titre, artiste, LW, Peak, Weeks
             lines = text.split('\n')
             current_entry = {}
             
             for i, line in enumerate(lines):
                 if '###' in line and i < len(lines) - 1:
-                    # Nouvelle entrée
                     if current_entry and 'title' in current_entry:
                         entries.append(current_entry)
                     
@@ -271,12 +259,10 @@ def scrape_billboard_hot100():
                         "peakPosition": len(entries) + 1
                     }
                     
-                    # Extraire le titre
                     title_match = re.search(r'###\s*(.+?)(?:\n|$)', line)
                     if title_match:
                         current_entry["track"]["title"] = title_match.group(1).strip()
                     
-                    # Chercher l'artiste dans les lignes suivantes
                     for j in range(i+1, min(i+10, len(lines))):
                         if '###' in lines[j]:
                             break
@@ -291,6 +277,143 @@ def scrape_billboard_hot100():
         return entries[:50]
     except Exception as e:
         print(f"Erreur Billboard: {e}")
+        return []
+
+def scrape_france_snep():
+    """Scrape SNEP France - utilise l'API ou scraping alternatif"""
+    try:
+        # Le site SNEP nécessite JavaScript, on essaie une approche alternative
+        # Chercher dans le HTML brut ou utiliser un endpoint API
+        response = fetch_with_retry(SOURCES["fr"]["url"])
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        entries = []
+        
+        # Essayer de trouver les données dans le HTML
+        # SNEP utilise souvent des data attributes ou du JSON embarqué
+        scripts = soup.find_all('script')
+        
+        for script in scripts:
+            if script.string:
+                # Chercher des patterns de données
+                json_pattern = r'(\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\})'
+                matches = re.findall(json_pattern, script.string)
+                
+                for match in matches:
+                    try:
+                        # Essayer de parser si ça ressemble à du JSON
+                        if 'title' in match.lower() and 'artist' in match.lower():
+                            # C'est probablement du JSON, essayer de l'extraire
+                            pass
+                    except:
+                        continue
+        
+        # Fallback : chercher dans le texte brut
+        text = response.text
+        
+        # Pattern pour extraire rang, artiste, titre
+        # Format typique : numéro suivi de l'artiste et du titre
+        lines = text.split('\n')
+        current_rank = 0
+        
+        for i, line in enumerate(lines):
+            # Chercher les patterns de classement
+            rank_match = re.search(r'^\s*(\d{1,2})\s*$', line.strip())
+            if rank_match and current_rank < 50:
+                current_rank = int(rank_match.group(1))
+                
+                # Chercher l'artiste et le titre dans les lignes suivantes
+                artist = ""
+                title = ""
+                
+                for j in range(i+1, min(i+5, len(lines))):
+                    next_line = lines[j].strip()
+                    if next_line and len(next_line) > 3:
+                        if not artist:
+                            artist = next_line
+                        elif not title:
+                            title = next_line
+                            break
+                
+                if artist and title:
+                    entries.append({
+                        "position": current_rank,
+                        "track": {
+                            "title": title,
+                            "artist": artist
+                        },
+                        "previousPosition": None,
+                        "movement": "same",
+                        "weeksOnChart": 1,
+                        "peakPosition": current_rank
+                    })
+        
+        return entries[:50]
+    except Exception as e:
+        print(f"Erreur France SNEP: {e}")
+        # Retourner des données vides si le scraping échoue
+        return []
+
+def scrape_brazil_promusica():
+    """Scrape Pro-Música Brasil Top 50 Streaming"""
+    try:
+        response = fetch_with_retry(SOURCES["br"]["url"])
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        entries = []
+        
+        # Chercher le tableau avec les données
+        tables = soup.find_all('table')
+        
+        for table in tables:
+            rows = table.find_all('tr')
+            
+            for row in rows[:50]:
+                cells = row.find_all('td')
+                
+                if len(cells) >= 3:
+                    # Structure : rang, (vide ou évolution), artiste + titre
+                    rank_cell = cells[0]
+                    artist_cell = cells[2] if len(cells) > 2 else None
+                    
+                    rank_text = rank_cell.get_text(strip=True)
+                    
+                    if rank_text.isdigit():
+                        rank = int(rank_text)
+                        
+                        if artist_cell:
+                            # L'artiste est en gras (<strong>), le titre suit
+                            artist_strong = artist_cell.find('strong')
+                            
+                            if artist_strong:
+                                artist = artist_strong.get_text(strip=True)
+                                
+                                # Le titre est le texte après le <strong>
+                                title_parts = []
+                                for elem in artist_cell.descendants:
+                                    if isinstance(elem, str) and elem.strip():
+                                        text = elem.strip()
+                                        if text != artist and text:
+                                            title_parts.append(text)
+                                
+                                title = ' '.join(title_parts) if title_parts else ""
+                                
+                                if title:
+                                    entries.append({
+                                        "position": rank,
+                                        "track": {
+                                            "title": title,
+                                            "artist": artist
+                                        },
+                                        "previousPosition": None,
+                                        "movement": "same",
+                                        "weeksOnChart": 1,
+                                        "peakPosition": rank
+                                    })
+        
+        return entries[:50]
+    except Exception as e:
+        print(f"Erreur Brésil: {e}")
         return []
 
 def main():
@@ -320,7 +443,9 @@ def main():
         "uk": scrape_uk_official_charts,
         "de": scrape_germany_offizielle_charts,
         "ch": scrape_swiss_hitparade,
-        "us": scrape_billboard_hot100
+        "us": scrape_billboard_hot100,
+        "fr": scrape_france_snep,
+        "br": scrape_brazil_promusica
     }
     
     for code, scraper in scrapers.items():
@@ -335,7 +460,6 @@ def main():
                 "chart": entries
             }
             
-            # Ajouter à la région
             region = SOURCES[code]["region"]
             if region in charts_data["regions"]:
                 charts_data["regions"][region]["countries"].append(code)
@@ -348,11 +472,9 @@ def main():
     output_dir = "data"
     os.makedirs(output_dir, exist_ok=True)
     
-    # Fichier principal
     with open(f"{output_dir}/charts-latest.json", "w", encoding="utf-8") as f:
         json.dump(charts_data, f, ensure_ascii=False, indent=2)
     
-    # Fichier horodaté pour l'historique
     with open(f"{output_dir}/charts-{week_info['date']}.json", "w", encoding="utf-8") as f:
         json.dump(charts_data, f, ensure_ascii=False, indent=2)
     
