@@ -33,10 +33,14 @@ jobs:
     - name: Fetch charts
       run: python fetch_charts.py
       
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+     - name: Auto commit changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "📊 Update charts - ${{ github.run_id }}"
+        branch: main
+        file_pattern: 'data/*.json'
+        commit_user_name: GitHub Action
+        commit_user_email: action@github.com
         
         # Ajouter les fichiers modifiés
         git add data/
