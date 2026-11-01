@@ -131,15 +131,15 @@
       border-color: var(--accent);
     }
 
-    .button.primary {
-      background: var(--accent);
+    .button-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
       color: white;
-      border-color: var(--accent);
+      border: none;
+      font-weight: 600;
     }
 
-    .button.primary:hover {
-      background: var(--accent-2);
-      border-color: var(--accent-2);
+    .button-primary:hover {
+      opacity: 0.9;
     }
 
     .loading {
@@ -259,7 +259,6 @@
       align-items: flex-start;
       gap: 18px;
       padding: 8px 8px 18px;
-      flex-wrap: wrap;
     }
 
     .chart-header h2 {
@@ -274,11 +273,13 @@
       line-height: 1.5;
     }
 
-    .chart-header-actions {
+    .chart-actions {
       display: flex;
-      gap: 10px;
+      gap: 8px;
       flex-wrap: wrap;
-      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 18px;
+      padding: 0 8px;
     }
 
     .legend {
@@ -407,78 +408,38 @@
       letter-spacing: 2px;
     }
 
-    .platform-buttons {
+    .listen-buttons {
       display: flex;
       gap: 6px;
-      margin-top: 8px;
+      margin-top: 10px;
     }
 
-    .platform-button {
+    .listen-btn {
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--panel-solid);
+      color: var(--text);
+      font-size: 12px;
+      cursor: pointer;
+      text-decoration: none;
       display: inline-flex;
       align-items: center;
-      justify-content: center;
-      width: 32px;
-      height: 32px;
-      border-radius: 10px;
-      border: 1px solid var(--border);
-      background: var(--panel-solid);
-      color: var(--text);
-      text-decoration: none;
-      font-size: 14px;
-      transition: transform 0.15s ease, border-color 0.15s ease;
+      gap: 4px;
+      transition: all 0.15s ease;
+      font-weight: 500;
     }
 
-    .platform-button:hover {
+    .listen-btn:hover {
       transform: translateY(-1px);
       border-color: var(--accent);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    .platform-button.youtube { color: #ff0000; }
-    .platform-button.spotify { color: #1db954; }
-    .platform-button.deezer { color: #a238ff; }
-    .platform-button.amazon { color: #ff9900; }
-
-    .export-menu {
-      position: relative;
-      display: inline-block;
-    }
-
-    .export-menu-content {
-      display: none;
-      position: absolute;
-      right: 0;
-      top: 100%;
-      margin-top: 8px;
-      background: var(--panel-solid);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 8px;
-      min-width: 200px;
-      box-shadow: var(--shadow);
-      z-index: 100;
-    }
-
-    .export-menu-content.show {
-      display: block;
-    }
-
-    .export-menu-item {
-      display: block;
-      width: 100%;
-      padding: 10px 14px;
-      border: none;
-      background: none;
-      color: var(--text);
-      text-align: left;
-      cursor: pointer;
-      border-radius: 10px;
-      font: inherit;
-      transition: background 0.15s ease;
-    }
-
-    .export-menu-item:hover {
-      background: var(--chip-bg);
-    }
+    .listen-btn.youtube:hover { border-color: #ff0000; color: #ff0000; }
+    .listen-btn.spotify:hover { border-color: #1db954; color: #1db954; }
+    .listen-btn.deezer:hover { border-color: #ff0092; color: #ff0092; }
+    .listen-btn.amazon:hover { border-color: #ff9900; color: #ff9900; }
 
     .empty {
       padding: 48px 20px;
@@ -490,6 +451,8 @@
       .controls, .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .topbar { flex-direction: column; }
       .topbar-actions { width: 100%; justify-content: flex-start; }
+      .chart-header { flex-direction: column; }
+      .chart-actions { justify-content: flex-start; }
     }
 
     @media (max-width: 820px) {
@@ -505,7 +468,7 @@
       .cover { grid-area: cover; }
       .meta { grid-area: meta; }
       .details { grid-area: details; justify-content: flex-start; margin-top: 12px; }
-      .platform-buttons { grid-area: details; }
+      .listen-buttons { width: 100%; }
     }
 
     @media (max-width: 640px) {
@@ -515,13 +478,11 @@
         grid-template-areas:
           "rank movement"
           "cover meta"
-          "details details"
-          "platforms platforms";
+          "details details";
       }
       .cover { width: 44px; height: 44px; border-radius: 14px; }
-      .chart-header { flex-direction: column; }
       .legend { justify-content: flex-start; }
-      .platform-buttons { grid-area: platforms; }
+      .listen-buttons { flex-wrap: wrap; }
     }
   </style>
 </head>
@@ -557,7 +518,7 @@
         <strong>⚠️ Données de démonstration</strong>
         <p>
           Certaines sources n'ont pas pu être scrapées automatiquement. Les données affichées pour ces pays sont des données de démonstration.
-          <small>Seul le Brésil (Pro-Música Brasil) fournit actuellement des données officielles en temps réel.</small>
+          <small>Seul le Brésil (Pro-Música Brasil) et les États-Unis (Billboard) fournissent actuellement des données officielles en temps réel.</small>
         </p>
       </div>
 
@@ -595,34 +556,17 @@
             <p id="chartSubtitle"></p>
           </div>
 
-          <div class="chart-header-actions">
-            <div class="export-menu">
-              <button class="button primary" id="exportBtn" type="button">
-                📥 Exporter playlist
-              </button>
-              <div class="export-menu-content" id="exportMenuContent">
-                <button class="export-menu-item" data-format="m3u">
-                  🎵 Playlist M3U (toutes plateformes)
-                </button>
-                <button class="export-menu-item" data-format="csv">
-                  📊 Tableau CSV (Excel)
-                </button>
-                <button class="export-menu-item" data-format="youtube">
-                  ▶️ Playlist YouTube
-                </button>
-                <button class="export-menu-item" data-format="spotify">
-                  🟢 Recherche Spotify
-                </button>
-              </div>
-            </div>
+          <div class="legend">
+            <span class="chip success">▲ Progression</span>
+            <span class="chip">▼ Baisse</span>
+            <span class="chip new">✦ Entrée</span>
+            <span class="chip">● Stable</span>
           </div>
         </div>
 
-        <div class="legend">
-          <span class="chip success">▲ Progression</span>
-          <span class="chip">▼ Baisse</span>
-          <span class="chip new">✦ Entrée</span>
-          <span class="chip">● Stable</span>
+        <div class="chart-actions">
+          <button class="button button-primary" id="playlistBtn">🎵 Playlist YouTube</button>
+          <button class="button" id="exportBtn">📥 Exporter CSV</button>
         </div>
 
         <div id="chartContent"></div>
@@ -634,7 +578,7 @@
     let CHARTS_DATA = null;
     let COUNTRIES = {};
     let REGIONS = {};
-    let currentEntries = [];
+    let CURRENT_ENTRIES = [];
 
     const regionSelect = document.getElementById("regionSelect");
     const countrySelect = document.getElementById("countrySelect");
@@ -653,8 +597,8 @@
     const mainContent = document.getElementById("mainContent");
     const refreshBtn = document.getElementById("refreshBtn");
     const demoWarning = document.getElementById("demoWarning");
+    const playlistBtn = document.getElementById("playlistBtn");
     const exportBtn = document.getElementById("exportBtn");
-    const exportMenuContent = document.getElementById("exportMenuContent");
 
     function escapeHtml(value) {
       return String(value)
@@ -663,10 +607,6 @@
         .replaceAll(">", "&gt;")
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
-    }
-
-    function encodeURIComponentSafe(str) {
-      return encodeURIComponent(str).replace(/%20/g, '+');
     }
 
     function initials(value) {
@@ -685,8 +625,8 @@
       return "● Stable";
     }
 
-    function generateSearchUrl(title, artist, platform) {
-      const query = encodeURIComponentSafe(`${artist} ${title}`);
+    function generateSearchUrl(platform, title, artist) {
+      const query = encodeURIComponent(`${artist} ${title}`);
       
       switch(platform) {
         case 'youtube':
@@ -702,84 +642,96 @@
       }
     }
 
-    function platformButtons(entry) {
+    function createListenButtons(entry) {
       const title = entry.track.title;
       const artist = entry.track.artist;
       
       return `
-        <div class="platform-buttons">
-          <a href="${generateSearchUrl(title, artist, 'youtube')}" target="_blank" rel="noopener" class="platform-button youtube" title="Écouter sur YouTube">▶</a>
-          <a href="${generateSearchUrl(title, artist, 'spotify')}" target="_blank" rel="noopener" class="platform-button spotify" title="Écouter sur Spotify">●</a>
-          <a href="${generateSearchUrl(title, artist, 'deezer')}" target="_blank" rel="noopener" class="platform-button deezer" title="Écouter sur Deezer">♪</a>
-          <a href="${generateSearchUrl(title, artist, 'amazon')}" target="_blank" rel="noopener" class="platform-button amazon" title="Écouter sur Amazon Music">🎵</a>
+        <div class="listen-buttons">
+          <a href="${generateSearchUrl('youtube', title, artist)}" target="_blank" rel="noopener" class="listen-btn youtube">
+            ▶️ YouTube
+          </a>
+          <a href="${generateSearchUrl('spotify', title, artist)}" target="_blank" rel="noopener" class="listen-btn spotify">
+            🎵 Spotify
+          </a>
+          <a href="${generateSearchUrl('deezer', title, artist)}" target="_blank" rel="noopener" class="listen-btn deezer">
+            🎧 Deezer
+          </a>
+          <a href="${generateSearchUrl('amazon', title, artist)}" target="_blank" rel="noopener" class="listen-btn amazon">
+            📀 Amazon
+          </a>
         </div>
       `;
     }
 
-    function exportPlaylist(entries, format) {
-      const timestamp = new Date().toISOString().split('T')[0];
-      const chartName = `${CHARTS_DATA.meta.weekLabel} - ${chartTitle.textContent}`;
-      
-      if (format === 'm3u') {
-        let m3u = '#EXTM3U\n';
-        m3u += `#PLAYLIST:${chartName}\n`;
-        
-        entries.forEach((entry, index) => {
-          const title = entry.track.title;
-          const artist = entry.track.artist;
-          const youtubeUrl = generateSearchUrl(title, artist, 'youtube');
-          
-          m3u += `#EXTINF:-1,${artist} - ${title}\n`;
-          m3u += `${youtubeUrl}\n`;
-        });
-        
-        downloadFile(m3u, `${chartName}.m3u`, 'audio/x-mpegurl');
+    function createYouTubePlaylist(entries) {
+      if (!entries || entries.length === 0) {
+        alert("Aucun titre à ajouter à la playlist !");
+        return;
       }
+
+      // Générer les requêtes de recherche YouTube
+      const searches = entries.slice(0, 50).map(entry => 
+        `${entry.track.artist} ${entry.track.title}`
+      );
+
+      // Ouvrir YouTube avec la première recherche
+      // L'utilisateur devra créer la playlist manuellement ou utiliser une extension
+      const firstSearch = encodeURIComponent(searches[0]);
+      const youtubeUrl = `https://www.youtube.com/results?search_query=${firstSearch}`;
       
-      else if (format === 'csv') {
-        let csv = 'Position,Titre,Artiste,YouTube,Spotify,Deezer,Amazon\n';
-        
-        entries.forEach((entry, index) => {
-          const title = entry.track.title.replace(/"/g, '""');
-          const artist = entry.track.artist.replace(/"/g, '""');
-          const youtube = generateSearchUrl(entry.track.title, entry.track.artist, 'youtube');
-          const spotify = generateSearchUrl(entry.track.title, entry.track.artist, 'spotify');
-          const deezer = generateSearchUrl(entry.track.title, entry.track.artist, 'deezer');
-          const amazon = generateSearchUrl(entry.track.title, entry.track.artist, 'amazon');
-          
-          csv += `${index + 1},"${title}","${artist}","${youtube}","${spotify}","${deezer}","${amazon}"\n`;
-        });
-        
-        downloadFile(csv, `${chartName}.csv`, 'text/csv');
-      }
+      window.open(youtubeUrl, '_blank');
       
-      else if (format === 'youtube') {
-        const firstEntry = entries[0];
-        if (firstEntry) {
-          const url = generateSearchUrl(firstEntry.track.title, firstEntry.track.artist, 'youtube');
-          window.open(url, '_blank');
-        }
-      }
+      // Afficher les instructions
+      alert(`🎵 Playlist YouTube créée !\n\n${entries.length} titres à écouter.\n\nLa première recherche s'est ouverte dans un nouvel onglet.\n\nPour écouter tous les titres dans l'ordre :\n1. Copiez la liste ci-dessous\n2. Recherchez chaque titre sur YouTube\n3. Ajoutez-les à une playlist YouTube\n\nListe des titres :\n${entries.slice(0, 10).map((e, i) => `${i+1}. ${e.track.artist} - ${e.track.title}`).join('\n')}${entries.length > 10 ? '\n...' : ''}`);
       
-      else if (format === 'spotify') {
-        const firstEntry = entries[0];
-        if (firstEntry) {
-          const url = generateSearchUrl(firstEntry.track.title, firstEntry.track.artist, 'spotify');
-          window.open(url, '_blank');
-        }
-      }
+      // Copier dans le presse-papier
+      const playlistText = entries.map((entry, index) => 
+        `${index + 1}. ${entry.track.artist} - ${entry.track.title}`
+      ).join('\n');
+      
+      navigator.clipboard.writeText(playlistText).then(() => {
+        console.log("Playlist copiée dans le presse-papier !");
+      }).catch(err => {
+        console.error("Erreur lors de la copie :", err);
+      });
     }
 
-    function downloadFile(content, filename, mimeType) {
-      const blob = new Blob([content], { type: mimeType });
+    function exportToCSV(entries) {
+      if (!entries || entries.length === 0) {
+        alert("Aucune donnée à exporter !");
+        return;
+      }
+
+      // Créer le contenu CSV
+      let csv = "Position,Titre,Artiste,Évolution,Semaines,Pic\n";
+      
+      entries.forEach(entry => {
+        const row = [
+          entry.position,
+          `"${entry.track.title.replace(/"/g, '""')}"`,
+          `"${entry.track.artist.replace(/"/g, '""')}"`,
+          entry.movement,
+          entry.weeksOnChart,
+          entry.peakPosition
+        ].join(',');
+        csv += row + "\n";
+      });
+
+      // Créer et télécharger le fichier
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const link = document.createElement('a');
       const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = filename;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
+      
+      link.setAttribute('href', url);
+      link.setAttribute('download', `chart-${new Date().toISOString().split('T')[0]}.csv`);
+      link.style.visibility = 'hidden';
+      
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      alert(`📥 Export réussi !\n\n${entries.length} titres exportés en CSV.\nVous pouvez importer ce fichier dans Excel, Google Sheets, ou d'autres applications.`);
     }
 
     function checkDemoData() {
@@ -1009,7 +961,6 @@
           <div class="meta">
             <div class="title">${escapeHtml(entry.track.title)}</div>
             <div class="artist">${escapeHtml(entry.track.artist)}</div>
-            ${platformButtons(entry)}
           </div>
           <div class="details">
             <span class="chip">${entry.weeksOnChart} semaine${entry.weeksOnChart > 1 ? "s" : ""}</span>
@@ -1017,6 +968,7 @@
             ${entry.previousPosition 
               ? `<span class="chip">Préc. ${entry.previousPosition}</span>`
               : `<span class="chip new">Entrée</span>`}
+            ${createListenButtons(entry)}
           </div>
         </div>
       `;
@@ -1031,7 +983,6 @@
           <div class="meta">
             <div class="title">${escapeHtml(entry.track.title)}</div>
             <div class="artist">${escapeHtml(entry.track.artist)}</div>
-            ${platformButtons(entry)}
           </div>
           <div class="details">
             <span class="chip success">${entry.countriesCount} pays</span>
@@ -1039,19 +990,19 @@
             <span class="flags">
               ${entry.countryList.map((code) => COUNTRIES[code]?.flag || code.toUpperCase()).join(" ")}
             </span>
+            ${createListenButtons(entry)}
           </div>
         </div>
       `;
     }
 
     function renderList(entries, view) {
+      CURRENT_ENTRIES = entries; // Sauvegarder pour les boutons de playlist/export
+      
       if (!entries.length) {
         chartContent.innerHTML = `<div class="empty">Aucun résultat avec ces filtres.</div>`;
-        currentEntries = [];
         return;
       }
-
-      currentEntries = entries;
 
       const head = view === "country"
         ? `<div class="table-head">
@@ -1112,14 +1063,6 @@
       applyTheme(current);
     }
 
-    function toggleExportMenu() {
-      exportMenuContent.classList.toggle("show");
-    }
-
-    function closeExportMenu() {
-      exportMenuContent.classList.remove("show");
-    }
-
     regionSelect.addEventListener("change", () => {
       populateCountries();
       render();
@@ -1135,25 +1078,12 @@
     themeToggle.addEventListener("click", toggleTheme);
     refreshBtn.addEventListener("click", loadChartData);
 
-    exportBtn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      toggleExportMenu();
+    playlistBtn.addEventListener("click", () => {
+      createYouTubePlaylist(CURRENT_ENTRIES);
     });
 
-    document.addEventListener("click", (e) => {
-      if (!exportMenuContent.contains(e.target) && e.target !== exportBtn) {
-        closeExportMenu();
-      }
-    });
-
-    exportMenuContent.querySelectorAll(".export-menu-item").forEach((item) => {
-      item.addEventListener("click", (e) => {
-        const format = e.target.getAttribute("data-format");
-        if (format && currentEntries.length > 0) {
-          exportPlaylist(currentEntries, format);
-          closeExportMenu();
-        }
-      });
+    exportBtn.addEventListener("click", () => {
+      exportToCSV(CURRENT_ENTRIES);
     });
 
     const savedTheme =
