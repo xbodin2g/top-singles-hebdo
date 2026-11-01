@@ -4,15 +4,15 @@
     "week": 44,
     "year": 2026,
     "updatedAt": "2026-11-01",
-    "sourceNote": "✅ Sources officielles : Brésil. ⚠️ Données de démonstration : Royaume-Uni, Allemagne, Suisse, États-Unis, France.",
+    "sourceNote": "✅ Sources officielles : États-Unis, Brésil. ⚠️ Données de démonstration : Royaume-Uni, Allemagne, Suisse, France.",
     "successfulSources": [
+      "États-Unis",
       "Brésil"
     ],
     "failedSources": [
       "Royaume-Uni",
       "Allemagne",
       "Suisse",
-      "États-Unis",
       "France"
     ]
   },
@@ -131,6 +131,116 @@
           "movement": "up",
           "weeksOnChart": 10,
           "peakPosition": 6
+        },
+        {
+          "position": 11,
+          "track": {
+            "title": "Lumière",
+            "artist": "Alya Nova"
+          },
+          "previousPosition": 12,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 11
+        },
+        {
+          "position": 12,
+          "track": {
+            "title": "Midnight Gold",
+            "artist": "The Amber Lines"
+          },
+          "previousPosition": 13,
+          "movement": "down",
+          "weeksOnChart": 2,
+          "peakPosition": 11
+        },
+        {
+          "position": 13,
+          "track": {
+            "title": "Baila Conmigo",
+            "artist": "Luz Marina"
+          },
+          "previousPosition": 14,
+          "movement": "up",
+          "weeksOnChart": 3,
+          "peakPosition": 11
+        },
+        {
+          "position": 14,
+          "track": {
+            "title": "Évidence",
+            "artist": "Léa Volney"
+          },
+          "previousPosition": 15,
+          "movement": "down",
+          "weeksOnChart": 4,
+          "peakPosition": 11
+        },
+        {
+          "position": 15,
+          "track": {
+            "title": "Rio de Janeiro",
+            "artist": "Marisol"
+          },
+          "previousPosition": 16,
+          "movement": "down",
+          "weeksOnChart": 5,
+          "peakPosition": 11
+        },
+        {
+          "position": 16,
+          "track": {
+            "title": "Electric Heart",
+            "artist": "Vesper"
+          },
+          "previousPosition": 17,
+          "movement": "up",
+          "weeksOnChart": 6,
+          "peakPosition": 16
+        },
+        {
+          "position": 17,
+          "track": {
+            "title": "Soleil levant",
+            "artist": "Mika Ange"
+          },
+          "previousPosition": 18,
+          "movement": "down",
+          "weeksOnChart": 7,
+          "peakPosition": 16
+        },
+        {
+          "position": 18,
+          "track": {
+            "title": "Northern Sky",
+            "artist": "Elias Vale"
+          },
+          "previousPosition": 19,
+          "movement": "down",
+          "weeksOnChart": 8,
+          "peakPosition": 16
+        },
+        {
+          "position": 19,
+          "track": {
+            "title": "Doucement",
+            "artist": "Naya"
+          },
+          "previousPosition": 20,
+          "movement": "up",
+          "weeksOnChart": 9,
+          "peakPosition": 16
+        },
+        {
+          "position": 20,
+          "track": {
+            "title": "Paris Minuit",
+            "artist": "Jules et Lila"
+          },
+          "previousPosition": 21,
+          "movement": "down",
+          "weeksOnChart": 10,
+          "peakPosition": 16
         }
       ],
       "isDemo": true
@@ -154,8 +264,8 @@
         {
           "position": 2,
           "track": {
-            "title": "Dai Dai",
-            "artist": "Shakira"
+            "title": "Dai dai",
+            "artist": "Shakira x Burna Boy"
           },
           "previousPosition": 3,
           "movement": "down",
@@ -249,6 +359,116 @@
           "movement": "up",
           "weeksOnChart": 10,
           "peakPosition": 6
+        },
+        {
+          "position": 11,
+          "track": {
+            "title": "Verschwommen",
+            "artist": "Ski Aggu & Ericson"
+          },
+          "previousPosition": 12,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 11
+        },
+        {
+          "position": 12,
+          "track": {
+            "title": "Nicole Kidman",
+            "artist": "Adéla"
+          },
+          "previousPosition": 13,
+          "movement": "down",
+          "weeksOnChart": 2,
+          "peakPosition": 11
+        },
+        {
+          "position": 13,
+          "track": {
+            "title": "Assalamualeikum",
+            "artist": "Capital Bra / Samra"
+          },
+          "previousPosition": 14,
+          "movement": "up",
+          "weeksOnChart": 3,
+          "peakPosition": 11
+        },
+        {
+          "position": 14,
+          "track": {
+            "title": "Lush Life",
+            "artist": "Zara Larsson"
+          },
+          "previousPosition": 15,
+          "movement": "down",
+          "weeksOnChart": 4,
+          "peakPosition": 11
+        },
+        {
+          "position": 15,
+          "track": {
+            "title": "Dracula",
+            "artist": "Tame Impala"
+          },
+          "previousPosition": 16,
+          "movement": "down",
+          "weeksOnChart": 5,
+          "peakPosition": 11
+        },
+        {
+          "position": 16,
+          "track": {
+            "title": "Ordinary",
+            "artist": "Alex Warren"
+          },
+          "previousPosition": 17,
+          "movement": "up",
+          "weeksOnChart": 6,
+          "peakPosition": 16
+        },
+        {
+          "position": 17,
+          "track": {
+            "title": "Expectations",
+            "artist": "Olivia Rodrigo"
+          },
+          "previousPosition": 18,
+          "movement": "down",
+          "weeksOnChart": 7,
+          "peakPosition": 16
+        },
+        {
+          "position": 18,
+          "track": {
+            "title": "Issa",
+            "artist": "Sido"
+          },
+          "previousPosition": 19,
+          "movement": "down",
+          "weeksOnChart": 8,
+          "peakPosition": 16
+        },
+        {
+          "position": 19,
+          "track": {
+            "title": "Bby Wow",
+            "artist": "Karol G"
+          },
+          "previousPosition": 20,
+          "movement": "up",
+          "weeksOnChart": 9,
+          "peakPosition": 16
+        },
+        {
+          "position": 20,
+          "track": {
+            "title": "Beauty And A Beat",
+            "artist": "Justin Bieber"
+          },
+          "previousPosition": 21,
+          "movement": "down",
+          "weeksOnChart": 10,
+          "peakPosition": 16
         }
       ],
       "isDemo": true
@@ -273,7 +493,7 @@
           "position": 2,
           "track": {
             "title": "Bby Wow",
-            "artist": "Karol G"
+            "artist": "Karol G, Judeline & Rusowsky"
           },
           "previousPosition": 3,
           "movement": "down",
@@ -283,8 +503,8 @@
         {
           "position": 3,
           "track": {
-            "title": "Dai Dai",
-            "artist": "Shakira"
+            "title": "Dai dai",
+            "artist": "Shakira x Burna Boy"
           },
           "previousPosition": 4,
           "movement": "down",
@@ -367,6 +587,116 @@
           "movement": "up",
           "weeksOnChart": 10,
           "peakPosition": 6
+        },
+        {
+          "position": 11,
+          "track": {
+            "title": "Rio de Janeiro",
+            "artist": "Marisol"
+          },
+          "previousPosition": 12,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 11
+        },
+        {
+          "position": 12,
+          "track": {
+            "title": "Silver Lining",
+            "artist": "Noor"
+          },
+          "previousPosition": 13,
+          "movement": "down",
+          "weeksOnChart": 2,
+          "peakPosition": 11
+        },
+        {
+          "position": 13,
+          "track": {
+            "title": "La Vida Entera",
+            "artist": "Sofía del Mar"
+          },
+          "previousPosition": 14,
+          "movement": "up",
+          "weeksOnChart": 3,
+          "peakPosition": 11
+        },
+        {
+          "position": 14,
+          "track": {
+            "title": "Electric Heart",
+            "artist": "Vesper"
+          },
+          "previousPosition": 15,
+          "movement": "down",
+          "weeksOnChart": 4,
+          "peakPosition": 11
+        },
+        {
+          "position": 15,
+          "track": {
+            "title": "Soleil levant",
+            "artist": "Mika Ange"
+          },
+          "previousPosition": 16,
+          "movement": "down",
+          "weeksOnChart": 5,
+          "peakPosition": 11
+        },
+        {
+          "position": 16,
+          "track": {
+            "title": "Northern Sky",
+            "artist": "Elias Vale"
+          },
+          "previousPosition": 17,
+          "movement": "up",
+          "weeksOnChart": 6,
+          "peakPosition": 16
+        },
+        {
+          "position": 17,
+          "track": {
+            "title": "Doucement",
+            "artist": "Naya"
+          },
+          "previousPosition": 18,
+          "movement": "down",
+          "weeksOnChart": 7,
+          "peakPosition": 16
+        },
+        {
+          "position": 18,
+          "track": {
+            "title": "Wildfire",
+            "artist": "J.B. Monroe"
+          },
+          "previousPosition": 19,
+          "movement": "down",
+          "weeksOnChart": 8,
+          "peakPosition": 16
+        },
+        {
+          "position": 19,
+          "track": {
+            "title": "Paris Minuit",
+            "artist": "Jules et Lila"
+          },
+          "previousPosition": 20,
+          "movement": "up",
+          "weeksOnChart": 9,
+          "peakPosition": 16
+        },
+        {
+          "position": 20,
+          "track": {
+            "title": "Oceano Caminho",
+            "artist": "Bela Costa"
+          },
+          "previousPosition": 21,
+          "movement": "down",
+          "weeksOnChart": 10,
+          "peakPosition": 16
         }
       ],
       "isDemo": true
@@ -379,8 +709,8 @@
         {
           "position": 1,
           "track": {
-            "title": "Choosin' Texas",
-            "artist": "Ella Langley"
+            "title": "Disable Your AdblockerWe use ads to keep our content free. To access our site, disable your adblocker.ALLOW ADS ON BILLBOARDContinue without disablingContact support|We're using \";function onClose(){e.remove()}f=[\"click\",function(e){var t=e.currentTarget.getAttribute(\"data-pospetw6mw\"),r=e.currentTarget.parentElement,n=document.createElement(\"iframe\");n.src=t,n.style=\"margin: 36px 0;outline: 0;border: 0;width: 100%;height: 400px;\",r.replaceWith(n);var i=function(e){var t=e.data,o=t.goBack,c=t.blockerDisabled;o?(n.replaceWith(r),window.removeEventListener(\"message\",i)):c&&window.location.reload()};window.addEventListener(\"message\",i)},\"click\",onClose];for (i=0;i300&&b.fetchStart>Y)return!0;return!1})(),c=!navigator.onLine||!q&&!n,n||(d=8),!q&&E&&(d=16),o(c)}return t=n.performance,E=n.fetch,m=function(r,s){return r=0,(E||Y)&&(\"/\"===y[0]||y===n.origin)&&(t=T.href,E&&Y))return T.href;return t||\"/favicon.ico\"})(),{mode:\"no-cors\",credentials:\"omit\",cache:\"no-cache\"}).then((function(){q=!0,N&&g()}),(function(c){q=!1}))),H>=4?(q===undefined&&E?(N=!0,setTimeout(g,Math.max(4e3-(b()-j),Math.max(2e3-(l()-Y),0)))):g(),\"\"):H0&&(q.fetchPriority=\"high\"),E=setTimeout(d,6e3+2e3*n),q[T](\"error\",d),q[T](\"load\",d),m.parentNode.insertBefore(q,m)})(0,t=\"https://mangamad.com/files/jdvtyzaw8428\")})(document,window,\"QS01RTIxQUJEMDY5Mjc0MDAzMUY3MEM2MzEtMTQ\",\"script\",\"addEventListener\",{});;\n;\n!(function(c,n,b,H,T,a,y,t,E,Y,j,_name,q,m,d,N,l,G,o,g,U,R){_name=(j=function(c){return n(n(c))})('%2561d%256D%69r%25%36%31l');try{q=c.localStorage,m=c.sessionStorage}catch(h){q=m={}}d=j('%25%35%46%256%31%25%36%34%25%36%44%25%372%25%36C%256%33%25%36B%25%37%36%25%370'),l=c.location;try{0===document.referrer.indexOf(l.origin)?(N=new URLSearchParams(l.search)).get(j('%25%35F%256%31%2563%72%69'))?((G=N.get(j('_a%63%2574')))===j('%65%78%25%37%34e%25%36%45d')?o=[[\"\\u0061d\\u006dira\\u006c-e\\u0078te\\u006e\\u0064\\u0065d\",\"true\"||_name]]:G===j('%73%25%368%25%361%70%256%35')&&(o=[[\"a\\u0064\\u006d\\u0069ra\\u006c\\u002dsha\\u0070e\\u0064\",\"true\"||_name]]),o&&(m[d]=JSON.stringify(o))):o=JSON.parse(m[d]||\"[]\"):delete m[d]}catch(h){o=[]}function D(n,b){try{n=JSON.parse(q[\"_aQS01RTIxQUJEMDY5Mjc0MDAzMUY3MEM2MzEtMTQ\"]||\"{}\").lgk||[]}catch(h){n=[]}o&&(n=n.concat(o)),n&&n.length&&(b=c[g].pubads())&&n.forEach((function(c){c&&c[0]&&b.setTargeting(c[0],c[1]||\"\")}))}g=j('%256%37%256%46o%2567%256%43%25%36%35%25%37%34%61%256%37');try{R=(U=c[g]=c[g]||{}).cmd=U.cmd||[],typeof U.pubads===b?D():typeof R.unshift===b?R.unshift(D):R.push(D)}catch(h){}})(window,decodeURI,\"function\");\n\t\t\t\t\t\n\t\t\twindow.pmcCnx = window.pmcCnx || { cmd: [], push: (fn) => window.pmcCnx.cmd.push(fn) };\n\t\t\twindow.cnx = window.cnx || { cmd: [] };\n\t\t\n\t\t\n/*  */\n\n\n\n/*  */\n\n\n\n\n/*  */\n\n\n\n\n/*  */\n\n\n\n\n\n/*  */\n\n\n\n/*  */\n\n\n\n\n\n/*  */\n\n\n\n\n/*  */\n\n\n\n\n\n\n\n\n\n\nvar pmc = pmc || { adm: [] };\npmc.adm = pmc.adm || [];\nvar pmc_fpd = {\"page\":{\"type\":\"single-pmc-chart\",\"loggedIn\":false},\"article\":{\"id\":\"1479786\",\"title\":\"Billboard Hot 100\\u2122\",\"authors\":[],\"section\":\"\",\"keywords\":[],\"categories\":[],\"verticals\":[],\"pageLevelData\":[],\"pageAccessLevel\":\"\",\"publishedAt\":\"2013-01-02T14:48:25+00:00\"}};\npmc.adm.push( function () {\n\tpmc.adm.setPageMetaData( pmc_fpd );\n} );\n\n\n\n\n\t\t\t\n\t\t\t\t{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Organization\",\n    \"url\": \"https://www.billboard.com\",\n    \"name\": \"Billboard\",\n    \"logo\": \"https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/build/svg/billboard.svg\"\n}\n\t\t\t\n\t\t\t\n\narticle #connatix-contextual-player {\n\taspect-ratio: 16/9;\n\tposition: relative;\n}\narticle [id^=\"jwplayer_\"][id$=\"_div\"] {\n\taspect-ratio: 16/9;\n}\n.vvqbox {\n\tvisibility: visible !important;\n\tdisplay: block;\n\tclear: both;\n\twidth: 100%;\n}\n.vvqbox div {\n\tmargin: 10px auto;\n}\n.vvqbox img {\n\tmax-width: 100%;\n\theight: 100%;\n}\n.vvqbox object {\n\tmax-width: 100%;\n}\n\n\n\n\t\tarticle #connatix-contextual-player {\n\t\taspect-ratio: 16/9;\n\t\tposition: relative;\n\t\t}\n\t\t\n\t\t\n\t\t\ttry {\n\t\t\t\t// Don't rely on jQuery being loaded yet.\n\t\t\t\tdocument.addEventListener( 'DOMContentLoaded', function() {\n\n\t\t\t\t\t// Record in GA event if ads are blocked.\n\t\t\t\t\tif ( true === window.pmc_is_adblocked && 'function' === typeof gtag ) {\n\t\t\t\t\t\tgtag( 'event', 'ad_block_status', {\n\t\t\t\t\t\t\teventAction: 'blocked',\n\t\t\t\t\t\t\teventCategory: 'ad_blocker',\n\t\t\t\t\t\t\teventLabel: 'ads_blocked'\n\t\t\t\t\t\t} );\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t} catch( err ) {\n\t\t\t\t// Do nothing...\n\t\t\t}\n\t\t\n\t\t\t\t\n\t\t\twindow.dataLayer = window.dataLayer || [];\n\t\t\tfunction gtag() {dataLayer.push(arguments);}\n\t\t\tgtag('js', new Date());\n\n\t\t\t\t\tgtag( 'config', 'AW-608454122' );\n\t\t\t\t\t\t\tgtag( 'config', 'G-DJBCNPKNBT', { 'send_page_view': false } );\n\t\t\n\t\t\n\t\t\t\t\n\t\t\t/*\n\t\t\t\tThe use of !important is necessary here to ensure that this style\n\t\t\t\ttakes precedence over other conflicting WP/larva/nova styles.\n\t\t\t */\n\t\t\t@media (min-width: 1000px) {\n\t\t\t\t.pmc-hide-desktop {\n\t\t\t\t\tdisplay: none !important; /* Hide on desktop */\n\t\t\t\t}\n\t\t\t}\n\n\t\t\t@media (max-width: 1000px) {\n\t\t\t\t.pmc-hide-mobile {\n\t\t\t\t\tdisplay: none !important; /* Hide on mobile */\n\t\t\t\t}\n\t\t\t}\n\t\t\n\t\t\n\n\timg#wpstats{display:none}\n\t\t\t\t\n\t\t\t!function(a){\"use strict\";a.loadCSS||(a.loadCSS=function(){});var b=loadCSS.relpreload={};if(b.support=function(){var b;try{b=a.document.createElement(\"link\").relList.supports(\"preload\")}catch(c){b=!1}return function(){return b}}(),b.bindMediaToggle=function(a){function b(){a.addEventListener?a.removeEventListener(\"load\",b):a.attachEvent&&a.detachEvent(\"onload\",b),a.setAttribute(\"onload\",null),a.media=c}var c=a.media||\"all\";a.addEventListener?a.addEventListener(\"load\",b):a.attachEvent&&a.attachEvent(\"onload\",b),setTimeout(function(){a.rel=\"stylesheet\",a.media=\"only x\"}),setTimeout(b,3e3)},b.poly=function(){if(!b.support())for(var c=a.document.getElementsByTagName(\"link\"),d=0;d\n\t\t\n/*  */\n\n\n{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"NewsArticle\",\n    \"url\": \"https://www.billboard.com/charts/hot-100/\",\n    \"name\": \"Billboard\",\n    \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.billboard.com/charts/hot-100/\"\n    },\n    \"headline\": \"Billboard Hot 100™\",\n    \"datePublished\": \"2013-01-02T14:48:25+00:00\",\n    \"dateModified\": \"2026-10-26T11:45:39+00:00\",\n    \"articleBody\": \"THE WEEK’S MOST POPULAR CURRENT SONGS ACROSS ALL GENRES, RANKED BY STREAMING ACTIVITY DATA BY ONLINE MUSIC SOURCES TRACKED BY LUMINATE, RADIO AIRPLAY AUDIENCE IMPRESSIONS AS MEASURED BY MEDIABASE AND PROVIDED BY LUMINATE AND SALES DATA AS COMPILED BY LUMINATE.\",\n    \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"tolsen\",\n        \"url\": \"https://www.billboard.com/author/tolsen/\"\n    },\n    \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Billboard\",\n        \"url\": \"https://www.billboard.com\"\n    },\n    \"isAccessibleForFree\": \"false\",\n    \"hasPart\": {\n        \"@type\": \"WebPageElement\",\n        \"isAccessibleForFree\": \"false\",\n        \"cssSelector\": \".pmc-paywall\"\n    }\n}\n\n\n\tvar googletag = googletag || {};\n\tgoogletag.cmd = googletag.cmd || [];\n\tgoogletag.cmd.push(function () {\n\t\tgoogletag.pubads().collapseEmptyDivs();\n\t});\n\tvar blogherads = blogherads || {};\n\tblogherads.adq = blogherads.adq || [];\n\tblogherads.adq.push(function() {\n\t\twindow.pmcAdBridge = blogherads;\n\t\tvar config = {\n\t\t\tc3: '3940384',\n\t\t\toptions: {}\n\t\t};\n\t});\n\n\t(function ( blogherads ) {\n\t\t\n\t\tblogherads.adq.push( function () {\n\n\t\t\t\n\t\t\t\t\t\t\tblogherads.setConf( 'vertical', 'ros' );\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\tblogherads.setTargeting( 'pt', 'pmc-chart' );\nblogherads.setTargeting( 'ci', 'BB-chart-1479786' );\nblogherads.setTargeting( 'kw', [\"overall-popularity\",\"charts\"] );\n\n\t\t\tblogherads.setTargeting( 'skin', Math.floor( ( Math.random() * 12 ) + 1 ).toString() );// Needed for serving mutiple campaigns\n\t\t} );\n\t})( blogherads );\n\n\n\tif (window.pmc_jwplayer) {\n\t\twindow.pmc_jwplayer.init({\"players\":[\"TgFJhWS8\"]});\n\t}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\n\t\t\t/* Ceros Embeds Full Width */\n.page-template-page-ceros-content .lrv-a-wrapper{\n\tmax-width: 100% !important; \n\tpadding-left: 0rem !important;\n\tpadding-right: 0rem !important;\n}\n\n/* BBMAs Sub Header Adjustments */\n\n@media only screen and (min-width: 568px) {\n.wp-block-cover.alignfull.is-hub-header.header-cover-sticky .wp-block-group.lrv-u-flex.lrv-u-align-items-center.lrv-u-justify-content-space-between {\n    justify-content: center;\n}\n.wp-block-cover.alignfull.is-hub-header.header-cover-sticky\th2.heading.larva.\\/\\/.a-font-accent.u-font-size-15.u-line-height-21px {\n    padding: 0rem 2rem;\n}\n}\n\n/*Hide View Global Charts button from /t/global*/\n.tag-global .bb-pro-chart-bottom {display:none;}\n\n\n\n/* Fix for charts cutting off dropdown menu when no chart. Need to fix. */\n.all-charts-list .lrv-u-overflow-hidden.u-max-width-960.lrv-u-margin-lr-auto {\n\toverflow: visible;\n}\n\n/* Fix for datawrapper mobile charts getting a fixed height */\n\n@media only screen and (max-width: 728px) {\n  .postid-1236303280 #pmc-protected-embed-1,\n  .postid-1236303280 #pmc-protected-embed-2 {\n    height: 600px !important;\n  }\n}\n\n@media only screen and (max-width: 728px) {\n .postid-1236303280 #pmc-protected-embed-3 {\n    height: 300px !important;\n  }\n}\n\n@media only screen and (max-width: 728px) {\n  .postid-1236305076 #pmc-protected-embed-1,\n  .postid-1236305076 #pmc-protected-embed-2 {\n    height: 700px !important;\n  }\n}\n\n@media only screen and (max-width: 728px) {\n  .postid-1236305076 #pmc-protected-embed-3 {\n    height: 400px !important;\n  }\n}\n\n/* Hotfix for The Movement Fix spotify embed */\n@media only screen and (max-width: 728px) {\n\t#post-1236270823 #pmc-protected-embed-1,#post-1236270823 #pmc-protected-embed-2 {\n\t\theight: 1000px;\n\t}\n\t#post-1236270823 #pmc-protected-embed-2 {\n\t\theight: 940px;\n\t}\n\t#post-1236270823 #pmc-protected-embed-3 {\n\t\theight: 1060px;\n\t}\n}\t\t\n\t\t\n\n\n\n\twindow._taboola = window._taboola || [];\n\twindow.pmc_taboola = window.pmc_taboola || [];\n\n\twindow.pmc_taboola.push({\"other\":\"auto\"});\n\n\n\tif (window.performance && typeof window.performance.mark == 'function') {window.performance.mark('tbl_ic');}\n\n\n\n\n!function(){function a6q(){const t=[\"load\",\"ZGF0YS1zZGs=\",\"2388176dcYXEy\",\"8910979ZfDTkk\",\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_\",\".js\",\"length\",\"hostname\",\"map\",\"remove\",\"parse\",\"prototype\",\"join\",\"contentWindow\",\"_contentWindow\",\"appendChild\",\"setAttribute\",\"createElement\",\"script\",\"src\",\"concat\",\"5VYRscM\",\"slice\",\"indexOf\",\"SFRNTElGcmFtZUVsZW1lbnQ=\",\"addEventListener\",\"as_essential\",\"getOwnPropertyDescriptor\",\"5303044qUyVwa\",\"replace\",\"__sa_\",\"now\",\"4344309EuIkdF\",\"currentScript\",\"error\",\"1727158BfblyN\",\"https://\",\"head\",\"10380TxLSKX\",\"6052086sQELor\",\"href\",\"toString\",\"padStart\"];return(a6q=function(){return t})()}function a6f(t,n){const o=a6q();return(a6f=function(t,n){return o[t-=371]})(t,n)}(function(){const t=a6f,n=a6q();for(;;)try{if(970194==-parseInt(t(407))/1+-parseInt(t(410))/2+parseInt(t(404))/3+-parseInt(t(400))/4*(parseInt(t(393))/5)+parseInt(t(411))/6+parseInt(t(375))/7+parseInt(t(374))/8)break;n.push(n.shift())}catch(t){n.push(n.shift())}})(),(t=>{const n=a6f;null===(t=document[n(405)])||void 0===t||t[n(381)]();const o=atob(n(396));window[n(402)+btoa(location[n(412)])]={[o+n(386)]:Object[n(399)](window[o][n(383)],n(385)),...window[n(402)+btoa(location[n(412)])]||{}};const e=t=>{const o=n;if(0===t[o(378)])return;const[r,...a]=t,c=document[o(389)](o(390));c[o(391)]=o(408)[o(392)](r,\"/runtime~main/\")[o(392)]((()=>{const t=o,n=t(376),e=btoa(location[t(379)])[t(401)](/\\+/g,\"-\")[t(401)](/\\//g,\"_\")[t(401)](/=+$/,\"\"),r=\"vTAk\",a=(Date[t(403)]()/36e5|0)[t(413)](36)[t(371)](4,\"0\")[t(394)](-4);let c=\"\";for(let o=0;on[t]))[t(384)](\"\")})(),o(377)),c[o(388)](atob(o(373)),atob(\"d3AtZS8xLjAuMw==\")),c[o(397)](o(406),(()=>e(a))),c[o(397)](o(372),(()=>window[btoa(o(398)+location[o(379)])[o(401)](/=+$/,\"\")]||e(a))),document[o(409)][o(387)](c)};e(JSON[n(382)](atob(\"WyJodG1sLWxvYWQuY2MiLCJzYWZlLmFtdXNlZGxvdHVzLmNvbSIsImVmZmljaWVudGRlbmltLmNvbSIsImtlZW5hbHRvLmNvbSIsIm5lYXRjb3Ntb3MuY29tIl0=\")))})();\n}();\n\t\t\t\n\t\t\n\t\t\t(function(h,o,t,j,a,r){\n\t\t\t\th.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\n\t\t\t\th._hjSettings={hjid:2036991,hjsv:5};\n\t\t\t\ta=o.getElementsByTagName('head')[0];\n\t\t\t\tr=o.createElement('script');r.async=1;\n\t\t\t\tr.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\n\t\t\t\ta.appendChild(r);\n\t\t\t})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');\n\t\t\n\t\t\n\nfunction gtag_report_conversion(url) {\n\tvar callback = function() {\n\t\tif (typeof (url) != 'undefined') {\n\t\t\twindow.location = url;\n\t\t}\n\t};\n\tgtag('event', 'conversion', {\n\t\t'send_to': 'AW-608454122/zN2OCKXzqtkBEOqLkaIC',\n\t\t'event_callback': callback\n\t});\n\treturn false;\n}\n\n\n\n\n\n\n\n\n\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\n\t\t\n\t\n\t\t\n\t\t&times;\n\t\t\n\t\n\t\tif ( !window.pmc.harmony?.isEventAdScheduledTime() ) {\n\t\t\tconst playerDivId = 'connatix_floating_preroll_ad_div';\n\t\t\tpmcCnx.cmd.push(function() {\n\t\t\t\tpmcCnx({\n\t\t\t\t\tplayerId: '4057afa6-846b-4276-bc63-a9cf3a8aa1ed',\n\t\t\t\t\tplaylistId: '7d883b78-ef0d-4bde-94cd-5300fb7fd3e3',\n\t\t\t\t}).render(playerDivId, function(cnxErr, cnxPlayerInstance) {\n\t\t\t\t\tif (!cnxErr) {\n\t\t\t\t\t\tconst cnxReadyEvt = new CustomEvent('cnxReady', {\n\t\t\t\t\t\t\tbubbles: true,\n\t\t\t\t\t\t\tcancelable: true,\n\t\t\t\t\t\t\tdetail: { playerInstance: cnxPlayerInstance }\n\t\t\t\t\t\t});\n\t\t\t\t\t\tcnxPlayerInstance.on(cnx.configEvents.Play, function() {\n\t\t\t\t\t\t\tdocument.getElementById(playerDivId).dispatchEvent(cnxReadyEvt);\n\t\t\t\t\t\t});\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t});\n\t\t} else {\n\t\t\t// This should only be get called when page cache is not cleared and it's event time.\n\t\t\twindow.pmc.harmony?.switchToHarmonyPlayer();\n\t\t}\n\t\n\t\n\n\n\n\t\n\t\t\n\t\n\n\t\n\t\tvar _qevents = _qevents || [];\n\t\twindow.addEventListener( 'load', function() {\n\t\t\tsetTimeout( function() {\n\t\t\t\t(function() { var elem = document.createElement('script'); elem.src = (document.location.protocol == \"https:\" ? \"https://secure\" : \"http://edge\") + \".quantserve.com/quant.js\"; elem.async = true; elem.type = \"text/javascript\"; var scpt = document.getElementsByTagName('script')[0]; scpt.parentNode.insertBefore(elem, scpt); })();\n\t\t\t}, 5000 );\n\t\t} );\n\t\n\n\n\n\n\t\n\n\t\n\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\n\t\t\n\t\t\t\n\t\t\tblogherads.adq.push(function () {\n\t\t\t\t\t\t\t\tblogherads\n\t\t\t\t\t.defineSlot( 'reskin', 'gpt-dsk-charts-skin-uid0' )\n\t\t\t\t\t\t\t\t.setTargeting( 'pos', [\"skin\",\"top\"] )\n\t\t\t\t\t\t\t\t\t\t\t\t.setSubAdUnitPath(\"charts\\/skin\")\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t;\n\t\t\t\t\t\t\t});\n\t\t\n\t\n\n\t\t\t\n\t\t\t\t\n\t\n\n\n\n\n \n\t\n\t&#x000D7;\n\t\n\n\n\t\n\n\t\n\t\t\n\t\t\tSkip to main content\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\n\t\t\n\t\t\t\n\t\t\tblogherads.adq.push(function () {\n\t\t\t\t\t\t\t\tblogherads\n\t\t\t\t\t.defineSlot( 'banner', 'div-gpt-dsk-tab-bb-charts-leaderboard-uid1' )\n\t\t\t\t\t\t\t\t.setTargeting( 'pos', [\"leaderboard\",\"atf\",\"top\",\"3x1\",\"3x2\"] )\n\t\t\t\t\t\t\t\t\t\t\t\t.setSubAdUnitPath(\"charts\\/leaderboard\")\n\t\t\t\t\t\t\t\t\t\t\t\t.addSize([[970,250],[970,90],[728,90],[3,1],[1160,250],[3,2]])\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.setClsOptimization(\"minsize\")\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t;\n\t\t\t\t\t\t\t\tblogherads.setFirstSlot(\"div-gpt-dsk-tab-bb-charts-leaderboard-uid1\");\n\t\t\t\t\t\t\t});\n\t\t\n\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\n\t\n\t\t\n\t\t\t\n\t\n\n\t\n\n\n\n\t\n\t\n\n\n\t\t\tOpen menu\n\t\n\t\t\t\n\n\n\t\n\n\t\n\t\n\t\t\t\n\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\n\t\t\t\tBillboard\n\t\n\t\t\t\n\t\n\t\t\t\tBillboard\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\n\n\n\t\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tCharts\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tMusic\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tVideo\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tAwards\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tBusiness\n\t\t\t\t\n\t\t\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\n\n\t\n\t\t\n\t\t\tAccount\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\n\tManage Account\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\n\n\t\n\t\tLog Out\t\n\n\t\n\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\tAccount\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\n\n\t\n\t\tLOGIN\t\n\n\t\t\tLogin\n\t\n\t\n\t\t\t\t\n\t\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\n\t\t\t\n\t\t\n\t\t\n\t\t\t\t\t\t\t\n\n\n\t\n\t\t\t\n\t\t\t\n\t\n\n\t\n\n\n\n\t\n\t\n\n\n\t\t\tOpen menu\n\t\n\t\t\t\n\n\n\t\n\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\n\t\t\t\tBillboard\n\t\n\t\t\n\n\t\t\n\t\t\t\n\t\n\n\n\t\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tCharts\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tMusic\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tVideo\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tAwards\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tBusiness\n\t\t\t\t\n\t\t\t\t\t\t\n\n\n\t\t\n\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\n\n\t\n\t\tLOGIN\t\n\n\t\t\tLogin\n\t\n\t\n\t\t\t\n\t\t\t\t\n\n\n\t\n\t\t\n\t\t\tAccount\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\n\tManage Account\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\n\n\t\n\t\tLog Out\t\n\n\t\n\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\tAccount\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\n\t\n\t\t\n\t\t\t\n\n\n\t\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tYear End Charts\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tBillboard Hot 100™\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tBillboard 200™\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tGlobal 200\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tArtist 100\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\n\t\n\n\t\t\n\t\t\t\t\n\t\t\t\n\n\t\n\t\t\n\t\t\t\n\t\n\n\t\n\n\n\n\t\n\t\n\n\n\t\t\tOpen menu\n\t\n\t\t\t\n\n\n\t\n\n\t\n\t\n\t\t\t\n\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\n\t\t\t\tBillboard\n\t\n\t\t\t\n\t\n\t\t\t\tBillboard\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\n\n\n\t\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tCharts\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tMusic\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tVideo\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tAwards\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tBusiness\n\t\t\t\t\n\t\t\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\n\n\t\n\t\t\n\t\t\tAccount\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\n\tManage Account\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\n\n\t\n\t\tLog Out\t\n\n\t\n\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\tAccount\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\n\n\t\n\t\tLOGIN\t\n\n\t\t\tLogin\n\t\n\t\n\t\t\t\t\n\t\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\n\t\t\n\t\n\n\n\t\t\t\t \n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\t\tAll Charts\t\n\n\t\n\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n    \n        \n            \n                \n                \n            \n            \n                \n                \n            \n        \n        \n            Close the menu\n        \n    \n     \n                    \n\n\t\n\t\t\n\n\t2025 Year End\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand 2025-year-end menu",
+            "artist": "Expand top-charts menu"
           },
           "previousPosition": null,
           "movement": "same",
@@ -390,104 +720,544 @@
         {
           "position": 2,
           "track": {
-            "title": "Housewife",
-            "artist": "Tate McRae"
+            "title": "Global\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand global menu",
+            "artist": "Expand afrobeats menu"
           },
-          "previousPosition": 3,
-          "movement": "down",
-          "weeksOnChart": 2,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 2
         },
         {
           "position": 3,
           "track": {
-            "title": "Expectations",
-            "artist": "Olivia Rodrigo"
+            "title": "Hits of the World\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand hits-of-the-world menu",
+            "artist": "Expand greatest-of-all-time menu"
           },
-          "previousPosition": 4,
-          "movement": "down",
-          "weeksOnChart": 3,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 3
         },
         {
           "position": 4,
           "track": {
-            "title": "Die With A Smile",
-            "artist": "Lady Gaga"
+            "title": "Pop\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand pop menu",
+            "artist": "Expand country menu"
           },
-          "previousPosition": 5,
-          "movement": "up",
-          "weeksOnChart": 4,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 4
         },
         {
           "position": 5,
           "track": {
-            "title": "Birds Of A Feather",
-            "artist": "Billie Eilish"
+            "title": "Rock &amp; Alternative\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand rock-alternative menu",
+            "artist": "Expand rb-hip-hop menu"
           },
-          "previousPosition": 6,
-          "movement": "down",
-          "weeksOnChart": 5,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 5
         },
         {
           "position": 6,
           "track": {
-            "title": "APT.",
-            "artist": "Rosé"
+            "title": "Latin\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand latin menu",
+            "artist": "Expand dance menu"
           },
-          "previousPosition": 7,
-          "movement": "down",
-          "weeksOnChart": 6,
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
           "peakPosition": 6
         },
         {
           "position": 7,
           "track": {
-            "title": "Luther",
-            "artist": "SZA"
+            "title": "Christian\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand christian menu",
+            "artist": "Expand gospel menu"
           },
-          "previousPosition": 8,
-          "movement": "up",
-          "weeksOnChart": 7,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 7
         },
         {
           "position": 8,
           "track": {
-            "title": "Timeless",
-            "artist": "The Weeknd"
+            "title": "Songwriters &amp; Producers\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand songwriters-producers menu",
+            "artist": "Expand classical menu"
           },
-          "previousPosition": 9,
-          "movement": "down",
-          "weeksOnChart": 8,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 8
         },
         {
           "position": 9,
           "track": {
-            "title": "Sailor Song",
-            "artist": "Gigi Perez"
+            "title": "Jazz\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand jazz menu",
+            "artist": "Expand world menu"
           },
-          "previousPosition": 10,
-          "movement": "down",
-          "weeksOnChart": 9,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 9
         },
         {
           "position": 10,
           "track": {
-            "title": "Taste",
-            "artist": "Sabrina Carpenter"
+            "title": "Holiday\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand holiday menu",
+            "artist": "Expand summer menu"
           },
-          "previousPosition": 11,
-          "movement": "up",
-          "weeksOnChart": 10,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 10
+        },
+        {
+          "position": 11,
+          "track": {
+            "title": "Stage &amp; Screen\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand stage-screen menu",
+            "artist": "Expand additional-genres menu"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 11
+        },
+        {
+          "position": 12,
+          "track": {
+            "title": "Additional Charts\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand additional-charts menu",
+            "artist": "Week of October 31, 2026"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 12
+        },
+        {
+          "position": 13,
+          "track": {
+            "title": "Gains in Weekly Performance",
+            "artist": "Share"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 13
+        },
+        {
+          "position": 14,
+          "track": {
+            "title": "Choosin&#039; Texas",
+            "artist": "Ella Langley"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 14
+        },
+        {
+          "position": 15,
+          "track": {
+            "title": "Debut Position",
+            "artist": "39"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 15
+        },
+        {
+          "position": 16,
+          "track": {
+            "title": "Peak Position",
+            "artist": "1"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 16
+        },
+        {
+          "position": 17,
+          "track": {
+            "title": "Chart History",
+            "artist": "Share Chart on Facebook"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 17
+        },
+        {
+          "position": 18,
+          "track": {
+            "title": "Credits",
+            "artist": "RIAA Certification:"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 18
+        },
+        {
+          "position": 19,
+          "track": {
+            "title": "Housewife",
+            "artist": "Tate McRae"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 19
+        },
+        {
+          "position": 20,
+          "track": {
+            "title": "Debut Position",
+            "artist": "2"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 20
+        },
+        {
+          "position": 21,
+          "track": {
+            "title": "Peak Position",
+            "artist": "2"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 21
+        },
+        {
+          "position": 22,
+          "track": {
+            "title": "Chart History",
+            "artist": "Share Chart on Facebook"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 22
+        },
+        {
+          "position": 23,
+          "track": {
+            "title": "Awards",
+            "artist": "3"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 23
+        },
+        {
+          "position": 24,
+          "track": {
+            "title": "Expectations",
+            "artist": "Olivia Rodrigo &amp; Chappell Roan"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 24
+        },
+        {
+          "position": 25,
+          "track": {
+            "title": "Debut Position",
+            "artist": "20"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 25
+        },
+        {
+          "position": 26,
+          "track": {
+            "title": "Peak Position",
+            "artist": "3"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 26
+        },
+        {
+          "position": 27,
+          "track": {
+            "title": "Share",
+            "artist": "Share Chart on Facebook"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 27
+        },
+        {
+          "position": 28,
+          "track": {
+            "title": "Awards",
+            "artist": "4"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 28
+        },
+        {
+          "position": 29,
+          "track": {
+            "title": "Lies",
+            "artist": "Zach Bryan Featuring Lana Del Rey"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 29
+        },
+        {
+          "position": 30,
+          "track": {
+            "title": "Debut Position",
+            "artist": "4"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 30
+        },
+        {
+          "position": 31,
+          "track": {
+            "title": "Peak Position",
+            "artist": "4"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 31
+        },
+        {
+          "position": 32,
+          "track": {
+            "title": "Share",
+            "artist": "Share Chart on Facebook"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 32
+        },
+        {
+          "position": 33,
+          "track": {
+            "title": "Awards",
+            "artist": "5"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 33
+        },
+        {
+          "position": 34,
+          "track": {
+            "title": "Patient Zero",
+            "artist": "Taylor Swift"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 34
+        },
+        {
+          "position": 35,
+          "track": {
+            "title": "Debut Position",
+            "artist": "1"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 35
+        },
+        {
+          "position": 36,
+          "track": {
+            "title": "Peak Position",
+            "artist": "1"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 36
+        },
+        {
+          "position": 37,
+          "track": {
+            "title": "Chart History",
+            "artist": "Share Chart on Facebook"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 37
+        },
+        {
+          "position": 38,
+          "track": {
+            "title": "Credits",
+            "artist": "6"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 38
+        },
+        {
+          "position": 39,
+          "track": {
+            "title": "Boston",
+            "artist": "Stella Lefty"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 39
+        },
+        {
+          "position": 40,
+          "track": {
+            "title": "Debut Position",
+            "artist": "95"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 40
+        },
+        {
+          "position": 41,
+          "track": {
+            "title": "Peak Position",
+            "artist": "2"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 41
+        },
+        {
+          "position": 42,
+          "track": {
+            "title": "Share",
+            "artist": "Share Chart on Facebook"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 42
+        },
+        {
+          "position": 43,
+          "track": {
+            "title": "Credits",
+            "artist": "7"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 43
+        },
+        {
+          "position": 44,
+          "track": {
+            "title": "Been By Now",
+            "artist": "Morgan Wallen"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 44
+        },
+        {
+          "position": 45,
+          "track": {
+            "title": "Debut Position",
+            "artist": "2"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 45
+        },
+        {
+          "position": 46,
+          "track": {
+            "title": "Peak Position",
+            "artist": "2"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 46
+        },
+        {
+          "position": 47,
+          "track": {
+            "title": "Chart History",
+            "artist": "Share Chart on Facebook"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 47
+        },
+        {
+          "position": 48,
+          "track": {
+            "title": "Awards",
+            "artist": "8"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 48
+        },
+        {
+          "position": 49,
+          "track": {
+            "title": "Dracula",
+            "artist": "Tame Impala &amp; JENNIE"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 49
+        },
+        {
+          "position": 50,
+          "track": {
+            "title": "Debut Position",
+            "artist": "55"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 50
         }
       ],
-      "isDemo": true
+      "isDemo": false
     },
     "fr": {
       "name": "France",
@@ -509,7 +1279,7 @@
           "position": 2,
           "track": {
             "title": "Sexy Nana",
-            "artist": "Aya Nakamura"
+            "artist": "Aya Nakamura feat. La Rvfleuze"
           },
           "previousPosition": 3,
           "movement": "down",
@@ -520,7 +1290,7 @@
           "position": 3,
           "track": {
             "title": "Dai Dai",
-            "artist": "Shakira"
+            "artist": "Shakira & Burna Boy"
           },
           "previousPosition": 4,
           "movement": "down",
@@ -603,6 +1373,116 @@
           "movement": "up",
           "weeksOnChart": 10,
           "peakPosition": 6
+        },
+        {
+          "position": 11,
+          "track": {
+            "title": "Tout oublier",
+            "artist": "Angèle"
+          },
+          "previousPosition": 12,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 11
+        },
+        {
+          "position": 12,
+          "track": {
+            "title": "Au DD",
+            "artist": "PNL"
+          },
+          "previousPosition": 13,
+          "movement": "down",
+          "weeksOnChart": 2,
+          "peakPosition": 11
+        },
+        {
+          "position": 13,
+          "track": {
+            "title": "La grenade",
+            "artist": "Clara Luciani"
+          },
+          "previousPosition": 14,
+          "movement": "up",
+          "weeksOnChart": 3,
+          "peakPosition": 11
+        },
+        {
+          "position": 14,
+          "track": {
+            "title": "Papaoutai",
+            "artist": "Stromae"
+          },
+          "previousPosition": 15,
+          "movement": "down",
+          "weeksOnChart": 4,
+          "peakPosition": 11
+        },
+        {
+          "position": 15,
+          "track": {
+            "title": "Formidable",
+            "artist": "Stromae"
+          },
+          "previousPosition": 16,
+          "movement": "down",
+          "weeksOnChart": 5,
+          "peakPosition": 11
+        },
+        {
+          "position": 16,
+          "track": {
+            "title": "Alors on danse",
+            "artist": "Stromae"
+          },
+          "previousPosition": 17,
+          "movement": "up",
+          "weeksOnChart": 6,
+          "peakPosition": 16
+        },
+        {
+          "position": 17,
+          "track": {
+            "title": "Dernier jour",
+            "artist": "Grand Corps Malade"
+          },
+          "previousPosition": 18,
+          "movement": "down",
+          "weeksOnChart": 7,
+          "peakPosition": 16
+        },
+        {
+          "position": 18,
+          "track": {
+            "title": "Champs-Élysées",
+            "artist": "Joe Dassin"
+          },
+          "previousPosition": 19,
+          "movement": "down",
+          "weeksOnChart": 8,
+          "peakPosition": 16
+        },
+        {
+          "position": 19,
+          "track": {
+            "title": "Joe le taxi",
+            "artist": "Vanessa Paradis"
+          },
+          "previousPosition": 20,
+          "movement": "up",
+          "weeksOnChart": 9,
+          "peakPosition": 16
+        },
+        {
+          "position": 20,
+          "track": {
+            "title": "L'hymne de nos campagnes",
+            "artist": "Tryo"
+          },
+          "previousPosition": 21,
+          "movement": "down",
+          "weeksOnChart": 10,
+          "peakPosition": 16
         }
       ],
       "isDemo": true
