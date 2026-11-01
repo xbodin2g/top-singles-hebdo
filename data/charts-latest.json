@@ -4,9 +4,609 @@
     "week": 44,
     "year": 2026,
     "updatedAt": "2026-11-01",
-    "sourceNote": "Données collectées automatiquement depuis les sources officielles. Certaines sources peuvent être indisponibles."
+    "sourceNote": "✅ Sources officielles : Brésil. ⚠️ Données de démonstration : Royaume-Uni, Allemagne, Suisse, États-Unis, France.",
+    "successfulSources": [
+      "Brésil"
+    ],
+    "failedSources": [
+      "Royaume-Uni",
+      "Allemagne",
+      "Suisse",
+      "États-Unis",
+      "France"
+    ]
   },
   "countries": {
+    "uk": {
+      "name": "Royaume-Uni",
+      "flag": "🇬🇧",
+      "region": "europe",
+      "chart": [
+        {
+          "position": 1,
+          "track": {
+            "title": "Babydoll",
+            "artist": "Jamie Miller"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 1
+        },
+        {
+          "position": 2,
+          "track": {
+            "title": "Housewife",
+            "artist": "Tate McRae"
+          },
+          "previousPosition": 3,
+          "movement": "down",
+          "weeksOnChart": 2,
+          "peakPosition": 1
+        },
+        {
+          "position": 3,
+          "track": {
+            "title": "Stop The Wedding",
+            "artist": "Ashe"
+          },
+          "previousPosition": 4,
+          "movement": "down",
+          "weeksOnChart": 3,
+          "peakPosition": 1
+        },
+        {
+          "position": 4,
+          "track": {
+            "title": "Expectations",
+            "artist": "Olivia Rodrigo"
+          },
+          "previousPosition": 5,
+          "movement": "up",
+          "weeksOnChart": 4,
+          "peakPosition": 1
+        },
+        {
+          "position": 5,
+          "track": {
+            "title": "Great Expectation",
+            "artist": "Sienna Spiro"
+          },
+          "previousPosition": 6,
+          "movement": "down",
+          "weeksOnChart": 5,
+          "peakPosition": 1
+        },
+        {
+          "position": 6,
+          "track": {
+            "title": "Night Drive",
+            "artist": "Kai Rivers"
+          },
+          "previousPosition": 7,
+          "movement": "down",
+          "weeksOnChart": 6,
+          "peakPosition": 6
+        },
+        {
+          "position": 7,
+          "track": {
+            "title": "Golden Hour",
+            "artist": "Aurora West"
+          },
+          "previousPosition": 8,
+          "movement": "up",
+          "weeksOnChart": 7,
+          "peakPosition": 6
+        },
+        {
+          "position": 8,
+          "track": {
+            "title": "Silver Lining",
+            "artist": "Noor"
+          },
+          "previousPosition": 9,
+          "movement": "down",
+          "weeksOnChart": 8,
+          "peakPosition": 6
+        },
+        {
+          "position": 9,
+          "track": {
+            "title": "Wildfire",
+            "artist": "J.B. Monroe"
+          },
+          "previousPosition": 10,
+          "movement": "down",
+          "weeksOnChart": 9,
+          "peakPosition": 6
+        },
+        {
+          "position": 10,
+          "track": {
+            "title": "Dancing Alone",
+            "artist": "Mavie"
+          },
+          "previousPosition": 11,
+          "movement": "up",
+          "weeksOnChart": 10,
+          "peakPosition": 6
+        }
+      ],
+      "isDemo": true
+    },
+    "de": {
+      "name": "Allemagne",
+      "flag": "🇩🇪",
+      "region": "europe",
+      "chart": [
+        {
+          "position": 1,
+          "track": {
+            "title": "Housewife",
+            "artist": "Tate McRae"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 1
+        },
+        {
+          "position": 2,
+          "track": {
+            "title": "Dai Dai",
+            "artist": "Shakira"
+          },
+          "previousPosition": 3,
+          "movement": "down",
+          "weeksOnChart": 2,
+          "peakPosition": 1
+        },
+        {
+          "position": 3,
+          "track": {
+            "title": "Ain't In LA",
+            "artist": "Adéla"
+          },
+          "previousPosition": 4,
+          "movement": "down",
+          "weeksOnChart": 3,
+          "peakPosition": 1
+        },
+        {
+          "position": 4,
+          "track": {
+            "title": "Self Aware",
+            "artist": "Temper City"
+          },
+          "previousPosition": 5,
+          "movement": "up",
+          "weeksOnChart": 4,
+          "peakPosition": 1
+        },
+        {
+          "position": 5,
+          "track": {
+            "title": "Movin' To The Sun",
+            "artist": "Hugel"
+          },
+          "previousPosition": 6,
+          "movement": "down",
+          "weeksOnChart": 5,
+          "peakPosition": 1
+        },
+        {
+          "position": 6,
+          "track": {
+            "title": "Mr. Brightside",
+            "artist": "The Killers"
+          },
+          "previousPosition": 7,
+          "movement": "down",
+          "weeksOnChart": 6,
+          "peakPosition": 6
+        },
+        {
+          "position": 7,
+          "track": {
+            "title": "Patient Zero",
+            "artist": "Taylor Swift"
+          },
+          "previousPosition": 8,
+          "movement": "up",
+          "weeksOnChart": 7,
+          "peakPosition": 6
+        },
+        {
+          "position": 8,
+          "track": {
+            "title": "Mi chico",
+            "artist": "DJ Goja"
+          },
+          "previousPosition": 9,
+          "movement": "down",
+          "weeksOnChart": 8,
+          "peakPosition": 6
+        },
+        {
+          "position": 9,
+          "track": {
+            "title": "Mama (Remix)",
+            "artist": "Symba"
+          },
+          "previousPosition": 10,
+          "movement": "down",
+          "weeksOnChart": 9,
+          "peakPosition": 6
+        },
+        {
+          "position": 10,
+          "track": {
+            "title": "Stop The Wedding",
+            "artist": "Ashe"
+          },
+          "previousPosition": 11,
+          "movement": "up",
+          "weeksOnChart": 10,
+          "peakPosition": 6
+        }
+      ],
+      "isDemo": true
+    },
+    "ch": {
+      "name": "Suisse",
+      "flag": "🇨🇭",
+      "region": "europe",
+      "chart": [
+        {
+          "position": 1,
+          "track": {
+            "title": "Housewife",
+            "artist": "Tate McRae"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 1
+        },
+        {
+          "position": 2,
+          "track": {
+            "title": "Bby Wow",
+            "artist": "Karol G"
+          },
+          "previousPosition": 3,
+          "movement": "down",
+          "weeksOnChart": 2,
+          "peakPosition": 1
+        },
+        {
+          "position": 3,
+          "track": {
+            "title": "Dai Dai",
+            "artist": "Shakira"
+          },
+          "previousPosition": 4,
+          "movement": "down",
+          "weeksOnChart": 3,
+          "peakPosition": 1
+        },
+        {
+          "position": 4,
+          "track": {
+            "title": "Mi chico",
+            "artist": "DJ Goja"
+          },
+          "previousPosition": 5,
+          "movement": "up",
+          "weeksOnChart": 4,
+          "peakPosition": 1
+        },
+        {
+          "position": 5,
+          "track": {
+            "title": "Nicole Kidman",
+            "artist": "Adéla"
+          },
+          "previousPosition": 6,
+          "movement": "down",
+          "weeksOnChart": 5,
+          "peakPosition": 1
+        },
+        {
+          "position": 6,
+          "track": {
+            "title": "Lumière",
+            "artist": "Alya Nova"
+          },
+          "previousPosition": 7,
+          "movement": "down",
+          "weeksOnChart": 6,
+          "peakPosition": 6
+        },
+        {
+          "position": 7,
+          "track": {
+            "title": "Midnight Gold",
+            "artist": "The Amber Lines"
+          },
+          "previousPosition": 8,
+          "movement": "up",
+          "weeksOnChart": 7,
+          "peakPosition": 6
+        },
+        {
+          "position": 8,
+          "track": {
+            "title": "Baila Conmigo",
+            "artist": "Luz Marina"
+          },
+          "previousPosition": 9,
+          "movement": "down",
+          "weeksOnChart": 8,
+          "peakPosition": 6
+        },
+        {
+          "position": 9,
+          "track": {
+            "title": "Évidence",
+            "artist": "Léa Volney"
+          },
+          "previousPosition": 10,
+          "movement": "down",
+          "weeksOnChart": 9,
+          "peakPosition": 6
+        },
+        {
+          "position": 10,
+          "track": {
+            "title": "Golden Hour",
+            "artist": "Aurora West"
+          },
+          "previousPosition": 11,
+          "movement": "up",
+          "weeksOnChart": 10,
+          "peakPosition": 6
+        }
+      ],
+      "isDemo": true
+    },
+    "us": {
+      "name": "États-Unis",
+      "flag": "🇺🇸",
+      "region": "anglo",
+      "chart": [
+        {
+          "position": 1,
+          "track": {
+            "title": "Choosin' Texas",
+            "artist": "Ella Langley"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 1
+        },
+        {
+          "position": 2,
+          "track": {
+            "title": "Housewife",
+            "artist": "Tate McRae"
+          },
+          "previousPosition": 3,
+          "movement": "down",
+          "weeksOnChart": 2,
+          "peakPosition": 1
+        },
+        {
+          "position": 3,
+          "track": {
+            "title": "Expectations",
+            "artist": "Olivia Rodrigo"
+          },
+          "previousPosition": 4,
+          "movement": "down",
+          "weeksOnChart": 3,
+          "peakPosition": 1
+        },
+        {
+          "position": 4,
+          "track": {
+            "title": "Die With A Smile",
+            "artist": "Lady Gaga"
+          },
+          "previousPosition": 5,
+          "movement": "up",
+          "weeksOnChart": 4,
+          "peakPosition": 1
+        },
+        {
+          "position": 5,
+          "track": {
+            "title": "Birds Of A Feather",
+            "artist": "Billie Eilish"
+          },
+          "previousPosition": 6,
+          "movement": "down",
+          "weeksOnChart": 5,
+          "peakPosition": 1
+        },
+        {
+          "position": 6,
+          "track": {
+            "title": "APT.",
+            "artist": "Rosé"
+          },
+          "previousPosition": 7,
+          "movement": "down",
+          "weeksOnChart": 6,
+          "peakPosition": 6
+        },
+        {
+          "position": 7,
+          "track": {
+            "title": "Luther",
+            "artist": "SZA"
+          },
+          "previousPosition": 8,
+          "movement": "up",
+          "weeksOnChart": 7,
+          "peakPosition": 6
+        },
+        {
+          "position": 8,
+          "track": {
+            "title": "Timeless",
+            "artist": "The Weeknd"
+          },
+          "previousPosition": 9,
+          "movement": "down",
+          "weeksOnChart": 8,
+          "peakPosition": 6
+        },
+        {
+          "position": 9,
+          "track": {
+            "title": "Sailor Song",
+            "artist": "Gigi Perez"
+          },
+          "previousPosition": 10,
+          "movement": "down",
+          "weeksOnChart": 9,
+          "peakPosition": 6
+        },
+        {
+          "position": 10,
+          "track": {
+            "title": "Taste",
+            "artist": "Sabrina Carpenter"
+          },
+          "previousPosition": 11,
+          "movement": "up",
+          "weeksOnChart": 10,
+          "peakPosition": 6
+        }
+      ],
+      "isDemo": true
+    },
+    "fr": {
+      "name": "France",
+      "flag": "🇫🇷",
+      "region": "europe",
+      "chart": [
+        {
+          "position": 1,
+          "track": {
+            "title": "Maladie",
+            "artist": "Mauvais Djo"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 1
+        },
+        {
+          "position": 2,
+          "track": {
+            "title": "Sexy Nana",
+            "artist": "Aya Nakamura"
+          },
+          "previousPosition": 3,
+          "movement": "down",
+          "weeksOnChart": 2,
+          "peakPosition": 1
+        },
+        {
+          "position": 3,
+          "track": {
+            "title": "Dai Dai",
+            "artist": "Shakira"
+          },
+          "previousPosition": 4,
+          "movement": "down",
+          "weeksOnChart": 3,
+          "peakPosition": 1
+        },
+        {
+          "position": 4,
+          "track": {
+            "title": "Pilé",
+            "artist": "Mauvais Djo"
+          },
+          "previousPosition": 5,
+          "movement": "up",
+          "weeksOnChart": 4,
+          "peakPosition": 1
+        },
+        {
+          "position": 5,
+          "track": {
+            "title": "Sicario",
+            "artist": "Timal"
+          },
+          "previousPosition": 6,
+          "movement": "down",
+          "weeksOnChart": 5,
+          "peakPosition": 1
+        },
+        {
+          "position": 6,
+          "track": {
+            "title": "Pocahontas",
+            "artist": "PLK"
+          },
+          "previousPosition": 7,
+          "movement": "down",
+          "weeksOnChart": 6,
+          "peakPosition": 6
+        },
+        {
+          "position": 7,
+          "track": {
+            "title": "Melodrama",
+            "artist": "Theodora"
+          },
+          "previousPosition": 8,
+          "movement": "up",
+          "weeksOnChart": 7,
+          "peakPosition": 6
+        },
+        {
+          "position": 8,
+          "track": {
+            "title": "Bande organisée",
+            "artist": "SCH"
+          },
+          "previousPosition": 9,
+          "movement": "down",
+          "weeksOnChart": 8,
+          "peakPosition": 6
+        },
+        {
+          "position": 9,
+          "track": {
+            "title": "Je te promets",
+            "artist": "Johnny Hallyday"
+          },
+          "previousPosition": 10,
+          "movement": "down",
+          "weeksOnChart": 9,
+          "peakPosition": 6
+        },
+        {
+          "position": 10,
+          "track": {
+            "title": "Dernière danse",
+            "artist": "Indila"
+          },
+          "previousPosition": 11,
+          "movement": "up",
+          "weeksOnChart": 10,
+          "peakPosition": 6
+        }
+      ],
+      "isDemo": true
+    },
     "br": {
       "name": "Brésil",
       "flag": "🇧🇷",
@@ -562,17 +1162,25 @@
           "weeksOnChart": 1,
           "peakPosition": 50
         }
-      ]
+      ],
+      "isDemo": false
     }
   },
   "regions": {
     "europe": {
       "label": "Europe",
-      "countries": []
+      "countries": [
+        "uk",
+        "de",
+        "ch",
+        "fr"
+      ]
     },
     "anglo": {
       "label": "Pays anglo-saxons",
-      "countries": []
+      "countries": [
+        "us"
+      ]
     },
     "latam": {
       "label": "Amérique du Sud",
