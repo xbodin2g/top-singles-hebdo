@@ -18,6 +18,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0  # Récupère tout l'historique
       
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -36,10 +37,21 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        
+        # Ajouter les fichiers modifiés
         git add data/
+        
+        # Vérifier s'il y a des changements
         if git diff --quiet && git diff --staged --quiet; then
           echo "No changes to commit"
-        else
-          git commit -m "📊 Update charts - $(date +%Y-%m-%d)"
-          git push
+          exit 0
         fi
+        
+        # Commit les changements
+        git commit -m "📊 Update charts - $(date +%Y-%m-%d)"
+        
+        # Pull avec rebase pour intégrer les changements distants
+        git pull --rebase origin main
+        
+        # Push les changements
+        git push origin main
