@@ -153,6 +153,31 @@
       line-height: 1.5;
     }
 
+    .demo-warning {
+      display: none;
+      margin-top: 20px;
+      padding: 15px 17px;
+      background: var(--warning-bg);
+      border: 1px solid rgba(217, 119, 6, 0.25);
+      border-radius: 16px;
+    }
+
+    .demo-warning strong {
+      color: var(--warning);
+    }
+
+    .demo-warning p {
+      margin: 8px 0 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .demo-warning small {
+      display: block;
+      margin-top: 8px;
+      opacity: 0.8;
+    }
+
     .controls {
       margin-top: 20px;
       padding: 18px;
@@ -433,6 +458,14 @@
     <div id="mainContent" style="display: none;">
       <div class="note panel" id="sourceNote"></div>
 
+      <div id="demoWarning" class="demo-warning panel">
+        <strong>⚠️ Données de démonstration</strong>
+        <p>
+          Certaines sources n'ont pas pu être scrapées automatiquement. Les données affichées pour ces pays sont des données de démonstration.
+          <small>Seul le Brésil (Pro-Música Brasil) fournit actuellement des données officielles en temps réel.</small>
+        </p>
+      </div>
+
       <section class="panel controls">
         <div class="control-group">
           <label for="regionSelect">Région</label>
@@ -501,6 +534,7 @@
     const errorContainer = document.getElementById("errorContainer");
     const mainContent = document.getElementById("mainContent");
     const refreshBtn = document.getElementById("refreshBtn");
+    const demoWarning = document.getElementById("demoWarning");
 
     function escapeHtml(value) {
       return String(value)
@@ -527,13 +561,25 @@
       return "● Stable";
     }
 
+    function checkDemoData() {
+      if (!CHARTS_DATA) return;
+      
+      const hasDemo = Object.values(CHARTS_DATA.countries).some(c => c.isDemo);
+      
+      if (hasDemo && demoWarning) {
+        demoWarning.style.display = "block";
+      } else if (demoWarning) {
+        demoWarning.style.display = "none";
+      }
+    }
+
     async function loadChartData() {
       try {
         loadingIndicator.style.display = "block";
         errorContainer.style.display = "none";
         mainContent.style.display = "none";
+        demoWarning.style.display = "none";
 
-        // Essayer de charger les données
         const response = await fetch("data/charts-latest.json");
         
         if (!response.ok) {
@@ -542,7 +588,6 @@
 
         CHARTS_DATA = await response.json();
 
-        // Construire COUNTRIES et REGIONS
         COUNTRIES = {};
         Object.entries(CHARTS_DATA.countries).forEach(([code, data]) => {
           COUNTRIES[code] = {
@@ -555,7 +600,6 @@
 
         REGIONS = CHARTS_DATA.regions;
 
-        // Mettre à jour l'interface
         weekBadge.textContent = CHARTS_DATA.meta.weekLabel;
         sourceNote.textContent = CHARTS_DATA.meta.sourceNote;
 
@@ -563,6 +607,7 @@
         populateCountries();
         updateCountrySelectState();
         render();
+        checkDemoData();
 
         loadingIndicator.style.display = "none";
         mainContent.style.display = "block";
@@ -862,7 +907,6 @@
 
     applyTheme(savedTheme);
 
-    // Charger les données au démarrage
     loadChartData();
   </script>
 </body>
