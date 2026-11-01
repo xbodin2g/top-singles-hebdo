@@ -1,0 +1,584 @@
+{
+  "meta": {
+    "weekLabel": "Semaine 44/2026",
+    "week": 44,
+    "year": 2026,
+    "updatedAt": "2026-11-01",
+    "sourceNote": "Données collectées automatiquement depuis les sources officielles. Certaines sources peuvent être indisponibles."
+  },
+  "countries": {
+    "br": {
+      "name": "Brésil",
+      "flag": "🇧🇷",
+      "region": "latam",
+      "chart": [
+        {
+          "position": 1,
+          "track": {
+            "title": "Cadeira Cativa (Ao Vivo)",
+            "artist": "Zé Neto & Cristiano"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 1
+        },
+        {
+          "position": 2,
+          "track": {
+            "title": "Peão Todo Tatuado",
+            "artist": "Jeninho, Mariana Fagundes"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 2
+        },
+        {
+          "position": 3,
+          "track": {
+            "title": "Postinho De Gasolina",
+            "artist": "João Gustavo & Murilo, Grelo"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 3
+        },
+        {
+          "position": 4,
+          "track": {
+            "title": "Cuida Do Pet (Feat. Mc Negão Original, Du'l, Dj Aladin Gdb)",
+            "artist": "Oldilla, Aaron Modesto, Mc Willian, Mc Iguinho Ct"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 4
+        },
+        {
+          "position": 5,
+          "track": {
+            "title": "Ta Pedindo Toma (Feat. Mc Rn Do Capão, Mc Pelourinho)",
+            "artist": "Mc Leozinho Zs, Mc Murilo Mt, Mc Dr, Dj Jhow Beats"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 5
+        },
+        {
+          "position": 6,
+          "track": {
+            "title": "Um Peão Desse",
+            "artist": "CountryBeat, Mari Fernandez"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 6
+        },
+        {
+          "position": 7,
+          "track": {
+            "title": "Eu Te Seguro (Ao Vivo)",
+            "artist": "Panda, MJ Records"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 7
+        },
+        {
+          "position": 8,
+          "track": {
+            "title": "Pau Pra Toda Obra",
+            "artist": "Mc Jacaré, Mc Ryan Sp, Mc Lele Jp, Mc Ig"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 8
+        },
+        {
+          "position": 9,
+          "track": {
+            "title": "Quem É Esse? (Ao Vivo)",
+            "artist": "Julliany Souza"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 9
+        },
+        {
+          "position": 10,
+          "track": {
+            "title": "Não É Pressa, É Pressão",
+            "artist": "Rincon, Ana Castela, Dj Boss"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 10
+        },
+        {
+          "position": 11,
+          "track": {
+            "title": "Só Com Ela (Ao Vivo)",
+            "artist": "Murilo Huff, Matheus Fernandes"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 11
+        },
+        {
+          "position": 12,
+          "track": {
+            "title": "Exagerado",
+            "artist": "Mc Jvila, Mc Meno K, Mc Rodrigo Do Cn, Dj Glenner"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 12
+        },
+        {
+          "position": 13,
+          "track": {
+            "title": "Menos Foco Mais Ansiedade (Ce Ta Nervosa) (Feat. Mc Lele Jp, Zanolini)",
+            "artist": "Dj Andreoli, Mc Jacaré, Mc Ryan Sp, Mc Luuky"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 13
+        },
+        {
+          "position": 14,
+          "track": {
+            "title": "Famoso Ímã / O Poderoso Chatão",
+            "artist": "Mc Lele Jp, Mc Poze Do Rodo, Mc Leozinho Zs, Dj Gordinho Da Vf"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 14
+        },
+        {
+          "position": 15,
+          "track": {
+            "title": "Diário De Um Cafajeste (Feat. Mc Tuto, Mc Negão Original)",
+            "artist": "Dj Oreia, Mc Lele Jp, Mc Meno K, Mc Ryan Sp"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 15
+        },
+        {
+          "position": 16,
+          "track": {
+            "title": "Ultima Saudade (Ao Vivo)",
+            "artist": "Henrique & Juliano"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 16
+        },
+        {
+          "position": 17,
+          "track": {
+            "title": "Oi, Tudo Bem? (Ao Vivo)",
+            "artist": "Zé Neto & Cristiano"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 17
+        },
+        {
+          "position": 18,
+          "track": {
+            "title": "Ignora (Ao Vivo)",
+            "artist": "Felipe & Rodrigo"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 18
+        },
+        {
+          "position": 19,
+          "track": {
+            "title": "Puxa O Lança (Feat. Honaiser, Nagalli, Stick, Toledo)",
+            "artist": "Mc Jvila, KayBlack, Veigh, Vulgo Fk"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 19
+        },
+        {
+          "position": 20,
+          "track": {
+            "title": "Mente Barulhenta",
+            "artist": "Mc Ig, Mc Lele Jp, Dj Oreia, Dj Noiskita"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 20
+        },
+        {
+          "position": 21,
+          "track": {
+            "title": "Grwm (Feat. Mc Gp, Du'l)",
+            "artist": "Mc Iguinho Ct, Dj Aladin Gdb, Mc Willian, Mc Luuky"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 21
+        },
+        {
+          "position": 22,
+          "track": {
+            "title": "Saudade Estranha (Ao Vivo)",
+            "artist": "Murilo Huff"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 22
+        },
+        {
+          "position": 23,
+          "track": {
+            "title": "Reliquia Do 2T (Feat. Mc Dkziin, Mc Fr Da Norte)",
+            "artist": "Dj Gu, Mc Vine7, Mc Tuto, Mc Joãozinho Vt"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 23
+        },
+        {
+          "position": 24,
+          "track": {
+            "title": "Apaga Apaga Apaga (Ao Vivo)",
+            "artist": "Danilo & Davi"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 24
+        },
+        {
+          "position": 25,
+          "track": {
+            "title": "Eu Duvido (Ao Vivo)",
+            "artist": "Guilherme & Benuto, Panda"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 25
+        },
+        {
+          "position": 26,
+          "track": {
+            "title": "Tubarões (Ao Vivo)",
+            "artist": "Diego & Victor Hugo"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 26
+        },
+        {
+          "position": 27,
+          "track": {
+            "title": "Carnívoro",
+            "artist": "Mc Jacaré, Mc Negão Original, Mc Lele JP, DJ Japa Nk"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 27
+        },
+        {
+          "position": 28,
+          "track": {
+            "title": "Set Boca 09 (Feat. Mc Jvila, Mc Lele JP, Mc Leozin, Mc Bruninho Da Praia, Dj Glenner)",
+            "artist": "Mc Ryan Sp, Mc Meno K, Mc GP, Dj Daltin No Beat"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 28
+        },
+        {
+          "position": 29,
+          "track": {
+            "title": "Irmão Da Lua, Amigo Das Estrelas",
+            "artist": "Zezé Di Camargo & Luciano"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 29
+        },
+        {
+          "position": 30,
+          "track": {
+            "title": "Cheiro De Culpado (Ao Vivo)",
+            "artist": "Júnior & Cézar"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 30
+        },
+        {
+          "position": 31,
+          "track": {
+            "title": "Aproveita Que Eu Tô Brigado (Ao Vivo)",
+            "artist": "Nattan, Zé Vaqueiro"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 31
+        },
+        {
+          "position": 32,
+          "track": {
+            "title": "Lembrança Boa",
+            "artist": "Pedro & Benicio"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 32
+        },
+        {
+          "position": 33,
+          "track": {
+            "title": "Eu Me Apaixonei",
+            "artist": "Vitinho Imperador"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 33
+        },
+        {
+          "position": 34,
+          "track": {
+            "title": "Deixa Eu (Ao Vivo)",
+            "artist": "Murilo Huff"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 34
+        },
+        {
+          "position": 35,
+          "track": {
+            "title": "Posso Até Não Te Dar Flores (Feat. Dj Davi Dogdog)",
+            "artist": "Dj Japa Nk, Mc Meno K, Mc Ryan Sp, Mc Jacaré"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 35
+        },
+        {
+          "position": 36,
+          "track": {
+            "title": "Quando Eu Tomo Gin De 10",
+            "artist": "Mc Neguinho Do Morro, Mc Nina"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 36
+        },
+        {
+          "position": 37,
+          "track": {
+            "title": "Coração Partido (Corazón Partío) (Ao Vivo)",
+            "artist": "Grupo Menos É Mais"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 37
+        },
+        {
+          "position": 38,
+          "track": {
+            "title": "Beatriz",
+            "artist": "2ZDinizz, Leborato, HHR"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 38
+        },
+        {
+          "position": 39,
+          "track": {
+            "title": "P Do Pecado (Ao Vivo)",
+            "artist": "Grupo Menos É Mais, Simone Mendes"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 39
+        },
+        {
+          "position": 40,
+          "track": {
+            "title": "Baqueado (Ao Vivo)",
+            "artist": "Panda, Ícaro & Gilmar"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 40
+        },
+        {
+          "position": 41,
+          "track": {
+            "title": "Bala Alojada",
+            "artist": "Gusttavo Lima"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 41
+        },
+        {
+          "position": 42,
+          "track": {
+            "title": "Flash (Ao Vivo)",
+            "artist": "Hugo & Guilherme"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 42
+        },
+        {
+          "position": 43,
+          "track": {
+            "title": "Pela Última Vez (Ao Vivo)",
+            "artist": "Grupo Menos É Mais, Nattan"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 43
+        },
+        {
+          "position": 44,
+          "track": {
+            "title": "Não Mexe Nas Minhas Gavetas (Ao Vivo)",
+            "artist": "Danilo & Davi"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 44
+        },
+        {
+          "position": 45,
+          "track": {
+            "title": "Assunto Que Dói",
+            "artist": "Gusttavo Lima"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 45
+        },
+        {
+          "position": 46,
+          "track": {
+            "title": "Pra Não Esquecer De Mim",
+            "artist": "Aaron Modesto, Mc Magal, Mc Meno K, Dj Glenner"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 46
+        },
+        {
+          "position": 47,
+          "track": {
+            "title": "Foi Por Conveniência",
+            "artist": "Marília Mendonça"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 47
+        },
+        {
+          "position": 48,
+          "track": {
+            "title": "Seja Ex (Ao Vivo)",
+            "artist": "Henrique & Juliano"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 48
+        },
+        {
+          "position": 49,
+          "track": {
+            "title": "Meu Silêncio (Ao Vivo)",
+            "artist": "Matheus & Kauan, Simone Mendes"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 49
+        },
+        {
+          "position": 50,
+          "track": {
+            "title": "Amor Dos Outros (Ao Vivo)",
+            "artist": "Henrique & Juliano"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 50
+        }
+      ]
+    }
+  },
+  "regions": {
+    "europe": {
+      "label": "Europe",
+      "countries": []
+    },
+    "anglo": {
+      "label": "Pays anglo-saxons",
+      "countries": []
+    },
+    "latam": {
+      "label": "Amérique du Sud",
+      "countries": [
+        "br"
+      ]
+    }
+  }
+}
