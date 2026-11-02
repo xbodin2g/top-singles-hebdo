@@ -4,9 +4,9 @@
     "week": 45,
     "year": 2026,
     "updatedAt": "2026-11-02",
-    "sourceNote": "✅ Toutes les sources : États-Unis (acharts), France (acharts), Royaume-Uni (acharts), Allemagne (itunes), Suisse (itunes), Brésil (itunes).",
+    "sourceNote": "✅ Toutes les sources : États-Unis (billboard), France (acharts), Royaume-Uni (acharts), Allemagne (itunes), Suisse (itunes), Brésil (itunes).",
     "sources": {
-      "us": "acharts",
+      "us": "billboard",
       "fr": "acharts",
       "gb": "acharts",
       "de": "itunes",
@@ -672,7 +672,7 @@
         }
       ],
       "isDemo": false,
-      "sourceType": "acharts"
+      "sourceType": "billboard"
     },
     "fr": {
       "name": "France",
@@ -2013,9 +2013,9 @@
         {
           "position": 2,
           "track": {
-            "title": "Movin' To The Sun",
-            "artist": "HUGEL, Imael Angel & Ultra Naté",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/61/7a/96617ab5-51da-7cfc-97e5-c5a6a893c210/1087654.jpg/170x170bb.png"
+            "title": "Rise Slow",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/27/8a/23278a46-aa21-30f3-9e68-213772c53ea7/825181567094.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2026,9 +2026,9 @@
         {
           "position": 3,
           "track": {
-            "title": "Rise Slow",
-            "artist": "Kimo Sounds",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/27/8a/23278a46-aa21-30f3-9e68-213772c53ea7/825181567094.jpg/170x170bb.png"
+            "title": "Movin' To The Sun",
+            "artist": "HUGEL, Imael Angel & Ultra Naté",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/61/7a/96617ab5-51da-7cfc-97e5-c5a6a893c210/1087654.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2065,9 +2065,9 @@
         {
           "position": 6,
           "track": {
-            "title": "Inside My Soul",
-            "artist": "SK.music",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/6b/68/bf6b68bb-b62a-a478-6ae0-b652972ce5b0/883128956318.jpg/170x170bb.png"
+            "title": "Patient Zero",
+            "artist": "Taylor Swift",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2078,9 +2078,9 @@
         {
           "position": 7,
           "track": {
-            "title": "Patient Zero",
-            "artist": "Taylor Swift",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/170x170bb.png"
+            "title": "Inside My Soul",
+            "artist": "SK.music",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/6b/68/bf6b68bb-b62a-a478-6ae0-b652972ce5b0/883128956318.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2117,9 +2117,9 @@
         {
           "position": 10,
           "track": {
-            "title": "Magnetic",
-            "artist": "The Bausa",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/f3/8d/9ef38d20-68be-39bf-f1b9-7df49a4ba110/196874116135.jpg/170x170bb.png"
+            "title": "Mr. Know It All",
+            "artist": "Teddy Swims",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/fb/0b/7efb0b1b-8e34-5bd0-99ee-eafc83b8d5c7/054391217349.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2130,9 +2130,9 @@
         {
           "position": 11,
           "track": {
-            "title": "Bad Times (Extended Version)",
-            "artist": "Imael Angel",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/03/7f/08037f7d-6173-9348-991d-5966f0686539/artwork.jpg/170x170bb.png"
+            "title": "Magnetic",
+            "artist": "The Bausa",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/f3/8d/9ef38d20-68be-39bf-f1b9-7df49a4ba110/196874116135.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2143,9 +2143,9 @@
         {
           "position": 12,
           "track": {
-            "title": "Streichholz",
-            "artist": "Kontra K",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cc/ca/86/ccca86b3-874c-84f8-7b3e-0422a80f2a4c/26UM1IM37974.rgb.jpg/170x170bb.png"
+            "title": "Babydoll",
+            "artist": "Jamie Miller & Antonio Cipriano",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/85/94/a98594bd-8e36-7b9f-a59d-77a3a19eb9a1/26UM1IM19333.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2156,9 +2156,9 @@
         {
           "position": 13,
           "track": {
-            "title": "Make Me Love You",
-            "artist": "Nickelback",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/bb/84/07bb846c-eaea-b26a-aebd-ba911351a35b/00823375244738_Cover.jpg/170x170bb.png"
+            "title": "New Religion",
+            "artist": "Bebe Rexha & Faithless",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/99/14/1d99143b-f5ce-6a98-2992-f91a050835e3/199316500523_cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2169,9 +2169,9 @@
         {
           "position": 14,
           "track": {
-            "title": "Engel",
-            "artist": "Klangspiel",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/83/71/018371a2-3527-3847-bc93-b4e116acd99c/4591924.jpg/170x170bb.png"
+            "title": "Streichholz",
+            "artist": "Kontra K",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cc/ca/86/ccca86b3-874c-84f8-7b3e-0422a80f2a4c/26UM1IM37974.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2182,9 +2182,9 @@
         {
           "position": 15,
           "track": {
-            "title": "Mr. Know It All",
-            "artist": "Teddy Swims",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/fb/0b/7efb0b1b-8e34-5bd0-99ee-eafc83b8d5c7/054391217349.jpg/170x170bb.png"
+            "title": "HEUTE NACHT",
+            "artist": "Helene Fischer",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/06/cb/a206cbe6-dc24-51d8-cee1-595e1404e0c6/26UM1IM36082.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2195,9 +2195,9 @@
         {
           "position": 16,
           "track": {
-            "title": "HEUTE NACHT",
-            "artist": "Helene Fischer",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/06/cb/a206cbe6-dc24-51d8-cee1-595e1404e0c6/26UM1IM36082.rgb.jpg/170x170bb.png"
+            "title": "Bad Times (Extended Version)",
+            "artist": "Imael Angel",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/03/7f/08037f7d-6173-9348-991d-5966f0686539/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2208,9 +2208,9 @@
         {
           "position": 17,
           "track": {
-            "title": "Babydoll",
-            "artist": "Jamie Miller & Antonio Cipriano",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/85/94/a98594bd-8e36-7b9f-a59d-77a3a19eb9a1/26UM1IM19333.rgb.jpg/170x170bb.png"
+            "title": "WARUM",
+            "artist": "Helene Fischer",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/06/cb/a206cbe6-dc24-51d8-cee1-595e1404e0c6/26UM1IM36082.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2221,9 +2221,9 @@
         {
           "position": 18,
           "track": {
-            "title": "Mi Chico",
-            "artist": "DJ Goja",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/77/e2/1377e282-b756-f06c-7d8f-46c68fbd7276/825700894823_cover.jpg/170x170bb.png"
+            "title": "Make Me Love You",
+            "artist": "Nickelback",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/bb/84/07bb846c-eaea-b26a-aebd-ba911351a35b/00823375244738_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2234,9 +2234,9 @@
         {
           "position": 19,
           "track": {
-            "title": "New Religion",
-            "artist": "Bebe Rexha & Faithless",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/99/14/1d99143b-f5ce-6a98-2992-f91a050835e3/199316500523_cover.jpg/170x170bb.png"
+            "title": "Ich weiß, was du brauchst",
+            "artist": "Kerstin Ott & Maite Kelly",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/a8/eb/73a8eb0f-6653-b324-8089-246b8ecc694a/26UM1IM20234.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2247,9 +2247,9 @@
         {
           "position": 20,
           "track": {
-            "title": "WARUM",
-            "artist": "Helene Fischer",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/06/cb/a206cbe6-dc24-51d8-cee1-595e1404e0c6/26UM1IM36082.rgb.jpg/170x170bb.png"
+            "title": "Mi Chico",
+            "artist": "DJ Goja",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/77/e2/1377e282-b756-f06c-7d8f-46c68fbd7276/825700894823_cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2260,9 +2260,9 @@
         {
           "position": 21,
           "track": {
-            "title": "Thriller",
-            "artist": "Michael Jackson",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/170x170bb.png"
+            "title": "You Never Can Tell",
+            "artist": "Chuck Berry",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7a/26/3d/7a263da3-fc94-9044-25cd-924dc9a7b2ab/06UMGIM15342.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2273,9 +2273,9 @@
         {
           "position": 22,
           "track": {
-            "title": "Bass Persuades",
-            "artist": "Miley Cyrus",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/af/51/ffaf51a6-d711-6f92-a5d6-f90e98014f0f/075679564061.jpg/170x170bb.png"
+            "title": "Dai Dai",
+            "artist": "Shakira & Burna Boy",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2286,9 +2286,9 @@
         {
           "position": 23,
           "track": {
-            "title": "Ich weiß, was du brauchst",
-            "artist": "Kerstin Ott & Maite Kelly",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/a8/eb/73a8eb0f-6653-b324-8089-246b8ecc694a/26UM1IM20234.rgb.jpg/170x170bb.png"
+            "title": "Thriller",
+            "artist": "Michael Jackson",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2299,9 +2299,9 @@
         {
           "position": 24,
           "track": {
-            "title": "Dai Dai",
-            "artist": "Shakira & Burna Boy",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/170x170bb.png"
+            "title": "Stop The Wedding!",
+            "artist": "Ashe",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/55/7a/b7557aef-bb0a-cc57-25bf-979eee194f16/075679571403.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2312,9 +2312,9 @@
         {
           "position": 25,
           "track": {
-            "title": "You Never Can Tell",
-            "artist": "Chuck Berry",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7a/26/3d/7a263da3-fc94-9044-25cd-924dc9a7b2ab/06UMGIM15342.rgb.jpg/170x170bb.png"
+            "title": "Engel",
+            "artist": "Klangspiel",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/83/71/018371a2-3527-3847-bc93-b4e116acd99c/4591924.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2325,9 +2325,9 @@
         {
           "position": 26,
           "track": {
-            "title": "Why Don't You Spend the Night",
-            "artist": "Voltage X",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/4b/9c/c14b9c8e-f6f7-9dbc-94bb-18f58f7f0430/artwork.jpg/170x170bb.png"
+            "title": "Beweis",
+            "artist": "FRIDA GOLD & Jupiter Jones",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/2f/86/6e2f8694-40a0-994c-29ad-b8ce8268b0dd/cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2338,9 +2338,9 @@
         {
           "position": 27,
           "track": {
-            "title": "Girl from Vancouver",
-            "artist": "Svavar Knútur",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1c/fc/2f/1cfc2fa5-945e-96dc-2f52-8a692e384663/cover.jpg/170x170bb.png"
+            "title": "Mi Chico (Jason Derulo x Melody Version)",
+            "artist": "DJ Goja, Jason Derulo & Melody",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/aa/2b/c5aa2b28-7860-b387-fec4-4cefd5096150/712132026161_cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2351,9 +2351,9 @@
         {
           "position": 28,
           "track": {
-            "title": "Stop The Wedding!",
-            "artist": "Ashe",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/55/7a/b7557aef-bb0a-cc57-25bf-979eee194f16/075679571403.jpg/170x170bb.png"
+            "title": "Bass Persuades",
+            "artist": "Miley Cyrus",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/af/51/ffaf51a6-d711-6f92-a5d6-f90e98014f0f/075679564061.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2364,9 +2364,9 @@
         {
           "position": 29,
           "track": {
-            "title": "She Break",
-            "artist": "shockfactor",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/6e/40/6d6e402b-0f07-b156-c972-110edc2b4fed/artwork.jpg/170x170bb.png"
+            "title": "Why Don't You Spend the Night",
+            "artist": "Voltage X",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/4b/9c/c14b9c8e-f6f7-9dbc-94bb-18f58f7f0430/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2377,9 +2377,9 @@
         {
           "position": 30,
           "track": {
-            "title": "Mi Chico (Jason Derulo x Melody Version)",
-            "artist": "DJ Goja, Jason Derulo & Melody",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/aa/2b/c5aa2b28-7860-b387-fec4-4cefd5096150/712132026161_cover.jpg/170x170bb.png"
+            "title": "VALHALLA CALLING",
+            "artist": "Ragal Ironbull",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/f5/ce/3cf5ce7f-0eb7-ab67-d641-924cb9f96aef/7300349535632_cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2390,9 +2390,9 @@
         {
           "position": 31,
           "track": {
-            "title": "Roll it Halleluja",
-            "artist": "Cade Voss",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f7/66/d1/f766d19d-3f8e-6afa-990e-128d0d7f360e/artwork.jpg/170x170bb.png"
+            "title": "Whole World",
+            "artist": "Reema",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/0d/37/000d37fa-1091-fa2e-195f-da1016004232/199066796634.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2403,9 +2403,9 @@
         {
           "position": 32,
           "track": {
-            "title": "Für immer",
-            "artist": "AYLIVA",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/00/1a/81001ad7-f3f7-4906-fd6b-d3221c5bb2f3/1200220263486.jpg/170x170bb.png"
+            "title": "American Girls",
+            "artist": "Harry Styles",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2416,9 +2416,9 @@
         {
           "position": 33,
           "track": {
-            "title": "Beweis",
-            "artist": "FRIDA GOLD & Jupiter Jones",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/2f/86/6e2f8694-40a0-994c-29ad-b8ce8268b0dd/cover.jpg/170x170bb.png"
+            "title": "Roll it Halleluja",
+            "artist": "Cade Voss",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f7/66/d1/f766d19d-3f8e-6afa-990e-128d0d7f360e/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2429,9 +2429,9 @@
         {
           "position": 34,
           "track": {
-            "title": "BbY WOW",
-            "artist": "KAROL G, Judeline & rusowsky",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/170x170bb.png"
+            "title": "Housewife",
+            "artist": "Tate McRae",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/64/e4/6964e483-c02c-e389-14f4-c426e8c65f2c/196874840146.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2442,9 +2442,9 @@
         {
           "position": 35,
           "track": {
-            "title": "Whole World",
-            "artist": "Reema",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/0d/37/000d37fa-1091-fa2e-195f-da1016004232/199066796634.jpg/170x170bb.png"
+            "title": "Let Time Answer",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/4b/81/694b81b2-bd39-989e-8354-9cb87b12fdb2/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2455,9 +2455,9 @@
         {
           "position": 36,
           "track": {
-            "title": "American Girls",
-            "artist": "Harry Styles",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/170x170bb.png"
+            "title": "Girl from Vancouver",
+            "artist": "Svavar Knútur",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1c/fc/2f/1cfc2fa5-945e-96dc-2f52-8a692e384663/cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2468,9 +2468,9 @@
         {
           "position": 37,
           "track": {
-            "title": "drop dead",
-            "artist": "Olivia Rodrigo",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/170x170bb.png"
+            "title": "Not for Everyone",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/f3/8a/7df38a72-96cf-23e0-f820-d6922f1a7fd4/882061956126.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2481,9 +2481,9 @@
         {
           "position": 38,
           "track": {
-            "title": "Choosin' Texas",
-            "artist": "Ella Langley",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/170x170bb.png"
+            "title": "She Break",
+            "artist": "shockfactor",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/6e/40/6d6e402b-0f07-b156-c972-110edc2b4fed/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2494,9 +2494,9 @@
         {
           "position": 39,
           "track": {
-            "title": "Rise Slow (Bass Boosted)",
-            "artist": "Kimo Sounds",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/e7/9a/35e79aa2-4ee9-b67e-7d64-136ad230376b/882000102539.jpg/170x170bb.png"
+            "title": "drop dead",
+            "artist": "Olivia Rodrigo",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2507,9 +2507,9 @@
         {
           "position": 40,
           "track": {
-            "title": "Islas En El Mar (feat. Stephanie Amaro)",
-            "artist": "Aaron Nicholas",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/4a/35/6b4a3529-368b-b603-04a4-87d1029d8414/1963625078696_cover.jpg/170x170bb.png"
+            "title": "Für immer",
+            "artist": "AYLIVA",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/00/1a/81001ad7-f3f7-4906-fd6b-d3221c5bb2f3/1200220263486.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2520,9 +2520,9 @@
         {
           "position": 41,
           "track": {
-            "title": "Housewife",
-            "artist": "Tate McRae",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/64/e4/6964e483-c02c-e389-14f4-c426e8c65f2c/196874840146.jpg/170x170bb.png"
+            "title": "Choosin' Texas",
+            "artist": "Ella Langley",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2533,9 +2533,9 @@
         {
           "position": 42,
           "track": {
-            "title": "Big Dream (feat. Zenan)",
-            "artist": "RamSkull",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/97/49/c397492a-3077-8fe0-421b-5d317a262869/11300.jpg/170x170bb.png"
+            "title": "Rise Slow (Bass Boosted)",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/e7/9a/35e79aa2-4ee9-b67e-7d64-136ad230376b/882000102539.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2546,9 +2546,9 @@
         {
           "position": 43,
           "track": {
-            "title": "Ghostbusters",
-            "artist": "Ray Parker Jr.",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9a/70/43/9a704362-976d-ec4b-0367-54d368cb0ef8/886445902204.jpg/170x170bb.png"
+            "title": "Find Me",
+            "artist": "Tiffany Aris",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/77/2b/69/772b691a-8a42-fa9a-17d2-7314b0a0edb2/26SYMIM32404.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2559,9 +2559,9 @@
         {
           "position": 44,
           "track": {
-            "title": "Forever Lit (feat. The Citadel)",
-            "artist": "Ill Justice",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/b5/96/15b5962b-b942-a909-3b58-559741d3bd89/820233314923.jpg/170x170bb.png"
+            "title": "Cool",
+            "artist": "Mark Forster",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/bf/eb/c7bfeb54-c9fc-c849-ba3b-edcab5260e49/196874804643.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2572,9 +2572,9 @@
         {
           "position": 45,
           "track": {
-            "title": "Halloween Theme",
-            "artist": "John Carpenter, Cody Carpenter & Daniel Davies",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/28/f0/8328f03c-30eb-b8fe-523a-c5a8aa4c7850/843563106761.jpg/170x170bb.png"
+            "title": "BbY WOW",
+            "artist": "KAROL G, Judeline & rusowsky",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2585,9 +2585,9 @@
         {
           "position": 46,
           "track": {
-            "title": "Sorry Papi",
-            "artist": "Topic & Becky G",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/2f/3c/cf2f3c1c-d476-f315-4e75-00a6da73fba6/26UMGIM35250.rgb.jpg/170x170bb.png"
+            "title": "My own rules",
+            "artist": "Ionut Sima785",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/7e/67/737e6725-c70f-f43e-e050-34105196a181/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2598,9 +2598,9 @@
         {
           "position": 47,
           "track": {
-            "title": "Not for Everyone",
-            "artist": "Kimo Sounds",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/f3/8a/7df38a72-96cf-23e0-f820-d6922f1a7fd4/882061956126.jpg/170x170bb.png"
+            "title": "Velho Siqueira",
+            "artist": "CROODEK FOLK",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/2d/7f/b82d7fc6-bb7b-c2b1-891d-1de2bc217ba7/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2611,9 +2611,9 @@
         {
           "position": 48,
           "track": {
-            "title": "VALHALLA CALLING",
-            "artist": "Ragal Ironbull",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/f5/ce/3cf5ce7f-0eb7-ab67-d641-924cb9f96aef/7300349535632_cover.jpg/170x170bb.png"
+            "title": "Collide",
+            "artist": "Glockenbach & Calum Scott",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/68/49/0d684949-c30c-5a6f-b9ab-0e3cd5f44202/25UM1IM84598.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2624,9 +2624,9 @@
         {
           "position": 49,
           "track": {
-            "title": "Velho Siqueira",
-            "artist": "CROODEK FOLK",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/2d/7f/b82d7fc6-bb7b-c2b1-891d-1de2bc217ba7/artwork.jpg/170x170bb.png"
+            "title": "Make It Spectacular",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f2/93/15/f2931572-4cb9-25c8-d32c-d8a886f66b51/882352876447.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2637,9 +2637,9 @@
         {
           "position": 50,
           "track": {
-            "title": "Make It Spectacular",
-            "artist": "Kimo Sounds",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f2/93/15/f2931572-4cb9-25c8-d32c-d8a886f66b51/882352876447.jpg/170x170bb.png"
+            "title": "Mama, Don't Close Your Eyes",
+            "artist": "Bjorn Bonebreaker",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/71/cf/0571cf88-b7fc-b762-d646-8a4b3a598953/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2685,9 +2685,9 @@
         {
           "position": 3,
           "track": {
-            "title": "Dreamer",
-            "artist": "Stubete Gäng",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/40/8f/a1408f13-468d-0004-3710-256cc278bc01/cover_4062851349222.jpg/170x170bb.png"
+            "title": "Rise Slow",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/27/8a/23278a46-aa21-30f3-9e68-213772c53ea7/825181567094.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2698,9 +2698,9 @@
         {
           "position": 4,
           "track": {
-            "title": "Rise Slow",
-            "artist": "Kimo Sounds",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/27/8a/23278a46-aa21-30f3-9e68-213772c53ea7/825181567094.jpg/170x170bb.png"
+            "title": "BbY WOW",
+            "artist": "KAROL G, Judeline & rusowsky",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2711,9 +2711,9 @@
         {
           "position": 5,
           "track": {
-            "title": "Mama, Don't Close Your Eyes",
-            "artist": "Bjorn Bonebreaker",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/71/cf/0571cf88-b7fc-b762-d646-8a4b3a598953/artwork.jpg/170x170bb.png"
+            "title": "BAD TIMES",
+            "artist": "Imael Angel",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/ad/da/d5adda6b-65f4-755a-05ab-f33a4e0e4cdd/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2724,9 +2724,9 @@
         {
           "position": 6,
           "track": {
-            "title": "Inside My Soul",
-            "artist": "SK.music",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/6b/68/bf6b68bb-b62a-a478-6ae0-b652972ce5b0/883128956318.jpg/170x170bb.png"
+            "title": "Dreamer",
+            "artist": "Stubete Gäng",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/40/8f/a1408f13-468d-0004-3710-256cc278bc01/cover_4062851349222.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2737,9 +2737,9 @@
         {
           "position": 7,
           "track": {
-            "title": "BAD TIMES",
-            "artist": "Imael Angel",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/ad/da/d5adda6b-65f4-755a-05ab-f33a4e0e4cdd/artwork.jpg/170x170bb.png"
+            "title": "Mama, Don't Close Your Eyes",
+            "artist": "Bjorn Bonebreaker",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/71/cf/0571cf88-b7fc-b762-d646-8a4b3a598953/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2750,9 +2750,9 @@
         {
           "position": 8,
           "track": {
-            "title": "hate that i made you love me",
-            "artist": "Ariana Grande",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/170x170bb.png"
+            "title": "Why Don't You Spend the Night",
+            "artist": "Voltage X",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/4b/9c/c14b9c8e-f6f7-9dbc-94bb-18f58f7f0430/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2763,9 +2763,9 @@
         {
           "position": 9,
           "track": {
-            "title": "Bonito, Bonito",
-            "artist": "Thiago Navarro Music",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/47/fc/7747fc1e-8167-5de6-b8e7-cf9b1038aea3/882436183713_cover.jpg/170x170bb.png"
+            "title": "hate that i made you love me",
+            "artist": "Ariana Grande",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2776,9 +2776,9 @@
         {
           "position": 10,
           "track": {
-            "title": "Dai Dai",
-            "artist": "Shakira & Burna Boy",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/170x170bb.png"
+            "title": "Bonito, Bonito",
+            "artist": "Thiago Navarro Music",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/47/fc/7747fc1e-8167-5de6-b8e7-cf9b1038aea3/882436183713_cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2789,9 +2789,9 @@
         {
           "position": 11,
           "track": {
-            "title": "Movin' To The Sun",
-            "artist": "HUGEL, Imael Angel & Ultra Naté",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/61/7a/96617ab5-51da-7cfc-97e5-c5a6a893c210/1087654.jpg/170x170bb.png"
+            "title": "Dai Dai",
+            "artist": "Shakira & Burna Boy",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2802,9 +2802,9 @@
         {
           "position": 12,
           "track": {
-            "title": "Bad Times (Extended Version)",
-            "artist": "Imael Angel",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/03/7f/08037f7d-6173-9348-991d-5966f0686539/artwork.jpg/170x170bb.png"
+            "title": "Movin' To The Sun",
+            "artist": "HUGEL, Imael Angel & Ultra Naté",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/61/7a/96617ab5-51da-7cfc-97e5-c5a6a893c210/1087654.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2815,9 +2815,9 @@
         {
           "position": 13,
           "track": {
-            "title": "Bass Persuades",
-            "artist": "Miley Cyrus",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/af/51/ffaf51a6-d711-6f92-a5d6-f90e98014f0f/075679564061.jpg/170x170bb.png"
+            "title": "Inside My Soul",
+            "artist": "SK.music",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/6b/68/bf6b68bb-b62a-a478-6ae0-b652972ce5b0/883128956318.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2828,9 +2828,9 @@
         {
           "position": 14,
           "track": {
-            "title": "Suite for Variety Orchestra: VII. Waltz No. 2 (Arr. Garrett & Haywood for Violin, Piano, Guitar & Orchestra)",
-            "artist": "David Garrett, Julien Quentin, Franck van der Heijden & Orchestra the Prezent",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9f/f0/33/9ff033b4-56e9-9d24-5e81-2d20fc6c5834/26UMGIM72415.rgb.jpg/170x170bb.png"
+            "title": "J'ai menti",
+            "artist": "Vianney",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/e8/31/1fe8311c-c3b4-69cb-7830-9319ef8c5cc1/cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2841,9 +2841,9 @@
         {
           "position": 15,
           "track": {
-            "title": "Marble Halls",
-            "artist": "Enya",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/e5/b0/48/mzi.zhwasyyi.jpg/170x170bb.png"
+            "title": "Bad Times (Extended Version)",
+            "artist": "Imael Angel",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/03/7f/08037f7d-6173-9348-991d-5966f0686539/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2854,9 +2854,9 @@
         {
           "position": 16,
           "track": {
-            "title": "Chaussures Roses",
-            "artist": "TeddyBear",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/36/83/853683cc-0a8c-599c-cb6e-863feda0abc4/cover.jpg/170x170bb.png"
+            "title": "Bass Persuades",
+            "artist": "Miley Cyrus",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/af/51/ffaf51a6-d711-6f92-a5d6-f90e98014f0f/075679564061.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2867,9 +2867,9 @@
         {
           "position": 17,
           "track": {
-            "title": "Make Me Love You",
-            "artist": "Nickelback",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/bb/84/07bb846c-eaea-b26a-aebd-ba911351a35b/00823375244738_Cover.jpg/170x170bb.png"
+            "title": "Basta un sorriso",
+            "artist": "Mira Mova Music",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/d9/4d/d4d94d1e-b9e4-0276-1473-1fab800724e0/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2880,9 +2880,9 @@
         {
           "position": 18,
           "track": {
-            "title": "Mon Amour",
-            "artist": "Hecht",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/dd/75/f4dd7566-e9cd-e10f-7cef-da7a327290ef/7649995049323_3000.jpg/170x170bb.png"
+            "title": "Suite for Variety Orchestra: VII. Waltz No. 2 (Arr. Garrett & Haywood for Violin, Piano, Guitar & Orchestra)",
+            "artist": "David Garrett, Julien Quentin, Franck van der Heijden & Orchestra the Prezent",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9f/f0/33/9ff033b4-56e9-9d24-5e81-2d20fc6c5834/26UMGIM72415.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2893,9 +2893,9 @@
         {
           "position": 19,
           "track": {
-            "title": "Sola Una Vida",
-            "artist": "DJ Villa Sol",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/f0/6e/48f06e19-fc49-0632-c1e4-8b67aca82580/artwork.jpg/170x170bb.png"
+            "title": "Marble Halls",
+            "artist": "Enya",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/e5/b0/48/mzi.zhwasyyi.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2906,9 +2906,9 @@
         {
           "position": 20,
           "track": {
-            "title": "Animal",
-            "artist": "KATSEYE",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/0e/32/350e32e1-7bfc-6d96-174a-0d11309365ef/26UMGIM84288.rgb.jpg/170x170bb.png"
+            "title": "Chaussures Roses",
+            "artist": "TeddyBear",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/36/83/853683cc-0a8c-599c-cb6e-863feda0abc4/cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2919,9 +2919,9 @@
         {
           "position": 21,
           "track": {
-            "title": "BbY WOW",
-            "artist": "KAROL G, Judeline & rusowsky",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/170x170bb.png"
+            "title": "Make Me Love You",
+            "artist": "Nickelback",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/bb/84/07bb846c-eaea-b26a-aebd-ba911351a35b/00823375244738_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2932,9 +2932,9 @@
         {
           "position": 22,
           "track": {
-            "title": "Basta un sorriso",
-            "artist": "Mira Mova Music",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/d9/4d/d4d94d1e-b9e4-0276-1473-1fab800724e0/artwork.jpg/170x170bb.png"
+            "title": "Mon Amour",
+            "artist": "Hecht",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/dd/75/f4dd7566-e9cd-e10f-7cef-da7a327290ef/7649995049323_3000.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2945,9 +2945,9 @@
         {
           "position": 23,
           "track": {
-            "title": "Mr. Know It All",
-            "artist": "Teddy Swims",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/d3/6c/13d36c8f-1530-29d8-77c4-7120c35cddb2/093624815358.jpg/170x170bb.png"
+            "title": "Combien pour la nuit (feat. DJ Snake)",
+            "artist": "Mylène Farmer",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/8e/c8/098ec8e1-279c-786e-9ee4-28db2a039d1c/196874746028.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2958,9 +2958,9 @@
         {
           "position": 24,
           "track": {
-            "title": "My Body Isn't Ready",
-            "artist": "sombr",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/1d/f6/2f1df6d3-09e2-e0a2-2e2b-fd5bb05be1ab/054391214515.jpg/170x170bb.png"
+            "title": "Die On This Hill",
+            "artist": "SIENNA SPIRO",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/53/d1/f053d15c-e4b0-7577-dc4d-2ab7d192e1b9/25UM1IM42518.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2971,9 +2971,9 @@
         {
           "position": 25,
           "track": {
-            "title": "Break Out",
-            "artist": "Yello",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/f8/7a/91f87a85-7c41-ef5f-e312-2f4d89f774e0/26UMGIM84592.rgb.jpg/170x170bb.png"
+            "title": "Sola Una Vida",
+            "artist": "DJ Villa Sol",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/f0/6e/48f06e19-fc49-0632-c1e4-8b67aca82580/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2984,9 +2984,9 @@
         {
           "position": 26,
           "track": {
-            "title": "Le Plus Beau",
-            "artist": "TeddyBear",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/0e/ba/210ebaaa-7be7-8017-2a6a-0596b70675a5/cover.jpg/170x170bb.png"
+            "title": "Knockin' On Heaven's Door",
+            "artist": "Bob Dylan",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/06/12/7e06123a-c3af-75cf-c611-94334cb0bf20/886444247238.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -2997,9 +2997,9 @@
         {
           "position": 27,
           "track": {
-            "title": "Rise Slow (Bass Boosted)",
-            "artist": "Kimo Sounds",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/e7/9a/35e79aa2-4ee9-b67e-7d64-136ad230376b/882000102539.jpg/170x170bb.png"
+            "title": "FEVER DREAM",
+            "artist": "Alex Warren",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/f7/65/bef765dc-cf56-c979-976e-2e133040793f/075679588937.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3010,9 +3010,9 @@
         {
           "position": 28,
           "track": {
-            "title": "Giocano a guerra",
-            "artist": "Nina Sartori",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/66/94/dc669453-6c3d-ebc7-da95-8849c8d1efc0/artwork.jpg/170x170bb.png"
+            "title": "Animal",
+            "artist": "KATSEYE",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/0e/32/350e32e1-7bfc-6d96-174a-0d11309365ef/26UMGIM84288.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3023,9 +3023,9 @@
         {
           "position": 29,
           "track": {
-            "title": "I Will Always Love You",
-            "artist": "Dolly Parton",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ac/ce/e3/accee3dd-e69d-ebc8-8363-843cfd75a288/884977039443.jpg/170x170bb.png"
+            "title": "Every Breath You Take",
+            "artist": "The Police",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/b7/db/42b7dbe1-d13f-c600-5b78-daa57c5d0f08/06UMGIM50761.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3036,9 +3036,9 @@
         {
           "position": 30,
           "track": {
-            "title": "Schiisswält (Hüt bring der Blueme)",
-            "artist": "Dabu Fantastic",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/7c/31/c57c311b-47d3-8be9-eca7-ca03e8cb6f21/7649995049743_3000.jpg/170x170bb.png"
+            "title": "Träume der Hoffnung",
+            "artist": "Sängerfreunde",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/68/76/24/687624e7-83ef-f944-29fb-7611f61404d4/cover_0745110421597.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3049,9 +3049,9 @@
         {
           "position": 31,
           "track": {
-            "title": "Thriller",
-            "artist": "Michael Jackson",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/170x170bb.png"
+            "title": "D'or et d'étain",
+            "artist": "Vianney",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/e8/31/1fe8311c-c3b4-69cb-7830-9319ef8c5cc1/cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3062,9 +3062,9 @@
         {
           "position": 32,
           "track": {
-            "title": "Perfect Man",
-            "artist": "Teddy Swims",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/d3/6c/13d36c8f-1530-29d8-77c4-7120c35cddb2/093624815358.jpg/170x170bb.png"
+            "title": "Wicked Game",
+            "artist": "Chris Isaak",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/e9/0f/67e90f2d-c229-3572-5f0f-d615dfeaa652/00792755800553_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3075,9 +3075,9 @@
         {
           "position": 33,
           "track": {
-            "title": "Ghostbusters",
-            "artist": "Ray Parker Jr.",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/96/63/c596638c-a823-1a5e-dba0-6f1df67ab671/886447946862.jpg/170x170bb.png"
+            "title": "My Moment",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5c/da/d7/5cdad742-9e9b-6659-b171-83e766b647d2/882652421439.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3088,9 +3088,9 @@
         {
           "position": 34,
           "track": {
-            "title": "Cornfield Chase",
-            "artist": "Hans Zimmer",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f4/5b/73/f45b735a-8d7a-9713-b217-0f8e1593c28b/794043201943.jpg/170x170bb.png"
+            "title": "Mr. Know It All",
+            "artist": "Teddy Swims",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/d3/6c/13d36c8f-1530-29d8-77c4-7120c35cddb2/093624815358.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3101,9 +3101,9 @@
         {
           "position": 35,
           "track": {
-            "title": "Combien pour la nuit (feat. DJ Snake)",
-            "artist": "Mylène Farmer",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/8e/c8/098ec8e1-279c-786e-9ee4-28db2a039d1c/196874746028.jpg/170x170bb.png"
+            "title": "My Body Isn't Ready",
+            "artist": "sombr",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/1d/f6/2f1df6d3-09e2-e0a2-2e2b-fd5bb05be1ab/054391214515.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3114,9 +3114,9 @@
         {
           "position": 36,
           "track": {
-            "title": "Piccole Cose",
-            "artist": "Giordana Angi",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/a9/57/70a957e7-28ad-259a-75c4-49595324f49d/1200220295272.jpg/170x170bb.png"
+            "title": "Merry Christmas Everyone",
+            "artist": "Shakin' Stevens",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/1a/fc/7f/mzi.znxgldzx.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3127,9 +3127,9 @@
         {
           "position": 37,
           "track": {
-            "title": "Storm in my heart",
-            "artist": "Rockin' Jukebox",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/b2/cd/75b2cd4f-6157-5cac-69ab-76a6eeb0325b/artwork.jpg/170x170bb.png"
+            "title": "You (feat. Linda Elys)",
+            "artist": "Stress",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/fb/18/0bfb18df-c539-74eb-d7ed-9427c9a68b2e/26UMGIM80796.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3140,9 +3140,9 @@
         {
           "position": 38,
           "track": {
-            "title": "I Knew It, I Knew You (From \"Toy Story 5\")",
-            "artist": "Taylor Swift",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/35/6c/34356cb4-bd0b-3bac-b118-1a6d7264dc64/26UMGIM69942.rgb.jpg/170x170bb.png"
+            "title": "Now We Are Free",
+            "artist": "Lisa Gerrard, Gavin Greenaway, The Lyndhurst Orchestra, Bruce Fowler, Yvonne S. Moriarty, Walt Fowler, Ladd McIntosh, Elizabeth Finch, Jack Smalley & Hans Zimmer",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/22/2a/1d/222a1d18-6d21-fec2-3ef0-ce0f7988ed65/06UMGIM05485.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3153,9 +3153,9 @@
         {
           "position": 39,
           "track": {
-            "title": "End of Beginning",
-            "artist": "Djo",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/58/bb/9d58bb3a-c6b5-4c3d-fbba-50872d2712f4/5056494917336.jpg/170x170bb.png"
+            "title": "Si j'avais su",
+            "artist": "Claudio Capéo",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/ee/c7/75eec754-f7ca-6f76-727e-c2ab08b7a1ed/cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3166,9 +3166,9 @@
         {
           "position": 40,
           "track": {
-            "title": "You Say",
-            "artist": "Lauren Daigle",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/aa/2b/b9/aa2bb92a-4ace-da16-5118-21b78935e185/829619167054.jpg/170x170bb.png"
+            "title": "des fleurs",
+            "artist": "Tove Lo & Stromae",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/ee/b1/e2eeb1c6-a96a-d768-643c-20e087bce6d8/00823375156413_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3179,9 +3179,9 @@
         {
           "position": 41,
           "track": {
-            "title": "Knockin' On Heaven's Door",
-            "artist": "Bob Dylan",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/06/12/7e06123a-c3af-75cf-c611-94334cb0bf20/886444247238.jpg/170x170bb.png"
+            "title": "Break Out",
+            "artist": "Yello",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/f8/7a/91f87a85-7c41-ef5f-e312-2f4d89f774e0/26UMGIM84592.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3192,9 +3192,9 @@
         {
           "position": 42,
           "track": {
-            "title": "Sois fière de toi",
-            "artist": "FERNAND",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/49/6b/c2496be7-9f39-7028-58b5-874363f903f5/artwork.jpg/170x170bb.png"
+            "title": "WHY DON'T YOU STAY",
+            "artist": "Nico Santos",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2c/e4/bf/2ce4bfe3-4d7d-5239-971c-3d53c03fa81b/26UMGIM76924.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3205,9 +3205,9 @@
         {
           "position": 43,
           "track": {
-            "title": "FEVER DREAM",
-            "artist": "Alex Warren",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/f7/65/bef765dc-cf56-c979-976e-2e133040793f/075679588937.jpg/170x170bb.png"
+            "title": "Le Plus Beau",
+            "artist": "TeddyBear",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/0e/ba/210ebaaa-7be7-8017-2a6a-0596b70675a5/cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3218,9 +3218,9 @@
         {
           "position": 44,
           "track": {
-            "title": "VALHALLA CALLING",
-            "artist": "Ragal Ironbull",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/f5/ce/3cf5ce7f-0eb7-ab67-d641-924cb9f96aef/7300349535632_cover.jpg/170x170bb.png"
+            "title": "Rise Slow (Bass Boosted)",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/e7/9a/35e79aa2-4ee9-b67e-7d64-136ad230376b/882000102539.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3231,9 +3231,9 @@
         {
           "position": 45,
           "track": {
-            "title": "Rolling In the Deep",
-            "artist": "Adele",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f8/df/0a/f8df0ac9-ae76-9dae-86d3-4e913fc54fb1/634904152062.png/170x170bb.png"
+            "title": "Giocano a guerra",
+            "artist": "Nina Sartori",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/66/94/dc669453-6c3d-ebc7-da95-8849c8d1efc0/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3244,9 +3244,9 @@
         {
           "position": 46,
           "track": {
-            "title": "Schau mal herein",
-            "artist": "Helene Fischer & Florian Silbereisen",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/c1/42/85c14263-3f0d-bd2c-8069-c499d103238f/24UM1IM40290.rgb.jpg/170x170bb.png"
+            "title": "Ton nom",
+            "artist": "Amel Bent",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/35/91/05/359105f1-8199-d422-335d-4f2973cb9d6d/21UMGIM66862.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3257,9 +3257,9 @@
         {
           "position": 47,
           "track": {
-            "title": "Can't Help Falling In Love",
-            "artist": "Elvis Presley",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/9d/ae/4b/9dae4b0c-324c-f685-967a-20095a99d201/886448399346.jpg/170x170bb.png"
+            "title": "MERAVIGLIOSO ERRORE",
+            "artist": "Gianna Nannini",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/be/c8/88bec83e-ed34-21d2-403c-5c43590fc82c/26UMGIM98777.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3270,9 +3270,9 @@
         {
           "position": 48,
           "track": {
-            "title": "Sweet Caroline",
-            "artist": "Neil Diamond",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d9/bc/30/d9bc308c-b1a5-964c-9f40-d8a01e5f3222/14UMGIM26552.rgb.jpg/170x170bb.png"
+            "title": "Señorita",
+            "artist": "Shawn Mendes & Camila Cabello",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/46/fe/4a/46fe4a39-feb4-7b8b-97b9-0187d49a46bd/19UMGIM53914.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3283,9 +3283,9 @@
         {
           "position": 49,
           "track": {
-            "title": "Always On My Mind",
-            "artist": "Elvis Presley",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/63/93/3e6393fb-5fe2-1ef4-1c0d-6452919a351c/828768904824.jpg/170x170bb.png"
+            "title": "I Will Always Love You",
+            "artist": "Dolly Parton",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ac/ce/e3/accee3dd-e69d-ebc8-8363-843cfd75a288/884977039443.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3296,9 +3296,9 @@
         {
           "position": 50,
           "track": {
-            "title": "The Ballad Of Terry Fox",
-            "artist": "Bryan Adams",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/9f/f5/de9ff595-ff1c-e4ab-e5ca-09e43f57386c/5059449450919.png/170x170bb.png"
+            "title": "I Need More Of You",
+            "artist": "The Bellamy Brothers",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ae/39/99/ae399981-acbe-1681-1d9c-482f90ec4dbd/715187920125.png/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3318,9 +3318,9 @@
         {
           "position": 1,
           "track": {
-            "title": "Body to Body",
-            "artist": "BTS",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/170x170bb.png"
+            "title": "Pós (Ao Vivo)",
+            "artist": "Felipe e Rodrigo",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/ac/80/55ac8010-26ff-2719-6218-e5419e64b127/1200220202775.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3331,7 +3331,7 @@
         {
           "position": 2,
           "track": {
-            "title": "SWIM",
+            "title": "Body to Body",
             "artist": "BTS",
             "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/170x170bb.png"
           },
@@ -3344,9 +3344,9 @@
         {
           "position": 3,
           "track": {
-            "title": "Pós (Ao Vivo)",
-            "artist": "Felipe e Rodrigo",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/ac/80/55ac8010-26ff-2719-6218-e5419e64b127/1200220202775.jpg/170x170bb.png"
+            "title": "SWIM",
+            "artist": "BTS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3370,9 +3370,9 @@
         {
           "position": 5,
           "track": {
-            "title": "Me Queima Outra Vez (Sin Decir Adios) [Ao Vivo]",
-            "artist": "Wanessa Camargo",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/ad/7e/bcad7e19-c9e1-e24e-d6c8-872373a2170c/8721639237439.jpg/170x170bb.png"
+            "title": "Não Me Cutuca",
+            "artist": "Anitta & Alceu Valença",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/bf/6a/3abf6a92-7a22-5cdb-209b-54f2e38cf623/26UMGIM96099.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3383,9 +3383,9 @@
         {
           "position": 6,
           "track": {
-            "title": "Thunderstruck",
-            "artist": "AC/DC",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bb/a2/f0/bba2f0d7-4d9e-c617-d49e-3ae02fd5d440/dj.xbkfgllk.jpg/170x170bb.png"
+            "title": "The Hanging Tree",
+            "artist": "James Newton Howard",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/d7/2e/27d72e87-c40a-ca9b-61c8-4fc132fafa3d/14UMGIM54436.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3396,9 +3396,9 @@
         {
           "position": 7,
           "track": {
-            "title": "Bom Dia Cr7",
-            "artist": "Ami$h",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/c7/44/6cc74493-dd7b-6902-2fa8-9d7107e25ca2/054853863992.png/170x170bb.png"
+            "title": "Uma Vez Mais",
+            "artist": "Ivo Pessoa",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/8a/74/ea/8a74ea7e-64e7-0c7f-ee9a-9e52d5b10606/7891430215873.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3409,9 +3409,9 @@
         {
           "position": 8,
           "track": {
-            "title": "GeomunToy",
-            "artist": "Park Dawool",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/49/14/fa49140e-052a-09de-0b92-ab672b306e29/8809829714776.jpg/170x170bb.png"
+            "title": "Me Queima Outra Vez (Sin Decir Adios) [Ao Vivo]",
+            "artist": "Wanessa Camargo",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/ad/7e/bcad7e19-c9e1-e24e-d6c8-872373a2170c/8721639237439.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3422,9 +3422,9 @@
         {
           "position": 9,
           "track": {
-            "title": "Não Me Cutuca",
-            "artist": "Anitta & Alceu Valença",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/bf/6a/3abf6a92-7a22-5cdb-209b-54f2e38cf623/26UMGIM96099.rgb.jpg/170x170bb.png"
+            "title": "Thunderstruck",
+            "artist": "AC/DC",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bb/a2/f0/bba2f0d7-4d9e-c617-d49e-3ae02fd5d440/dj.xbkfgllk.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3435,9 +3435,9 @@
         {
           "position": 10,
           "track": {
-            "title": "Sou + Você",
-            "artist": "Racionais MC's",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3f/ca/fd/3fcafdad-07c1-c752-7878-39dfd32b3b28/0.jpg/170x170bb.png"
+            "title": "Bom Dia Cr7",
+            "artist": "Ami$h",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/c7/44/6cc74493-dd7b-6902-2fa8-9d7107e25ca2/054853863992.png/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3448,9 +3448,9 @@
         {
           "position": 11,
           "track": {
-            "title": "Bora",
-            "artist": "Leigh-Anne",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/dc/83/26dc8303-ee9a-5b7c-79d7-8a3c6552a5ce/823375518945_Cover.jpg/170x170bb.png"
+            "title": "GeomunToy",
+            "artist": "Park Dawool",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/49/14/fa49140e-052a-09de-0b92-ab672b306e29/8809829714776.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3461,9 +3461,9 @@
         {
           "position": 12,
           "track": {
-            "title": "Into the Sun",
-            "artist": "BTS",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/0a/7b/690a7bb3-4483-2418-158c-9276d7d98f81/823375049500_Cover.jpg/170x170bb.png"
+            "title": "Sou + Você",
+            "artist": "Racionais MC's",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3f/ca/fd/3fcafdad-07c1-c752-7878-39dfd32b3b28/0.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3474,9 +3474,9 @@
         {
           "position": 13,
           "track": {
-            "title": "Bad Times (Extended Version)",
-            "artist": "Imael Angel",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/03/7f/08037f7d-6173-9348-991d-5966f0686539/artwork.jpg/170x170bb.png"
+            "title": "Bora",
+            "artist": "Leigh-Anne",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/dc/83/26dc8303-ee9a-5b7c-79d7-8a3c6552a5ce/823375518945_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3487,9 +3487,9 @@
         {
           "position": 14,
           "track": {
-            "title": "The Hanging Tree",
-            "artist": "James Newton Howard",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/d7/2e/27d72e87-c40a-ca9b-61c8-4fc132fafa3d/14UMGIM54436.rgb.jpg/170x170bb.png"
+            "title": "Into the Sun",
+            "artist": "BTS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/0a/7b/690a7bb3-4483-2418-158c-9276d7d98f81/823375049500_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3500,9 +3500,9 @@
         {
           "position": 15,
           "track": {
-            "title": "EM MINHA PRÓPRIA CASA / VASO NOVO",
-            "artist": "Isaias Saad & fhop music",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/cb/ce/c9cbce85-c1e0-259c-a996-32ca43243f48/7898564147940.jpg/170x170bb.png"
+            "title": "Bad Times (Extended Version)",
+            "artist": "Imael Angel",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/03/7f/08037f7d-6173-9348-991d-5966f0686539/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3513,9 +3513,9 @@
         {
           "position": 16,
           "track": {
-            "title": "Self Control",
-            "artist": "Laura Branigan",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/28/ad/3f28ad3c-3dc9-7c5b-32f0-5b33eb647bf7/mzi.bnuysrxb.jpg/170x170bb.png"
+            "title": "Come As You Are",
+            "artist": "Nirvana",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3526,9 +3526,9 @@
         {
           "position": 17,
           "track": {
-            "title": "A Noite",
-            "artist": "Tiê",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/3a/f3/9d/3af39d43-ff79-73c7-5f09-7059d07e6434/825646229567.jpg/170x170bb.png"
+            "title": "EM MINHA PRÓPRIA CASA / VASO NOVO",
+            "artist": "Isaias Saad & fhop music",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/cb/ce/c9cbce85-c1e0-259c-a996-32ca43243f48/7898564147940.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3539,9 +3539,9 @@
         {
           "position": 18,
           "track": {
-            "title": "Uma Vez Mais",
-            "artist": "Ivo Pessoa",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/8a/74/ea/8a74ea7e-64e7-0c7f-ee9a-9e52d5b10606/7891430215873.jpg/170x170bb.png"
+            "title": "Self Control",
+            "artist": "Laura Branigan",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/28/ad/3f28ad3c-3dc9-7c5b-32f0-5b33eb647bf7/mzi.bnuysrxb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3552,9 +3552,9 @@
         {
           "position": 19,
           "track": {
-            "title": "Somos Familia",
-            "artist": "Yurak Wolfe",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/74/dc/1d74dc07-bc54-c2a3-ef8b-f17937e192e5/artwork.jpg/170x170bb.png"
+            "title": "A Noite",
+            "artist": "Tiê",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/3a/f3/9d/3af39d43-ff79-73c7-5f09-7059d07e6434/825646229567.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3565,9 +3565,9 @@
         {
           "position": 20,
           "track": {
-            "title": "AH, JESUS / CORAÇÃO IGUAL AO TEU",
-            "artist": "Julliany Souza",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/aa/14/3caa1400-3764-5bc6-428c-c00b72365f02/8718521271329.jpg/170x170bb.png"
+            "title": "Lost In Your Eyes",
+            "artist": "Debbie Gibson",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2a/fc/28/2afc2820-fcea-e912-9780-d435dbd209e9/dj.ezlbkrnf.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3578,9 +3578,9 @@
         {
           "position": 21,
           "track": {
-            "title": "Postinho de Gasolina",
-            "artist": "João Gustavo e Murilo & Grelo",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/90/da/e5/90dae5bf-d2e5-0d0f-2a66-5007df7d1768/3778128.jpg/170x170bb.png"
+            "title": "Somos Familia",
+            "artist": "Yurak Wolfe",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/74/dc/1d74dc07-bc54-c2a3-ef8b-f17937e192e5/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3591,9 +3591,9 @@
         {
           "position": 22,
           "track": {
-            "title": "Dynamite",
-            "artist": "BTS",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/22/f3/8f/22f38fb9-1690-326a-d891-7aa946c2b06f/195497623273_Cover.jpg/170x170bb.png"
+            "title": "Everybody Wants to Rule the World",
+            "artist": "Tears for Fears",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/41/43/744143ae-afad-8380-106e-1c1bc48922e4/14UMGIM34762.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3604,9 +3604,9 @@
         {
           "position": 23,
           "track": {
-            "title": "Don’t tell your dreams",
-            "artist": "STOSLIV & LOVIXX",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/8f/e3/a08fe340-128e-7453-a9bc-087eb24fb0b2/26UM1IM32354.rgb.jpg/170x170bb.png"
+            "title": "AH, JESUS / CORAÇÃO IGUAL AO TEU",
+            "artist": "Julliany Souza",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/aa/14/3caa1400-3764-5bc6-428c-c00b72365f02/8718521271329.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3617,9 +3617,9 @@
         {
           "position": 24,
           "track": {
-            "title": "ADDICTED",
-            "artist": "JISOO",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6e/7d/c6/6e7dc611-3961-7a16-58d6-68c567745703/054391222435.jpg/170x170bb.png"
+            "title": "Postinho de Gasolina",
+            "artist": "João Gustavo e Murilo & Grelo",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/90/da/e5/90dae5bf-d2e5-0d0f-2a66-5007df7d1768/3778128.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3630,9 +3630,9 @@
         {
           "position": 25,
           "track": {
-            "title": "Patient Zero",
-            "artist": "Taylor Swift",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/b8/07/7cb8073f-c5c5-edaf-d202-957f55866f04/26UM1IM20315.rgb.jpg/170x170bb.png"
+            "title": "All I Want for Christmas Is You",
+            "artist": "Mariah Carey",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1f/db/b1/1fdbb174-b7f3-2cb9-1e28-83e8137b95ae/886447958520.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3643,9 +3643,9 @@
         {
           "position": 26,
           "track": {
-            "title": "Wicked Game",
-            "artist": "Chris Isaak",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/e9/0f/67e90f2d-c229-3572-5f0f-d615dfeaa652/00792755800553_Cover.jpg/170x170bb.png"
+            "title": "Dynamite",
+            "artist": "BTS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/22/f3/8f/22f38fb9-1690-326a-d891-7aa946c2b06f/195497623273_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3656,9 +3656,9 @@
         {
           "position": 27,
           "track": {
-            "title": "Hino Do Vasco (Oficial)",
-            "artist": "Orquestra e Coro Cid & CID",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/45/7b/11/457b11c8-b60c-6b67-0a8f-24d1c706817a/7891397060240.png/170x170bb.png"
+            "title": "Don’t tell your dreams",
+            "artist": "STOSLIV & LOVIXX",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/8f/e3/a08fe340-128e-7453-a9bc-087eb24fb0b2/26UM1IM32354.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3669,9 +3669,9 @@
         {
           "position": 28,
           "track": {
-            "title": "Family Affair",
-            "artist": "Mary J. Blige",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/d2/80/cfd2802e-9369-5b3e-5232-3abb3a4363ce/15UMGIM00598.rgb.jpg/170x170bb.png"
+            "title": "Don't Cha",
+            "artist": "The Pussycat Dolls & Busta Rhymes",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/eb/7c/c4eb7c2e-bbf2-8da1-4752-dda69e8ba6b8/26UMGIM02033.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3682,9 +3682,9 @@
         {
           "position": 29,
           "track": {
-            "title": "Sublime - Ao Vivo",
-            "artist": "fhop music & Caio Freitas",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/e9/c0/c3e9c016-c0fa-62bf-169b-561fd1996596/5034644353982.jpg/170x170bb.png"
+            "title": "ADDICTED",
+            "artist": "JISOO",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6e/7d/c6/6e7dc611-3961-7a16-58d6-68c567745703/054391222435.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3695,9 +3695,9 @@
         {
           "position": 30,
           "track": {
-            "title": "Flash (Minha Mente) 💠",
-            "artist": "Hugo & Guilherme & Zé Vaqueiro",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/ba/82/6fba821c-28c0-1e0e-0b14-95c0d423e082/1200220233007.jpg/170x170bb.png"
+            "title": "Patient Zero",
+            "artist": "Taylor Swift",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/b8/07/7cb8073f-c5c5-edaf-d202-957f55866f04/26UM1IM20315.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3708,9 +3708,9 @@
         {
           "position": 31,
           "track": {
-            "title": "Trevo (Tu) [feat. TIAGO IORC]",
-            "artist": "Anavitória",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8a/43/94/8a4394b9-ffb9-edc2-d029-4959f6154268/00602557148039_Cover.jpg/170x170bb.png"
+            "title": "Wicked Game",
+            "artist": "Chris Isaak",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/e9/0f/67e90f2d-c229-3572-5f0f-d615dfeaa652/00792755800553_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3721,9 +3721,9 @@
         {
           "position": 32,
           "track": {
-            "title": "Unstoppable",
-            "artist": "Sia",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8b/81/ba/8b81ba55-0a7f-a0e5-6593-d44f1565cdd1/886446097428.jpg/170x170bb.png"
+            "title": "Mega Hair (Ao Vivo)",
+            "artist": "Netto Brito & Luan Pereira",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/04/58/3a0458ac-2c12-11dd-06eb-0b1a2255f310/1200220039135.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3734,9 +3734,9 @@
         {
           "position": 33,
           "track": {
-            "title": "Iris",
-            "artist": "The Goo Goo Dolls",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/13/18/2c131801-00af-58b1-3cc2-13abf4ad5416/093624919162.jpg/170x170bb.png"
+            "title": "Hino Do Vasco (Oficial)",
+            "artist": "Orquestra e Coro Cid & CID",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/45/7b/11/457b11c8-b60c-6b67-0a8f-24d1c706817a/7891397060240.png/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3747,9 +3747,9 @@
         {
           "position": 34,
           "track": {
-            "title": "Bondade de Deus (En Vivo)",
-            "artist": "Isaias Saad",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/2c/bd/252cbdb2-2bc4-5b55-1caf-a151780ef23e/7898556784719.jpg/170x170bb.png"
+            "title": "Family Affair",
+            "artist": "Mary J. Blige",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/d2/80/cfd2802e-9369-5b3e-5232-3abb3a4363ce/15UMGIM00598.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3760,9 +3760,9 @@
         {
           "position": 35,
           "track": {
-            "title": "Your Song",
-            "artist": "Elton John",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a9/52/e6/a952e6c5-a5e1-a56d-a6f4-b01ca42a4368/06UMGIM50695.rgb.jpg/170x170bb.png"
+            "title": "Sublime - Ao Vivo",
+            "artist": "fhop music & Caio Freitas",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c3/e9/c0/c3e9c016-c0fa-62bf-169b-561fd1996596/5034644353982.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3773,9 +3773,9 @@
         {
           "position": 36,
           "track": {
-            "title": "Somewhere Only We Know",
-            "artist": "Keane",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/cb/d0/50cbd090-4e22-3491-8e5c-c6f3c46716b2/13UAAIM82555.rgb.jpg/170x170bb.png"
+            "title": "ที่ชอบที่ชอบ (Grief Eaters)",
+            "artist": "Jeff Satur",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/65/3b/34653bb0-ff17-4843-2a27-a1554111237a/26UM1IM33409.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3786,9 +3786,9 @@
         {
           "position": 37,
           "track": {
-            "title": "Em Busca Da Minha Sorte (Ao Vivo)",
-            "artist": "Thiaguinho & Billy Sp",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/14/42/14144211-add9-99da-6d81-7215d12c9bda/24UMGIM35375.rgb.jpg/170x170bb.png"
+            "title": "Flash (Minha Mente) 💠",
+            "artist": "Hugo & Guilherme & Zé Vaqueiro",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/ba/82/6fba821c-28c0-1e0e-0b14-95c0d423e082/1200220233007.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3799,9 +3799,9 @@
         {
           "position": 38,
           "track": {
-            "title": "Ordinary",
-            "artist": "Alex Warren",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/78/fb/4678fb84-d19e-f11b-93ff-4dc17660bff8/075679619075.jpg/170x170bb.png"
+            "title": "Trevo (Tu) [feat. TIAGO IORC]",
+            "artist": "Anavitória",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8a/43/94/8a4394b9-ffb9-edc2-d029-4959f6154268/00602557148039_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3812,9 +3812,9 @@
         {
           "position": 39,
           "track": {
-            "title": "Human Nature",
-            "artist": "Michael Jackson",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f2/ef/54f2ef79-c668-8d6f-28cd-ae48c45009b7/196874193211.jpg/170x170bb.png"
+            "title": "Unstoppable",
+            "artist": "Sia",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8b/81/ba/8b81ba55-0a7f-a0e5-6593-d44f1565cdd1/886446097428.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3825,9 +3825,9 @@
         {
           "position": 40,
           "track": {
-            "title": "Butterfly",
-            "artist": "Smile.Dk",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0c/92/c7/0c92c759-a834-10a7-eaf0-510c1b7bc15f/724349589155.jpg/170x170bb.png"
+            "title": "Boy With Luv (feat. Halsey)",
+            "artist": "BTS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/d4/93/40d493e3-ac9e-1746-8d4c-f380f27c97cb/193483706238_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3838,9 +3838,9 @@
         {
           "position": 41,
           "track": {
-            "title": "Solinho do Fora PT",
-            "artist": "Prismah",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/e4/19/f5e4190c-1892-1d75-0007-f87e2443a7e4/7891162483496.png/170x170bb.png"
+            "title": "Iris",
+            "artist": "The Goo Goo Dolls",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/13/18/2c131801-00af-58b1-3cc2-13abf4ad5416/093624919162.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3851,9 +3851,9 @@
         {
           "position": 42,
           "track": {
-            "title": "Let Go (feat. Veronika Redd)",
-            "artist": "Ark Patrol",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/40/75/e6/4075e6b2-c884-8f8e-7164-76ca92c802fa/111257.jpg/170x170bb.png"
+            "title": "Bondade de Deus (En Vivo)",
+            "artist": "Isaias Saad",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/2c/bd/252cbdb2-2bc4-5b55-1caf-a151780ef23e/7898556784719.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3864,9 +3864,9 @@
         {
           "position": 43,
           "track": {
-            "title": "Welcome To The Jungle",
-            "artist": "Guns N' Roses",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/4d/c4/a04dc484-03cc-02aa-fa82-5334fcb4bc16/18UMGIM24878.rgb.jpg/170x170bb.png"
+            "title": "Unicamente",
+            "artist": "Deborah Blando",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/e7/9c/efe79cad-a47e-1f97-b552-1c191c85c131/0.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3877,9 +3877,9 @@
         {
           "position": 44,
           "track": {
-            "title": "The Climb",
-            "artist": "Miley Cyrus",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/b7/f9/f2b7f9c3-f0ea-0109-af22-91d1bf635fec/11DMGIM03002.rgb.jpg/170x170bb.png"
+            "title": "Your Song",
+            "artist": "Elton John",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a9/52/e6/a952e6c5-a5e1-a56d-a6f4-b01ca42a4368/06UMGIM50695.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3890,9 +3890,9 @@
         {
           "position": 45,
           "track": {
-            "title": "Um Novo Dia (Ao Vivo) [Ao Vivo]",
-            "artist": "Get Worship, Get Records, Melk Villar & Vinicius Cruz",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/8d/e0/e88de020-227d-5ad0-7c0d-8c4cc8d9fa4c/ticket.agwgzrwg.jpg/170x170bb.png"
+            "title": "Malandragem",
+            "artist": "Cássia Eller",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/55/3d/8e/553d8ebb-2134-1e7f-4eb2-3a43f5ad3e19/00602547148766.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3903,9 +3903,9 @@
         {
           "position": 46,
           "track": {
-            "title": "How Deep Is Your Love",
-            "artist": "Bee Gees",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/94/a7/5f/94a75fd1-17da-3a38-42dc-c5e35bf56046/16UMGIM86639.rgb.jpg/170x170bb.png"
+            "title": "Somewhere Only We Know",
+            "artist": "Keane",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/cb/d0/50cbd090-4e22-3491-8e5c-c6f3c46716b2/13UAAIM82555.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3916,9 +3916,9 @@
         {
           "position": 47,
           "track": {
-            "title": "Sto Bene Così2",
-            "artist": "Ale Lento",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/df/86/30df867c-ea78-530a-2451-b389247403d7/artwork.jpg/170x170bb.png"
+            "title": "Em Busca Da Minha Sorte (Ao Vivo)",
+            "artist": "Thiaguinho & Billy Sp",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/14/42/14144211-add9-99da-6d81-7215d12c9bda/24UMGIM35375.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3929,9 +3929,9 @@
         {
           "position": 48,
           "track": {
-            "title": "I'll Try",
-            "artist": "Alan Jackson",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/bf/fe/5dbffe28-87cd-2525-af0a-06e1548fcace/886445732160.jpg/170x170bb.png"
+            "title": "Ordinary",
+            "artist": "Alex Warren",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/78/fb/4678fb84-d19e-f11b-93ff-4dc17660bff8/075679619075.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3942,9 +3942,9 @@
         {
           "position": 49,
           "track": {
-            "title": "Só o Começo",
-            "artist": "Vocal Livre",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/63/e7/13/63e71379-3f99-d8b9-68ad-53de107420c2/0.jpg/170x170bb.png"
+            "title": "FAKE LOVE",
+            "artist": "BTS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/02/c5/18/02c518f5-ac06-3321-622e-08d9429fd968/192562556672_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
@@ -3955,9 +3955,9 @@
         {
           "position": 50,
           "track": {
-            "title": "Aurora",
-            "artist": "Jão",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/07/a7/9c07a740-a651-f8be-40d3-afee76974367/26UMGIM97503.rgb.jpg/170x170bb.png"
+            "title": "September",
+            "artist": "Earth, Wind & Fire",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/66/3b/5d663b1f-dcc9-030d-0cf1-fc5d344d391d/886447618448.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "new",
