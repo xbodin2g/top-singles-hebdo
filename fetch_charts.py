@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version finale avec les sources originales qui fonctionnent.
+Version simple et robuste basée sur le code qui fonctionnait.
 """
 
 import json
@@ -10,7 +10,6 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import re
 import os
-import time
 
 SOURCES = {
     "us": {
@@ -37,9 +36,8 @@ SOURCES = {
         "name": "Allemagne", 
         "flag": "🇩🇪", 
         "region": "europe", 
-        "source": "offizielle_charts",
-        "primary_url": "https://www.offiziellecharts.de/charts",
-        "fallback_url": "https://kworb.net/charts/itunes/de.html"
+        "source": "kworb_itunes",
+        "kworb_url": "https://kworb.net/charts/itunes/de.html"
     },
     "ch": {
         "name": "Suisse", 
@@ -57,17 +55,9 @@ SOURCES = {
     }
 }
 
+# Headers SIMPLES (comme avant, quand ça marchait)
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Language': 'de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Connection': 'keep-alive',
-    'Upgrade-Insecure-Requests': '1',
-    'Sec-Fetch-Dest': 'document',
-    'Sec-Fetch-Mode': 'navigate',
-    'Sec-Fetch-Site': 'none',
-    'Cache-Control': 'max-age=0'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
 
 def get_week_info():
@@ -80,10 +70,8 @@ def get_week_info():
     }
 
 def calculate_movement(current_pos, previous_pos):
-    """Calcule le mouvement basé sur les positions"""
     if previous_pos is None or previous_pos == 0:
         return "new"
-    
     if current_pos < previous_pos:
         return "up"
     elif current_pos > previous_pos:
@@ -91,40 +79,30 @@ def calculate_movement(current_pos, previous_pos):
     else:
         return "same"
 
-def fetch_with_retry(url, max_retries=3, timeout=30):
-    """Fetch avec retry et gestion d'erreurs"""
-    for attempt in range(max_retries):
-        try:
-            response = requests.get(url, headers=HEADERS, timeout=timeout)
-            if response.status_code == 403:
-                print(f"    🚫 Bloqué (403) - tentative {attempt + 1}/{max_retries}")
-                if attempt < max_retries - 1:
-                    time.sleep(2 * (attempt + 1))
-                continue
-            response.raise_for_status()
-            return response
-        except Exception as e:
-            print(f"    ❌ Erreur (tentative {attempt + 1}/{max_retries}): {str(e)[:80]}")
-            if attempt < max_retries - 1:
-                time.sleep(2)
-    return None
-
 def fetch_acharts(url, country_name):
-    """Scrape acharts.co avec extraction des positions précédentes"""
+    """Version simple qui marchait"""
     print(f"  🔍 Scraping acharts.co pour {country_name}...")
     
     try:
-        response = fetch_with_retry(url, max_retries=2)
+        response = requests.get(url, headers=HEADERS, timeout=30)
         
-        if not response:
+        if response.status_code == 403:
+            print(f"    ❌ Bloqué (403 Forbidden)")
             return []
         
-        soup = BeautifulSoup(response.text, 'html.parser')
-        entries = []
+        if response.status_code == 404:
+            print(f"    ❌ Page non trouvée (404)")
+            return []
         
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        entries = []
         table = soup.find('table')
+        
         if not table:
             print(f"    ❌ Pas de tableau trouvé")
+            print(f"    🔍 Debug : HTML reçu = {len(response.text)} caractères")
             return []
         
         rows = table.find_all('tr')[1:]
@@ -189,15 +167,17 @@ def fetch_acharts(url, country_name):
         return []
 
 def fetch_brazil_promusica():
-    """Scrape Pro-Música Brasil - Source officielle qui fonctionnait"""
-    print(f"  🔍 Scraping Pro-Música Brasil (source officielle)...")
+    """Version simple qui marchait au début"""
+    print(f"  🔍 Scraping Pro-Música Brasil...")
     
     try:
-        response = fetch_with_retry(SOURCES["br"]["primary_url"])
+        response = requests.get(SOURCES["br"]["primary_url"], headers=HEADERS, timeout=30)
         
-        if not response:
+        if response.status_code == 403:
+            print(f"    ❌ Bloqué (403)")
             return []
         
+        response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         entries = []
         
@@ -228,13 +208,11 @@ def fetch_brazil_promusica():
                                 title = ' '.join(title_parts) if title_parts else ""
                                 
                                 if title:
-                                    # Pro-Música Brasil est mensuel, pas de positions précédentes disponibles
-                                    # On marque les entrées comme "new" car on ne peut pas comparer
                                     entries.append({
                                         "position": rank,
                                         "track": {"title": title, "artist": artist, "artwork": ""},
                                         "previousPosition": None,
-                                        "movement": "same",  # Marqué comme stable car classement mensuel
+                                        "movement": "same",
                                         "weeksOnChart": 1,
                                         "peakPosition": rank,
                                         "source": "promusica"
@@ -253,124 +231,24 @@ def fetch_brazil_promusica():
         print(f"    ❌ Erreur: {e}")
         return []
 
-def fetch_offizielle_charts_germany():
-    """Scrape Offizielle Deutsche Charts avec stratégie améliorée"""
-    print(f"  🔍 Scraping Offizielle Deutsche Charts (source officielle)...")
-    
-    url = SOURCES["de"]["primary_url"]
-    
-    try:
-        # Stratégie 1 : Requête avec headers complets
-        response = fetch_with_retry(url, max_retries=2)
-        
-        if not response:
-            print(f"  🔄 Source officielle bloquée, tentative avec kworb iTunes...")
-            return fetch_kworb_itunes("https://kworb.net/charts/itunes/de.html", "Allemagne")
-        
-        soup = BeautifulSoup(response.text, 'html.parser')
-        entries = []
-        
-        # Chercher les tableaux
-        tables = soup.find_all('table')
-        
-        for table in tables:
-            rows = table.find_all('tr')
-            
-            for row in rows[:60]:
-                cells = row.find_all(['td', 'th'])
-                
-                if len(cells) >= 3:
-                    rank_text = cells[0].get_text(strip=True)
-                    
-                    if rank_text.isdigit():
-                        rank = int(rank_text)
-                        
-                        # Position précédente
-                        prev_rank = None
-                        if len(cells) > 1:
-                            prev_text = cells[1].get_text(strip=True)
-                            if prev_text.isdigit():
-                                prev_rank = int(prev_text)
-                        
-                        # Artiste et titre
-                        info_cell = None
-                        for i in range(2, min(len(cells), 4)):
-                            if len(cells[i].get_text(strip=True)) > 5:
-                                info_cell = cells[i]
-                                break
-                        
-                        if info_cell:
-                            full_text = info_cell.get_text(separator='|', strip=True)
-                            parts = [p.strip() for p in full_text.split('|') if p.strip()]
-                            
-                            title = ""
-                            artist = ""
-                            
-                            if len(parts) >= 2:
-                                artist = parts[0]
-                                title = parts[1]
-                            elif len(parts) == 1:
-                                text = parts[0]
-                                split_match = re.split(r'\s*[-–—]\s*|\s{2,}', text, maxsplit=1)
-                                if len(split_match) == 2:
-                                    artist = split_match[0].strip()
-                                    title = split_match[1].strip()
-                                else:
-                                    title = text
-                            
-                            weeks_match = re.search(r'In Charts:\s*(\d+)\s*W', full_text, re.I)
-                            peak_match = re.search(r'Peak:\s*(\d+)', full_text, re.I)
-                            
-                            weeks = int(weeks_match.group(1)) if weeks_match else 1
-                            peak = int(peak_match.group(1)) if peak_match else rank
-                            
-                            if title and artist:
-                                movement = calculate_movement(rank, prev_rank)
-                                
-                                entries.append({
-                                    "position": rank,
-                                    "track": {"title": title, "artist": artist, "artwork": ""},
-                                    "previousPosition": prev_rank,
-                                    "movement": movement,
-                                    "weeksOnChart": weeks,
-                                    "peakPosition": peak,
-                                    "source": "offizielle_charts"
-                                })
-                                
-                                if len(entries) >= 50:
-                                    break
-            
-            if len(entries) >= 50:
-                break
-        
-        print(f"    ✅ {len(entries)} entrées trouvées (Offizielle Charts)")
-        
-        if entries:
-            print(f"    📊 Exemples de mouvements :")
-            for i, entry in enumerate(entries[:3]):
-                print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
-        
-        return entries
-    
-    except Exception as e:
-        print(f"    ❌ Erreur: {e}")
-        return []
-
 def fetch_kworb_itunes(url, country_name):
-    """Fallback : kworb.net iTunes (pas Spotify)"""
-    print(f"  🔄 Fallback kworb.net iTunes pour {country_name}...")
+    """Fallback : kworb.net iTunes"""
+    print(f"  🔍 Scraping kworb iTunes pour {country_name}...")
     
     try:
-        response = fetch_with_retry(url)
+        response = requests.get(url, headers=HEADERS, timeout=30)
         
-        if not response:
+        if response.status_code in [403, 404]:
+            print(f"    ❌ Bloqué ou introuvable ({response.status_code})")
             return []
         
+        response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         entries = []
         
         table = soup.find('table')
         if not table:
+            print(f"    ❌ Pas de tableau trouvé")
             return []
         
         rows = table.find_all('tr')
@@ -439,7 +317,7 @@ def fetch_kworb_itunes(url, country_name):
                             "source": "kworb_itunes"
                         })
         
-        print(f"    ✅ {len(entries)} entrées trouvées (iTunes)")
+        print(f"    ✅ {len(entries)} entrées trouvées")
         
         if entries:
             print(f"    📊 Exemples de mouvements :")
@@ -453,7 +331,7 @@ def fetch_kworb_itunes(url, country_name):
         return []
 
 def fetch_billboard_hot100():
-    """Récupère le Billboard Hot 100"""
+    """Récupère le Billboard Hot 100 avec fallback"""
     print(f"  🔍 Tentative avec billboard.py...")
     
     try:
@@ -497,12 +375,11 @@ def fetch_billboard_hot100():
     
     except ImportError:
         print(f"    ❌ billboard.py non installé")
-        return []
     except Exception as e:
         print(f"    ❌ Erreur billboard.py: {e}")
-        
-        print(f"  🔄 Fallback sur acharts.co...")
-        return fetch_acharts("https://acharts.co/us_singles_top_100", "US")
+    
+    print(f"  🔄 Fallback sur acharts.co pour US...")
+    return fetch_acharts("https://acharts.co/us_singles_top_100", "US")
 
 def main():
     print(f"🎵 Début de la collecte - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
@@ -543,18 +420,11 @@ def main():
         elif source_used == "acharts":
             entries = fetch_acharts(country_info["acharts_url"], country_info["name"])
         
-        elif source_used == "offizielle_charts":
-            entries = fetch_offizielle_charts_germany()
-            if entries:
-                source_used = "offizielle_charts"
-            else:
-                # Si le fallback kworb iTunes a été utilisé
-                source_used = "kworb_itunes"
+        elif source_used == "kworb_itunes":
+            entries = fetch_kworb_itunes(country_info["kworb_url"], country_info["name"])
         
         elif source_used == "promusica":
             entries = fetch_brazil_promusica()
-            if entries:
-                source_used = "promusica"
         
         if entries and len(entries) >= 10:
             charts_data["countries"][code] = {
