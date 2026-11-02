@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version avec récupération des IDs vidéo YouTube via API Data v3.
+Version avec recherche YouTube via Invidious (gratuit, sans clé API).
 """
 
 import json
@@ -10,9 +10,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import re
 import os
-
-# 🔑 Clé API YouTube (à configurer en variable d'environnement)
-YOUTUBE_API_KEY = os.environ.get('YOUTUBE_API_KEY', '')
+import time
 
 SOURCES = {
     "us": {
@@ -58,6 +56,14 @@ SOURCES = {
     }
 }
 
+# Instances Invidious (plusieurs en fallback si une ne marche pas)
+INVIDIOUS_INSTANCES = [
+    "https://inv.nadeko.net",
+    "https://invidious.fdn.fr",
+    "https://invidious.privacyredirect.com",
+    "https://yewtu.be"
+]
+
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
@@ -81,57 +87,86 @@ def calculate_movement(current_pos, previous_pos):
     else:
         return "same"
 
-def fetch_youtube_video_ids(entries, country_name):
-    """Récupère les IDs vidéo YouTube pour chaque titre via l'API"""
-    if not YOUTUBE_API_KEY:
-        print(f"    ⚠️ Pas de clé API YouTube configurée pour {country_name}")
-        return entries
+def fetch_youtube_video_ids_invidious(entries, country_name):
+    """Récupère les IDs vidéo YouTube via Invidious (gratuit, sans clé API)"""
+    print(f"    🔍 Récupération des IDs YouTube via Invidious pour {country_name}...")
     
-    print(f"    🔍 Récupération des IDs YouTube pour {country_name}...")
-    
-    api_url = "https://www.googleapis.com/youtube/v3/search"
     video_ids_found = 0
+    total = min(len(entries), 20)  # Limiter à 20 pour ne pas surcharger
     
-    for entry in entries:
+    # Essayer chaque instance jusqu'à ce qu'une fonctionne
+    working_instance = None
+    
+    for instance in INVIDIOUS_INSTANCES:
         try:
-            # Construire la requête de recherche
-            query = f"{entry['track']['artist']} {entry['track']['title']} official"
+            # Test rapide avec une requête
+            test_url = f"{instance}/api/v1/search?q=test&type=video"
+            test_response = requests.get(test_url, timeout=10)
             
-            params = {
-                'part': 'snippet',
-                'q': query,
-                'type': 'video',
-                'maxResults': 1,
-                'key': YOUTUBE_API_KEY
-            }
-            
-            response = requests.get(api_url, params=params, timeout=10)
-            
-            if response.status_code == 200:
-                data = response.json()
-                items = data.get('items', [])
-                
-                if items:
-                    video_id = items[0]['id']['videoId']
-                    entry['youtubeVideoId'] = video_id
-                    video_ids_found += 1
-                else:
-                    entry['youtubeVideoId'] = None
-            elif response.status_code == 403:
-                print(f"    ⚠️ Quota YouTube dépassé ou clé invalide")
+            if test_response.status_code == 200:
+                working_instance = instance
+                print(f"    ✅ Instance Invidious fonctionnelle : {instance}")
                 break
             else:
+                print(f"    ⚠️ Instance {instance} retourne {test_response.status_code}")
+        except Exception as e:
+            print(f"    ⚠️ Instance {instance} inaccessible : {str(e)[:50]}")
+    
+    if not working_instance:
+        print(f"    ❌ Aucune instance Invidious fonctionnelle")
+        return entries
+    
+    # Limiter aux 20 premiers titres pour créer la playlist
+    for i, entry in enumerate(entries[:20]):
+        try:
+            # Nettoyer le titre et l'artiste pour la recherche
+            title = entry['track']['title']
+            artist = entry['track']['artist']
+            
+            # Supprimer les mentions "(feat.)", "(Ao Vivo)", etc. pour de meilleurs résultats
+            title_clean = re.sub(r'\(.*?\)', '', title).strip()
+            artist_clean = re.sub(r'\(.*?\)', '', artist).strip()
+            
+            query = f"{artist_clean} {title_clean}"
+            
+            # Encodage de l'URL
+            import urllib.parse
+            encoded_query = urllib.parse.quote(query)
+            
+            api_url = f"{working_instance}/api/v1/search?q={encoded_query}&type=video"
+            
+            response = requests.get(api_url, timeout=15)
+            
+            if response.status_code == 200:
+                results = response.json()
+                
+                if results and len(results) > 0:
+                    # Prendre le premier résultat
+                    video_id = results[0].get('videoId')
+                    
+                    if video_id:
+                        entry['youtubeVideoId'] = video_id
+                        video_ids_found += 1
+                    else:
+                        entry['youtubeVideoId'] = None
+                else:
+                    entry['youtubeVideoId'] = None
+            else:
+                print(f"    ⚠️ Erreur API pour '{query}': {response.status_code}")
                 entry['youtubeVideoId'] = None
             
-            # Petit délai pour éviter de surcharger l'API
-            import time
-            time.sleep(0.1)
+            # Petit délai pour être poli avec l'instance
+            time.sleep(0.3)
+            
+            # Afficher la progression tous les 5 titres
+            if (i + 1) % 5 == 0:
+                print(f"    📊 Progression : {i + 1}/{total} - {video_ids_found} IDs trouvés")
         
         except Exception as e:
-            print(f"    ⚠️ Erreur YouTube pour {entry['track']['title']}: {str(e)[:50]}")
+            print(f"    ⚠️ Erreur YouTube pour '{entry['track']['title']}': {str(e)[:50]}")
             entry['youtubeVideoId'] = None
     
-    print(f"    ✅ {video_ids_found}/{len(entries)} IDs YouTube trouvés")
+    print(f"    ✅ {video_ids_found}/{total} IDs YouTube trouvés via Invidious")
     return entries
 
 def fetch_acharts(url, country_name):
@@ -205,7 +240,7 @@ def fetch_acharts(url, country_name):
                             "weeksOnChart": weeks,
                             "peakPosition": peak,
                             "source": "acharts",
-                            "youtubeVideoId": None  # Sera rempli plus tard
+                            "youtubeVideoId": None
                         })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
@@ -216,7 +251,7 @@ def fetch_acharts(url, country_name):
                 print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
         
         # Récupérer les IDs YouTube
-        entries = fetch_youtube_video_ids(entries, country_name)
+        entries = fetch_youtube_video_ids_invidious(entries, country_name)
         
         return entries
     
@@ -284,8 +319,7 @@ def fetch_brazil_promusica():
             for i, entry in enumerate(entries[:3]):
                 print(f"       {entry['position']}. {entry['track']['artist']} - {entry['track']['title']}")
         
-        # Récupérer les IDs YouTube
-        entries = fetch_youtube_video_ids(entries, "Brésil")
+        entries = fetch_youtube_video_ids_invidious(entries, "Brésil")
         
         return entries
     
@@ -387,8 +421,7 @@ def fetch_kworb_itunes(url, country_name):
             for i, entry in enumerate(entries[:3]):
                 print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
         
-        # Récupérer les IDs YouTube
-        entries = fetch_youtube_video_ids(entries, country_name)
+        entries = fetch_youtube_video_ids_invidious(entries, country_name)
         
         return entries
     
@@ -438,8 +471,7 @@ def fetch_billboard_hot100():
             for i, entry in enumerate(entries[:3]):
                 print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
             
-            # Récupérer les IDs YouTube
-            entries = fetch_youtube_video_ids(entries, "États-Unis")
+            entries = fetch_youtube_video_ids_invidious(entries, "États-Unis")
         
         return entries
     
@@ -453,12 +485,7 @@ def fetch_billboard_hot100():
 
 def main():
     print(f"🎵 Début de la collecte - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-    
-    if not YOUTUBE_API_KEY:
-        print("⚠️ Clé API YouTube non configurée (variable YOUTUBE_API_KEY)")
-        print("   Les IDs vidéo YouTube ne seront pas récupérés\n")
-    else:
-        print("✅ Clé API YouTube configurée\n")
+    print("✅ Utilisation d'Invidious (gratuit, sans clé API)\n")
     
     week_info = get_week_info()
     
@@ -470,7 +497,7 @@ def main():
             "updatedAt": week_info["date"],
             "sourceNote": "",
             "sources": {},
-            "youtubeApiConfigured": bool(YOUTUBE_API_KEY)
+            "youtubeSource": "invidious"
         },
         "countries": {},
         "regions": {
