@@ -13,7 +13,7 @@
       "ch": "acharts",
       "br": "promusica"
     },
-    "youtubeSource": "invidious"
+    "youtubeSource": "yt-dlp"
   },
   "countries": {
     "us": {
