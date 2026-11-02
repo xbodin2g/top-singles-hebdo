@@ -1,252 +1,17 @@
 {
   "meta": {
-    "weekLabel": "Semaine 44/2026",
-    "week": 44,
+    "weekLabel": "Semaine 45/2026",
+    "week": 45,
     "year": 2026,
-    "updatedAt": "2026-11-01",
-    "sourceNote": "✅ Sources officielles : États-Unis, Brésil. 🔄 Sources alternatives : Royaume-Uni, Allemagne, Suisse, France.",
-    "successfulSources": [
-      "États-Unis",
-      "Brésil"
-    ],
-    "alternativeSources": [
-      "Royaume-Uni",
-      "Allemagne",
-      "Suisse",
-      "France"
-    ],
-    "failedSources": []
+    "updatedAt": "2026-11-02",
+    "sourceNote": "✅ Sources réussies : Allemagne (itunes), Suisse (itunes), Brésil (itunes). ❌ Sources échouées : États-Unis, France, Royaume-Uni.",
+    "sources": {
+      "de": "itunes",
+      "ch": "itunes",
+      "br": "itunes"
+    }
   },
   "countries": {
-    "uk": {
-      "name": "Royaume-Uni",
-      "flag": "🇬🇧",
-      "region": "europe",
-      "chart": [
-        {
-          "position": 1,
-          "track": {
-            "title": "Babydoll",
-            "artist": "Jamie Miller"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 1
-        },
-        {
-          "position": 2,
-          "track": {
-            "title": "Housewife",
-            "artist": "Tate McRae"
-          },
-          "previousPosition": 3,
-          "movement": "down",
-          "weeksOnChart": 2,
-          "peakPosition": 1
-        },
-        {
-          "position": 3,
-          "track": {
-            "title": "Stop The Wedding",
-            "artist": "Ashe"
-          },
-          "previousPosition": 4,
-          "movement": "down",
-          "weeksOnChart": 3,
-          "peakPosition": 1
-        },
-        {
-          "position": 4,
-          "track": {
-            "title": "Expectations",
-            "artist": "Olivia Rodrigo"
-          },
-          "previousPosition": 5,
-          "movement": "up",
-          "weeksOnChart": 4,
-          "peakPosition": 1
-        },
-        {
-          "position": 5,
-          "track": {
-            "title": "Great Expectation",
-            "artist": "Sienna Spiro"
-          },
-          "previousPosition": 6,
-          "movement": "down",
-          "weeksOnChart": 5,
-          "peakPosition": 1
-        },
-        {
-          "position": 6,
-          "track": {
-            "title": "Night Drive",
-            "artist": "Kai Rivers"
-          },
-          "previousPosition": 7,
-          "movement": "down",
-          "weeksOnChart": 6,
-          "peakPosition": 6
-        },
-        {
-          "position": 7,
-          "track": {
-            "title": "Golden Hour",
-            "artist": "Aurora West"
-          },
-          "previousPosition": 8,
-          "movement": "up",
-          "weeksOnChart": 7,
-          "peakPosition": 6
-        },
-        {
-          "position": 8,
-          "track": {
-            "title": "Silver Lining",
-            "artist": "Noor"
-          },
-          "previousPosition": 9,
-          "movement": "down",
-          "weeksOnChart": 8,
-          "peakPosition": 6
-        },
-        {
-          "position": 9,
-          "track": {
-            "title": "Wildfire",
-            "artist": "J.B. Monroe"
-          },
-          "previousPosition": 10,
-          "movement": "down",
-          "weeksOnChart": 9,
-          "peakPosition": 6
-        },
-        {
-          "position": 10,
-          "track": {
-            "title": "Dancing Alone",
-            "artist": "Mavie"
-          },
-          "previousPosition": 11,
-          "movement": "up",
-          "weeksOnChart": 10,
-          "peakPosition": 6
-        },
-        {
-          "position": 11,
-          "track": {
-            "title": "Lumière",
-            "artist": "Alya Nova"
-          },
-          "previousPosition": 12,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 11
-        },
-        {
-          "position": 12,
-          "track": {
-            "title": "Midnight Gold",
-            "artist": "The Amber Lines"
-          },
-          "previousPosition": 13,
-          "movement": "down",
-          "weeksOnChart": 2,
-          "peakPosition": 11
-        },
-        {
-          "position": 13,
-          "track": {
-            "title": "Baila Conmigo",
-            "artist": "Luz Marina"
-          },
-          "previousPosition": 14,
-          "movement": "up",
-          "weeksOnChart": 3,
-          "peakPosition": 11
-        },
-        {
-          "position": 14,
-          "track": {
-            "title": "Évidence",
-            "artist": "Léa Volney"
-          },
-          "previousPosition": 15,
-          "movement": "down",
-          "weeksOnChart": 4,
-          "peakPosition": 11
-        },
-        {
-          "position": 15,
-          "track": {
-            "title": "Rio de Janeiro",
-            "artist": "Marisol"
-          },
-          "previousPosition": 16,
-          "movement": "down",
-          "weeksOnChart": 5,
-          "peakPosition": 11
-        },
-        {
-          "position": 16,
-          "track": {
-            "title": "Electric Heart",
-            "artist": "Vesper"
-          },
-          "previousPosition": 17,
-          "movement": "up",
-          "weeksOnChart": 6,
-          "peakPosition": 16
-        },
-        {
-          "position": 17,
-          "track": {
-            "title": "Soleil levant",
-            "artist": "Mika Ange"
-          },
-          "previousPosition": 18,
-          "movement": "down",
-          "weeksOnChart": 7,
-          "peakPosition": 16
-        },
-        {
-          "position": 18,
-          "track": {
-            "title": "Northern Sky",
-            "artist": "Elias Vale"
-          },
-          "previousPosition": 19,
-          "movement": "down",
-          "weeksOnChart": 8,
-          "peakPosition": 16
-        },
-        {
-          "position": 19,
-          "track": {
-            "title": "Doucement",
-            "artist": "Naya"
-          },
-          "previousPosition": 20,
-          "movement": "up",
-          "weeksOnChart": 9,
-          "peakPosition": 16
-        },
-        {
-          "position": 20,
-          "track": {
-            "title": "Paris Minuit",
-            "artist": "Jules et Lila"
-          },
-          "previousPosition": 21,
-          "movement": "down",
-          "weeksOnChart": 10,
-          "peakPosition": 16
-        }
-      ],
-      "isDemo": false,
-      "sourceType": "alternative"
-    },
     "de": {
       "name": "Allemagne",
       "flag": "🇩🇪",
@@ -255,226 +20,656 @@
         {
           "position": 1,
           "track": {
-            "title": "Housewife",
-            "artist": "Tate McRae"
+            "title": "Movin' To The Sun",
+            "artist": "HUGEL, Imael Angel & Ultra Naté",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/61/7a/96617ab5-51da-7cfc-97e5-c5a6a893c210/1087654.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 1
+          "peakPosition": 1,
+          "source": "itunes"
         },
         {
           "position": 2,
           "track": {
-            "title": "Dai dai",
-            "artist": "Shakira x Burna Boy"
+            "title": "Rise Slow",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/27/8a/23278a46-aa21-30f3-9e68-213772c53ea7/825181567094.jpg/170x170bb.png"
           },
-          "previousPosition": 3,
-          "movement": "down",
-          "weeksOnChart": 2,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 2,
+          "source": "itunes"
         },
         {
           "position": 3,
           "track": {
-            "title": "Ain't In LA",
-            "artist": "Adéla"
+            "title": "My Own Way",
+            "artist": "Aeriva",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d3/12/a5/d312a5fa-d235-800d-0727-c6b34911f956/artwork.jpg/170x170bb.png"
           },
-          "previousPosition": 4,
-          "movement": "down",
-          "weeksOnChart": 3,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 3,
+          "source": "itunes"
         },
         {
           "position": 4,
           "track": {
-            "title": "Self Aware",
-            "artist": "Temper City"
+            "title": "Inside My Soul",
+            "artist": "SK.music",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/6b/68/bf6b68bb-b62a-a478-6ae0-b652972ce5b0/883128956318.jpg/170x170bb.png"
           },
-          "previousPosition": 5,
-          "movement": "up",
-          "weeksOnChart": 4,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 4,
+          "source": "itunes"
         },
         {
           "position": 5,
           "track": {
-            "title": "Movin' To The Sun",
-            "artist": "Hugel"
+            "title": "Later Become Never",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/74/b6/3974b623-a505-d5c3-b486-88b2cb682957/882100782228.jpg/170x170bb.png"
           },
-          "previousPosition": 6,
-          "movement": "down",
-          "weeksOnChart": 5,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 5,
+          "source": "itunes"
         },
         {
           "position": 6,
           "track": {
-            "title": "Mr. Brightside",
-            "artist": "The Killers"
+            "title": "Patient Zero",
+            "artist": "Taylor Swift",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/170x170bb.png"
           },
-          "previousPosition": 7,
-          "movement": "down",
-          "weeksOnChart": 6,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 6,
+          "source": "itunes"
         },
         {
           "position": 7,
           "track": {
-            "title": "Patient Zero",
-            "artist": "Taylor Swift"
+            "title": "BAD TIMES",
+            "artist": "Imael Angel",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/ad/da/d5adda6b-65f4-755a-05ab-f33a4e0e4cdd/artwork.jpg/170x170bb.png"
           },
-          "previousPosition": 8,
-          "movement": "up",
-          "weeksOnChart": 7,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 7,
+          "source": "itunes"
         },
         {
           "position": 8,
           "track": {
-            "title": "Mi chico",
-            "artist": "DJ Goja"
+            "title": "AN MEINER SEITE",
+            "artist": "Helene Fischer",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/06/cb/a206cbe6-dc24-51d8-cee1-595e1404e0c6/26UM1IM36082.rgb.jpg/170x170bb.png"
           },
-          "previousPosition": 9,
-          "movement": "down",
-          "weeksOnChart": 8,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 8,
+          "source": "itunes"
         },
         {
           "position": 9,
           "track": {
-            "title": "Mama (Remix)",
-            "artist": "Symba"
+            "title": "Bad Times (Extended Version)",
+            "artist": "Imael Angel",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/03/7f/08037f7d-6173-9348-991d-5966f0686539/artwork.jpg/170x170bb.png"
           },
-          "previousPosition": 10,
-          "movement": "down",
-          "weeksOnChart": 9,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 9,
+          "source": "itunes"
         },
         {
           "position": 10,
           "track": {
-            "title": "Stop The Wedding",
-            "artist": "Ashe"
+            "title": "Thriller",
+            "artist": "Michael Jackson",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/170x170bb.png"
           },
-          "previousPosition": 11,
-          "movement": "up",
-          "weeksOnChart": 10,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 10,
+          "source": "itunes"
         },
         {
           "position": 11,
           "track": {
-            "title": "Verschwommen",
-            "artist": "Ski Aggu & Ericson"
+            "title": "Babydoll",
+            "artist": "Jamie Miller & Antonio Cipriano",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/85/94/a98594bd-8e36-7b9f-a59d-77a3a19eb9a1/26UM1IM19333.rgb.jpg/170x170bb.png"
           },
-          "previousPosition": 12,
-          "movement": "down",
+          "previousPosition": null,
+          "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 11
+          "peakPosition": 11,
+          "source": "itunes"
         },
         {
           "position": 12,
           "track": {
-            "title": "Nicole Kidman",
-            "artist": "Adéla"
+            "title": "New Religion",
+            "artist": "Bebe Rexha & Faithless",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/99/14/1d99143b-f5ce-6a98-2992-f91a050835e3/199316500523_cover.jpg/170x170bb.png"
           },
-          "previousPosition": 13,
-          "movement": "down",
-          "weeksOnChart": 2,
-          "peakPosition": 11
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 12,
+          "source": "itunes"
         },
         {
           "position": 13,
           "track": {
-            "title": "Assalamualeikum",
-            "artist": "Capital Bra / Samra"
+            "title": "WARUM",
+            "artist": "Helene Fischer",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/06/cb/a206cbe6-dc24-51d8-cee1-595e1404e0c6/26UM1IM36082.rgb.jpg/170x170bb.png"
           },
-          "previousPosition": 14,
-          "movement": "up",
-          "weeksOnChart": 3,
-          "peakPosition": 11
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 13,
+          "source": "itunes"
         },
         {
           "position": 14,
           "track": {
-            "title": "Lush Life",
-            "artist": "Zara Larsson"
+            "title": "Mr. Know It All",
+            "artist": "Teddy Swims",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/fb/0b/7efb0b1b-8e34-5bd0-99ee-eafc83b8d5c7/054391217349.jpg/170x170bb.png"
           },
-          "previousPosition": 15,
-          "movement": "down",
-          "weeksOnChart": 4,
-          "peakPosition": 11
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 14,
+          "source": "itunes"
         },
         {
           "position": 15,
           "track": {
-            "title": "Dracula",
-            "artist": "Tame Impala"
+            "title": "Mi Chico",
+            "artist": "DJ Goja",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/77/e2/1377e282-b756-f06c-7d8f-46c68fbd7276/825700894823_cover.jpg/170x170bb.png"
           },
-          "previousPosition": 16,
-          "movement": "down",
-          "weeksOnChart": 5,
-          "peakPosition": 11
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 15,
+          "source": "itunes"
         },
         {
           "position": 16,
           "track": {
-            "title": "Ordinary",
-            "artist": "Alex Warren"
+            "title": "Magnetic",
+            "artist": "The Bausa",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/f3/8d/9ef38d20-68be-39bf-f1b9-7df49a4ba110/196874116135.jpg/170x170bb.png"
           },
-          "previousPosition": 17,
-          "movement": "up",
-          "weeksOnChart": 6,
-          "peakPosition": 16
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 16,
+          "source": "itunes"
         },
         {
           "position": 17,
           "track": {
-            "title": "Expectations",
-            "artist": "Olivia Rodrigo"
+            "title": "Ich weiß, was du brauchst",
+            "artist": "Kerstin Ott & Maite Kelly",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/a8/eb/73a8eb0f-6653-b324-8089-246b8ecc694a/26UM1IM20234.rgb.jpg/170x170bb.png"
           },
-          "previousPosition": 18,
-          "movement": "down",
-          "weeksOnChart": 7,
-          "peakPosition": 16
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 17,
+          "source": "itunes"
         },
         {
           "position": 18,
           "track": {
-            "title": "Issa",
-            "artist": "Sido"
+            "title": "Dai Dai",
+            "artist": "Shakira & Burna Boy",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/170x170bb.png"
           },
-          "previousPosition": 19,
-          "movement": "down",
-          "weeksOnChart": 8,
-          "peakPosition": 16
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 18,
+          "source": "itunes"
         },
         {
           "position": 19,
           "track": {
-            "title": "Bby Wow",
-            "artist": "Karol G"
+            "title": "HEUTE NACHT",
+            "artist": "Helene Fischer",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/06/cb/a206cbe6-dc24-51d8-cee1-595e1404e0c6/26UM1IM36082.rgb.jpg/170x170bb.png"
           },
-          "previousPosition": 20,
-          "movement": "up",
-          "weeksOnChart": 9,
-          "peakPosition": 16
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 19,
+          "source": "itunes"
         },
         {
           "position": 20,
           "track": {
-            "title": "Beauty And A Beat",
-            "artist": "Justin Bieber"
+            "title": "You Never Can Tell",
+            "artist": "Chuck Berry",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7a/26/3d/7a263da3-fc94-9044-25cd-924dc9a7b2ab/06UMGIM15342.rgb.jpg/170x170bb.png"
           },
-          "previousPosition": 21,
-          "movement": "down",
-          "weeksOnChart": 10,
-          "peakPosition": 16
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 20,
+          "source": "itunes"
+        },
+        {
+          "position": 21,
+          "track": {
+            "title": "Make Me Love You",
+            "artist": "Nickelback",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/bb/84/07bb846c-eaea-b26a-aebd-ba911351a35b/00823375244738_Cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 21,
+          "source": "itunes"
+        },
+        {
+          "position": 22,
+          "track": {
+            "title": "Roll it Halleluja",
+            "artist": "Cade Voss",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f7/66/d1/f766d19d-3f8e-6afa-990e-128d0d7f360e/artwork.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 22,
+          "source": "itunes"
+        },
+        {
+          "position": 23,
+          "track": {
+            "title": "Für immer",
+            "artist": "AYLIVA",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/00/1a/81001ad7-f3f7-4906-fd6b-d3221c5bb2f3/1200220263486.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 23,
+          "source": "itunes"
+        },
+        {
+          "position": 24,
+          "track": {
+            "title": "Why Don't You Spend the Night",
+            "artist": "Voltage X",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/4b/9c/c14b9c8e-f6f7-9dbc-94bb-18f58f7f0430/artwork.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 24,
+          "source": "itunes"
+        },
+        {
+          "position": 25,
+          "track": {
+            "title": "Girl from Vancouver",
+            "artist": "Svavar Knútur",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1c/fc/2f/1cfc2fa5-945e-96dc-2f52-8a692e384663/cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 25,
+          "source": "itunes"
+        },
+        {
+          "position": 26,
+          "track": {
+            "title": "Engel",
+            "artist": "Klangspiel",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/83/71/018371a2-3527-3847-bc93-b4e116acd99c/4591924.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 26,
+          "source": "itunes"
+        },
+        {
+          "position": 27,
+          "track": {
+            "title": "Mi Chico (Jason Derulo x Melody Version)",
+            "artist": "DJ Goja, Jason Derulo & Melody",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/aa/2b/c5aa2b28-7860-b387-fec4-4cefd5096150/712132026161_cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 27,
+          "source": "itunes"
+        },
+        {
+          "position": 28,
+          "track": {
+            "title": "Beweis",
+            "artist": "FRIDA GOLD & Jupiter Jones",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/2f/86/6e2f8694-40a0-994c-29ad-b8ce8268b0dd/cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 28,
+          "source": "itunes"
+        },
+        {
+          "position": 29,
+          "track": {
+            "title": "Bass Persuades",
+            "artist": "Miley Cyrus",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/af/51/ffaf51a6-d711-6f92-a5d6-f90e98014f0f/075679564061.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 29,
+          "source": "itunes"
+        },
+        {
+          "position": 30,
+          "track": {
+            "title": "Choosin' Texas",
+            "artist": "Ella Langley",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/91/4d/e2914d0a-7f1d-f04c-fbf4-c50b38548838/196873638690.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 30,
+          "source": "itunes"
+        },
+        {
+          "position": 31,
+          "track": {
+            "title": "Islas En El Mar (feat. Stephanie Amaro)",
+            "artist": "Aaron Nicholas",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/4a/35/6b4a3529-368b-b603-04a4-87d1029d8414/1963625078696_cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 31,
+          "source": "itunes"
+        },
+        {
+          "position": 32,
+          "track": {
+            "title": "Big Dream (feat. Zenan)",
+            "artist": "RamSkull",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/97/49/c397492a-3077-8fe0-421b-5d317a262869/11300.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 32,
+          "source": "itunes"
+        },
+        {
+          "position": 33,
+          "track": {
+            "title": "Ghostbusters",
+            "artist": "Ray Parker Jr.",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9a/70/43/9a704362-976d-ec4b-0367-54d368cb0ef8/886445902204.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 33,
+          "source": "itunes"
+        },
+        {
+          "position": 34,
+          "track": {
+            "title": "BbY WOW",
+            "artist": "KAROL G, Judeline & rusowsky",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 34,
+          "source": "itunes"
+        },
+        {
+          "position": 35,
+          "track": {
+            "title": "American Girls",
+            "artist": "Harry Styles",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 35,
+          "source": "itunes"
+        },
+        {
+          "position": 36,
+          "track": {
+            "title": "drop dead",
+            "artist": "Olivia Rodrigo",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 36,
+          "source": "itunes"
+        },
+        {
+          "position": 37,
+          "track": {
+            "title": "Rise Slow (Bass Boosted)",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/e7/9a/35e79aa2-4ee9-b67e-7d64-136ad230376b/882000102539.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 37,
+          "source": "itunes"
+        },
+        {
+          "position": 38,
+          "track": {
+            "title": "Housewife",
+            "artist": "Tate McRae",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/64/e4/6964e483-c02c-e389-14f4-c426e8c65f2c/196874840146.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 38,
+          "source": "itunes"
+        },
+        {
+          "position": 39,
+          "track": {
+            "title": "Sorry Papi",
+            "artist": "Topic & Becky G",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/2f/3c/cf2f3c1c-d476-f315-4e75-00a6da73fba6/26UMGIM35250.rgb.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 39,
+          "source": "itunes"
+        },
+        {
+          "position": 40,
+          "track": {
+            "title": "THE BLACK MARK",
+            "artist": "MelodiZenith",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/0c/82/f60c825e-38af-c4f6-0bd3-59e0f89b0718/artwork.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 40,
+          "source": "itunes"
+        },
+        {
+          "position": 41,
+          "track": {
+            "title": "Forever Lit (feat. The Citadel)",
+            "artist": "Ill Justice",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/b5/96/15b5962b-b942-a909-3b58-559741d3bd89/820233314923.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 41,
+          "source": "itunes"
+        },
+        {
+          "position": 42,
+          "track": {
+            "title": "Taking our power back",
+            "artist": "Peacefuldan",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/37/4b/85/374b8585-0bea-a97b-0951-968527aea48e/artwork.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 42,
+          "source": "itunes"
+        },
+        {
+          "position": 43,
+          "track": {
+            "title": "Halloween Theme",
+            "artist": "John Carpenter, Cody Carpenter & Daniel Davies",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/28/f0/8328f03c-30eb-b8fe-523a-c5a8aa4c7850/843563106761.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 43,
+          "source": "itunes"
+        },
+        {
+          "position": 44,
+          "track": {
+            "title": "VALHALLA CALLING",
+            "artist": "Ragal Ironbull",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/f5/ce/3cf5ce7f-0eb7-ab67-d641-924cb9f96aef/7300349535632_cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 44,
+          "source": "itunes"
+        },
+        {
+          "position": 45,
+          "track": {
+            "title": "Velho Siqueira",
+            "artist": "CROODEK FOLK",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/2d/7f/b82d7fc6-bb7b-c2b1-891d-1de2bc217ba7/artwork.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 45,
+          "source": "itunes"
+        },
+        {
+          "position": 46,
+          "track": {
+            "title": "Take a Little",
+            "artist": "Jaxson Blue",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/22/ef/4c22efe8-9ad8-35ca-5946-b53bc872cc6a/artwork.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 46,
+          "source": "itunes"
+        },
+        {
+          "position": 47,
+          "track": {
+            "title": "Not for Everyone",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/f3/8a/7df38a72-96cf-23e0-f820-d6922f1a7fd4/882061956126.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 47,
+          "source": "itunes"
+        },
+        {
+          "position": 48,
+          "track": {
+            "title": "Make It Spectacular",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f2/93/15/f2931572-4cb9-25c8-d32c-d8a886f66b51/882352876447.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 48,
+          "source": "itunes"
+        },
+        {
+          "position": 49,
+          "track": {
+            "title": "Boston",
+            "artist": "STELLA LEFTY",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/de/5e/7cde5e7a-612d-9714-d34c-1eb234c85ebb/810129961546.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 49,
+          "source": "itunes"
+        },
+        {
+          "position": 50,
+          "track": {
+            "title": "Mama, Don't Close Your Eyes",
+            "artist": "Bjorn Bonebreaker",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/71/cf/0571cf88-b7fc-b762-d646-8a4b3a598953/artwork.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 50,
+          "source": "itunes"
         }
       ],
       "isDemo": false,
-      "sourceType": "alternative"
+      "sourceType": "itunes"
     },
     "ch": {
       "name": "Suisse",
@@ -484,1014 +679,656 @@
         {
           "position": 1,
           "track": {
-            "title": "Housewife",
-            "artist": "Tate McRae"
+            "title": "Echo",
+            "artist": "Bligg & Heimweh",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/d3/2a/9fd32aae-1a16-6680-7b01-9125f5e8013a/196874852613.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 1
+          "peakPosition": 1,
+          "source": "itunes"
         },
         {
           "position": 2,
           "track": {
-            "title": "Bby Wow",
-            "artist": "Karol G, Judeline & Rusowsky"
+            "title": "Patient Zero",
+            "artist": "Taylor Swift",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/dd/fd/a0ddfd72-ee9e-f046-6466-a5dbefc696fa/26UM1IM21436.rgb.jpg/170x170bb.png"
           },
-          "previousPosition": 3,
-          "movement": "down",
-          "weeksOnChart": 2,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 2,
+          "source": "itunes"
         },
         {
           "position": 3,
           "track": {
-            "title": "Dai dai",
-            "artist": "Shakira x Burna Boy"
+            "title": "Rise Slow",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/27/8a/23278a46-aa21-30f3-9e68-213772c53ea7/825181567094.jpg/170x170bb.png"
           },
-          "previousPosition": 4,
-          "movement": "down",
-          "weeksOnChart": 3,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 3,
+          "source": "itunes"
         },
         {
           "position": 4,
           "track": {
-            "title": "Mi chico",
-            "artist": "DJ Goja"
+            "title": "Dreamer",
+            "artist": "Stubete Gäng",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/40/8f/a1408f13-468d-0004-3710-256cc278bc01/cover_4062851349222.jpg/170x170bb.png"
           },
-          "previousPosition": 5,
-          "movement": "up",
-          "weeksOnChart": 4,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 4,
+          "source": "itunes"
         },
         {
           "position": 5,
           "track": {
-            "title": "Nicole Kidman",
-            "artist": "Adéla"
+            "title": "Inside My Soul",
+            "artist": "SK.music",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bf/6b/68/bf6b68bb-b62a-a478-6ae0-b652972ce5b0/883128956318.jpg/170x170bb.png"
           },
-          "previousPosition": 6,
-          "movement": "down",
-          "weeksOnChart": 5,
-          "peakPosition": 1
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 5,
+          "source": "itunes"
         },
         {
           "position": 6,
           "track": {
-            "title": "Lumière",
-            "artist": "Alya Nova"
+            "title": "Dai Dai",
+            "artist": "Shakira & Burna Boy",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/49/8d/61498ded-f0dc-227d-cd1d-2051b5d9f195/196874328590.jpg/170x170bb.png"
           },
-          "previousPosition": 7,
-          "movement": "down",
-          "weeksOnChart": 6,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 6,
+          "source": "itunes"
         },
         {
           "position": 7,
           "track": {
-            "title": "Midnight Gold",
-            "artist": "The Amber Lines"
+            "title": "Mama, Don't Close Your Eyes",
+            "artist": "Bjorn Bonebreaker",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/71/cf/0571cf88-b7fc-b762-d646-8a4b3a598953/artwork.jpg/170x170bb.png"
           },
-          "previousPosition": 8,
-          "movement": "up",
-          "weeksOnChart": 7,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 7,
+          "source": "itunes"
         },
         {
           "position": 8,
           "track": {
-            "title": "Baila Conmigo",
-            "artist": "Luz Marina"
+            "title": "Movin' To The Sun",
+            "artist": "HUGEL, Imael Angel & Ultra Naté",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/61/7a/96617ab5-51da-7cfc-97e5-c5a6a893c210/1087654.jpg/170x170bb.png"
           },
-          "previousPosition": 9,
-          "movement": "down",
-          "weeksOnChart": 8,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 8,
+          "source": "itunes"
         },
         {
           "position": 9,
           "track": {
-            "title": "Évidence",
-            "artist": "Léa Volney"
+            "title": "Bad Times (Extended Version)",
+            "artist": "Imael Angel",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/03/7f/08037f7d-6173-9348-991d-5966f0686539/artwork.jpg/170x170bb.png"
           },
-          "previousPosition": 10,
-          "movement": "down",
-          "weeksOnChart": 9,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 9,
+          "source": "itunes"
         },
         {
           "position": 10,
           "track": {
-            "title": "Golden Hour",
-            "artist": "Aurora West"
+            "title": "hate that i made you love me",
+            "artist": "Ariana Grande",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/f4/96/56f49612-02dd-83f4-44fe-d2118cc70707/26UMGIM51129.rgb.jpg/170x170bb.png"
           },
-          "previousPosition": 11,
-          "movement": "up",
-          "weeksOnChart": 10,
-          "peakPosition": 6
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 10,
+          "source": "itunes"
         },
         {
           "position": 11,
           "track": {
-            "title": "Rio de Janeiro",
-            "artist": "Marisol"
+            "title": "Marble Halls",
+            "artist": "Enya",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/e5/b0/48/mzi.zhwasyyi.jpg/170x170bb.png"
           },
-          "previousPosition": 12,
-          "movement": "down",
+          "previousPosition": null,
+          "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 11
+          "peakPosition": 11,
+          "source": "itunes"
         },
         {
           "position": 12,
           "track": {
-            "title": "Silver Lining",
-            "artist": "Noor"
+            "title": "Chaussures Roses",
+            "artist": "TeddyBear",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/36/83/853683cc-0a8c-599c-cb6e-863feda0abc4/cover.jpg/170x170bb.png"
           },
-          "previousPosition": 13,
-          "movement": "down",
-          "weeksOnChart": 2,
-          "peakPosition": 11
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 12,
+          "source": "itunes"
         },
         {
           "position": 13,
           "track": {
-            "title": "La Vida Entera",
-            "artist": "Sofía del Mar"
+            "title": "Make Me Love You",
+            "artist": "Nickelback",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/bb/84/07bb846c-eaea-b26a-aebd-ba911351a35b/00823375244738_Cover.jpg/170x170bb.png"
           },
-          "previousPosition": 14,
-          "movement": "up",
-          "weeksOnChart": 3,
-          "peakPosition": 11
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 13,
+          "source": "itunes"
         },
         {
           "position": 14,
           "track": {
-            "title": "Electric Heart",
-            "artist": "Vesper"
+            "title": "BAD TIMES",
+            "artist": "Imael Angel",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/ad/da/d5adda6b-65f4-755a-05ab-f33a4e0e4cdd/artwork.jpg/170x170bb.png"
           },
-          "previousPosition": 15,
-          "movement": "down",
-          "weeksOnChart": 4,
-          "peakPosition": 11
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 14,
+          "source": "itunes"
         },
         {
           "position": 15,
           "track": {
-            "title": "Soleil levant",
-            "artist": "Mika Ange"
+            "title": "Bonito, Bonito",
+            "artist": "Thiago Navarro Music",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/47/fc/7747fc1e-8167-5de6-b8e7-cf9b1038aea3/882436183713_cover.jpg/170x170bb.png"
           },
-          "previousPosition": 16,
-          "movement": "down",
-          "weeksOnChart": 5,
-          "peakPosition": 11
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 15,
+          "source": "itunes"
         },
         {
           "position": 16,
           "track": {
-            "title": "Northern Sky",
-            "artist": "Elias Vale"
+            "title": "Basta un sorriso",
+            "artist": "Mira Mova Music",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/d9/4d/d4d94d1e-b9e4-0276-1473-1fab800724e0/artwork.jpg/170x170bb.png"
           },
-          "previousPosition": 17,
-          "movement": "up",
-          "weeksOnChart": 6,
-          "peakPosition": 16
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 16,
+          "source": "itunes"
         },
         {
           "position": 17,
           "track": {
-            "title": "Doucement",
-            "artist": "Naya"
+            "title": "Mr. Know It All",
+            "artist": "Teddy Swims",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/d3/6c/13d36c8f-1530-29d8-77c4-7120c35cddb2/093624815358.jpg/170x170bb.png"
           },
-          "previousPosition": 18,
-          "movement": "down",
-          "weeksOnChart": 7,
-          "peakPosition": 16
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 17,
+          "source": "itunes"
         },
         {
           "position": 18,
           "track": {
-            "title": "Wildfire",
-            "artist": "J.B. Monroe"
+            "title": "Break Out",
+            "artist": "Yello",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/f8/7a/91f87a85-7c41-ef5f-e312-2f4d89f774e0/26UMGIM84592.rgb.jpg/170x170bb.png"
           },
-          "previousPosition": 19,
-          "movement": "down",
-          "weeksOnChart": 8,
-          "peakPosition": 16
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 18,
+          "source": "itunes"
         },
         {
           "position": 19,
           "track": {
-            "title": "Paris Minuit",
-            "artist": "Jules et Lila"
+            "title": "Le Plus Beau",
+            "artist": "TeddyBear",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/0e/ba/210ebaaa-7be7-8017-2a6a-0596b70675a5/cover.jpg/170x170bb.png"
           },
-          "previousPosition": 20,
-          "movement": "up",
-          "weeksOnChart": 9,
-          "peakPosition": 16
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 19,
+          "source": "itunes"
         },
         {
           "position": 20,
           "track": {
-            "title": "Oceano Caminho",
-            "artist": "Bela Costa"
-          },
-          "previousPosition": 21,
-          "movement": "down",
-          "weeksOnChart": 10,
-          "peakPosition": 16
-        }
-      ],
-      "isDemo": false,
-      "sourceType": "alternative"
-    },
-    "us": {
-      "name": "États-Unis",
-      "flag": "🇺🇸",
-      "region": "anglo",
-      "chart": [
-        {
-          "position": 1,
-          "track": {
-            "title": "Disable Your AdblockerWe use ads to keep our content free. To access our site, disable your adblocker.ALLOW ADS ON BILLBOARDContinue without disablingContact support|We're using \";function onClose(){e.remove()}f=[\"click\",function(e){var t=e.currentTarget.getAttribute(\"data-pospetw6mw\"),r=e.currentTarget.parentElement,n=document.createElement(\"iframe\");n.src=t,n.style=\"margin: 36px 0;outline: 0;border: 0;width: 100%;height: 400px;\",r.replaceWith(n);var i=function(e){var t=e.data,o=t.goBack,c=t.blockerDisabled;o?(n.replaceWith(r),window.removeEventListener(\"message\",i)):c&&window.location.reload()};window.addEventListener(\"message\",i)},\"click\",onClose];for (i=0;i300&&b.fetchStart>Y)return!0;return!1})(),c=!navigator.onLine||!q&&!n,n||(d=8),!q&&E&&(d=16),o(c)}return t=n.performance,E=n.fetch,m=function(r,s){return r=0,(E||Y)&&(\"/\"===y[0]||y===n.origin)&&(t=T.href,E&&Y))return T.href;return t||\"/favicon.ico\"})(),{mode:\"no-cors\",credentials:\"omit\",cache:\"no-cache\"}).then((function(){q=!0,N&&g()}),(function(c){q=!1}))),H>=4?(q===undefined&&E?(N=!0,setTimeout(g,Math.max(4e3-(b()-j),Math.max(2e3-(l()-Y),0)))):g(),\"\"):H0&&(q.fetchPriority=\"high\"),E=setTimeout(d,6e3+2e3*n),q[T](\"error\",d),q[T](\"load\",d),m.parentNode.insertBefore(q,m)})(0,t=\"https://mangamad.com/files/jdvtyzaw8428\")})(document,window,\"QS01RTIxQUJEMDY5Mjc0MDAzMUY3MEM2MzEtMTQ\",\"script\",\"addEventListener\",{});;\n;\n!(function(c,n,b,H,T,a,y,t,E,Y,j,_name,q,m,d,N,l,G,o,g,U,R){_name=(j=function(c){return n(n(c))})('%2561d%256D%69r%25%36%31l');try{q=c.localStorage,m=c.sessionStorage}catch(h){q=m={}}d=j('%25%35%46%256%31%25%36%34%25%36%44%25%372%25%36C%256%33%25%36B%25%37%36%25%370'),l=c.location;try{0===document.referrer.indexOf(l.origin)?(N=new URLSearchParams(l.search)).get(j('%25%35F%256%31%2563%72%69'))?((G=N.get(j('_a%63%2574')))===j('%65%78%25%37%34e%25%36%45d')?o=[[\"\\u0061d\\u006dira\\u006c-e\\u0078te\\u006e\\u0064\\u0065d\",\"true\"||_name]]:G===j('%73%25%368%25%361%70%256%35')&&(o=[[\"a\\u0064\\u006d\\u0069ra\\u006c\\u002dsha\\u0070e\\u0064\",\"true\"||_name]]),o&&(m[d]=JSON.stringify(o))):o=JSON.parse(m[d]||\"[]\"):delete m[d]}catch(h){o=[]}function D(n,b){try{n=JSON.parse(q[\"_aQS01RTIxQUJEMDY5Mjc0MDAzMUY3MEM2MzEtMTQ\"]||\"{}\").lgk||[]}catch(h){n=[]}o&&(n=n.concat(o)),n&&n.length&&(b=c[g].pubads())&&n.forEach((function(c){c&&c[0]&&b.setTargeting(c[0],c[1]||\"\")}))}g=j('%256%37%256%46o%2567%256%43%25%36%35%25%37%34%61%256%37');try{R=(U=c[g]=c[g]||{}).cmd=U.cmd||[],typeof U.pubads===b?D():typeof R.unshift===b?R.unshift(D):R.push(D)}catch(h){}})(window,decodeURI,\"function\");\n\t\t\t\t\t\n\t\t\twindow.pmcCnx = window.pmcCnx || { cmd: [], push: (fn) => window.pmcCnx.cmd.push(fn) };\n\t\t\twindow.cnx = window.cnx || { cmd: [] };\n\t\t\n\t\t\n/*  */\n\n\n\n/*  */\n\n\n\n\n/*  */\n\n\n\n\n/*  */\n\n\n\n\n\n/*  */\n\n\n\n/*  */\n\n\n\n\n\n/*  */\n\n\n\n\n/*  */\n\n\n\n\n\n\n\n\n\n\nvar pmc = pmc || { adm: [] };\npmc.adm = pmc.adm || [];\nvar pmc_fpd = {\"page\":{\"type\":\"single-pmc-chart\",\"loggedIn\":false},\"article\":{\"id\":\"1479786\",\"title\":\"Billboard Hot 100\\u2122\",\"authors\":[],\"section\":\"\",\"keywords\":[],\"categories\":[],\"verticals\":[],\"pageLevelData\":[],\"pageAccessLevel\":\"\",\"publishedAt\":\"2013-01-02T14:48:25+00:00\"}};\npmc.adm.push( function () {\n\tpmc.adm.setPageMetaData( pmc_fpd );\n} );\n\n\n\n\n\t\t\t\n\t\t\t\t{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Organization\",\n    \"url\": \"https://www.billboard.com\",\n    \"name\": \"Billboard\",\n    \"logo\": \"https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/build/svg/billboard.svg\"\n}\n\t\t\t\n\t\t\t\n\narticle #connatix-contextual-player {\n\taspect-ratio: 16/9;\n\tposition: relative;\n}\narticle [id^=\"jwplayer_\"][id$=\"_div\"] {\n\taspect-ratio: 16/9;\n}\n.vvqbox {\n\tvisibility: visible !important;\n\tdisplay: block;\n\tclear: both;\n\twidth: 100%;\n}\n.vvqbox div {\n\tmargin: 10px auto;\n}\n.vvqbox img {\n\tmax-width: 100%;\n\theight: 100%;\n}\n.vvqbox object {\n\tmax-width: 100%;\n}\n\n\n\n\t\tarticle #connatix-contextual-player {\n\t\taspect-ratio: 16/9;\n\t\tposition: relative;\n\t\t}\n\t\t\n\t\t\n\t\t\ttry {\n\t\t\t\t// Don't rely on jQuery being loaded yet.\n\t\t\t\tdocument.addEventListener( 'DOMContentLoaded', function() {\n\n\t\t\t\t\t// Record in GA event if ads are blocked.\n\t\t\t\t\tif ( true === window.pmc_is_adblocked && 'function' === typeof gtag ) {\n\t\t\t\t\t\tgtag( 'event', 'ad_block_status', {\n\t\t\t\t\t\t\teventAction: 'blocked',\n\t\t\t\t\t\t\teventCategory: 'ad_blocker',\n\t\t\t\t\t\t\teventLabel: 'ads_blocked'\n\t\t\t\t\t\t} );\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t} catch( err ) {\n\t\t\t\t// Do nothing...\n\t\t\t}\n\t\t\n\t\t\t\t\n\t\t\twindow.dataLayer = window.dataLayer || [];\n\t\t\tfunction gtag() {dataLayer.push(arguments);}\n\t\t\tgtag('js', new Date());\n\n\t\t\t\t\tgtag( 'config', 'AW-608454122' );\n\t\t\t\t\t\t\tgtag( 'config', 'G-DJBCNPKNBT', { 'send_page_view': false } );\n\t\t\n\t\t\n\t\t\t\t\n\t\t\t/*\n\t\t\t\tThe use of !important is necessary here to ensure that this style\n\t\t\t\ttakes precedence over other conflicting WP/larva/nova styles.\n\t\t\t */\n\t\t\t@media (min-width: 1000px) {\n\t\t\t\t.pmc-hide-desktop {\n\t\t\t\t\tdisplay: none !important; /* Hide on desktop */\n\t\t\t\t}\n\t\t\t}\n\n\t\t\t@media (max-width: 1000px) {\n\t\t\t\t.pmc-hide-mobile {\n\t\t\t\t\tdisplay: none !important; /* Hide on mobile */\n\t\t\t\t}\n\t\t\t}\n\t\t\n\t\t\n\n\timg#wpstats{display:none}\n\t\t\t\t\n\t\t\t!function(a){\"use strict\";a.loadCSS||(a.loadCSS=function(){});var b=loadCSS.relpreload={};if(b.support=function(){var b;try{b=a.document.createElement(\"link\").relList.supports(\"preload\")}catch(c){b=!1}return function(){return b}}(),b.bindMediaToggle=function(a){function b(){a.addEventListener?a.removeEventListener(\"load\",b):a.attachEvent&&a.detachEvent(\"onload\",b),a.setAttribute(\"onload\",null),a.media=c}var c=a.media||\"all\";a.addEventListener?a.addEventListener(\"load\",b):a.attachEvent&&a.attachEvent(\"onload\",b),setTimeout(function(){a.rel=\"stylesheet\",a.media=\"only x\"}),setTimeout(b,3e3)},b.poly=function(){if(!b.support())for(var c=a.document.getElementsByTagName(\"link\"),d=0;d\n\t\t\n/*  */\n\n\n{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"NewsArticle\",\n    \"url\": \"https://www.billboard.com/charts/hot-100/\",\n    \"name\": \"Billboard\",\n    \"mainEntityOfPage\": {\n        \"@type\": \"WebPage\",\n        \"@id\": \"https://www.billboard.com/charts/hot-100/\"\n    },\n    \"headline\": \"Billboard Hot 100™\",\n    \"datePublished\": \"2013-01-02T14:48:25+00:00\",\n    \"dateModified\": \"2026-10-26T11:45:39+00:00\",\n    \"articleBody\": \"THE WEEK’S MOST POPULAR CURRENT SONGS ACROSS ALL GENRES, RANKED BY STREAMING ACTIVITY DATA BY ONLINE MUSIC SOURCES TRACKED BY LUMINATE, RADIO AIRPLAY AUDIENCE IMPRESSIONS AS MEASURED BY MEDIABASE AND PROVIDED BY LUMINATE AND SALES DATA AS COMPILED BY LUMINATE.\",\n    \"author\": {\n        \"@type\": \"Person\",\n        \"name\": \"tolsen\",\n        \"url\": \"https://www.billboard.com/author/tolsen/\"\n    },\n    \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Billboard\",\n        \"url\": \"https://www.billboard.com\"\n    },\n    \"isAccessibleForFree\": \"false\",\n    \"hasPart\": {\n        \"@type\": \"WebPageElement\",\n        \"isAccessibleForFree\": \"false\",\n        \"cssSelector\": \".pmc-paywall\"\n    }\n}\n\n\n\tvar googletag = googletag || {};\n\tgoogletag.cmd = googletag.cmd || [];\n\tgoogletag.cmd.push(function () {\n\t\tgoogletag.pubads().collapseEmptyDivs();\n\t});\n\tvar blogherads = blogherads || {};\n\tblogherads.adq = blogherads.adq || [];\n\tblogherads.adq.push(function() {\n\t\twindow.pmcAdBridge = blogherads;\n\t\tvar config = {\n\t\t\tc3: '3940384',\n\t\t\toptions: {}\n\t\t};\n\t});\n\n\t(function ( blogherads ) {\n\t\t\n\t\tblogherads.adq.push( function () {\n\n\t\t\t\n\t\t\t\t\t\t\tblogherads.setConf( 'vertical', 'ros' );\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\tblogherads.setTargeting( 'pt', 'pmc-chart' );\nblogherads.setTargeting( 'ci', 'BB-chart-1479786' );\nblogherads.setTargeting( 'kw', [\"overall-popularity\",\"charts\"] );\n\n\t\t\tblogherads.setTargeting( 'skin', Math.floor( ( Math.random() * 12 ) + 1 ).toString() );// Needed for serving mutiple campaigns\n\t\t} );\n\t})( blogherads );\n\n\n\tif (window.pmc_jwplayer) {\n\t\twindow.pmc_jwplayer.init({\"players\":[\"TgFJhWS8\"]});\n\t}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\n\t\t\t/* Ceros Embeds Full Width */\n.page-template-page-ceros-content .lrv-a-wrapper{\n\tmax-width: 100% !important; \n\tpadding-left: 0rem !important;\n\tpadding-right: 0rem !important;\n}\n\n/* BBMAs Sub Header Adjustments */\n\n@media only screen and (min-width: 568px) {\n.wp-block-cover.alignfull.is-hub-header.header-cover-sticky .wp-block-group.lrv-u-flex.lrv-u-align-items-center.lrv-u-justify-content-space-between {\n    justify-content: center;\n}\n.wp-block-cover.alignfull.is-hub-header.header-cover-sticky\th2.heading.larva.\\/\\/.a-font-accent.u-font-size-15.u-line-height-21px {\n    padding: 0rem 2rem;\n}\n}\n\n/*Hide View Global Charts button from /t/global*/\n.tag-global .bb-pro-chart-bottom {display:none;}\n\n\n\n/* Fix for charts cutting off dropdown menu when no chart. Need to fix. */\n.all-charts-list .lrv-u-overflow-hidden.u-max-width-960.lrv-u-margin-lr-auto {\n\toverflow: visible;\n}\n\n/* Fix for datawrapper mobile charts getting a fixed height */\n\n@media only screen and (max-width: 728px) {\n  .postid-1236303280 #pmc-protected-embed-1,\n  .postid-1236303280 #pmc-protected-embed-2 {\n    height: 600px !important;\n  }\n}\n\n@media only screen and (max-width: 728px) {\n .postid-1236303280 #pmc-protected-embed-3 {\n    height: 300px !important;\n  }\n}\n\n@media only screen and (max-width: 728px) {\n  .postid-1236305076 #pmc-protected-embed-1,\n  .postid-1236305076 #pmc-protected-embed-2 {\n    height: 700px !important;\n  }\n}\n\n@media only screen and (max-width: 728px) {\n  .postid-1236305076 #pmc-protected-embed-3 {\n    height: 400px !important;\n  }\n}\n\n/* Hotfix for The Movement Fix spotify embed */\n@media only screen and (max-width: 728px) {\n\t#post-1236270823 #pmc-protected-embed-1,#post-1236270823 #pmc-protected-embed-2 {\n\t\theight: 1000px;\n\t}\n\t#post-1236270823 #pmc-protected-embed-2 {\n\t\theight: 940px;\n\t}\n\t#post-1236270823 #pmc-protected-embed-3 {\n\t\theight: 1060px;\n\t}\n}\t\t\n\t\t\n\n\n\n\twindow._taboola = window._taboola || [];\n\twindow.pmc_taboola = window.pmc_taboola || [];\n\n\twindow.pmc_taboola.push({\"other\":\"auto\"});\n\n\n\tif (window.performance && typeof window.performance.mark == 'function') {window.performance.mark('tbl_ic');}\n\n\n\n\n!function(){function a6q(){const t=[\"load\",\"ZGF0YS1zZGs=\",\"2388176dcYXEy\",\"8910979ZfDTkk\",\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_\",\".js\",\"length\",\"hostname\",\"map\",\"remove\",\"parse\",\"prototype\",\"join\",\"contentWindow\",\"_contentWindow\",\"appendChild\",\"setAttribute\",\"createElement\",\"script\",\"src\",\"concat\",\"5VYRscM\",\"slice\",\"indexOf\",\"SFRNTElGcmFtZUVsZW1lbnQ=\",\"addEventListener\",\"as_essential\",\"getOwnPropertyDescriptor\",\"5303044qUyVwa\",\"replace\",\"__sa_\",\"now\",\"4344309EuIkdF\",\"currentScript\",\"error\",\"1727158BfblyN\",\"https://\",\"head\",\"10380TxLSKX\",\"6052086sQELor\",\"href\",\"toString\",\"padStart\"];return(a6q=function(){return t})()}function a6f(t,n){const o=a6q();return(a6f=function(t,n){return o[t-=371]})(t,n)}(function(){const t=a6f,n=a6q();for(;;)try{if(970194==-parseInt(t(407))/1+-parseInt(t(410))/2+parseInt(t(404))/3+-parseInt(t(400))/4*(parseInt(t(393))/5)+parseInt(t(411))/6+parseInt(t(375))/7+parseInt(t(374))/8)break;n.push(n.shift())}catch(t){n.push(n.shift())}})(),(t=>{const n=a6f;null===(t=document[n(405)])||void 0===t||t[n(381)]();const o=atob(n(396));window[n(402)+btoa(location[n(412)])]={[o+n(386)]:Object[n(399)](window[o][n(383)],n(385)),...window[n(402)+btoa(location[n(412)])]||{}};const e=t=>{const o=n;if(0===t[o(378)])return;const[r,...a]=t,c=document[o(389)](o(390));c[o(391)]=o(408)[o(392)](r,\"/runtime~main/\")[o(392)]((()=>{const t=o,n=t(376),e=btoa(location[t(379)])[t(401)](/\\+/g,\"-\")[t(401)](/\\//g,\"_\")[t(401)](/=+$/,\"\"),r=\"vTAk\",a=(Date[t(403)]()/36e5|0)[t(413)](36)[t(371)](4,\"0\")[t(394)](-4);let c=\"\";for(let o=0;on[t]))[t(384)](\"\")})(),o(377)),c[o(388)](atob(o(373)),atob(\"d3AtZS8xLjAuMw==\")),c[o(397)](o(406),(()=>e(a))),c[o(397)](o(372),(()=>window[btoa(o(398)+location[o(379)])[o(401)](/=+$/,\"\")]||e(a))),document[o(409)][o(387)](c)};e(JSON[n(382)](atob(\"WyJodG1sLWxvYWQuY2MiLCJzYWZlLmFtdXNlZGxvdHVzLmNvbSIsImVmZmljaWVudGRlbmltLmNvbSIsImtlZW5hbHRvLmNvbSIsIm5lYXRjb3Ntb3MuY29tIl0=\")))})();\n}();\n\t\t\t\n\t\t\n\t\t\t(function(h,o,t,j,a,r){\n\t\t\t\th.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};\n\t\t\t\th._hjSettings={hjid:2036991,hjsv:5};\n\t\t\t\ta=o.getElementsByTagName('head')[0];\n\t\t\t\tr=o.createElement('script');r.async=1;\n\t\t\t\tr.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;\n\t\t\t\ta.appendChild(r);\n\t\t\t})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');\n\t\t\n\t\t\n\nfunction gtag_report_conversion(url) {\n\tvar callback = function() {\n\t\tif (typeof (url) != 'undefined') {\n\t\t\twindow.location = url;\n\t\t}\n\t};\n\tgtag('event', 'conversion', {\n\t\t'send_to': 'AW-608454122/zN2OCKXzqtkBEOqLkaIC',\n\t\t'event_callback': callback\n\t});\n\treturn false;\n}\n\n\n\n\n\n\n\n\n\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\n\t\t\n\t\n\t\t\n\t\t&times;\n\t\t\n\t\n\t\tif ( !window.pmc.harmony?.isEventAdScheduledTime() ) {\n\t\t\tconst playerDivId = 'connatix_floating_preroll_ad_div';\n\t\t\tpmcCnx.cmd.push(function() {\n\t\t\t\tpmcCnx({\n\t\t\t\t\tplayerId: '4057afa6-846b-4276-bc63-a9cf3a8aa1ed',\n\t\t\t\t\tplaylistId: '7d883b78-ef0d-4bde-94cd-5300fb7fd3e3',\n\t\t\t\t}).render(playerDivId, function(cnxErr, cnxPlayerInstance) {\n\t\t\t\t\tif (!cnxErr) {\n\t\t\t\t\t\tconst cnxReadyEvt = new CustomEvent('cnxReady', {\n\t\t\t\t\t\t\tbubbles: true,\n\t\t\t\t\t\t\tcancelable: true,\n\t\t\t\t\t\t\tdetail: { playerInstance: cnxPlayerInstance }\n\t\t\t\t\t\t});\n\t\t\t\t\t\tcnxPlayerInstance.on(cnx.configEvents.Play, function() {\n\t\t\t\t\t\t\tdocument.getElementById(playerDivId).dispatchEvent(cnxReadyEvt);\n\t\t\t\t\t\t});\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t});\n\t\t} else {\n\t\t\t// This should only be get called when page cache is not cleared and it's event time.\n\t\t\twindow.pmc.harmony?.switchToHarmonyPlayer();\n\t\t}\n\t\n\t\n\n\n\n\t\n\t\t\n\t\n\n\t\n\t\tvar _qevents = _qevents || [];\n\t\twindow.addEventListener( 'load', function() {\n\t\t\tsetTimeout( function() {\n\t\t\t\t(function() { var elem = document.createElement('script'); elem.src = (document.location.protocol == \"https:\" ? \"https://secure\" : \"http://edge\") + \".quantserve.com/quant.js\"; elem.async = true; elem.type = \"text/javascript\"; var scpt = document.getElementsByTagName('script')[0]; scpt.parentNode.insertBefore(elem, scpt); })();\n\t\t\t}, 5000 );\n\t\t} );\n\t\n\n\n\n\n\t\n\n\t\n\t\n\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\n\t\t\n\t\t\t\n\t\t\tblogherads.adq.push(function () {\n\t\t\t\t\t\t\t\tblogherads\n\t\t\t\t\t.defineSlot( 'reskin', 'gpt-dsk-charts-skin-uid0' )\n\t\t\t\t\t\t\t\t.setTargeting( 'pos', [\"skin\",\"top\"] )\n\t\t\t\t\t\t\t\t\t\t\t\t.setSubAdUnitPath(\"charts\\/skin\")\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t;\n\t\t\t\t\t\t\t});\n\t\t\n\t\n\n\t\t\t\n\t\t\t\t\n\t\n\n\n\n\n \n\t\n\t&#x000D7;\n\t\n\n\n\t\n\n\t\n\t\t\n\t\t\tSkip to main content\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\n\t\t\n\t\t\t\n\t\t\tblogherads.adq.push(function () {\n\t\t\t\t\t\t\t\tblogherads\n\t\t\t\t\t.defineSlot( 'banner', 'div-gpt-dsk-tab-bb-charts-leaderboard-uid1' )\n\t\t\t\t\t\t\t\t.setTargeting( 'pos', [\"leaderboard\",\"atf\",\"top\",\"3x1\",\"3x2\"] )\n\t\t\t\t\t\t\t\t\t\t\t\t.setSubAdUnitPath(\"charts\\/leaderboard\")\n\t\t\t\t\t\t\t\t\t\t\t\t.addSize([[970,250],[970,90],[728,90],[3,1],[1160,250],[3,2]])\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t.setClsOptimization(\"minsize\")\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t;\n\t\t\t\t\t\t\t\tblogherads.setFirstSlot(\"div-gpt-dsk-tab-bb-charts-leaderboard-uid1\");\n\t\t\t\t\t\t\t});\n\t\t\n\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\n\t\n\t\t\n\t\t\t\n\t\n\n\t\n\n\n\n\t\n\t\n\n\n\t\t\tOpen menu\n\t\n\t\t\t\n\n\n\t\n\n\t\n\t\n\t\t\t\n\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\n\t\t\t\tBillboard\n\t\n\t\t\t\n\t\n\t\t\t\tBillboard\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\n\n\n\t\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tCharts\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tMusic\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tVideo\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tAwards\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tBusiness\n\t\t\t\t\n\t\t\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\n\n\t\n\t\t\n\t\t\tAccount\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\n\tManage Account\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\n\n\t\n\t\tLog Out\t\n\n\t\n\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\tAccount\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\n\n\t\n\t\tLOGIN\t\n\n\t\t\tLogin\n\t\n\t\n\t\t\t\t\n\t\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\n\t\t\t\n\t\t\n\t\t\n\t\t\t\t\t\t\t\n\n\n\t\n\t\t\t\n\t\t\t\n\t\n\n\t\n\n\n\n\t\n\t\n\n\n\t\t\tOpen menu\n\t\n\t\t\t\n\n\n\t\n\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\n\t\t\t\tBillboard\n\t\n\t\t\n\n\t\t\n\t\t\t\n\t\n\n\n\t\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tCharts\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tMusic\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tVideo\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tAwards\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tBusiness\n\t\t\t\t\n\t\t\t\t\t\t\n\n\n\t\t\n\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\n\n\t\n\t\tLOGIN\t\n\n\t\t\tLogin\n\t\n\t\n\t\t\t\n\t\t\t\t\n\n\n\t\n\t\t\n\t\t\tAccount\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\n\tManage Account\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\n\n\t\n\t\tLog Out\t\n\n\t\n\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\tAccount\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n\n\t\n\t\t\n\t\t\t\n\n\n\t\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tYear End Charts\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tBillboard Hot 100™\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tBillboard 200™\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tGlobal 200\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tArtist 100\n\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\n\t\n\n\t\t\n\t\t\t\t\n\t\t\t\n\n\t\n\t\t\n\t\t\t\n\t\n\n\t\n\n\n\n\t\n\t\n\n\n\t\t\tOpen menu\n\t\n\t\t\t\n\n\n\t\n\n\t\n\t\n\t\t\t\n\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\n\t\t\t\tBillboard\n\t\n\t\t\t\n\t\n\t\t\t\tBillboard\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\n\n\n\t\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tCharts\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tMusic\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tVideo\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tAwards\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\n\tBusiness\n\t\t\t\t\n\t\t\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\n\n\t\n\t\t\n\t\t\tAccount\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\n\tManage Account\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\n\n\t\n\t\tLog Out\t\n\n\t\n\t\n\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\tAccount\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\n\n\t\n\t\tLOGIN\t\n\n\t\t\tLogin\n\t\n\t\n\t\t\t\t\n\t\t\t\t\t\n\n\n\t\t\t\n\t\n\n\t\n\n\t\t\tSearch\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Expand Search Input\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\n\t\t\tPlus Icon\n\t\n\n\t\n\t\n\n\n\t\t\tClick to Close Search Input\n\t\n\t\n\t\n\t\t\t\t\t\t\n\t\t\n\t\n\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\n\t\t\n\t\n\n\n\t\t\t\t \n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t\n\t\n\n\t\n\t\tAll Charts\t\n\n\t\n\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n    \n        \n            \n                \n                \n            \n            \n                \n                \n            \n        \n        \n            Close the menu\n        \n    \n     \n                    \n\n\t\n\t\t\n\n\t2025 Year End\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand 2025-year-end menu",
-            "artist": "Expand top-charts menu"
+            "title": "Giocano a guerra",
+            "artist": "Nina Sartori",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/66/94/dc669453-6c3d-ebc7-da95-8849c8d1efc0/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 1
-        },
-        {
-          "position": 2,
-          "track": {
-            "title": "Global\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand global menu",
-            "artist": "Expand afrobeats menu"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 2
-        },
-        {
-          "position": 3,
-          "track": {
-            "title": "Hits of the World\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand hits-of-the-world menu",
-            "artist": "Expand greatest-of-all-time menu"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 3
-        },
-        {
-          "position": 4,
-          "track": {
-            "title": "Pop\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand pop menu",
-            "artist": "Expand country menu"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 4
-        },
-        {
-          "position": 5,
-          "track": {
-            "title": "Rock &amp; Alternative\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand rock-alternative menu",
-            "artist": "Expand rb-hip-hop menu"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 5
-        },
-        {
-          "position": 6,
-          "track": {
-            "title": "Latin\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand latin menu",
-            "artist": "Expand dance menu"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 6
-        },
-        {
-          "position": 7,
-          "track": {
-            "title": "Christian\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand christian menu",
-            "artist": "Expand gospel menu"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 7
-        },
-        {
-          "position": 8,
-          "track": {
-            "title": "Songwriters &amp; Producers\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand songwriters-producers menu",
-            "artist": "Expand classical menu"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 8
-        },
-        {
-          "position": 9,
-          "track": {
-            "title": "Jazz\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand jazz menu",
-            "artist": "Expand world menu"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 9
-        },
-        {
-          "position": 10,
-          "track": {
-            "title": "Holiday\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand holiday menu",
-            "artist": "Expand summer menu"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 10
-        },
-        {
-          "position": 11,
-          "track": {
-            "title": "Stage &amp; Screen\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand stage-screen menu",
-            "artist": "Expand additional-genres menu"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 11
-        },
-        {
-          "position": 12,
-          "track": {
-            "title": "Additional Charts\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tExpand additional-charts menu",
-            "artist": "Week of October 31, 2026"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 12
-        },
-        {
-          "position": 13,
-          "track": {
-            "title": "Gains in Weekly Performance",
-            "artist": "Share"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 13
-        },
-        {
-          "position": 14,
-          "track": {
-            "title": "Choosin&#039; Texas",
-            "artist": "Ella Langley"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 14
-        },
-        {
-          "position": 15,
-          "track": {
-            "title": "Debut Position",
-            "artist": "39"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 15
-        },
-        {
-          "position": 16,
-          "track": {
-            "title": "Peak Position",
-            "artist": "1"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 16
-        },
-        {
-          "position": 17,
-          "track": {
-            "title": "Chart History",
-            "artist": "Share Chart on Facebook"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 17
-        },
-        {
-          "position": 18,
-          "track": {
-            "title": "Credits",
-            "artist": "RIAA Certification:"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 18
-        },
-        {
-          "position": 19,
-          "track": {
-            "title": "Housewife",
-            "artist": "Tate McRae"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 19
-        },
-        {
-          "position": 20,
-          "track": {
-            "title": "Debut Position",
-            "artist": "2"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 20
+          "peakPosition": 20,
+          "source": "itunes"
         },
         {
           "position": 21,
           "track": {
-            "title": "Peak Position",
-            "artist": "2"
+            "title": "Suite for Variety Orchestra: VII. Waltz No. 2 (Arr. Garrett & Haywood for Violin, Piano, Guitar & Orchestra)",
+            "artist": "David Garrett, Julien Quentin, Franck van der Heijden & Orchestra the Prezent",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9f/f0/33/9ff033b4-56e9-9d24-5e81-2d20fc6c5834/26UMGIM72415.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 21
+          "peakPosition": 21,
+          "source": "itunes"
         },
         {
           "position": 22,
           "track": {
-            "title": "Chart History",
-            "artist": "Share Chart on Facebook"
+            "title": "Thriller",
+            "artist": "Michael Jackson",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 22
+          "peakPosition": 22,
+          "source": "itunes"
         },
         {
           "position": 23,
           "track": {
-            "title": "Awards",
-            "artist": "3"
+            "title": "Mon Amour",
+            "artist": "Hecht",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/89/c5b7893d-15bd-fcf4-c22e-5a92b136ac7f/7649995049224_3000.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 23
+          "peakPosition": 23,
+          "source": "itunes"
         },
         {
           "position": 24,
           "track": {
-            "title": "Expectations",
-            "artist": "Olivia Rodrigo &amp; Chappell Roan"
+            "title": "Perfect Man",
+            "artist": "Teddy Swims",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/d3/6c/13d36c8f-1530-29d8-77c4-7120c35cddb2/093624815358.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 24
+          "peakPosition": 24,
+          "source": "itunes"
         },
         {
           "position": 25,
           "track": {
-            "title": "Debut Position",
-            "artist": "20"
+            "title": "Ghostbusters",
+            "artist": "Ray Parker Jr.",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/96/63/c596638c-a823-1a5e-dba0-6f1df67ab671/886447946862.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 25
+          "peakPosition": 25,
+          "source": "itunes"
         },
         {
           "position": 26,
           "track": {
-            "title": "Peak Position",
-            "artist": "3"
+            "title": "Piccole Cose",
+            "artist": "Giordana Angi",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/a9/57/70a957e7-28ad-259a-75c4-49595324f49d/1200220295272.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 26
+          "peakPosition": 26,
+          "source": "itunes"
         },
         {
           "position": 27,
           "track": {
-            "title": "Share",
-            "artist": "Share Chart on Facebook"
+            "title": "Storm in my heart",
+            "artist": "Rockin' Jukebox",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/b2/cd/75b2cd4f-6157-5cac-69ab-76a6eeb0325b/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 27
+          "peakPosition": 27,
+          "source": "itunes"
         },
         {
           "position": 28,
           "track": {
-            "title": "Awards",
-            "artist": "4"
+            "title": "Sola Una Vida",
+            "artist": "DJ Villa Sol",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/f0/6e/48f06e19-fc49-0632-c1e4-8b67aca82580/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 28
+          "peakPosition": 28,
+          "source": "itunes"
         },
         {
           "position": 29,
           "track": {
-            "title": "Lies",
-            "artist": "Zach Bryan Featuring Lana Del Rey"
+            "title": "You Say",
+            "artist": "Lauren Daigle",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/aa/2b/b9/aa2bb92a-4ace-da16-5118-21b78935e185/829619167054.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 29
+          "peakPosition": 29,
+          "source": "itunes"
         },
         {
           "position": 30,
           "track": {
-            "title": "Debut Position",
-            "artist": "4"
+            "title": "VALHALLA CALLING",
+            "artist": "Ragal Ironbull",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/f5/ce/3cf5ce7f-0eb7-ab67-d641-924cb9f96aef/7300349535632_cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 30
+          "peakPosition": 30,
+          "source": "itunes"
         },
         {
           "position": 31,
           "track": {
-            "title": "Peak Position",
-            "artist": "4"
+            "title": "BbY WOW",
+            "artist": "KAROL G, Judeline & rusowsky",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2b/66/b2/2b66b26c-ab23-faa1-c4ee-06fa2cce8f76/26UM1IM00558.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 31
+          "peakPosition": 31,
+          "source": "itunes"
         },
         {
           "position": 32,
           "track": {
-            "title": "Share",
-            "artist": "Share Chart on Facebook"
+            "title": "The Ballad Of Terry Fox",
+            "artist": "Bryan Adams",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/9f/f5/de9ff595-ff1c-e4ab-e5ca-09e43f57386c/5059449450919.png/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 32
+          "peakPosition": 32,
+          "source": "itunes"
         },
         {
           "position": 33,
           "track": {
-            "title": "Awards",
-            "artist": "5"
+            "title": "Unstoppable",
+            "artist": "Sia",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/13/27/bc13275c-8b26-802d-771b-d15ae00fb530/mzm.hvpwjsvi.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 33
+          "peakPosition": 33,
+          "source": "itunes"
         },
         {
           "position": 34,
           "track": {
-            "title": "Patient Zero",
-            "artist": "Taylor Swift"
+            "title": "Every Breath You Take",
+            "artist": "The Police",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/b7/db/42b7dbe1-d13f-c600-5b78-daa57c5d0f08/06UMGIM50761.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 34
+          "peakPosition": 34,
+          "source": "itunes"
         },
         {
           "position": 35,
           "track": {
-            "title": "Debut Position",
-            "artist": "1"
+            "title": "Saturday Morning",
+            "artist": "Yello",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/f8/7a/91f87a85-7c41-ef5f-e312-2f4d89f774e0/26UMGIM84592.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 35
+          "peakPosition": 35,
+          "source": "itunes"
         },
         {
           "position": 36,
           "track": {
-            "title": "Peak Position",
-            "artist": "1"
+            "title": "The Art Of Letting Go",
+            "artist": "ÁSDÍS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/17/7e/1b177efc-ff5d-a7cb-0355-9d0544f234d6/26UMGIM51124.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 36
+          "peakPosition": 36,
+          "source": "itunes"
         },
         {
           "position": 37,
           "track": {
-            "title": "Chart History",
-            "artist": "Share Chart on Facebook"
+            "title": "Bass Persuades",
+            "artist": "Miley Cyrus",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ff/af/51/ffaf51a6-d711-6f92-a5d6-f90e98014f0f/075679564061.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 37
+          "peakPosition": 37,
+          "source": "itunes"
         },
         {
           "position": 38,
           "track": {
-            "title": "Credits",
-            "artist": "6"
+            "title": "This Is Halloween",
+            "artist": "The Citizens of Halloween",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/26/5c/37/265c3733-e0a5-5758-6de0-f6a9f2a1ad6d/06PNDIM00838.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 38
+          "peakPosition": 38,
+          "source": "itunes"
         },
         {
           "position": 39,
           "track": {
-            "title": "Boston",
-            "artist": "Stella Lefty"
+            "title": "Collide",
+            "artist": "Glockenbach & Calum Scott",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/68/49/0d684949-c30c-5a6f-b9ab-0e3cd5f44202/25UM1IM84598.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 39
+          "peakPosition": 39,
+          "source": "itunes"
         },
         {
           "position": 40,
           "track": {
-            "title": "Debut Position",
-            "artist": "95"
+            "title": "Midnight Traffic",
+            "artist": "Yello",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/f8/7a/91f87a85-7c41-ef5f-e312-2f4d89f774e0/26UMGIM84592.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 40
+          "peakPosition": 40,
+          "source": "itunes"
         },
         {
           "position": 41,
           "track": {
-            "title": "Peak Position",
-            "artist": "2"
+            "title": "Des lols et des quoi",
+            "artist": "Mylène Farmer",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/8e/c8/098ec8e1-279c-786e-9ee4-28db2a039d1c/196874746028.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 41
+          "peakPosition": 41,
+          "source": "itunes"
         },
         {
           "position": 42,
           "track": {
-            "title": "Share",
-            "artist": "Share Chart on Facebook"
+            "title": "You Never Can Tell",
+            "artist": "Chuck Berry",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7a/26/3d/7a263da3-fc94-9044-25cd-924dc9a7b2ab/06UMGIM15342.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 42
+          "peakPosition": 42,
+          "source": "itunes"
         },
         {
           "position": 43,
           "track": {
-            "title": "Credits",
-            "artist": "7"
+            "title": "My Body Isn't Ready",
+            "artist": "sombr",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/1d/f6/2f1df6d3-09e2-e0a2-2e2b-fd5bb05be1ab/054391214515.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 43
+          "peakPosition": 43,
+          "source": "itunes"
         },
         {
           "position": 44,
           "track": {
-            "title": "Been By Now",
-            "artist": "Morgan Wallen"
+            "title": "TU N’ES PLUS LÀ",
+            "artist": "Doz",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/de/b6/34deb65e-aacc-b3fe-e965-4e6f5b943865/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 44
+          "peakPosition": 44,
+          "source": "itunes"
         },
         {
           "position": 45,
           "track": {
-            "title": "Debut Position",
-            "artist": "2"
+            "title": "Africa",
+            "artist": "Toto",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/69/ce/d2/69ced240-07a7-2a04-bbab-2afbacf30809/074643772822.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 45
+          "peakPosition": 45,
+          "source": "itunes"
         },
         {
           "position": 46,
           "track": {
-            "title": "Peak Position",
-            "artist": "2"
+            "title": "The Flame",
+            "artist": "Cheap Trick",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/f8/45/12/f8451282-52a0-e611-3c29-b4ce2efe6ec9/5057302471606_cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 46
+          "peakPosition": 46,
+          "source": "itunes"
         },
         {
           "position": 47,
           "track": {
-            "title": "Chart History",
-            "artist": "Share Chart on Facebook"
+            "title": "Now We Are Free",
+            "artist": "Lisa Gerrard, Gavin Greenaway & The Lyndhurst Orchestra",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ab/42/c5/ab42c5b9-05bc-101a-36ef-2652a20498f7/20UMGIM32553.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 47
+          "peakPosition": 47,
+          "source": "itunes"
         },
         {
           "position": 48,
           "track": {
-            "title": "Awards",
-            "artist": "8"
+            "title": "(I've Had) The Time of My Life",
+            "artist": "Bill Medley & Jennifer Warnes",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8c/f2/1f/8cf21f62-eed1-64c0-e710-df52dc3556c3/078635640823.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 48
+          "peakPosition": 48,
+          "source": "itunes"
         },
         {
           "position": 49,
           "track": {
-            "title": "Dracula",
-            "artist": "Tame Impala &amp; JENNIE"
+            "title": "Me La Riprendo La Vita",
+            "artist": "Nina Sartori",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/d9/0b/ced90b30-47e7-028f-197a-3d9ff3ff2ebd/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 49
+          "peakPosition": 49,
+          "source": "itunes"
         },
         {
           "position": 50,
           "track": {
-            "title": "Debut Position",
-            "artist": "55"
+            "title": "My life, My rules",
+            "artist": "DjElynzoo",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/31/6d/f5316d37-57d2-1512-5f41-b9b7b513c2ad/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 50
+          "peakPosition": 50,
+          "source": "itunes"
         }
       ],
       "isDemo": false,
-      "sourceType": "official"
-    },
-    "fr": {
-      "name": "France",
-      "flag": "🇫🇷",
-      "region": "europe",
-      "chart": [
-        {
-          "position": 1,
-          "track": {
-            "title": "Maladie",
-            "artist": "Mauvais Djo"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 1
-        },
-        {
-          "position": 2,
-          "track": {
-            "title": "Sexy Nana",
-            "artist": "Aya Nakamura feat. La Rvfleuze"
-          },
-          "previousPosition": 3,
-          "movement": "down",
-          "weeksOnChart": 2,
-          "peakPosition": 1
-        },
-        {
-          "position": 3,
-          "track": {
-            "title": "Dai Dai",
-            "artist": "Shakira & Burna Boy"
-          },
-          "previousPosition": 4,
-          "movement": "down",
-          "weeksOnChart": 3,
-          "peakPosition": 1
-        },
-        {
-          "position": 4,
-          "track": {
-            "title": "Pilé",
-            "artist": "Mauvais Djo"
-          },
-          "previousPosition": 5,
-          "movement": "up",
-          "weeksOnChart": 4,
-          "peakPosition": 1
-        },
-        {
-          "position": 5,
-          "track": {
-            "title": "Sicario",
-            "artist": "Timal"
-          },
-          "previousPosition": 6,
-          "movement": "down",
-          "weeksOnChart": 5,
-          "peakPosition": 1
-        },
-        {
-          "position": 6,
-          "track": {
-            "title": "Pocahontas",
-            "artist": "PLK"
-          },
-          "previousPosition": 7,
-          "movement": "down",
-          "weeksOnChart": 6,
-          "peakPosition": 6
-        },
-        {
-          "position": 7,
-          "track": {
-            "title": "Melodrama",
-            "artist": "Theodora"
-          },
-          "previousPosition": 8,
-          "movement": "up",
-          "weeksOnChart": 7,
-          "peakPosition": 6
-        },
-        {
-          "position": 8,
-          "track": {
-            "title": "Bande organisée",
-            "artist": "SCH"
-          },
-          "previousPosition": 9,
-          "movement": "down",
-          "weeksOnChart": 8,
-          "peakPosition": 6
-        },
-        {
-          "position": 9,
-          "track": {
-            "title": "Je te promets",
-            "artist": "Johnny Hallyday"
-          },
-          "previousPosition": 10,
-          "movement": "down",
-          "weeksOnChart": 9,
-          "peakPosition": 6
-        },
-        {
-          "position": 10,
-          "track": {
-            "title": "Dernière danse",
-            "artist": "Indila"
-          },
-          "previousPosition": 11,
-          "movement": "up",
-          "weeksOnChart": 10,
-          "peakPosition": 6
-        },
-        {
-          "position": 11,
-          "track": {
-            "title": "Tout oublier",
-            "artist": "Angèle"
-          },
-          "previousPosition": 12,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 11
-        },
-        {
-          "position": 12,
-          "track": {
-            "title": "Au DD",
-            "artist": "PNL"
-          },
-          "previousPosition": 13,
-          "movement": "down",
-          "weeksOnChart": 2,
-          "peakPosition": 11
-        },
-        {
-          "position": 13,
-          "track": {
-            "title": "La grenade",
-            "artist": "Clara Luciani"
-          },
-          "previousPosition": 14,
-          "movement": "up",
-          "weeksOnChart": 3,
-          "peakPosition": 11
-        },
-        {
-          "position": 14,
-          "track": {
-            "title": "Papaoutai",
-            "artist": "Stromae"
-          },
-          "previousPosition": 15,
-          "movement": "down",
-          "weeksOnChart": 4,
-          "peakPosition": 11
-        },
-        {
-          "position": 15,
-          "track": {
-            "title": "Formidable",
-            "artist": "Stromae"
-          },
-          "previousPosition": 16,
-          "movement": "down",
-          "weeksOnChart": 5,
-          "peakPosition": 11
-        },
-        {
-          "position": 16,
-          "track": {
-            "title": "Alors on danse",
-            "artist": "Stromae"
-          },
-          "previousPosition": 17,
-          "movement": "up",
-          "weeksOnChart": 6,
-          "peakPosition": 16
-        },
-        {
-          "position": 17,
-          "track": {
-            "title": "Dernier jour",
-            "artist": "Grand Corps Malade"
-          },
-          "previousPosition": 18,
-          "movement": "down",
-          "weeksOnChart": 7,
-          "peakPosition": 16
-        },
-        {
-          "position": 18,
-          "track": {
-            "title": "Blinding Lights",
-            "artist": "The Weeknd"
-          },
-          "previousPosition": 19,
-          "movement": "down",
-          "weeksOnChart": 8,
-          "peakPosition": 16
-        },
-        {
-          "position": 19,
-          "track": {
-            "title": "Flowers",
-            "artist": "Miley Cyrus"
-          },
-          "previousPosition": 20,
-          "movement": "up",
-          "weeksOnChart": 9,
-          "peakPosition": 16
-        },
-        {
-          "position": 20,
-          "track": {
-            "title": "Anti-Hero",
-            "artist": "Taylor Swift"
-          },
-          "previousPosition": 21,
-          "movement": "down",
-          "weeksOnChart": 10,
-          "peakPosition": 16
-        }
-      ],
-      "isDemo": false,
-      "sourceType": "alternative"
+      "sourceType": "itunes"
     },
     "br": {
       "name": "Brésil",
@@ -1501,573 +1338,669 @@
         {
           "position": 1,
           "track": {
-            "title": "Cadeira Cativa (Ao Vivo)",
-            "artist": "Zé Neto & Cristiano"
+            "title": "Rise Slow",
+            "artist": "Kimo Sounds",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/27/8a/23278a46-aa21-30f3-9e68-213772c53ea7/825181567094.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 1
+          "peakPosition": 1,
+          "source": "itunes"
         },
         {
           "position": 2,
           "track": {
-            "title": "Peão Todo Tatuado",
-            "artist": "Jeninho, Mariana Fagundes"
+            "title": "Me Queima Outra Vez (Sin Decir Adios) [Ao Vivo]",
+            "artist": "Wanessa Camargo",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/ad/7e/bcad7e19-c9e1-e24e-d6c8-872373a2170c/8721639237439.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 2
+          "peakPosition": 2,
+          "source": "itunes"
         },
         {
           "position": 3,
           "track": {
-            "title": "Postinho De Gasolina",
-            "artist": "João Gustavo & Murilo, Grelo"
+            "title": "SWIM",
+            "artist": "BTS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 3
+          "peakPosition": 3,
+          "source": "itunes"
         },
         {
           "position": 4,
           "track": {
-            "title": "Cuida Do Pet (Feat. Mc Negão Original, Du'l, Dj Aladin Gdb)",
-            "artist": "Oldilla, Aaron Modesto, Mc Willian, Mc Iguinho Ct"
+            "title": "Pós (Ao Vivo)",
+            "artist": "Felipe e Rodrigo",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/ac/80/55ac8010-26ff-2719-6218-e5419e64b127/1200220202775.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 4
+          "peakPosition": 4,
+          "source": "itunes"
         },
         {
           "position": 5,
           "track": {
-            "title": "Ta Pedindo Toma (Feat. Mc Rn Do Capão, Mc Pelourinho)",
-            "artist": "Mc Leozinho Zs, Mc Murilo Mt, Mc Dr, Dj Jhow Beats"
+            "title": "Thunderstruck",
+            "artist": "AC/DC",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bb/a2/f0/bba2f0d7-4d9e-c617-d49e-3ae02fd5d440/dj.xbkfgllk.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 5
+          "peakPosition": 5,
+          "source": "itunes"
         },
         {
           "position": 6,
           "track": {
-            "title": "Um Peão Desse",
-            "artist": "CountryBeat, Mari Fernandez"
+            "title": "Bom Dia Cr7",
+            "artist": "Ami$h",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/c7/44/6cc74493-dd7b-6902-2fa8-9d7107e25ca2/054853863992.png/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 6
+          "peakPosition": 6,
+          "source": "itunes"
         },
         {
           "position": 7,
           "track": {
-            "title": "Eu Te Seguro (Ao Vivo)",
-            "artist": "Panda, MJ Records"
+            "title": "Não Me Cutuca",
+            "artist": "Anitta & Alceu Valença",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/bf/6a/3abf6a92-7a22-5cdb-209b-54f2e38cf623/26UMGIM96099.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 7
+          "peakPosition": 7,
+          "source": "itunes"
         },
         {
           "position": 8,
           "track": {
-            "title": "Pau Pra Toda Obra",
-            "artist": "Mc Jacaré, Mc Ryan Sp, Mc Lele Jp, Mc Ig"
+            "title": "Bora",
+            "artist": "Leigh-Anne",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/dc/83/26dc8303-ee9a-5b7c-79d7-8a3c6552a5ce/823375518945_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 8
+          "peakPosition": 8,
+          "source": "itunes"
         },
         {
           "position": 9,
           "track": {
-            "title": "Quem É Esse? (Ao Vivo)",
-            "artist": "Julliany Souza"
+            "title": "Bad Times (Extended Version)",
+            "artist": "Imael Angel",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/03/7f/08037f7d-6173-9348-991d-5966f0686539/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 9
+          "peakPosition": 9,
+          "source": "itunes"
         },
         {
           "position": 10,
           "track": {
-            "title": "Não É Pressa, É Pressão",
-            "artist": "Rincon, Ana Castela, Dj Boss"
+            "title": "EM MINHA PRÓPRIA CASA / VASO NOVO",
+            "artist": "Isaias Saad & fhop music",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/cb/ce/c9cbce85-c1e0-259c-a996-32ca43243f48/7898564147940.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 10
+          "peakPosition": 10,
+          "source": "itunes"
         },
         {
           "position": 11,
           "track": {
-            "title": "Só Com Ela (Ao Vivo)",
-            "artist": "Murilo Huff, Matheus Fernandes"
+            "title": "Self Control",
+            "artist": "Laura Branigan",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/28/ad/3f28ad3c-3dc9-7c5b-32f0-5b33eb647bf7/mzi.bnuysrxb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 11
+          "peakPosition": 11,
+          "source": "itunes"
         },
         {
           "position": 12,
           "track": {
-            "title": "Exagerado",
-            "artist": "Mc Jvila, Mc Meno K, Mc Rodrigo Do Cn, Dj Glenner"
+            "title": "Somos Familia",
+            "artist": "Yurak Wolfe",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/74/dc/1d74dc07-bc54-c2a3-ef8b-f17937e192e5/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 12
+          "peakPosition": 12,
+          "source": "itunes"
         },
         {
           "position": 13,
           "track": {
-            "title": "Menos Foco Mais Ansiedade (Ce Ta Nervosa) (Feat. Mc Lele Jp, Zanolini)",
-            "artist": "Dj Andreoli, Mc Jacaré, Mc Ryan Sp, Mc Luuky"
+            "title": "AH, JESUS / CORAÇÃO IGUAL AO TEU",
+            "artist": "Julliany Souza",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/aa/14/3caa1400-3764-5bc6-428c-c00b72365f02/8718521271329.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 13
+          "peakPosition": 13,
+          "source": "itunes"
         },
         {
           "position": 14,
           "track": {
-            "title": "Famoso Ímã / O Poderoso Chatão",
-            "artist": "Mc Lele Jp, Mc Poze Do Rodo, Mc Leozinho Zs, Dj Gordinho Da Vf"
+            "title": "Body to Body",
+            "artist": "BTS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 14
+          "peakPosition": 14,
+          "source": "itunes"
         },
         {
           "position": 15,
           "track": {
-            "title": "Diário De Um Cafajeste (Feat. Mc Tuto, Mc Negão Original)",
-            "artist": "Dj Oreia, Mc Lele Jp, Mc Meno K, Mc Ryan Sp"
+            "title": "Dynamite",
+            "artist": "BTS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/22/f3/8f/22f38fb9-1690-326a-d891-7aa946c2b06f/195497623273_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 15
+          "peakPosition": 15,
+          "source": "itunes"
         },
         {
           "position": 16,
           "track": {
-            "title": "Ultima Saudade (Ao Vivo)",
-            "artist": "Henrique & Juliano"
+            "title": "Don’t tell your dreams",
+            "artist": "STOSLIV & LOVIXX",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a0/8f/e3/a08fe340-128e-7453-a9bc-087eb24fb0b2/26UM1IM32354.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 16
+          "peakPosition": 16,
+          "source": "itunes"
         },
         {
           "position": 17,
           "track": {
-            "title": "Oi, Tudo Bem? (Ao Vivo)",
-            "artist": "Zé Neto & Cristiano"
+            "title": "ADDICTED",
+            "artist": "JISOO",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6e/7d/c6/6e7dc611-3961-7a16-58d6-68c567745703/054391222435.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 17
+          "peakPosition": 17,
+          "source": "itunes"
         },
         {
           "position": 18,
           "track": {
-            "title": "Ignora (Ao Vivo)",
-            "artist": "Felipe & Rodrigo"
+            "title": "Patient Zero",
+            "artist": "Taylor Swift",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/b8/07/7cb8073f-c5c5-edaf-d202-957f55866f04/26UM1IM20315.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 18
+          "peakPosition": 18,
+          "source": "itunes"
         },
         {
           "position": 19,
           "track": {
-            "title": "Puxa O Lança (Feat. Honaiser, Nagalli, Stick, Toledo)",
-            "artist": "Mc Jvila, KayBlack, Veigh, Vulgo Fk"
+            "title": "Wicked Game",
+            "artist": "Chris Isaak",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/e9/0f/67e90f2d-c229-3572-5f0f-d615dfeaa652/00792755800553_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 19
+          "peakPosition": 19,
+          "source": "itunes"
         },
         {
           "position": 20,
           "track": {
-            "title": "Mente Barulhenta",
-            "artist": "Mc Ig, Mc Lele Jp, Dj Oreia, Dj Noiskita"
+            "title": "Family Affair",
+            "artist": "Mary J. Blige",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/d2/80/cfd2802e-9369-5b3e-5232-3abb3a4363ce/15UMGIM00598.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 20
+          "peakPosition": 20,
+          "source": "itunes"
         },
         {
           "position": 21,
           "track": {
-            "title": "Grwm (Feat. Mc Gp, Du'l)",
-            "artist": "Mc Iguinho Ct, Dj Aladin Gdb, Mc Willian, Mc Luuky"
+            "title": "Flash (Minha Mente) 💠",
+            "artist": "Hugo & Guilherme & Zé Vaqueiro",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/ba/82/6fba821c-28c0-1e0e-0b14-95c0d423e082/1200220233007.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 21
+          "peakPosition": 21,
+          "source": "itunes"
         },
         {
           "position": 22,
           "track": {
-            "title": "Saudade Estranha (Ao Vivo)",
-            "artist": "Murilo Huff"
+            "title": "Trevo (Tu) [feat. TIAGO IORC]",
+            "artist": "Anavitória",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8a/43/94/8a4394b9-ffb9-edc2-d029-4959f6154268/00602557148039_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 22
+          "peakPosition": 22,
+          "source": "itunes"
         },
         {
           "position": 23,
           "track": {
-            "title": "Reliquia Do 2T (Feat. Mc Dkziin, Mc Fr Da Norte)",
-            "artist": "Dj Gu, Mc Vine7, Mc Tuto, Mc Joãozinho Vt"
+            "title": "Unstoppable",
+            "artist": "Sia",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8b/81/ba/8b81ba55-0a7f-a0e5-6593-d44f1565cdd1/886446097428.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 23
+          "peakPosition": 23,
+          "source": "itunes"
         },
         {
           "position": 24,
           "track": {
-            "title": "Apaga Apaga Apaga (Ao Vivo)",
-            "artist": "Danilo & Davi"
+            "title": "Iris",
+            "artist": "The Goo Goo Dolls",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/13/18/2c131801-00af-58b1-3cc2-13abf4ad5416/093624919162.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 24
+          "peakPosition": 24,
+          "source": "itunes"
         },
         {
           "position": 25,
           "track": {
-            "title": "Eu Duvido (Ao Vivo)",
-            "artist": "Guilherme & Benuto, Panda"
+            "title": "Bondade de Deus (En Vivo)",
+            "artist": "Isaias Saad",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/2c/bd/252cbdb2-2bc4-5b55-1caf-a151780ef23e/7898556784719.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 25
+          "peakPosition": 25,
+          "source": "itunes"
         },
         {
           "position": 26,
           "track": {
-            "title": "Tubarões (Ao Vivo)",
-            "artist": "Diego & Victor Hugo"
+            "title": "Your Song",
+            "artist": "Elton John",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a9/52/e6/a952e6c5-a5e1-a56d-a6f4-b01ca42a4368/06UMGIM50695.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 26
+          "peakPosition": 26,
+          "source": "itunes"
         },
         {
           "position": 27,
           "track": {
-            "title": "Carnívoro",
-            "artist": "Mc Jacaré, Mc Negão Original, Mc Lele JP, DJ Japa Nk"
+            "title": "GeomunToy",
+            "artist": "Park Dawool",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/49/14/fa49140e-052a-09de-0b92-ab672b306e29/8809829714776.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 27
+          "peakPosition": 27,
+          "source": "itunes"
         },
         {
           "position": 28,
           "track": {
-            "title": "Set Boca 09 (Feat. Mc Jvila, Mc Lele JP, Mc Leozin, Mc Bruninho Da Praia, Dj Glenner)",
-            "artist": "Mc Ryan Sp, Mc Meno K, Mc GP, Dj Daltin No Beat"
+            "title": "Somewhere Only We Know",
+            "artist": "Keane",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/cb/d0/50cbd090-4e22-3491-8e5c-c6f3c46716b2/13UAAIM82555.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 28
+          "peakPosition": 28,
+          "source": "itunes"
         },
         {
           "position": 29,
           "track": {
-            "title": "Irmão Da Lua, Amigo Das Estrelas",
-            "artist": "Zezé Di Camargo & Luciano"
+            "title": "Ordinary",
+            "artist": "Alex Warren",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/78/fb/4678fb84-d19e-f11b-93ff-4dc17660bff8/075679619075.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 29
+          "peakPosition": 29,
+          "source": "itunes"
         },
         {
           "position": 30,
           "track": {
-            "title": "Cheiro De Culpado (Ao Vivo)",
-            "artist": "Júnior & Cézar"
+            "title": "Human Nature",
+            "artist": "Michael Jackson",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/54/f2/ef/54f2ef79-c668-8d6f-28cd-ae48c45009b7/196874193211.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 30
+          "peakPosition": 30,
+          "source": "itunes"
         },
         {
           "position": 31,
           "track": {
-            "title": "Aproveita Que Eu Tô Brigado (Ao Vivo)",
-            "artist": "Nattan, Zé Vaqueiro"
+            "title": "Butterfly",
+            "artist": "Smile.Dk",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0c/92/c7/0c92c759-a834-10a7-eaf0-510c1b7bc15f/724349589155.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 31
+          "peakPosition": 31,
+          "source": "itunes"
         },
         {
           "position": 32,
           "track": {
-            "title": "Lembrança Boa",
-            "artist": "Pedro & Benicio"
+            "title": "Solinho do Fora PT",
+            "artist": "Prismah",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/e4/19/f5e4190c-1892-1d75-0007-f87e2443a7e4/7891162483496.png/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 32
+          "peakPosition": 32,
+          "source": "itunes"
         },
         {
           "position": 33,
           "track": {
-            "title": "Eu Me Apaixonei",
-            "artist": "Vitinho Imperador"
+            "title": "Welcome To The Jungle",
+            "artist": "Guns N' Roses",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/4d/c4/a04dc484-03cc-02aa-fa82-5334fcb4bc16/18UMGIM24878.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 33
+          "peakPosition": 33,
+          "source": "itunes"
         },
         {
           "position": 34,
           "track": {
-            "title": "Deixa Eu (Ao Vivo)",
-            "artist": "Murilo Huff"
+            "title": "The Climb",
+            "artist": "Miley Cyrus",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/b7/f9/f2b7f9c3-f0ea-0109-af22-91d1bf635fec/11DMGIM03002.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 34
+          "peakPosition": 34,
+          "source": "itunes"
         },
         {
           "position": 35,
           "track": {
-            "title": "Posso Até Não Te Dar Flores (Feat. Dj Davi Dogdog)",
-            "artist": "Dj Japa Nk, Mc Meno K, Mc Ryan Sp, Mc Jacaré"
+            "title": "How Deep Is Your Love",
+            "artist": "Bee Gees",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/94/a7/5f/94a75fd1-17da-3a38-42dc-c5e35bf56046/16UMGIM86639.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 35
+          "peakPosition": 35,
+          "source": "itunes"
         },
         {
           "position": 36,
           "track": {
-            "title": "Quando Eu Tomo Gin De 10",
-            "artist": "Mc Neguinho Do Morro, Mc Nina"
+            "title": "Sto Bene Così2",
+            "artist": "Ale Lento",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/df/86/30df867c-ea78-530a-2451-b389247403d7/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 36
+          "peakPosition": 36,
+          "source": "itunes"
         },
         {
           "position": 37,
           "track": {
-            "title": "Coração Partido (Corazón Partío) (Ao Vivo)",
-            "artist": "Grupo Menos É Mais"
+            "title": "I'll Try",
+            "artist": "Alan Jackson",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/bf/fe/5dbffe28-87cd-2525-af0a-06e1548fcace/886445732160.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 37
+          "peakPosition": 37,
+          "source": "itunes"
         },
         {
           "position": 38,
           "track": {
-            "title": "Beatriz",
-            "artist": "2ZDinizz, Leborato, HHR"
+            "title": "Só o Começo",
+            "artist": "Vocal Livre",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/63/e7/13/63e71379-3f99-d8b9-68ad-53de107420c2/0.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 38
+          "peakPosition": 38,
+          "source": "itunes"
         },
         {
           "position": 39,
           "track": {
-            "title": "P Do Pecado (Ao Vivo)",
-            "artist": "Grupo Menos É Mais, Simone Mendes"
+            "title": "Sou + Você",
+            "artist": "Racionais MC's",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3f/ca/fd/3fcafdad-07c1-c752-7878-39dfd32b3b28/0.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 39
+          "peakPosition": 39,
+          "source": "itunes"
         },
         {
           "position": 40,
           "track": {
-            "title": "Baqueado (Ao Vivo)",
-            "artist": "Panda, Ícaro & Gilmar"
+            "title": "Beat It",
+            "artist": "Michael Jackson",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 40
+          "peakPosition": 40,
+          "source": "itunes"
         },
         {
           "position": 41,
           "track": {
-            "title": "Bala Alojada",
-            "artist": "Gusttavo Lima"
+            "title": "Happy Nation",
+            "artist": "Ace of Base",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/53/79/51/537951b2-76b0-f1a9-2bb8-50625266af7c/cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 41
+          "peakPosition": 41,
+          "source": "itunes"
         },
         {
           "position": 42,
           "track": {
-            "title": "Flash (Ao Vivo)",
-            "artist": "Hugo & Guilherme"
+            "title": "Theme from the Walking Dead",
+            "artist": "Bear McCreary",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/8f/a0/60/8fa0608d-0884-c6af-cba4-511ffbd2a5a0/the-walking-dead_3000.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 42
+          "peakPosition": 42,
+          "source": "itunes"
         },
         {
           "position": 43,
           "track": {
-            "title": "Pela Última Vez (Ao Vivo)",
-            "artist": "Grupo Menos É Mais, Nattan"
+            "title": "Highway to Hell",
+            "artist": "AC/DC",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b9/c8/ef/b9c8ef42-bbc9-64df-11f8-717571f6730f/886443673458.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 43
+          "peakPosition": 43,
+          "source": "itunes"
         },
         {
           "position": 44,
           "track": {
-            "title": "Não Mexe Nas Minhas Gavetas (Ao Vivo)",
-            "artist": "Danilo & Davi"
+            "title": "The Reason",
+            "artist": "Hoobastank",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a2/2c/6e/a22c6e09-f9c5-232b-a2d0-be5fe17ca53e/06UMGIM28546.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 44
+          "peakPosition": 44,
+          "source": "itunes"
         },
         {
           "position": 45,
           "track": {
-            "title": "Assunto Que Dói",
-            "artist": "Gusttavo Lima"
+            "title": "Fazendinha",
+            "artist": "Mundo Bita",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5a/89/92/5a899238-c283-3946-c75a-34beacadfe08/886444815758.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 45
+          "peakPosition": 45,
+          "source": "itunes"
         },
         {
           "position": 46,
           "track": {
-            "title": "Pra Não Esquecer De Mim",
-            "artist": "Aaron Modesto, Mc Magal, Mc Meno K, Dj Glenner"
+            "title": "Into the Sun",
+            "artist": "BTS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/a2/b4/e0a2b443-7969-b57a-a591-cb6172c10aa7/198704943959_Cover.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 46
+          "peakPosition": 46,
+          "source": "itunes"
         },
         {
           "position": 47,
           "track": {
-            "title": "Foi Por Conveniência",
-            "artist": "Marília Mendonça"
+            "title": "Tu és + Águas Purificadoras - Ao Vivo",
+            "artist": "fhop music & Hamilton Rabelo",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/2a/3b/9e2a3b2f-81a2-4094-165a-61e04dbebda2/85365276529.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 47
+          "peakPosition": 47,
+          "source": "itunes"
         },
         {
           "position": 48,
           "track": {
-            "title": "Seja Ex (Ao Vivo)",
-            "artist": "Henrique & Juliano"
+            "title": "Maniac",
+            "artist": "Michael Sembello",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/40/97/5f/40975fe8-20e6-e617-7e1c-c8dc1dbc753a/06UMGIM29411.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 48
+          "peakPosition": 48,
+          "source": "itunes"
         },
         {
           "position": 49,
           "track": {
-            "title": "Meu Silêncio (Ao Vivo)",
-            "artist": "Matheus & Kauan, Simone Mendes"
+            "title": "O Show Tem Que Continuar (Ao Vivo)",
+            "artist": "Arlindo Cruz",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/81/48/67/81486751-0a8d-22c9-39ec-b3b3e344aa68/7898324303715.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 49
+          "peakPosition": 49,
+          "source": "itunes"
         },
         {
           "position": 50,
           "track": {
-            "title": "Amor Dos Outros (Ao Vivo)",
-            "artist": "Henrique & Juliano"
+            "title": "Voando Pro Pará",
+            "artist": "Joelma",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9c/ee/b5/9ceeb5fd-87ae-9090-6d6f-a39fa4c4b3ae/16UMGIM23314.rgb.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 50
+          "peakPosition": 50,
+          "source": "itunes"
         }
       ],
       "isDemo": false,
-      "sourceType": "official"
+      "sourceType": "itunes"
     }
   },
   "regions": {
     "europe": {
       "label": "Europe",
       "countries": [
-        "uk",
         "de",
-        "ch",
-        "fr"
+        "ch"
       ]
     },
     "anglo": {
       "label": "Pays anglo-saxons",
-      "countries": [
-        "us"
-      ]
+      "countries": []
     },
     "latam": {
       "label": "Amérique du Sud",
