@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version avec yt-dlp pour la récupération des IDs YouTube (gratuit, fiable).
+Version simplifiée : collecte uniquement les données de charts.
+La recherche YouTube se fait côté client (navigateur).
 """
 
 import json
@@ -10,7 +11,6 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import re
 import os
-import time
 
 SOURCES = {
     "us": {
@@ -79,74 +79,7 @@ def calculate_movement(current_pos, previous_pos):
     else:
         return "same"
 
-def fetch_youtube_video_ids_ytdlp(entries, country_name):
-    """Récupère les IDs vidéo YouTube via yt-dlp (gratuit, sans clé API, fiable)"""
-    print(f"    🔍 Récupération des IDs YouTube via yt-dlp pour {country_name}...")
-    
-    try:
-        import yt_dlp
-    except ImportError:
-        print(f"    ❌ yt-dlp non installé")
-        return entries
-    
-    video_ids_found = 0
-    total = min(len(entries), 20)  # Limiter aux 20 premiers titres
-    
-    # Configuration yt-dlp
-    ydl_opts = {
-        'quiet': True,
-        'no_warnings': True,
-        'extract_flat': True,
-        'skip_download': True,
-        'noplaylist': True,
-        'default_search': 'ytsearch1',
-    }
-    
-    for i, entry in enumerate(entries[:20]):
-        try:
-            title = entry['track']['title']
-            artist = entry['track']['artist']
-            
-            # Nettoyer le titre et l'artiste
-            title_clean = re.sub(r'\(.*?\)', '', title).strip()
-            artist_clean = re.sub(r'\(.*?\)', '', artist).strip()
-            artist_clean = re.sub(r'\s*feat\.?\s.*', '', artist_clean, flags=re.I).strip()
-            
-            # Construire la requête
-            query = f"{artist_clean} {title_clean}"
-            
-            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                try:
-                    info = ydl.extract_info(query, download=False)
-                    
-                    if info and 'entries' in info and info['entries']:
-                        first_result = info['entries'][0]
-                        if first_result and 'id' in first_result:
-                            entry['youtubeVideoId'] = first_result['id']
-                            video_ids_found += 1
-                        else:
-                            entry['youtubeVideoId'] = None
-                    else:
-                        entry['youtubeVideoId'] = None
-                
-                except Exception as e:
-                    entry['youtubeVideoId'] = None
-            
-            # Petit délai pour être poli avec YouTube
-            time.sleep(0.5)
-            
-            # Afficher la progression tous les 5 titres
-            if (i + 1) % 5 == 0:
-                print(f"    📊 Progression : {i + 1}/{total} - {video_ids_found} IDs trouvés")
-        
-        except Exception as e:
-            entry['youtubeVideoId'] = None
-    
-    print(f"    ✅ {video_ids_found}/{total} IDs YouTube trouvés via yt-dlp")
-    return entries
-
 def fetch_acharts(url, country_name):
-    """Scrape acharts.co"""
     print(f"  🔍 Scraping acharts.co pour {country_name}...")
     
     try:
@@ -167,7 +100,6 @@ def fetch_acharts(url, country_name):
         table = soup.find('table')
         
         if not table:
-            print(f"    ❌ Pas de tableau trouvé")
             return []
         
         rows = table.find_all('tr')[1:]
@@ -210,25 +142,15 @@ def fetch_acharts(url, country_name):
                         
                         entries.append({
                             "position": rank,
-                            "track": {"title": title, "artist": artist, "artwork": ""},
+                            "track": {"title": title, "artist": artist},
                             "previousPosition": previous_pos,
                             "movement": movement,
                             "weeksOnChart": weeks,
                             "peakPosition": peak,
-                            "source": "acharts",
-                            "youtubeVideoId": None
+                            "source": "acharts"
                         })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
-        
-        if entries:
-            print(f"    📊 Exemples de mouvements :")
-            for i, entry in enumerate(entries[:3]):
-                print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
-        
-        # Récupérer les IDs YouTube
-        entries = fetch_youtube_video_ids_ytdlp(entries, country_name)
-        
         return entries
     
     except Exception as e:
@@ -236,14 +158,12 @@ def fetch_acharts(url, country_name):
         return []
 
 def fetch_brazil_promusica():
-    """Scrape Pro-Música Brasil"""
     print(f"  🔍 Scraping Pro-Música Brasil...")
     
     try:
         response = requests.get(SOURCES["br"]["primary_url"], headers=HEADERS, timeout=30)
         
         if response.status_code == 403:
-            print(f"    ❌ Bloqué (403)")
             return []
         
         response.raise_for_status()
@@ -279,24 +199,15 @@ def fetch_brazil_promusica():
                                 if title:
                                     entries.append({
                                         "position": rank,
-                                        "track": {"title": title, "artist": artist, "artwork": ""},
+                                        "track": {"title": title, "artist": artist},
                                         "previousPosition": None,
                                         "movement": "same",
                                         "weeksOnChart": 1,
                                         "peakPosition": rank,
-                                        "source": "promusica",
-                                        "youtubeVideoId": None
+                                        "source": "promusica"
                                     })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
-        
-        if entries:
-            print(f"    📊 Top 3 :")
-            for i, entry in enumerate(entries[:3]):
-                print(f"       {entry['position']}. {entry['track']['artist']} - {entry['track']['title']}")
-        
-        entries = fetch_youtube_video_ids_ytdlp(entries, "Brésil")
-        
         return entries
     
     except Exception as e:
@@ -304,14 +215,12 @@ def fetch_brazil_promusica():
         return []
 
 def fetch_kworb_itunes(url, country_name):
-    """Scrape kworb iTunes"""
     print(f"  🔍 Scraping kworb iTunes pour {country_name}...")
     
     try:
         response = requests.get(url, headers=HEADERS, timeout=30)
         
         if response.status_code in [403, 404]:
-            print(f"    ❌ Bloqué ou introuvable ({response.status_code})")
             return []
         
         response.raise_for_status()
@@ -320,7 +229,6 @@ def fetch_kworb_itunes(url, country_name):
         
         table = soup.find('table')
         if not table:
-            print(f"    ❌ Pas de tableau trouvé")
             return []
         
         rows = table.find_all('tr')
@@ -358,7 +266,6 @@ def fetch_kworb_itunes(url, country_name):
                         
                         if movement_text == 'new' or movement_text == '':
                             movement = "new"
-                            previous_pos = None
                         elif movement_text.startswith('+'):
                             try:
                                 diff = int(movement_text[1:])
@@ -381,24 +288,15 @@ def fetch_kworb_itunes(url, country_name):
                         
                         entries.append({
                             "position": rank,
-                            "track": {"title": title, "artist": artist, "artwork": ""},
+                            "track": {"title": title, "artist": artist},
                             "previousPosition": previous_pos,
                             "movement": movement,
                             "weeksOnChart": 1,
                             "peakPosition": rank,
-                            "source": "kworb_itunes",
-                            "youtubeVideoId": None
+                            "source": "kworb_itunes"
                         })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
-        
-        if entries:
-            print(f"    📊 Exemples de mouvements :")
-            for i, entry in enumerate(entries[:3]):
-                print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
-        
-        entries = fetch_youtube_video_ids_ytdlp(entries, country_name)
-        
         return entries
     
     except Exception as e:
@@ -406,15 +304,14 @@ def fetch_kworb_itunes(url, country_name):
         return []
 
 def fetch_billboard_hot100():
-    """Récupère le Billboard Hot 100"""
     print(f"  🔍 Tentative avec billboard.py...")
     
     try:
         import billboard
         
         chart = billboard.ChartData('hot-100')
-        
         entries = []
+        
         for i, entry in enumerate(chart.entries[:50]):
             lw = getattr(entry, 'lastPos', None)
             peak = getattr(entry, 'peakPos', i + 1)
@@ -427,32 +324,17 @@ def fetch_billboard_hot100():
             
             entries.append({
                 "position": i + 1,
-                "track": {
-                    "title": entry.title,
-                    "artist": entry.artist,
-                    "artwork": ""
-                },
+                "track": {"title": entry.title, "artist": entry.artist},
                 "previousPosition": lw,
                 "movement": movement,
                 "weeksOnChart": weeks,
                 "peakPosition": peak,
-                "source": "billboard",
-                "youtubeVideoId": None
+                "source": "billboard"
             })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
-        
-        if entries:
-            print(f"    📊 Exemples de mouvements :")
-            for i, entry in enumerate(entries[:3]):
-                print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
-            
-            entries = fetch_youtube_video_ids_ytdlp(entries, "États-Unis")
-        
         return entries
     
-    except ImportError:
-        print(f"    ❌ billboard.py non installé")
     except Exception as e:
         print(f"    ❌ Erreur billboard.py: {e}")
     
@@ -461,7 +343,6 @@ def fetch_billboard_hot100():
 
 def main():
     print(f"🎵 Début de la collecte - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-    print("✅ Utilisation de yt-dlp (gratuit, fiable, sans clé API)\n")
     
     week_info = get_week_info()
     
@@ -471,9 +352,7 @@ def main():
             "week": week_info["week"],
             "year": week_info["year"],
             "updatedAt": week_info["date"],
-            "sourceNote": "",
-            "sources": {},
-            "youtubeSource": "yt-dlp"
+            "sourceNote": ""
         },
         "countries": {},
         "regions": {
@@ -489,22 +368,18 @@ def main():
     for code, country_info in SOURCES.items():
         print(f"\n📊 Traitement de {country_info['name']} {country_info['flag']}...")
         
-        entries = []
         source_used = country_info["source"]
         
         if source_used == "billboard":
             entries = fetch_billboard_hot100()
-            if entries:
-                source_used = "billboard"
-        
         elif source_used == "acharts":
             entries = fetch_acharts(country_info["acharts_url"], country_info["name"])
-        
         elif source_used == "kworb_itunes":
             entries = fetch_kworb_itunes(country_info["kworb_url"], country_info["name"])
-        
         elif source_used == "promusica":
             entries = fetch_brazil_promusica()
+        else:
+            entries = []
         
         if entries and len(entries) >= 10:
             charts_data["countries"][code] = {
@@ -512,28 +387,22 @@ def main():
                 "flag": country_info["flag"],
                 "region": country_info["region"],
                 "chart": entries,
-                "isDemo": False,
                 "sourceType": source_used
             }
             
             charts_data["regions"][country_info["region"]]["countries"].append(code)
-            charts_data["meta"]["sources"][code] = source_used
-            successful_sources.append(f"{country_info['name']} ({source_used})")
-            
-            print(f"  ✅ {len(entries)} titres collectés via {source_used}")
+            successful_sources.append(country_info["name"])
+            print(f"  ✅ {len(entries)} titres collectés")
         else:
-            print(f"  ❌ Échec pour {country_info['name']}")
             failed_sources.append(country_info["name"])
+            print(f"  ❌ Échec")
     
     if successful_sources and failed_sources:
-        charts_data["meta"]["sourceNote"] = (
-            f"✅ Sources réussies : {', '.join(successful_sources)}. "
-            f"❌ Sources échouées : {', '.join(failed_sources)}."
-        )
+        charts_data["meta"]["sourceNote"] = f"✅ {len(successful_sources)} sources OK. ❌ {len(failed_sources)} échouées."
     elif successful_sources:
-        charts_data["meta"]["sourceNote"] = f"✅ Toutes les sources : {', '.join(successful_sources)}."
+        charts_data["meta"]["sourceNote"] = f"✅ Toutes les sources : {len(successful_sources)} pays."
     else:
-        charts_data["meta"]["sourceNote"] = "❌ Aucune source n'a pu être collectée."
+        charts_data["meta"]["sourceNote"] = "❌ Aucune source collectée."
     
     output_dir = "data"
     os.makedirs(output_dir, exist_ok=True)
@@ -544,11 +413,7 @@ def main():
     with open(f"{output_dir}/charts-{week_info['date']}.json", "w", encoding="utf-8") as f:
         json.dump(charts_data, f, ensure_ascii=False, indent=2)
     
-    print(f"\n{'='*60}")
-    print(f"✅ Collecte terminée")
-    print(f"   - {len(successful_sources)} sources réussies")
-    print(f"   - {len(failed_sources)} sources échouées")
-    print(f"{'='*60}")
+    print(f"\n✅ Collecte terminée : {len(successful_sources)} réussies, {len(failed_sources)} échouées")
 
 if __name__ == "__main__":
     main()
