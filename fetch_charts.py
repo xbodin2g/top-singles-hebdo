@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version simple et robuste basée sur le code qui fonctionnait.
+Version avec récupération des IDs vidéo YouTube via API Data v3.
 """
 
 import json
@@ -10,6 +10,9 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import re
 import os
+
+# 🔑 Clé API YouTube (à configurer en variable d'environnement)
+YOUTUBE_API_KEY = os.environ.get('YOUTUBE_API_KEY', '')
 
 SOURCES = {
     "us": {
@@ -55,7 +58,6 @@ SOURCES = {
     }
 }
 
-# Headers SIMPLES (comme avant, quand ça marchait)
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
@@ -79,8 +81,61 @@ def calculate_movement(current_pos, previous_pos):
     else:
         return "same"
 
+def fetch_youtube_video_ids(entries, country_name):
+    """Récupère les IDs vidéo YouTube pour chaque titre via l'API"""
+    if not YOUTUBE_API_KEY:
+        print(f"    ⚠️ Pas de clé API YouTube configurée pour {country_name}")
+        return entries
+    
+    print(f"    🔍 Récupération des IDs YouTube pour {country_name}...")
+    
+    api_url = "https://www.googleapis.com/youtube/v3/search"
+    video_ids_found = 0
+    
+    for entry in entries:
+        try:
+            # Construire la requête de recherche
+            query = f"{entry['track']['artist']} {entry['track']['title']} official"
+            
+            params = {
+                'part': 'snippet',
+                'q': query,
+                'type': 'video',
+                'maxResults': 1,
+                'key': YOUTUBE_API_KEY
+            }
+            
+            response = requests.get(api_url, params=params, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                items = data.get('items', [])
+                
+                if items:
+                    video_id = items[0]['id']['videoId']
+                    entry['youtubeVideoId'] = video_id
+                    video_ids_found += 1
+                else:
+                    entry['youtubeVideoId'] = None
+            elif response.status_code == 403:
+                print(f"    ⚠️ Quota YouTube dépassé ou clé invalide")
+                break
+            else:
+                entry['youtubeVideoId'] = None
+            
+            # Petit délai pour éviter de surcharger l'API
+            import time
+            time.sleep(0.1)
+        
+        except Exception as e:
+            print(f"    ⚠️ Erreur YouTube pour {entry['track']['title']}: {str(e)[:50]}")
+            entry['youtubeVideoId'] = None
+    
+    print(f"    ✅ {video_ids_found}/{len(entries)} IDs YouTube trouvés")
+    return entries
+
 def fetch_acharts(url, country_name):
-    """Version simple qui marchait"""
+    """Scrape acharts.co"""
     print(f"  🔍 Scraping acharts.co pour {country_name}...")
     
     try:
@@ -102,7 +157,6 @@ def fetch_acharts(url, country_name):
         
         if not table:
             print(f"    ❌ Pas de tableau trouvé")
-            print(f"    🔍 Debug : HTML reçu = {len(response.text)} caractères")
             return []
         
         rows = table.find_all('tr')[1:]
@@ -150,7 +204,8 @@ def fetch_acharts(url, country_name):
                             "movement": movement,
                             "weeksOnChart": weeks,
                             "peakPosition": peak,
-                            "source": "acharts"
+                            "source": "acharts",
+                            "youtubeVideoId": None  # Sera rempli plus tard
                         })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
@@ -160,6 +215,9 @@ def fetch_acharts(url, country_name):
             for i, entry in enumerate(entries[:3]):
                 print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
         
+        # Récupérer les IDs YouTube
+        entries = fetch_youtube_video_ids(entries, country_name)
+        
         return entries
     
     except Exception as e:
@@ -167,7 +225,7 @@ def fetch_acharts(url, country_name):
         return []
 
 def fetch_brazil_promusica():
-    """Version simple qui marchait au début"""
+    """Scrape Pro-Música Brasil"""
     print(f"  🔍 Scraping Pro-Música Brasil...")
     
     try:
@@ -215,7 +273,8 @@ def fetch_brazil_promusica():
                                         "movement": "same",
                                         "weeksOnChart": 1,
                                         "peakPosition": rank,
-                                        "source": "promusica"
+                                        "source": "promusica",
+                                        "youtubeVideoId": None
                                     })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
@@ -225,6 +284,9 @@ def fetch_brazil_promusica():
             for i, entry in enumerate(entries[:3]):
                 print(f"       {entry['position']}. {entry['track']['artist']} - {entry['track']['title']}")
         
+        # Récupérer les IDs YouTube
+        entries = fetch_youtube_video_ids(entries, "Brésil")
+        
         return entries
     
     except Exception as e:
@@ -232,7 +294,7 @@ def fetch_brazil_promusica():
         return []
 
 def fetch_kworb_itunes(url, country_name):
-    """Fallback : kworb.net iTunes"""
+    """Scrape kworb iTunes"""
     print(f"  🔍 Scraping kworb iTunes pour {country_name}...")
     
     try:
@@ -314,7 +376,8 @@ def fetch_kworb_itunes(url, country_name):
                             "movement": movement,
                             "weeksOnChart": 1,
                             "peakPosition": rank,
-                            "source": "kworb_itunes"
+                            "source": "kworb_itunes",
+                            "youtubeVideoId": None
                         })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
@@ -324,6 +387,9 @@ def fetch_kworb_itunes(url, country_name):
             for i, entry in enumerate(entries[:3]):
                 print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
         
+        # Récupérer les IDs YouTube
+        entries = fetch_youtube_video_ids(entries, country_name)
+        
         return entries
     
     except Exception as e:
@@ -331,7 +397,7 @@ def fetch_kworb_itunes(url, country_name):
         return []
 
 def fetch_billboard_hot100():
-    """Récupère le Billboard Hot 100 avec fallback"""
+    """Récupère le Billboard Hot 100"""
     print(f"  🔍 Tentative avec billboard.py...")
     
     try:
@@ -361,7 +427,8 @@ def fetch_billboard_hot100():
                 "movement": movement,
                 "weeksOnChart": weeks,
                 "peakPosition": peak,
-                "source": "billboard"
+                "source": "billboard",
+                "youtubeVideoId": None
             })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
@@ -370,6 +437,9 @@ def fetch_billboard_hot100():
             print(f"    📊 Exemples de mouvements :")
             for i, entry in enumerate(entries[:3]):
                 print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
+            
+            # Récupérer les IDs YouTube
+            entries = fetch_youtube_video_ids(entries, "États-Unis")
         
         return entries
     
@@ -384,6 +454,12 @@ def fetch_billboard_hot100():
 def main():
     print(f"🎵 Début de la collecte - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
+    if not YOUTUBE_API_KEY:
+        print("⚠️ Clé API YouTube non configurée (variable YOUTUBE_API_KEY)")
+        print("   Les IDs vidéo YouTube ne seront pas récupérés\n")
+    else:
+        print("✅ Clé API YouTube configurée\n")
+    
     week_info = get_week_info()
     
     charts_data = {
@@ -393,7 +469,8 @@ def main():
             "year": week_info["year"],
             "updatedAt": week_info["date"],
             "sourceNote": "",
-            "sources": {}
+            "sources": {},
+            "youtubeApiConfigured": bool(YOUTUBE_API_KEY)
         },
         "countries": {},
         "regions": {
