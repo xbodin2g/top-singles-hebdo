@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version utilisant billboard.py et Official Charts Company pour des données réelles.
+Version utilisant acharts.co pour FR/UK et billboard.py pour US.
 """
 
 import json
@@ -11,41 +11,127 @@ from datetime import datetime
 import re
 import os
 
-# Configuration des sources
 SOURCES = {
     "us": {"name": "États-Unis", "flag": "🇺🇸", "region": "anglo", "source": "billboard"},
-    "fr": {"name": "France", "flag": "🇫🇷", "region": "europe", "source": "official_charts"},
-    "gb": {"name": "Royaume-Uni", "flag": "🇬🇧", "region": "europe", "source": "official_charts"},
-    "de": {"name": "Allemagne", "flag": "🇩🇪", "itunes_code": "de", "region": "europe", "source": "itunes"},
-    "ch": {"name": "Suisse", "flag": "🇨🇭", "itunes_code": "ch", "region": "europe", "source": "itunes"},
-    "br": {"name": "Brésil", "flag": "🇧🇷", "itunes_code": "br", "region": "latam", "source": "itunes"}
+    "fr": {"name": "France", "flag": "🇫🇷", "region": "europe", "source": "acharts", "acharts_url": "https://acharts.co/france_singles_top_100"},
+    "gb": {"name": "Royaume-Uni", "flag": "🇬🇧", "region": "europe", "source": "acharts", "acharts_url": "https://acharts.co/uk_singles_top_75"},
+    "de": {"name": "Allemagne", "flag": "🇩🇪", "region": "europe", "source": "itunes", "itunes_code": "de"},
+    "ch": {"name": "Suisse", "flag": "🇨🇭", "region": "europe", "source": "itunes", "itunes_code": "ch"},
+    "br": {"name": "Brésil", "flag": "🇧🇷", "region": "latam", "source": "itunes", "itunes_code": "br"}
 }
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9',
 }
 
 def get_week_info():
     now = datetime.now()
-    week_number = now.isocalendar()[1]
-    year = now.year
     return {
-        "week": week_number,
-        "year": year,
+        "week": now.isocalendar()[1],
+        "year": now.year,
         "date": now.strftime("%Y-%m-%d"),
-        "label": f"Semaine {week_number}/{year}"
+        "label": f"Semaine {now.isocalendar()[1]}/{now.year}"
     }
 
+def fetch_acharts(url, country_name):
+    """Scrape acharts.co qui a une structure HTML simple"""
+    print(f"  🔍 Tentative de scraping de {url}...")
+    
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        
+        if response.status_code == 403:
+            print(f"    ❌ Bloqué (403 Forbidden)")
+            return []
+        
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        entries = []
+        
+        # Chercher le tableau principal
+        table = soup.find('table')
+        
+        if not table:
+            print(f"    ❌ Pas de tableau trouvé")
+            return []
+        
+        rows = table.find_all('tr')[1:]  # Sauter l'en-tête
+        
+        for row in rows[:50]:
+            cells = row.find_all('td')
+            
+            if len(cells) >= 3:
+                # Colonne 0 : position actuelle
+                pos_text = cells[0].get_text(strip=True)
+                
+                # Extraire le rang (peut être "1.", "(1)", etc.)
+                rank_match = re.search(r'\d+', pos_text)
+                
+                if rank_match:
+                    rank = int(rank_match.group())
+                    
+                    # Colonne 2 : titre et artiste
+                    title_cell = cells[2]
+                    title_text = title_cell.get_text(separator='\n', strip=True)
+                    
+                    # Pattern : Titre\nArtiste
+                    lines = [line.strip() for line in title_text.split('\n') if line.strip()]
+                    
+                    if len(lines) >= 2:
+                        title = lines[0]
+                        artist = lines[1]
+                        
+                        # Chercher les métadonnées dans le texte
+                        peak_match = re.search(r'peak position:\s*(\d+)', title_text, re.I)
+                        weeks_match = re.search(r'total weeks:\s*(\d+)', title_text, re.I)
+                        
+                        peak = int(peak_match.group(1)) if peak_match else rank
+                        weeks = int(weeks_match.group(1)) if weeks_match else 1
+                        
+                        entries.append({
+                            "position": rank,
+                            "track": {"title": title, "artist": artist, "artwork": ""},
+                            "previousPosition": None,
+                            "movement": "same",
+                            "weeksOnChart": weeks,
+                            "peakPosition": peak,
+                            "source": "acharts"
+                        })
+        
+        print(f"    ✅ {len(entries)} entrées trouvées")
+        return entries
+    
+    except Exception as e:
+        print(f"    ❌ Erreur: {e}")
+        return []
+
 def fetch_billboard_hot100():
-    """Récupère le vrai Billboard Hot 100 via billboard.py"""
+    """Récupère le Billboard Hot 100"""
+    print(f"  🔍 Tentative avec billboard.py...")
+    
     try:
         import billboard
         
-        # Récupérer le Hot 100 actuel
         chart = billboard.ChartData('hot-100')
         
         entries = []
         for i, entry in enumerate(chart.entries[:50]):
+            lw = getattr(entry, 'lastPos', None)
+            peak = getattr(entry, 'peakPos', i + 1)
+            weeks = getattr(entry, 'weeks', 1)
+            
+            movement = "same"
+            if lw and lw > 0:
+                if lw > i + 1:
+                    movement = "up"
+                elif lw < i + 1:
+                    movement = "down"
+            else:
+                movement = "new"
+            
             entries.append({
                 "position": i + 1,
                 "track": {
@@ -53,192 +139,31 @@ def fetch_billboard_hot100():
                     "artist": entry.artist,
                     "artwork": ""
                 },
-                "previousPosition": entry.lastPos if hasattr(entry, 'lastPos') else None,
-                "movement": "same",
-                "weeksOnChart": entry.weeks if hasattr(entry, 'weeks') else 1,
-                "peakPosition": entry.peakPos if hasattr(entry, 'peakPos') else i + 1,
+                "previousPosition": lw,
+                "movement": movement,
+                "weeksOnChart": weeks,
+                "peakPosition": peak,
                 "source": "billboard"
             })
-            
-            # Calculer le mouvement
-            if entry.lastPos and entry.lastPos > 0:
-                if entry.lastPos > i + 1:
-                    entries[-1]["movement"] = "up"
-                elif entry.lastPos < i + 1:
-                    entries[-1]["movement"] = "down"
-            else:
-                entries[-1]["movement"] = "new"
         
+        print(f"    ✅ {len(entries)} entrées trouvées")
         return entries
     
     except ImportError:
-        print("    ❌ billboard.py n'est pas installé")
+        print(f"    ❌ billboard.py non installé")
         return []
     except Exception as e:
-        print(f"    ❌ Erreur Billboard: {e}")
-        return []
-
-def fetch_official_charts_france():
-    """Récupère le top France via Official Charts Company"""
-    url = "https://www.officialcharts.com/charts/french-singles-chart/"
-    
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=30)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
+        print(f"    ❌ Erreur billboard.py: {e}")
         
-        entries = []
-        
-        # Chercher les éléments "Number X"
-        text = response.text
-        
-        # Pattern : Number X suivi de titre et artiste
-        pattern = r'Number\s+(\d+)\s*(.*?)\s*([A-Z][A-Z\s]+)\s*1\.\s*LW:\s*(\d+|none)'
-        matches = re.findall(pattern, text, re.DOTALL)
-        
-        if not matches:
-            # Essayer avec un pattern plus flexible
-            items = soup.find_all(['article', 'div'])
-            
-            for item in items:
-                item_text = item.get_text()
-                
-                # Chercher "Number X"
-                rank_match = re.search(r'Number\s+(\d+)', item_text, re.I)
-                if rank_match:
-                    rank = int(rank_match.group(1))
-                    
-                    # Extraire les lignes
-                    lines = [line.strip() for line in item_text.split('\n') if line.strip()]
-                    
-                    title = ""
-                    artist = ""
-                    lw = None
-                    peak = None
-                    weeks = None
-                    
-                    # Chercher le titre et l'artiste
-                    for i, line in enumerate(lines):
-                        if 'Number' in line and i + 1 < len(lines):
-                            title = lines[i + 1]
-                            if i + 2 < len(lines):
-                                artist = lines[i + 2]
-                            break
-                    
-                    # Chercher les métadonnées
-                    lw_match = re.search(r'LW:\s*(\d+)', item_text, re.I)
-                    peak_match = re.search(r'Peak:\s*(\d+)', item_text, re.I)
-                    weeks_match = re.search(r'Weeks:\s*(\d+)', item_text, re.I)
-                    
-                    if lw_match and lw_match.group(1) != 'none':
-                        lw = int(lw_match.group(1))
-                    if peak_match:
-                        peak = int(peak_match.group(1))
-                    if weeks_match:
-                        weeks = int(weeks_match.group(1))
-                    
-                    if title and artist and rank <= 50:
-                        movement = "same"
-                        if lw:
-                            if lw > rank:
-                                movement = "up"
-                            elif lw < rank:
-                                movement = "down"
-                        else:
-                            movement = "new"
-                        
-                        entries.append({
-                            "position": rank,
-                            "track": {"title": title, "artist": artist, "artwork": ""},
-                            "previousPosition": lw,
-                            "movement": movement,
-                            "weeksOnChart": weeks if weeks else 1,
-                            "peakPosition": peak if peak else rank,
-                            "source": "official_charts"
-                        })
-        
-        return entries[:50]
-    
-    except Exception as e:
-        print(f"    ❌ Erreur Official Charts France: {e}")
-        return []
-
-def fetch_official_charts_uk():
-    """Récupère le top UK via Official Charts Company"""
-    url = "https://www.officialcharts.com/charts/singles-chart/"
-    
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=30)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        entries = []
-        
-        # Chercher les éléments de chart
-        items = soup.find_all(['article', 'div'])
-        
-        for item in items:
-            item_text = item.get_text()
-            
-            rank_match = re.search(r'Number\s+(\d+)', item_text, re.I)
-            if rank_match:
-                rank = int(rank_match.group(1))
-                
-                lines = [line.strip() for line in item_text.split('\n') if line.strip()]
-                
-                title = ""
-                artist = ""
-                lw = None
-                peak = None
-                weeks = None
-                
-                for i, line in enumerate(lines):
-                    if 'Number' in line and i + 1 < len(lines):
-                        title = lines[i + 1]
-                        if i + 2 < len(lines):
-                            artist = lines[i + 2]
-                        break
-                
-                lw_match = re.search(r'LW:\s*(\d+)', item_text, re.I)
-                peak_match = re.search(r'Peak:\s*(\d+)', item_text, re.I)
-                weeks_match = re.search(r'Weeks:\s*(\d+)', item_text, re.I)
-                
-                if lw_match and lw_match.group(1) != 'none':
-                    lw = int(lw_match.group(1))
-                if peak_match:
-                    peak = int(peak_match.group(1))
-                if weeks_match:
-                    weeks = int(weeks_match.group(1))
-                
-                if title and artist and rank <= 50:
-                    movement = "same"
-                    if lw:
-                        if lw > rank:
-                            movement = "up"
-                        elif lw < rank:
-                            movement = "down"
-                    else:
-                        movement = "new"
-                    
-                    entries.append({
-                        "position": rank,
-                        "track": {"title": title, "artist": artist, "artwork": ""},
-                        "previousPosition": lw,
-                        "movement": movement,
-                        "weeksOnChart": weeks if weeks else 1,
-                        "peakPosition": peak if peak else rank,
-                        "source": "official_charts"
-                    })
-        
-        return entries[:50]
-    
-    except Exception as e:
-        print(f"    ❌ Erreur Official Charts UK: {e}")
-        return []
+        # Fallback : essayer acharts
+        print(f"  🔄 Fallback sur acharts.co...")
+        return fetch_acharts("https://acharts.co/us_singles_top_100", "US")
 
 def fetch_itunes_chart(country_code, limit=50):
     """Récupère le top singles via l'API iTunes RSS"""
     url = f"https://itunes.apple.com/{country_code}/rss/topsongs/limit={limit}/json"
+    
+    print(f"  🔍 Tentative avec iTunes RSS...")
     
     try:
         response = requests.get(url, headers=HEADERS, timeout=30)
@@ -271,13 +196,13 @@ def fetch_itunes_chart(country_code, limit=50):
                         "source": "itunes"
                     })
             except Exception as e:
-                print(f"    ⚠️ Erreur lors du parsing de l'entrée {index}: {e}")
                 continue
         
+        print(f"    ✅ {len(entries)} entrées trouvées")
         return entries
     
     except Exception as e:
-        print(f"    ❌ Erreur iTunes {country_code}: {e}")
+        print(f"    ❌ Erreur iTunes: {e}")
         return []
 
 def main():
@@ -305,7 +230,6 @@ def main():
     successful_sources = []
     failed_sources = []
     
-    # Traiter chaque pays
     for code, country_info in SOURCES.items():
         print(f"\n📊 Traitement de {country_info['name']} {country_info['flag']}...")
         
@@ -314,11 +238,17 @@ def main():
         
         if source_used == "billboard":
             entries = fetch_billboard_hot100()
-        elif source_used == "official_charts":
-            if code == "fr":
-                entries = fetch_official_charts_france()
-            elif code == "gb":
-                entries = fetch_official_charts_uk()
+            if entries:
+                source_used = "billboard"
+            else:
+                # Si billboard échoue, utiliser acharts
+                entries = fetch_acharts("https://acharts.co/us_singles_top_100", "US")
+                if entries:
+                    source_used = "acharts"
+        
+        elif source_used == "acharts":
+            entries = fetch_acharts(country_info["acharts_url"], country_info["name"])
+        
         elif source_used == "itunes":
             entries = fetch_itunes_chart(country_info["itunes_code"])
         
@@ -341,18 +271,16 @@ def main():
             print(f"  ❌ Échec pour {country_info['name']}")
             failed_sources.append(country_info["name"])
     
-    # Générer le message de note
     if successful_sources and failed_sources:
         charts_data["meta"]["sourceNote"] = (
             f"✅ Sources réussies : {', '.join(successful_sources)}. "
             f"❌ Sources échouées : {', '.join(failed_sources)}."
         )
     elif successful_sources:
-        charts_data["meta"]["sourceNote"] = f"✅ Toutes les sources ont été collectées : {', '.join(successful_sources)}."
+        charts_data["meta"]["sourceNote"] = f"✅ Toutes les sources : {', '.join(successful_sources)}."
     else:
         charts_data["meta"]["sourceNote"] = "❌ Aucune source n'a pu être collectée."
     
-    # Sauvegarder
     output_dir = "data"
     os.makedirs(output_dir, exist_ok=True)
     
