@@ -26,8 +26,7 @@ jobs:
         
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 billboard.py yt-dlp
+          pip install requests beautifulsoup4 billboard.py
         
       - name: Fetch charts
         run: python fetch_charts.py
