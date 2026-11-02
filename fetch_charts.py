@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version avec test de plusieurs URLs acharts.co par pays.
+Version finale avec les sources originales qui fonctionnent.
 """
 
 import json
@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import re
 import os
+import time
 
 SOURCES = {
     "us": {
@@ -23,61 +24,50 @@ SOURCES = {
         "flag": "🇫🇷", 
         "region": "europe", 
         "source": "acharts",
-        "acharts_urls": [
-            "https://acharts.co/france_singles_top_100"
-        ]
+        "acharts_url": "https://acharts.co/france_singles_top_100"
     },
     "gb": {
         "name": "Royaume-Uni", 
         "flag": "🇬🇧", 
         "region": "europe", 
         "source": "acharts",
-        "acharts_urls": [
-            "https://acharts.co/uk_singles_top_75"
-        ]
+        "acharts_url": "https://acharts.co/uk_singles_top_75"
     },
     "de": {
         "name": "Allemagne", 
         "flag": "🇩🇪", 
         "region": "europe", 
-        "source": "acharts",
-        "acharts_urls": [
-            "https://acharts.co/germany_singles_top_100",
-            "https://acharts.co/german_singles_top_100",
-            "https://acharts.co/deutschland_singles_top_100"
-        ],
-        "itunes_code": "de"
+        "source": "offizielle_charts",
+        "primary_url": "https://www.offiziellecharts.de/charts",
+        "fallback_url": "https://kworb.net/charts/itunes/de.html"
     },
     "ch": {
         "name": "Suisse", 
         "flag": "🇨🇭", 
         "region": "europe", 
         "source": "acharts",
-        "acharts_urls": [
-            "https://acharts.co/switzerland_singles_top_100",
-            "https://acharts.co/swiss_singles_top_100",
-            "https://acharts.co/suisse_singles_top_100"
-        ],
-        "itunes_code": "ch"
+        "acharts_url": "https://acharts.co/swiss_singles_top_100"
     },
     "br": {
         "name": "Brésil", 
         "flag": "🇧🇷", 
         "region": "latam", 
-        "source": "acharts",
-        "acharts_urls": [
-            "https://acharts.co/brazil_singles_top_100",
-            "https://acharts.co/brazilian_singles_top_100",
-            "https://acharts.co/brasil_singles_top_100"
-        ],
-        "itunes_code": "br"
+        "source": "promusica",
+        "primary_url": "https://pro-musicabr.org.br/home/top-50-streaming/"
     }
 }
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    'Accept-Language': 'en-US,en;q=0.9',
+    'Accept-Language': 'de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'none',
+    'Cache-Control': 'max-age=0'
 }
 
 def get_week_info():
@@ -101,78 +91,78 @@ def calculate_movement(current_pos, previous_pos):
     else:
         return "same"
 
+def fetch_with_retry(url, max_retries=3, timeout=30):
+    """Fetch avec retry et gestion d'erreurs"""
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=timeout)
+            if response.status_code == 403:
+                print(f"    🚫 Bloqué (403) - tentative {attempt + 1}/{max_retries}")
+                if attempt < max_retries - 1:
+                    time.sleep(2 * (attempt + 1))
+                continue
+            response.raise_for_status()
+            return response
+        except Exception as e:
+            print(f"    ❌ Erreur (tentative {attempt + 1}/{max_retries}): {str(e)[:80]}")
+            if attempt < max_retries - 1:
+                time.sleep(2)
+    return None
+
 def fetch_acharts(url, country_name):
-    """Scrape acharts.co avec extraction correcte des positions précédentes"""
-    print(f"    🔍 Test de {url}...")
+    """Scrape acharts.co avec extraction des positions précédentes"""
+    print(f"  🔍 Scraping acharts.co pour {country_name}...")
     
     try:
-        response = requests.get(url, headers=HEADERS, timeout=30)
+        response = fetch_with_retry(url, max_retries=2)
         
-        if response.status_code == 403:
-            print(f"      ❌ Bloqué (403 Forbidden)")
-            return None
+        if not response:
+            return []
         
-        if response.status_code == 404:
-            print(f"      ❌ Page non trouvée (404)")
-            return None
-        
-        response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
-        
         entries = []
         
-        # Chercher le tableau principal
         table = soup.find('table')
-        
         if not table:
-            print(f"      ❌ Pas de tableau trouvé")
-            return None
+            print(f"    ❌ Pas de tableau trouvé")
+            return []
         
-        rows = table.find_all('tr')[1:]  # Sauter l'en-tête
+        rows = table.find_all('tr')[1:]
         
         for row in rows[:50]:
             cells = row.find_all('td')
             
             if len(cells) >= 3:
-                # Colonne 0 : position actuelle
                 pos_text = cells[0].get_text(strip=True)
                 rank_match = re.search(r'\d+', pos_text)
                 
                 if rank_match:
                     rank = int(rank_match.group())
                     
-                    # Colonne 1 : position précédente (IMPORTANT !)
                     prev_text = cells[1].get_text(strip=True).lower()
                     previous_pos = None
                     
-                    # Vérifier si c'est une nouvelle entrée ou re-entry
                     if 'new' in prev_text or 're-entry' in prev_text:
                         previous_pos = None
                     else:
-                        # Extraire le numéro
                         prev_match = re.search(r'\d+', prev_text)
                         if prev_match:
                             previous_pos = int(prev_match.group())
                     
-                    # Colonne 2 : titre et artiste
                     title_cell = cells[2]
                     title_text = title_cell.get_text(separator='\n', strip=True)
-                    
-                    # Pattern : Titre\nArtiste
                     lines = [line.strip() for line in title_text.split('\n') if line.strip()]
                     
                     if len(lines) >= 2:
                         title = lines[0]
                         artist = lines[1]
                         
-                        # Chercher les métadonnées
                         peak_match = re.search(r'peak position:\s*(\d+)', title_text, re.I)
                         weeks_match = re.search(r'total weeks:\s*(\d+)', title_text, re.I)
                         
                         peak = int(peak_match.group(1)) if peak_match else rank
                         weeks = int(weeks_match.group(1)) if weeks_match else 1
                         
-                        # Calculer le mouvement
                         movement = calculate_movement(rank, previous_pos)
                         
                         entries.append({
@@ -185,45 +175,285 @@ def fetch_acharts(url, country_name):
                             "source": "acharts"
                         })
         
-        if len(entries) >= 10:
-            print(f"      ✅ {len(entries)} entrées trouvées")
-            
-            # Debug : afficher quelques exemples
-            print(f"      📊 Exemples de mouvements :")
+        print(f"    ✅ {len(entries)} entrées trouvées")
+        
+        if entries:
+            print(f"    📊 Exemples de mouvements :")
             for i, entry in enumerate(entries[:3]):
-                print(f"         {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
-            
-            return entries
-        else:
-            print(f"      ❌ Seulement {len(entries)} entrées trouvées (insuffisant)")
-            return None
+                print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
+        
+        return entries
     
     except Exception as e:
-        print(f"      ❌ Erreur: {e}")
-        return None
+        print(f"    ❌ Erreur: {e}")
+        return []
 
-def fetch_acharts_with_fallback(country_info):
-    """Essaie plusieurs URLs acharts.co puis fallback sur iTunes"""
-    country_name = country_info["name"]
+def fetch_brazil_promusica():
+    """Scrape Pro-Música Brasil - Source officielle qui fonctionnait"""
+    print(f"  🔍 Scraping Pro-Música Brasil (source officielle)...")
     
-    # Essayer toutes les URLs acharts
-    if "acharts_urls" in country_info:
-        for url in country_info["acharts_urls"]:
-            entries = fetch_acharts(url, country_name)
-            if entries:
-                return entries, "acharts"
-    
-    # Si aucune URL acharts ne fonctionne, essayer iTunes
-    if "itunes_code" in country_info:
-        print(f"  🔄 Toutes les URLs acharts ont échoué, fallback sur iTunes...")
-        entries = fetch_itunes_chart(country_info["itunes_code"])
+    try:
+        response = fetch_with_retry(SOURCES["br"]["primary_url"])
+        
+        if not response:
+            return []
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        entries = []
+        
+        for table in soup.find_all('table'):
+            for row in table.find_all('tr', limit=51):
+                cells = row.find_all('td')
+                
+                if len(cells) >= 3:
+                    rank_text = cells[0].get_text(strip=True)
+                    
+                    if rank_text.isdigit():
+                        rank = int(rank_text)
+                        artist_cell = cells[2] if len(cells) > 2 else None
+                        
+                        if artist_cell:
+                            artist_strong = artist_cell.find('strong')
+                            
+                            if artist_strong:
+                                artist = artist_strong.get_text(strip=True)
+                                title_parts = []
+                                
+                                for elem in artist_cell.descendants:
+                                    if isinstance(elem, str) and elem.strip():
+                                        text = elem.strip()
+                                        if text != artist and text:
+                                            title_parts.append(text)
+                                
+                                title = ' '.join(title_parts) if title_parts else ""
+                                
+                                if title:
+                                    # Pro-Música Brasil est mensuel, pas de positions précédentes disponibles
+                                    # On marque les entrées comme "new" car on ne peut pas comparer
+                                    entries.append({
+                                        "position": rank,
+                                        "track": {"title": title, "artist": artist, "artwork": ""},
+                                        "previousPosition": None,
+                                        "movement": "same",  # Marqué comme stable car classement mensuel
+                                        "weeksOnChart": 1,
+                                        "peakPosition": rank,
+                                        "source": "promusica"
+                                    })
+        
+        print(f"    ✅ {len(entries)} entrées trouvées")
+        
         if entries:
-            return entries, "itunes"
+            print(f"    📊 Top 3 :")
+            for i, entry in enumerate(entries[:3]):
+                print(f"       {entry['position']}. {entry['track']['artist']} - {entry['track']['title']}")
+        
+        return entries
     
-    return None, None
+    except Exception as e:
+        print(f"    ❌ Erreur: {e}")
+        return []
+
+def fetch_offizielle_charts_germany():
+    """Scrape Offizielle Deutsche Charts avec stratégie améliorée"""
+    print(f"  🔍 Scraping Offizielle Deutsche Charts (source officielle)...")
+    
+    url = SOURCES["de"]["primary_url"]
+    
+    try:
+        # Stratégie 1 : Requête avec headers complets
+        response = fetch_with_retry(url, max_retries=2)
+        
+        if not response:
+            print(f"  🔄 Source officielle bloquée, tentative avec kworb iTunes...")
+            return fetch_kworb_itunes("https://kworb.net/charts/itunes/de.html", "Allemagne")
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        entries = []
+        
+        # Chercher les tableaux
+        tables = soup.find_all('table')
+        
+        for table in tables:
+            rows = table.find_all('tr')
+            
+            for row in rows[:60]:
+                cells = row.find_all(['td', 'th'])
+                
+                if len(cells) >= 3:
+                    rank_text = cells[0].get_text(strip=True)
+                    
+                    if rank_text.isdigit():
+                        rank = int(rank_text)
+                        
+                        # Position précédente
+                        prev_rank = None
+                        if len(cells) > 1:
+                            prev_text = cells[1].get_text(strip=True)
+                            if prev_text.isdigit():
+                                prev_rank = int(prev_text)
+                        
+                        # Artiste et titre
+                        info_cell = None
+                        for i in range(2, min(len(cells), 4)):
+                            if len(cells[i].get_text(strip=True)) > 5:
+                                info_cell = cells[i]
+                                break
+                        
+                        if info_cell:
+                            full_text = info_cell.get_text(separator='|', strip=True)
+                            parts = [p.strip() for p in full_text.split('|') if p.strip()]
+                            
+                            title = ""
+                            artist = ""
+                            
+                            if len(parts) >= 2:
+                                artist = parts[0]
+                                title = parts[1]
+                            elif len(parts) == 1:
+                                text = parts[0]
+                                split_match = re.split(r'\s*[-–—]\s*|\s{2,}', text, maxsplit=1)
+                                if len(split_match) == 2:
+                                    artist = split_match[0].strip()
+                                    title = split_match[1].strip()
+                                else:
+                                    title = text
+                            
+                            weeks_match = re.search(r'In Charts:\s*(\d+)\s*W', full_text, re.I)
+                            peak_match = re.search(r'Peak:\s*(\d+)', full_text, re.I)
+                            
+                            weeks = int(weeks_match.group(1)) if weeks_match else 1
+                            peak = int(peak_match.group(1)) if peak_match else rank
+                            
+                            if title and artist:
+                                movement = calculate_movement(rank, prev_rank)
+                                
+                                entries.append({
+                                    "position": rank,
+                                    "track": {"title": title, "artist": artist, "artwork": ""},
+                                    "previousPosition": prev_rank,
+                                    "movement": movement,
+                                    "weeksOnChart": weeks,
+                                    "peakPosition": peak,
+                                    "source": "offizielle_charts"
+                                })
+                                
+                                if len(entries) >= 50:
+                                    break
+            
+            if len(entries) >= 50:
+                break
+        
+        print(f"    ✅ {len(entries)} entrées trouvées (Offizielle Charts)")
+        
+        if entries:
+            print(f"    📊 Exemples de mouvements :")
+            for i, entry in enumerate(entries[:3]):
+                print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
+        
+        return entries
+    
+    except Exception as e:
+        print(f"    ❌ Erreur: {e}")
+        return []
+
+def fetch_kworb_itunes(url, country_name):
+    """Fallback : kworb.net iTunes (pas Spotify)"""
+    print(f"  🔄 Fallback kworb.net iTunes pour {country_name}...")
+    
+    try:
+        response = fetch_with_retry(url)
+        
+        if not response:
+            return []
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        entries = []
+        
+        table = soup.find('table')
+        if not table:
+            return []
+        
+        rows = table.find_all('tr')
+        
+        for row in rows[1:51]:
+            cells = row.find_all('td')
+            
+            if len(cells) >= 3:
+                pos_text = cells[0].get_text(strip=True)
+                
+                if pos_text.isdigit():
+                    rank = int(pos_text)
+                    
+                    movement_text = cells[1].get_text(strip=True).lower()
+                    artist_cell = cells[2]
+                    artist_text = artist_cell.get_text(strip=True)
+                    
+                    title = ""
+                    artist = ""
+                    
+                    if ' - ' in artist_text:
+                        parts = artist_text.split(' - ', 1)
+                        if len(parts) == 2:
+                            artist = parts[0].strip()
+                            title = parts[1].strip()
+                    else:
+                        links = artist_cell.find_all('a')
+                        if len(links) >= 2:
+                            artist = links[0].get_text(strip=True)
+                            title = links[1].get_text(strip=True)
+                    
+                    if title and artist:
+                        previous_pos = None
+                        movement = "new"
+                        
+                        if movement_text == 'new' or movement_text == '':
+                            movement = "new"
+                            previous_pos = None
+                        elif movement_text.startswith('+'):
+                            try:
+                                diff = int(movement_text[1:])
+                                previous_pos = rank + diff
+                                movement = "up"
+                            except:
+                                movement = "same"
+                                previous_pos = rank
+                        elif movement_text.startswith('-'):
+                            try:
+                                diff = int(movement_text[1:])
+                                previous_pos = rank - diff
+                                movement = "down"
+                            except:
+                                movement = "same"
+                                previous_pos = rank
+                        else:
+                            movement = "same"
+                            previous_pos = rank
+                        
+                        entries.append({
+                            "position": rank,
+                            "track": {"title": title, "artist": artist, "artwork": ""},
+                            "previousPosition": previous_pos,
+                            "movement": movement,
+                            "weeksOnChart": 1,
+                            "peakPosition": rank,
+                            "source": "kworb_itunes"
+                        })
+        
+        print(f"    ✅ {len(entries)} entrées trouvées (iTunes)")
+        
+        if entries:
+            print(f"    📊 Exemples de mouvements :")
+            for i, entry in enumerate(entries[:3]):
+                print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
+        
+        return entries
+    
+    except Exception as e:
+        print(f"    ❌ Erreur: {e}")
+        return []
 
 def fetch_billboard_hot100():
-    """Récupère le Billboard Hot 100 avec positions précédentes"""
+    """Récupère le Billboard Hot 100"""
     print(f"  🔍 Tentative avec billboard.py...")
     
     try:
@@ -272,57 +502,7 @@ def fetch_billboard_hot100():
         print(f"    ❌ Erreur billboard.py: {e}")
         
         print(f"  🔄 Fallback sur acharts.co...")
-        entries = fetch_acharts("https://acharts.co/us_singles_top_100", "US")
-        return entries if entries else []
-
-def fetch_itunes_chart(country_code, limit=50):
-    """Fallback : Récupère le top singles via l'API iTunes RSS"""
-    url = f"https://itunes.apple.com/{country_code}/rss/topsongs/limit={limit}/json"
-    
-    print(f"    🔍 Fallback iTunes RSS ({country_code})...")
-    
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-        
-        entries = []
-        feed_entries = data.get('feed', {}).get('entry', [])
-        
-        for index, entry in enumerate(feed_entries):
-            try:
-                title = entry.get('im:name', {}).get('label', '')
-                artist = entry.get('im:artist', {}).get('label', '')
-                
-                images = entry.get('im:image', [])
-                artwork = images[-1].get('label', '') if images else ''
-                
-                if title and artist:
-                    entries.append({
-                        "position": index + 1,
-                        "track": {
-                            "title": title,
-                            "artist": artist,
-                            "artwork": artwork
-                        },
-                        "previousPosition": None,
-                        "movement": "new",
-                        "weeksOnChart": 1,
-                        "peakPosition": index + 1,
-                        "source": "itunes"
-                    })
-            except Exception as e:
-                continue
-        
-        if entries:
-            print(f"      ✅ {len(entries)} entrées trouvées (iTunes)")
-            print(f"      ⚠️ iTunes ne fournit pas les positions précédentes")
-        
-        return entries if entries else None
-    
-    except Exception as e:
-        print(f"      ❌ Erreur iTunes: {e}")
-        return None
+        return fetch_acharts("https://acharts.co/us_singles_top_100", "US")
 
 def main():
     print(f"🎵 Début de la collecte - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
@@ -352,16 +532,29 @@ def main():
     for code, country_info in SOURCES.items():
         print(f"\n📊 Traitement de {country_info['name']} {country_info['flag']}...")
         
-        entries = None
-        source_used = None
+        entries = []
+        source_used = country_info["source"]
         
-        if country_info["source"] == "billboard":
+        if source_used == "billboard":
             entries = fetch_billboard_hot100()
             if entries:
                 source_used = "billboard"
         
-        elif country_info["source"] == "acharts":
-            entries, source_used = fetch_acharts_with_fallback(country_info)
+        elif source_used == "acharts":
+            entries = fetch_acharts(country_info["acharts_url"], country_info["name"])
+        
+        elif source_used == "offizielle_charts":
+            entries = fetch_offizielle_charts_germany()
+            if entries:
+                source_used = "offizielle_charts"
+            else:
+                # Si le fallback kworb iTunes a été utilisé
+                source_used = "kworb_itunes"
+        
+        elif source_used == "promusica":
+            entries = fetch_brazil_promusica()
+            if entries:
+                source_used = "promusica"
         
         if entries and len(entries) >= 10:
             charts_data["countries"][code] = {
