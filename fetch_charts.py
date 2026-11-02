@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version utilisant acharts.co pour FR/UK et billboard.py pour US.
+Version corrigée avec extraction correcte des positions précédentes.
 """
 
 import json
@@ -35,8 +35,20 @@ def get_week_info():
         "label": f"Semaine {now.isocalendar()[1]}/{now.year}"
     }
 
+def calculate_movement(current_pos, previous_pos):
+    """Calcule le mouvement basé sur les positions"""
+    if previous_pos is None or previous_pos == 0:
+        return "new"
+    
+    if current_pos < previous_pos:
+        return "up"
+    elif current_pos > previous_pos:
+        return "down"
+    else:
+        return "same"
+
 def fetch_acharts(url, country_name):
-    """Scrape acharts.co qui a une structure HTML simple"""
+    """Scrape acharts.co avec extraction correcte des positions précédentes"""
     print(f"  🔍 Tentative de scraping de {url}...")
     
     try:
@@ -66,12 +78,23 @@ def fetch_acharts(url, country_name):
             if len(cells) >= 3:
                 # Colonne 0 : position actuelle
                 pos_text = cells[0].get_text(strip=True)
-                
-                # Extraire le rang (peut être "1.", "(1)", etc.)
                 rank_match = re.search(r'\d+', pos_text)
                 
                 if rank_match:
                     rank = int(rank_match.group())
+                    
+                    # Colonne 1 : position précédente (IMPORTANT !)
+                    prev_text = cells[1].get_text(strip=True).lower()
+                    previous_pos = None
+                    
+                    # Vérifier si c'est une nouvelle entrée ou re-entry
+                    if 'new' in prev_text or 're-entry' in prev_text:
+                        previous_pos = None
+                    else:
+                        # Extraire le numéro
+                        prev_match = re.search(r'\d+', prev_text)
+                        if prev_match:
+                            previous_pos = int(prev_match.group())
                     
                     # Colonne 2 : titre et artiste
                     title_cell = cells[2]
@@ -84,32 +107,44 @@ def fetch_acharts(url, country_name):
                         title = lines[0]
                         artist = lines[1]
                         
-                        # Chercher les métadonnées dans le texte
+                        # Chercher les métadonnées
                         peak_match = re.search(r'peak position:\s*(\d+)', title_text, re.I)
                         weeks_match = re.search(r'total weeks:\s*(\d+)', title_text, re.I)
                         
                         peak = int(peak_match.group(1)) if peak_match else rank
                         weeks = int(weeks_match.group(1)) if weeks_match else 1
                         
+                        # Calculer le mouvement
+                        movement = calculate_movement(rank, previous_pos)
+                        
                         entries.append({
                             "position": rank,
                             "track": {"title": title, "artist": artist, "artwork": ""},
-                            "previousPosition": None,
-                            "movement": "same",
+                            "previousPosition": previous_pos,
+                            "movement": movement,
                             "weeksOnChart": weeks,
                             "peakPosition": peak,
                             "source": "acharts"
                         })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
+        
+        # Debug : afficher quelques exemples
+        if entries:
+            print(f"    📊 Exemples de mouvements :")
+            for i, entry in enumerate(entries[:5]):
+                print(f"       {entry['position']}. {entry['track']['title']} - Mouvement: {entry['movement']} (Préc: {entry['previousPosition']})")
+        
         return entries
     
     except Exception as e:
         print(f"    ❌ Erreur: {e}")
+        import traceback
+        traceback.print_exc()
         return []
 
 def fetch_billboard_hot100():
-    """Récupère le Billboard Hot 100"""
+    """Récupère le Billboard Hot 100 avec positions précédentes"""
     print(f"  🔍 Tentative avec billboard.py...")
     
     try:
@@ -119,18 +154,17 @@ def fetch_billboard_hot100():
         
         entries = []
         for i, entry in enumerate(chart.entries[:50]):
+            # Récupérer les attributs (peuvent être None ou 0)
             lw = getattr(entry, 'lastPos', None)
             peak = getattr(entry, 'peakPos', i + 1)
             weeks = getattr(entry, 'weeks', 1)
             
-            movement = "same"
-            if lw and lw > 0:
-                if lw > i + 1:
-                    movement = "up"
-                elif lw < i + 1:
-                    movement = "down"
-            else:
-                movement = "new"
+            # Normaliser lastPos (0 signifie nouvelle entrée)
+            if lw == 0:
+                lw = None
+            
+            # Calculer le mouvement
+            movement = calculate_movement(i + 1, lw)
             
             entries.append({
                 "position": i + 1,
@@ -147,6 +181,13 @@ def fetch_billboard_hot100():
             })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
+        
+        # Debug
+        if entries:
+            print(f"    📊 Exemples de mouvements :")
+            for i, entry in enumerate(entries[:5]):
+                print(f"       {entry['position']}. {entry['track']['title']} - Mouvement: {entry['movement']} (Préc: {entry['previousPosition']})")
+        
         return entries
     
     except ImportError:
@@ -154,8 +195,9 @@ def fetch_billboard_hot100():
         return []
     except Exception as e:
         print(f"    ❌ Erreur billboard.py: {e}")
+        import traceback
+        traceback.print_exc()
         
-        # Fallback : essayer acharts
         print(f"  🔄 Fallback sur acharts.co...")
         return fetch_acharts("https://acharts.co/us_singles_top_100", "US")
 
@@ -182,6 +224,8 @@ def fetch_itunes_chart(country_code, limit=50):
                 artwork = images[-1].get('label', '') if images else ''
                 
                 if title and artist:
+                    # iTunes ne fournit pas les positions précédentes
+                    # Donc tous sont marqués comme "new"
                     entries.append({
                         "position": index + 1,
                         "track": {
@@ -190,7 +234,7 @@ def fetch_itunes_chart(country_code, limit=50):
                             "artwork": artwork
                         },
                         "previousPosition": None,
-                        "movement": "same",
+                        "movement": "new",  # iTunes ne fournit pas cette info
                         "weeksOnChart": 1,
                         "peakPosition": index + 1,
                         "source": "itunes"
@@ -199,6 +243,7 @@ def fetch_itunes_chart(country_code, limit=50):
                 continue
         
         print(f"    ✅ {len(entries)} entrées trouvées")
+        print(f"    ⚠️ iTunes ne fournit pas les positions précédentes (tous marqués comme 'new')")
         return entries
     
     except Exception as e:
@@ -241,7 +286,6 @@ def main():
             if entries:
                 source_used = "billboard"
             else:
-                # Si billboard échoue, utiliser acharts
                 entries = fetch_acharts("https://acharts.co/us_singles_top_100", "US")
                 if entries:
                     source_used = "acharts"
