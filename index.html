@@ -124,6 +124,8 @@
       cursor: pointer;
       font: inherit;
       transition: transform 0.15s ease, border-color 0.15s ease;
+      text-decoration: none;
+      display: inline-block;
     }
 
     .button:hover {
@@ -140,6 +142,19 @@
 
     .button-primary:hover {
       opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
+    .button-youtube {
+      background: linear-gradient(135deg, #ff0000, #cc0000);
+      color: white;
+      border: none;
+      font-weight: 600;
+    }
+
+    .button-youtube:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
     }
 
     .loading {
@@ -162,31 +177,6 @@
       padding: 15px 17px;
       color: var(--muted);
       line-height: 1.5;
-    }
-
-    .demo-warning {
-      display: none;
-      margin-top: 20px;
-      padding: 15px 17px;
-      background: var(--warning-bg);
-      border: 1px solid rgba(217, 119, 6, 0.25);
-      border-radius: 16px;
-    }
-
-    .demo-warning strong {
-      color: var(--warning);
-    }
-
-    .demo-warning p {
-      margin: 8px 0 0;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-
-    .demo-warning small {
-      display: block;
-      margin-top: 8px;
-      opacity: 0.8;
     }
 
     .controls {
@@ -309,9 +299,7 @@
       margin-bottom: 12px;
       border: 1px solid var(--border);
       border-radius: 24px;
-      background:
-        linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent),
-        var(--overlay);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent), var(--overlay);
       transition: transform 0.18s ease, border-color 0.18s ease;
     }
 
@@ -447,6 +435,188 @@
       color: var(--muted);
     }
 
+    /* Modal Playlist YouTube */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(4px);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal {
+      background: var(--panel-solid);
+      border-radius: 24px;
+      max-width: 700px;
+      width: 100%;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--border);
+    }
+
+    .modal-header {
+      padding: 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header h3 {
+      margin: 0;
+      font-size: 22px;
+      color: var(--text);
+    }
+
+    .modal-close {
+      background: none;
+      border: none;
+      font-size: 28px;
+      cursor: pointer;
+      color: var(--muted);
+      padding: 0;
+      width: 32px;
+      height: 32px;
+      display: grid;
+      place-items: center;
+      border-radius: 8px;
+      transition: all 0.15s ease;
+    }
+
+    .modal-close:hover {
+      background: var(--overlay);
+      color: var(--text);
+    }
+
+    .modal-body {
+      padding: 20px 24px;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .modal-intro {
+      background: var(--accent-bg);
+      padding: 16px;
+      border-radius: 16px;
+      margin-bottom: 20px;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .modal-intro strong {
+      color: var(--accent);
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .track-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .track-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px;
+      background: var(--overlay);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      transition: all 0.15s ease;
+    }
+
+    .track-item:hover {
+      border-color: var(--accent);
+      transform: translateX(2px);
+    }
+
+    .track-item.added {
+      opacity: 0.6;
+      background: var(--success-bg);
+    }
+
+    .track-item.added .track-number {
+      background: var(--success);
+      color: white;
+    }
+
+    .track-number {
+      width: 32px;
+      height: 32px;
+      display: grid;
+      place-items: center;
+      background: var(--panel-solid);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--text);
+      flex-shrink: 0;
+    }
+
+    .track-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .track-title {
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--text);
+      margin-bottom: 2px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .track-artist {
+      font-size: 12px;
+      color: var(--muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .track-action {
+      padding: 6px 12px;
+      background: #ff0000;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      transition: all 0.15s ease;
+      flex-shrink: 0;
+    }
+
+    .track-action:hover {
+      background: #cc0000;
+    }
+
+    .track-item.added .track-action {
+      background: var(--success);
+    }
+
     @media (max-width: 900px) {
       .controls, .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .topbar { flex-direction: column; }
@@ -483,6 +653,9 @@
       .cover { width: 44px; height: 44px; border-radius: 14px; }
       .legend { justify-content: flex-start; }
       .listen-buttons { flex-wrap: wrap; }
+      .modal { max-height: 90vh; }
+      .modal-actions { flex-direction: column; }
+      .modal-actions .button { width: 100%; }
     }
   </style>
 </head>
@@ -494,7 +667,6 @@
         <h1>Top Singles Hebdo</h1>
         <p>
           Synthèse hebdomadaire des tops singles officiels — Europe, pays anglo-saxons, Amérique du Sud.
-          Données collectées automatiquement.
         </p>
       </div>
 
@@ -505,22 +677,11 @@
       </div>
     </header>
 
-    <div id="loadingIndicator" class="loading panel">
-      Chargement des données officielles...
-    </div>
-
+    <div id="loadingIndicator" class="loading panel">Chargement des données officielles...</div>
     <div id="errorContainer" style="display: none;"></div>
 
     <div id="mainContent" style="display: none;">
       <div class="note panel" id="sourceNote"></div>
-
-      <div id="demoWarning" class="demo-warning panel">
-        <strong>⚠️ Données de démonstration</strong>
-        <p>
-          Certaines sources n'ont pas pu être scrapées automatiquement. Les données affichées pour ces pays sont des données de démonstration.
-          <small>Seul le Brésil (Pro-Música Brasil) et les États-Unis (Billboard) fournissent actuellement des données officielles en temps réel.</small>
-        </p>
-      </div>
 
       <section class="panel controls">
         <div class="control-group">
@@ -565,7 +726,7 @@
         </div>
 
         <div class="chart-actions">
-          <button class="button button-primary" id="playlistBtn">🎵 Playlist YouTube</button>
+          <button class="button button-youtube" id="playlistBtn">🎵 Playlist YouTube</button>
           <button class="button" id="exportBtn">📥 Exporter CSV</button>
         </div>
 
@@ -574,11 +735,37 @@
     </div>
   </div>
 
+  <!-- Modal Playlist YouTube -->
+  <div class="modal-overlay" id="playlistModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>🎵 Créer une playlist YouTube</h3>
+        <button class="modal-close" id="modalClose">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-intro">
+          <strong>Comment ça fonctionne ?</strong><br>
+          Cliquez sur "Ouvrir" pour chaque titre. YouTube s'ouvrira et vous pourrez ajouter la vidéo à votre playlist. 
+          Utilisez "Tout ouvrir" pour ouvrir tous les titres d'un coup (un onglet par titre).
+        </div>
+
+        <div class="modal-actions">
+          <button class="button button-primary" id="openAllBtn">🚀 Tout ouvrir (<span id="totalCount">0</span> titres)</button>
+          <button class="button" id="copyListBtn">📋 Copier la liste</button>
+          <button class="button" id="resetBtn">♻️ Réinitialiser</button>
+        </div>
+
+        <div class="track-list" id="trackList"></div>
+      </div>
+    </div>
+  </div>
+
   <script>
     let CHARTS_DATA = null;
     let COUNTRIES = {};
     let REGIONS = {};
     let CURRENT_ENTRIES = [];
+    let ADDED_TRACKS = new Set(JSON.parse(localStorage.getItem('addedTracks') || '[]'));
 
     const regionSelect = document.getElementById("regionSelect");
     const countrySelect = document.getElementById("countrySelect");
@@ -596,9 +783,15 @@
     const errorContainer = document.getElementById("errorContainer");
     const mainContent = document.getElementById("mainContent");
     const refreshBtn = document.getElementById("refreshBtn");
-    const demoWarning = document.getElementById("demoWarning");
     const playlistBtn = document.getElementById("playlistBtn");
     const exportBtn = document.getElementById("exportBtn");
+    const playlistModal = document.getElementById("playlistModal");
+    const modalClose = document.getElementById("modalClose");
+    const trackList = document.getElementById("trackList");
+    const openAllBtn = document.getElementById("openAllBtn");
+    const copyListBtn = document.getElementById("copyListBtn");
+    const resetBtn = document.getElementById("resetBtn");
+    const totalCount = document.getElementById("totalCount");
 
     function escapeHtml(value) {
       return String(value)
@@ -610,12 +803,7 @@
     }
 
     function initials(value) {
-      return value
-        .split(/\s+/)
-        .slice(0, 2)
-        .map((part) => part[0] || "")
-        .join("")
-        .toUpperCase();
+      return value.split(/\s+/).slice(0, 2).map((part) => part[0] || "").join("").toUpperCase();
     }
 
     function movementLabel(entry) {
@@ -627,19 +815,22 @@
 
     function generateSearchUrl(platform, title, artist) {
       const query = encodeURIComponent(`${artist} ${title}`);
-      
       switch(platform) {
-        case 'youtube':
-          return `https://www.youtube.com/results?search_query=${query}`;
-        case 'spotify':
-          return `https://open.spotify.com/search/${query}`;
-        case 'deezer':
-          return `https://www.deezer.com/search/${query}`;
-        case 'amazon':
-          return `https://music.amazon.com/search/${query}`;
-        default:
-          return '#';
+        case 'youtube': return `https://www.youtube.com/results?search_query=${query}`;
+        case 'spotify': return `https://open.spotify.com/search/${query}`;
+        case 'deezer': return `https://www.deezer.com/search/${query}`;
+        case 'amazon': return `https://music.amazon.com/search/${query}`;
+        default: return '#';
       }
+    }
+
+    function generateYouTubeSearchUrl(title, artist) {
+      const query = encodeURIComponent(`${artist} ${title}`);
+      return `https://www.youtube.com/results?search_query=${query}`;
+    }
+
+    function getTrackKey(entry) {
+      return `${entry.track.title}|${entry.track.artist}`.toLowerCase();
     }
 
     function createListenButtons(entry) {
@@ -648,53 +839,12 @@
       
       return `
         <div class="listen-buttons">
-          <a href="${generateSearchUrl('youtube', title, artist)}" target="_blank" rel="noopener" class="listen-btn youtube">
-            ▶️ YouTube
-          </a>
-          <a href="${generateSearchUrl('spotify', title, artist)}" target="_blank" rel="noopener" class="listen-btn spotify">
-            🎵 Spotify
-          </a>
-          <a href="${generateSearchUrl('deezer', title, artist)}" target="_blank" rel="noopener" class="listen-btn deezer">
-            🎧 Deezer
-          </a>
-          <a href="${generateSearchUrl('amazon', title, artist)}" target="_blank" rel="noopener" class="listen-btn amazon">
-            📀 Amazon
-          </a>
+          <a href="${generateSearchUrl('youtube', title, artist)}" target="_blank" rel="noopener" class="listen-btn youtube">▶️ YouTube</a>
+          <a href="${generateSearchUrl('spotify', title, artist)}" target="_blank" rel="noopener" class="listen-btn spotify">🎵 Spotify</a>
+          <a href="${generateSearchUrl('deezer', title, artist)}" target="_blank" rel="noopener" class="listen-btn deezer">🎧 Deezer</a>
+          <a href="${generateSearchUrl('amazon', title, artist)}" target="_blank" rel="noopener" class="listen-btn amazon">📀 Amazon</a>
         </div>
       `;
-    }
-
-    function createYouTubePlaylist(entries) {
-      if (!entries || entries.length === 0) {
-        alert("Aucun titre à ajouter à la playlist !");
-        return;
-      }
-
-      // Générer les requêtes de recherche YouTube
-      const searches = entries.slice(0, 50).map(entry => 
-        `${entry.track.artist} ${entry.track.title}`
-      );
-
-      // Ouvrir YouTube avec la première recherche
-      // L'utilisateur devra créer la playlist manuellement ou utiliser une extension
-      const firstSearch = encodeURIComponent(searches[0]);
-      const youtubeUrl = `https://www.youtube.com/results?search_query=${firstSearch}`;
-      
-      window.open(youtubeUrl, '_blank');
-      
-      // Afficher les instructions
-      alert(`🎵 Playlist YouTube créée !\n\n${entries.length} titres à écouter.\n\nLa première recherche s'est ouverte dans un nouvel onglet.\n\nPour écouter tous les titres dans l'ordre :\n1. Copiez la liste ci-dessous\n2. Recherchez chaque titre sur YouTube\n3. Ajoutez-les à une playlist YouTube\n\nListe des titres :\n${entries.slice(0, 10).map((e, i) => `${i+1}. ${e.track.artist} - ${e.track.title}`).join('\n')}${entries.length > 10 ? '\n...' : ''}`);
-      
-      // Copier dans le presse-papier
-      const playlistText = entries.map((entry, index) => 
-        `${index + 1}. ${entry.track.artist} - ${entry.track.title}`
-      ).join('\n');
-      
-      navigator.clipboard.writeText(playlistText).then(() => {
-        console.log("Playlist copiée dans le presse-papier !");
-      }).catch(err => {
-        console.error("Erreur lors de la copie :", err);
-      });
     }
 
     function exportToCSV(entries) {
@@ -703,7 +853,6 @@
         return;
       }
 
-      // Créer le contenu CSV
       let csv = "Position,Titre,Artiste,Évolution,Semaines,Pic\n";
       
       entries.forEach(entry => {
@@ -718,7 +867,6 @@
         csv += row + "\n";
       });
 
-      // Créer et télécharger le fichier
       const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
       const link = document.createElement('a');
       const url = URL.createObjectURL(blob);
@@ -731,18 +879,104 @@
       link.click();
       document.body.removeChild(link);
       
-      alert(`📥 Export réussi !\n\n${entries.length} titres exportés en CSV.\nVous pouvez importer ce fichier dans Excel, Google Sheets, ou d'autres applications.`);
+      alert(`📥 Export réussi !\n\n${entries.length} titres exportés en CSV.`);
     }
 
-    function checkDemoData() {
-      if (!CHARTS_DATA) return;
+    function openPlaylistModal() {
+      if (!CURRENT_ENTRIES || CURRENT_ENTRIES.length === 0) {
+        alert("Aucun titre à ajouter !");
+        return;
+      }
+
+      renderTrackList();
+      playlistModal.classList.add("active");
+    }
+
+    function closePlaylistModal() {
+      playlistModal.classList.remove("active");
+    }
+
+    function renderTrackList() {
+      const entries = CURRENT_ENTRIES.slice(0, 30); // Limiter à 30 pour ne pas surcharger
+      totalCount.textContent = entries.length;
       
-      const hasDemo = Object.values(CHARTS_DATA.countries).some(c => c.isDemo);
+      trackList.innerHTML = entries.map((entry, index) => {
+        const key = getTrackKey(entry);
+        const isAdded = ADDED_TRACKS.has(key);
+        
+        return `
+          <div class="track-item ${isAdded ? 'added' : ''}" data-key="${key}">
+            <div class="track-number">${entry.position}</div>
+            <div class="track-info">
+              <div class="track-title">${escapeHtml(entry.track.title)}</div>
+              <div class="track-artist">${escapeHtml(entry.track.artist)}</div>
+            </div>
+            <button class="track-action" onclick="openTrack('${encodeURIComponent(entry.track.title)}', '${encodeURIComponent(entry.track.artist)}', '${key}')">
+              ${isAdded ? '✓ Ajouté' : '▶ Ouvrir'}
+            </button>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function openTrack(title, artist, key) {
+      const decodedTitle = decodeURIComponent(title);
+      const decodedArtist = decodeURIComponent(artist);
+      const url = generateYouTubeSearchUrl(decodedTitle, decodedArtist);
       
-      if (hasDemo && demoWarning) {
-        demoWarning.style.display = "block";
-      } else if (demoWarning) {
-        demoWarning.style.display = "none";
+      window.open(url, '_blank');
+      
+      ADDED_TRACKS.add(key);
+      localStorage.setItem('addedTracks', JSON.stringify(Array.from(ADDED_TRACKS)));
+      
+      renderTrackList();
+    }
+
+    function openAllTracks() {
+      const entries = CURRENT_ENTRIES.slice(0, 30);
+      
+      if (entries.length === 0) return;
+      
+      const confirmed = confirm(`⚠️ Attention : ${entries.length} onglets YouTube vont s'ouvrir.\n\nAssurez-vous que votre navigateur autorise l'ouverture de plusieurs fenêtres.\n\nContinuer ?`);
+      
+      if (!confirmed) return;
+      
+      entries.forEach((entry, index) => {
+        setTimeout(() => {
+          const url = generateYouTubeSearchUrl(entry.track.title, entry.track.artist);
+          window.open(url, '_blank');
+          
+          const key = getTrackKey(entry);
+          ADDED_TRACKS.add(key);
+        }, index * 500); // Délai de 500ms entre chaque ouverture
+      });
+      
+      localStorage.setItem('addedTracks', JSON.stringify(Array.from(ADDED_TRACKS)));
+      
+      setTimeout(() => {
+        renderTrackList();
+        alert(`✅ ${entries.length} onglets YouTube ouverts !\n\nN'oubliez pas de créer une playlist dans YouTube et d'y ajouter ces vidéos.`);
+      }, entries.length * 500 + 1000);
+    }
+
+    function copyTrackList() {
+      const entries = CURRENT_ENTRIES.slice(0, 30);
+      const list = entries.map((entry, index) => 
+        `${index + 1}. ${entry.track.artist} - ${entry.track.title}`
+      ).join('\n');
+      
+      navigator.clipboard.writeText(list).then(() => {
+        alert(`📋 Liste copiée !\n\n${entries.length} titres dans le presse-papier.`);
+      }).catch(err => {
+        alert(`❌ Erreur lors de la copie : ${err}`);
+      });
+    }
+
+    function resetAddedTracks() {
+      if (confirm("Réinitialiser la liste des titres ajoutés ?")) {
+        ADDED_TRACKS.clear();
+        localStorage.removeItem('addedTracks');
+        renderTrackList();
       }
     }
 
@@ -751,7 +985,6 @@
         loadingIndicator.style.display = "block";
         errorContainer.style.display = "none";
         mainContent.style.display = "none";
-        demoWarning.style.display = "none";
 
         const response = await fetch("data/charts-latest.json");
         
@@ -780,7 +1013,6 @@
         populateCountries();
         updateCountrySelectState();
         render();
-        checkDemoData();
 
         loadingIndicator.style.display = "none";
         mainContent.style.display = "block";
@@ -792,8 +1024,7 @@
           <div class="error">
             <strong>⚠️ Erreur de chargement</strong>
             <p>${error.message}</p>
-            <p>Assurez-vous que le script Python a été exécuté et que le fichier <code>data/charts-latest.json</code> existe.</p>
-            <p>Consultez le README pour les instructions d'installation.</p>
+            <p>Assurez-vous que le script Python a été exécuté.</p>
           </div>
         `;
       }
@@ -839,10 +1070,7 @@
     function getCountryEntries(countryCode, query = "") {
       const chart = CHARTS_DATA.countries[countryCode]?.chart || [];
       return chart
-        .map((entry) => ({
-          ...entry,
-          country: countryCode
-        }))
+        .map((entry) => ({ ...entry, country: countryCode }))
         .filter((entry) => matchesQuery(entry.track, query));
     }
 
@@ -963,7 +1191,7 @@
             <div class="artist">${escapeHtml(entry.track.artist)}</div>
           </div>
           <div class="details">
-            <span class="chip">${entry.weeksOnChart} semaine${entry.weeksOnChart > 1 ? "s" : ""}</span>
+            <span class="chip">${entry.weeksOnChart} sem.</span>
             <span class="chip">Pic ${entry.peakPosition}</span>
             ${entry.previousPosition 
               ? `<span class="chip">Préc. ${entry.previousPosition}</span>`
@@ -986,7 +1214,7 @@
           </div>
           <div class="details">
             <span class="chip success">${entry.countriesCount} pays</span>
-            <span class="chip">Meilleure place ${entry.bestPosition}</span>
+            <span class="chip">Pic ${entry.bestPosition}</span>
             <span class="flags">
               ${entry.countryList.map((code) => COUNTRIES[code]?.flag || code.toUpperCase()).join(" ")}
             </span>
@@ -997,10 +1225,10 @@
     }
 
     function renderList(entries, view) {
-      CURRENT_ENTRIES = entries; // Sauvegarder pour les boutons de playlist/export
+      CURRENT_ENTRIES = entries;
       
       if (!entries.length) {
-        chartContent.innerHTML = `<div class="empty">Aucun résultat avec ces filtres.</div>`;
+        chartContent.innerHTML = `<div class="empty">Aucun résultat.</div>`;
         return;
       }
 
@@ -1077,13 +1305,15 @@
     searchInput.addEventListener("input", render);
     themeToggle.addEventListener("click", toggleTheme);
     refreshBtn.addEventListener("click", loadChartData);
+    playlistBtn.addEventListener("click", openPlaylistModal);
+    exportBtn.addEventListener("click", () => exportToCSV(CURRENT_ENTRIES));
+    modalClose.addEventListener("click", closePlaylistModal);
+    openAllBtn.addEventListener("click", openAllTracks);
+    copyListBtn.addEventListener("click", copyTrackList);
+    resetBtn.addEventListener("click", resetAddedTracks);
 
-    playlistBtn.addEventListener("click", () => {
-      createYouTubePlaylist(CURRENT_ENTRIES);
-    });
-
-    exportBtn.addEventListener("click", () => {
-      exportToCSV(CURRENT_ENTRIES);
+    playlistModal.addEventListener("click", (e) => {
+      if (e.target === playlistModal) closePlaylistModal();
     });
 
     const savedTheme =
