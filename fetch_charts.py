@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version avec recherche YouTube via Invidious (gratuit, sans clé API).
+Version avec yt-dlp pour la récupération des IDs YouTube (gratuit, fiable).
 """
 
 import json
@@ -56,14 +56,6 @@ SOURCES = {
     }
 }
 
-# Instances Invidious (plusieurs en fallback si une ne marche pas)
-INVIDIOUS_INSTANCES = [
-    "https://inv.nadeko.net",
-    "https://invidious.fdn.fr",
-    "https://invidious.privacyredirect.com",
-    "https://yewtu.be"
-]
-
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
@@ -87,86 +79,70 @@ def calculate_movement(current_pos, previous_pos):
     else:
         return "same"
 
-def fetch_youtube_video_ids_invidious(entries, country_name):
-    """Récupère les IDs vidéo YouTube via Invidious (gratuit, sans clé API)"""
-    print(f"    🔍 Récupération des IDs YouTube via Invidious pour {country_name}...")
+def fetch_youtube_video_ids_ytdlp(entries, country_name):
+    """Récupère les IDs vidéo YouTube via yt-dlp (gratuit, sans clé API, fiable)"""
+    print(f"    🔍 Récupération des IDs YouTube via yt-dlp pour {country_name}...")
     
-    video_ids_found = 0
-    total = min(len(entries), 20)  # Limiter à 20 pour ne pas surcharger
-    
-    # Essayer chaque instance jusqu'à ce qu'une fonctionne
-    working_instance = None
-    
-    for instance in INVIDIOUS_INSTANCES:
-        try:
-            # Test rapide avec une requête
-            test_url = f"{instance}/api/v1/search?q=test&type=video"
-            test_response = requests.get(test_url, timeout=10)
-            
-            if test_response.status_code == 200:
-                working_instance = instance
-                print(f"    ✅ Instance Invidious fonctionnelle : {instance}")
-                break
-            else:
-                print(f"    ⚠️ Instance {instance} retourne {test_response.status_code}")
-        except Exception as e:
-            print(f"    ⚠️ Instance {instance} inaccessible : {str(e)[:50]}")
-    
-    if not working_instance:
-        print(f"    ❌ Aucune instance Invidious fonctionnelle")
+    try:
+        import yt_dlp
+    except ImportError:
+        print(f"    ❌ yt-dlp non installé")
         return entries
     
-    # Limiter aux 20 premiers titres pour créer la playlist
+    video_ids_found = 0
+    total = min(len(entries), 20)  # Limiter aux 20 premiers titres
+    
+    # Configuration yt-dlp
+    ydl_opts = {
+        'quiet': True,
+        'no_warnings': True,
+        'extract_flat': True,
+        'skip_download': True,
+        'noplaylist': True,
+        'default_search': 'ytsearch1',
+    }
+    
     for i, entry in enumerate(entries[:20]):
         try:
-            # Nettoyer le titre et l'artiste pour la recherche
             title = entry['track']['title']
             artist = entry['track']['artist']
             
-            # Supprimer les mentions "(feat.)", "(Ao Vivo)", etc. pour de meilleurs résultats
+            # Nettoyer le titre et l'artiste
             title_clean = re.sub(r'\(.*?\)', '', title).strip()
             artist_clean = re.sub(r'\(.*?\)', '', artist).strip()
+            artist_clean = re.sub(r'\s*feat\.?\s.*', '', artist_clean, flags=re.I).strip()
             
+            # Construire la requête
             query = f"{artist_clean} {title_clean}"
             
-            # Encodage de l'URL
-            import urllib.parse
-            encoded_query = urllib.parse.quote(query)
-            
-            api_url = f"{working_instance}/api/v1/search?q={encoded_query}&type=video"
-            
-            response = requests.get(api_url, timeout=15)
-            
-            if response.status_code == 200:
-                results = response.json()
-                
-                if results and len(results) > 0:
-                    # Prendre le premier résultat
-                    video_id = results[0].get('videoId')
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                try:
+                    info = ydl.extract_info(query, download=False)
                     
-                    if video_id:
-                        entry['youtubeVideoId'] = video_id
-                        video_ids_found += 1
+                    if info and 'entries' in info and info['entries']:
+                        first_result = info['entries'][0]
+                        if first_result and 'id' in first_result:
+                            entry['youtubeVideoId'] = first_result['id']
+                            video_ids_found += 1
+                        else:
+                            entry['youtubeVideoId'] = None
                     else:
                         entry['youtubeVideoId'] = None
-                else:
+                
+                except Exception as e:
                     entry['youtubeVideoId'] = None
-            else:
-                print(f"    ⚠️ Erreur API pour '{query}': {response.status_code}")
-                entry['youtubeVideoId'] = None
             
-            # Petit délai pour être poli avec l'instance
-            time.sleep(0.3)
+            # Petit délai pour être poli avec YouTube
+            time.sleep(0.5)
             
             # Afficher la progression tous les 5 titres
             if (i + 1) % 5 == 0:
                 print(f"    📊 Progression : {i + 1}/{total} - {video_ids_found} IDs trouvés")
         
         except Exception as e:
-            print(f"    ⚠️ Erreur YouTube pour '{entry['track']['title']}': {str(e)[:50]}")
             entry['youtubeVideoId'] = None
     
-    print(f"    ✅ {video_ids_found}/{total} IDs YouTube trouvés via Invidious")
+    print(f"    ✅ {video_ids_found}/{total} IDs YouTube trouvés via yt-dlp")
     return entries
 
 def fetch_acharts(url, country_name):
@@ -251,7 +227,7 @@ def fetch_acharts(url, country_name):
                 print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
         
         # Récupérer les IDs YouTube
-        entries = fetch_youtube_video_ids_invidious(entries, country_name)
+        entries = fetch_youtube_video_ids_ytdlp(entries, country_name)
         
         return entries
     
@@ -319,7 +295,7 @@ def fetch_brazil_promusica():
             for i, entry in enumerate(entries[:3]):
                 print(f"       {entry['position']}. {entry['track']['artist']} - {entry['track']['title']}")
         
-        entries = fetch_youtube_video_ids_invidious(entries, "Brésil")
+        entries = fetch_youtube_video_ids_ytdlp(entries, "Brésil")
         
         return entries
     
@@ -421,7 +397,7 @@ def fetch_kworb_itunes(url, country_name):
             for i, entry in enumerate(entries[:3]):
                 print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
         
-        entries = fetch_youtube_video_ids_invidious(entries, country_name)
+        entries = fetch_youtube_video_ids_ytdlp(entries, country_name)
         
         return entries
     
@@ -471,7 +447,7 @@ def fetch_billboard_hot100():
             for i, entry in enumerate(entries[:3]):
                 print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
             
-            entries = fetch_youtube_video_ids_invidious(entries, "États-Unis")
+            entries = fetch_youtube_video_ids_ytdlp(entries, "États-Unis")
         
         return entries
     
@@ -485,7 +461,7 @@ def fetch_billboard_hot100():
 
 def main():
     print(f"🎵 Début de la collecte - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-    print("✅ Utilisation d'Invidious (gratuit, sans clé API)\n")
+    print("✅ Utilisation de yt-dlp (gratuit, fiable, sans clé API)\n")
     
     week_info = get_week_info()
     
@@ -497,7 +473,7 @@ def main():
             "updatedAt": week_info["date"],
             "sourceNote": "",
             "sources": {},
-            "youtubeSource": "invidious"
+            "youtubeSource": "yt-dlp"
         },
         "countries": {},
         "regions": {
