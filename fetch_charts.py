@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version utilisant acharts.co pour tous les pays (mouvements corrects).
+Version avec test de plusieurs URLs acharts.co par pays.
 """
 
 import json
@@ -12,12 +12,66 @@ import re
 import os
 
 SOURCES = {
-    "us": {"name": "États-Unis", "flag": "🇺🇸", "region": "anglo", "source": "billboard"},
-    "fr": {"name": "France", "flag": "🇫🇷", "region": "europe", "source": "acharts", "acharts_url": "https://acharts.co/france_singles_top_100"},
-    "gb": {"name": "Royaume-Uni", "flag": "🇬🇧", "region": "europe", "source": "acharts", "acharts_url": "https://acharts.co/uk_singles_top_75"},
-    "de": {"name": "Allemagne", "flag": "🇩🇪", "region": "europe", "source": "acharts", "acharts_url": "https://acharts.co/germany_singles_top_100"},
-    "ch": {"name": "Suisse", "flag": "🇨🇭", "region": "europe", "source": "acharts", "acharts_url": "https://acharts.co/switzerland_singles_top_100"},
-    "br": {"name": "Brésil", "flag": "🇧🇷", "region": "latam", "source": "acharts", "acharts_url": "https://acharts.co/brazil_singles_top_100"}
+    "us": {
+        "name": "États-Unis", 
+        "flag": "🇺🇸", 
+        "region": "anglo", 
+        "source": "billboard"
+    },
+    "fr": {
+        "name": "France", 
+        "flag": "🇫🇷", 
+        "region": "europe", 
+        "source": "acharts",
+        "acharts_urls": [
+            "https://acharts.co/france_singles_top_100"
+        ]
+    },
+    "gb": {
+        "name": "Royaume-Uni", 
+        "flag": "🇬🇧", 
+        "region": "europe", 
+        "source": "acharts",
+        "acharts_urls": [
+            "https://acharts.co/uk_singles_top_75"
+        ]
+    },
+    "de": {
+        "name": "Allemagne", 
+        "flag": "🇩🇪", 
+        "region": "europe", 
+        "source": "acharts",
+        "acharts_urls": [
+            "https://acharts.co/germany_singles_top_100",
+            "https://acharts.co/german_singles_top_100",
+            "https://acharts.co/deutschland_singles_top_100"
+        ],
+        "itunes_code": "de"
+    },
+    "ch": {
+        "name": "Suisse", 
+        "flag": "🇨🇭", 
+        "region": "europe", 
+        "source": "acharts",
+        "acharts_urls": [
+            "https://acharts.co/switzerland_singles_top_100",
+            "https://acharts.co/swiss_singles_top_100",
+            "https://acharts.co/suisse_singles_top_100"
+        ],
+        "itunes_code": "ch"
+    },
+    "br": {
+        "name": "Brésil", 
+        "flag": "🇧🇷", 
+        "region": "latam", 
+        "source": "acharts",
+        "acharts_urls": [
+            "https://acharts.co/brazil_singles_top_100",
+            "https://acharts.co/brazilian_singles_top_100",
+            "https://acharts.co/brasil_singles_top_100"
+        ],
+        "itunes_code": "br"
+    }
 }
 
 HEADERS = {
@@ -49,18 +103,18 @@ def calculate_movement(current_pos, previous_pos):
 
 def fetch_acharts(url, country_name):
     """Scrape acharts.co avec extraction correcte des positions précédentes"""
-    print(f"  🔍 Tentative de scraping de {url}...")
+    print(f"    🔍 Test de {url}...")
     
     try:
         response = requests.get(url, headers=HEADERS, timeout=30)
         
         if response.status_code == 403:
-            print(f"    ❌ Bloqué (403 Forbidden)")
-            return []
+            print(f"      ❌ Bloqué (403 Forbidden)")
+            return None
         
         if response.status_code == 404:
-            print(f"    ❌ Page non trouvée (404)")
-            return []
+            print(f"      ❌ Page non trouvée (404)")
+            return None
         
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -71,8 +125,8 @@ def fetch_acharts(url, country_name):
         table = soup.find('table')
         
         if not table:
-            print(f"    ❌ Pas de tableau trouvé")
-            return []
+            print(f"      ❌ Pas de tableau trouvé")
+            return None
         
         rows = table.find_all('tr')[1:]  # Sauter l'en-tête
         
@@ -131,21 +185,42 @@ def fetch_acharts(url, country_name):
                             "source": "acharts"
                         })
         
-        print(f"    ✅ {len(entries)} entrées trouvées")
-        
-        # Debug : afficher quelques exemples
-        if entries:
-            print(f"    📊 Exemples de mouvements :")
-            for i, entry in enumerate(entries[:5]):
-                print(f"       {entry['position']}. {entry['track']['title']} - Mouvement: {entry['movement']} (Préc: {entry['previousPosition']})")
-        
-        return entries
+        if len(entries) >= 10:
+            print(f"      ✅ {len(entries)} entrées trouvées")
+            
+            # Debug : afficher quelques exemples
+            print(f"      📊 Exemples de mouvements :")
+            for i, entry in enumerate(entries[:3]):
+                print(f"         {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
+            
+            return entries
+        else:
+            print(f"      ❌ Seulement {len(entries)} entrées trouvées (insuffisant)")
+            return None
     
     except Exception as e:
-        print(f"    ❌ Erreur: {e}")
-        import traceback
-        traceback.print_exc()
-        return []
+        print(f"      ❌ Erreur: {e}")
+        return None
+
+def fetch_acharts_with_fallback(country_info):
+    """Essaie plusieurs URLs acharts.co puis fallback sur iTunes"""
+    country_name = country_info["name"]
+    
+    # Essayer toutes les URLs acharts
+    if "acharts_urls" in country_info:
+        for url in country_info["acharts_urls"]:
+            entries = fetch_acharts(url, country_name)
+            if entries:
+                return entries, "acharts"
+    
+    # Si aucune URL acharts ne fonctionne, essayer iTunes
+    if "itunes_code" in country_info:
+        print(f"  🔄 Toutes les URLs acharts ont échoué, fallback sur iTunes...")
+        entries = fetch_itunes_chart(country_info["itunes_code"])
+        if entries:
+            return entries, "itunes"
+    
+    return None, None
 
 def fetch_billboard_hot100():
     """Récupère le Billboard Hot 100 avec positions précédentes"""
@@ -158,16 +233,13 @@ def fetch_billboard_hot100():
         
         entries = []
         for i, entry in enumerate(chart.entries[:50]):
-            # Récupérer les attributs (peuvent être None ou 0)
             lw = getattr(entry, 'lastPos', None)
             peak = getattr(entry, 'peakPos', i + 1)
             weeks = getattr(entry, 'weeks', 1)
             
-            # Normaliser lastPos (0 signifie nouvelle entrée)
             if lw == 0:
                 lw = None
             
-            # Calculer le mouvement
             movement = calculate_movement(i + 1, lw)
             
             entries.append({
@@ -186,11 +258,10 @@ def fetch_billboard_hot100():
         
         print(f"    ✅ {len(entries)} entrées trouvées")
         
-        # Debug
         if entries:
             print(f"    📊 Exemples de mouvements :")
-            for i, entry in enumerate(entries[:5]):
-                print(f"       {entry['position']}. {entry['track']['title']} - Mouvement: {entry['movement']} (Préc: {entry['previousPosition']})")
+            for i, entry in enumerate(entries[:3]):
+                print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
         
         return entries
     
@@ -199,17 +270,16 @@ def fetch_billboard_hot100():
         return []
     except Exception as e:
         print(f"    ❌ Erreur billboard.py: {e}")
-        import traceback
-        traceback.print_exc()
         
         print(f"  🔄 Fallback sur acharts.co...")
-        return fetch_acharts("https://acharts.co/us_singles_top_100", "US")
+        entries = fetch_acharts("https://acharts.co/us_singles_top_100", "US")
+        return entries if entries else []
 
 def fetch_itunes_chart(country_code, limit=50):
     """Fallback : Récupère le top singles via l'API iTunes RSS"""
     url = f"https://itunes.apple.com/{country_code}/rss/topsongs/limit={limit}/json"
     
-    print(f"  🔄 Fallback iTunes RSS...")
+    print(f"    🔍 Fallback iTunes RSS ({country_code})...")
     
     try:
         response = requests.get(url, headers=HEADERS, timeout=30)
@@ -228,7 +298,6 @@ def fetch_itunes_chart(country_code, limit=50):
                 artwork = images[-1].get('label', '') if images else ''
                 
                 if title and artist:
-                    # iTunes ne fournit pas les positions précédentes
                     entries.append({
                         "position": index + 1,
                         "track": {
@@ -245,13 +314,15 @@ def fetch_itunes_chart(country_code, limit=50):
             except Exception as e:
                 continue
         
-        print(f"    ✅ {len(entries)} entrées trouvées (iTunes fallback)")
-        print(f"    ⚠️ iTunes ne fournit pas les positions précédentes")
-        return entries
+        if entries:
+            print(f"      ✅ {len(entries)} entrées trouvées (iTunes)")
+            print(f"      ⚠️ iTunes ne fournit pas les positions précédentes")
+        
+        return entries if entries else None
     
     except Exception as e:
-        print(f"    ❌ Erreur iTunes: {e}")
-        return []
+        print(f"      ❌ Erreur iTunes: {e}")
+        return None
 
 def main():
     print(f"🎵 Début de la collecte - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
@@ -281,37 +352,16 @@ def main():
     for code, country_info in SOURCES.items():
         print(f"\n📊 Traitement de {country_info['name']} {country_info['flag']}...")
         
-        entries = []
-        source_used = country_info["source"]
+        entries = None
+        source_used = None
         
-        if source_used == "billboard":
+        if country_info["source"] == "billboard":
             entries = fetch_billboard_hot100()
             if entries:
                 source_used = "billboard"
-            else:
-                # Fallback sur acharts
-                entries = fetch_acharts("https://acharts.co/us_singles_top_100", "US")
-                if entries:
-                    source_used = "acharts"
         
-        elif source_used == "acharts":
-            entries = fetch_acharts(country_info["acharts_url"], country_info["name"])
-            
-            # Si acharts échoue, fallback sur iTunes
-            if not entries or len(entries) < 10:
-                itunes_codes = {
-                    "de": "de",
-                    "ch": "ch",
-                    "br": "br",
-                    "fr": "fr",
-                    "gb": "gb"
-                }
-                
-                if code in itunes_codes:
-                    print(f"  🔄 Fallback sur iTunes RSS pour {country_info['name']}...")
-                    entries = fetch_itunes_chart(itunes_codes[code])
-                    if entries:
-                        source_used = "itunes"
+        elif country_info["source"] == "acharts":
+            entries, source_used = fetch_acharts_with_fallback(country_info)
         
         if entries and len(entries) >= 10:
             charts_data["countries"][code] = {
