@@ -30,6 +30,8 @@ jobs:
           pip install requests beautifulsoup4 billboard.py
         
       - name: Fetch charts
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python fetch_charts.py
       
       - name: Commit and push changes
