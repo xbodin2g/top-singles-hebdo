@@ -4,7 +4,7 @@
     "week": 45,
     "year": 2026,
     "updatedAt": "2026-11-03",
-    "sourceNote": "✅ 6 sources OK. ❌ 2 échouées."
+    "sourceNote": "✅ 7 sources OK. ❌ 1 échouées."
   },
   "countries": {
     "us": {
@@ -1842,11 +1842,11 @@
         {
           "position": 1,
           "track": {
-            "title": "Momente der Weihnacht",
-            "artist": "Nik P."
+            "title": "Fucking Shit, Holy Shit",
+            "artist": "Shards of Art"
           },
-          "previousPosition": null,
-          "movement": "new",
+          "previousPosition": 4,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 1,
           "source": "kworb_itunes"
@@ -1854,8 +1854,8 @@
         {
           "position": 2,
           "track": {
-            "title": "Fucking Shit, Holy Shit",
-            "artist": "Shards of Art"
+            "title": "Rise Slow",
+            "artist": "Kimo Sounds"
           },
           "previousPosition": 3,
           "movement": "up",
@@ -1866,10 +1866,10 @@
         {
           "position": 3,
           "track": {
-            "title": "Rise Slow",
-            "artist": "Kimo Sounds"
+            "title": "Momente der Weihnacht",
+            "artist": "Nik P."
           },
-          "previousPosition": 2,
+          "previousPosition": 1,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 3,
@@ -1881,7 +1881,7 @@
             "title": "Movin' To The Sun",
             "artist": "HUGEL, Imael Angel & Ultra NatÃ©"
           },
-          "previousPosition": 1,
+          "previousPosition": 2,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 4,
@@ -1902,11 +1902,11 @@
         {
           "position": 6,
           "track": {
-            "title": "My Own Way",
-            "artist": "Aeriva"
+            "title": "Inside My Soul",
+            "artist": "SK.music"
           },
-          "previousPosition": 4,
-          "movement": "down",
+          "previousPosition": 7,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 6,
           "source": "kworb_itunes"
@@ -1914,11 +1914,11 @@
         {
           "position": 7,
           "track": {
-            "title": "Inside My Soul",
-            "artist": "SK.music"
+            "title": "AN MEINER SEITE",
+            "artist": "Helene Fischer"
           },
-          "previousPosition": 5,
-          "movement": "down",
+          "previousPosition": 10,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 7,
           "source": "kworb_itunes"
@@ -1926,10 +1926,10 @@
         {
           "position": 8,
           "track": {
-            "title": "Patient Zero",
-            "artist": "Taylor Swift"
+            "title": "My Own Way",
+            "artist": "Aeriva"
           },
-          "previousPosition": 7,
+          "previousPosition": 5,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 8,
@@ -1938,11 +1938,11 @@
         {
           "position": 9,
           "track": {
-            "title": "BAD TIMES",
-            "artist": "Imael Angel"
+            "title": "WARUM",
+            "artist": "Helene Fischer"
           },
-          "previousPosition": 8,
-          "movement": "down",
+          "previousPosition": 22,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 9,
           "source": "kworb_itunes"
@@ -1950,11 +1950,11 @@
         {
           "position": 10,
           "track": {
-            "title": "AN MEINER SEITE",
+            "title": "HEUTE NACHT",
             "artist": "Helene Fischer"
           },
-          "previousPosition": 9,
-          "movement": "down",
+          "previousPosition": 18,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 10,
           "source": "kworb_itunes"
@@ -1962,11 +1962,11 @@
         {
           "position": 11,
           "track": {
-            "title": "WARUM",
-            "artist": "Helene Fischer"
+            "title": "Patient Zero",
+            "artist": "Taylor Swift"
           },
-          "previousPosition": 16,
-          "movement": "up",
+          "previousPosition": 8,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 11,
           "source": "kworb_itunes"
@@ -1974,11 +1974,11 @@
         {
           "position": 12,
           "track": {
-            "title": "BAD TIMES (Long Version)",
-            "artist": "Imael Angel"
+            "title": "Streichholz",
+            "artist": "Kontra K"
           },
-          "previousPosition": 10,
-          "movement": "down",
+          "previousPosition": 14,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 12,
           "source": "kworb_itunes"
@@ -1986,11 +1986,11 @@
         {
           "position": 13,
           "track": {
-            "title": "HEUTE NACHT",
-            "artist": "Helene Fischer"
+            "title": "BAD TIMES",
+            "artist": "Imael Angel"
           },
-          "previousPosition": 18,
-          "movement": "up",
+          "previousPosition": 9,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 13,
           "source": "kworb_itunes"
@@ -1998,11 +1998,11 @@
         {
           "position": 14,
           "track": {
-            "title": "Streichholz",
-            "artist": "Kontra K"
+            "title": "Ich weiÃ, was du brauchst",
+            "artist": "Kerstin Ott & Maite Kelly"
           },
-          "previousPosition": null,
-          "movement": "new",
+          "previousPosition": 26,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 14,
           "source": "kworb_itunes"
@@ -2010,11 +2010,11 @@
         {
           "position": 15,
           "track": {
-            "title": "You Never Can Tell",
-            "artist": "Chuck Berry"
+            "title": "Bad Times (Extended Version)",
+            "artist": "Imael Angel"
           },
-          "previousPosition": 22,
-          "movement": "up",
+          "previousPosition": 12,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 15,
           "source": "kworb_itunes"
@@ -2022,10 +2022,10 @@
         {
           "position": 16,
           "track": {
-            "title": "Mr. Know It All",
-            "artist": "Teddy Swims"
+            "title": "Dai Dai",
+            "artist": "Shakira & Burna Boy"
           },
-          "previousPosition": 17,
+          "previousPosition": 27,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 16,
@@ -2034,11 +2034,11 @@
         {
           "position": 17,
           "track": {
-            "title": "Babydoll",
-            "artist": "Jamie Miller & Antonio Cipriano"
+            "title": "Mama, Don't Close Your Eyes",
+            "artist": "Bjorn Bonebreaker"
           },
-          "previousPosition": 14,
-          "movement": "down",
+          "previousPosition": 56,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 17,
           "source": "kworb_itunes"
@@ -2046,11 +2046,11 @@
         {
           "position": 18,
           "track": {
-            "title": "Magnetic",
-            "artist": "The Bausa"
+            "title": "Babydoll",
+            "artist": "Jamie Miller & Antonio Cipriano"
           },
-          "previousPosition": 13,
-          "movement": "down",
+          "previousPosition": 19,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 18,
           "source": "kworb_itunes"
@@ -2061,7 +2061,7 @@
             "title": "Stop The Wedding!",
             "artist": "Ashe"
           },
-          "previousPosition": 65,
+          "previousPosition": 31,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 19,
@@ -2070,11 +2070,11 @@
         {
           "position": 20,
           "track": {
-            "title": "Ich weiÃ, was du brauchst",
-            "artist": "Kerstin Ott & Maite Kelly"
+            "title": "You Never Can Tell",
+            "artist": "Chuck Berry"
           },
-          "previousPosition": 19,
-          "movement": "down",
+          "previousPosition": 28,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 20,
           "source": "kworb_itunes"
@@ -2082,11 +2082,11 @@
         {
           "position": 21,
           "track": {
-            "title": "Dai Dai",
-            "artist": "Shakira & Burna Boy"
+            "title": "Ruf mich nicht mehr an",
+            "artist": "Levant"
           },
-          "previousPosition": 20,
-          "movement": "down",
+          "previousPosition": 85,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 21,
           "source": "kworb_itunes"
@@ -2094,11 +2094,11 @@
         {
           "position": 22,
           "track": {
-            "title": "Mama, Don't Close Your Eyes",
-            "artist": "Bjorn Bonebreaker"
+            "title": "Mr. Know It All",
+            "artist": "Teddy Swims"
           },
-          "previousPosition": 56,
-          "movement": "up",
+          "previousPosition": 17,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 22,
           "source": "kworb_itunes"
@@ -2106,11 +2106,11 @@
         {
           "position": 23,
           "track": {
-            "title": "New Religion",
-            "artist": "Bebe Rexha & Faithless"
+            "title": "Mi Chico (Jason Derulo x Melody Version)",
+            "artist": "DJ Goja, Jason Derulo & Melody"
           },
-          "previousPosition": 15,
-          "movement": "down",
+          "previousPosition": 33,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 23,
           "source": "kworb_itunes"
@@ -2118,10 +2118,10 @@
         {
           "position": 24,
           "track": {
-            "title": "Make Me Love You",
-            "artist": "Nickelback"
+            "title": "Magnetic",
+            "artist": "The Bausa"
           },
-          "previousPosition": 23,
+          "previousPosition": 11,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 24,
@@ -2130,11 +2130,11 @@
         {
           "position": 25,
           "track": {
-            "title": "PROPAGANDA",
-            "artist": "Sido & Fler"
+            "title": "VALHALLA CALLING",
+            "artist": "Ragal Ironbull"
           },
-          "previousPosition": 12,
-          "movement": "down",
+          "previousPosition": 53,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 25,
           "source": "kworb_itunes"
@@ -2142,11 +2142,11 @@
         {
           "position": 26,
           "track": {
-            "title": "VALHALLA CALLING",
-            "artist": "Ragal Ironbull"
+            "title": "Everlasting Love",
+            "artist": "Love Affair"
           },
-          "previousPosition": 49,
-          "movement": "up",
+          "previousPosition": null,
+          "movement": "new",
           "weeksOnChart": 1,
           "peakPosition": 26,
           "source": "kworb_itunes"
@@ -2154,11 +2154,11 @@
         {
           "position": 27,
           "track": {
-            "title": "ISSA",
-            "artist": "Sido"
+            "title": "Make Me Love You",
+            "artist": "Nickelback"
           },
-          "previousPosition": 31,
-          "movement": "up",
+          "previousPosition": 15,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 27,
           "source": "kworb_itunes"
@@ -2166,10 +2166,10 @@
         {
           "position": 28,
           "track": {
-            "title": "Mi Chico",
-            "artist": "DJ Goja"
+            "title": "PROPAGANDA",
+            "artist": "Sido & Fler"
           },
-          "previousPosition": 21,
+          "previousPosition": 13,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 28,
@@ -2181,7 +2181,7 @@
             "title": "Take a Little",
             "artist": "Jaxson Blue"
           },
-          "previousPosition": 52,
+          "previousPosition": 69,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 29,
@@ -2190,11 +2190,11 @@
         {
           "position": 30,
           "track": {
-            "title": "Choosin' Texas",
-            "artist": "Ella Langley"
+            "title": "ISSA",
+            "artist": "Sido"
           },
-          "previousPosition": 33,
-          "movement": "up",
+          "previousPosition": 24,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 30,
           "source": "kworb_itunes"
@@ -2214,11 +2214,11 @@
         {
           "position": 32,
           "track": {
-            "title": "PUZZLETEIL",
-            "artist": "Sido & Montez"
+            "title": "Engel",
+            "artist": "Klangspiel"
           },
-          "previousPosition": 53,
-          "movement": "up",
+          "previousPosition": 16,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 32,
           "source": "kworb_itunes"
@@ -2226,11 +2226,11 @@
         {
           "position": 33,
           "track": {
-            "title": "Bass Persuades",
-            "artist": "Miley Cyrus"
+            "title": "Rise Slow (Bass Boosted)",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 25,
-          "movement": "down",
+          "previousPosition": 43,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 33,
           "source": "kworb_itunes"
@@ -2238,10 +2238,10 @@
         {
           "position": 34,
           "track": {
-            "title": "Thriller",
-            "artist": "Michael Jackson"
+            "title": "Mi Chico",
+            "artist": "DJ Goja"
           },
-          "previousPosition": 11,
+          "previousPosition": 20,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 34,
@@ -2250,10 +2250,10 @@
         {
           "position": 35,
           "track": {
-            "title": "Mi Chico (Jason Derulo x Melody Version)",
-            "artist": "DJ Goja, Jason Derulo & Melody"
+            "title": "New Religion",
+            "artist": "Bebe Rexha & Faithless"
           },
-          "previousPosition": 32,
+          "previousPosition": 21,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 35,
@@ -2262,11 +2262,11 @@
         {
           "position": 36,
           "track": {
-            "title": "Cool",
-            "artist": "Mark Forster"
+            "title": "FÃ¼r immer",
+            "artist": "AYLIVA"
           },
-          "previousPosition": 62,
-          "movement": "up",
+          "previousPosition": 35,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 36,
           "source": "kworb_itunes"
@@ -2274,11 +2274,11 @@
         {
           "position": 37,
           "track": {
-            "title": "Everlasting Love",
-            "artist": "Love Affair"
+            "title": "Let Time Answer",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": null,
-          "movement": "new",
+          "previousPosition": 58,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 37,
           "source": "kworb_itunes"
@@ -2286,11 +2286,11 @@
         {
           "position": 38,
           "track": {
-            "title": "FÃ¼r immer",
-            "artist": "AYLIVA"
+            "title": "Choosin' Texas",
+            "artist": "Ella Langley"
           },
-          "previousPosition": 27,
-          "movement": "down",
+          "previousPosition": 42,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 38,
           "source": "kworb_itunes"
@@ -2298,11 +2298,11 @@
         {
           "position": 39,
           "track": {
-            "title": "Ordinary",
-            "artist": "Alex Warren"
+            "title": "Giocano a guerra",
+            "artist": "Nina Sartori"
           },
-          "previousPosition": 152,
-          "movement": "up",
+          "previousPosition": null,
+          "movement": "new",
           "weeksOnChart": 1,
           "peakPosition": 39,
           "source": "kworb_itunes"
@@ -2310,10 +2310,10 @@
         {
           "position": 40,
           "track": {
-            "title": "Let Time Answer",
-            "artist": "Kimo Sounds"
+            "title": "REGENBOGEN",
+            "artist": "JAYNBERG"
           },
-          "previousPosition": 61,
+          "previousPosition": 128,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 40,
@@ -2322,11 +2322,11 @@
         {
           "position": 41,
           "track": {
-            "title": "Ruf mich nicht mehr an",
-            "artist": "Levant"
+            "title": "PUZZLETEIL",
+            "artist": "Sido & Montez"
           },
-          "previousPosition": 63,
-          "movement": "up",
+          "previousPosition": 39,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 41,
           "source": "kworb_itunes"
@@ -2334,11 +2334,11 @@
         {
           "position": 42,
           "track": {
-            "title": "Not for Everyone",
-            "artist": "Kimo Sounds"
+            "title": "Bass Persuades",
+            "artist": "Miley Cyrus"
           },
-          "previousPosition": 48,
-          "movement": "up",
+          "previousPosition": 25,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 42,
           "source": "kworb_itunes"
@@ -2346,10 +2346,10 @@
         {
           "position": 43,
           "track": {
-            "title": "She Break",
-            "artist": "shockfactor"
+            "title": "Ordinary",
+            "artist": "Alex Warren"
           },
-          "previousPosition": 69,
+          "previousPosition": 189,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 43,
@@ -2358,10 +2358,10 @@
         {
           "position": 44,
           "track": {
-            "title": "American Girls",
-            "artist": "Harry Styles"
+            "title": "She Break",
+            "artist": "shockfactor"
           },
-          "previousPosition": 38,
+          "previousPosition": 32,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 44,
@@ -2370,11 +2370,11 @@
         {
           "position": 45,
           "track": {
-            "title": "My own rules",
-            "artist": "Ionut Sima785"
+            "title": "American Girls",
+            "artist": "Harry Styles"
           },
-          "previousPosition": 71,
-          "movement": "up",
+          "previousPosition": 40,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 45,
           "source": "kworb_itunes"
@@ -2382,11 +2382,11 @@
         {
           "position": 46,
           "track": {
-            "title": "Housewife",
-            "artist": "Tate McRae"
+            "title": "WHERE IS MY HUSBAND!",
+            "artist": "RAYE"
           },
-          "previousPosition": 42,
-          "movement": "down",
+          "previousPosition": 105,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 46,
           "source": "kworb_itunes"
@@ -2394,10 +2394,10 @@
         {
           "position": 47,
           "track": {
-            "title": "Find Me",
-            "artist": "Tiffany Aris"
+            "title": "Animal",
+            "artist": "KATSEYE"
           },
-          "previousPosition": 89,
+          "previousPosition": 82,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 47,
@@ -2406,11 +2406,11 @@
         {
           "position": 48,
           "track": {
-            "title": "BbY WOW",
-            "artist": "KAROL G, Judeline & rusowsky"
+            "title": "My own rules",
+            "artist": "Ionut Sima785"
           },
-          "previousPosition": 37,
-          "movement": "down",
+          "previousPosition": 94,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 48,
           "source": "kworb_itunes"
@@ -2418,11 +2418,11 @@
         {
           "position": 49,
           "track": {
-            "title": "Beweis",
-            "artist": "FRIDA GOLD & Jupiter Jones"
+            "title": "The One I Choose",
+            "artist": "AbriJan"
           },
-          "previousPosition": 28,
-          "movement": "down",
+          "previousPosition": null,
+          "movement": "new",
           "weeksOnChart": 1,
           "peakPosition": 49,
           "source": "kworb_itunes"
@@ -2430,11 +2430,11 @@
         {
           "position": 50,
           "track": {
-            "title": "Engel",
-            "artist": "Klangspiel"
+            "title": "The Ballad Of Terry Fox",
+            "artist": "Bryan Adams"
           },
-          "previousPosition": 24,
-          "movement": "down",
+          "previousPosition": 116,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 50,
           "source": "kworb_itunes"
@@ -3660,6 +3660,665 @@
       ],
       "sourceType": "promusica",
       "isIndie": false
+    },
+    "sg": {
+      "name": "Singapour",
+      "flag": "🇸🇬",
+      "region": "asia",
+      "chart": [
+        {
+          "position": 1,
+          "track": {
+            "title": "Hong Kong (feat. 王菲季候風)",
+            "artist": "The Weeknd",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/b2/81/0bb281a4-14af-a403-4af4-c39aa3f0d872/ticket.kusbehtm.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 1,
+          "peakPosition": 1,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 2,
+          "track": {
+            "title": "SHOCK",
+            "artist": "TREASURE",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4b/84/dd/4b84dd0d-019a-4355-b617-b197d8261a63/8809519881481_cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 2,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 3,
+          "track": {
+            "title": "Training Season",
+            "artist": "Dua Lipa",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/82/89/15/828915ea-d716-61c4-3de7-ef00c1f800fb/5054197853630.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 3,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 4,
+          "track": {
+            "title": "WE UP",
+            "artist": "TWS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/af/d8/9aafd854-1604-8cbf-def3-cd45d8547b80/823375420712_Cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 4,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 5,
+          "track": {
+            "title": "Call My Name",
+            "artist": "TWS",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/af/d8/9aafd854-1604-8cbf-def3-cd45d8547b80/823375420712_Cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 5,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 6,
+          "track": {
+            "title": "UNETHICAL",
+            "artist": "Faouzia",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0e/1e/a3/0e1ea38e-d4fb-7cc0-3a0a-ce53c2cd6184/193436435017_IMG.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 6,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 7,
+          "track": {
+            "title": "海屿你",
+            "artist": "馬也_Crabbit & Cole先生",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/45/7d/82/457d82fa-8193-6c46-f01f-28d7adf4cd48/150006421.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 7,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 8,
+          "track": {
+            "title": "NEON",
+            "artist": "A2O & A2O LITE",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/9c/af/479caf36-9941-3b8e-51f5-98e761463502/888272190403_Cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 8,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 9,
+          "track": {
+            "title": "Tarantino",
+            "artist": "LISA",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/de/67/1dde6726-f217-b447-46cd-94d5f9621797/196874712696.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 9,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 10,
+          "track": {
+            "title": "Looks Can Kill",
+            "artist": "IVE",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/2f/77/012f77a7-f38e-6799-5e8b-16d0756df44d/885288585919.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 10,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 11,
+          "track": {
+            "title": "大梦归(电视剧《兰香如故》主题曲)",
+            "artist": "Zhou Shen",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/47/77/f8/4777f8fc-e336-15fd-7706-0574bef7ea06/4711711798884.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 11,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 12,
+          "track": {
+            "title": "季候風",
+            "artist": "Faye Wong",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/af/27/64/af276484-cb7a-b6ab-f937-6809c6ccfb16/06UMGIM27796.rgb.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 12,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 13,
+          "track": {
+            "title": "SaWaDiKa",
+            "artist": "LISA",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/de/b3/1c/deb31ca3-1670-7bf1-7d02-5cc60d11c882/196874742235.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 13,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 14,
+          "track": {
+            "title": "DESERVE",
+            "artist": "BABYMONSTER",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/57/b5/e557b507-2668-752b-4260-34af04ea0d7b/8809519881528_cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 14,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 15,
+          "track": {
+            "title": "Haru Haru",
+            "artist": "BIGBANG",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b9/9e/94/b99e9493-030c-5f73-b5c8-e69de5b04a6d/edit_3rd.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 15,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 16,
+          "track": {
+            "title": "顺流、逆流",
+            "artist": "Paula Tsui",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/0b/a5/af0ba55c-fe53-18ba-45d3-3f45881f5228/4894965838848.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 16,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 17,
+          "track": {
+            "title": "Snowman",
+            "artist": "Sia",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/85/c3/21/85c32113-1c4c-571c-7602-88f568d8081c/075679861016.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 17,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 18,
+          "track": {
+            "title": "Stop The Wedding!",
+            "artist": "Ashe",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b7/55/7a/b7557aef-bb0a-cc57-25bf-979eee194f16/075679571403.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 18,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 19,
+          "track": {
+            "title": "折月亮(《折月亮》影视剧主题曲)",
+            "artist": "Liu Yu Ning",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ea/2c/72/ea2c72ef-754a-0fa4-3818-da43537c1a7a/4896010973153.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 19,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 20,
+          "track": {
+            "title": "Drawn",
+            "artist": "THAMA",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a6/b4/31/a6b43101-e8b6-98d5-b5d3-f4f30742f52d/888272191318_Cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 20,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 21,
+          "track": {
+            "title": "Just Give Me a Reason (feat. Nate Ruess)",
+            "artist": "P!nk",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/e6/a0/51e6a045-74f2-8bac-9926-d9bac29c9fe7/886443581128.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 21,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 22,
+          "track": {
+            "title": "甲乙丙丁Strangers",
+            "artist": "Jess Lee",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/e6/a5/b6e6a5ec-a86c-aece-ca1f-ee5ca56b3caf/196874568842.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 22,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 23,
+          "track": {
+            "title": "One Name",
+            "artist": "Anirudh Ravichander & Super Subu",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/47/61/88/476188e2-5cd5-2320-8f0b-f9cd978560fd/885288695823.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 23,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 24,
+          "track": {
+            "title": "ADDICTED",
+            "artist": "JISOO",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6e/7d/c6/6e7dc611-3961-7a16-58d6-68c567745703/054391222435.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 24,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 25,
+          "track": {
+            "title": "Graduation (Friends Forever)",
+            "artist": "Vitamin C",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/e7/a3/80/mzi.kzzejzlb.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 25,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 26,
+          "track": {
+            "title": "Pink Venom",
+            "artist": "BLACKPINK",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a1/ad/94/a1ad94e7-4ef7-69ad-5c12-8318ba6fb6ca/BLACKPINK_BORN_PINK.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 26,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 27,
+          "track": {
+            "title": "Hello",
+            "artist": "Adele",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/bc/87/62bc8791-2a12-4b01-8928-d601684a951c/634904074005.png/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 27,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 28,
+          "track": {
+            "title": "The Promised Love",
+            "artist": "Jay Chou",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/6c/72/536c7219-e177-a912-9322-e1abf70e8733/23UM1IM58828.rgb.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 28,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 29,
+          "track": {
+            "title": "岂愿 (《嫁金钗》电视剧命绪曲)",
+            "artist": "Jeryl Lee",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/45/6f/d5/456fd577-3105-03be-7690-ca7b5ba37870/4896043590723.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 29,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 30,
+          "track": {
+            "title": "Jirettai",
+            "artist": "Anzenchitai",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/2a/5f/11/2a5f11f6-4b8a-6fd0-f172-e8d059871a8e/00044002512383.rgb.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 30,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 31,
+          "track": {
+            "title": "The Beginning",
+            "artist": "ONE OK ROCK",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/69/70/1d697006-121e-1774-d871-31fc0cf7abfa/25UMGIM89650.rgb.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 31,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 32,
+          "track": {
+            "title": "One Name (From \"Jailer 2\")",
+            "artist": "Anirudh Ravichander & Heisenberg",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/a4/a2/69a4a253-fa93-ea7c-3091-ceeb5667115a/820233949651.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 32,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 33,
+          "track": {
+            "title": "Kiss Me",
+            "artist": "Sixpence None the Richer",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/6b/92/0f6b92f7-52e1-67e4-6a7b-7196ef793cdc/080688551261.png/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 33,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 34,
+          "track": {
+            "title": "舍不得又没资格 (男女合唱版)",
+            "artist": "弦外之音",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/e2/44/b4e244b0-7837-8abd-c857-d142ecd9ee83/8721554701329.png/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 34,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 35,
+          "track": {
+            "title": "My Heaven",
+            "artist": "BIGBANG",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b9/9e/94/b99e9493-030c-5f73-b5c8-e69de5b04a6d/edit_3rd.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 35,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 36,
+          "track": {
+            "title": "我好像在哪见过你",
+            "artist": "Joker Xue",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/09/04/b009043f-f576-54ce-5b1f-d7896d6933c0/9555150772273.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 36,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 37,
+          "track": {
+            "title": "I Miss You",
+            "artist": "SoYou",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/eb/6e/ba/eb6eba24-dc0d-f0bf-06d9-ecc078503dc2/8809534461651_Cover.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 37,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 38,
+          "track": {
+            "title": "寸寸 (《嫁金钗》电视剧魏娆·蜕变曲/片尾曲)",
+            "artist": "TIA RAY",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/45/6f/d5/456fd577-3105-03be-7690-ca7b5ba37870/4896043590723.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 38,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 39,
+          "track": {
+            "title": "我不该动情",
+            "artist": "老板",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/df/70/81/df708139-8aed-a40a-6843-89d22fc9f715/8721466685649.png/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 39,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 40,
+          "track": {
+            "title": "海闊天空",
+            "artist": "Beyond",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/68/71/ef/6871efa6-ea25-86c2-9b11-edc86578a3b1/639842631624.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 40,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 41,
+          "track": {
+            "title": "Mirrors",
+            "artist": "Justin Timberlake",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/74/c9/5374c99e-cff1-61a6-ca0f-fa1219d050a0/886443854406.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 41,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 42,
+          "track": {
+            "title": "Dreams",
+            "artist": "The Cranberries",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/c8/85/b6c885de-fde6-d40d-c95a-d89ede4270ae/06UMGIM09433.rgb.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 42,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 43,
+          "track": {
+            "title": "Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)",
+            "artist": "David Guetta",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/08/11/51/0811519e-abe7-a99d-10d7-d8900fdcb957/825646490066.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 43,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 44,
+          "track": {
+            "title": "The Woman",
+            "artist": "Baek Z Young",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/64/79/86/647986bd-2d75-7c9a-76b4-4612da10aa9c/1.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 44,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 45,
+          "track": {
+            "title": "我不願讓你一個人",
+            "artist": "Mayday",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6f/aa/30/6faa3012-14d1-c18c-40b6-47a170d096a8/BD0056-_-.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 45,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 46,
+          "track": {
+            "title": "International Love (feat. Chris Brown)",
+            "artist": "Pitbull",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/72/5b/84/mzi.pilkaaqe.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 46,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 47,
+          "track": {
+            "title": "我只在乎你",
+            "artist": "Teresa Teng",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/9f/83/719f83be-b4d3-157a-3dc5-cc9b3cc99adb/06UMGIM55127.rgb.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 47,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 48,
+          "track": {
+            "title": "Tomorrow will be Better",
+            "artist": "Tsai Chin, Yu Tien, Julie Su, Michelle Pan, Jenny Tseng, Lee Chien Fu, Huiping Lin, Jeanette Wang, Tracy Huang, Chris Hung, Sarah Chen, WaWa, Wang Mon Ling, 李珮菁, Fei Yu-Ching, Chyi Yu, Yvonne Jeng, Jody Chiang & Diana Yang",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4a/40/08/4a4008c9-992c-f66e-a44e-4b69059d5f07/cover_3000.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 48,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 49,
+          "track": {
+            "title": "Wedding Dress",
+            "artist": "TAEYANG",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/cf/c9/49cfc92a-4f0d-07f3-6905-bffad7849451/edit_Taeyang_-_Solar.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 49,
+          "source": "itunes_rss"
+        },
+        {
+          "position": 50,
+          "track": {
+            "title": "沉默是金",
+            "artist": "Leslie Cheung",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/05/96/ef0596bd-3db8-4891-3333-f2bb71b70efa/11UMGIM08721.rgb.jpg/170x170bb.png"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 50,
+          "source": "itunes_rss"
+        }
+      ],
+      "sourceType": "itunes_rss",
+      "isIndie": false
     }
   },
   "regions": {
@@ -3686,7 +4345,9 @@
     },
     "asia": {
       "label": "Asie",
-      "countries": []
+      "countries": [
+        "sg"
+      ]
     }
   }
 }
