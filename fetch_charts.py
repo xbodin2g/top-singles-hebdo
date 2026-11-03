@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version simplifiée : collecte uniquement les données de charts.
-La recherche YouTube se fait côté client (navigateur).
+Version avec Official Independent Singles Chart depuis le site officiel.
 """
 
 import json
@@ -32,6 +31,14 @@ SOURCES = {
         "region": "europe", 
         "source": "acharts",
         "acharts_url": "https://acharts.co/uk_singles_top_75"
+    },
+    "gb_indie": {
+        "name": "UK Indie", 
+        "flag": "🇬🇧", 
+        "region": "europe", 
+        "source": "official_charts",
+        "official_url": "https://www.officialcharts.com/charts/independent-singles-chart/",
+        "is_indie": True
     },
     "de": {
         "name": "Allemagne", 
@@ -78,6 +85,89 @@ def calculate_movement(current_pos, previous_pos):
         return "down"
     else:
         return "same"
+
+def fetch_official_charts_indie(url, country_name):
+    """Scrape le site officiel Official Charts Company pour l'Indie Chart"""
+    print(f"  🔍 Scraping Official Charts pour {country_name}...")
+    
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        
+        if response.status_code == 403:
+            print(f"    ❌ Bloqué (403 Forbidden)")
+            return []
+        
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        entries = []
+        
+        # Chercher tous les éléments "Number X"
+        text = response.text
+        
+        # Pattern pour extraire : Number X, Titre, Artiste, LW, Peak, Weeks
+        # Exemple : Number **1**\n\nMOVIN' TO THE SUN\n\nHUGEL/IMAEL ANGEL/ULTRA NATE\n\n1. LW: 2,\n2. Peak: 1,\n3. Weeks: 22
+        
+        # Diviser le texte en sections par "Number **"
+        sections = re.split(r'Number\s+\*\*(\d+)\*\*', text)
+        
+        # sections[0] est avant le premier "Number", donc on commence à 1
+        for i in range(1, len(sections), 2):
+            if i + 1 >= len(sections):
+                break
+            
+            rank = int(sections[i])
+            content = sections[i + 1]
+            
+            # Extraire le titre (première ligne après Number)
+            lines = [line.strip() for line in content.split('\n') if line.strip()]
+            
+            if len(lines) < 2:
+                continue
+            
+            title = lines[0]
+            artist = lines[1]
+            
+            # Chercher LW, Peak, Weeks
+            lw_match = re.search(r'LW:\s*(\d+)', content)
+            peak_match = re.search(r'Peak:\s*(\d+)', content)
+            weeks_match = re.search(r'Weeks:\s*(\d+)', content)
+            
+            lw = int(lw_match.group(1)) if lw_match else None
+            peak = int(peak_match.group(1)) if peak_match else rank
+            weeks = int(weeks_match.group(1)) if weeks_match else 1
+            
+            # Calculer le mouvement
+            movement = calculate_movement(rank, lw)
+            
+            entries.append({
+                "position": rank,
+                "track": {"title": title, "artist": artist},
+                "previousPosition": lw,
+                "movement": movement,
+                "weeksOnChart": weeks,
+                "peakPosition": peak,
+                "source": "official_charts"
+            })
+        
+        # Trier par position et limiter aux 50 premiers
+        entries.sort(key=lambda x: x["position"])
+        entries = entries[:50]
+        
+        print(f"    ✅ {len(entries)} entrées trouvées")
+        
+        if entries:
+            print(f"    📊 Exemples de mouvements :")
+            for i, entry in enumerate(entries[:3]):
+                print(f"       {entry['position']}. {entry['track']['title']} - {entry['movement']} (Préc: {entry['previousPosition']})")
+        
+        return entries
+    
+    except Exception as e:
+        print(f"    ❌ Erreur: {e}")
+        import traceback
+        traceback.print_exc()
+        return []
 
 def fetch_acharts(url, country_name):
     print(f"  🔍 Scraping acharts.co pour {country_name}...")
@@ -378,6 +468,8 @@ def main():
             entries = fetch_kworb_itunes(country_info["kworb_url"], country_info["name"])
         elif source_used == "promusica":
             entries = fetch_brazil_promusica()
+        elif source_used == "official_charts":
+            entries = fetch_official_charts_indie(country_info["official_url"], country_info["name"])
         else:
             entries = []
         
@@ -387,7 +479,8 @@ def main():
                 "flag": country_info["flag"],
                 "region": country_info["region"],
                 "chart": entries,
-                "sourceType": source_used
+                "sourceType": source_used,
+                "isIndie": country_info.get("is_indie", False)
             }
             
             charts_data["regions"][country_info["region"]]["countries"].append(code)
@@ -400,7 +493,7 @@ def main():
     if successful_sources and failed_sources:
         charts_data["meta"]["sourceNote"] = f"✅ {len(successful_sources)} sources OK. ❌ {len(failed_sources)} échouées."
     elif successful_sources:
-        charts_data["meta"]["sourceNote"] = f"✅ Toutes les sources : {len(successful_sources)} pays."
+        charts_data["meta"]["sourceNote"] = f"✅ Toutes les sources : {len(successful_sources)} tops collectés."
     else:
         charts_data["meta"]["sourceNote"] = "❌ Aucune source collectée."
     
