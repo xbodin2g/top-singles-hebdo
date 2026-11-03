@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version avec UK Indie (Wayback Machine) et Singapour (iTunes RSS).
+Version avec récupération des IDs Deezer et YouTube pour playlists.
 """
 
 import json
@@ -11,6 +11,10 @@ from datetime import datetime
 import re
 import os
 import time
+import urllib.parse
+
+# Configuration YouTube API (optionnel - à configurer via variable d'environnement)
+YOUTUBE_API_KEY = os.environ.get('YOUTUBE_API_KEY', '')
 
 SOURCES = {
     "us": {
@@ -76,7 +80,6 @@ HEADERS = {
 }
 
 def get_week_info():
-    """Obtient les informations de la semaine en cours"""
     now = datetime.now()
     return {
         "week": now.isocalendar()[1],
@@ -86,7 +89,6 @@ def get_week_info():
     }
 
 def calculate_movement(current_pos, previous_pos):
-    """Calcule le mouvement basé sur les positions"""
     if previous_pos is None or previous_pos == 0:
         return "new"
     if current_pos < previous_pos:
@@ -96,85 +98,227 @@ def calculate_movement(current_pos, previous_pos):
     else:
         return "same"
 
+def fetch_deezer_track_id(artist, title):
+    """Récupère l'ID Deezer d'un titre via l'API publique (gratuite, sans clé)"""
+    try:
+        # Nettoyer le titre pour de meilleurs résultats
+        clean_title = re.sub(r'\(.*?\)', '', title).strip()
+        clean_artist = re.sub(r'\(.*?\)', '', artist).strip()
+        
+        query = f"{clean_artist} {clean_title}"
+        url = f"https://api.deezer.com/search?q={urllib.parse.quote(query)}&limit=1"
+        
+        response = requests.get(url, headers=HEADERS, timeout=10)
+        
+        if response.status_code == 200:
+            data = response.json()
+            if data.get('data'):
+                track = data['data'][0]
+                return {
+                    'deezer_id': track.get('id'),
+                    'deezer_url': track.get('link'),
+                    'artwork': track.get('album', {}).get('cover_medium', '')
+                }
+    except Exception as e:
+        pass
+    
+    return None
+
+def fetch_youtube_video_id(artist, title):
+    """Récupère l'ID vidéo YouTube via l'API ou yt-dlp"""
+    # Essayer avec l'API YouTube si la clé est disponible
+    if YOUTUBE_API_KEY:
+        try:
+            clean_title = re.sub(r'\(.*?\)', '', title).strip()
+            clean_artist = re.sub(r'\(.*?\)', '', artist).strip()
+            query = f"{clean_artist} {clean_title}"
+            
+            url = "https://www.googleapis.com/youtube/v3/search"
+            params = {
+                'part': 'snippet',
+                'q': query,
+                'type': 'video',
+                'maxResults': 1,
+                'key': YOUTUBE_API_KEY
+            }
+            
+            response = requests.get(url, params=params, timeout=10)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('items'):
+                    video_id = data['items'][0]['id']['videoId']
+                    return {
+                        'youtube_id': video_id,
+                        'youtube_url': f"https://www.youtube.com/watch?v={video_id}"
+                    }
+        except Exception:
+            pass
+    
+    # Fallback avec yt-dlp
+    try:
+        import yt_dlp
+        
+        clean_title = re.sub(r'\(.*?\)', '', title).strip()
+        clean_artist = re.sub(r'\(.*?\)', '', artist).strip()
+        query = f"ytsearch1:{clean_artist} {clean_title}"
+        
+        ydl_opts = {
+            'quiet': True,
+            'no_warnings': True,
+            'extract_flat': True,
+            'skip_download': True,
+        }
+        
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(query, download=False)
+            if info and 'entries' in info and info['entries']:
+                video_id = info['entries'][0].get('id')
+                if video_id:
+                    return {
+                        'youtube_id': video_id,
+                        'youtube_url': f"https://www.youtube.com/watch?v={video_id}"
+                    }
+    except Exception:
+        pass
+    
+    return None
+
+def enrich_with_streaming_ids(entries, country_name, limit=20):
+    """Enrichit les entrées avec les IDs Deezer et YouTube"""
+    print(f"  🔍 Enrichissement avec IDs Deezer/YouTube pour {country_name}...")
+    
+    enriched_count = 0
+    
+    for i, entry in enumerate(entries[:limit]):
+        artist = entry['track']['artist']
+        title = entry['track']['title']
+        
+        # Récupérer Deezer ID
+        deezer_info = fetch_deezer_track_id(artist, title)
+        if deezer_info:
+            entry['deezer_id'] = deezer_info.get('deezer_id')
+            entry['deezer_url'] = deezer_info.get('deezer_url')
+            if deezer_info.get('artwork'):
+                entry['track']['artwork'] = deezer_info['artwork']
+        
+        # Récupérer YouTube ID
+        youtube_info = fetch_youtube_video_id(artist, title)
+        if youtube_info:
+            entry['youtube_id'] = youtube_info.get('youtube_id')
+            entry['youtube_url'] = youtube_info.get('youtube_url')
+        
+        if deezer_info or youtube_info:
+            enriched_count += 1
+        
+        # Petit délai pour ne pas surcharger les APIs
+        time.sleep(0.3)
+        
+        # Progression
+        if (i + 1) % 5 == 0:
+            print(f"    📊 {i+1}/{limit} traités - {enriched_count} enrichis")
+    
+    print(f"    ✅ {enriched_count}/{limit} entrées enrichies avec IDs streaming")
+    return entries
+
 def fetch_uk_indie_wayback(country_name):
-    """Récupère UK Indie via Wayback Machine (contourne le 403)"""
+    """Récupère UK Indie via Wayback Machine avec retry"""
     print(f"  🔍 Scraping UK Indie via Wayback Machine pour {country_name}...")
     
-    # URL Wayback Machine qui récupère la dernière archive de 2026
     wayback_url = "https://web.archive.org/web/2026/https://www.officialcharts.com/charts/independent-singles-chart/"
     
-    try:
-        response = requests.get(wayback_url, headers=HEADERS, timeout=45, allow_redirects=True)
+    user_agents = [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0',
+    ]
+    
+    for attempt, ua in enumerate(user_agents):
+        print(f"    🔄 Tentative {attempt+1}/{len(user_agents)}...")
         
-        if response.status_code == 404:
-            print(f"    ❌ Pas d'archive trouvée (404)")
-            return []
+        headers = HEADERS.copy()
+        headers['User-Agent'] = ua
         
-        response.raise_for_status()
-        text = response.text
-        
-        print(f"    📄 Taille HTML : {len(text)} caractères")
-        
-        # Parser le contenu (même structure que le site officiel)
-        entries = []
-        
-        # Pattern 1 : Number **X**
-        sections = re.split(r'Number\s+\*\*(\d+)\*\*', text)
-        
-        for i in range(1, len(sections), 2):
-            if i + 1 >= len(sections):
-                break
+        try:
+            # Délai progressif pour éviter le 429
+            if attempt > 0:
+                wait_time = 5 * attempt
+                print(f"      ⏱️ Attente de {wait_time}s...")
+                time.sleep(wait_time)
             
-            rank = int(sections[i])
-            content = sections[i + 1]
+            response = requests.get(wayback_url, headers=headers, timeout=45, allow_redirects=True)
             
-            lines = [line.strip() for line in content.split('\n') if line.strip()]
-            
-            if len(lines) < 2:
+            if response.status_code == 429:
+                print(f"      ❌ Rate limited (429), attente et retry...")
+                time.sleep(10)
                 continue
             
-            title = lines[0]
-            artist = lines[1]
+            if response.status_code == 404:
+                print(f"      ❌ Pas d'archive trouvée (404)")
+                return []
             
-            lw_match = re.search(r'LW:\s*(\d+)', content)
-            peak_match = re.search(r'Peak:\s*(\d+)', content)
-            weeks_match = re.search(r'Weeks:\s*(\d+)', content)
+            response.raise_for_status()
+            text = response.text
             
-            lw = int(lw_match.group(1)) if lw_match else None
-            peak = int(peak_match.group(1)) if peak_match else rank
-            weeks = int(weeks_match.group(1)) if weeks_match else 1
+            print(f"      📄 Taille HTML : {len(text)} caractères")
             
-            movement = calculate_movement(rank, lw)
+            entries = []
+            sections = re.split(r'Number\s+\*\*(\d+)\*\*', text)
             
-            entries.append({
-                "position": rank,
-                "track": {"title": title, "artist": artist},
-                "previousPosition": lw,
-                "movement": movement,
-                "weeksOnChart": weeks,
-                "peakPosition": peak,
-                "source": "wayback_official_charts"
-            })
+            for i in range(1, len(sections), 2):
+                if i + 1 >= len(sections):
+                    break
+                
+                rank = int(sections[i])
+                content = sections[i + 1]
+                
+                lines = [line.strip() for line in content.split('\n') if line.strip()]
+                
+                if len(lines) < 2:
+                    continue
+                
+                title = lines[0]
+                artist = lines[1]
+                
+                lw_match = re.search(r'LW:\s*(\d+)', content)
+                peak_match = re.search(r'Peak:\s*(\d+)', content)
+                weeks_match = re.search(r'Weeks:\s*(\d+)', content)
+                
+                lw = int(lw_match.group(1)) if lw_match else None
+                peak = int(peak_match.group(1)) if peak_match else rank
+                weeks = int(weeks_match.group(1)) if weeks_match else 1
+                
+                movement = calculate_movement(rank, lw)
+                
+                entries.append({
+                    "position": rank,
+                    "track": {"title": title, "artist": artist},
+                    "previousPosition": lw,
+                    "movement": movement,
+                    "weeksOnChart": weeks,
+                    "peakPosition": peak,
+                    "source": "wayback_official_charts"
+                })
+            
+            entries.sort(key=lambda x: x["position"])
+            entries = entries[:50]
+            
+            if entries:
+                print(f"    ✅ {len(entries)} entrées trouvées via Wayback Machine")
+                print(f"    📊 Top 3 :")
+                for i, entry in enumerate(entries[:3]):
+                    print(f"       {entry['position']}. {entry['track']['title']} - {entry['track']['artist']} ({entry['movement']})")
+                return entries
         
-        entries.sort(key=lambda x: x["position"])
-        entries = entries[:50]
-        
-        if entries:
-            print(f"    ✅ {len(entries)} entrées trouvées via Wayback Machine")
-            print(f"    📊 Top 3 :")
-            for i, entry in enumerate(entries[:3]):
-                print(f"       {entry['position']}. {entry['track']['title']} - {entry['track']['artist']} ({entry['movement']})")
-            return entries
-        
-        print(f"    ❌ 0 entrées trouvées")
-        return []
+        except Exception as e:
+            print(f"      ❌ Erreur: {str(e)[:80]}")
+            continue
     
-    except Exception as e:
-        print(f"    ❌ Erreur: {e}")
-        return []
+    print(f"    ❌ Toutes les tentatives ont échoué")
+    return []
 
 def fetch_itunes_rss(url, country_name):
-    """Récupère le top via l'API iTunes RSS (JSON, très fiable)"""
+    """Récupère le top via l'API iTunes RSS (JSON)"""
     print(f"  🔍 Scraping iTunes RSS pour {country_name}...")
     
     try:
@@ -207,7 +351,7 @@ def fetch_itunes_rss(url, country_name):
                         "peakPosition": index + 1,
                         "source": "itunes_rss"
                     })
-            except Exception as e:
+            except Exception:
                 continue
         
         print(f"    ✅ {len(entries)} entrées trouvées")
@@ -224,7 +368,7 @@ def fetch_itunes_rss(url, country_name):
         return []
 
 def fetch_acharts(url, country_name):
-    """Scrape acharts.co pour les tops standards"""
+    """Scrape acharts.co"""
     print(f"  🔍 Scraping acharts.co pour {country_name}...")
     
     try:
@@ -303,7 +447,7 @@ def fetch_acharts(url, country_name):
         return []
 
 def fetch_brazil_promusica():
-    """Scrape Pro-Música Brasil (source officielle)"""
+    """Scrape Pro-Música Brasil"""
     print(f"  🔍 Scraping Pro-Música Brasil...")
     
     try:
@@ -361,7 +505,7 @@ def fetch_brazil_promusica():
         return []
 
 def fetch_kworb_itunes(url, country_name):
-    """Scrape kworb.net iTunes (pour Allemagne)"""
+    """Scrape kworb.net iTunes"""
     print(f"  🔍 Scraping kworb iTunes pour {country_name}...")
     
     try:
@@ -490,8 +634,12 @@ def fetch_billboard_hot100():
     return fetch_acharts("https://acharts.co/us_singles_top_100", "US")
 
 def main():
-    """Fonction principale de collecte"""
     print(f"🎵 Début de la collecte - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    
+    if YOUTUBE_API_KEY:
+        print("✅ Clé API YouTube configurée - IDs vidéo seront récupérés\n")
+    else:
+        print("⚠️ Pas de clé API YouTube - seul Deezer fournira des IDs directs\n")
     
     week_info = get_week_info()
     
@@ -501,7 +649,8 @@ def main():
             "week": week_info["week"],
             "year": week_info["year"],
             "updatedAt": week_info["date"],
-            "sourceNote": ""
+            "sourceNote": "",
+            "hasStreamingIds": True
         },
         "countries": {},
         "regions": {
@@ -523,24 +672,20 @@ def main():
         
         if source_used == "billboard":
             entries = fetch_billboard_hot100()
-        
         elif source_used == "acharts":
             entries = fetch_acharts(country_info["acharts_url"], country_info["name"])
-        
         elif source_used == "kworb_itunes":
             entries = fetch_kworb_itunes(country_info["kworb_url"], country_info["name"])
-        
         elif source_used == "promusica":
             entries = fetch_brazil_promusica()
-        
         elif source_used == "wayback":
             entries = fetch_uk_indie_wayback(country_info["name"])
-        
         elif source_used == "itunes_rss":
             entries = fetch_itunes_rss(country_info["itunes_url"], country_info["name"])
         
-        else:
-            entries = []
+        # Enrichir avec IDs Deezer et YouTube (pour les 20 premiers)
+        if entries and len(entries) >= 10:
+            entries = enrich_with_streaming_ids(entries, country_info["name"], limit=20)
         
         if entries and len(entries) >= 10:
             charts_data["countries"][code] = {
@@ -567,7 +712,7 @@ def main():
     else:
         charts_data["meta"]["sourceNote"] = "❌ Aucune source collectée."
     
-    # Sauvegarder les données
+    # Sauvegarder
     output_dir = "data"
     os.makedirs(output_dir, exist_ok=True)
     
