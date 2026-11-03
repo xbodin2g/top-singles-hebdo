@@ -3,8 +3,8 @@
     "weekLabel": "Semaine 45/2026",
     "week": 45,
     "year": 2026,
-    "updatedAt": "2026-11-02",
-    "sourceNote": "✅ Toutes les sources : 6 pays."
+    "updatedAt": "2026-11-03",
+    "sourceNote": "✅ 6 sources OK. ❌ 1 échouées."
   },
   "countries": {
     "us": {
@@ -613,7 +613,8 @@
           "source": "acharts"
         }
       ],
-      "sourceType": "billboard"
+      "sourceType": "billboard",
+      "isIndie": false
     },
     "fr": {
       "name": "France",
@@ -1221,7 +1222,8 @@
           "source": "acharts"
         }
       ],
-      "sourceType": "acharts"
+      "sourceType": "acharts",
+      "isIndie": false
     },
     "gb": {
       "name": "Royaume-Uni",
@@ -1829,7 +1831,8 @@
           "source": "acharts"
         }
       ],
-      "sourceType": "acharts"
+      "sourceType": "acharts",
+      "isIndie": false
     },
     "de": {
       "name": "Allemagne",
@@ -1854,7 +1857,7 @@
             "title": "Fucking Shit, Holy Shit",
             "artist": "Shards of Art"
           },
-          "previousPosition": 4,
+          "previousPosition": 3,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 2,
@@ -1863,10 +1866,10 @@
         {
           "position": 3,
           "track": {
-            "title": "Movin' To The Sun",
-            "artist": "HUGEL, Imael Angel & Ultra NatÃ©"
+            "title": "Rise Slow",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 1,
+          "previousPosition": 2,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 3,
@@ -1875,10 +1878,10 @@
         {
           "position": 4,
           "track": {
-            "title": "Rise Slow",
-            "artist": "Kimo Sounds"
+            "title": "Movin' To The Sun",
+            "artist": "HUGEL, Imael Angel & Ultra NatÃ©"
           },
-          "previousPosition": 2,
+          "previousPosition": 1,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 4,
@@ -1887,11 +1890,11 @@
         {
           "position": 5,
           "track": {
-            "title": "My Own Way",
-            "artist": "Aeriva"
+            "title": "Later Become Never",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 3,
-          "movement": "down",
+          "previousPosition": 6,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 5,
           "source": "kworb_itunes"
@@ -1899,11 +1902,11 @@
         {
           "position": 6,
           "track": {
-            "title": "Patient Zero",
-            "artist": "Taylor Swift"
+            "title": "My Own Way",
+            "artist": "Aeriva"
           },
-          "previousPosition": 7,
-          "movement": "up",
+          "previousPosition": 4,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 6,
           "source": "kworb_itunes"
@@ -1911,8 +1914,8 @@
         {
           "position": 7,
           "track": {
-            "title": "Later Become Never",
-            "artist": "Kimo Sounds"
+            "title": "Inside My Soul",
+            "artist": "SK.music"
           },
           "previousPosition": 5,
           "movement": "down",
@@ -1923,11 +1926,11 @@
         {
           "position": 8,
           "track": {
-            "title": "BAD TIMES",
-            "artist": "Imael Angel"
+            "title": "Patient Zero",
+            "artist": "Taylor Swift"
           },
-          "previousPosition": 8,
-          "movement": "same",
+          "previousPosition": 7,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 8,
           "source": "kworb_itunes"
@@ -1935,10 +1938,10 @@
         {
           "position": 9,
           "track": {
-            "title": "Inside My Soul",
-            "artist": "SK.music"
+            "title": "BAD TIMES",
+            "artist": "Imael Angel"
           },
-          "previousPosition": 6,
+          "previousPosition": 8,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 9,
@@ -1947,11 +1950,11 @@
         {
           "position": 10,
           "track": {
-            "title": "Streichholz",
-            "artist": "Kontra K"
+            "title": "AN MEINER SEITE",
+            "artist": "Helene Fischer"
           },
-          "previousPosition": null,
-          "movement": "new",
+          "previousPosition": 9,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 10,
           "source": "kworb_itunes"
@@ -1959,10 +1962,10 @@
         {
           "position": 11,
           "track": {
-            "title": "Bad Times (Extended Version)",
-            "artist": "Imael Angel"
+            "title": "WARUM",
+            "artist": "Helene Fischer"
           },
-          "previousPosition": 12,
+          "previousPosition": 16,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 11,
@@ -1971,11 +1974,11 @@
         {
           "position": 12,
           "track": {
-            "title": "You Never Can Tell",
-            "artist": "Chuck Berry"
+            "title": "BAD TIMES (Long Version)",
+            "artist": "Imael Angel"
           },
-          "previousPosition": 87,
-          "movement": "up",
+          "previousPosition": 10,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 12,
           "source": "kworb_itunes"
@@ -1983,11 +1986,11 @@
         {
           "position": 13,
           "track": {
-            "title": "AN MEINER SEITE",
+            "title": "HEUTE NACHT",
             "artist": "Helene Fischer"
           },
-          "previousPosition": 11,
-          "movement": "down",
+          "previousPosition": 18,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 13,
           "source": "kworb_itunes"
@@ -1995,11 +1998,11 @@
         {
           "position": 14,
           "track": {
-            "title": "PROPAGANDA",
-            "artist": "Sido & Fler"
+            "title": "Streichholz",
+            "artist": "Kontra K"
           },
-          "previousPosition": 10,
-          "movement": "down",
+          "previousPosition": null,
+          "movement": "new",
           "weeksOnChart": 1,
           "peakPosition": 14,
           "source": "kworb_itunes"
@@ -2007,11 +2010,11 @@
         {
           "position": 15,
           "track": {
-            "title": "Mr. Know It All",
-            "artist": "Teddy Swims"
+            "title": "You Never Can Tell",
+            "artist": "Chuck Berry"
           },
-          "previousPosition": 13,
-          "movement": "down",
+          "previousPosition": 22,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 15,
           "source": "kworb_itunes"
@@ -2019,10 +2022,10 @@
         {
           "position": 16,
           "track": {
-            "title": "Magnetic",
-            "artist": "The Bausa"
+            "title": "Mr. Know It All",
+            "artist": "Teddy Swims"
           },
-          "previousPosition": 25,
+          "previousPosition": 17,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 16,
@@ -2043,10 +2046,10 @@
         {
           "position": 18,
           "track": {
-            "title": "WARUM",
-            "artist": "Helene Fischer"
+            "title": "Magnetic",
+            "artist": "The Bausa"
           },
-          "previousPosition": 15,
+          "previousPosition": 13,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 18,
@@ -2055,10 +2058,10 @@
         {
           "position": 19,
           "track": {
-            "title": "ISSA",
-            "artist": "Sido"
+            "title": "Stop The Wedding!",
+            "artist": "Ashe"
           },
-          "previousPosition": 27,
+          "previousPosition": 65,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 19,
@@ -2067,10 +2070,10 @@
         {
           "position": 20,
           "track": {
-            "title": "HEUTE NACHT",
-            "artist": "Helene Fischer"
+            "title": "Ich weiÃ, was du brauchst",
+            "artist": "Kerstin Ott & Maite Kelly"
           },
-          "previousPosition": 18,
+          "previousPosition": 19,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 20,
@@ -2079,10 +2082,10 @@
         {
           "position": 21,
           "track": {
-            "title": "Ich weiÃ, was du brauchst",
-            "artist": "Kerstin Ott & Maite Kelly"
+            "title": "Dai Dai",
+            "artist": "Shakira & Burna Boy"
           },
-          "previousPosition": 17,
+          "previousPosition": 20,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 21,
@@ -2091,10 +2094,10 @@
         {
           "position": 22,
           "track": {
-            "title": "Dai Dai",
-            "artist": "Shakira & Burna Boy"
+            "title": "Mama, Don't Close Your Eyes",
+            "artist": "Bjorn Bonebreaker"
           },
-          "previousPosition": 29,
+          "previousPosition": 56,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 22,
@@ -2106,7 +2109,7 @@
             "title": "New Religion",
             "artist": "Bebe Rexha & Faithless"
           },
-          "previousPosition": 20,
+          "previousPosition": 15,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 23,
@@ -2118,7 +2121,7 @@
             "title": "Make Me Love You",
             "artist": "Nickelback"
           },
-          "previousPosition": 21,
+          "previousPosition": 23,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 24,
@@ -2127,11 +2130,11 @@
         {
           "position": 25,
           "track": {
-            "title": "Mama, Don't Close Your Eyes",
-            "artist": "Bjorn Bonebreaker"
+            "title": "PROPAGANDA",
+            "artist": "Sido & Fler"
           },
-          "previousPosition": 47,
-          "movement": "up",
+          "previousPosition": 12,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 25,
           "source": "kworb_itunes"
@@ -2139,11 +2142,11 @@
         {
           "position": 26,
           "track": {
-            "title": "Mi Chico",
-            "artist": "DJ Goja"
+            "title": "VALHALLA CALLING",
+            "artist": "Ragal Ironbull"
           },
-          "previousPosition": 16,
-          "movement": "down",
+          "previousPosition": 49,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 26,
           "source": "kworb_itunes"
@@ -2151,10 +2154,10 @@
         {
           "position": 27,
           "track": {
-            "title": "VALHALLA CALLING",
-            "artist": "Ragal Ironbull"
+            "title": "ISSA",
+            "artist": "Sido"
           },
-          "previousPosition": 55,
+          "previousPosition": 31,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 27,
@@ -2163,11 +2166,11 @@
         {
           "position": 28,
           "track": {
-            "title": "Mi Chico (Jason Derulo x Melody Version)",
-            "artist": "DJ Goja, Jason Derulo & Melody"
+            "title": "Mi Chico",
+            "artist": "DJ Goja"
           },
-          "previousPosition": 34,
-          "movement": "up",
+          "previousPosition": 21,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 28,
           "source": "kworb_itunes"
@@ -2175,10 +2178,10 @@
         {
           "position": 29,
           "track": {
-            "title": "BbY WOW",
-            "artist": "KAROL G, Judeline & rusowsky"
+            "title": "Take a Little",
+            "artist": "Jaxson Blue"
           },
-          "previousPosition": 42,
+          "previousPosition": 52,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 29,
@@ -2187,10 +2190,10 @@
         {
           "position": 30,
           "track": {
-            "title": "Stop The Wedding!",
-            "artist": "Ashe"
+            "title": "Choosin' Texas",
+            "artist": "Ella Langley"
           },
-          "previousPosition": 70,
+          "previousPosition": 33,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 30,
@@ -2199,11 +2202,11 @@
         {
           "position": 31,
           "track": {
-            "title": "PUZZLETEIL",
-            "artist": "Sido & Montez"
+            "title": "Why Don't You Spend the Night",
+            "artist": "Voltage X"
           },
-          "previousPosition": 40,
-          "movement": "up",
+          "previousPosition": 29,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 31,
           "source": "kworb_itunes"
@@ -2211,11 +2214,11 @@
         {
           "position": 32,
           "track": {
-            "title": "Bass Persuades",
-            "artist": "Miley Cyrus"
+            "title": "PUZZLETEIL",
+            "artist": "Sido & Montez"
           },
-          "previousPosition": 32,
-          "movement": "same",
+          "previousPosition": 53,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 32,
           "source": "kworb_itunes"
@@ -2223,11 +2226,11 @@
         {
           "position": 33,
           "track": {
-            "title": "Beweis",
-            "artist": "FRIDA GOLD & Jupiter Jones"
+            "title": "Bass Persuades",
+            "artist": "Miley Cyrus"
           },
-          "previousPosition": 33,
-          "movement": "same",
+          "previousPosition": 25,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 33,
           "source": "kworb_itunes"
@@ -2238,7 +2241,7 @@
             "title": "Thriller",
             "artist": "Michael Jackson"
           },
-          "previousPosition": 9,
+          "previousPosition": 11,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 34,
@@ -2247,10 +2250,10 @@
         {
           "position": 35,
           "track": {
-            "title": "Why Don't You Spend the Night",
-            "artist": "Voltage X"
+            "title": "Mi Chico (Jason Derulo x Melody Version)",
+            "artist": "DJ Goja, Jason Derulo & Melody"
           },
-          "previousPosition": 24,
+          "previousPosition": 32,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 35,
@@ -2259,11 +2262,11 @@
         {
           "position": 36,
           "track": {
-            "title": "Engel",
-            "artist": "Klangspiel"
+            "title": "Cool",
+            "artist": "Mark Forster"
           },
-          "previousPosition": 31,
-          "movement": "down",
+          "previousPosition": 62,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 36,
           "source": "kworb_itunes"
@@ -2271,11 +2274,11 @@
         {
           "position": 37,
           "track": {
-            "title": "Choosin' Texas",
-            "artist": "Ella Langley"
+            "title": "Everlasting Love",
+            "artist": "Love Affair"
           },
-          "previousPosition": 36,
-          "movement": "down",
+          "previousPosition": null,
+          "movement": "new",
           "weeksOnChart": 1,
           "peakPosition": 37,
           "source": "kworb_itunes"
@@ -2283,11 +2286,11 @@
         {
           "position": 38,
           "track": {
-            "title": "Rise Slow (Bass Boosted)",
-            "artist": "Kimo Sounds"
+            "title": "FÃ¼r immer",
+            "artist": "AYLIVA"
           },
-          "previousPosition": 43,
-          "movement": "up",
+          "previousPosition": 27,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 38,
           "source": "kworb_itunes"
@@ -2295,11 +2298,11 @@
         {
           "position": 39,
           "track": {
-            "title": "Housewife",
-            "artist": "Tate McRae"
+            "title": "Ordinary",
+            "artist": "Alex Warren"
           },
-          "previousPosition": 38,
-          "movement": "down",
+          "previousPosition": 152,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 39,
           "source": "kworb_itunes"
@@ -2307,10 +2310,10 @@
         {
           "position": 40,
           "track": {
-            "title": "Find Me",
-            "artist": "Tiffany Aris"
+            "title": "Let Time Answer",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 106,
+          "previousPosition": 61,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 40,
@@ -2319,10 +2322,10 @@
         {
           "position": 41,
           "track": {
-            "title": "My own rules",
-            "artist": "Ionut Sima785"
+            "title": "Ruf mich nicht mehr an",
+            "artist": "Levant"
           },
-          "previousPosition": 111,
+          "previousPosition": 63,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 41,
@@ -2331,11 +2334,11 @@
         {
           "position": 42,
           "track": {
-            "title": "Roll it Halleluja",
-            "artist": "Cade Voss"
+            "title": "Not for Everyone",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 26,
-          "movement": "down",
+          "previousPosition": 48,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 42,
           "source": "kworb_itunes"
@@ -2343,10 +2346,10 @@
         {
           "position": 43,
           "track": {
-            "title": "Make It Spectacular",
-            "artist": "Kimo Sounds"
+            "title": "She Break",
+            "artist": "shockfactor"
           },
-          "previousPosition": 48,
+          "previousPosition": 69,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 43,
@@ -2355,10 +2358,10 @@
         {
           "position": 44,
           "track": {
-            "title": "FÃ¼r immer",
-            "artist": "AYLIVA"
+            "title": "American Girls",
+            "artist": "Harry Styles"
           },
-          "previousPosition": 23,
+          "previousPosition": 38,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 44,
@@ -2367,10 +2370,10 @@
         {
           "position": 45,
           "track": {
-            "title": "Storm in my heart",
-            "artist": "Rockin' Jukebox"
+            "title": "My own rules",
+            "artist": "Ionut Sima785"
           },
-          "previousPosition": 65,
+          "previousPosition": 71,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 45,
@@ -2379,11 +2382,11 @@
         {
           "position": 46,
           "track": {
-            "title": "Let Time Answer",
-            "artist": "Kimo Sounds"
+            "title": "Housewife",
+            "artist": "Tate McRae"
           },
-          "previousPosition": 50,
-          "movement": "up",
+          "previousPosition": 42,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 46,
           "source": "kworb_itunes"
@@ -2391,10 +2394,10 @@
         {
           "position": 47,
           "track": {
-            "title": "Cool",
-            "artist": "Mark Forster"
+            "title": "Find Me",
+            "artist": "Tiffany Aris"
           },
-          "previousPosition": 110,
+          "previousPosition": 89,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 47,
@@ -2403,11 +2406,11 @@
         {
           "position": 48,
           "track": {
-            "title": "Ruf mich nicht mehr an",
-            "artist": "Levant"
+            "title": "BbY WOW",
+            "artist": "KAROL G, Judeline & rusowsky"
           },
-          "previousPosition": 67,
-          "movement": "up",
+          "previousPosition": 37,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 48,
           "source": "kworb_itunes"
@@ -2415,11 +2418,11 @@
         {
           "position": 49,
           "track": {
-            "title": "Not for Everyone",
-            "artist": "Kimo Sounds"
+            "title": "Beweis",
+            "artist": "FRIDA GOLD & Jupiter Jones"
           },
-          "previousPosition": 53,
-          "movement": "up",
+          "previousPosition": 28,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 49,
           "source": "kworb_itunes"
@@ -2427,17 +2430,18 @@
         {
           "position": 50,
           "track": {
-            "title": "She Break",
-            "artist": "shockfactor"
+            "title": "Engel",
+            "artist": "Klangspiel"
           },
-          "previousPosition": 51,
-          "movement": "up",
+          "previousPosition": 24,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 50,
           "source": "kworb_itunes"
         }
       ],
-      "sourceType": "kworb_itunes"
+      "sourceType": "kworb_itunes",
+      "isIndie": false
     },
     "ch": {
       "name": "Suisse",
@@ -3045,7 +3049,8 @@
           "source": "acharts"
         }
       ],
-      "sourceType": "acharts"
+      "sourceType": "acharts",
+      "isIndie": false
     },
     "br": {
       "name": "Brésil",
@@ -3653,7 +3658,8 @@
           "source": "promusica"
         }
       ],
-      "sourceType": "promusica"
+      "sourceType": "promusica",
+      "isIndie": false
     }
   },
   "regions": {
