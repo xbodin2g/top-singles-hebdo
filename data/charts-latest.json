@@ -4,7 +4,7 @@
     "week": 45,
     "year": 2026,
     "updatedAt": "2026-11-03",
-    "sourceNote": "✅ 6 sources OK. ❌ 1 échouées."
+    "sourceNote": "✅ 6 sources OK. ❌ 2 échouées."
   },
   "countries": {
     "us": {
@@ -3683,6 +3683,10 @@
       "countries": [
         "br"
       ]
+    },
+    "asia": {
+      "label": "Asie",
+      "countries": []
     }
   }
 }
