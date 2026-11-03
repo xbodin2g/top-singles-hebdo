@@ -157,6 +157,30 @@
       transform: translateY(-1px);
     }
 
+    .button-share {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: white;
+      border: none;
+      font-weight: 600;
+    }
+
+    .button-share:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
+    .button-retro {
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+      color: white;
+      border: none;
+      font-weight: 600;
+    }
+
+    .button-retro:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
     .loading {
       text-align: center;
       padding: 48px 20px;
@@ -474,7 +498,7 @@
       color: var(--muted);
     }
 
-    /* Modal Playlist YouTube */
+    /* Modal */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -670,6 +694,35 @@
       background: var(--success);
     }
 
+    /* Section rétro */
+    .retro-panel {
+      margin-top: 20px;
+      padding: 24px;
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.05), rgba(217, 119, 6, 0.05));
+      border: 2px solid rgba(245, 158, 11, 0.2);
+    }
+
+    .retro-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .retro-controls {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .retro-controls select {
+      width: auto;
+      min-width: 100px;
+    }
+
     @media (max-width: 900px) {
       .controls, .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .topbar { flex-direction: column; }
@@ -727,6 +780,7 @@
         <span class="badge" id="weekBadge">Chargement...</span>
         <button class="button" id="themeToggle" type="button">🌙 Sombre</button>
         <button class="button" id="refreshBtn" type="button">🔄 Actualiser</button>
+        <button class="button button-retro" id="retroBtn" type="button">📼 Rétro Top 50</button>
       </div>
     </header>
 
@@ -782,6 +836,7 @@
 
         <div class="chart-actions">
           <button class="button button-youtube" id="playlistBtn">🎵 Playlist YouTube</button>
+          <button class="button button-share" id="shareBtn">📤 Partager la playlist</button>
           <button class="button" id="exportBtn">📥 Exporter CSV</button>
         </div>
 
@@ -804,15 +859,56 @@
           <strong>Comment ça fonctionne ?</strong><br>
           Les titres avec un <span class="direct-indicator"></span> ont un lien direct YouTube.
           Cliquez sur "Créer la playlist" pour ouvrir une vraie playlist YouTube avec ces titres.
+          <br><br>
+          <strong>Pour ouvrir dans une autre app (Umihi, Simpmusic...) :</strong><br>
+          Cliquez sur "📤 Partager" et choisissez votre app dans le menu Android.
         </div>
 
         <div class="modal-actions">
-          <button class="button button-primary" id="createPlaylistBtn">🎬 Créer la playlist YouTube</button>
+          <button class="button button-primary" id="createPlaylistBtn">🎬 Ouvrir dans YouTube</button>
+          <button class="button button-share" id="sharePlaylistBtn">📤 Partager (autre app)</button>
           <button class="button" id="copyListBtn">📋 Copier la liste</button>
           <button class="button" id="resetBtn">♻️ Réinitialiser</button>
         </div>
 
         <div class="track-list" id="trackList"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Rétro -->
+  <div class="modal-overlay" id="retroModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>📼 Archives Top 50 Français</h3>
+        <button class="modal-close" id="retroClose">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-intro">
+          <strong>Archives complètes du Top 50 français depuis 1984</strong><br>
+          Sélectionnez une année et une semaine pour afficher le classement historique.
+        </div>
+
+        <div class="retro-controls">
+          <div class="control-group">
+            <label for="retroYear">Année</label>
+            <select id="retroYear"></select>
+          </div>
+
+          <div class="control-group">
+            <label for="retroWeek">Semaine</label>
+            <select id="retroWeek"></select>
+          </div>
+
+          <div class="control-group">
+            <label>&nbsp;</label>
+            <button class="button button-retro" id="loadArchiveBtn">📥 Charger l'archive</button>
+          </div>
+        </div>
+
+        <div id="retroContent" style="margin-top: 20px;">
+          <div class="empty">Sélectionnez une date et cliquez sur "Charger l'archive"</div>
+        </div>
       </div>
     </div>
   </div>
@@ -841,14 +937,23 @@
     const mainContent = document.getElementById("mainContent");
     const refreshBtn = document.getElementById("refreshBtn");
     const playlistBtn = document.getElementById("playlistBtn");
+    const shareBtn = document.getElementById("shareBtn");
     const exportBtn = document.getElementById("exportBtn");
+    const retroBtn = document.getElementById("retroBtn");
     const playlistModal = document.getElementById("playlistModal");
     const modalClose = document.getElementById("modalClose");
     const trackList = document.getElementById("trackList");
     const createPlaylistBtn = document.getElementById("createPlaylistBtn");
+    const sharePlaylistBtn = document.getElementById("sharePlaylistBtn");
     const copyListBtn = document.getElementById("copyListBtn");
     const resetBtn = document.getElementById("resetBtn");
     const playlistStatus = document.getElementById("playlistStatus");
+    const retroModal = document.getElementById("retroModal");
+    const retroClose = document.getElementById("retroClose");
+    const retroYear = document.getElementById("retroYear");
+    const retroWeek = document.getElementById("retroWeek");
+    const loadArchiveBtn = document.getElementById("loadArchiveBtn");
+    const retroContent = document.getElementById("retroContent");
 
     function escapeHtml(value) {
       return String(value)
@@ -870,22 +975,17 @@
       return "● Stable";
     }
 
-    /**
-     * Ouvre un smart link Deezer : essaie l'app d'abord, fallback navigateur
-     */
     function openDeezerSmart(deezerId) {
       const appUrl = `deezer://track/${deezerId}`;
       const webUrl = `https://www.deezer.com/track/${deezerId}`;
       
       const startTime = Date.now();
       
-      // Essayer d'ouvrir l'app
       const iframe = document.createElement('iframe');
       iframe.style.display = 'none';
       iframe.src = appUrl;
       document.body.appendChild(iframe);
       
-      // Si on est toujours sur la page après 1.5s, l'app n'est pas installée
       setTimeout(() => {
         document.body.removeChild(iframe);
         if (Date.now() - startTime < 2500) {
@@ -894,9 +994,6 @@
       }, 1500);
     }
 
-    /**
-     * Ouvre un smart link Spotify : essaie l'app d'abord, fallback navigateur
-     */
     function openSpotifySmart(artist, title) {
       const query = `${artist} ${title}`;
       const encodedQuery = encodeURIComponent(query);
@@ -906,13 +1003,11 @@
       
       const startTime = Date.now();
       
-      // Essayer d'ouvrir l'app
       const iframe = document.createElement('iframe');
       iframe.style.display = 'none';
       iframe.src = appUrl;
       document.body.appendChild(iframe);
       
-      // Fallback navigateur après 1.5s
       setTimeout(() => {
         document.body.removeChild(iframe);
         if (Date.now() - startTime < 2500) {
@@ -921,9 +1016,6 @@
       }, 1500);
     }
 
-    /**
-     * Génère l'URL d'écoute pour un titre et une plateforme.
-     */
     function generateListenUrl(entry, platform) {
       const title = entry.track.title;
       const artist = entry.track.artist;
@@ -947,23 +1039,18 @@
       }
     }
 
-    /**
-     * Crée les boutons d'écoute avec smart links pour Deezer et Spotify
-     */
     function createListenButtons(entry) {
       const hasDeezer = !!entry.deezer_url;
       const hasYoutube = !!entry.youtube_url;
       const deezerId = entry.deezer_id;
       
-      // Bouton YouTube
       const youtubeBtn = `
         <a href="${generateListenUrl(entry, 'youtube')}" target="_blank" rel="noopener" 
            class="listen-btn youtube ${hasYoutube ? 'direct' : ''}" 
-           title="${hasYoutube ? 'Lien direct YouTube' : 'Recherche YouTube'}">
+           title="${hasYoutube ? 'Lien direct YouTube (vidéo officielle)' : 'Recherche YouTube'}">
           ▶️ YouTube${hasYoutube ? '<span class="direct-indicator"></span>' : ''}
         </a>`;
       
-      // Bouton Spotify avec smart link
       const spotifyBtn = `
         <a href="#" onclick="event.preventDefault(); openSpotifySmart('${escapeHtml(entry.track.artist).replace(/'/g, "\\'")}', '${escapeHtml(entry.track.title).replace(/'/g, "\\'")}'); return false;" 
            class="listen-btn spotify" 
@@ -971,18 +1058,16 @@
           🎵 Spotify<span class="app-badge">📱 App</span>
         </a>`;
       
-      // Bouton Deezer avec smart link
       const deezerBtn = deezerId 
         ? `<a href="#" onclick="event.preventDefault(); openDeezerSmart(${deezerId}); return false;" 
              class="listen-btn deezer direct" 
-             title="Ouvre dans l'app Deezer si installée, sinon dans le navigateur">
+             title="Ouvre dans l'app Deezer si installée (piste exacte), sinon dans le navigateur">
              🎧 Deezer<span class="direct-indicator"></span><span class="app-badge">📱 App</span>
            </a>`
         : `<a href="${generateListenUrl(entry, 'deezer')}" target="_blank" rel="noopener" class="listen-btn deezer">
              🎧 Deezer
            </a>`;
       
-      // Bouton Amazon (classique)
       const amazonBtn = `
         <a href="${generateListenUrl(entry, 'amazon')}" target="_blank" rel="noopener" class="listen-btn amazon">
           📀 Amazon
@@ -996,6 +1081,102 @@
           ${amazonBtn}
         </div>
       `;
+    }
+
+    function generateYouTubePlaylistUrl() {
+      const withIds = CURRENT_ENTRIES.filter(e => e.youtube_id);
+      
+      if (withIds.length === 0) {
+        return null;
+      }
+      
+      const videoIds = withIds.map(e => e.youtube_id).join(',');
+      return `https://www.youtube.com/watch_videos?video_ids=${videoIds}`;
+    }
+
+    function createYouTubePlaylist() {
+      const entries = CURRENT_ENTRIES.slice(0, 50);
+      
+      if (entries.length === 0) {
+        alert("Aucun titre !");
+        return;
+      }
+      
+      const withIds = entries.filter(e => e.youtube_id);
+      
+      if (withIds.length === 0) {
+        playlistStatus.innerHTML = `
+          <div class="modal-intro" style="background: var(--warning-bg);">
+            <strong style="color: var(--warning);">⚠️ Aucun ID YouTube trouvé</strong><br>
+            Les titres n'ont pas encore été enrichis avec les IDs YouTube.
+          </div>
+        `;
+        
+        entries.slice(0, 5).forEach((entry, i) => {
+          setTimeout(() => {
+            window.open(generateListenUrl(entry, 'youtube'), '_blank');
+          }, i * 300);
+        });
+        
+        return;
+      }
+      
+      const playlistUrl = generateYouTubePlaylistUrl();
+      window.open(playlistUrl, '_blank');
+      
+      playlistStatus.innerHTML = `
+        <div class="playlist-success">
+          <strong>✅ Playlist YouTube créée avec succès !</strong><br>
+          ${withIds.length} titres jouables automatiquement.<br><br>
+          <strong>💡 Astuce :</strong> Pour ouvrir dans une autre app (Umihi, Simpmusic, etc.), 
+          utilisez le bouton "📤 Partager" qui ouvrira le menu de partage Android.
+        </div>
+      `;
+    }
+
+    function shareYouTubePlaylist() {
+      const playlistUrl = generateYouTubePlaylistUrl();
+      
+      if (!playlistUrl) {
+        alert("⚠️ Aucun titre avec ID YouTube disponible pour le partage.");
+        return;
+      }
+      
+      const entries = CURRENT_ENTRIES.filter(e => e.youtube_id);
+      
+      // Utiliser l'API Web Share si disponible (Android/iOS)
+      if (navigator.share) {
+        navigator.share({
+          title: 'Top Singles Hebdo - Playlist YouTube',
+          text: `${entries.length} titres du classement musical`,
+          url: playlistUrl
+        }).then(() => {
+          console.log('Playlist partagée avec succès');
+        }).catch((error) => {
+          console.log('Erreur lors du partage:', error);
+          // Fallback : copier le lien
+          copyToClipboard(playlistUrl);
+          alert(`📋 Lien copié !\n\nVous pouvez le coller dans votre app préférée.`);
+        });
+      } else {
+        // Fallback pour les navigateurs qui ne supportent pas Web Share
+        copyToClipboard(playlistUrl);
+        alert(`📋 Lien copié !\n\nVous pouvez le coller dans votre app préférée.\n\nLien : ${playlistUrl}`);
+      }
+    }
+
+    function copyToClipboard(text) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text);
+      } else {
+        // Fallback pour anciens navigateurs
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+      }
     }
 
     function exportToCSV(entries) {
@@ -1064,7 +1245,7 @@
             <div class="track-info">
               <div class="track-title">
                 ${escapeHtml(entry.track.title)}
-                ${hasYt ? '<span class="direct-indicator" title="Lien YouTube direct"></span>' : ''}
+                ${hasYt ? '<span class="direct-indicator" title="Lien YouTube direct (vidéo officielle)"></span>' : ''}
               </div>
               <div class="track-artist">${escapeHtml(entry.track.artist)}</div>
             </div>
@@ -1085,61 +1266,6 @@
       const key = `${entry.track.title}|${entry.track.artist}`.toLowerCase();
       ADDED_TRACKS.add(key);
       localStorage.setItem('addedTracks', JSON.stringify(Array.from(ADDED_TRACKS)));
-      
-      renderTrackList();
-    }
-
-    function createYouTubePlaylist() {
-      const entries = CURRENT_ENTRIES.slice(0, 50);
-      
-      if (entries.length === 0) {
-        alert("Aucun titre !");
-        return;
-      }
-      
-      const withIds = entries.filter(e => e.youtube_id);
-      const withoutIds = entries.filter(e => !e.youtube_id);
-      
-      if (withIds.length === 0) {
-        playlistStatus.innerHTML = `
-          <div class="modal-intro" style="background: var(--warning-bg);">
-            <strong style="color: var(--warning);">⚠️ Aucun ID YouTube trouvé</strong><br>
-            Les titres n'ont pas encore été enrichis avec les IDs YouTube.
-            Ouvrez-les individuellement pour les rechercher.
-          </div>
-        `;
-        
-        entries.slice(0, 5).forEach((entry, i) => {
-          setTimeout(() => {
-            window.open(generateListenUrl(entry, 'youtube'), '_blank');
-          }, i * 300);
-        });
-        
-        return;
-      }
-      
-      const videoIds = withIds.map(e => e.youtube_id).join(',');
-      const playlistUrl = `https://www.youtube.com/watch_videos?video_ids=${videoIds}`;
-      
-      window.open(playlistUrl, '_blank');
-      
-      withIds.forEach(entry => {
-        const key = `${entry.track.title}|${entry.track.artist}`.toLowerCase();
-        ADDED_TRACKS.add(key);
-      });
-      localStorage.setItem('addedTracks', JSON.stringify(Array.from(ADDED_TRACKS)));
-      
-      playlistStatus.innerHTML = `
-        <div class="playlist-success">
-          <strong>✅ Playlist YouTube créée avec succès !</strong><br>
-          ${withIds.length} titres jouables automatiquement dans YouTube.<br>
-          ${withoutIds.length > 0 ? `⚠️ ${withoutIds.length} titre(s) sans ID YouTube non inclus.` : ''}
-          <br><br>
-          <strong>Pour la sauvegarder dans votre compte :</strong><br>
-          1. Cliquez sur "Enregistrer" dans le lecteur YouTube<br>
-          2. Créez une nouvelle playlist avec le nom de votre choix
-        </div>
-      `;
       
       renderTrackList();
     }
@@ -1165,6 +1291,123 @@
         playlistStatus.innerHTML = '';
       }
     }
+
+    // ===== SECTION RÉTRO =====
+
+    function initRetroSelectors() {
+      const currentYear = new Date().getFullYear();
+      const startYear = 1984;
+      
+      // Remplir les années
+      for (let year = currentYear; year >= startYear; year--) {
+        const option = document.createElement('option');
+        option.value = year;
+        option.textContent = year;
+        retroYear.appendChild(option);
+      }
+      
+      // Remplir les semaines
+      for (let week = 1; week <= 52; week++) {
+        const option = document.createElement('option');
+        option.value = week;
+        option.textContent = `Semaine ${week}`;
+        retroWeek.appendChild(option);
+      }
+    }
+
+    function openRetroModal() {
+      retroModal.classList.add("active");
+    }
+
+    function closeRetroModal() {
+      retroModal.classList.remove("active");
+    }
+
+    async function loadArchive() {
+      const year = retroYear.value;
+      const week = retroWeek.value;
+      
+      retroContent.innerHTML = `
+        <div class="loading">
+          <p>📥 Chargement de l'archive Top 50 - Semaine ${week}/${year}...</p>
+        </div>
+      `;
+      
+      try {
+        // Essayer de charger l'archive depuis data/archives/
+        const response = await fetch(`data/archives/top50-${year}-${week.padStart(2, '0')}.json`);
+        
+        if (!response.ok) {
+          throw new Error("Archive non trouvée localement");
+        }
+        
+        const data = await response.json();
+        displayArchive(data);
+        
+      } catch (error) {
+        // Si l'archive n'existe pas localement, proposer de la télécharger
+        retroContent.innerHTML = `
+          <div class="modal-intro" style="background: var(--warning-bg);">
+            <strong style="color: var(--warning);">⚠️ Archive non trouvée</strong><br>
+            L'archive pour la semaine ${week}/${year} n'a pas encore été téléchargée.
+            <br><br>
+            <strong>Pour la télécharger :</strong><br>
+            Exécutez localement : <code>python fetch_archive.py --year ${year} --week ${week}</code>
+            <br><br>
+            Puis uploadez le fichier <code>data/archives/top50-${year}-${week.padStart(2, '0')}.json</code> 
+            dans votre dépôt GitHub.
+          </div>
+        `;
+      }
+    }
+
+    function displayArchive(archiveData) {
+      const entries = archiveData.entries || [];
+      
+      if (entries.length === 0) {
+        retroContent.innerHTML = `<div class="empty">Aucune donnée trouvée pour cette archive.</div>`;
+        return;
+      }
+      
+      let html = `
+        <div class="chart-header">
+          <div>
+            <h2 style="font-size: 22px;">Top 50 - ${archiveData.date || `Semaine ${archiveData.week}/${archiveData.year}`}</h2>
+            <p>Archives lescharts.com</p>
+          </div>
+        </div>
+      `;
+      
+      html += entries.map((entry, index) => `
+        <div class="row">
+          <div class="rank ${entry.position <= 3 ? "top" : ""}">${entry.position}</div>
+          <div class="movement same">📼 Archive</div>
+          <div class="cover">${initials(entry.track.title)}</div>
+          <div class="meta">
+            <div class="title">${escapeHtml(entry.track.title)}</div>
+            <div class="artist">${escapeHtml(entry.track.artist)}</div>
+          </div>
+          <div class="details">
+            <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(entry.track.artist + ' ' + entry.track.title)}" 
+               target="_blank" rel="noopener" class="listen-btn youtube">
+              ▶️ YouTube
+            </a>
+            <a href="https://open.spotify.com/search/${encodeURIComponent(entry.track.artist + ' ' + entry.track.title)}" 
+               target="_blank" rel="noopener" class="listen-btn spotify">
+              🎵 Spotify
+            </a>
+            <a href="https://www.deezer.com/search/${encodeURIComponent(entry.track.artist + ' ' + entry.track.title)}/tracks" 
+               target="_blank" rel="noopener" class="listen-btn deezer">
+              🎧 Deezer
+            </a>
+          </div>
+        </div>
+      `).join('');
+      
+      retroContent.innerHTML = html;
+    }
+
+    // ===== FONCTIONS PRINCIPALES =====
 
     async function loadChartData() {
       try {
@@ -1323,7 +1566,6 @@
         const fullChart = CHARTS_DATA.countries[countryCode]?.chart || [];
 
         const upCount = fullChart.filter((e) => e.movement === "up").length;
-        const newCount = fullChart.filter((e) => e.movement === "new").length;
         const directCount = fullChart.filter((e) => e.youtube_id || e.deezer_id).length;
 
         statsBar.innerHTML = `
@@ -1505,6 +1747,7 @@
       applyTheme(current);
     }
 
+    // Écouteurs d'événements
     regionSelect.addEventListener("change", () => {
       populateCountries();
       render();
@@ -1520,14 +1763,23 @@
     themeToggle.addEventListener("click", toggleTheme);
     refreshBtn.addEventListener("click", loadChartData);
     playlistBtn.addEventListener("click", openPlaylistModal);
+    shareBtn.addEventListener("click", shareYouTubePlaylist);
     exportBtn.addEventListener("click", () => exportToCSV(CURRENT_ENTRIES));
+    retroBtn.addEventListener("click", openRetroModal);
     modalClose.addEventListener("click", closePlaylistModal);
     createPlaylistBtn.addEventListener("click", createYouTubePlaylist);
+    sharePlaylistBtn.addEventListener("click", shareYouTubePlaylist);
     copyListBtn.addEventListener("click", copyTrackList);
     resetBtn.addEventListener("click", resetAddedTracks);
+    retroClose.addEventListener("click", closeRetroModal);
+    loadArchiveBtn.addEventListener("click", loadArchive);
 
     playlistModal.addEventListener("click", (e) => {
       if (e.target === playlistModal) closePlaylistModal();
+    });
+
+    retroModal.addEventListener("click", (e) => {
+      if (e.target === retroModal) closeRetroModal();
     });
 
     const savedTheme =
@@ -1535,6 +1787,9 @@
       (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
 
     applyTheme(savedTheme);
+
+    // Initialiser les sélecteurs rétro
+    initRetroSelectors();
 
     loadChartData();
   </script>
