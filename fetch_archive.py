@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
 Script pour récupérer les archives du Top 50 français depuis lescharts.com.
+Utilise un cache séparé avec nettoyage manuel par année.
+
 Exécution : python fetch_archive.py --year 1995 --week 23
+Nettoyage : python fetch_archive.py --clean-year 1995
+Liste     : python fetch_archive.py --list
 """
 
 import json
@@ -17,14 +21,74 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
 
+# Cache séparé pour les archives rétro (pas de nettoyage automatique)
+CACHE_DIR = "data/cache"
+CACHE_RETRO_FILE = os.path.join(CACHE_DIR, "retro_archives.json")
+
+def load_retro_cache():
+    """Charge le cache des archives rétro"""
+    if os.path.exists(CACHE_RETRO_FILE):
+        try:
+            with open(CACHE_RETRO_FILE, 'r', encoding='utf-8') as f:
+                cache = json.load(f)
+            print(f"📦 Cache rétro chargé : {len(cache)} archives en mémoire")
+            return cache
+        except Exception as e:
+            print(f"⚠️ Erreur lors du chargement du cache rétro: {e}")
+            return {}
+    return {}
+
+def save_retro_cache(cache):
+    """Sauvegarde le cache des archives rétro"""
+    try:
+        os.makedirs(CACHE_DIR, exist_ok=True)
+        with open(CACHE_RETRO_FILE, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2)
+        print(f"💾 Cache rétro sauvegardé : {len(cache)} archives au total")
+    except Exception as e:
+        print(f"⚠️ Erreur lors de la sauvegarde du cache rétro: {e}")
+
+def get_retro_cache_key(year, week):
+    """Génère la clé de cache pour une archive"""
+    return f"{year}-{week:02d}"
+
+def clean_retro_cache_by_year(year):
+    """
+    Nettoie manuellement le cache rétro pour une année spécifique.
+    Retourne le nombre d'entrées supprimées.
+    """
+    cache = load_retro_cache()
+    
+    if not cache:
+        print("❌ Le cache rétro est vide")
+        return 0
+    
+    keys_to_remove = [key for key in cache.keys() if key.startswith(f"{year}-")]
+    
+    for key in keys_to_remove:
+        del cache[key]
+    
+    if keys_to_remove:
+        save_retro_cache(cache)
+        print(f"🧹 Nettoyage manuel : {len(keys_to_remove)} archives de {year} supprimées")
+        print(f"   Cache restant : {len(cache)} archives")
+    else:
+        print(f"ℹ️ Aucune archive trouvée pour l'année {year}")
+    
+    return len(keys_to_remove)
+
 def fetch_top50_archive(year, week):
-    """
-    Récupère le Top 50 français pour une année et semaine données.
-    Source : lescharts.com
-    """
+    """Récupère le Top 50 français pour une année et semaine données"""
+    cache_key = get_retro_cache_key(year, week)
+    cache = load_retro_cache()
+    
+    # Vérifier d'abord le cache
+    if cache_key in cache:
+        print(f"✅ Archive trouvée dans le cache (pas de nouvelle requête)")
+        return cache[cache_key]
+    
     print(f"📅 Récupération du Top 50 - Semaine {week}/{year}...")
     
-    # lescharts.com utilise le format : weekchart.asp?cat=s&week=XX&year=YYYY
     url = f"https://lescharts.com/weekchart.asp?cat=s&week={week}&year={year}"
     
     try:
@@ -44,7 +108,7 @@ def fetch_top50_archive(year, week):
         if table:
             rows = table.find_all('tr')
             
-            for row in rows[1:51]:  # 50 premiers
+            for row in rows[1:51]:
                 cells = row.find_all('td')
                 
                 if len(cells) >= 3:
@@ -54,16 +118,13 @@ def fetch_top50_archive(year, week):
                     if rank_match:
                         rank = int(rank_match.group())
                         
-                        # Extraire artiste et titre
                         text = row.get_text(separator='|', strip=True)
                         parts = [p.strip() for p in text.split('|') if p.strip()]
                         
                         if len(parts) >= 3:
-                            # Format généralement : rang | artiste | titre
                             artist = parts[1]
                             title = parts[2]
                             
-                            # Nettoyer les titres
                             title = re.sub(r'\s+', ' ', title).strip()
                             artist = re.sub(r'\s+', ' ', artist).strip()
                             
@@ -117,21 +178,26 @@ def fetch_top50_archive(year, week):
                             })
         
         if entries:
-            # Trier par position
             entries.sort(key=lambda x: x["position"])
-            print(f"  ✅ {len(entries)} entrées trouvées")
             
-            # Afficher les 3 premiers
+            archive_data = {
+                "week": week,
+                "year": year,
+                "date": f"Semaine {week}/{year}",
+                "entries": entries,
+                "cached_at": datetime.now().strftime('%Y-%m-%d')
+            }
+            
+            # Sauvegarder dans le cache rétro
+            cache[cache_key] = archive_data
+            save_retro_cache(cache)
+            
+            print(f"  ✅ {len(entries)} entrées trouvées et mises en cache")
             print(f"  📊 Top 3 :")
             for entry in entries[:3]:
                 print(f"     {entry['position']}. {entry['track']['artist']} - {entry['track']['title']}")
             
-            return {
-                "week": week,
-                "year": year,
-                "date": f"Semaine {week}/{year}",
-                "entries": entries
-            }
+            return archive_data
         else:
             print(f"  ❌ Aucune entrée trouvée")
             return None
@@ -140,52 +206,69 @@ def fetch_top50_archive(year, week):
         print(f"  ❌ Erreur: {e}")
         return None
 
-def get_available_archives():
-    """Liste les archives disponibles de 1984 à l'année actuelle"""
-    current_year = datetime.now().year
-    archives = []
+def list_archives():
+    """Liste toutes les archives disponibles dans le cache"""
+    cache = load_retro_cache()
     
-    # Le Top 50 a commencé en novembre 1984
-    for year in range(1984, current_year + 1):
-        # Calculer le nombre de semaines (52 ou 53)
-        weeks = 52
-        archives.append({"year": year, "weeks": weeks})
+    if not cache:
+        print("📭 Le cache rétro est vide")
+        print("   Utilisez : python fetch_archive.py --year YYYY --week WW")
+        return
     
-    return archives
+    # Grouper par année
+    archives_by_year = {}
+    for key in cache.keys():
+        year, week = key.split('-')
+        if year not in archives_by_year:
+            archives_by_year[year] = []
+        archives_by_year[year].append(int(week))
+    
+    print(f"\n📚 Archives disponibles ({len(cache)} au total) :")
+    print(f"{'='*50}")
+    
+    for year in sorted(archives_by_year.keys(), reverse=True):
+        weeks = sorted(archives_by_year[year])
+        weeks_str = ', '.join([f"S{w}" for w in weeks])
+        print(f"   {year} : {len(weeks)} archives ({weeks_str})")
+    
+    print(f"{'='*50}")
+    print(f"\n💡 Pour nettoyer une année : python fetch_archive.py --clean-year YYYY")
 
 def main():
-    parser = argparse.ArgumentParser(description='Récupère les archives du Top 50 français')
+    parser = argparse.ArgumentParser(description='Gère les archives du Top 50 français')
     parser.add_argument('--year', type=int, help='Année (ex: 1995)')
     parser.add_argument('--week', type=int, help='Semaine (ex: 23)')
     parser.add_argument('--list', action='store_true', help='Lister les archives disponibles')
+    parser.add_argument('--clean-year', type=int, help='Nettoyer le cache pour une année spécifique')
     
     args = parser.parse_args()
     
+    if args.clean_year:
+        clean_retro_cache_by_year(args.clean_year)
+        return
+    
     if args.list:
-        print("📚 Archives disponibles :")
-        print("   De 1984 à aujourd'hui, 52 semaines par an")
-        print("   Exemple : python fetch_archive.py --year 1995 --week 23")
+        list_archives()
         return
     
     if not args.year or not args.week:
         print("❌ Veuillez spécifier --year et --week")
         print("   Exemple : python fetch_archive.py --year 1995 --week 23")
+        print("   Aide : python fetch_archive.py --help")
         sys.exit(1)
     
-    # Récupérer l'archive
+    if args.week < 1 or args.week > 53:
+        print("❌ La semaine doit être entre 1 et 53")
+        sys.exit(1)
+    
+    if args.year < 1984 or args.year > datetime.now().year:
+        print(f"❌ L'année doit être entre 1984 et {datetime.now().year}")
+        sys.exit(1)
+    
     archive_data = fetch_top50_archive(args.year, args.week)
     
     if archive_data:
-        # Sauvegarder dans data/archives/
-        output_dir = "data/archives"
-        os.makedirs(output_dir, exist_ok=True)
-        
-        filename = f"{output_dir}/top50-{args.year}-{args.week:02d}.json"
-        
-        with open(filename, "w", encoding="utf-8") as f:
-            json.dump(archive_data, f, ensure_ascii=False, indent=2)
-        
-        print(f"\n✅ Archive sauvegardée : {filename}")
+        print(f"\n✅ Archive prête : Semaine {args.week}/{args.year}")
     else:
         print(f"\n❌ Impossible de récupérer l'archive")
         sys.exit(1)
