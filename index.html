@@ -281,7 +281,7 @@
 
     .table-head, .row {
       display: grid;
-      grid-template-columns: 64px 110px 56px minmax(220px, 1fr) auto;
+      grid-template-columns: 64px 110px 60px minmax(220px, 1fr) auto;
       gap: 16px;
       align-items: center;
       padding: 13px 14px;
@@ -341,8 +341,8 @@
     .movement.score { color: var(--accent); background: var(--accent-bg); }
 
     .cover {
-      width: 52px;
-      height: 52px;
+      width: 56px;
+      height: 56px;
       border-radius: 18px;
       display: grid;
       place-items: center;
@@ -351,6 +351,8 @@
       letter-spacing: 0.02em;
       box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
       background: linear-gradient(135deg, #6366f1, #a855f7);
+      background-size: cover;
+      background-position: center;
     }
 
     .meta { min-width: 0; }
@@ -400,6 +402,7 @@
       display: flex;
       gap: 6px;
       margin-top: 10px;
+      flex-wrap: wrap;
     }
 
     .listen-btn {
@@ -416,6 +419,7 @@
       gap: 4px;
       transition: all 0.15s ease;
       font-weight: 500;
+      position: relative;
     }
 
     .listen-btn:hover {
@@ -428,6 +432,41 @@
     .listen-btn.spotify:hover { border-color: #1db954; color: #1db954; }
     .listen-btn.deezer:hover { border-color: #ff0092; color: #ff0092; }
     .listen-btn.amazon:hover { border-color: #ff9900; color: #ff9900; }
+
+    .listen-btn.direct {
+      border-color: var(--success);
+      background: var(--success-bg);
+      color: var(--success);
+      font-weight: 600;
+    }
+
+    .listen-btn.deezer.direct {
+      background: linear-gradient(135deg, rgba(255, 0, 146, 0.1), rgba(255, 0, 146, 0.05));
+    }
+
+    .listen-btn.spotify.direct {
+      background: linear-gradient(135deg, rgba(29, 185, 84, 0.1), rgba(29, 185, 84, 0.05));
+    }
+
+    .direct-indicator {
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background: var(--success);
+      border-radius: 50%;
+      margin-left: 4px;
+    }
+
+    .app-badge {
+      font-size: 9px;
+      margin-left: 4px;
+      opacity: 0.8;
+      background: var(--accent-bg);
+      padding: 2px 5px;
+      border-radius: 4px;
+      color: var(--accent);
+      font-weight: 700;
+    }
 
     .empty {
       padding: 48px 20px;
@@ -518,6 +557,20 @@
 
     .modal-intro strong {
       color: var(--accent);
+    }
+
+    .playlist-success {
+      background: var(--success-bg);
+      padding: 16px;
+      border-radius: 16px;
+      margin-bottom: 20px;
+      color: var(--text);
+      line-height: 1.5;
+      border: 1px solid var(--success);
+    }
+
+    .playlist-success strong {
+      color: var(--success);
     }
 
     .modal-actions {
@@ -628,7 +681,7 @@
     @media (max-width: 820px) {
       .table-head { display: none; }
       .row {
-        grid-template-columns: auto auto 52px 1fr;
+        grid-template-columns: auto auto 56px 1fr;
         grid-template-areas:
           "rank movement cover meta"
           "details details details details";
@@ -650,7 +703,7 @@
           "cover meta"
           "details details";
       }
-      .cover { width: 44px; height: 44px; border-radius: 14px; }
+      .cover { width: 48px; height: 48px; border-radius: 14px; }
       .legend { justify-content: flex-start; }
       .listen-buttons { flex-wrap: wrap; }
       .modal { max-height: 90vh; }
@@ -666,7 +719,7 @@
       <div>
         <h1>Top Singles Hebdo</h1>
         <p>
-          Synthèse hebdomadaire des tops singles officiels — Europe, pays anglo-saxons, Amérique du Sud.
+          Synthèse hebdomadaire des tops singles officiels — Europe, pays anglo-saxons, Amérique du Sud, Asie.
         </p>
       </div>
 
@@ -722,6 +775,8 @@
             <span class="chip">▼ Baisse</span>
             <span class="chip new">✦ Entrée</span>
             <span class="chip">● Stable</span>
+            <span class="chip success">● = lien direct</span>
+            <span class="chip">📱 = ouvre dans l'app</span>
           </div>
         </div>
 
@@ -743,14 +798,16 @@
         <button class="modal-close" id="modalClose">×</button>
       </div>
       <div class="modal-body">
-        <div class="modal-intro">
+        <div id="playlistStatus"></div>
+
+        <div class="modal-intro" id="modalIntro">
           <strong>Comment ça fonctionne ?</strong><br>
-          Cliquez sur "Ouvrir" pour chaque titre. YouTube s'ouvrira et vous pourrez ajouter la vidéo à votre playlist. 
-          Utilisez "Tout ouvrir" pour ouvrir tous les titres d'un coup (un onglet par titre).
+          Les titres avec un <span class="direct-indicator"></span> ont un lien direct YouTube.
+          Cliquez sur "Créer la playlist" pour ouvrir une vraie playlist YouTube avec ces titres.
         </div>
 
         <div class="modal-actions">
-          <button class="button button-primary" id="openAllBtn">🚀 Tout ouvrir (<span id="totalCount">0</span> titres)</button>
+          <button class="button button-primary" id="createPlaylistBtn">🎬 Créer la playlist YouTube</button>
           <button class="button" id="copyListBtn">📋 Copier la liste</button>
           <button class="button" id="resetBtn">♻️ Réinitialiser</button>
         </div>
@@ -788,10 +845,10 @@
     const playlistModal = document.getElementById("playlistModal");
     const modalClose = document.getElementById("modalClose");
     const trackList = document.getElementById("trackList");
-    const openAllBtn = document.getElementById("openAllBtn");
+    const createPlaylistBtn = document.getElementById("createPlaylistBtn");
     const copyListBtn = document.getElementById("copyListBtn");
     const resetBtn = document.getElementById("resetBtn");
-    const totalCount = document.getElementById("totalCount");
+    const playlistStatus = document.getElementById("playlistStatus");
 
     function escapeHtml(value) {
       return String(value)
@@ -813,36 +870,130 @@
       return "● Stable";
     }
 
-    function generateSearchUrl(platform, title, artist) {
+    /**
+     * Ouvre un smart link Deezer : essaie l'app d'abord, fallback navigateur
+     */
+    function openDeezerSmart(deezerId) {
+      const appUrl = `deezer://track/${deezerId}`;
+      const webUrl = `https://www.deezer.com/track/${deezerId}`;
+      
+      const startTime = Date.now();
+      
+      // Essayer d'ouvrir l'app
+      const iframe = document.createElement('iframe');
+      iframe.style.display = 'none';
+      iframe.src = appUrl;
+      document.body.appendChild(iframe);
+      
+      // Si on est toujours sur la page après 1.5s, l'app n'est pas installée
+      setTimeout(() => {
+        document.body.removeChild(iframe);
+        if (Date.now() - startTime < 2500) {
+          window.open(webUrl, '_blank');
+        }
+      }, 1500);
+    }
+
+    /**
+     * Ouvre un smart link Spotify : essaie l'app d'abord, fallback navigateur
+     */
+    function openSpotifySmart(artist, title) {
+      const query = `${artist} ${title}`;
+      const encodedQuery = encodeURIComponent(query);
+      
+      const appUrl = `spotify://search/${encodedQuery}`;
+      const webUrl = `https://open.spotify.com/search/${encodedQuery}`;
+      
+      const startTime = Date.now();
+      
+      // Essayer d'ouvrir l'app
+      const iframe = document.createElement('iframe');
+      iframe.style.display = 'none';
+      iframe.src = appUrl;
+      document.body.appendChild(iframe);
+      
+      // Fallback navigateur après 1.5s
+      setTimeout(() => {
+        document.body.removeChild(iframe);
+        if (Date.now() - startTime < 2500) {
+          window.open(webUrl, '_blank');
+        }
+      }, 1500);
+    }
+
+    /**
+     * Génère l'URL d'écoute pour un titre et une plateforme.
+     */
+    function generateListenUrl(entry, platform) {
+      const title = entry.track.title;
+      const artist = entry.track.artist;
       const query = encodeURIComponent(`${artist} ${title}`);
+      
+      if (platform === 'youtube' && entry.youtube_url) {
+        return entry.youtube_url;
+      }
+      
       switch(platform) {
-        case 'youtube': return `https://www.youtube.com/results?search_query=${query}`;
-        case 'spotify': return `https://open.spotify.com/search/${query}`;
-        case 'deezer': return `https://www.deezer.com/search/${query}`;
-        case 'amazon': return `https://music.amazon.com/search/${query}`;
-        default: return '#';
+        case 'youtube': 
+          return `https://www.youtube.com/results?search_query=${query}`;
+        case 'spotify': 
+          return `https://open.spotify.com/search/${query}`;
+        case 'deezer': 
+          return entry.deezer_url || `https://www.deezer.com/search/${query}/tracks`;
+        case 'amazon': 
+          return `https://music.amazon.com/search/${query}`;
+        default: 
+          return '#';
       }
     }
 
-    function generateYouTubeSearchUrl(title, artist) {
-      const query = encodeURIComponent(`${artist} ${title}`);
-      return `https://www.youtube.com/results?search_query=${query}`;
-    }
-
-    function getTrackKey(entry) {
-      return `${entry.track.title}|${entry.track.artist}`.toLowerCase();
-    }
-
+    /**
+     * Crée les boutons d'écoute avec smart links pour Deezer et Spotify
+     */
     function createListenButtons(entry) {
-      const title = entry.track.title;
-      const artist = entry.track.artist;
+      const hasDeezer = !!entry.deezer_url;
+      const hasYoutube = !!entry.youtube_url;
+      const deezerId = entry.deezer_id;
+      
+      // Bouton YouTube
+      const youtubeBtn = `
+        <a href="${generateListenUrl(entry, 'youtube')}" target="_blank" rel="noopener" 
+           class="listen-btn youtube ${hasYoutube ? 'direct' : ''}" 
+           title="${hasYoutube ? 'Lien direct YouTube' : 'Recherche YouTube'}">
+          ▶️ YouTube${hasYoutube ? '<span class="direct-indicator"></span>' : ''}
+        </a>`;
+      
+      // Bouton Spotify avec smart link
+      const spotifyBtn = `
+        <a href="#" onclick="event.preventDefault(); openSpotifySmart('${escapeHtml(entry.track.artist).replace(/'/g, "\\'")}', '${escapeHtml(entry.track.title).replace(/'/g, "\\'")}'); return false;" 
+           class="listen-btn spotify" 
+           title="Ouvre dans l'app Spotify si installée, sinon dans le navigateur">
+          🎵 Spotify<span class="app-badge">📱 App</span>
+        </a>`;
+      
+      // Bouton Deezer avec smart link
+      const deezerBtn = deezerId 
+        ? `<a href="#" onclick="event.preventDefault(); openDeezerSmart(${deezerId}); return false;" 
+             class="listen-btn deezer direct" 
+             title="Ouvre dans l'app Deezer si installée, sinon dans le navigateur">
+             🎧 Deezer<span class="direct-indicator"></span><span class="app-badge">📱 App</span>
+           </a>`
+        : `<a href="${generateListenUrl(entry, 'deezer')}" target="_blank" rel="noopener" class="listen-btn deezer">
+             🎧 Deezer
+           </a>`;
+      
+      // Bouton Amazon (classique)
+      const amazonBtn = `
+        <a href="${generateListenUrl(entry, 'amazon')}" target="_blank" rel="noopener" class="listen-btn amazon">
+          📀 Amazon
+        </a>`;
       
       return `
         <div class="listen-buttons">
-          <a href="${generateSearchUrl('youtube', title, artist)}" target="_blank" rel="noopener" class="listen-btn youtube">▶️ YouTube</a>
-          <a href="${generateSearchUrl('spotify', title, artist)}" target="_blank" rel="noopener" class="listen-btn spotify">🎵 Spotify</a>
-          <a href="${generateSearchUrl('deezer', title, artist)}" target="_blank" rel="noopener" class="listen-btn deezer">🎧 Deezer</a>
-          <a href="${generateSearchUrl('amazon', title, artist)}" target="_blank" rel="noopener" class="listen-btn amazon">📀 Amazon</a>
+          ${youtubeBtn}
+          ${spotifyBtn}
+          ${deezerBtn}
+          ${amazonBtn}
         </div>
       `;
     }
@@ -853,7 +1004,7 @@
         return;
       }
 
-      let csv = "Position,Titre,Artiste,Évolution,Semaines,Pic\n";
+      let csv = "Position,Titre,Artiste,Évolution,Semaines,Pic,YouTube ID,Deezer ID\n";
       
       entries.forEach(entry => {
         const row = [
@@ -862,7 +1013,9 @@
           `"${entry.track.artist.replace(/"/g, '""')}"`,
           entry.movement,
           entry.weeksOnChart,
-          entry.peakPosition
+          entry.peakPosition,
+          entry.youtube_id || '',
+          entry.deezer_id || ''
         ].join(',');
         csv += row + "\n";
       });
@@ -888,6 +1041,7 @@
         return;
       }
 
+      playlistStatus.innerHTML = '';
       renderTrackList();
       playlistModal.classList.add("active");
     }
@@ -897,66 +1051,97 @@
     }
 
     function renderTrackList() {
-      const entries = CURRENT_ENTRIES.slice(0, 30); // Limiter à 30 pour ne pas surcharger
-      totalCount.textContent = entries.length;
+      const entries = CURRENT_ENTRIES.slice(0, 30);
       
       trackList.innerHTML = entries.map((entry, index) => {
-        const key = getTrackKey(entry);
+        const key = `${entry.track.title}|${entry.track.artist}`.toLowerCase();
         const isAdded = ADDED_TRACKS.has(key);
+        const hasYt = !!entry.youtube_id;
         
         return `
           <div class="track-item ${isAdded ? 'added' : ''}" data-key="${key}">
             <div class="track-number">${entry.position}</div>
             <div class="track-info">
-              <div class="track-title">${escapeHtml(entry.track.title)}</div>
+              <div class="track-title">
+                ${escapeHtml(entry.track.title)}
+                ${hasYt ? '<span class="direct-indicator" title="Lien YouTube direct"></span>' : ''}
+              </div>
               <div class="track-artist">${escapeHtml(entry.track.artist)}</div>
             </div>
-            <button class="track-action" onclick="openTrack('${encodeURIComponent(entry.track.title)}', '${encodeURIComponent(entry.track.artist)}', '${key}')">
-              ${isAdded ? '✓ Ajouté' : '▶ Ouvrir'}
+            <button class="track-action" onclick="openTrackInYouTube(${index})">
+              ${isAdded ? '✓ Ajouté' : (hasYt ? '▶ Direct' : '🔍 Rechercher')}
             </button>
           </div>
         `;
       }).join('');
     }
 
-    function openTrack(title, artist, key) {
-      const decodedTitle = decodeURIComponent(title);
-      const decodedArtist = decodeURIComponent(artist);
-      const url = generateYouTubeSearchUrl(decodedTitle, decodedArtist);
+    function openTrackInYouTube(index) {
+      const entry = CURRENT_ENTRIES[index];
+      const url = generateListenUrl(entry, 'youtube');
       
       window.open(url, '_blank');
       
+      const key = `${entry.track.title}|${entry.track.artist}`.toLowerCase();
       ADDED_TRACKS.add(key);
       localStorage.setItem('addedTracks', JSON.stringify(Array.from(ADDED_TRACKS)));
       
       renderTrackList();
     }
 
-    function openAllTracks() {
-      const entries = CURRENT_ENTRIES.slice(0, 30);
+    function createYouTubePlaylist() {
+      const entries = CURRENT_ENTRIES.slice(0, 50);
       
-      if (entries.length === 0) return;
+      if (entries.length === 0) {
+        alert("Aucun titre !");
+        return;
+      }
       
-      const confirmed = confirm(`⚠️ Attention : ${entries.length} onglets YouTube vont s'ouvrir.\n\nAssurez-vous que votre navigateur autorise l'ouverture de plusieurs fenêtres.\n\nContinuer ?`);
+      const withIds = entries.filter(e => e.youtube_id);
+      const withoutIds = entries.filter(e => !e.youtube_id);
       
-      if (!confirmed) return;
+      if (withIds.length === 0) {
+        playlistStatus.innerHTML = `
+          <div class="modal-intro" style="background: var(--warning-bg);">
+            <strong style="color: var(--warning);">⚠️ Aucun ID YouTube trouvé</strong><br>
+            Les titres n'ont pas encore été enrichis avec les IDs YouTube.
+            Ouvrez-les individuellement pour les rechercher.
+          </div>
+        `;
+        
+        entries.slice(0, 5).forEach((entry, i) => {
+          setTimeout(() => {
+            window.open(generateListenUrl(entry, 'youtube'), '_blank');
+          }, i * 300);
+        });
+        
+        return;
+      }
       
-      entries.forEach((entry, index) => {
-        setTimeout(() => {
-          const url = generateYouTubeSearchUrl(entry.track.title, entry.track.artist);
-          window.open(url, '_blank');
-          
-          const key = getTrackKey(entry);
-          ADDED_TRACKS.add(key);
-        }, index * 500); // Délai de 500ms entre chaque ouverture
+      const videoIds = withIds.map(e => e.youtube_id).join(',');
+      const playlistUrl = `https://www.youtube.com/watch_videos?video_ids=${videoIds}`;
+      
+      window.open(playlistUrl, '_blank');
+      
+      withIds.forEach(entry => {
+        const key = `${entry.track.title}|${entry.track.artist}`.toLowerCase();
+        ADDED_TRACKS.add(key);
       });
-      
       localStorage.setItem('addedTracks', JSON.stringify(Array.from(ADDED_TRACKS)));
       
-      setTimeout(() => {
-        renderTrackList();
-        alert(`✅ ${entries.length} onglets YouTube ouverts !\n\nN'oubliez pas de créer une playlist dans YouTube et d'y ajouter ces vidéos.`);
-      }, entries.length * 500 + 1000);
+      playlistStatus.innerHTML = `
+        <div class="playlist-success">
+          <strong>✅ Playlist YouTube créée avec succès !</strong><br>
+          ${withIds.length} titres jouables automatiquement dans YouTube.<br>
+          ${withoutIds.length > 0 ? `⚠️ ${withoutIds.length} titre(s) sans ID YouTube non inclus.` : ''}
+          <br><br>
+          <strong>Pour la sauvegarder dans votre compte :</strong><br>
+          1. Cliquez sur "Enregistrer" dans le lecteur YouTube<br>
+          2. Créez une nouvelle playlist avec le nom de votre choix
+        </div>
+      `;
+      
+      renderTrackList();
     }
 
     function copyTrackList() {
@@ -977,6 +1162,7 @@
         ADDED_TRACKS.clear();
         localStorage.removeItem('addedTracks');
         renderTrackList();
+        playlistStatus.innerHTML = '';
       }
     }
 
@@ -1089,7 +1275,11 @@
               score: 0,
               countryCodes: new Set(),
               bestPosition: 999,
-              entries: []
+              entries: [],
+              youtube_id: entry.youtube_id,
+              youtube_url: entry.youtube_url,
+              deezer_id: entry.deezer_id,
+              deezer_url: entry.deezer_url
             });
           }
 
@@ -1098,6 +1288,15 @@
           item.countryCodes.add(code);
           item.bestPosition = Math.min(item.bestPosition, entry.position);
           item.entries.push({ ...entry, country: code });
+          
+          if (entry.youtube_id && !item.youtube_id) {
+            item.youtube_id = entry.youtube_id;
+            item.youtube_url = entry.youtube_url;
+          }
+          if (entry.deezer_id && !item.deezer_id) {
+            item.deezer_id = entry.deezer_id;
+            item.deezer_url = entry.deezer_url;
+          }
         });
       });
 
@@ -1125,6 +1324,7 @@
 
         const upCount = fullChart.filter((e) => e.movement === "up").length;
         const newCount = fullChart.filter((e) => e.movement === "new").length;
+        const directCount = fullChart.filter((e) => e.youtube_id || e.deezer_id).length;
 
         statsBar.innerHTML = `
           <div class="stat">
@@ -1140,8 +1340,8 @@
             <div class="stat-label">Progressions</div>
           </div>
           <div class="stat">
-            <div class="stat-value">${newCount}</div>
-            <div class="stat-label">Entrées</div>
+            <div class="stat-value">${directCount}</div>
+            <div class="stat-label">Liens directs</div>
           </div>
         `;
         return;
@@ -1181,11 +1381,18 @@
     }
 
     function countryRow(entry) {
+      const coverStyle = entry.track.artwork 
+        ? `background-image: url('${entry.track.artwork}');` 
+        : '';
+      const coverContent = entry.track.artwork 
+        ? '' 
+        : initials(entry.track.title);
+      
       return `
         <div class="row">
           <div class="rank ${entry.position <= 3 ? "top" : ""}">${entry.position}</div>
           <div class="movement ${entry.movement}">${movementLabel(entry)}</div>
-          <div class="cover">${initials(entry.track.title)}</div>
+          <div class="cover" style="${coverStyle}">${coverContent}</div>
           <div class="meta">
             <div class="title">${escapeHtml(entry.track.title)}</div>
             <div class="artist">${escapeHtml(entry.track.artist)}</div>
@@ -1203,11 +1410,18 @@
     }
 
     function synthesisRow(entry) {
+      const coverStyle = entry.track.artwork 
+        ? `background-image: url('${entry.track.artwork}');` 
+        : '';
+      const coverContent = entry.track.artwork 
+        ? '' 
+        : initials(entry.track.title);
+      
       return `
         <div class="row">
           <div class="rank ${entry.position <= 3 ? "top" : ""}">${entry.position}</div>
           <div class="movement score">Score ${entry.score}</div>
-          <div class="cover">${initials(entry.track.title)}</div>
+          <div class="cover" style="${coverStyle}">${coverContent}</div>
           <div class="meta">
             <div class="title">${escapeHtml(entry.track.title)}</div>
             <div class="artist">${escapeHtml(entry.track.artist)}</div>
@@ -1308,7 +1522,7 @@
     playlistBtn.addEventListener("click", openPlaylistModal);
     exportBtn.addEventListener("click", () => exportToCSV(CURRENT_ENTRIES));
     modalClose.addEventListener("click", closePlaylistModal);
-    openAllBtn.addEventListener("click", openAllTracks);
+    createPlaylistBtn.addEventListener("click", createYouTubePlaylist);
     copyListBtn.addEventListener("click", copyTrackList);
     resetBtn.addEventListener("click", resetAddedTracks);
 
