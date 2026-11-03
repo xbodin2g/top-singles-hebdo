@@ -26,9 +26,11 @@ jobs:
         
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 billboard.py
+          pip install requests beautifulsoup4 billboard.py yt-dlp
         
       - name: Fetch charts
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python fetch_charts.py
       
       - name: Commit and push changes
