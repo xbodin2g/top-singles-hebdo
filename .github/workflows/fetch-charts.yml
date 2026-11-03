@@ -1,0 +1,50 @@
+name: Fetch Music Charts
+
+on:
+  schedule:
+    - cron: '0 10 * * 6'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-charts:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+        
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 billboard.py yt-dlp
+        
+      - name: Fetch charts (with cache auto-cleanup)
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python fetch_charts.py
+      
+      - name: Commit and push changes (including caches)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          git add data/
+          
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "Update charts and caches - $(date +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin main
