@@ -4,7 +4,7 @@
     "week": 45,
     "year": 2026,
     "updatedAt": "2026-11-03",
-    "sourceNote": "✅ 7 sources OK. ❌ 1 échouées.",
+    "sourceNote": "✅ Toutes les sources : 7 tops collectés.",
     "hasStreamingIds": true
   },
   "countries": {
@@ -28,7 +28,8 @@
           "deezer_id": 3602074142,
           "deezer_url": "https://www.deezer.com/track/3602074142",
           "youtube_id": "nUsrYVxrDwI",
-          "youtube_url": "https://www.youtube.com/watch?v=nUsrYVxrDwI"
+          "youtube_url": "https://www.youtube.com/watch?v=nUsrYVxrDwI",
+          "youtube_video_title": "Ella Langley - Choosin&#39; Texas (Official Video)"
         },
         {
           "position": 2,
@@ -41,8 +42,9 @@
           "weeksOnChart": 1,
           "peakPosition": 2,
           "source": "acharts",
-          "youtube_id": "aTAD_t2A7to",
-          "youtube_url": "https://www.youtube.com/watch?v=aTAD_t2A7to"
+          "youtube_id": "DPEodkHzH-s",
+          "youtube_url": "https://www.youtube.com/watch?v=DPEodkHzH-s",
+          "youtube_video_title": "Tate McRae - Housewife (Official Video)"
         },
         {
           "position": 3,
@@ -54,9 +56,7 @@
           "movement": "up",
           "weeksOnChart": 19,
           "peakPosition": 3,
-          "source": "acharts",
-          "youtube_id": "g8vdcPSErVs",
-          "youtube_url": "https://www.youtube.com/watch?v=g8vdcPSErVs"
+          "source": "acharts"
         },
         {
           "position": 4,
@@ -73,7 +73,8 @@
           "deezer_id": 4348885352,
           "deezer_url": "https://www.deezer.com/track/4348885352",
           "youtube_id": "nhR-Ka-aKUs",
-          "youtube_url": "https://www.youtube.com/watch?v=nhR-Ka-aKUs"
+          "youtube_url": "https://www.youtube.com/watch?v=nhR-Ka-aKUs",
+          "youtube_video_title": "Zach Bryan - Lies (feat. Lana Del Rey) (Official Audio)"
         },
         {
           "position": 5,
@@ -88,9 +89,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4304169612,
-          "deezer_url": "https://www.deezer.com/track/4304169612",
-          "youtube_id": "mw3kSNIxjqo",
-          "youtube_url": "https://www.youtube.com/watch?v=mw3kSNIxjqo"
+          "deezer_url": "https://www.deezer.com/track/4304169612"
         },
         {
           "position": 6,
@@ -105,9 +104,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 3895241341,
-          "deezer_url": "https://www.deezer.com/track/3895241341",
-          "youtube_id": "Xh0GyxWgKPs",
-          "youtube_url": "https://www.youtube.com/watch?v=Xh0GyxWgKPs"
+          "deezer_url": "https://www.deezer.com/track/3895241341"
         },
         {
           "position": 7,
@@ -122,9 +119,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 4167204822,
-          "deezer_url": "https://www.deezer.com/track/4167204822",
-          "youtube_id": "6q5F7UUiXK0",
-          "youtube_url": "https://www.youtube.com/watch?v=6q5F7UUiXK0"
+          "deezer_url": "https://www.deezer.com/track/4167204822"
         },
         {
           "position": 8,
@@ -136,9 +131,7 @@
           "movement": "down",
           "weeksOnChart": 56,
           "peakPosition": 5,
-          "source": "acharts",
-          "youtube_id": "4syV6f4nWn0",
-          "youtube_url": "https://www.youtube.com/watch?v=4syV6f4nWn0"
+          "source": "acharts"
         },
         {
           "position": 9,
@@ -153,9 +146,7 @@
           "peakPosition": 6,
           "source": "acharts",
           "deezer_id": 4250696681,
-          "deezer_url": "https://www.deezer.com/track/4250696681",
-          "youtube_id": "3sB4Iv_tM7U",
-          "youtube_url": "https://www.youtube.com/watch?v=3sB4Iv_tM7U"
+          "deezer_url": "https://www.deezer.com/track/4250696681"
         },
         {
           "position": 10,
@@ -172,7 +163,8 @@
           "deezer_id": 4078104881,
           "deezer_url": "https://www.deezer.com/track/4078104881",
           "youtube_id": "Rt9tW3cMLhI",
-          "youtube_url": "https://www.youtube.com/watch?v=Rt9tW3cMLhI"
+          "youtube_url": "https://www.youtube.com/watch?v=Rt9tW3cMLhI",
+          "youtube_video_title": "Olivia Rodrigo - stupid song (Official Music Video)"
         },
         {
           "position": 11,
@@ -187,9 +179,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4045817471,
-          "deezer_url": "https://www.deezer.com/track/4045817471",
-          "youtube_id": "82-jTNka3uc",
-          "youtube_url": "https://www.youtube.com/watch?v=82-jTNka3uc"
+          "deezer_url": "https://www.deezer.com/track/4045817471"
         },
         {
           "position": 12,
@@ -204,9 +194,7 @@
           "peakPosition": 6,
           "source": "acharts",
           "deezer_id": 4208859922,
-          "deezer_url": "https://www.deezer.com/track/4208859922",
-          "youtube_id": "fRIhCiUVaKs",
-          "youtube_url": "https://www.youtube.com/watch?v=fRIhCiUVaKs"
+          "deezer_url": "https://www.deezer.com/track/4208859922"
         },
         {
           "position": 13,
@@ -221,9 +209,7 @@
           "peakPosition": 10,
           "source": "acharts",
           "deezer_id": 564326662,
-          "deezer_url": "https://www.deezer.com/track/564326662",
-          "youtube_id": "nb8CnIo_-_A",
-          "youtube_url": "https://www.youtube.com/watch?v=nb8CnIo_-_A"
+          "deezer_url": "https://www.deezer.com/track/564326662"
         },
         {
           "position": 14,
@@ -238,9 +224,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 3763842212,
-          "deezer_url": "https://www.deezer.com/track/3763842212",
-          "youtube_id": "mrV8kK5t0V8",
-          "youtube_url": "https://www.youtube.com/watch?v=mrV8kK5t0V8"
+          "deezer_url": "https://www.deezer.com/track/3763842212"
         },
         {
           "position": 15,
@@ -255,9 +239,7 @@
           "peakPosition": 12,
           "source": "acharts",
           "deezer_id": 3483208871,
-          "deezer_url": "https://www.deezer.com/track/3483208871",
-          "youtube_id": "uvY8fdgezLQ",
-          "youtube_url": "https://www.youtube.com/watch?v=uvY8fdgezLQ"
+          "deezer_url": "https://www.deezer.com/track/3483208871"
         },
         {
           "position": 16,
@@ -272,9 +254,7 @@
           "peakPosition": 16,
           "source": "acharts",
           "deezer_id": 3904211281,
-          "deezer_url": "https://www.deezer.com/track/3904211281",
-          "youtube_id": "QemG9NDH2zI",
-          "youtube_url": "https://www.youtube.com/watch?v=QemG9NDH2zI"
+          "deezer_url": "https://www.deezer.com/track/3904211281"
         },
         {
           "position": 17,
@@ -289,9 +269,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 3834003271,
-          "deezer_url": "https://www.deezer.com/track/3834003271",
-          "youtube_id": "Dg47eNL_Usw",
-          "youtube_url": "https://www.youtube.com/watch?v=Dg47eNL_Usw"
+          "deezer_url": "https://www.deezer.com/track/3834003271"
         },
         {
           "position": 18,
@@ -308,7 +286,8 @@
           "deezer_id": 4203392972,
           "deezer_url": "https://www.deezer.com/track/4203392972",
           "youtube_id": "X9MDdMhcZVU",
-          "youtube_url": "https://www.youtube.com/watch?v=X9MDdMhcZVU"
+          "youtube_url": "https://www.youtube.com/watch?v=X9MDdMhcZVU",
+          "youtube_video_title": "Koe Wetzel, Ella Langley - Jaded (Official Visualizer)"
         },
         {
           "position": 19,
@@ -323,9 +302,7 @@
           "peakPosition": 4,
           "source": "acharts",
           "deezer_id": 3867905081,
-          "deezer_url": "https://www.deezer.com/track/3867905081",
-          "youtube_id": "OpnoHSo1aeg",
-          "youtube_url": "https://www.youtube.com/watch?v=OpnoHSo1aeg"
+          "deezer_url": "https://www.deezer.com/track/3867905081"
         },
         {
           "position": 20,
@@ -340,9 +317,7 @@
           "peakPosition": 17,
           "source": "acharts",
           "deezer_id": 2732302771,
-          "deezer_url": "https://www.deezer.com/track/2732302771",
-          "youtube_id": "S02J3QifNog",
-          "youtube_url": "https://www.youtube.com/watch?v=S02J3QifNog"
+          "deezer_url": "https://www.deezer.com/track/2732302771"
         },
         {
           "position": 21,
@@ -705,8 +680,7 @@
           "source": "acharts"
         }
       ],
-      "sourceType": "billboard",
-      "isIndie": false
+      "sourceType": "billboard"
     },
     "fr": {
       "name": "France",
@@ -726,9 +700,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4273247042,
-          "deezer_url": "https://www.deezer.com/track/4273247042",
-          "youtube_id": "PhfdpyI6h1Y",
-          "youtube_url": "https://www.youtube.com/watch?v=PhfdpyI6h1Y"
+          "deezer_url": "https://www.deezer.com/track/4273247042"
         },
         {
           "position": 2,
@@ -743,9 +715,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 4314450762,
-          "deezer_url": "https://www.deezer.com/track/4314450762",
-          "youtube_id": "gWuBQyAb7Dk",
-          "youtube_url": "https://www.youtube.com/watch?v=gWuBQyAb7Dk"
+          "deezer_url": "https://www.deezer.com/track/4314450762"
         },
         {
           "position": 3,
@@ -760,9 +730,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 4059400101,
-          "deezer_url": "https://www.deezer.com/track/4059400101",
-          "youtube_id": "XMBDdTHTIEo",
-          "youtube_url": "https://www.youtube.com/watch?v=XMBDdTHTIEo"
+          "deezer_url": "https://www.deezer.com/track/4059400101"
         },
         {
           "position": 4,
@@ -774,9 +742,7 @@
           "movement": "new",
           "weeksOnChart": 1,
           "peakPosition": 4,
-          "source": "acharts",
-          "youtube_id": "Do1VHZO6zBM",
-          "youtube_url": "https://www.youtube.com/watch?v=Do1VHZO6zBM"
+          "source": "acharts"
         },
         {
           "position": 5,
@@ -791,9 +757,7 @@
           "peakPosition": 5,
           "source": "acharts",
           "deezer_id": 4287282492,
-          "deezer_url": "https://www.deezer.com/track/4287282492",
-          "youtube_id": "JTSiz0W8E_o",
-          "youtube_url": "https://www.youtube.com/watch?v=JTSiz0W8E_o"
+          "deezer_url": "https://www.deezer.com/track/4287282492"
         },
         {
           "position": 6,
@@ -808,9 +772,7 @@
           "peakPosition": 4,
           "source": "acharts",
           "deezer_id": 4285685232,
-          "deezer_url": "https://www.deezer.com/track/4285685232",
-          "youtube_id": "vOdlW0Jv5Q4",
-          "youtube_url": "https://www.youtube.com/watch?v=vOdlW0Jv5Q4"
+          "deezer_url": "https://www.deezer.com/track/4285685232"
         },
         {
           "position": 7,
@@ -825,9 +787,7 @@
           "peakPosition": 7,
           "source": "acharts",
           "deezer_id": 4048381021,
-          "deezer_url": "https://www.deezer.com/track/4048381021",
-          "youtube_id": "f1BOVbbrYIA",
-          "youtube_url": "https://www.youtube.com/watch?v=f1BOVbbrYIA"
+          "deezer_url": "https://www.deezer.com/track/4048381021"
         },
         {
           "position": 8,
@@ -842,9 +802,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 4304492972,
-          "deezer_url": "https://www.deezer.com/track/4304492972",
-          "youtube_id": "pHOGDZi2D38",
-          "youtube_url": "https://www.youtube.com/watch?v=pHOGDZi2D38"
+          "deezer_url": "https://www.deezer.com/track/4304492972"
         },
         {
           "position": 9,
@@ -874,9 +832,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4020979891,
-          "deezer_url": "https://www.deezer.com/track/4020979891",
-          "youtube_id": "jodJzaVZfj8",
-          "youtube_url": "https://www.youtube.com/watch?v=jodJzaVZfj8"
+          "deezer_url": "https://www.deezer.com/track/4020979891"
         },
         {
           "position": 11,
@@ -891,9 +847,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4242078572,
-          "deezer_url": "https://www.deezer.com/track/4242078572",
-          "youtube_id": "6yxRvLRKEPw",
-          "youtube_url": "https://www.youtube.com/watch?v=6yxRvLRKEPw"
+          "deezer_url": "https://www.deezer.com/track/4242078572"
         },
         {
           "position": 12,
@@ -908,16 +862,14 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 3558373981,
-          "deezer_url": "https://www.deezer.com/track/3558373981",
-          "youtube_id": "ll5uAeEanjY",
-          "youtube_url": "https://www.youtube.com/watch?v=ll5uAeEanjY"
+          "deezer_url": "https://www.deezer.com/track/3558373981"
         },
         {
           "position": 13,
           "track": {
             "title": "Housewife",
             "artist": "Tate Mcrae",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/c8cade0fb5d6648852d185428998fec2/250x250-000000-80-0-0.jpg"
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/0717657c0f9540946fb9813d3383a500/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 16,
           "movement": "up",
@@ -925,9 +877,7 @@
           "peakPosition": 13,
           "source": "acharts",
           "deezer_id": 4350411742,
-          "deezer_url": "https://www.deezer.com/track/4350411742",
-          "youtube_id": "yi24DPRG0Sg",
-          "youtube_url": "https://www.youtube.com/watch?v=yi24DPRG0Sg"
+          "deezer_url": "https://www.deezer.com/track/4350411742"
         },
         {
           "position": 14,
@@ -942,9 +892,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4015341011,
-          "deezer_url": "https://www.deezer.com/track/4015341011",
-          "youtube_id": "fcnDmrtj6Sk",
-          "youtube_url": "https://www.youtube.com/watch?v=fcnDmrtj6Sk"
+          "deezer_url": "https://www.deezer.com/track/4015341011"
         },
         {
           "position": 15,
@@ -959,9 +907,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 4064189131,
-          "deezer_url": "https://www.deezer.com/track/4064189131",
-          "youtube_id": "v6TfDP8VQYo",
-          "youtube_url": "https://www.youtube.com/watch?v=v6TfDP8VQYo"
+          "deezer_url": "https://www.deezer.com/track/4064189131"
         },
         {
           "position": 16,
@@ -976,9 +922,7 @@
           "peakPosition": 16,
           "source": "acharts",
           "deezer_id": 4034126871,
-          "deezer_url": "https://www.deezer.com/track/4034126871",
-          "youtube_id": "IF04M75KBC0",
-          "youtube_url": "https://www.youtube.com/watch?v=IF04M75KBC0"
+          "deezer_url": "https://www.deezer.com/track/4034126871"
         },
         {
           "position": 17,
@@ -993,9 +937,7 @@
           "peakPosition": 11,
           "source": "acharts",
           "deezer_id": 4304492962,
-          "deezer_url": "https://www.deezer.com/track/4304492962",
-          "youtube_id": "YGpH6pdJ7ic",
-          "youtube_url": "https://www.youtube.com/watch?v=YGpH6pdJ7ic"
+          "deezer_url": "https://www.deezer.com/track/4304492962"
         },
         {
           "position": 18,
@@ -1010,9 +952,7 @@
           "peakPosition": 18,
           "source": "acharts",
           "deezer_id": 4246731441,
-          "deezer_url": "https://www.deezer.com/track/4246731441",
-          "youtube_id": "cYsUdsGFVtU",
-          "youtube_url": "https://www.youtube.com/watch?v=cYsUdsGFVtU"
+          "deezer_url": "https://www.deezer.com/track/4246731441"
         },
         {
           "position": 19,
@@ -1027,9 +967,7 @@
           "peakPosition": 19,
           "source": "acharts",
           "deezer_id": 4208859922,
-          "deezer_url": "https://www.deezer.com/track/4208859922",
-          "youtube_id": "fRIhCiUVaKs",
-          "youtube_url": "https://www.youtube.com/watch?v=fRIhCiUVaKs"
+          "deezer_url": "https://www.deezer.com/track/4208859922"
         },
         {
           "position": 20,
@@ -1044,9 +982,7 @@
           "peakPosition": 20,
           "source": "acharts",
           "deezer_id": 4294454742,
-          "deezer_url": "https://www.deezer.com/track/4294454742",
-          "youtube_id": "w-7MbI4zYKc",
-          "youtube_url": "https://www.youtube.com/watch?v=w-7MbI4zYKc"
+          "deezer_url": "https://www.deezer.com/track/4294454742"
         },
         {
           "position": 21,
@@ -1409,8 +1345,7 @@
           "source": "acharts"
         }
       ],
-      "sourceType": "acharts",
-      "isIndie": false
+      "sourceType": "acharts"
     },
     "gb": {
       "name": "Royaume-Uni",
@@ -1430,16 +1365,14 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4192901122,
-          "deezer_url": "https://www.deezer.com/track/4192901122",
-          "youtube_id": "1N8EFtKLZ0w",
-          "youtube_url": "https://www.youtube.com/watch?v=1N8EFtKLZ0w"
+          "deezer_url": "https://www.deezer.com/track/4192901122"
         },
         {
           "position": 2,
           "track": {
             "title": "Housewife",
             "artist": "Tate Mcrae",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/c8cade0fb5d6648852d185428998fec2/250x250-000000-80-0-0.jpg"
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/0717657c0f9540946fb9813d3383a500/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 2,
           "movement": "same",
@@ -1447,9 +1380,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 4350411742,
-          "deezer_url": "https://www.deezer.com/track/4350411742",
-          "youtube_id": "yi24DPRG0Sg",
-          "youtube_url": "https://www.youtube.com/watch?v=yi24DPRG0Sg"
+          "deezer_url": "https://www.deezer.com/track/4350411742"
         },
         {
           "position": 3,
@@ -1464,9 +1395,7 @@
           "peakPosition": 3,
           "source": "acharts",
           "deezer_id": 4209416002,
-          "deezer_url": "https://www.deezer.com/track/4209416002",
-          "youtube_id": "DLV8FpyxZPQ",
-          "youtube_url": "https://www.youtube.com/watch?v=DLV8FpyxZPQ"
+          "deezer_url": "https://www.deezer.com/track/4209416002"
         },
         {
           "position": 4,
@@ -1481,9 +1410,7 @@
           "peakPosition": 3,
           "source": "acharts",
           "deezer_id": 4078105041,
-          "deezer_url": "https://www.deezer.com/track/4078105041",
-          "youtube_id": "gsZauX8gwxo",
-          "youtube_url": "https://www.youtube.com/watch?v=gsZauX8gwxo"
+          "deezer_url": "https://www.deezer.com/track/4078105041"
         },
         {
           "position": 5,
@@ -1498,9 +1425,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4115963491,
-          "deezer_url": "https://www.deezer.com/track/4115963491",
-          "youtube_id": "Q-qRfLC6ySA",
-          "youtube_url": "https://www.youtube.com/watch?v=Q-qRfLC6ySA"
+          "deezer_url": "https://www.deezer.com/track/4115963491"
         },
         {
           "position": 6,
@@ -1515,9 +1440,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 3602074142,
-          "deezer_url": "https://www.deezer.com/track/3602074142",
-          "youtube_id": "nUsrYVxrDwI",
-          "youtube_url": "https://www.youtube.com/watch?v=nUsrYVxrDwI"
+          "deezer_url": "https://www.deezer.com/track/3602074142"
         },
         {
           "position": 7,
@@ -1532,9 +1455,7 @@
           "peakPosition": 4,
           "source": "acharts",
           "deezer_id": 4250696681,
-          "deezer_url": "https://www.deezer.com/track/4250696681",
-          "youtube_id": "3sB4Iv_tM7U",
-          "youtube_url": "https://www.youtube.com/watch?v=3sB4Iv_tM7U"
+          "deezer_url": "https://www.deezer.com/track/4250696681"
         },
         {
           "position": 8,
@@ -1549,9 +1470,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 3416737961,
-          "deezer_url": "https://www.deezer.com/track/3416737961",
-          "youtube_id": "gcsI-UGyqCk",
-          "youtube_url": "https://www.youtube.com/watch?v=gcsI-UGyqCk"
+          "deezer_url": "https://www.deezer.com/track/3416737961"
         },
         {
           "position": 9,
@@ -1566,9 +1485,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 4078104981,
-          "deezer_url": "https://www.deezer.com/track/4078104981",
-          "youtube_id": "B402rKl4bUg",
-          "youtube_url": "https://www.youtube.com/watch?v=B402rKl4bUg"
+          "deezer_url": "https://www.deezer.com/track/4078104981"
         },
         {
           "position": 10,
@@ -1583,9 +1500,7 @@
           "peakPosition": 10,
           "source": "acharts",
           "deezer_id": 4092422631,
-          "deezer_url": "https://www.deezer.com/track/4092422631",
-          "youtube_id": "ofywN3NgGqY",
-          "youtube_url": "https://www.youtube.com/watch?v=ofywN3NgGqY"
+          "deezer_url": "https://www.deezer.com/track/4092422631"
         },
         {
           "position": 11,
@@ -1600,9 +1515,7 @@
           "peakPosition": 7,
           "source": "acharts",
           "deezer_id": 4348885352,
-          "deezer_url": "https://www.deezer.com/track/4348885352",
-          "youtube_id": "nhR-Ka-aKUs",
-          "youtube_url": "https://www.youtube.com/watch?v=nhR-Ka-aKUs"
+          "deezer_url": "https://www.deezer.com/track/4348885352"
         },
         {
           "position": 12,
@@ -1617,9 +1530,7 @@
           "peakPosition": 9,
           "source": "acharts",
           "deezer_id": 3662000982,
-          "deezer_url": "https://www.deezer.com/track/3662000982",
-          "youtube_id": "5RNy_1odv20",
-          "youtube_url": "https://www.youtube.com/watch?v=5RNy_1odv20"
+          "deezer_url": "https://www.deezer.com/track/3662000982"
         },
         {
           "position": 13,
@@ -1631,9 +1542,7 @@
           "movement": "new",
           "weeksOnChart": 16,
           "peakPosition": 7,
-          "source": "acharts",
-          "youtube_id": "d6bCeynoOME",
-          "youtube_url": "https://www.youtube.com/watch?v=d6bCeynoOME"
+          "source": "acharts"
         },
         {
           "position": 14,
@@ -1648,9 +1557,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 3503857201,
-          "deezer_url": "https://www.deezer.com/track/3503857201",
-          "youtube_id": "oIv_Y2RPQ_A",
-          "youtube_url": "https://www.youtube.com/watch?v=oIv_Y2RPQ_A"
+          "deezer_url": "https://www.deezer.com/track/3503857201"
         },
         {
           "position": 15,
@@ -1665,9 +1572,7 @@
           "peakPosition": 12,
           "source": "acharts",
           "deezer_id": 4158551132,
-          "deezer_url": "https://www.deezer.com/track/4158551132",
-          "youtube_id": "0ijm2Xui5N8",
-          "youtube_url": "https://www.youtube.com/watch?v=0ijm2Xui5N8"
+          "deezer_url": "https://www.deezer.com/track/4158551132"
         },
         {
           "position": 16,
@@ -1682,9 +1587,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4304169612,
-          "deezer_url": "https://www.deezer.com/track/4304169612",
-          "youtube_id": "mw3kSNIxjqo",
-          "youtube_url": "https://www.youtube.com/watch?v=mw3kSNIxjqo"
+          "deezer_url": "https://www.deezer.com/track/4304169612"
         },
         {
           "position": 17,
@@ -1699,9 +1602,7 @@
           "peakPosition": 9,
           "source": "acharts",
           "deezer_id": 555639,
-          "deezer_url": "https://www.deezer.com/track/555639",
-          "youtube_id": "sOnqjkJTMaA",
-          "youtube_url": "https://www.youtube.com/watch?v=sOnqjkJTMaA"
+          "deezer_url": "https://www.deezer.com/track/555639"
         },
         {
           "position": 18,
@@ -1716,9 +1617,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 60200391,
-          "deezer_url": "https://www.deezer.com/track/60200391",
-          "youtube_id": "OpQFFLBMEPI",
-          "youtube_url": "https://www.youtube.com/watch?v=OpQFFLBMEPI"
+          "deezer_url": "https://www.deezer.com/track/60200391"
         },
         {
           "position": 19,
@@ -1733,9 +1632,7 @@
           "peakPosition": 14,
           "source": "acharts",
           "deezer_id": 4303139302,
-          "deezer_url": "https://www.deezer.com/track/4303139302",
-          "youtube_id": "GPNbnromGgk",
-          "youtube_url": "https://www.youtube.com/watch?v=GPNbnromGgk"
+          "deezer_url": "https://www.deezer.com/track/4303139302"
         },
         {
           "position": 20,
@@ -1750,9 +1647,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 3680045492,
-          "deezer_url": "https://www.deezer.com/track/3680045492",
-          "youtube_id": "ko70cExuzZM",
-          "youtube_url": "https://www.youtube.com/watch?v=ko70cExuzZM"
+          "deezer_url": "https://www.deezer.com/track/3680045492"
         },
         {
           "position": 21,
@@ -2115,8 +2010,7 @@
           "source": "acharts"
         }
       ],
-      "sourceType": "acharts",
-      "isIndie": false
+      "sourceType": "acharts"
     },
     "de": {
       "name": "Allemagne",
@@ -2136,12 +2030,22 @@
           "peakPosition": 1,
           "source": "kworb_itunes",
           "deezer_id": 3951588721,
-          "deezer_url": "https://www.deezer.com/track/3951588721",
-          "youtube_id": "HzMfuvqEKPU",
-          "youtube_url": "https://www.youtube.com/watch?v=HzMfuvqEKPU"
+          "deezer_url": "https://www.deezer.com/track/3951588721"
         },
         {
           "position": 2,
+          "track": {
+            "title": "Movin' To The Sun",
+            "artist": "HUGEL, Imael Angel & Ultra NatÃ©"
+          },
+          "previousPosition": 3,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 2,
+          "source": "kworb_itunes"
+        },
+        {
+          "position": 3,
           "track": {
             "title": "Rise Slow",
             "artist": "Kimo Sounds",
@@ -2150,29 +2054,28 @@
           "previousPosition": 4,
           "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 2,
-          "source": "kworb_itunes",
-          "deezer_id": 4155868012,
-          "deezer_url": "https://www.deezer.com/track/4155868012",
-          "youtube_id": "Tuj3zQOJZ84",
-          "youtube_url": "https://www.youtube.com/watch?v=Tuj3zQOJZ84"
-        },
-        {
-          "position": 3,
-          "track": {
-            "title": "Movin' To The Sun",
-            "artist": "HUGEL, Imael Angel & Ultra NatÃ©"
-          },
-          "previousPosition": 3,
-          "movement": "same",
-          "weeksOnChart": 1,
           "peakPosition": 3,
           "source": "kworb_itunes",
-          "youtube_id": "n7QlUH0zrPg",
-          "youtube_url": "https://www.youtube.com/watch?v=n7QlUH0zrPg"
+          "deezer_id": 4155868012,
+          "deezer_url": "https://www.deezer.com/track/4155868012"
         },
         {
           "position": 4,
+          "track": {
+            "title": "Later Become Never",
+            "artist": "Kimo Sounds",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/7953737ddeaac4a31dd9c590e0171112/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 6,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 4,
+          "source": "kworb_itunes",
+          "deezer_id": 4288399812,
+          "deezer_url": "https://www.deezer.com/track/4288399812"
+        },
+        {
+          "position": 5,
           "track": {
             "title": "Momente der Weihnacht",
             "artist": "Nik P.",
@@ -2181,66 +2084,13 @@
           "previousPosition": 1,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 4,
-          "source": "kworb_itunes",
-          "deezer_id": 4349773582,
-          "deezer_url": "https://www.deezer.com/track/4349773582",
-          "youtube_id": "ApHmtrYfxFo",
-          "youtube_url": "https://www.youtube.com/watch?v=ApHmtrYfxFo"
-        },
-        {
-          "position": 5,
-          "track": {
-            "title": "Later Become Never",
-            "artist": "Kimo Sounds",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/7953737ddeaac4a31dd9c590e0171112/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 7,
-          "movement": "up",
-          "weeksOnChart": 1,
           "peakPosition": 5,
           "source": "kworb_itunes",
-          "deezer_id": 4288399812,
-          "deezer_url": "https://www.deezer.com/track/4288399812",
-          "youtube_id": "3KNYhlCudLA",
-          "youtube_url": "https://www.youtube.com/watch?v=3KNYhlCudLA"
+          "deezer_id": 4349773582,
+          "deezer_url": "https://www.deezer.com/track/4349773582"
         },
         {
           "position": 6,
-          "track": {
-            "title": "Inside My Soul",
-            "artist": "SK.music",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/e8e0f519968b9d1f531ee76ffd54bab5/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 9,
-          "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 6,
-          "source": "kworb_itunes",
-          "deezer_id": 4224063142,
-          "deezer_url": "https://www.deezer.com/track/4224063142",
-          "youtube_id": "WFy-mkJIHDc",
-          "youtube_url": "https://www.youtube.com/watch?v=WFy-mkJIHDc"
-        },
-        {
-          "position": 7,
-          "track": {
-            "title": "Patient Zero",
-            "artist": "Taylor Swift",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/3b43f946f6478daf5233a41414c34067/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 6,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 7,
-          "source": "kworb_itunes",
-          "deezer_id": 4304169612,
-          "deezer_url": "https://www.deezer.com/track/4304169612",
-          "youtube_id": "mw3kSNIxjqo",
-          "youtube_url": "https://www.youtube.com/watch?v=mw3kSNIxjqo"
-        },
-        {
-          "position": 8,
           "track": {
             "title": "My Own Way",
             "artist": "Aeriva",
@@ -2249,29 +2099,55 @@
           "previousPosition": 5,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 8,
+          "peakPosition": 6,
           "source": "kworb_itunes",
           "deezer_id": 4310841642,
-          "deezer_url": "https://www.deezer.com/track/4310841642",
-          "youtube_id": "-DfUfuzFig0",
-          "youtube_url": "https://www.youtube.com/watch?v=-DfUfuzFig0"
+          "deezer_url": "https://www.deezer.com/track/4310841642"
+        },
+        {
+          "position": 7,
+          "track": {
+            "title": "Inside My Soul",
+            "artist": "SK.music",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/e8e0f519968b9d1f531ee76ffd54bab5/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 8,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 7,
+          "source": "kworb_itunes",
+          "deezer_id": 4224063142,
+          "deezer_url": "https://www.deezer.com/track/4224063142"
+        },
+        {
+          "position": 8,
+          "track": {
+            "title": "Patient Zero",
+            "artist": "Taylor Swift",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/3b43f946f6478daf5233a41414c34067/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 7,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 8,
+          "source": "kworb_itunes",
+          "deezer_id": 4304169612,
+          "deezer_url": "https://www.deezer.com/track/4304169612"
         },
         {
           "position": 9,
           "track": {
-            "title": "AN MEINER SEITE",
-            "artist": "Helene Fischer",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/42bf7a581df912ae81ab2f4fd7ae00c1/250x250-000000-80-0-0.jpg"
+            "title": "BAD TIMES",
+            "artist": "Imael Angel",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/3c1ad077afa12575fcf9802af32505e1/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 12,
-          "movement": "up",
+          "previousPosition": 9,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 9,
           "source": "kworb_itunes",
-          "deezer_id": 4250536021,
-          "deezer_url": "https://www.deezer.com/track/4250536021",
-          "youtube_id": "VvZY0wiQnrg",
-          "youtube_url": "https://www.youtube.com/watch?v=VvZY0wiQnrg"
+          "deezer_id": 3960272061,
+          "deezer_url": "https://www.deezer.com/track/3960272061"
         },
         {
           "position": 10,
@@ -2280,66 +2156,58 @@
             "artist": "Helene Fischer",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/599f6fbcb12f3a8568500c724ec7b80b/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 22,
+          "previousPosition": 15,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 10,
           "source": "kworb_itunes",
           "deezer_id": 4337185442,
-          "deezer_url": "https://www.deezer.com/track/4337185442",
-          "youtube_id": "Iuuck33u7N8",
-          "youtube_url": "https://www.youtube.com/watch?v=Iuuck33u7N8"
+          "deezer_url": "https://www.deezer.com/track/4337185442"
         },
         {
           "position": 11,
+          "track": {
+            "title": "AN MEINER SEITE",
+            "artist": "Helene Fischer",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/42bf7a581df912ae81ab2f4fd7ae00c1/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 12,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 11,
+          "source": "kworb_itunes",
+          "deezer_id": 4250536021,
+          "deezer_url": "https://www.deezer.com/track/4250536021"
+        },
+        {
+          "position": 12,
           "track": {
             "title": "HEUTE NACHT",
             "artist": "Helene Fischer",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/b69863fc7366aa31f897289fd1af0aa9/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 20,
+          "previousPosition": 14,
           "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 11,
-          "source": "kworb_itunes",
-          "deezer_id": 4037206611,
-          "deezer_url": "https://www.deezer.com/track/4037206611",
-          "youtube_id": "SniCL4xbRqw",
-          "youtube_url": "https://www.youtube.com/watch?v=SniCL4xbRqw"
-        },
-        {
-          "position": 12,
-          "track": {
-            "title": "BAD TIMES",
-            "artist": "Imael Angel",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/3c1ad077afa12575fcf9802af32505e1/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 8,
-          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 12,
           "source": "kworb_itunes",
-          "deezer_id": 3960272061,
-          "deezer_url": "https://www.deezer.com/track/3960272061",
-          "youtube_id": "v4sva7LMIRQ",
-          "youtube_url": "https://www.youtube.com/watch?v=v4sva7LMIRQ"
+          "deezer_id": 4037206611,
+          "deezer_url": "https://www.deezer.com/track/4037206611"
         },
         {
           "position": 13,
           "track": {
-            "title": "Dai Dai",
-            "artist": "Shakira & Burna Boy",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/a7f9bae0243c512059298a68d09f45a1/250x250-000000-80-0-0.jpg"
+            "title": "Mama, Don't Close Your Eyes",
+            "artist": "Bjorn Bonebreaker",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/844a20e64edf83ac7e727edfa20e84d8/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 23,
+          "previousPosition": 24,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 13,
           "source": "kworb_itunes",
-          "deezer_id": 4015341011,
-          "deezer_url": "https://www.deezer.com/track/4015341011",
-          "youtube_id": "fcnDmrtj6Sk",
-          "youtube_url": "https://www.youtube.com/watch?v=fcnDmrtj6Sk"
+          "deezer_id": 4287074452,
+          "deezer_url": "https://www.deezer.com/track/4287074452"
         },
         {
           "position": 14,
@@ -2348,49 +2216,43 @@
             "artist": "Kontra K",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/694d11aa499d56e425b790ee27202ad1/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 11,
+          "previousPosition": 10,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 14,
           "source": "kworb_itunes",
           "deezer_id": 4376263101,
-          "deezer_url": "https://www.deezer.com/track/4376263101",
-          "youtube_id": "giEUmYIEQt0",
-          "youtube_url": "https://www.youtube.com/watch?v=giEUmYIEQt0"
+          "deezer_url": "https://www.deezer.com/track/4376263101"
         },
         {
           "position": 15,
           "track": {
-            "title": "Mama, Don't Close Your Eyes",
-            "artist": "Bjorn Bonebreaker",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/844a20e64edf83ac7e727edfa20e84d8/250x250-000000-80-0-0.jpg"
+            "title": "Ich weiÃ, was du brauchst",
+            "artist": "Kerstin Ott & Maite Kelly"
           },
-          "previousPosition": 28,
+          "previousPosition": 18,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 15,
-          "source": "kworb_itunes",
-          "deezer_id": 4287074452,
-          "deezer_url": "https://www.deezer.com/track/4287074452",
-          "youtube_id": "r8h8Kee_PYU",
-          "youtube_url": "https://www.youtube.com/watch?v=r8h8Kee_PYU"
+          "source": "kworb_itunes"
         },
         {
           "position": 16,
           "track": {
-            "title": "You Never Can Tell",
-            "artist": "Chuck Berry",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/f3d66e855e15ac75c9e3a085aa6697b6/250x250-000000-80-0-0.jpg"
+            "title": "Dai Dai",
+            "artist": "Shakira & Burna Boy",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/a7f9bae0243c512059298a68d09f45a1/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 14,
-          "movement": "down",
+          "previousPosition": 19,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 16,
           "source": "kworb_itunes",
-          "deezer_id": 646290952,
-          "deezer_url": "https://www.deezer.com/track/646290952",
-          "youtube_id": "Cn9t9bfbksY",
-          "youtube_url": "https://www.youtube.com/watch?v=Cn9t9bfbksY"
+          "deezer_id": 4015341011,
+          "deezer_url": "https://www.deezer.com/track/4015341011",
+          "youtube_id": "fcnDmrtj6Sk",
+          "youtube_url": "https://www.youtube.com/watch?v=fcnDmrtj6Sk",
+          "youtube_video_title": "Shakira, Burna Boy - Dai Dai (Official Video)"
         },
         {
           "position": 17,
@@ -2399,72 +2261,67 @@
             "artist": "DJ Goja",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/86a2dbf1f380e706c3f49aaf36e4e0a0/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 24,
+          "previousPosition": 26,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 17,
           "source": "kworb_itunes",
           "deezer_id": 3941164881,
-          "deezer_url": "https://www.deezer.com/track/3941164881",
-          "youtube_id": "6Db-cEgbmC4",
-          "youtube_url": "https://www.youtube.com/watch?v=6Db-cEgbmC4"
+          "deezer_url": "https://www.deezer.com/track/3941164881"
         },
         {
           "position": 18,
-          "track": {
-            "title": "Ich weiÃ, was du brauchst",
-            "artist": "Kerstin Ott & Maite Kelly"
-          },
-          "previousPosition": 21,
-          "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 18,
-          "source": "kworb_itunes",
-          "youtube_id": "eN8avVVelSc",
-          "youtube_url": "https://www.youtube.com/watch?v=eN8avVVelSc"
-        },
-        {
-          "position": 19,
           "track": {
             "title": "Bad Times (Extended Version)",
             "artist": "Imael Angel",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/3c1ad077afa12575fcf9802af32505e1/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 10,
+          "previousPosition": 13,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 18,
+          "source": "kworb_itunes",
+          "deezer_id": 3960272061,
+          "deezer_url": "https://www.deezer.com/track/3960272061"
+        },
+        {
+          "position": 19,
+          "track": {
+            "title": "You Never Can Tell",
+            "artist": "Chuck Berry",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/f3d66e855e15ac75c9e3a085aa6697b6/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 11,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 19,
           "source": "kworb_itunes",
-          "deezer_id": 3960272061,
-          "deezer_url": "https://www.deezer.com/track/3960272061",
-          "youtube_id": "HIUhUwSbqvg",
-          "youtube_url": "https://www.youtube.com/watch?v=HIUhUwSbqvg"
+          "deezer_id": 646290952,
+          "deezer_url": "https://www.deezer.com/track/646290952"
         },
         {
           "position": 20,
           "track": {
-            "title": "Stop The Wedding!",
-            "artist": "Ashe",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/556af4b24a45d8fd6912014d706ff7d4/250x250-000000-80-0-0.jpg"
+            "title": "New Religion",
+            "artist": "Bebe Rexha & Faithless",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/44fcf0e5b0e84a25c0dd7969ce63ecca/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 33,
+          "previousPosition": 25,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 20,
           "source": "kworb_itunes",
-          "deezer_id": 4209416002,
-          "deezer_url": "https://www.deezer.com/track/4209416002",
-          "youtube_id": "DLV8FpyxZPQ",
-          "youtube_url": "https://www.youtube.com/watch?v=DLV8FpyxZPQ"
+          "deezer_id": 3850680281,
+          "deezer_url": "https://www.deezer.com/track/3850680281"
         },
         {
           "position": 21,
           "track": {
-            "title": "Babydoll",
-            "artist": "Jamie Miller & Antonio Cipriano"
+            "title": "Ruf mich nicht mehr an",
+            "artist": "Levant"
           },
-          "previousPosition": 13,
-          "movement": "down",
+          "previousPosition": 45,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 21,
           "source": "kworb_itunes"
@@ -2472,11 +2329,11 @@
         {
           "position": 22,
           "track": {
-            "title": "Mi Chico (Jason Derulo x Melody Version)",
-            "artist": "DJ Goja, Jason Derulo & Melody"
+            "title": "ISSA",
+            "artist": "Sido"
           },
-          "previousPosition": 27,
-          "movement": "up",
+          "previousPosition": 22,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 22,
           "source": "kworb_itunes"
@@ -2484,10 +2341,10 @@
         {
           "position": 23,
           "track": {
-            "title": "Ruf mich nicht mehr an",
-            "artist": "Levant"
+            "title": "Stop The Wedding!",
+            "artist": "Ashe"
           },
-          "previousPosition": 43,
+          "previousPosition": 27,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 23,
@@ -2496,10 +2353,10 @@
         {
           "position": 24,
           "track": {
-            "title": "Mr. Know It All",
-            "artist": "Teddy Swims"
+            "title": "Make Me Love You",
+            "artist": "Nickelback"
           },
-          "previousPosition": 15,
+          "previousPosition": 20,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 24,
@@ -2508,11 +2365,11 @@
         {
           "position": 25,
           "track": {
-            "title": "ISSA",
-            "artist": "Sido"
+            "title": "Let Time Answer",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 19,
-          "movement": "down",
+          "previousPosition": 43,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 25,
           "source": "kworb_itunes"
@@ -2520,11 +2377,11 @@
         {
           "position": 26,
           "track": {
-            "title": "Rivers",
-            "artist": "Rea Garvey & Imran"
+            "title": "Magnetic",
+            "artist": "The Bausa"
           },
-          "previousPosition": 107,
-          "movement": "up",
+          "previousPosition": 23,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 26,
           "source": "kworb_itunes"
@@ -2532,11 +2389,11 @@
         {
           "position": 27,
           "track": {
-            "title": "PUZZLETEIL",
-            "artist": "Sido & Montez"
+            "title": "Mr. Know It All",
+            "artist": "Teddy Swims"
           },
-          "previousPosition": 35,
-          "movement": "up",
+          "previousPosition": 17,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 27,
           "source": "kworb_itunes"
@@ -2544,11 +2401,11 @@
         {
           "position": 28,
           "track": {
-            "title": "Everlasting Love",
-            "artist": "Love Affair"
+            "title": "Babydoll",
+            "artist": "Jamie Miller & Antonio Cipriano"
           },
-          "previousPosition": null,
-          "movement": "new",
+          "previousPosition": 16,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 28,
           "source": "kworb_itunes"
@@ -2556,11 +2413,11 @@
         {
           "position": 29,
           "track": {
-            "title": "Magnetic",
-            "artist": "The Bausa"
+            "title": "Mi Chico (Jason Derulo x Melody Version)",
+            "artist": "DJ Goja, Jason Derulo & Melody"
           },
-          "previousPosition": 16,
-          "movement": "down",
+          "previousPosition": 29,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 29,
           "source": "kworb_itunes"
@@ -2568,10 +2425,10 @@
         {
           "position": 30,
           "track": {
-            "title": "American Girls",
-            "artist": "Harry Styles"
+            "title": "Bass Persuades",
+            "artist": "Miley Cyrus"
           },
-          "previousPosition": 47,
+          "previousPosition": 38,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 30,
@@ -2580,10 +2437,10 @@
         {
           "position": 31,
           "track": {
-            "title": "Housewife",
-            "artist": "Tate McRae"
+            "title": "Why Don't You Spend the Night",
+            "artist": "Voltage X"
           },
-          "previousPosition": 40,
+          "previousPosition": 35,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 31,
@@ -2592,11 +2449,11 @@
         {
           "position": 32,
           "track": {
-            "title": "Why Don't You Spend the Night",
-            "artist": "Voltage X"
+            "title": "Rise Slow (Bass Boosted)",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 31,
-          "movement": "down",
+          "previousPosition": 50,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 32,
           "source": "kworb_itunes"
@@ -2604,11 +2461,11 @@
         {
           "position": 33,
           "track": {
-            "title": "Bass Persuades",
-            "artist": "Miley Cyrus"
+            "title": "PUZZLETEIL",
+            "artist": "Sido & Montez"
           },
-          "previousPosition": 38,
-          "movement": "up",
+          "previousPosition": 32,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 33,
           "source": "kworb_itunes"
@@ -2616,10 +2473,10 @@
         {
           "position": 34,
           "track": {
-            "title": "New Religion",
-            "artist": "Bebe Rexha & Faithless"
+            "title": "PROPAGANDA",
+            "artist": "Sido & Fler"
           },
-          "previousPosition": 17,
+          "previousPosition": 21,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 34,
@@ -2628,10 +2485,10 @@
         {
           "position": 35,
           "track": {
-            "title": "Make Me Love You",
-            "artist": "Nickelback"
+            "title": "VALHALLA CALLING",
+            "artist": "Ragal Ironbull"
           },
-          "previousPosition": 25,
+          "previousPosition": 28,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 35,
@@ -2640,11 +2497,11 @@
         {
           "position": 36,
           "track": {
-            "title": "PROPAGANDA",
-            "artist": "Sido & Fler"
+            "title": "Housewife",
+            "artist": "Tate McRae"
           },
-          "previousPosition": 18,
-          "movement": "down",
+          "previousPosition": 41,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 36,
           "source": "kworb_itunes"
@@ -2652,10 +2509,10 @@
         {
           "position": 37,
           "track": {
-            "title": "Let Time Answer",
-            "artist": "Kimo Sounds"
+            "title": "Rivers",
+            "artist": "Rea Garvey & Imran"
           },
-          "previousPosition": 41,
+          "previousPosition": 71,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 37,
@@ -2664,11 +2521,11 @@
         {
           "position": 38,
           "track": {
-            "title": "VALHALLA CALLING",
-            "artist": "Ragal Ironbull"
+            "title": "Everlasting Love",
+            "artist": "Love Affair"
           },
-          "previousPosition": 26,
-          "movement": "down",
+          "previousPosition": null,
+          "movement": "new",
           "weeksOnChart": 1,
           "peakPosition": 38,
           "source": "kworb_itunes"
@@ -2679,7 +2536,7 @@
             "title": "skeletons",
             "artist": "ClockClock"
           },
-          "previousPosition": 95,
+          "previousPosition": 66,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 39,
@@ -2688,10 +2545,10 @@
         {
           "position": 40,
           "track": {
-            "title": "FÃ¼r immer",
-            "artist": "AYLIVA"
+            "title": "American Girls",
+            "artist": "Harry Styles"
           },
-          "previousPosition": 56,
+          "previousPosition": 48,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 40,
@@ -2700,10 +2557,10 @@
         {
           "position": 41,
           "track": {
-            "title": "Take a Little",
-            "artist": "Jaxson Blue"
+            "title": "drop dead",
+            "artist": "Olivia Rodrigo"
           },
-          "previousPosition": 89,
+          "previousPosition": 76,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 41,
@@ -2712,11 +2569,11 @@
         {
           "position": 42,
           "track": {
-            "title": "WHERE IS MY HUSBAND!",
-            "artist": "RAYE"
+            "title": "Cool",
+            "artist": "Mark Forster"
           },
-          "previousPosition": 66,
-          "movement": "up",
+          "previousPosition": 30,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 42,
           "source": "kworb_itunes"
@@ -2724,11 +2581,11 @@
         {
           "position": 43,
           "track": {
-            "title": "Find Me",
-            "artist": "Tiffany Aris"
+            "title": "After the Fall",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 37,
-          "movement": "down",
+          "previousPosition": 67,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 43,
           "source": "kworb_itunes"
@@ -2736,10 +2593,10 @@
         {
           "position": 44,
           "track": {
-            "title": "Engel",
-            "artist": "Klangspiel"
+            "title": "FÃ¼r immer",
+            "artist": "AYLIVA"
           },
-          "previousPosition": 34,
+          "previousPosition": 31,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 44,
@@ -2748,11 +2605,11 @@
         {
           "position": 45,
           "track": {
-            "title": "Rise Slow (Bass Boosted)",
-            "artist": "Kimo Sounds"
+            "title": "Take a Little",
+            "artist": "Jaxson Blue"
           },
-          "previousPosition": 36,
-          "movement": "down",
+          "previousPosition": 73,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 45,
           "source": "kworb_itunes"
@@ -2760,11 +2617,11 @@
         {
           "position": 46,
           "track": {
-            "title": "drop dead",
-            "artist": "Olivia Rodrigo"
+            "title": "Engel",
+            "artist": "Klangspiel"
           },
-          "previousPosition": 55,
-          "movement": "up",
+          "previousPosition": 46,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 46,
           "source": "kworb_itunes"
@@ -2784,11 +2641,11 @@
         {
           "position": 48,
           "track": {
-            "title": "Tastes Like Summer",
-            "artist": "James Blunt"
+            "title": "Step by Step in Time",
+            "artist": "Benny Rivers"
           },
-          "previousPosition": null,
-          "movement": "new",
+          "previousPosition": 95,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 48,
           "source": "kworb_itunes"
@@ -2796,10 +2653,10 @@
         {
           "position": 49,
           "track": {
-            "title": "Animal",
-            "artist": "KATSEYE"
+            "title": "Feel My Love",
+            "artist": "Take That & Michael Patrick Kelly"
           },
-          "previousPosition": 78,
+          "previousPosition": 83,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 49,
@@ -2808,18 +2665,17 @@
         {
           "position": 50,
           "track": {
-            "title": "Choosin' Texas",
-            "artist": "Ella Langley"
+            "title": "WHERE IS MY HUSBAND!",
+            "artist": "RAYE"
           },
-          "previousPosition": 49,
-          "movement": "down",
+          "previousPosition": 75,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 50,
           "source": "kworb_itunes"
         }
       ],
-      "sourceType": "kworb_itunes",
-      "isIndie": false
+      "sourceType": "kworb_itunes"
     },
     "ch": {
       "name": "Suisse",
@@ -2831,7 +2687,7 @@
           "track": {
             "title": "Housewife",
             "artist": "Tate Mcrae",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/c8cade0fb5d6648852d185428998fec2/250x250-000000-80-0-0.jpg"
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/0717657c0f9540946fb9813d3383a500/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 1,
           "movement": "same",
@@ -2839,9 +2695,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4350411742,
-          "deezer_url": "https://www.deezer.com/track/4350411742",
-          "youtube_id": "yi24DPRG0Sg",
-          "youtube_url": "https://www.youtube.com/watch?v=yi24DPRG0Sg"
+          "deezer_url": "https://www.deezer.com/track/4350411742"
         },
         {
           "position": 2,
@@ -2856,9 +2710,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4208859922,
-          "deezer_url": "https://www.deezer.com/track/4208859922",
-          "youtube_id": "fRIhCiUVaKs",
-          "youtube_url": "https://www.youtube.com/watch?v=fRIhCiUVaKs"
+          "deezer_url": "https://www.deezer.com/track/4208859922"
         },
         {
           "position": 3,
@@ -2873,9 +2725,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4166889252,
-          "deezer_url": "https://www.deezer.com/track/4166889252",
-          "youtube_id": "fcnDmrtj6Sk",
-          "youtube_url": "https://www.youtube.com/watch?v=fcnDmrtj6Sk"
+          "deezer_url": "https://www.deezer.com/track/4166889252"
         },
         {
           "position": 4,
@@ -2890,9 +2740,7 @@
           "peakPosition": 4,
           "source": "acharts",
           "deezer_id": 4250696681,
-          "deezer_url": "https://www.deezer.com/track/4250696681",
-          "youtube_id": "3sB4Iv_tM7U",
-          "youtube_url": "https://www.youtube.com/watch?v=3sB4Iv_tM7U"
+          "deezer_url": "https://www.deezer.com/track/4250696681"
         },
         {
           "position": 5,
@@ -2907,9 +2755,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 4019797791,
-          "deezer_url": "https://www.deezer.com/track/4019797791",
-          "youtube_id": "rR2gfIj9CG4",
-          "youtube_url": "https://www.youtube.com/watch?v=rR2gfIj9CG4"
+          "deezer_url": "https://www.deezer.com/track/4019797791"
         },
         {
           "position": 6,
@@ -2924,9 +2770,7 @@
           "peakPosition": 3,
           "source": "acharts",
           "deezer_id": 3848530521,
-          "deezer_url": "https://www.deezer.com/track/3848530521",
-          "youtube_id": "mh4AQkw4Jjc",
-          "youtube_url": "https://www.youtube.com/watch?v=mh4AQkw4Jjc"
+          "deezer_url": "https://www.deezer.com/track/3848530521"
         },
         {
           "position": 7,
@@ -2941,9 +2785,7 @@
           "peakPosition": 4,
           "source": "acharts",
           "deezer_id": 3941164881,
-          "deezer_url": "https://www.deezer.com/track/3941164881",
-          "youtube_id": "6Db-cEgbmC4",
-          "youtube_url": "https://www.youtube.com/watch?v=6Db-cEgbmC4"
+          "deezer_url": "https://www.deezer.com/track/3941164881"
         },
         {
           "position": 8,
@@ -2958,9 +2800,7 @@
           "peakPosition": 8,
           "source": "acharts",
           "deezer_id": 3964173531,
-          "deezer_url": "https://www.deezer.com/track/3964173531",
-          "youtube_id": "V3KjBtuHFi8",
-          "youtube_url": "https://www.youtube.com/watch?v=V3KjBtuHFi8"
+          "deezer_url": "https://www.deezer.com/track/3964173531"
         },
         {
           "position": 9,
@@ -2975,9 +2815,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 60200391,
-          "deezer_url": "https://www.deezer.com/track/60200391",
-          "youtube_id": "OpQFFLBMEPI",
-          "youtube_url": "https://www.youtube.com/watch?v=OpQFFLBMEPI"
+          "deezer_url": "https://www.deezer.com/track/60200391"
         },
         {
           "position": 10,
@@ -2992,9 +2830,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 3210709941,
-          "deezer_url": "https://www.deezer.com/track/3210709941",
-          "youtube_id": "u2ah9tWTkmk",
-          "youtube_url": "https://www.youtube.com/watch?v=u2ah9tWTkmk"
+          "deezer_url": "https://www.deezer.com/track/3210709941"
         },
         {
           "position": 11,
@@ -3009,9 +2845,7 @@
           "peakPosition": 2,
           "source": "acharts",
           "deezer_id": 4020979891,
-          "deezer_url": "https://www.deezer.com/track/4020979891",
-          "youtube_id": "jodJzaVZfj8",
-          "youtube_url": "https://www.youtube.com/watch?v=jodJzaVZfj8"
+          "deezer_url": "https://www.deezer.com/track/4020979891"
         },
         {
           "position": 12,
@@ -3026,9 +2860,7 @@
           "peakPosition": 10,
           "source": "acharts",
           "deezer_id": 3937217881,
-          "deezer_url": "https://www.deezer.com/track/3937217881",
-          "youtube_id": "Szu8fRyLmJM",
-          "youtube_url": "https://www.youtube.com/watch?v=Szu8fRyLmJM"
+          "deezer_url": "https://www.deezer.com/track/3937217881"
         },
         {
           "position": 13,
@@ -3043,9 +2875,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 3567385391,
-          "deezer_url": "https://www.deezer.com/track/3567385391",
-          "youtube_id": "xnP7qKxwzjg",
-          "youtube_url": "https://www.youtube.com/watch?v=xnP7qKxwzjg"
+          "deezer_url": "https://www.deezer.com/track/3567385391"
         },
         {
           "position": 14,
@@ -3060,9 +2890,7 @@
           "peakPosition": 14,
           "source": "acharts",
           "deezer_id": 4158551132,
-          "deezer_url": "https://www.deezer.com/track/4158551132",
-          "youtube_id": "0ijm2Xui5N8",
-          "youtube_url": "https://www.youtube.com/watch?v=0ijm2Xui5N8"
+          "deezer_url": "https://www.deezer.com/track/4158551132"
         },
         {
           "position": 15,
@@ -3077,9 +2905,7 @@
           "peakPosition": 15,
           "source": "acharts",
           "deezer_id": 4209416002,
-          "deezer_url": "https://www.deezer.com/track/4209416002",
-          "youtube_id": "DLV8FpyxZPQ",
-          "youtube_url": "https://www.youtube.com/watch?v=DLV8FpyxZPQ"
+          "deezer_url": "https://www.deezer.com/track/4209416002"
         },
         {
           "position": 16,
@@ -3094,9 +2920,7 @@
           "peakPosition": 16,
           "source": "acharts",
           "deezer_id": 66506871,
-          "deezer_url": "https://www.deezer.com/track/66506871",
-          "youtube_id": "GCdwKhTtNNw",
-          "youtube_url": "https://www.youtube.com/watch?v=GCdwKhTtNNw"
+          "deezer_url": "https://www.deezer.com/track/66506871"
         },
         {
           "position": 17,
@@ -3111,9 +2935,7 @@
           "peakPosition": 17,
           "source": "acharts",
           "deezer_id": 13016794,
-          "deezer_url": "https://www.deezer.com/track/13016794",
-          "youtube_id": "HrV_BcWxJRU",
-          "youtube_url": "https://www.youtube.com/watch?v=HrV_BcWxJRU"
+          "deezer_url": "https://www.deezer.com/track/13016794"
         },
         {
           "position": 18,
@@ -3128,9 +2950,7 @@
           "peakPosition": 1,
           "source": "acharts",
           "deezer_id": 4304169612,
-          "deezer_url": "https://www.deezer.com/track/4304169612",
-          "youtube_id": "mw3kSNIxjqo",
-          "youtube_url": "https://www.youtube.com/watch?v=mw3kSNIxjqo"
+          "deezer_url": "https://www.deezer.com/track/4304169612"
         },
         {
           "position": 19,
@@ -3145,9 +2965,7 @@
           "peakPosition": 8,
           "source": "acharts",
           "deezer_id": 3602329332,
-          "deezer_url": "https://www.deezer.com/track/3602329332",
-          "youtube_id": "s3a4OQR-10M",
-          "youtube_url": "https://www.youtube.com/watch?v=s3a4OQR-10M"
+          "deezer_url": "https://www.deezer.com/track/3602329332"
         },
         {
           "position": 20,
@@ -3162,9 +2980,7 @@
           "peakPosition": 5,
           "source": "acharts",
           "deezer_id": 4273247042,
-          "deezer_url": "https://www.deezer.com/track/4273247042",
-          "youtube_id": "PhfdpyI6h1Y",
-          "youtube_url": "https://www.youtube.com/watch?v=PhfdpyI6h1Y"
+          "deezer_url": "https://www.deezer.com/track/4273247042"
         },
         {
           "position": 21,
@@ -3527,8 +3343,7 @@
           "source": "acharts"
         }
       ],
-      "sourceType": "acharts",
-      "isIndie": false
+      "sourceType": "acharts"
     },
     "br": {
       "name": "Brésil",
@@ -3548,9 +3363,7 @@
           "peakPosition": 1,
           "source": "promusica",
           "deezer_id": 4053915861,
-          "deezer_url": "https://www.deezer.com/track/4053915861",
-          "youtube_id": "lBDDMrUCz1A",
-          "youtube_url": "https://www.youtube.com/watch?v=lBDDMrUCz1A"
+          "deezer_url": "https://www.deezer.com/track/4053915861"
         },
         {
           "position": 2,
@@ -3565,9 +3378,7 @@
           "peakPosition": 2,
           "source": "promusica",
           "deezer_id": 3893226711,
-          "deezer_url": "https://www.deezer.com/track/3893226711",
-          "youtube_id": "2yreX_ZCfgM",
-          "youtube_url": "https://www.youtube.com/watch?v=2yreX_ZCfgM"
+          "deezer_url": "https://www.deezer.com/track/3893226711"
         },
         {
           "position": 3,
@@ -3582,9 +3393,7 @@
           "peakPosition": 3,
           "source": "promusica",
           "deezer_id": 4179195042,
-          "deezer_url": "https://www.deezer.com/track/4179195042",
-          "youtube_id": "QU8wLdomMv0",
-          "youtube_url": "https://www.youtube.com/watch?v=QU8wLdomMv0"
+          "deezer_url": "https://www.deezer.com/track/4179195042"
         },
         {
           "position": 4,
@@ -3599,9 +3408,7 @@
           "peakPosition": 4,
           "source": "promusica",
           "deezer_id": 4003509191,
-          "deezer_url": "https://www.deezer.com/track/4003509191",
-          "youtube_id": "7fm9pdTp_y8",
-          "youtube_url": "https://www.youtube.com/watch?v=7fm9pdTp_y8"
+          "deezer_url": "https://www.deezer.com/track/4003509191"
         },
         {
           "position": 5,
@@ -3613,9 +3420,7 @@
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 5,
-          "source": "promusica",
-          "youtube_id": "bkouF9cRDmE",
-          "youtube_url": "https://www.youtube.com/watch?v=bkouF9cRDmE"
+          "source": "promusica"
         },
         {
           "position": 6,
@@ -3630,9 +3435,7 @@
           "peakPosition": 6,
           "source": "promusica",
           "deezer_id": 4194449262,
-          "deezer_url": "https://www.deezer.com/track/4194449262",
-          "youtube_id": "ok6LYl38Ku0",
-          "youtube_url": "https://www.youtube.com/watch?v=ok6LYl38Ku0"
+          "deezer_url": "https://www.deezer.com/track/4194449262"
         },
         {
           "position": 7,
@@ -3647,9 +3450,7 @@
           "peakPosition": 7,
           "source": "promusica",
           "deezer_id": 3546914011,
-          "deezer_url": "https://www.deezer.com/track/3546914011",
-          "youtube_id": "kI6ywewtYkc",
-          "youtube_url": "https://www.youtube.com/watch?v=kI6ywewtYkc"
+          "deezer_url": "https://www.deezer.com/track/3546914011"
         },
         {
           "position": 8,
@@ -3664,9 +3465,7 @@
           "peakPosition": 8,
           "source": "promusica",
           "deezer_id": 4100657281,
-          "deezer_url": "https://www.deezer.com/track/4100657281",
-          "youtube_id": "_XrUr8i18Is",
-          "youtube_url": "https://www.youtube.com/watch?v=_XrUr8i18Is"
+          "deezer_url": "https://www.deezer.com/track/4100657281"
         },
         {
           "position": 9,
@@ -3681,9 +3480,7 @@
           "peakPosition": 9,
           "source": "promusica",
           "deezer_id": 3184911081,
-          "deezer_url": "https://www.deezer.com/track/3184911081",
-          "youtube_id": "0ZF5em0MTwY",
-          "youtube_url": "https://www.youtube.com/watch?v=0ZF5em0MTwY"
+          "deezer_url": "https://www.deezer.com/track/3184911081"
         },
         {
           "position": 10,
@@ -3698,9 +3495,7 @@
           "peakPosition": 10,
           "source": "promusica",
           "deezer_id": 4210021552,
-          "deezer_url": "https://www.deezer.com/track/4210021552",
-          "youtube_id": "4PZpWJr8Lfg",
-          "youtube_url": "https://www.youtube.com/watch?v=4PZpWJr8Lfg"
+          "deezer_url": "https://www.deezer.com/track/4210021552"
         },
         {
           "position": 11,
@@ -3715,9 +3510,7 @@
           "peakPosition": 11,
           "source": "promusica",
           "deezer_id": 4059462101,
-          "deezer_url": "https://www.deezer.com/track/4059462101",
-          "youtube_id": "8jBSqYTByM4",
-          "youtube_url": "https://www.youtube.com/watch?v=8jBSqYTByM4"
+          "deezer_url": "https://www.deezer.com/track/4059462101"
         },
         {
           "position": 12,
@@ -3732,9 +3525,7 @@
           "peakPosition": 12,
           "source": "promusica",
           "deezer_id": 4008389051,
-          "deezer_url": "https://www.deezer.com/track/4008389051",
-          "youtube_id": "xu6a8VqwVsw",
-          "youtube_url": "https://www.youtube.com/watch?v=xu6a8VqwVsw"
+          "deezer_url": "https://www.deezer.com/track/4008389051"
         },
         {
           "position": 13,
@@ -3749,9 +3540,7 @@
           "peakPosition": 13,
           "source": "promusica",
           "deezer_id": 4264132152,
-          "deezer_url": "https://www.deezer.com/track/4264132152",
-          "youtube_id": "dS1T20yO4sc",
-          "youtube_url": "https://www.youtube.com/watch?v=dS1T20yO4sc"
+          "deezer_url": "https://www.deezer.com/track/4264132152"
         },
         {
           "position": 14,
@@ -3766,9 +3555,7 @@
           "peakPosition": 14,
           "source": "promusica",
           "deezer_id": 3837322301,
-          "deezer_url": "https://www.deezer.com/track/3837322301",
-          "youtube_id": "ODijwjs8Qvc",
-          "youtube_url": "https://www.youtube.com/watch?v=ODijwjs8Qvc"
+          "deezer_url": "https://www.deezer.com/track/3837322301"
         },
         {
           "position": 15,
@@ -3783,9 +3570,7 @@
           "peakPosition": 15,
           "source": "promusica",
           "deezer_id": 3640608352,
-          "deezer_url": "https://www.deezer.com/track/3640608352",
-          "youtube_id": "WQHYbOy7H2g",
-          "youtube_url": "https://www.youtube.com/watch?v=WQHYbOy7H2g"
+          "deezer_url": "https://www.deezer.com/track/3640608352"
         },
         {
           "position": 16,
@@ -3800,9 +3585,7 @@
           "peakPosition": 16,
           "source": "promusica",
           "deezer_id": 3876591901,
-          "deezer_url": "https://www.deezer.com/track/3876591901",
-          "youtube_id": "9Vt4XguN2-A",
-          "youtube_url": "https://www.youtube.com/watch?v=9Vt4XguN2-A"
+          "deezer_url": "https://www.deezer.com/track/3876591901"
         },
         {
           "position": 17,
@@ -3817,9 +3600,7 @@
           "peakPosition": 17,
           "source": "promusica",
           "deezer_id": 4053915901,
-          "deezer_url": "https://www.deezer.com/track/4053915901",
-          "youtube_id": "vWO2Ui3vHbQ",
-          "youtube_url": "https://www.youtube.com/watch?v=vWO2Ui3vHbQ"
+          "deezer_url": "https://www.deezer.com/track/4053915901"
         },
         {
           "position": 18,
@@ -3834,9 +3615,7 @@
           "peakPosition": 18,
           "source": "promusica",
           "deezer_id": 3682660782,
-          "deezer_url": "https://www.deezer.com/track/3682660782",
-          "youtube_id": "y15gPbntaLE",
-          "youtube_url": "https://www.youtube.com/watch?v=y15gPbntaLE"
+          "deezer_url": "https://www.deezer.com/track/3682660782"
         },
         {
           "position": 19,
@@ -3851,9 +3630,7 @@
           "peakPosition": 19,
           "source": "promusica",
           "deezer_id": 4238620212,
-          "deezer_url": "https://www.deezer.com/track/4238620212",
-          "youtube_id": "F5TRbqPTBLQ",
-          "youtube_url": "https://www.youtube.com/watch?v=F5TRbqPTBLQ"
+          "deezer_url": "https://www.deezer.com/track/4238620212"
         },
         {
           "position": 20,
@@ -3865,9 +3642,7 @@
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 20,
-          "source": "promusica",
-          "youtube_id": "gv_zam5wWKs",
-          "youtube_url": "https://www.youtube.com/watch?v=gv_zam5wWKs"
+          "source": "promusica"
         },
         {
           "position": 21,
@@ -4230,8 +4005,7 @@
           "source": "promusica"
         }
       ],
-      "sourceType": "promusica",
-      "isIndie": false
+      "sourceType": "promusica"
     },
     "sg": {
       "name": "Singapour",
@@ -4251,9 +4025,7 @@
           "peakPosition": 1,
           "source": "itunes_rss",
           "deezer_id": 527823711,
-          "deezer_url": "https://www.deezer.com/track/527823711",
-          "youtube_id": "u1xZDd0fS5I",
-          "youtube_url": "https://www.youtube.com/watch?v=u1xZDd0fS5I"
+          "deezer_url": "https://www.deezer.com/track/527823711"
         },
         {
           "position": 2,
@@ -4268,9 +4040,7 @@
           "peakPosition": 2,
           "source": "itunes_rss",
           "deezer_id": 4370762451,
-          "deezer_url": "https://www.deezer.com/track/4370762451",
-          "youtube_id": "u_hpZueWI9g",
-          "youtube_url": "https://www.youtube.com/watch?v=u_hpZueWI9g"
+          "deezer_url": "https://www.deezer.com/track/4370762451"
         },
         {
           "position": 3,
@@ -4285,9 +4055,7 @@
           "peakPosition": 3,
           "source": "itunes_rss",
           "deezer_id": 2661514912,
-          "deezer_url": "https://www.deezer.com/track/2661514912",
-          "youtube_id": "ZjBZ8MUnB0E",
-          "youtube_url": "https://www.youtube.com/watch?v=ZjBZ8MUnB0E"
+          "deezer_url": "https://www.deezer.com/track/2661514912"
         },
         {
           "position": 4,
@@ -4302,9 +4070,7 @@
           "peakPosition": 4,
           "source": "itunes_rss",
           "deezer_id": 4347022382,
-          "deezer_url": "https://www.deezer.com/track/4347022382",
-          "youtube_id": "oC6brLXQe4I",
-          "youtube_url": "https://www.youtube.com/watch?v=oC6brLXQe4I"
+          "deezer_url": "https://www.deezer.com/track/4347022382"
         },
         {
           "position": 5,
@@ -4319,9 +4085,7 @@
           "peakPosition": 5,
           "source": "itunes_rss",
           "deezer_id": 4383291021,
-          "deezer_url": "https://www.deezer.com/track/4383291021",
-          "youtube_id": "aJeH5lZErPc",
-          "youtube_url": "https://www.youtube.com/watch?v=aJeH5lZErPc"
+          "deezer_url": "https://www.deezer.com/track/4383291021"
         },
         {
           "position": 6,
@@ -4334,9 +4098,7 @@
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 6,
-          "source": "itunes_rss",
-          "youtube_id": "OXsEcQU8o6k",
-          "youtube_url": "https://www.youtube.com/watch?v=OXsEcQU8o6k"
+          "source": "itunes_rss"
         },
         {
           "position": 7,
@@ -4349,9 +4111,7 @@
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 7,
-          "source": "itunes_rss",
-          "youtube_id": "NaUX-REyMh4",
-          "youtube_url": "https://www.youtube.com/watch?v=NaUX-REyMh4"
+          "source": "itunes_rss"
         },
         {
           "position": 8,
@@ -4366,9 +4126,7 @@
           "peakPosition": 8,
           "source": "itunes_rss",
           "deezer_id": 3458894481,
-          "deezer_url": "https://www.deezer.com/track/3458894481",
-          "youtube_id": "I1zqCX3Dvxo",
-          "youtube_url": "https://www.youtube.com/watch?v=I1zqCX3Dvxo"
+          "deezer_url": "https://www.deezer.com/track/3458894481"
         },
         {
           "position": 9,
@@ -4383,9 +4141,7 @@
           "peakPosition": 9,
           "source": "itunes_rss",
           "deezer_id": 810364532,
-          "deezer_url": "https://www.deezer.com/track/810364532",
-          "youtube_id": "qCF3_Xk_ZXQ",
-          "youtube_url": "https://www.youtube.com/watch?v=qCF3_Xk_ZXQ"
+          "deezer_url": "https://www.deezer.com/track/810364532"
         },
         {
           "position": 10,
@@ -4398,9 +4154,7 @@
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 10,
-          "source": "itunes_rss",
-          "youtube_id": "aGlVMnvsSio",
-          "youtube_url": "https://www.youtube.com/watch?v=aGlVMnvsSio"
+          "source": "itunes_rss"
         },
         {
           "position": 11,
@@ -4413,9 +4167,7 @@
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 11,
-          "source": "itunes_rss",
-          "youtube_id": "NfSUlwa98ao",
-          "youtube_url": "https://www.youtube.com/watch?v=NfSUlwa98ao"
+          "source": "itunes_rss"
         },
         {
           "position": 12,
@@ -4430,9 +4182,7 @@
           "peakPosition": 12,
           "source": "itunes_rss",
           "deezer_id": 4383291031,
-          "deezer_url": "https://www.deezer.com/track/4383291031",
-          "youtube_id": "h6xpzXZ2FBA",
-          "youtube_url": "https://www.youtube.com/watch?v=h6xpzXZ2FBA"
+          "deezer_url": "https://www.deezer.com/track/4383291031"
         },
         {
           "position": 13,
@@ -4447,9 +4197,7 @@
           "peakPosition": 13,
           "source": "itunes_rss",
           "deezer_id": 3860997771,
-          "deezer_url": "https://www.deezer.com/track/3860997771",
-          "youtube_id": "G97_rOdHcnY",
-          "youtube_url": "https://www.youtube.com/watch?v=G97_rOdHcnY"
+          "deezer_url": "https://www.deezer.com/track/3860997771"
         },
         {
           "position": 14,
@@ -4464,9 +4212,7 @@
           "peakPosition": 14,
           "source": "itunes_rss",
           "deezer_id": 134116914,
-          "deezer_url": "https://www.deezer.com/track/134116914",
-          "youtube_id": "ZUHKDHkRasc",
-          "youtube_url": "https://www.youtube.com/watch?v=ZUHKDHkRasc"
+          "deezer_url": "https://www.deezer.com/track/134116914"
         },
         {
           "position": 15,
@@ -4481,9 +4227,7 @@
           "peakPosition": 15,
           "source": "itunes_rss",
           "deezer_id": 1306695742,
-          "deezer_url": "https://www.deezer.com/track/1306695742",
-          "youtube_id": "h0ffIJ7ZO4U",
-          "youtube_url": "https://www.youtube.com/watch?v=h0ffIJ7ZO4U"
+          "deezer_url": "https://www.deezer.com/track/1306695742"
         },
         {
           "position": 16,
@@ -4498,9 +4242,7 @@
           "peakPosition": 16,
           "source": "itunes_rss",
           "deezer_id": 114422238,
-          "deezer_url": "https://www.deezer.com/track/114422238",
-          "youtube_id": "BfbOI19D3DY",
-          "youtube_url": "https://www.youtube.com/watch?v=BfbOI19D3DY"
+          "deezer_url": "https://www.deezer.com/track/114422238"
         },
         {
           "position": 17,
@@ -4515,9 +4257,7 @@
           "peakPosition": 17,
           "source": "itunes_rss",
           "deezer_id": 4342740,
-          "deezer_url": "https://www.deezer.com/track/4342740",
-          "youtube_id": "J9-cDa4JCwM",
-          "youtube_url": "https://www.youtube.com/watch?v=J9-cDa4JCwM"
+          "deezer_url": "https://www.deezer.com/track/4342740"
         },
         {
           "position": 18,
@@ -4530,9 +4270,7 @@
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 18,
-          "source": "itunes_rss",
-          "youtube_id": "sDqTEHfzwx8",
-          "youtube_url": "https://www.youtube.com/watch?v=sDqTEHfzwx8"
+          "source": "itunes_rss"
         },
         {
           "position": 19,
@@ -4547,9 +4285,7 @@
           "peakPosition": 19,
           "source": "itunes_rss",
           "deezer_id": 4089401801,
-          "deezer_url": "https://www.deezer.com/track/4089401801",
-          "youtube_id": "lH2rQyG_0pk",
-          "youtube_url": "https://www.youtube.com/watch?v=lH2rQyG_0pk"
+          "deezer_url": "https://www.deezer.com/track/4089401801"
         },
         {
           "position": 20,
@@ -4564,9 +4300,7 @@
           "peakPosition": 20,
           "source": "itunes_rss",
           "deezer_id": 4335117432,
-          "deezer_url": "https://www.deezer.com/track/4335117432",
-          "youtube_id": "D968qfUZMUE",
-          "youtube_url": "https://www.youtube.com/watch?v=D968qfUZMUE"
+          "deezer_url": "https://www.deezer.com/track/4335117432"
         },
         {
           "position": 21,
@@ -4959,8 +4693,7 @@
           "source": "itunes_rss"
         }
       ],
-      "sourceType": "itunes_rss",
-      "isIndie": false
+      "sourceType": "itunes_rss"
     }
   },
   "regions": {
