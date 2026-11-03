@@ -1,19 +1,29 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version avec archives rétro lescharts.com.
+Version avec cache intelligent + nettoyage automatique après 2 ans.
 """
 
 import json
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timedelta
 import re
 import os
 import time
 import urllib.parse
 
 YOUTUBE_API_KEY = os.environ.get('YOUTUBE_API_KEY', '')
+
+# Configuration - Limite à 20 par pays (le quota est quotidien, se régule naturellement)
+YOUTUBE_LIMIT_PER_COUNTRY = 20
+DEEZER_LIMIT_PER_COUNTRY = 20
+
+# Configuration du cache
+CACHE_DIR = "data/cache"
+CACHE_FILE = os.path.join(CACHE_DIR, "streaming_ids.json")
+CACHE_RETRO_FILE = os.path.join(CACHE_DIR, "retro_archives.json")
+CACHE_MAX_AGE_DAYS = 730  # 2 ans
 
 SOURCES = {
     "us": {
@@ -70,6 +80,85 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
 
+youtube_quota_exceeded = False
+
+# ===== GESTION DU CACHE PRINCIPAL =====
+
+def load_cache():
+    """Charge le cache et applique le nettoyage automatique"""
+    cache = {}
+    
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+                cache = json.load(f)
+            print(f"📦 Cache chargé : {len(cache)} titres en mémoire")
+            
+            # Appliquer le nettoyage automatique
+            cache = clean_cache(cache)
+            
+        except Exception as e:
+            print(f"⚠️ Erreur lors du chargement du cache: {e}")
+            cache = {}
+    else:
+        print(f"📦 Pas de cache trouvé, création d'un nouveau cache")
+    
+    return cache
+
+def clean_cache(cache, max_age_days=CACHE_MAX_AGE_DAYS):
+    """
+    Nettoie le cache en supprimant les entrées de plus de max_age_days.
+    Retourne le cache nettoyé.
+    """
+    if not cache:
+        return cache
+    
+    cutoff_date = datetime.now() - timedelta(days=max_age_days)
+    cleaned_cache = {}
+    removed_count = 0
+    
+    for key, value in cache.items():
+        cached_at_str = value.get('cached_at', '2020-01-01')
+        
+        try:
+            cached_at = datetime.strptime(cached_at_str, '%Y-%m-%d')
+            
+            if cached_at >= cutoff_date:
+                cleaned_cache[key] = value
+            else:
+                removed_count += 1
+        except (ValueError, TypeError):
+            # Si la date est invalide, garder l'entrée par sécurité
+            cleaned_cache[key] = value
+    
+    if removed_count > 0:
+        print(f"🧹 Nettoyage automatique du cache : {removed_count} entrées supprimées (> {max_age_days} jours)")
+        print(f"   Cache restant : {len(cleaned_cache)} entrées")
+    
+    return cleaned_cache
+
+def save_cache(cache):
+    """Sauvegarde le cache dans le fichier JSON"""
+    try:
+        os.makedirs(CACHE_DIR, exist_ok=True)
+        with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2)
+        print(f"💾 Cache sauvegardé : {len(cache)} titres au total")
+    except Exception as e:
+        print(f"⚠️ Erreur lors de la sauvegarde du cache: {e}")
+
+def get_cache_key(artist, title):
+    """Génère une clé unique pour un titre (normalisée)"""
+    artist_clean = re.sub(r'\(.*?\)', '', artist).lower().strip()
+    title_clean = re.sub(r'\(.*?\)', '', title).lower().strip()
+    
+    artist_clean = re.sub(r'[^\w\s]', '', artist_clean).strip()
+    title_clean = re.sub(r'[^\w\s]', '', title_clean).strip()
+    
+    return f"{artist_clean}|{title_clean}"
+
+# ===== FONCTIONS DE BASE =====
+
 def get_week_info():
     now = datetime.now()
     return {
@@ -88,6 +177,8 @@ def calculate_movement(current_pos, previous_pos):
         return "down"
     else:
         return "same"
+
+# ===== RECHERCHE DEEZER =====
 
 def fetch_deezer_track_id(artist, title):
     """Récupère l'ID Deezer d'un titre via l'API publique"""
@@ -114,8 +205,15 @@ def fetch_deezer_track_id(artist, title):
     
     return None
 
+# ===== RECHERCHE YOUTUBE =====
+
 def fetch_youtube_video_id_official(artist, title):
     """Récupère l'ID vidéo YouTube en privilégiant les vidéos officielles"""
+    global youtube_quota_exceeded
+    
+    if youtube_quota_exceeded:
+        return None
+    
     if not YOUTUBE_API_KEY:
         return None
     
@@ -137,84 +235,153 @@ def fetch_youtube_video_id_official(artist, title):
         
         response = requests.get(url, params=params, timeout=10)
         
-        if response.status_code == 200:
-            data = response.json()
-            items = data.get('items', [])
+        if response.status_code == 403:
+            error_data = response.json()
+            error_message = error_data.get('error', {}).get('message', '')
             
-            exclude_keywords = ['lyrics', 'lyric', 'audio only', 'cover', 'live', 'karaoke', 'remix']
+            if 'quota' in error_message.lower():
+                youtube_quota_exceeded = True
+                print(f"      ⚠️ QUOTA YOUTUBE DÉPASSÉ - Arrêt des recherches YouTube")
+                return None
+            else:
+                print(f"      ⚠️ Erreur API YouTube 403: {error_message[:100]}")
+                return None
+        
+        if response.status_code != 200:
+            print(f"      ⚠️ Erreur API YouTube: HTTP {response.status_code}")
+            return None
+        
+        data = response.json()
+        items = data.get('items', [])
+        
+        if not items:
+            return None
+        
+        exclude_keywords = ['lyrics', 'lyric', 'audio only', 'cover', 'live', 'karaoke', 'remix']
+        
+        best_video = None
+        
+        for item in items:
+            video_title = item['snippet']['title'].lower()
+            channel = item['snippet']['channelTitle'].lower()
             
-            best_video = None
+            is_official = any(keyword in video_title for keyword in ['official video', 'official', 'clip officiel', 'official clip'])
+            is_vevo = 'vevo' in channel
             
+            is_excluded = any(keyword in video_title for keyword in exclude_keywords)
+            
+            if not is_excluded and (is_official or is_vevo):
+                best_video = item
+                break
+        
+        if not best_video:
             for item in items:
                 video_title = item['snippet']['title'].lower()
-                channel = item['snippet']['channelTitle'].lower()
-                
-                is_official = any(keyword in video_title for keyword in ['official video', 'official', 'clip officiel', 'official clip'])
-                is_vevo = 'vevo' in channel
-                
                 is_excluded = any(keyword in video_title for keyword in exclude_keywords)
-                
-                if not is_excluded and (is_official or is_vevo):
+                if not is_excluded:
                     best_video = item
                     break
-            
-            if not best_video:
-                for item in items:
-                    video_title = item['snippet']['title'].lower()
-                    is_excluded = any(keyword in video_title for keyword in exclude_keywords)
-                    if not is_excluded:
-                        best_video = item
-                        break
-            
-            if not best_video and items:
-                best_video = items[0]
-            
-            if best_video:
-                video_id = best_video['id']['videoId']
-                return {
-                    'youtube_id': video_id,
-                    'youtube_url': f"https://www.youtube.com/watch?v={video_id}",
-                    'youtube_title': best_video['snippet']['title']
-                }
+        
+        if not best_video and items:
+            best_video = items[0]
+        
+        if best_video:
+            video_id = best_video['id']['videoId']
+            return {
+                'youtube_id': video_id,
+                'youtube_url': f"https://www.youtube.com/watch?v={video_id}",
+                'youtube_title': best_video['snippet']['title']
+            }
     
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"      ⚠️ Erreur YouTube: {str(e)[:80]}")
+        return None
     
     return None
 
-def enrich_with_streaming_ids(entries, country_name, limit=20):
-    """Enrichit les entrées avec les IDs Deezer et YouTube"""
-    print(f"  🔍 Enrichissement avec IDs Deezer/YouTube pour {country_name}...")
+# ===== ENRICHISSEMENT AVEC CACHE =====
+
+def enrich_with_cache(entries, cache, country_name):
+    """Enrichit les entrées en utilisant le cache d'abord"""
+    global youtube_quota_exceeded
     
-    enriched_count = 0
+    print(f"  🔍 Enrichissement pour {country_name}...")
     
-    for i, entry in enumerate(entries[:limit]):
+    from_cache = 0
+    youtube_searches = 0
+    deezer_searches = 0
+    youtube_found = 0
+    deezer_found = 0
+    
+    for entry in entries[:DEEZER_LIMIT_PER_COUNTRY]:
         artist = entry['track']['artist']
         title = entry['track']['title']
+        cache_key = get_cache_key(artist, title)
         
+        # Vérifier d'abord le cache
+        if cache_key in cache:
+            cached = cache[cache_key]
+            
+            if cached.get('youtube_id'):
+                entry['youtube_id'] = cached['youtube_id']
+                entry['youtube_url'] = cached['youtube_url']
+                entry['youtube_video_title'] = cached.get('youtube_title')
+            
+            if cached.get('deezer_id'):
+                entry['deezer_id'] = cached['deezer_id']
+                entry['deezer_url'] = cached['deezer_url']
+                if cached.get('artwork'):
+                    entry['track']['artwork'] = cached['artwork']
+            
+            from_cache += 1
+            continue
+        
+        # Pas dans le cache → faire les recherches
+        entry_cache = {}
+        
+        # Recherche Deezer
         deezer_info = fetch_deezer_track_id(artist, title)
         if deezer_info:
             entry['deezer_id'] = deezer_info.get('deezer_id')
             entry['deezer_url'] = deezer_info.get('deezer_url')
             if deezer_info.get('artwork'):
                 entry['track']['artwork'] = deezer_info['artwork']
+            
+            entry_cache['deezer_id'] = deezer_info['deezer_id']
+            entry_cache['deezer_url'] = deezer_info['deezer_url']
+            entry_cache['artwork'] = deezer_info.get('artwork')
+            deezer_found += 1
         
-        youtube_info = fetch_youtube_video_id_official(artist, title)
-        if youtube_info:
-            entry['youtube_id'] = youtube_info.get('youtube_id')
-            entry['youtube_url'] = youtube_info.get('youtube_url')
-            entry['youtube_video_title'] = youtube_info.get('youtube_title')
+        deezer_searches += 1
+        time.sleep(0.2)
         
-        if deezer_info or youtube_info:
-            enriched_count += 1
+        # Recherche YouTube (si quota disponible)
+        if not youtube_quota_exceeded and YOUTUBE_API_KEY:
+            youtube_info = fetch_youtube_video_id_official(artist, title)
+            if youtube_info:
+                entry['youtube_id'] = youtube_info.get('youtube_id')
+                entry['youtube_url'] = youtube_info.get('youtube_url')
+                entry['youtube_video_title'] = youtube_info.get('youtube_title')
+                
+                entry_cache['youtube_id'] = youtube_info['youtube_id']
+                entry_cache['youtube_url'] = youtube_info['youtube_url']
+                entry_cache['youtube_title'] = youtube_info.get('youtube_title')
+                youtube_found += 1
+            
+            youtube_searches += 1
+            time.sleep(0.3)
         
-        time.sleep(0.3)
-        
-        if (i + 1) % 5 == 0:
-            print(f"    📊 {i+1}/{limit} traités - {enriched_count} enrichis")
+        # Sauvegarder dans le cache
+        entry_cache['cached_at'] = datetime.now().strftime('%Y-%m-%d')
+        entry_cache['artist'] = artist
+        entry_cache['title'] = title
+        cache[cache_key] = entry_cache
     
-    print(f"    ✅ {enriched_count}/{limit} entrées enrichies")
+    print(f"    📊 Cache: {from_cache} | Deezer: {deezer_found}/{deezer_searches} | YouTube: {youtube_found}/{youtube_searches}")
+    
     return entries
+
+# ===== SCRAPERS =====
 
 def fetch_acharts(url, country_name):
     """Scrape acharts.co"""
@@ -520,11 +687,20 @@ def fetch_billboard_hot100():
     
     return fetch_acharts("https://acharts.co/us_singles_top_100", "US")
 
+# ===== FONCTION PRINCIPALE =====
+
 def main():
+    global youtube_quota_exceeded
+    
     print(f"🎵 Début de la collecte - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
+    # Charger le cache (avec nettoyage automatique)
+    cache = load_cache()
+    
     if YOUTUBE_API_KEY:
-        print("✅ Clé API YouTube configurée - IDs vidéo OFFICIELS seront récupérés\n")
+        print(f"✅ Clé API YouTube configurée")
+        print(f"   Limite: {YOUTUBE_LIMIT_PER_COUNTRY} titres/pays")
+        print(f"   Cache: réduction automatique des recherches\n")
     else:
         print("⚠️ Pas de clé API YouTube - seul Deezer fournira des IDs directs\n")
     
@@ -537,7 +713,8 @@ def main():
             "year": week_info["year"],
             "updatedAt": week_info["date"],
             "sourceNote": "",
-            "hasStreamingIds": True
+            "hasStreamingIds": True,
+            "cacheSize": len(cache)
         },
         "countries": {},
         "regions": {
@@ -568,8 +745,9 @@ def main():
         elif source_used == "itunes_rss":
             entries = fetch_itunes_rss(country_info["itunes_url"], country_info["name"])
         
+        # Enrichir avec le cache
         if entries and len(entries) >= 5:
-            entries = enrich_with_streaming_ids(entries, country_info["name"], limit=20)
+            entries = enrich_with_cache(entries, cache, country_info["name"])
         
         if entries and len(entries) >= 5:
             charts_data["countries"][code] = {
@@ -586,6 +764,14 @@ def main():
         else:
             failed_sources.append(country_info["name"])
             print(f"  ❌ Échec")
+    
+    # Sauvegarder le cache mis à jour
+    save_cache(cache)
+    
+    # Message final sur le quota
+    if youtube_quota_exceeded:
+        print(f"\n⚠️ ATTENTION : Le quota YouTube a été dépassé pendant la collecte")
+        print(f"   Les titres non trouvés seront recherchés à la prochaine exécution")
     
     if successful_sources and failed_sources:
         charts_data["meta"]["sourceNote"] = f"✅ {len(successful_sources)} sources OK. ❌ {len(failed_sources)} échouées."
@@ -607,6 +793,7 @@ def main():
     print(f"✅ Collecte terminée")
     print(f"   - {len(successful_sources)} sources réussies")
     print(f"   - {len(failed_sources)} sources échouées")
+    print(f"   - Cache: {len(cache)} titres en mémoire")
     print(f"{'='*60}")
 
 if __name__ == "__main__":
