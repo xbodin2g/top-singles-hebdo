@@ -25,6 +25,8 @@
       --danger-bg: rgba(220, 38, 38, 0.12);
       --warning-bg: rgba(217, 119, 6, 0.14);
       --accent-bg: rgba(99, 102, 241, 0.14);
+      --deezer: #ff0092;
+      --deezer-bg: rgba(255, 0, 146, 0.12);
     }
 
     [data-theme="dark"] {
@@ -47,6 +49,8 @@
       --danger-bg: rgba(251, 113, 133, 0.14);
       --warning-bg: rgba(251, 191, 36, 0.14);
       --accent-bg: rgba(129, 140, 248, 0.16);
+      --deezer: #ff2fa0;
+      --deezer-bg: rgba(255, 47, 160, 0.16);
     }
 
     * { box-sizing: border-box; }
@@ -509,10 +513,6 @@
       background: linear-gradient(135deg, rgba(255, 0, 146, 0.1), rgba(255, 0, 146, 0.05));
     }
 
-    .listen-btn.spotify.direct {
-      background: linear-gradient(135deg, rgba(29, 185, 84, 0.1), rgba(29, 185, 84, 0.05));
-    }
-
     .direct-indicator {
       display: inline-block;
       width: 6px;
@@ -926,6 +926,29 @@
       text-decoration: underline;
     }
 
+    .deezer-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .deezer-status.connected {
+      background: var(--success-bg);
+      color: var(--success);
+      border: 1px solid var(--success);
+    }
+
+    .deezer-status.disconnected {
+      background: var(--warning-bg);
+      color: var(--warning);
+      border: 1px solid var(--warning);
+    }
+
     code {
       background: var(--overlay);
       padding: 2px 6px;
@@ -1101,9 +1124,6 @@
           <br><br>
           <strong>💡 Enrichissement à la demande :</strong><br>
           Les archives ne contiennent pas d'IDs streaming. Vous pouvez les rechercher après avoir chargé une archive.
-          <br><br>
-          <strong>🎵 Création de playlist Deezer :</strong><br>
-          Une fois l'archive enrichie, utilisez le bouton "Créer une playlist Deezer" pour l'exporter vers Soundiiz.
         </div>
 
         <div class="retro-controls">
@@ -1167,15 +1187,21 @@
 
           <!-- Section création de playlist Deezer -->
           <div class="playlist-creation-section">
-            <h4>🎵 Créer une playlist Deezer</h4>
+            <h4>🎧 Créer une playlist Deezer</h4>
             <p>
-              Une fois l'archive chargée, vous pouvez générer une liste de titres et la transférer vers Deezer
-              via le service gratuit <strong>Soundiiz</strong>. Aucune compétence technique requise !
+              Deux méthodes disponibles : <strong>directement dans Deezer</strong> (recommandé) ou via 
+              <strong>TuneMyMusic</strong> (si vous préférez un service tiers).
             </p>
+
+            <div id="deezerConnectionStatus" class="deezer-status disconnected">
+              ⚠️ Non connecté à Deezer
+            </div>
             
             <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-              <button class="button button-deezer" id="createDeezerPlaylistBtn">🎧 Créer une playlist Deezer (via Soundiiz)</button>
-              <button class="button" id="copyPlaylistTextBtn">📋 Copier la liste des titres</button>
+              <button class="button button-deezer" id="connectDeezerBtn">🔐 Se connecter à Deezer</button>
+              <button class="button button-deezer" id="createDeezerDirectBtn">⚡ Créer directement dans Deezer</button>
+              <button class="button" id="createDeezerTuneMyBtn">🌐 Via TuneMyMusic</button>
+              <button class="button" id="copyPlaylistTextBtn">📋 Copier la liste</button>
             </div>
             
             <div id="playlistCreationInfo" class="playlist-info" style="display: none;"></div>
@@ -1220,7 +1246,7 @@
       </div>
       <div class="modal-body">
         <div class="modal-intro">
-          <strong>Configurez vos clés API pour l'enrichissement</strong><br>
+          <strong>Configurez vos clés API pour l'enrichissement et les playlists</strong><br>
           Les clés sont stockées localement dans votre navigateur et ne sont jamais envoyées à un serveur tiers.
         </div>
 
@@ -1234,10 +1260,12 @@
         </div>
 
         <div class="control-group" style="margin-bottom: 20px;">
-          <label for="deezerApiKey">Clé API Deezer</label>
-          <input type="text" id="deezerApiKey" placeholder="Optionnel" value="Non nécessaire" disabled>
+          <label for="deezerAppId">App ID Deezer (pour créer des playlists)</label>
+          <input type="text" id="deezerAppId" placeholder="Ex: 123456" autocomplete="off">
           <p style="color: var(--muted); font-size: 13px; margin-top: 8px;">
-            Deezer utilise une API publique gratuite via JSONP, aucune clé nécessaire. ✅
+            Nécessaire pour créer des playlists directement dans votre compte Deezer.<br>
+            Obtenez un App ID gratuit sur : <a href="https://developers.deezer.com/" target="_blank">developers.deezer.com</a><br>
+            <strong>⚠️ Important :</strong> Configurez l'URL de redirection avec l'adresse exacte de ce site.
           </p>
         </div>
 
@@ -1261,6 +1289,9 @@
     let ADDED_TRACKS = new Set(JSON.parse(localStorage.getItem('addedTracks') || '[]'));
 
     const RETRO_CACHE_KEY = 'retroStreamingIds';
+    const DEEZER_APP_ID_KEY = 'deezerAppId';
+    const DEEZER_TOKEN_KEY = 'deezerAccessToken';
+    const CORS_PROXY = 'https://corsproxy.io/?url=';
 
     // ===== ÉLÉMENTS DOM =====
     const regionSelect = document.getElementById("regionSelect");
@@ -1305,6 +1336,7 @@
     const settingsModal = document.getElementById("settingsModal");
     const settingsClose = document.getElementById("settingsClose");
     const youtubeApiKey = document.getElementById("youtubeApiKey");
+    const deezerAppId = document.getElementById("deezerAppId");
     const saveSettingsBtn = document.getElementById("saveSettingsBtn");
     const clearSettingsBtn = document.getElementById("clearSettingsBtn");
     const settingsStatus = document.getElementById("settingsStatus");
@@ -1316,9 +1348,12 @@
     const apiKeyWarning = document.getElementById("apiKeyWarning");
     const enrichYouTube = document.getElementById("enrichYouTube");
     const enrichDeezer = document.getElementById("enrichDeezer");
-    const createDeezerPlaylistBtn = document.getElementById("createDeezerPlaylistBtn");
+    const connectDeezerBtn = document.getElementById("connectDeezerBtn");
+    const createDeezerDirectBtn = document.getElementById("createDeezerDirectBtn");
+    const createDeezerTuneMyBtn = document.getElementById("createDeezerTuneMyBtn");
     const copyPlaylistTextBtn = document.getElementById("copyPlaylistTextBtn");
     const playlistCreationInfo = document.getElementById("playlistCreationInfo");
+    const deezerConnectionStatus = document.getElementById("deezerConnectionStatus");
 
     // ===== FONCTIONS UTILITAIRES =====
     function escapeHtml(value) {
@@ -1356,6 +1391,303 @@
 
     function sleep(ms) {
       return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    // ===== AUTHENTIFICATION DEEZER (OAUTH) =====
+
+    /**
+     * Vérifie si l'URL contient un token Deezer (retour OAuth)
+     */
+    function checkDeezerCallback() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const accessToken = urlParams.get('access_token');
+      
+      if (accessToken) {
+        localStorage.setItem(DEEZER_TOKEN_KEY, accessToken);
+        // Nettoyer l'URL
+        window.history.replaceState({}, document.title, window.location.pathname);
+        setTimeout(() => {
+          alert('✅ Connexion à Deezer réussie !\n\nVous pouvez maintenant créer des playlists directement dans votre compte.');
+          updateDeezerConnectionStatus();
+        }, 500);
+      }
+      
+      updateDeezerConnectionStatus();
+    }
+
+    /**
+     * Met à jour l'affichage du statut de connexion Deezer
+     */
+    function updateDeezerConnectionStatus() {
+      const token = localStorage.getItem(DEEZER_TOKEN_KEY);
+      const appId = localStorage.getItem(DEEZER_APP_ID_KEY);
+      
+      if (token && appId) {
+        deezerConnectionStatus.className = 'deezer-status connected';
+        deezerConnectionStatus.innerHTML = '✅ Connecté à Deezer';
+      } else if (appId) {
+        deezerConnectionStatus.className = 'deezer-status disconnected';
+        deezerConnectionStatus.innerHTML = '⚠️ App ID configuré, mais non connecté';
+      } else {
+        deezerConnectionStatus.className = 'deezer-status disconnected';
+        deezerConnectionStatus.innerHTML = '⚠️ Non connecté à Deezer';
+      }
+    }
+
+    /**
+     * Démarre le flux OAuth Deezer
+     */
+    function connectDeezer() {
+      let appId = localStorage.getItem(DEEZER_APP_ID_KEY);
+      
+      if (!appId) {
+        const id = prompt(
+          'Pour vous connecter à Deezer, vous avez besoin d\'un App ID.\n\n' +
+          '1. Allez sur https://developers.deezer.com/\n' +
+          '2. Créez une application (gratuit)\n' +
+          '3. Configurez l\'URL de redirection avec : ' + window.location.origin + window.location.pathname + '\n' +
+          '4. Copiez l\'App ID et collez-le ci-dessous\n\n' +
+          'Entrez votre App ID Deezer :'
+        );
+        
+        if (id && id.trim()) {
+          appId = id.trim();
+          localStorage.setItem(DEEZER_APP_ID_KEY, appId);
+        } else {
+          return;
+        }
+      }
+      
+      const redirectUri = encodeURIComponent(window.location.origin + window.location.pathname);
+      const authUrl = `https://connect.deezer.com/oauth/auth.php?app_id=${appId}&redirect_uri=${redirectUri}&perms=basic_access,email,manage_library`;
+      
+      // Rediriger vers Deezer
+      window.location.href = authUrl;
+    }
+
+    /**
+     * Déconnecte de Deezer
+     */
+    function disconnectDeezer() {
+      localStorage.removeItem(DEEZER_TOKEN_KEY);
+      updateDeezerConnectionStatus();
+      alert('✅ Déconnecté de Deezer');
+    }
+
+    /**
+     * ⭐ CRÉER UNE PLAYLIST DIRECTEMENT DANS DEEZER
+     * Utilise l'API Deezer via un proxy CORS
+     */
+    async function createDeezerPlaylistDirect() {
+      const token = localStorage.getItem(DEEZER_TOKEN_KEY);
+      const appId = localStorage.getItem(DEEZER_APP_ID_KEY);
+      
+      if (!appId) {
+        alert('⚠️ Vous devez d\'abord configurer votre App ID Deezer.\n\n' +
+              '1. Allez dans ⚙️ API Keys\n' +
+              '2. Entrez votre App ID Deezer\n' +
+              '3. Sauvegardez\n\n' +
+              'Ou utilisez "Via TuneMyMusic" qui ne nécessite aucune configuration.');
+        return;
+      }
+      
+      if (!token) {
+        if (confirm('⚠️ Vous devez d\'abord vous connecter à Deezer.\n\nVoulez-vous vous connecter maintenant ?')) {
+          connectDeezer();
+        }
+        return;
+      }
+      
+      if (!window.currentRetroArchive || !window.currentRetroArchive.entries) {
+        alert('⚠️ Aucune archive chargée !');
+        return;
+      }
+      
+      const entries = window.currentRetroArchive.entries;
+      
+      // Vérifier que les titres ont des IDs Deezer
+      const entriesWithDeezerId = entries.filter(e => e.deezer_id);
+      
+      if (entriesWithDeezerId.length === 0) {
+        alert('⚠️ Aucun titre avec ID Deezer trouvé.\n\n' +
+              'Enrichissez d\'abord l\'archive avec Deezer :\n' +
+              '1. Cochez "🎧 Deezer"\n' +
+              '2. Cliquez sur "🔍 Lancer l\'enrichissement"\n' +
+              '3. Revenez ici une fois terminé');
+        return;
+      }
+      
+      // Demander le nom de la playlist
+      const defaultName = `Top 50 France - ${window.currentRetroArchive.date || window.currentRetroArchive.year}`;
+      const playlistName = prompt('Nom de la playlist Deezer :', defaultName);
+      
+      if (!playlistName) return;
+      
+      // Afficher la progression
+      playlistCreationInfo.style.display = 'block';
+      playlistCreationInfo.innerHTML = `
+        <strong>⏳ Création de la playlist en cours...</strong><br>
+        📊 ${entriesWithDeezerId.length} titres à ajouter
+      `;
+      
+      createDeezerDirectBtn.disabled = true;
+      
+      try {
+        // Étape 1 : Créer la playlist via l'API Deezer
+        const createUrl = `https://api.deezer.com/user/me/playlists?access_token=${token}&title=${encodeURIComponent(playlistName)}&public=true`;
+        const proxiedCreateUrl = CORS_PROXY + encodeURIComponent(createUrl);
+        
+        const createResponse = await fetch(proxiedCreateUrl, {
+          method: 'POST'
+        });
+        
+        const createText = await createResponse.text();
+        let createData;
+        
+        try {
+          createData = JSON.parse(createText);
+        } catch (e) {
+          throw new Error('Réponse invalide de Deezer lors de la création');
+        }
+        
+        if (createData.error) {
+          throw new Error(createData.error.message || 'Erreur lors de la création de la playlist');
+        }
+        
+        if (!createData.id) {
+          throw new Error('Impossible de créer la playlist');
+        }
+        
+        const playlistId = createData.id;
+        
+        playlistCreationInfo.innerHTML = `
+          <strong>✅ Playlist créée !</strong><br>
+          📊 Ajout des ${entriesWithDeezerId.length} titres en cours...
+        `;
+        
+        // Étape 2 : Ajouter les titres à la playlist
+        const songIds = entriesWithDeezerId.map(e => e.deezer_id).join(',');
+        const addUrl = `https://api.deezer.com/playlist/${playlistId}/tracks?songs=${songIds}&access_token=${token}`;
+        const proxiedAddUrl = CORS_PROXY + encodeURIComponent(addUrl);
+        
+        const addResponse = await fetch(proxiedAddUrl, {
+          method: 'POST'
+        });
+        
+        const addText = await addResponse.text();
+        let addData;
+        
+        try {
+          addData = JSON.parse(addText);
+        } catch (e) {
+          throw new Error('Réponse invalide lors de l\'ajout des titres');
+        }
+        
+        if (addData.error) {
+          throw new Error(addData.error.message || 'Erreur lors de l\'ajout des titres');
+        }
+        
+        // Succès !
+        playlistCreationInfo.innerHTML = `
+          <strong>🎉 Playlist créée avec succès !</strong><br>
+          📊 ${entriesWithDeezerId.length} titres ajoutés à "${escapeHtml(playlistName)}"<br><br>
+          <a href="https://www.deezer.com/playlist/${playlistId}" target="_blank" style="color: var(--accent); font-weight: 600;">
+            👉 Ouvrir la playlist dans Deezer
+          </a><br><br>
+          💡 Vous pouvez aussi ouvrir l'app Deezer pour la retrouver dans vos playlists.
+        `;
+        
+        // Ouvrir la playlist dans Deezer
+        setTimeout(() => {
+          window.open(`https://www.deezer.com/playlist/${playlistId}`, '_blank');
+        }, 1500);
+        
+      } catch (error) {
+        console.error('Erreur:', error);
+        playlistCreationInfo.innerHTML = `
+          <strong style="color: var(--danger);">❌ Erreur : ${escapeHtml(error.message)}</strong><br><br>
+          <strong>Solutions possibles :</strong><br>
+          • Vérifiez que votre App ID Deezer est correct<br>
+          • Reconnectez-vous à Deezer (bouton "🔐 Se connecter à Deezer")<br>
+          • Utilisez "Via TuneMyMusic" comme alternative
+        `;
+      } finally {
+        createDeezerDirectBtn.disabled = false;
+      }
+    }
+
+    /**
+     * Créer une playlist via TuneMyMusic (alternative simple)
+     */
+    function createDeezerPlaylistViaTuneMyMusic() {
+      if (!window.currentRetroArchive || !window.currentRetroArchive.entries) {
+        alert('⚠️ Aucune archive chargée !');
+        return;
+      }
+      
+      const entries = window.currentRetroArchive.entries;
+      
+      if (entries.length === 0) {
+        alert('⚠️ Aucun titre dans cette archive !');
+        return;
+      }
+      
+      const playlistText = generatePlaylistText(entries);
+      copyToClipboard(playlistText);
+      
+      playlistCreationInfo.style.display = 'block';
+      playlistCreationInfo.innerHTML = `
+        <strong>✅ Liste copiée dans le presse-papier !</strong><br>
+        📊 ${entries.length} titres prêts à être transférés.<br><br>
+        <strong>Étapes sur TuneMyMusic :</strong>
+        <ol>
+          <li>TuneMyMusic s'ouvre dans 3 secondes</li>
+          <li>Cliquez sur <strong>"Commençons"</strong></li>
+          <li>Choisissez <strong>"N'importe quelle source"</strong> puis <strong>"Fichier texte"</strong></li>
+          <li><strong>Collez la liste</strong> (appui long → Coller)</li>
+          <li>Cliquez sur <strong>"Suivant"</strong></li>
+          <li>Sélectionnez <strong>Deezer</strong> comme destination</li>
+          <li>Connectez votre compte Deezer</li>
+          <li>Cliquez sur <strong>"Commencer le transfert"</strong></li>
+          <li>✅ Votre playlist est créée !</li>
+        </ol>
+      `;
+      
+      setTimeout(() => {
+        window.open('https://www.tunemymusic.com/fr/', '_blank');
+      }, 3000);
+    }
+
+    function generatePlaylistText(entries) {
+      return entries.map(entry => {
+        const artist = entry.track.artist.trim();
+        const title = entry.track.title.trim();
+        return `${artist} - ${title}`;
+      }).join('\n');
+    }
+
+    function copyPlaylistText() {
+      if (!window.currentRetroArchive || !window.currentRetroArchive.entries) {
+        alert('⚠️ Aucune archive chargée !');
+        return;
+      }
+      
+      const entries = window.currentRetroArchive.entries;
+      const playlistText = generatePlaylistText(entries);
+      
+      copyToClipboard(playlistText);
+      
+      playlistCreationInfo.style.display = 'block';
+      playlistCreationInfo.innerHTML = `
+        <strong>✅ Liste copiée !</strong><br>
+        📊 ${entries.length} titres dans le presse-papier.<br><br>
+        Vous pouvez maintenant :
+        <ul>
+          <li>Coller dans <a href="https://www.tunemymusic.com/fr/" target="_blank">TuneMyMusic</a></li>
+          <li>Coller dans <a href="https://soundiiz.com/fr/" target="_blank">Soundiiz</a></li>
+          <li>Coller dans un email ou un message</li>
+        </ul>
+      `;
     }
 
     // ===== SMART LINKS DEEZER ET SPOTIFY =====
@@ -1696,9 +2028,6 @@
       }
     }
 
-    /**
-     * ⭐ RECHERCHE DEEZER VIA JSONP (contourne CORS)
-     */
     function searchDeezerJSONP(query) {
       return new Promise((resolve) => {
         const callbackName = 'deezerCallback_' + Date.now() + '_' + Math.floor(Math.random() * 10000);
@@ -1743,10 +2072,6 @@
       });
     }
 
-    /**
-     * ⭐ NORMALISATION POUR LA RECHERCHE
-     * Supprime les parenthèses, crochets, "feat.", remplace & par "and"
-     */
     function normalizeForSearch(text) {
       return text
         .replace(/\(.*?\)/g, '')
@@ -1757,9 +2082,6 @@
         .trim();
     }
 
-    /**
-     * ⭐ RECHERCHE DEEZER AMÉLIORÉE AVEC 5 STRATÉGIES
-     */
     async function fetchDeezerTrackIdRetro(artist, title) {
       const cleanTitle = normalizeForSearch(title);
       const cleanArtist = normalizeForSearch(artist);
@@ -1790,7 +2112,7 @@
       
       await sleep(100);
       
-      // STRATÉGIE 3 : Juste le titre (pour les titres très connus)
+      // STRATÉGIE 3 : Juste le titre
       results = await searchDeezerJSONP(`track:"${cleanTitle}"`);
       if (results.length > 0) {
         const track = results[0];
@@ -1803,7 +2125,7 @@
       
       await sleep(100);
       
-      // STRATÉGIE 4 : Premier artiste seulement (pour les collaborations)
+      // STRATÉGIE 4 : Premier artiste seulement
       const firstArtist = cleanArtist.split(/\s+(?:and|et|feat|ft|,)\s+/i)[0].trim();
       if (firstArtist && firstArtist !== cleanArtist) {
         results = await searchDeezerJSONP(`artist:"${firstArtist}" track:"${cleanTitle}"`);
@@ -1819,7 +2141,7 @@
       
       await sleep(100);
       
-      // STRATÉGIE 5 : Recherche large (dernier recours)
+      // STRATÉGIE 5 : Recherche large
       results = await searchDeezerJSONP(`${cleanTitle}`);
       if (results.length > 0) {
         const track = results[0];
@@ -1975,84 +2297,13 @@
       return archiveData;
     }
 
-    // ===== CRÉATION DE PLAYLIST DEEZER VIA SOUNDIIZ =====
-
-    function generatePlaylistText(entries) {
-      return entries.map(entry => {
-        const artist = entry.track.artist.trim();
-        const title = entry.track.title.trim();
-        return `${artist} - ${title}`;
-      }).join('\n');
-    }
-
-    function createDeezerPlaylist() {
-      if (!window.currentRetroArchive || !window.currentRetroArchive.entries) {
-        alert('⚠️ Aucune archive chargée !');
-        return;
-      }
-      
-      const entries = window.currentRetroArchive.entries;
-      
-      if (entries.length === 0) {
-        alert('⚠️ Aucun titre dans cette archive !');
-        return;
-      }
-      
-      const playlistText = generatePlaylistText(entries);
-      copyToClipboard(playlistText);
-      
-      playlistCreationInfo.style.display = 'block';
-      playlistCreationInfo.innerHTML = `
-        <strong>✅ Liste copiée dans le presse-papier !</strong><br>
-        📊 ${entries.length} titres prêts à être transférés vers Deezer.<br><br>
-        <strong>Étapes pour créer la playlist Deezer :</strong>
-        <ol>
-          <li>Soundiiz va s'ouvrir dans un nouvel onglet (dans 2 secondes)</li>
-          <li>Créez un compte gratuit sur Soundiiz (avec votre email ou Google)</li>
-          <li>Cliquez sur <strong>"Créer"</strong> puis <strong>"Playlist"</strong></li>
-          <li>Choisissez <strong>"Importer depuis du texte"</strong></li>
-          <li>Collez la liste copiée (Ctrl+V ou appui long → Coller)</li>
-          <li>Sélectionnez <strong>Deezer</strong> comme destination</li>
-          <li>Connectez votre compte Deezer</li>
-          <li>La playlist sera créée automatiquement ! 🎉</li>
-        </ol>
-        <strong>💡 Astuce :</strong> Donnez un nom clair à votre playlist, ex : "Top 50 France - ${window.currentRetroArchive.date || window.currentRetroArchive.year}"
-      `;
-      
-      setTimeout(() => {
-        window.open('https://soundiiz.com/fr/', '_blank');
-      }, 2000);
-    }
-
-    function copyPlaylistText() {
-      if (!window.currentRetroArchive || !window.currentRetroArchive.entries) {
-        alert('⚠️ Aucune archive chargée !');
-        return;
-      }
-      
-      const entries = window.currentRetroArchive.entries;
-      const playlistText = generatePlaylistText(entries);
-      
-      copyToClipboard(playlistText);
-      
-      playlistCreationInfo.style.display = 'block';
-      playlistCreationInfo.innerHTML = `
-        <strong>✅ Liste copiée dans le presse-papier !</strong><br>
-        📊 ${entries.length} titres copiés.<br><br>
-        Vous pouvez maintenant :
-        <ul>
-          <li>Coller dans <a href="https://soundiiz.com/fr/" target="_blank">Soundiiz</a> pour créer une playlist Deezer/Spotify</li>
-          <li>Coller dans <a href="https://www.tunemymusic.com/fr/" target="_blank">TuneMyMusic</a> (alternative gratuite)</li>
-          <li>Coller dans un email ou un message pour partager la liste</li>
-        </ul>
-      `;
-    }
-
     // ===== GESTION DES PARAMÈTRES =====
 
     function openSettingsModal() {
       const apiKey = localStorage.getItem('youtubeApiKey') || '';
+      const appId = localStorage.getItem(DEEZER_APP_ID_KEY) || '';
       youtubeApiKey.value = apiKey;
+      deezerAppId.value = appId;
       settingsModal.classList.add('active');
     }
 
@@ -2062,32 +2313,47 @@
 
     function saveSettings() {
       const apiKey = youtubeApiKey.value.trim();
+      const appId = deezerAppId.value.trim();
+      
+      let messages = [];
       
       if (apiKey) {
         localStorage.setItem('youtubeApiKey', apiKey);
-        settingsStatus.style.display = 'block';
-        settingsStatus.style.background = 'var(--success-bg)';
-        settingsStatus.style.color = 'var(--success)';
-        settingsStatus.style.border = '1px solid var(--success)';
-        settingsStatus.innerHTML = '✅ Clé API YouTube sauvegardée !';
+        messages.push('✅ Clé API YouTube sauvegardée');
       } else {
         localStorage.removeItem('youtubeApiKey');
-        settingsStatus.style.display = 'block';
-        settingsStatus.style.background = 'var(--warning-bg)';
-        settingsStatus.style.color = 'var(--warning)';
-        settingsStatus.style.border = '1px solid var(--warning)';
-        settingsStatus.innerHTML = '⚠️ Clé API YouTube supprimée. Deezer reste disponible.';
+        messages.push('⚠️ Clé API YouTube supprimée');
       }
+      
+      if (appId) {
+        localStorage.setItem(DEEZER_APP_ID_KEY, appId);
+        messages.push('✅ App ID Deezer sauvegardé');
+      } else {
+        localStorage.removeItem(DEEZER_APP_ID_KEY);
+        messages.push('⚠️ App ID Deezer supprimé');
+      }
+      
+      settingsStatus.style.display = 'block';
+      settingsStatus.style.background = 'var(--success-bg)';
+      settingsStatus.style.color = 'var(--success)';
+      settingsStatus.style.border = '1px solid var(--success)';
+      settingsStatus.innerHTML = messages.join('<br>');
+      
+      updateDeezerConnectionStatus();
       
       setTimeout(() => {
         settingsStatus.style.display = 'none';
-      }, 3000);
+      }, 4000);
     }
 
     function clearAllSettings() {
-      if (confirm('⚠️ Êtes-vous sûr de vouloir effacer toutes les clés API ?')) {
+      if (confirm('⚠️ Êtes-vous sûr de vouloir effacer toutes les clés API ?\n\nCela inclut :\n• Clé API YouTube\n• App ID Deezer\n• Token Deezer')) {
         localStorage.removeItem('youtubeApiKey');
+        localStorage.removeItem(DEEZER_APP_ID_KEY);
+        localStorage.removeItem(DEEZER_TOKEN_KEY);
         youtubeApiKey.value = '';
+        deezerAppId.value = '';
+        updateDeezerConnectionStatus();
         alert('✅ Toutes les clés API ont été effacées.');
       }
     }
@@ -2138,6 +2404,7 @@
     function openRetroModal() {
       retroModal.classList.add("active");
       loadRetroCache();
+      updateDeezerConnectionStatus();
     }
 
     function closeRetroModal() {
@@ -2719,7 +2986,9 @@
     saveSettingsBtn.addEventListener("click", saveSettings);
     clearSettingsBtn.addEventListener("click", clearAllSettings);
     clearRetroCacheBtn.addEventListener("click", clearRetroStreamingCache);
-    createDeezerPlaylistBtn.addEventListener("click", createDeezerPlaylist);
+    connectDeezerBtn.addEventListener("click", connectDeezer);
+    createDeezerDirectBtn.addEventListener("click", createDeezerPlaylistDirect);
+    createDeezerTuneMyBtn.addEventListener("click", createDeezerPlaylistViaTuneMyMusic);
     copyPlaylistTextBtn.addEventListener("click", copyPlaylistText);
 
     enrichRetroBtn.addEventListener("click", async () => {
@@ -2775,6 +3044,7 @@
     applyTheme(savedTheme);
 
     initRetroSelectors();
+    checkDeezerCallback();  // Vérifier si on revient de Deezer
     loadChartData();
   </script>
 </body>
