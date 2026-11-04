@@ -1120,11 +1120,13 @@
       <div class="modal-body">
         <div class="modal-intro">
           <strong>Archives complètes du Top 50 français depuis 1984</strong><br>
-          Sélectionnez une année et une semaine pour afficher le classement historique.
+          Seules les années importées sont affichées dans les sélecteurs ci-dessous.
           <br><br>
           <strong>💡 Enrichissement à la demande :</strong><br>
           Les archives ne contiennent pas d'IDs streaming. Vous pouvez les rechercher après avoir chargé une archive.
         </div>
+
+        <div id="retroSummary" style="margin-bottom: 15px;"></div>
 
         <div class="retro-controls">
           <div class="control-group">
@@ -1189,8 +1191,8 @@
           <div class="playlist-creation-section">
             <h4>🎧 Créer une playlist Deezer</h4>
             <p>
-              Deux méthodes disponibles : <strong>directement dans Deezer</strong> (recommandé) ou via 
-              <strong>TuneMyMusic</strong> (si vous préférez un service tiers).
+              Deux méthodes disponibles : <strong>directement dans Deezer</strong> (recommandé, nécessite un App ID) ou via 
+              <strong>TuneMyMusic</strong> (simple, sans configuration).
             </p>
 
             <div id="deezerConnectionStatus" class="deezer-status disconnected">
@@ -1329,6 +1331,7 @@
     const retroWeek = document.getElementById("retroWeek");
     const loadArchiveBtn = document.getElementById("loadArchiveBtn");
     const retroContent = document.getElementById("retroContent");
+    const retroSummary = document.getElementById("retroSummary");
     const cleanYear = document.getElementById("cleanYear");
     const listCacheBtn = document.getElementById("listCacheBtn");
     const cleanCacheBtn = document.getElementById("cleanCacheBtn");
@@ -1395,16 +1398,12 @@
 
     // ===== AUTHENTIFICATION DEEZER (OAUTH) =====
 
-    /**
-     * Vérifie si l'URL contient un token Deezer (retour OAuth)
-     */
     function checkDeezerCallback() {
       const urlParams = new URLSearchParams(window.location.search);
       const accessToken = urlParams.get('access_token');
       
       if (accessToken) {
         localStorage.setItem(DEEZER_TOKEN_KEY, accessToken);
-        // Nettoyer l'URL
         window.history.replaceState({}, document.title, window.location.pathname);
         setTimeout(() => {
           alert('✅ Connexion à Deezer réussie !\n\nVous pouvez maintenant créer des playlists directement dans votre compte.');
@@ -1415,9 +1414,6 @@
       updateDeezerConnectionStatus();
     }
 
-    /**
-     * Met à jour l'affichage du statut de connexion Deezer
-     */
     function updateDeezerConnectionStatus() {
       const token = localStorage.getItem(DEEZER_TOKEN_KEY);
       const appId = localStorage.getItem(DEEZER_APP_ID_KEY);
@@ -1434,9 +1430,6 @@
       }
     }
 
-    /**
-     * Démarre le flux OAuth Deezer
-     */
     function connectDeezer() {
       let appId = localStorage.getItem(DEEZER_APP_ID_KEY);
       
@@ -1461,23 +1454,9 @@
       const redirectUri = encodeURIComponent(window.location.origin + window.location.pathname);
       const authUrl = `https://connect.deezer.com/oauth/auth.php?app_id=${appId}&redirect_uri=${redirectUri}&perms=basic_access,email,manage_library`;
       
-      // Rediriger vers Deezer
       window.location.href = authUrl;
     }
 
-    /**
-     * Déconnecte de Deezer
-     */
-    function disconnectDeezer() {
-      localStorage.removeItem(DEEZER_TOKEN_KEY);
-      updateDeezerConnectionStatus();
-      alert('✅ Déconnecté de Deezer');
-    }
-
-    /**
-     * ⭐ CRÉER UNE PLAYLIST DIRECTEMENT DANS DEEZER
-     * Utilise l'API Deezer via un proxy CORS
-     */
     async function createDeezerPlaylistDirect() {
       const token = localStorage.getItem(DEEZER_TOKEN_KEY);
       const appId = localStorage.getItem(DEEZER_APP_ID_KEY);
@@ -1504,8 +1483,6 @@
       }
       
       const entries = window.currentRetroArchive.entries;
-      
-      // Vérifier que les titres ont des IDs Deezer
       const entriesWithDeezerId = entries.filter(e => e.deezer_id);
       
       if (entriesWithDeezerId.length === 0) {
@@ -1517,13 +1494,11 @@
         return;
       }
       
-      // Demander le nom de la playlist
       const defaultName = `Top 50 France - ${window.currentRetroArchive.date || window.currentRetroArchive.year}`;
       const playlistName = prompt('Nom de la playlist Deezer :', defaultName);
       
       if (!playlistName) return;
       
-      // Afficher la progression
       playlistCreationInfo.style.display = 'block';
       playlistCreationInfo.innerHTML = `
         <strong>⏳ Création de la playlist en cours...</strong><br>
@@ -1533,7 +1508,6 @@
       createDeezerDirectBtn.disabled = true;
       
       try {
-        // Étape 1 : Créer la playlist via l'API Deezer
         const createUrl = `https://api.deezer.com/user/me/playlists?access_token=${token}&title=${encodeURIComponent(playlistName)}&public=true`;
         const proxiedCreateUrl = CORS_PROXY + encodeURIComponent(createUrl);
         
@@ -1565,7 +1539,6 @@
           📊 Ajout des ${entriesWithDeezerId.length} titres en cours...
         `;
         
-        // Étape 2 : Ajouter les titres à la playlist
         const songIds = entriesWithDeezerId.map(e => e.deezer_id).join(',');
         const addUrl = `https://api.deezer.com/playlist/${playlistId}/tracks?songs=${songIds}&access_token=${token}`;
         const proxiedAddUrl = CORS_PROXY + encodeURIComponent(addUrl);
@@ -1587,7 +1560,6 @@
           throw new Error(addData.error.message || 'Erreur lors de l\'ajout des titres');
         }
         
-        // Succès !
         playlistCreationInfo.innerHTML = `
           <strong>🎉 Playlist créée avec succès !</strong><br>
           📊 ${entriesWithDeezerId.length} titres ajoutés à "${escapeHtml(playlistName)}"<br><br>
@@ -1597,7 +1569,6 @@
           💡 Vous pouvez aussi ouvrir l'app Deezer pour la retrouver dans vos playlists.
         `;
         
-        // Ouvrir la playlist dans Deezer
         setTimeout(() => {
           window.open(`https://www.deezer.com/playlist/${playlistId}`, '_blank');
         }, 1500);
@@ -1616,9 +1587,6 @@
       }
     }
 
-    /**
-     * Créer une playlist via TuneMyMusic (alternative simple)
-     */
     function createDeezerPlaylistViaTuneMyMusic() {
       if (!window.currentRetroArchive || !window.currentRetroArchive.entries) {
         alert('⚠️ Aucune archive chargée !');
@@ -2366,45 +2334,171 @@
         
         if (!response.ok) {
           RETRO_CACHE = {};
-          return;
+          return RETRO_CACHE;
         }
         
         RETRO_CACHE = await response.json();
+        return RETRO_CACHE;
       } catch (error) {
+        console.error('Erreur chargement cache rétro:', error);
         RETRO_CACHE = {};
+        return RETRO_CACHE;
       }
     }
 
-    function initRetroSelectors() {
-      const currentYear = new Date().getFullYear();
-      const startYear = 1984;
+    /**
+     * Extrait les années et semaines disponibles depuis le cache rétro
+     * Retourne : { "1989": [1, 2, 3, ...], "1990": [1, 2, ...] }
+     */
+    function getAvailableYearsFromCache() {
+      const result = {};
       
-      for (let year = currentYear; year >= startYear; year--) {
-        const option = document.createElement('option');
-        option.value = year;
-        option.textContent = year;
-        retroYear.appendChild(option);
+      if (!RETRO_CACHE || Object.keys(RETRO_CACHE).length === 0) {
+        return result;
       }
       
-      for (let week = 1; week <= 53; week++) {
+      Object.keys(RETRO_CACHE).forEach(key => {
+        const [year, week] = key.split('-');
+        if (!result[year]) {
+          result[year] = [];
+        }
+        result[year].push(parseInt(week));
+      });
+      
+      // Trier les semaines
+      Object.keys(result).forEach(year => {
+        result[year].sort((a, b) => a - b);
+      });
+      
+      return result;
+    }
+
+    /**
+     * Initialise les sélecteurs avec uniquement les années/semaines disponibles
+     */
+    function initRetroSelectors() {
+      // Vider les sélecteurs
+      retroYear.innerHTML = '';
+      retroWeek.innerHTML = '';
+      cleanYear.innerHTML = '';
+      
+      const availableData = getAvailableYearsFromCache();
+      const years = Object.keys(availableData);
+      
+      if (years.length === 0) {
+        retroYear.innerHTML = '<option value="">Aucune archive</option>';
+        retroWeek.innerHTML = '<option value="">Aucune archive</option>';
+        cleanYear.innerHTML = '<option value="">Aucune archive</option>';
+        
+        retroSummary.innerHTML = `
+          <div class="modal-intro" style="background: var(--warning-bg);">
+            <strong style="color: var(--warning);">📭 Aucune archive disponible</strong><br>
+            Le cache rétro est vide.<br><br>
+            <strong>Pour télécharger des archives :</strong><br>
+            Exécutez le workflow GitHub Actions "Fetch Retro Archives" depuis l'app GitHub :
+            <ol>
+              <li>Ouvrez l'app GitHub sur Android</li>
+              <li>Allez sur votre dépôt</li>
+              <li>Onglet <strong>Actions</strong> → <strong>Fetch Retro Archives</strong></li>
+              <li>Run workflow → Entrez l'année (ex: 1989)</li>
+            </ol>
+          </div>
+        `;
+        return;
+      }
+      
+      // Trier les années par ordre décroissant
+      years.sort((a, b) => b - a);
+      
+      // Calculer le nombre total d'archives
+      const totalArchives = years.reduce((sum, year) => sum + availableData[year].length, 0);
+      
+      // Afficher le résumé
+      retroSummary.innerHTML = `
+        <div class="modal-intro">
+          <strong>📚 ${totalArchives} archives disponibles</strong><br>
+          📅 ${years.length} année(s) : ${years.slice().reverse().join(', ')}
+        </div>
+      `;
+      
+      // Remplir les sélecteurs d'années
+      years.forEach(year => {
+        const weekCount = availableData[year].length;
+        
+        const option = document.createElement('option');
+        option.value = year;
+        option.textContent = `${year} (${weekCount} sem.)`;
+        retroYear.appendChild(option);
+        
+        const optionClean = document.createElement('option');
+        optionClean.value = year;
+        optionClean.textContent = `${year} (${weekCount} sem.)`;
+        cleanYear.appendChild(optionClean);
+      });
+      
+      // Remplir les semaines pour la première année
+      updateWeekSelector();
+    }
+
+    /**
+     * Met à jour le sélecteur de semaines selon l'année sélectionnée
+     */
+    function updateWeekSelector() {
+      const selectedYear = retroYear.value;
+      
+      retroWeek.innerHTML = '';
+      
+      if (!selectedYear) {
+        retroWeek.innerHTML = '<option value="">Choisir une année</option>';
+        return;
+      }
+      
+      const availableData = getAvailableYearsFromCache();
+      const weeks = availableData[selectedYear] || [];
+      
+      if (weeks.length === 0) {
+        retroWeek.innerHTML = '<option value="">Aucune semaine</option>';
+        return;
+      }
+      
+      weeks.forEach(week => {
         const option = document.createElement('option');
         option.value = week;
-        option.textContent = `Semaine ${week}`;
+        
+        // Essayer de récupérer la date depuis l'archive
+        const cacheKey = `${selectedYear}-${String(week).padStart(2, '0')}`;
+        const archive = RETRO_CACHE ? RETRO_CACHE[cacheKey] : null;
+        
+        if (archive && archive.date) {
+          option.textContent = `Semaine ${week} (${archive.date})`;
+        } else {
+          option.textContent = `Semaine ${week}`;
+        }
+        
         retroWeek.appendChild(option);
-      }
-      
-      for (let year = currentYear; year >= startYear; year--) {
-        const option = document.createElement('option');
-        option.value = year;
-        option.textContent = year;
-        cleanYear.appendChild(option);
-      }
+      });
     }
 
     function openRetroModal() {
       retroModal.classList.add("active");
-      loadRetroCache();
-      updateDeezerConnectionStatus();
+      
+      // Afficher un indicateur de chargement pendant le chargement du cache
+      retroSummary.innerHTML = `
+        <div class="loading" style="padding: 20px;">
+          <p>📦 Chargement du cache des archives...</p>
+        </div>
+      `;
+      
+      loadRetroCache().then(() => {
+        initRetroSelectors();
+        updateDeezerConnectionStatus();
+        
+        // Réinitialiser le contenu si pas d'archives
+        const availableData = getAvailableYearsFromCache();
+        if (Object.keys(availableData).length === 0) {
+          retroContent.innerHTML = '<div class="empty">Aucune archive disponible pour le moment</div>';
+        }
+      });
     }
 
     function closeRetroModal() {
@@ -2415,13 +2509,18 @@
       const year = retroYear.value;
       const week = retroWeek.value;
       
+      if (!year || !week) {
+        alert('⚠️ Veuillez sélectionner une année et une semaine valides.');
+        return;
+      }
+      
       retroContent.innerHTML = `
         <div class="loading">
           <p>📥 Chargement de l'archive Top 50 - Semaine ${week}/${year}...</p>
         </div>
       `;
       
-      const cacheKey = `${year}-${week.padStart(2, '0')}`;
+      const cacheKey = `${year}-${String(week).padStart(2, '0')}`;
       
       if (RETRO_CACHE && RETRO_CACHE[cacheKey]) {
         displayArchive(RETRO_CACHE[cacheKey]);
@@ -2429,7 +2528,7 @@
       }
       
       try {
-        const response = await fetch(`data/archives/top50-${year}-${week.padStart(2, '0')}.json`);
+        const response = await fetch(`data/archives/top50-${year}-${String(week).padStart(2, '0')}.json`);
         
         if (!response.ok) {
           throw new Error("Archive non trouvée");
@@ -2442,7 +2541,7 @@
         retroContent.innerHTML = `
           <div class="modal-intro" style="background: var(--warning-bg);">
             <strong style="color: var(--warning);">⚠️ Archive non trouvée</strong><br>
-            L'archive pour la semaine ${week}/${year} n'a pas encore été téléchargée.
+            L'archive pour la semaine ${week}/${year} n'est pas disponible dans le cache.
             <br><br>
             <strong>Pour la télécharger :</strong><br>
             Exécutez le workflow GitHub Actions "Fetch Retro Archives" avec l'année ${year}.
@@ -2607,9 +2706,11 @@
             `📥 Le fichier modifié a été téléchargé.\n\n` +
             `Pour finaliser :\n` +
             `1. Uploadez le fichier téléchargé dans data/cache/retro_archives.json\n` +
-            `2. Committez et poussez les changements`);
+            `2. Committez et poussez les changements\n\n` +
+            `Fermez et rouvrez ce modal pour voir les changements.`);
       
       listRetroCache();
+      initRetroSelectors();
     }
 
     // ===== CHARGEMENT DES DONNÉES =====
@@ -2990,6 +3091,9 @@
     createDeezerDirectBtn.addEventListener("click", createDeezerPlaylistDirect);
     createDeezerTuneMyBtn.addEventListener("click", createDeezerPlaylistViaTuneMyMusic);
     copyPlaylistTextBtn.addEventListener("click", copyPlaylistText);
+    
+    // Écouteur pour mettre à jour les semaines quand l'année change
+    retroYear.addEventListener("change", updateWeekSelector);
 
     enrichRetroBtn.addEventListener("click", async () => {
       const doYouTube = enrichYouTube.checked;
@@ -3043,8 +3147,9 @@
 
     applyTheme(savedTheme);
 
-    initRetroSelectors();
-    checkDeezerCallback();  // Vérifier si on revient de Deezer
+    // Note : initRetroSelectors() est maintenant appelé dans openRetroModal()
+    // après chargement du cache, pour n'afficher que les années disponibles
+    checkDeezerCallback();
     loadChartData();
   </script>
 </body>
