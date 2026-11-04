@@ -1,0 +1,56 @@
+name: Fetch Retro Archives
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: 'Année (ex: 1995)'
+        required: true
+        type: string
+      weeks:
+        description: 'Semaines (ex: 1-52 ou 23 ou 1,5,10)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-archives:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+        
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+        
+      - name: Fetch archives
+        run: |
+          python fetch_archive_batch.py --year ${{ github.event.inputs.year }} --weeks "${{ github.event.inputs.weeks }}"
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          git add data/
+          
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git commit -m "Add retro archives - Year ${{ github.event.inputs.year }}"
+          git pull --rebase origin main
+          git push origin main
