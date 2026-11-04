@@ -32275,5 +32275,4877 @@
       }
     ],
     "cached_at": "2026-11-04"
+  },
+  "1984-01": {
+    "week": 1,
+    "year": 1984,
+    "date": "11/11/1984",
+    "week_id": 2,
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Besoin de rien, envie de toi",
+          "artist": "Peter et Sloane"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "top_archives"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Femme libérée",
+          "artist": "Cookie Dingler"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "top_archives"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Still Loving You",
+          "artist": "Scorpions"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "top_archives"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder"
+        },
+        "previousPosition": 5,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "top_archives"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "High On Emotion",
+          "artist": "Chris De Burgh"
+        },
+        "previousPosition": 4,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "top_archives"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Hong-Kong Star",
+          "artist": "France Gall"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "top_archives"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "T'as le look, coco",
+          "artist": "Laroche-Valmont"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "top_archives"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Ghostbusters",
+          "artist": "Ray Parker Jr."
+        },
+        "previousPosition": 9,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "top_archives"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Un autre monde",
+          "artist": "Téléphone"
+        },
+        "previousPosition": 10,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "top_archives"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Délire d'amour",
+          "artist": "Michel Sardou"
+        },
+        "previousPosition": 49,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "top_archives"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Time After Time",
+          "artist": "Cyndi Lauper"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "top_archives"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Toute première fois",
+          "artist": "Jeanne Mas"
+        },
+        "previousPosition": 8,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "top_archives"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "When The Rain Begins To Fall",
+          "artist": "Jermaine Jackson & Pia Zadora"
+        },
+        "previousPosition": 30,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "top_archives"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Smalltown Boy",
+          "artist": "Bronski Beat"
+        },
+        "previousPosition": 17,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "top_archives"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "I Want To Break Free",
+          "artist": "Queen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "top_archives"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Big In Japan",
+          "artist": "Alphaville"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "top_archives"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Torture",
+          "artist": "Jacksons"
+        },
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "top_archives"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "The Reflex",
+          "artist": "Duran Duran"
+        },
+        "previousPosition": 15,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "top_archives"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Self Control",
+          "artist": "Laura Branigan"
+        },
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "top_archives"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "High Energy",
+          "artist": "Evelyn Thomas"
+        },
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "top_archives"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Mickey Donald et moi...",
+          "artist": "Douchka"
+        },
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "top_archives"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "La fille aux bas nylon",
+          "artist": "Julien Clerc"
+        },
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "top_archives"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Disparue",
+          "artist": "Jean-Pierre Mader"
+        },
+        "previousPosition": 28,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "top_archives"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "What's Love Got To Do With It",
+          "artist": "Tina Turner"
+        },
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "top_archives"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "It's My Life",
+          "artist": "Talk Talk"
+        },
+        "previousPosition": 34,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "top_archives"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "To France",
+          "artist": "Mike Oldfield"
+        },
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 26,
+        "source": "top_archives"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Wake Me Up Before You Go-Go",
+          "artist": "Wham !"
+        },
+        "previousPosition": 31,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 27,
+        "source": "top_archives"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins"
+        },
+        "previousPosition": 20,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "top_archives"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Susanna",
+          "artist": "The Art Company"
+        },
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 29,
+        "source": "top_archives"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "Precious Little Diamond",
+          "artist": "Fox The Fox"
+        },
+        "previousPosition": 35,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 30,
+        "source": "top_archives"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Long Is The Road (Américain)",
+          "artist": "Jean-Jacques Goldman"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 31,
+        "source": "top_archives"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Here She Comes",
+          "artist": "Bonnie Tyler"
+        },
+        "previousPosition": 38,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 32,
+        "source": "top_archives"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "The War Song",
+          "artist": "Culture Club"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "top_archives"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Kalimba de luna",
+          "artist": "Boney M."
+        },
+        "previousPosition": 26,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 34,
+        "source": "top_archives"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "Wouldn't It Be Good",
+          "artist": "Nik Kershaw"
+        },
+        "previousPosition": 46,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "top_archives"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Arrête ton clip !",
+          "artist": "Mini-Star"
+        },
+        "previousPosition": 37,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 36,
+        "source": "top_archives"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "Dream",
+          "artist": "P. Lion"
+        },
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 37,
+        "source": "top_archives"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Rien à personne",
+          "artist": "Johnny Hallyday"
+        },
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 38,
+        "source": "top_archives"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "Désir, désir",
+          "artist": "Véronique Jannot & Laurent Voulzy"
+        },
+        "previousPosition": 29,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 39,
+        "source": "top_archives"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "Self Control",
+          "artist": "Raf"
+        },
+        "previousPosition": 42,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 40,
+        "source": "top_archives"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "When Doves Cry",
+          "artist": "Prince"
+        },
+        "previousPosition": 32,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 41,
+        "source": "top_archives"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Hello",
+          "artist": "Lionel Richie"
+        },
+        "previousPosition": 41,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "top_archives"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Careless Whisper",
+          "artist": "George Michael"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 43,
+        "source": "top_archives"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Débranche !",
+          "artist": "France Gall"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 44,
+        "source": "top_archives"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Comme quand j'étais môme",
+          "artist": "Eddy Mitchell"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 45,
+        "source": "top_archives"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Blue Jean",
+          "artist": "David Bowie"
+        },
+        "previousPosition": 22,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "top_archives"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "Din daa daa (Trommeltanz)",
+          "artist": "George Kranz"
+        },
+        "previousPosition": 45,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 47,
+        "source": "top_archives"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Two Tribes",
+          "artist": "Frankie Goes To Hollywood"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 48,
+        "source": "top_archives"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Loin d'ici",
+          "artist": "Michel Delpech"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 49,
+        "source": "top_archives"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Caribbean Queen (No More Love On The Run",
+          "artist": "Billy Ocean"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "top_archives"
+      }
+    ],
+    "cached_at": "2026-11-04"
+  },
+  "1984-02": {
+    "week": 2,
+    "year": 1984,
+    "date": "18/11/1984",
+    "week_id": 3,
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Besoin de rien, envie de toi",
+          "artist": "Peter et Sloane"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "top_archives"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder"
+        },
+        "previousPosition": 4,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "top_archives"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Still Loving You",
+          "artist": "Scorpions"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "top_archives"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Femme libérée",
+          "artist": "Cookie Dingler"
+        },
+        "previousPosition": 2,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "top_archives"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Ghostbusters",
+          "artist": "Ray Parker Jr."
+        },
+        "previousPosition": 8,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "top_archives"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "High On Emotion",
+          "artist": "Chris De Burgh"
+        },
+        "previousPosition": 5,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "top_archives"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Un autre monde",
+          "artist": "Téléphone"
+        },
+        "previousPosition": 9,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "top_archives"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Hong-Kong Star",
+          "artist": "France Gall"
+        },
+        "previousPosition": 6,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "top_archives"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Time After Time",
+          "artist": "Cyndi Lauper"
+        },
+        "previousPosition": 11,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "top_archives"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Délire d'amour",
+          "artist": "Michel Sardou"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "top_archives"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "When The Rain Begins To Fall",
+          "artist": "Jermaine Jackson & Pia Zadora"
+        },
+        "previousPosition": 13,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "top_archives"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Smalltown Boy",
+          "artist": "Bronski Beat"
+        },
+        "previousPosition": 14,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "top_archives"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Big In Japan",
+          "artist": "Alphaville"
+        },
+        "previousPosition": 16,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "top_archives"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Toute première fois",
+          "artist": "Jeanne Mas"
+        },
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "top_archives"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "The Reflex",
+          "artist": "Duran Duran"
+        },
+        "previousPosition": 18,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "top_archives"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "I Want To Break Free",
+          "artist": "Queen"
+        },
+        "previousPosition": 15,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "top_archives"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "T'as le look, coco",
+          "artist": "Laroche-Valmont"
+        },
+        "previousPosition": 7,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "top_archives"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "La fille aux bas nylon",
+          "artist": "Julien Clerc"
+        },
+        "previousPosition": 22,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "top_archives"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Rien à personne",
+          "artist": "Johnny Hallyday"
+        },
+        "previousPosition": 38,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "top_archives"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Torture",
+          "artist": "Jacksons"
+        },
+        "previousPosition": 17,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "top_archives"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Self Control",
+          "artist": "Laura Branigan"
+        },
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "top_archives"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Mickey Donald et moi...",
+          "artist": "Douchka"
+        },
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "top_archives"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "What's Love Got To Do With It",
+          "artist": "Tina Turner"
+        },
+        "previousPosition": 24,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "top_archives"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "To France",
+          "artist": "Mike Oldfield"
+        },
+        "previousPosition": 26,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "top_archives"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Dream",
+          "artist": "P. Lion"
+        },
+        "previousPosition": 37,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "top_archives"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Kalimba de luna",
+          "artist": "Boney M."
+        },
+        "previousPosition": 34,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 26,
+        "source": "top_archives"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Susanna",
+          "artist": "The Art Company"
+        },
+        "previousPosition": 29,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 27,
+        "source": "top_archives"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Arrête ton clip !",
+          "artist": "Mini-Star"
+        },
+        "previousPosition": 36,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "top_archives"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Wake Me Up Before You Go-Go",
+          "artist": "Wham !"
+        },
+        "previousPosition": 27,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 29,
+        "source": "top_archives"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "Long Is The Road (Américain)",
+          "artist": "Jean-Jacques Goldman"
+        },
+        "previousPosition": 31,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 30,
+        "source": "top_archives"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Careless Whisper",
+          "artist": "George Michael"
+        },
+        "previousPosition": 43,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 31,
+        "source": "top_archives"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins"
+        },
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 32,
+        "source": "top_archives"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "Disparue",
+          "artist": "Jean-Pierre Mader"
+        },
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "top_archives"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Master And Servant",
+          "artist": "Depeche Mode"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 34,
+        "source": "top_archives"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "High Energy",
+          "artist": "Evelyn Thomas"
+        },
+        "previousPosition": 20,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "top_archives"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Hello",
+          "artist": "Lionel Richie"
+        },
+        "previousPosition": 42,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 36,
+        "source": "top_archives"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "It's My Life",
+          "artist": "Talk Talk"
+        },
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 37,
+        "source": "top_archives"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Precious Little Diamond",
+          "artist": "Fox The Fox"
+        },
+        "previousPosition": 30,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 38,
+        "source": "top_archives"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "All Of You",
+          "artist": "Julio Iglesias & Diana Ross"
+        },
+        "previousPosition": 27,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 39,
+        "source": "top_archives"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "When Doves Cry",
+          "artist": "Prince"
+        },
+        "previousPosition": 41,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 40,
+        "source": "top_archives"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "The War Song",
+          "artist": "Culture Club"
+        },
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 41,
+        "source": "top_archives"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Caribbean Queen (No More Love On The Run",
+          "artist": "Billy Ocean"
+        },
+        "previousPosition": 50,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "top_archives"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "On s'embrasse on oublie tout",
+          "artist": "Frédéric François"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 43,
+        "source": "top_archives"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Here She Comes",
+          "artist": "Bonnie Tyler"
+        },
+        "previousPosition": 32,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 44,
+        "source": "top_archives"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Self Control",
+          "artist": "Raf"
+        },
+        "previousPosition": 40,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 45,
+        "source": "top_archives"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Désir, désir",
+          "artist": "Véronique Jannot & Laurent Voulzy"
+        },
+        "previousPosition": 39,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "top_archives"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "Loin d'ici",
+          "artist": "Michel Delpech"
+        },
+        "previousPosition": 49,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 47,
+        "source": "top_archives"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Agadoo",
+          "artist": "Black Lace"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 48,
+        "source": "top_archives"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Wouldn't It Be Good",
+          "artist": "Nik Kershaw"
+        },
+        "previousPosition": 35,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 49,
+        "source": "top_archives"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Beau, j's'rai jamais beau",
+          "artist": "Claude Barzotti"
+        },
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "top_archives"
+      }
+    ],
+    "cached_at": "2026-11-04"
+  },
+  "1984-03": {
+    "week": 3,
+    "year": 1984,
+    "date": "25/11/1984",
+    "week_id": 4,
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Besoin de rien, envie de toi",
+          "artist": "Peter et Sloane"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "top_archives"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "top_archives"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Femme libérée",
+          "artist": "Cookie Dingler"
+        },
+        "previousPosition": 4,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "top_archives"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Mon coeur te dit je t'aime",
+          "artist": "Frédéric François"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "top_archives"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Ghostbusters",
+          "artist": "Ray Parker Jr."
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "top_archives"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Un autre monde",
+          "artist": "Téléphone"
+        },
+        "previousPosition": 7,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "top_archives"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Still Loving You",
+          "artist": "Scorpions"
+        },
+        "previousPosition": 3,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "top_archives"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Hong-Kong Star",
+          "artist": "France Gall"
+        },
+        "previousPosition": 6,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "top_archives"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "When The Rain Begins To Fall",
+          "artist": "Jermaine Jackson & Pia Zadora"
+        },
+        "previousPosition": 11,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "top_archives"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Smalltown Boy",
+          "artist": "Bronski Beat"
+        },
+        "previousPosition": 12,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "top_archives"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Time After Time",
+          "artist": "Cyndi Lauper"
+        },
+        "previousPosition": 9,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "top_archives"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "High On Emotion",
+          "artist": "Chris De Burgh"
+        },
+        "previousPosition": 6,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "top_archives"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Délire d'amour",
+          "artist": "Michel Sardou"
+        },
+        "previousPosition": 10,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "top_archives"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Mickey Donald et moi...",
+          "artist": "Douchka"
+        },
+        "previousPosition": 22,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "top_archives"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "I Want To Break Free",
+          "artist": "Queen"
+        },
+        "previousPosition": 16,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "top_archives"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "T'as le look, coco",
+          "artist": "Laroche-Valmont"
+        },
+        "previousPosition": 17,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "top_archives"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Wake Me Up Before You Go-Go",
+          "artist": "Wham !"
+        },
+        "previousPosition": 29,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "top_archives"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Big In Japan",
+          "artist": "Alphaville"
+        },
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "top_archives"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Torture",
+          "artist": "Jacksons"
+        },
+        "previousPosition": 20,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "top_archives"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "The Reflex",
+          "artist": "Duran Duran"
+        },
+        "previousPosition": 15,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "top_archives"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "What's Love Got To Do With It",
+          "artist": "Tina Turner"
+        },
+        "previousPosition": 23,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "top_archives"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Toute première fois",
+          "artist": "Jeanne Mas"
+        },
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "top_archives"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "To France",
+          "artist": "Mike Oldfield"
+        },
+        "previousPosition": 24,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "top_archives"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Long Is The Road (Américain)",
+          "artist": "Jean-Jacques Goldman"
+        },
+        "previousPosition": 30,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "top_archives"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Careless Whisper",
+          "artist": "George Michael"
+        },
+        "previousPosition": 31,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "top_archives"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Disparue",
+          "artist": "Jean-Pierre Mader"
+        },
+        "previousPosition": 33,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 26,
+        "source": "top_archives"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Kalimba de luna",
+          "artist": "Boney M."
+        },
+        "previousPosition": 26,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 27,
+        "source": "top_archives"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Precious Little Diamond",
+          "artist": "Fox The Fox"
+        },
+        "previousPosition": 38,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "top_archives"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Hello",
+          "artist": "Lionel Richie"
+        },
+        "previousPosition": 36,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 29,
+        "source": "top_archives"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "It's My Life",
+          "artist": "Talk Talk"
+        },
+        "previousPosition": 37,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 30,
+        "source": "top_archives"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Caribbean Queen (No More Love On The Run",
+          "artist": "Billy Ocean"
+        },
+        "previousPosition": 42,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 31,
+        "source": "top_archives"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "La fille aux bas nylon",
+          "artist": "Julien Clerc"
+        },
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 32,
+        "source": "top_archives"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "When Doves Cry",
+          "artist": "Prince"
+        },
+        "previousPosition": 40,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "top_archives"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Rien à personne",
+          "artist": "Johnny Hallyday"
+        },
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 34,
+        "source": "top_archives"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "The War Song",
+          "artist": "Culture Club"
+        },
+        "previousPosition": 41,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "top_archives"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Self Control",
+          "artist": "Laura Branigan"
+        },
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 36,
+        "source": "top_archives"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "High Energy",
+          "artist": "Evelyn Thomas"
+        },
+        "previousPosition": 35,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 37,
+        "source": "top_archives"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Dream",
+          "artist": "P. Lion"
+        },
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 38,
+        "source": "top_archives"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "Désir, désir",
+          "artist": "Véronique Jannot & Laurent Voulzy"
+        },
+        "previousPosition": 46,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 39,
+        "source": "top_archives"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "Arrête ton clip !",
+          "artist": "Mini-Star"
+        },
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 40,
+        "source": "top_archives"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "Wouldn't It Be Good",
+          "artist": "Nik Kershaw"
+        },
+        "previousPosition": 49,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 41,
+        "source": "top_archives"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "All Of You",
+          "artist": "Julio Iglesias & Diana Ross"
+        },
+        "previousPosition": 39,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "top_archives"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Blue Jean",
+          "artist": "David Bowie"
+        },
+        "previousPosition": 22,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 43,
+        "source": "top_archives"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Beau, j's'rai jamais beau",
+          "artist": "Claude Barzotti"
+        },
+        "previousPosition": 50,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 44,
+        "source": "top_archives"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins"
+        },
+        "previousPosition": 32,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 45,
+        "source": "top_archives"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Din daa daa (Trommeltanz)",
+          "artist": "George Kranz"
+        },
+        "previousPosition": 45,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "top_archives"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "Here She Comes",
+          "artist": "Bonnie Tyler"
+        },
+        "previousPosition": 44,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 47,
+        "source": "top_archives"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Master And Servant",
+          "artist": "Depeche Mode"
+        },
+        "previousPosition": 34,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 48,
+        "source": "top_archives"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Self Control",
+          "artist": "Raf"
+        },
+        "previousPosition": 45,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 49,
+        "source": "top_archives"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "La p'tite lady !",
+          "artist": "Vivien Savage"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "top_archives"
+      }
+    ],
+    "cached_at": "2026-11-04"
+  },
+  "1984-04": {
+    "week": 4,
+    "year": 1984,
+    "date": "02/12/1984",
+    "week_id": 5,
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Besoin de rien, envie de toi",
+          "artist": "Peter et Sloane"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "top_archives"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "top_archives"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Femme libérée",
+          "artist": "Cookie Dingler"
+        },
+        "previousPosition": 2,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "top_archives"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Mon coeur te dit je t'aime",
+          "artist": "Frédéric François"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "top_archives"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Ghostbusters",
+          "artist": "Ray Parker Jr."
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "top_archives"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Un autre monde",
+          "artist": "Téléphone"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "top_archives"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "When The Rain Begins To Fall",
+          "artist": "Jermaine Jackson & Pia Zadora"
+        },
+        "previousPosition": 9,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "top_archives"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Smalltown Boy",
+          "artist": "Bronski Beat"
+        },
+        "previousPosition": 10,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "top_archives"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Still Loving You",
+          "artist": "Scorpions"
+        },
+        "previousPosition": 7,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "top_archives"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "I Want To Break Free",
+          "artist": "Queen"
+        },
+        "previousPosition": 15,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "top_archives"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "High On Emotion",
+          "artist": "Chris De Burgh"
+        },
+        "previousPosition": 12,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "top_archives"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Hong-Kong Star",
+          "artist": "France Gall"
+        },
+        "previousPosition": 8,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "top_archives"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Careless Whisper",
+          "artist": "George Michael"
+        },
+        "previousPosition": 25,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "top_archives"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Délire d'amour",
+          "artist": "Michel Sardou"
+        },
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "top_archives"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Kalimba de luna",
+          "artist": "Boney M."
+        },
+        "previousPosition": 27,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "top_archives"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "The Reflex",
+          "artist": "Duran Duran"
+        },
+        "previousPosition": 20,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "top_archives"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Time After Time",
+          "artist": "Cyndi Lauper"
+        },
+        "previousPosition": 11,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "top_archives"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Disparue",
+          "artist": "Jean-Pierre Mader"
+        },
+        "previousPosition": 26,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "top_archives"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "The War Song",
+          "artist": "Culture Club"
+        },
+        "previousPosition": 35,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "top_archives"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Mickey Donald et moi...",
+          "artist": "Douchka"
+        },
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "top_archives"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Wake Me Up Before You Go-Go",
+          "artist": "Wham !"
+        },
+        "previousPosition": 17,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "top_archives"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "What's Love Got To Do With It",
+          "artist": "Tina Turner"
+        },
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "top_archives"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Long Is The Road (Américain)",
+          "artist": "Jean-Jacques Goldman"
+        },
+        "previousPosition": 24,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "top_archives"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Caribbean Queen (No More Love On The Run",
+          "artist": "Billy Ocean"
+        },
+        "previousPosition": 31,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "top_archives"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Down On The Street",
+          "artist": "Shakatak"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "top_archives"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Toute première fois",
+          "artist": "Jeanne Mas"
+        },
+        "previousPosition": 22,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 26,
+        "source": "top_archives"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Torture",
+          "artist": "Jacksons"
+        },
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 27,
+        "source": "top_archives"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Precious Little Diamond",
+          "artist": "Fox The Fox"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "top_archives"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "T'as le look, coco",
+          "artist": "Laroche-Valmont"
+        },
+        "previousPosition": 16,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 29,
+        "source": "top_archives"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "La fille aux bas nylon",
+          "artist": "Julien Clerc"
+        },
+        "previousPosition": 32,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 30,
+        "source": "top_archives"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Hello",
+          "artist": "Lionel Richie"
+        },
+        "previousPosition": 29,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 31,
+        "source": "top_archives"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Beau, j's'rai jamais beau",
+          "artist": "Claude Barzotti"
+        },
+        "previousPosition": 44,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 32,
+        "source": "top_archives"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "It's My Life",
+          "artist": "Talk Talk"
+        },
+        "previousPosition": 30,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "top_archives"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Rien à personne",
+          "artist": "Johnny Hallyday"
+        },
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 34,
+        "source": "top_archives"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "C'est un eternel besoin d'amour",
+          "artist": "Marlène Jobert"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "top_archives"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins"
+        },
+        "previousPosition": 45,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 36,
+        "source": "top_archives"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "Big In Japan",
+          "artist": "Alphaville"
+        },
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 37,
+        "source": "top_archives"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "When Doves Cry",
+          "artist": "Prince"
+        },
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 38,
+        "source": "top_archives"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "To France",
+          "artist": "Mike Oldfield"
+        },
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 39,
+        "source": "top_archives"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "Dream",
+          "artist": "P. Lion"
+        },
+        "previousPosition": 38,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 40,
+        "source": "top_archives"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "Wouldn't It Be Good",
+          "artist": "Nik Kershaw"
+        },
+        "previousPosition": 35,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 41,
+        "source": "top_archives"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Un jour on se rencontrera",
+          "artist": "Linda De Suza"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "top_archives"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Arrête ton clip !",
+          "artist": "Mini-Star"
+        },
+        "previousPosition": 40,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 43,
+        "source": "top_archives"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Self Control",
+          "artist": "Laura Branigan"
+        },
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 44,
+        "source": "top_archives"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Here She Comes",
+          "artist": "Bonnie Tyler"
+        },
+        "previousPosition": 47,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 45,
+        "source": "top_archives"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "La p'tite lady !",
+          "artist": "Vivien Savage"
+        },
+        "previousPosition": 50,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "top_archives"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "High Energy",
+          "artist": "Evelyn Thomas"
+        },
+        "previousPosition": 37,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 47,
+        "source": "top_archives"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Master And Servant",
+          "artist": "Depeche Mode"
+        },
+        "previousPosition": 34,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 48,
+        "source": "top_archives"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "All Of You",
+          "artist": "Julio Iglesias & Diana Ross"
+        },
+        "previousPosition": 42,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 49,
+        "source": "top_archives"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Eyes Without A Face",
+          "artist": "Billy Idol"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "top_archives"
+      }
+    ],
+    "cached_at": "2026-11-04"
+  },
+  "1984-05": {
+    "week": 5,
+    "year": 1984,
+    "date": "09/12/1984",
+    "week_id": 6,
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Besoin de rien, envie de toi",
+          "artist": "Peter et Sloane"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "top_archives"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "top_archives"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Ghostbusters",
+          "artist": "Ray Parker Jr."
+        },
+        "previousPosition": 5,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "top_archives"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Femme libérée",
+          "artist": "Cookie Dingler"
+        },
+        "previousPosition": 3,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "top_archives"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "When The Rain Begins To Fall",
+          "artist": "Jermaine Jackson & Pia Zadora"
+        },
+        "previousPosition": 7,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "top_archives"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Mon coeur te dit je t'aime",
+          "artist": "Frédéric François"
+        },
+        "previousPosition": 4,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "top_archives"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Un autre monde",
+          "artist": "Téléphone"
+        },
+        "previousPosition": 6,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "top_archives"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Still Loving You",
+          "artist": "Scorpions"
+        },
+        "previousPosition": 9,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "top_archives"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "I Want To Break Free",
+          "artist": "Queen"
+        },
+        "previousPosition": 10,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "top_archives"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Careless Whisper",
+          "artist": "George Michael"
+        },
+        "previousPosition": 13,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "top_archives"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "High On Emotion",
+          "artist": "Chris De Burgh"
+        },
+        "previousPosition": 4,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "top_archives"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Smalltown Boy",
+          "artist": "Bronski Beat"
+        },
+        "previousPosition": 8,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "top_archives"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Time After Time",
+          "artist": "Cyndi Lauper"
+        },
+        "previousPosition": 17,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "top_archives"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Kalimba de luna",
+          "artist": "Boney M."
+        },
+        "previousPosition": 15,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "top_archives"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "C'est un eternel besoin d'amour",
+          "artist": "Marlène Jobert"
+        },
+        "previousPosition": 35,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "top_archives"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Mickey Donald et moi...",
+          "artist": "Douchka"
+        },
+        "previousPosition": 20,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "top_archives"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Délire d'amour",
+          "artist": "Michel Sardou"
+        },
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "top_archives"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "The Reflex",
+          "artist": "Duran Duran"
+        },
+        "previousPosition": 16,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "top_archives"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Wake Me Up Before You Go-Go",
+          "artist": "Wham !"
+        },
+        "previousPosition": 21,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "top_archives"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "The War Song",
+          "artist": "Culture Club"
+        },
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "top_archives"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Disparue",
+          "artist": "Jean-Pierre Mader"
+        },
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "top_archives"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "What's Love Got To Do With It",
+          "artist": "Tina Turner"
+        },
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "top_archives"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Caribbean Queen (No More Love On The Run",
+          "artist": "Billy Ocean"
+        },
+        "previousPosition": 24,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "top_archives"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Torture",
+          "artist": "Jacksons"
+        },
+        "previousPosition": 27,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "top_archives"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Hello",
+          "artist": "Lionel Richie"
+        },
+        "previousPosition": 31,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "top_archives"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "La fille aux bas nylon",
+          "artist": "Julien Clerc"
+        },
+        "previousPosition": 30,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 26,
+        "source": "top_archives"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Dream",
+          "artist": "P. Lion"
+        },
+        "previousPosition": 40,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 27,
+        "source": "top_archives"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Beau, j's'rai jamais beau",
+          "artist": "Claude Barzotti"
+        },
+        "previousPosition": 32,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "top_archives"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Long Is The Road (Américain)",
+          "artist": "Jean-Jacques Goldman"
+        },
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 29,
+        "source": "top_archives"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "Hong-Kong Star",
+          "artist": "France Gall"
+        },
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 30,
+        "source": "top_archives"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "T'as le look, coco",
+          "artist": "Laroche-Valmont"
+        },
+        "previousPosition": 29,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 31,
+        "source": "top_archives"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Sounds Like A Melody",
+          "artist": "Alphaville"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 32,
+        "source": "top_archives"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "Rien à personne",
+          "artist": "Johnny Hallyday"
+        },
+        "previousPosition": 34,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "top_archives"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Precious Little Diamond",
+          "artist": "Fox The Fox"
+        },
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 34,
+        "source": "top_archives"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "Big In Japan",
+          "artist": "Alphaville"
+        },
+        "previousPosition": 37,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "top_archives"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "It's My Life",
+          "artist": "Talk Talk"
+        },
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 36,
+        "source": "top_archives"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "Against All Odds (Take A Look At Me Now)",
+          "artist": "Phil Collins"
+        },
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 37,
+        "source": "top_archives"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Toute première fois",
+          "artist": "Jeanne Mas"
+        },
+        "previousPosition": 26,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 38,
+        "source": "top_archives"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "Smooth Operator",
+          "artist": "Sade"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 39,
+        "source": "top_archives"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "Arrête ton clip !",
+          "artist": "Mini-Star"
+        },
+        "previousPosition": 43,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 40,
+        "source": "top_archives"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "All Of You",
+          "artist": "Julio Iglesias & Diana Ross"
+        },
+        "previousPosition": 49,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 41,
+        "source": "top_archives"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Phantasmes",
+          "artist": "Axel Bauer"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "top_archives"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "High Energy",
+          "artist": "Evelyn Thomas"
+        },
+        "previousPosition": 47,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 43,
+        "source": "top_archives"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "To France",
+          "artist": "Mike Oldfield"
+        },
+        "previousPosition": 39,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 44,
+        "source": "top_archives"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "When Doves Cry",
+          "artist": "Prince"
+        },
+        "previousPosition": 38,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 45,
+        "source": "top_archives"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Susanna",
+          "artist": "The Art Company"
+        },
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "top_archives"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "La p'tite lady !",
+          "artist": "Vivien Savage"
+        },
+        "previousPosition": 46,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 47,
+        "source": "top_archives"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Un jour on se rencontrera",
+          "artist": "Linda De Suza"
+        },
+        "previousPosition": 42,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 48,
+        "source": "top_archives"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Wouldn't It Be Good",
+          "artist": "Nik Kershaw"
+        },
+        "previousPosition": 41,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 49,
+        "source": "top_archives"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Master And Servant",
+          "artist": "Depeche Mode"
+        },
+        "previousPosition": 48,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "top_archives"
+      }
+    ],
+    "cached_at": "2026-11-04"
+  },
+  "1984-06": {
+    "week": 6,
+    "year": 1984,
+    "date": "16/12/1984",
+    "week_id": 7,
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Besoin de rien, envie de toi",
+          "artist": "Peter et Sloane"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "top_archives"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "top_archives"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Ghostbusters",
+          "artist": "Ray Parker Jr."
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "top_archives"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Careless Whisper",
+          "artist": "George Michael"
+        },
+        "previousPosition": 10,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "top_archives"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "When The Rain Begins To Fall",
+          "artist": "Jermaine Jackson & Pia Zadora"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "top_archives"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Femme libérée",
+          "artist": "Cookie Dingler"
+        },
+        "previousPosition": 4,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "top_archives"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Un autre monde",
+          "artist": "Téléphone"
+        },
+        "previousPosition": 6,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "top_archives"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Mon coeur te dit je t'aime",
+          "artist": "Frédéric François"
+        },
+        "previousPosition": 6,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "top_archives"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Kalimba de luna",
+          "artist": "Boney M."
+        },
+        "previousPosition": 14,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "top_archives"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Smalltown Boy",
+          "artist": "Bronski Beat"
+        },
+        "previousPosition": 12,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "top_archives"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "I Want To Break Free",
+          "artist": "Queen"
+        },
+        "previousPosition": 9,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "top_archives"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "C'est un eternel besoin d'amour",
+          "artist": "Marlène Jobert"
+        },
+        "previousPosition": 15,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "top_archives"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "High On Emotion",
+          "artist": "Chris De Burgh"
+        },
+        "previousPosition": 11,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "top_archives"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Still Loving You",
+          "artist": "Scorpions"
+        },
+        "previousPosition": 8,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "top_archives"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "T'as le look, coco",
+          "artist": "Laroche-Valmont"
+        },
+        "previousPosition": 31,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "top_archives"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Mickey Donald et moi...",
+          "artist": "Douchka"
+        },
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "top_archives"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Délire d'amour",
+          "artist": "Michel Sardou"
+        },
+        "previousPosition": 10,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "top_archives"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Snoopy",
+          "artist": "Chantal Goya"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "top_archives"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "The War Song",
+          "artist": "Culture Club"
+        },
+        "previousPosition": 20,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "top_archives"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Wake Me Up Before You Go-Go",
+          "artist": "Wham !"
+        },
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "top_archives"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Time After Time",
+          "artist": "Cyndi Lauper"
+        },
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "top_archives"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "J'ai le blues de toi",
+          "artist": "Gilbert Montagné"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "top_archives"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Smooth Operator",
+          "artist": "Sade"
+        },
+        "previousPosition": 39,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "top_archives"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Hong-Kong Star",
+          "artist": "France Gall"
+        },
+        "previousPosition": 30,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "top_archives"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Caribbean Queen (No More Love On The Run",
+          "artist": "Billy Ocean"
+        },
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "top_archives"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Long Is The Road (Américain)",
+          "artist": "Jean-Jacques Goldman"
+        },
+        "previousPosition": 29,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 26,
+        "source": "top_archives"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "What's Love Got To Do With It",
+          "artist": "Tina Turner"
+        },
+        "previousPosition": 22,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 27,
+        "source": "top_archives"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Precious Little Diamond",
+          "artist": "Fox The Fox"
+        },
+        "previousPosition": 34,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "top_archives"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Hello",
+          "artist": "Lionel Richie"
+        },
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 29,
+        "source": "top_archives"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "Sounds Like A Melody",
+          "artist": "Alphaville"
+        },
+        "previousPosition": 32,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 30,
+        "source": "top_archives"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Torture",
+          "artist": "Jacksons"
+        },
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 31,
+        "source": "top_archives"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Dream",
+          "artist": "P. Lion"
+        },
+        "previousPosition": 27,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 32,
+        "source": "top_archives"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "The Reflex",
+          "artist": "Duran Duran"
+        },
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "top_archives"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Beau, j's'rai jamais beau",
+          "artist": "Claude Barzotti"
+        },
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 34,
+        "source": "top_archives"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "La fille aux bas nylon",
+          "artist": "Julien Clerc"
+        },
+        "previousPosition": 26,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "top_archives"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Disparue",
+          "artist": "Jean-Pierre Mader"
+        },
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 36,
+        "source": "top_archives"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "La p'tite lady !",
+          "artist": "Vivien Savage"
+        },
+        "previousPosition": 47,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 37,
+        "source": "top_archives"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Arrête ton clip !",
+          "artist": "Mini-Star"
+        },
+        "previousPosition": 40,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 38,
+        "source": "top_archives"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "The Lucky One (Like A Wild Bird Of Pray)",
+          "artist": "Laura Branigan"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 39,
+        "source": "top_archives"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "Toute première fois",
+          "artist": "Jeanne Mas"
+        },
+        "previousPosition": 38,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 40,
+        "source": "top_archives"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "Wouldn't It Be Good",
+          "artist": "Nik Kershaw"
+        },
+        "previousPosition": 49,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 41,
+        "source": "top_archives"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "It's My Life",
+          "artist": "Talk Talk"
+        },
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "top_archives"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Big In Japan",
+          "artist": "Alphaville"
+        },
+        "previousPosition": 35,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 43,
+        "source": "top_archives"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Down On The Street",
+          "artist": "Shakatak"
+        },
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 44,
+        "source": "top_archives"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Un jour on se rencontrera",
+          "artist": "Linda De Suza"
+        },
+        "previousPosition": 48,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 45,
+        "source": "top_archives"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Rien à personne",
+          "artist": "Johnny Hallyday"
+        },
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "top_archives"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "To France",
+          "artist": "Mike Oldfield"
+        },
+        "previousPosition": 44,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 47,
+        "source": "top_archives"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "When Doves Cry",
+          "artist": "Prince"
+        },
+        "previousPosition": 45,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 48,
+        "source": "top_archives"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Master And Servant",
+          "artist": "Depeche Mode"
+        },
+        "previousPosition": 50,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 49,
+        "source": "top_archives"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Here She Comes",
+          "artist": "Bonnie Tyler"
+        },
+        "previousPosition": 32,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "top_archives"
+      }
+    ],
+    "cached_at": "2026-11-04"
+  },
+  "1984-07": {
+    "week": 7,
+    "year": 1984,
+    "date": "23/12/1984",
+    "week_id": 8,
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder"
+        },
+        "previousPosition": 2,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "top_archives"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Besoin de rien, envie de toi",
+          "artist": "Peter et Sloane"
+        },
+        "previousPosition": 1,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "top_archives"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "When The Rain Begins To Fall",
+          "artist": "Jermaine Jackson & Pia Zadora"
+        },
+        "previousPosition": 5,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "top_archives"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Ghostbusters",
+          "artist": "Ray Parker Jr."
+        },
+        "previousPosition": 3,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "top_archives"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Snoopy",
+          "artist": "Chantal Goya"
+        },
+        "previousPosition": 18,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "top_archives"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Careless Whisper",
+          "artist": "George Michael"
+        },
+        "previousPosition": 4,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "top_archives"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Kalimba de luna",
+          "artist": "Boney M."
+        },
+        "previousPosition": 9,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "top_archives"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Femme libérée",
+          "artist": "Cookie Dingler"
+        },
+        "previousPosition": 6,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "top_archives"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Mon coeur te dit je t'aime",
+          "artist": "Frédéric François"
+        },
+        "previousPosition": 8,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "top_archives"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "The War Song",
+          "artist": "Culture Club"
+        },
+        "previousPosition": 19,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "top_archives"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Un autre monde",
+          "artist": "Téléphone"
+        },
+        "previousPosition": 7,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "top_archives"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Smalltown Boy",
+          "artist": "Bronski Beat"
+        },
+        "previousPosition": 10,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "top_archives"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "I Want To Break Free",
+          "artist": "Queen"
+        },
+        "previousPosition": 11,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "top_archives"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Still Loving You",
+          "artist": "Scorpions"
+        },
+        "previousPosition": 3,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "top_archives"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Mickey Donald et moi...",
+          "artist": "Douchka"
+        },
+        "previousPosition": 16,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "top_archives"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Délire d'amour",
+          "artist": "Michel Sardou"
+        },
+        "previousPosition": 17,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "top_archives"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "C'est un eternel besoin d'amour",
+          "artist": "Marlène Jobert"
+        },
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "top_archives"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "High On Emotion",
+          "artist": "Chris De Burgh"
+        },
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "top_archives"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Smooth Operator",
+          "artist": "Sade"
+        },
+        "previousPosition": 23,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "top_archives"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Wake Me Up Before You Go-Go",
+          "artist": "Wham !"
+        },
+        "previousPosition": 17,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "top_archives"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Time After Time",
+          "artist": "Cyndi Lauper"
+        },
+        "previousPosition": 9,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "top_archives"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "T'as le look, coco",
+          "artist": "Laroche-Valmont"
+        },
+        "previousPosition": 15,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "top_archives"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Caribbean Queen (No More Love On The Run",
+          "artist": "Billy Ocean"
+        },
+        "previousPosition": 25,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "top_archives"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Precious Little Diamond",
+          "artist": "Fox The Fox"
+        },
+        "previousPosition": 28,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "top_archives"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Long Is The Road (Américain)",
+          "artist": "Jean-Jacques Goldman"
+        },
+        "previousPosition": 26,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "top_archives"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "What's Love Got To Do With It",
+          "artist": "Tina Turner"
+        },
+        "previousPosition": 27,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 26,
+        "source": "top_archives"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Beau, j's'rai jamais beau",
+          "artist": "Claude Barzotti"
+        },
+        "previousPosition": 34,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 27,
+        "source": "top_archives"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Hong-Kong Star",
+          "artist": "France Gall"
+        },
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "top_archives"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Sounds Like A Melody",
+          "artist": "Alphaville"
+        },
+        "previousPosition": 30,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 29,
+        "source": "top_archives"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "Hello",
+          "artist": "Lionel Richie"
+        },
+        "previousPosition": 29,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 30,
+        "source": "top_archives"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Torture",
+          "artist": "Jacksons"
+        },
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 31,
+        "source": "top_archives"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Disparue",
+          "artist": "Jean-Pierre Mader"
+        },
+        "previousPosition": 36,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 32,
+        "source": "top_archives"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "Tous les samedis soir",
+          "artist": "Billy"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "top_archives"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "La p'tite lady !",
+          "artist": "Vivien Savage"
+        },
+        "previousPosition": 37,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 34,
+        "source": "top_archives"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "The Reflex",
+          "artist": "Duran Duran"
+        },
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "top_archives"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Big In Japan",
+          "artist": "Alphaville"
+        },
+        "previousPosition": 43,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 36,
+        "source": "top_archives"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "La fille aux bas nylon",
+          "artist": "Julien Clerc"
+        },
+        "previousPosition": 35,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 37,
+        "source": "top_archives"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Rien à personne",
+          "artist": "Johnny Hallyday"
+        },
+        "previousPosition": 46,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 38,
+        "source": "top_archives"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "I Feel For You",
+          "artist": "Chaka Khan"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 39,
+        "source": "top_archives"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "The Lucky One (Like A Wild Bird Of Pray)",
+          "artist": "Laura Branigan"
+        },
+        "previousPosition": 39,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 40,
+        "source": "top_archives"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "Fotonovela",
+          "artist": "Ivan"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 41,
+        "source": "top_archives"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Wouldn't It Be Good",
+          "artist": "Nik Kershaw"
+        },
+        "previousPosition": 41,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "top_archives"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Dream",
+          "artist": "P. Lion"
+        },
+        "previousPosition": 32,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 43,
+        "source": "top_archives"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Down On The Street",
+          "artist": "Shakatak"
+        },
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 44,
+        "source": "top_archives"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "J'ai le blues de toi",
+          "artist": "Gilbert Montagné"
+        },
+        "previousPosition": 22,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 45,
+        "source": "top_archives"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "It's My Life",
+          "artist": "Talk Talk"
+        },
+        "previousPosition": 42,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "top_archives"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "Petit Papa Noël",
+          "artist": "Tino Rossi"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 47,
+        "source": "top_archives"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Phantasmes",
+          "artist": "Axel Bauer"
+        },
+        "previousPosition": 42,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 48,
+        "source": "top_archives"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Arrête ton clip !",
+          "artist": "Mini-Star"
+        },
+        "previousPosition": 38,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 49,
+        "source": "top_archives"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Toute première fois",
+          "artist": "Jeanne Mas"
+        },
+        "previousPosition": 40,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "top_archives"
+      }
+    ],
+    "cached_at": "2026-11-04"
+  },
+  "1984-08": {
+    "week": 8,
+    "year": 1984,
+    "date": "30/12/1984",
+    "week_id": 9,
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Ghostbusters",
+          "artist": "Ray Parker Jr."
+        },
+        "previousPosition": 4,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "top_archives"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "I Just Called To Say I Love You",
+          "artist": "Stevie Wonder"
+        },
+        "previousPosition": 1,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "top_archives"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Besoin de rien, envie de toi",
+          "artist": "Peter et Sloane"
+        },
+        "previousPosition": 2,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "top_archives"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "When The Rain Begins To Fall",
+          "artist": "Jermaine Jackson & Pia Zadora"
+        },
+        "previousPosition": 3,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "top_archives"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Careless Whisper",
+          "artist": "George Michael"
+        },
+        "previousPosition": 6,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "top_archives"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Snoopy",
+          "artist": "Chantal Goya"
+        },
+        "previousPosition": 5,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "top_archives"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "The War Song",
+          "artist": "Culture Club"
+        },
+        "previousPosition": 10,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "top_archives"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Femme libérée",
+          "artist": "Cookie Dingler"
+        },
+        "previousPosition": 2,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "top_archives"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Kalimba de luna",
+          "artist": "Boney M."
+        },
+        "previousPosition": 7,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "top_archives"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Délire d'amour",
+          "artist": "Michel Sardou"
+        },
+        "previousPosition": 16,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "top_archives"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Long Is The Road (Américain)",
+          "artist": "Jean-Jacques Goldman"
+        },
+        "previousPosition": 25,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "top_archives"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Un autre monde",
+          "artist": "Téléphone"
+        },
+        "previousPosition": 11,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "top_archives"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Mon coeur te dit je t'aime",
+          "artist": "Frédéric François"
+        },
+        "previousPosition": 9,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "top_archives"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "I Want To Break Free",
+          "artist": "Queen"
+        },
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "top_archives"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Smalltown Boy",
+          "artist": "Bronski Beat"
+        },
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "top_archives"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Mickey Donald et moi...",
+          "artist": "Douchka"
+        },
+        "previousPosition": 15,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "top_archives"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "C'est un eternel besoin d'amour",
+          "artist": "Marlène Jobert"
+        },
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "top_archives"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Smooth Operator",
+          "artist": "Sade"
+        },
+        "previousPosition": 19,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "top_archives"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Still Loving You",
+          "artist": "Scorpions"
+        },
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "top_archives"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Time After Time",
+          "artist": "Cyndi Lauper"
+        },
+        "previousPosition": 21,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "top_archives"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Elémentaire mon cher Baloo",
+          "artist": "Douchka"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "top_archives"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Disparue",
+          "artist": "Jean-Pierre Mader"
+        },
+        "previousPosition": 32,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "top_archives"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Wake Me Up Before You Go-Go",
+          "artist": "Wham !"
+        },
+        "previousPosition": 20,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "top_archives"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Petit Papa Noël",
+          "artist": "Tino Rossi"
+        },
+        "previousPosition": 47,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "top_archives"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "T'as le look, coco",
+          "artist": "Laroche-Valmont"
+        },
+        "previousPosition": 22,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "top_archives"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "High On Emotion",
+          "artist": "Chris De Burgh"
+        },
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 26,
+        "source": "top_archives"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Sounds Like A Melody",
+          "artist": "Alphaville"
+        },
+        "previousPosition": 29,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 27,
+        "source": "top_archives"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "What's Love Got To Do With It",
+          "artist": "Tina Turner"
+        },
+        "previousPosition": 26,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "top_archives"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Precious Little Diamond",
+          "artist": "Fox The Fox"
+        },
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 29,
+        "source": "top_archives"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "J'ai le blues de toi",
+          "artist": "Gilbert Montagné"
+        },
+        "previousPosition": 45,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 30,
+        "source": "top_archives"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Torture",
+          "artist": "Jacksons"
+        },
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 31,
+        "source": "top_archives"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Hello",
+          "artist": "Lionel Richie"
+        },
+        "previousPosition": 30,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 32,
+        "source": "top_archives"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "The Lucky One (Like A Wild Bird Of Pray)",
+          "artist": "Laura Branigan"
+        },
+        "previousPosition": 40,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "top_archives"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Tous les samedis soir",
+          "artist": "Billy"
+        },
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 34,
+        "source": "top_archives"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "Caribbean Queen (No More Love On The Run",
+          "artist": "Billy Ocean"
+        },
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "top_archives"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Hong-Kong Star",
+          "artist": "France Gall"
+        },
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 36,
+        "source": "top_archives"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "La fille aux bas nylon",
+          "artist": "Julien Clerc"
+        },
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 37,
+        "source": "top_archives"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Arrête ton clip !",
+          "artist": "Mini-Star"
+        },
+        "previousPosition": 49,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 38,
+        "source": "top_archives"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "Fotonovela",
+          "artist": "Ivan"
+        },
+        "previousPosition": 41,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 39,
+        "source": "top_archives"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "La p'tite lady !",
+          "artist": "Vivien Savage"
+        },
+        "previousPosition": 34,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 40,
+        "source": "top_archives"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "Beau, j's'rai jamais beau",
+          "artist": "Claude Barzotti"
+        },
+        "previousPosition": 27,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 41,
+        "source": "top_archives"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Bons baisers de Fort de France",
+          "artist": "La Compagnie Créole"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "top_archives"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Dream",
+          "artist": "P. Lion"
+        },
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 43,
+        "source": "top_archives"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "I Feel For You",
+          "artist": "Chaka Khan"
+        },
+        "previousPosition": 39,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 44,
+        "source": "top_archives"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Big In Japan",
+          "artist": "Alphaville"
+        },
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 45,
+        "source": "top_archives"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "The Reflex",
+          "artist": "Duran Duran"
+        },
+        "previousPosition": 35,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "top_archives"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "It's My Life",
+          "artist": "Talk Talk"
+        },
+        "previousPosition": 46,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 47,
+        "source": "top_archives"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Down On The Street",
+          "artist": "Shakatak"
+        },
+        "previousPosition": 44,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 48,
+        "source": "top_archives"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "To France",
+          "artist": "Mike Oldfield"
+        },
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 49,
+        "source": "top_archives"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Dr. Beat",
+          "artist": "Miami Sound Machine"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "top_archives"
+      }
+    ],
+    "cached_at": "2026-11-04"
   }
 }
