@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Script pour télécharger des archives du Top 50 français en lot.
-Utilisé par GitHub Actions pour alimenter la base rétro.
+Script pour télécharger les archives du Top 50 français via top-archives.fr.
+Source officielle des archives 1984-1993.
 
-Exécution : python fetch_archive_batch.py --year 1995 --weeks 1-52
+Exécution : python fetch_archive_batch.py --year 1989
 """
 
 import json
@@ -17,7 +17,9 @@ import sys
 import time
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'fr-FR,fr;q=0.9',
 }
 
 CACHE_DIR = "data/cache"
@@ -44,24 +46,96 @@ def save_retro_cache(cache):
     except Exception as e:
         print(f"⚠️ Erreur lors de la sauvegarde: {e}")
 
-def fetch_top50_archive(year, week, cache):
-    """Récupère le Top 50 français pour une année et semaine données"""
-    cache_key = f"{year}-{week:02d}"
+def get_week_links_for_year(year):
+    """
+    Récupère la liste des semaines (avec leurs IDs et dates) pour une année donnée.
+    Retourne une liste de dicts : [{week_id, date_str, week_num}, ...]
+    """
+    url = f"https://top-archives.fr/top/year/{year}"
     
-    # Vérifier d'abord le cache
-    if cache_key in cache:
-        print(f"  ✅ Semaine {week}/{year} : déjà en cache")
-        return True
-    
-    print(f"  📥 Semaine {week}/{year} : téléchargement...")
-    
-    url = f"https://lescharts.com/weekchart.asp?cat=s&week={week}&year={year}"
+    print(f"📅 Récupération de la liste des semaines pour {year}...")
     
     try:
         response = requests.get(url, headers=HEADERS, timeout=30)
         
         if response.status_code == 404:
-            print(f"    ❌ Page non trouvée (404)")
+            print(f"  ❌ Année {year} non trouvée (le site couvre 1984-1993)")
+            return []
+        
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Trouver tous les liens vers les semaines
+        week_links = []
+        
+        # Chercher les liens /top/week/{id}
+        for link in soup.find_all('a', href=re.compile(r'/top/week/\d+')):
+            href = link.get('href', '')
+            match = re.search(r'/top/week/(\d+)', href)
+            
+            if match:
+                week_id = int(match.group(1))
+                
+                # Extraire le texte du lien pour trouver la date
+                link_text = link.get_text(strip=True)
+                date_match = re.search(r'(\d{2}/\d{2}/\d{4})', link_text)
+                
+                date_str = date_match.group(1) if date_match else None
+                
+                week_links.append({
+                    'week_id': week_id,
+                    'date_str': date_str,
+                    'href': href
+                })
+        
+        # Dédoublonner et trier par ID
+        seen_ids = set()
+        unique_links = []
+        
+        for link in week_links:
+            if link['week_id'] not in seen_ids:
+                seen_ids.add(link['week_id'])
+                unique_links.append(link)
+        
+        unique_links.sort(key=lambda x: x['week_id'])
+        
+        # Calculer les numéros de semaine
+        for i, link in enumerate(unique_links):
+            link['week_num'] = i + 1
+        
+        print(f"  ✅ {len(unique_links)} semaines trouvées")
+        
+        if unique_links:
+            print(f"  📊 Première : {unique_links[0]['date_str']} (ID {unique_links[0]['week_id']})")
+            print(f"  📊 Dernière : {unique_links[-1]['date_str']} (ID {unique_links[-1]['week_id']})")
+        
+        return unique_links
+    
+    except Exception as e:
+        print(f"  ❌ Erreur: {e}")
+        return []
+
+def fetch_week_top50(week_id, date_str, year, week_num, cache):
+    """Récupère le top 50 complet pour une semaine donnée"""
+    cache_key = f"{year}-{week_num:02d}"
+    
+    if cache_key in cache:
+        print(f"  ⏭️  Semaine {week_num}/{year} ({date_str}) : déjà en cache")
+        return True
+    
+    url = f"https://top-archives.fr/top/week/{week_id}"
+    
+    print(f"  📥 Semaine {week_num}/{year} ({date_str})...")
+    
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        
+        if response.status_code == 404:
+            print(f"    ❌ Semaine non trouvée (404)")
+            return False
+        
+        if response.status_code == 403:
+            print(f"    ❌ Bloqué (403)")
             return False
         
         response.raise_for_status()
@@ -69,65 +143,126 @@ def fetch_top50_archive(year, week, cache):
         
         entries = []
         
-        # Stratégie 1 : Tableau
+        # Stratégie 1 : Chercher un tableau
         table = soup.find('table')
+        
         if table:
             rows = table.find_all('tr')
             
-            for row in rows[1:51]:
+            for row in rows:
                 cells = row.find_all('td')
                 
-                if len(cells) >= 3:
+                if len(cells) >= 2:
+                    # Extraire le rang
                     rank_text = cells[0].get_text(strip=True)
                     rank_match = re.search(r'\d+', rank_text)
                     
                     if rank_match:
                         rank = int(rank_match.group())
                         
-                        text = row.get_text(separator='|', strip=True)
-                        parts = [p.strip() for p in text.split('|') if p.strip()]
-                        
-                        if len(parts) >= 3:
-                            artist = parts[1]
-                            title = parts[2]
+                        if 1 <= rank <= 50:
+                            # Extraire artiste et titre
+                            # Format variable : peut être dans cells[1], cells[2], etc.
+                            artist = ""
+                            title = ""
                             
-                            title = re.sub(r'\s+', ' ', title).strip()
+                            # Chercher dans les cellules
+                            for cell in cells[1:]:
+                                text = cell.get_text(strip=True)
+                                
+                                if not text:
+                                    continue
+                                
+                                # Vérifier si c'est un lien avec artiste/titre
+                                links = cell.find_all('a')
+                                
+                                if len(links) >= 2:
+                                    # Souvent : artiste puis titre
+                                    if not artist:
+                                        artist = links[0].get_text(strip=True)
+                                    if not title:
+                                        title = links[1].get_text(strip=True)
+                                elif len(links) == 1:
+                                    # Un seul lien, peut contenir "Artiste - Titre"
+                                    link_text = links[0].get_text(strip=True)
+                                    if ' - ' in link_text:
+                                        parts = link_text.split(' - ', 1)
+                                        artist = parts[0].strip()
+                                        title = parts[1].strip()
+                                    elif not title:
+                                        title = link_text
+                                else:
+                                    # Pas de lien, texte brut
+                                    if not artist and len(text) > 2:
+                                        artist = text
+                                    elif not title and len(text) > 2:
+                                        title = text
+                            
+                            # Nettoyer
                             artist = re.sub(r'\s+', ' ', artist).strip()
+                            title = re.sub(r'\s+', ' ', title).strip()
                             
-                            entries.append({
-                                "position": rank,
-                                "track": {
-                                    "title": title,
-                                    "artist": artist
-                                },
-                                "previousPosition": None,
-                                "movement": "same",
-                                "weeksOnChart": 1,
-                                "peakPosition": rank,
-                                "source": "lescharts_archive"
-                            })
+                            if artist and title:
+                                # Extraire la position précédente si disponible
+                                previous_pos = None
+                                movement = "same"
+                                
+                                # Chercher des indices de mouvement dans les cellules
+                                for cell in cells:
+                                    cell_text = cell.get_text(strip=True)
+                                    
+                                    if 'new' in cell_text.lower() or 'entrée' in cell_text.lower():
+                                        movement = "new"
+                                        break
+                                    elif re.search(r'\d+', cell_text):
+                                        # Pourrait être la position précédente
+                                        prev_match = re.search(r'(\d+)', cell_text)
+                                        if prev_match:
+                                            prev = int(prev_match.group(1))
+                                            if prev != rank and prev <= 50:
+                                                previous_pos = prev
+                                                if prev > rank:
+                                                    movement = "up"
+                                                elif prev < rank:
+                                                    movement = "down"
+                                                break
+                                
+                                entries.append({
+                                    "position": rank,
+                                    "track": {
+                                        "title": title,
+                                        "artist": artist
+                                    },
+                                    "previousPosition": previous_pos,
+                                    "movement": movement,
+                                    "weeksOnChart": 1,
+                                    "peakPosition": rank,
+                                    "source": "top_archives"
+                                })
         
-        # Stratégie 2 : Divs si tableau non trouvé
+        # Stratégie 2 : Si pas de tableau, chercher dans des divs/listes
         if len(entries) < 10:
-            items = soup.find_all(['div', 'li'], class_=re.compile(r'chart|track|song|position', re.I))
+            items = soup.find_all(['div', 'li', 'p'], class_=re.compile(r'track|song|position|chart|top', re.I))
             
             for item in items[:50]:
                 text = item.get_text(separator='|', strip=True)
                 parts = [p.strip() for p in text.split('|') if p.strip()]
                 
                 if len(parts) >= 2:
+                    # Chercher un rang
                     rank = None
                     for part in parts:
-                        if part.isdigit() and int(part) <= 100:
+                        if part.isdigit() and int(part) <= 50:
                             rank = int(part)
                             break
                     
                     if rank:
+                        # Extraire artiste et titre
                         artist = ""
                         title = ""
                         
                         for j in range(len(parts) - 1):
-                            if len(parts[j]) > 3 and len(parts[j+1]) > 3:
+                            if len(parts[j]) > 2 and len(parts[j+1]) > 2:
                                 artist = parts[j]
                                 title = parts[j+1]
                                 break
@@ -140,16 +275,28 @@ def fetch_top50_archive(year, week, cache):
                                 "movement": "same",
                                 "weeksOnChart": 1,
                                 "peakPosition": rank,
-                                "source": "lescharts_archive"
+                                "source": "top_archives"
                             })
         
         if entries:
+            # Trier par position et dédoublonner
             entries.sort(key=lambda x: x["position"])
             
+            # Supprimer les doublons
+            seen_positions = set()
+            unique_entries = []
+            for entry in entries:
+                if entry["position"] not in seen_positions:
+                    seen_positions.add(entry["position"])
+                    unique_entries.append(entry)
+            
+            entries = unique_entries[:50]
+            
             archive_data = {
-                "week": week,
+                "week": week_num,
                 "year": year,
-                "date": f"Semaine {week}/{year}",
+                "date": date_str,
+                "week_id": week_id,
                 "entries": entries,
                 "cached_at": datetime.now().strftime('%Y-%m-%d')
             }
@@ -158,8 +305,14 @@ def fetch_top50_archive(year, week, cache):
             
             print(f"    ✅ {len(entries)} entrées trouvées")
             
-            # Délai pour ne pas surcharger le serveur
-            time.sleep(1)
+            # Afficher le top 3
+            if entries:
+                print(f"    📊 Top 3 :")
+                for entry in entries[:3]:
+                    print(f"       {entry['position']}. {entry['track']['artist']} - {entry['track']['title']}")
+            
+            # Délai pour être poli avec le serveur
+            time.sleep(2)
             
             return True
         else:
@@ -170,77 +323,57 @@ def fetch_top50_archive(year, week, cache):
         print(f"    ❌ Erreur: {e}")
         return False
 
-def parse_weeks(weeks_str):
-    """
-    Parse la chaîne de semaines.
-    Formats acceptés : "1-52", "23", "1,5,10", "1-10,20,30-40"
-    """
-    weeks = set()
-    
-    for part in weeks_str.split(','):
-        part = part.strip()
-        
-        if '-' in part:
-            start, end = part.split('-', 1)
-            try:
-                start_week = int(start.strip())
-                end_week = int(end.strip())
-                weeks.update(range(start_week, end_week + 1))
-            except ValueError:
-                print(f"⚠️ Format invalide : {part}")
-        else:
-            try:
-                weeks.add(int(part))
-            except ValueError:
-                print(f"⚠️ Format invalide : {part}")
-    
-    return sorted([w for w in weeks if 1 <= w <= 53])
-
 def main():
-    parser = argparse.ArgumentParser(description='Télécharge des archives du Top 50 français en lot')
-    parser.add_argument('--year', type=int, required=True, help='Année (ex: 1995)')
-    parser.add_argument('--weeks', type=str, required=True, help='Semaines (ex: 1-52 ou 23 ou 1,5,10)')
+    parser = argparse.ArgumentParser(description='Télécharge les archives du Top 50 depuis top-archives.fr')
+    parser.add_argument('--year', type=int, required=True, help='Année (1984-1993)')
     
     args = parser.parse_args()
     
     year = args.year
-    weeks = parse_weeks(args.weeks)
     
-    if not weeks:
-        print("❌ Aucune semaine valide spécifiée")
+    if year < 1984 or year > 1993:
+        print(f"❌ top-archives.fr couvre seulement 1984-1993")
+        print(f"   Année demandée : {year}")
         sys.exit(1)
     
-    if year < 1984 or year > datetime.now().year:
-        print(f"❌ L'année doit être entre 1984 et {datetime.now().year}")
-        sys.exit(1)
-    
-    print(f"📅 Téléchargement des archives Top 50 - Année {year}")
-    print(f"   Semaines demandées : {len(weeks)}")
+    print(f"📅 Archives Top 50 France - Année {year}")
+    print(f"   Source : top-archives.fr (archives 1984-1993)")
     print(f"{'='*60}\n")
     
+    # Étape 1 : Récupérer la liste des semaines
+    week_links = get_week_links_for_year(year)
+    
+    if not week_links:
+        print(f"\n❌ Impossible de récupérer les semaines pour {year}")
+        sys.exit(1)
+    
+    # Étape 2 : Télécharger chaque semaine
     cache = load_retro_cache()
     
     success_count = 0
     skip_count = 0
     fail_count = 0
     
-    for week in weeks:
-        cache_key = f"{year}-{week:02d}"
+    for week_info in week_links:
+        week_id = week_info['week_id']
+        date_str = week_info['date_str']
+        week_num = week_info['week_num']
+        
+        cache_key = f"{year}-{week_num:02d}"
         
         if cache_key in cache:
             skip_count += 1
-            print(f"  ⏭️  Semaine {week}/{year} : déjà en cache")
             continue
         
-        result = fetch_top50_archive(year, week, cache)
+        result = fetch_week_top50(week_id, date_str, year, week_num, cache)
         
         if result:
             success_count += 1
         else:
             fail_count += 1
         
-        # Sauvegarder le cache toutes les 10 semaines
-        if (success_count + fail_count) % 10 == 0:
+        # Sauvegarder toutes les 5 semaines
+        if (success_count + fail_count) % 5 == 0 and success_count > 0:
             save_retro_cache(cache)
             print(f"\n  💾 Cache sauvegardé ({len(cache)} archives)\n")
     
@@ -249,8 +382,8 @@ def main():
     
     print(f"\n{'='*60}")
     print(f"✅ Téléchargement terminé")
-    print(f"   - {success_count} nouvelles archives téléchargées")
-    print(f"   - {skip_count} archives déjà en cache")
+    print(f"   - {success_count} nouvelles archives")
+    print(f"   - {skip_count} déjà en cache")
     print(f"   - {fail_count} échecs")
     print(f"   - Total en cache : {len(cache)} archives")
     print(f"{'='*60}")
