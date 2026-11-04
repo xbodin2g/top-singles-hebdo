@@ -1396,6 +1396,33 @@
       return new Promise(resolve => setTimeout(resolve, ms));
     }
 
+    /**
+     * ⭐ NORMALISATION AGGRESSIVE POUR LA RECHERCHE
+     * Supprime ponctuation, accents, parenthèses, etc.
+     */
+    function normalizeForSearch(text) {
+      if (!text) return '';
+      
+      return text
+        .replace(/\(.*?\)/g, '')
+        .replace(/\[.*?\]/g, '')
+        .replace(/\s*(?:[Ff]eat\.?|[Ff]t\.?|[Ff]eaturing)\s.*$/g, '')
+        .replace(/&/g, ' and ')
+        .replace(/[!?.,;:"'«»()\[\]{}_\/\\|@#~^*+=<>]/g, '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    /**
+     * Supprime les accents d'un texte
+     */
+    function removeAccents(text) {
+      if (!text) return '';
+      return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
     // ===== AUTHENTIFICATION DEEZER (OAUTH) =====
 
     function checkDeezerCallback() {
@@ -1965,9 +1992,12 @@
 
     // ===== ENRICHISSEMENT RÉTRO À LA DEMANDE =====
 
+    /**
+     * ⭐ VERSION AMÉLIORÉE - Utilise la même normalisation que la recherche
+     */
     function getRetroCacheKey(artist, title) {
-      const cleanArtist = artist.replace(/\(.*?\)/g, '').toLowerCase().trim().replace(/[^\w\s]/g, '').trim();
-      const cleanTitle = title.replace(/\(.*?\)/g, '').toLowerCase().trim().replace(/[^\w\s]/g, '').trim();
+      const cleanArtist = normalizeForSearch(artist).toLowerCase();
+      const cleanTitle = normalizeForSearch(title).toLowerCase();
       return `${cleanArtist}|${cleanTitle}`;
     }
 
@@ -1996,6 +2026,9 @@
       }
     }
 
+    /**
+     * Recherche Deezer via JSONP (contourne CORS)
+     */
     function searchDeezerJSONP(query) {
       return new Promise((resolve) => {
         const callbackName = 'deezerCallback_' + Date.now() + '_' + Math.floor(Math.random() * 10000);
@@ -2040,29 +2073,33 @@
       });
     }
 
-    function normalizeForSearch(text) {
-      return text
-        .replace(/\(.*?\)/g, '')
-        .replace(/\[.*?\]/g, '')
-        .replace(/\s*[Ff]eat\.?\s.*$/g, '')
-        .replace(/&/g, 'and')
-        .replace(/\s+/g, ' ')
-        .trim();
+    /**
+     * Formate le résultat Deezer de manière uniforme
+     */
+    function formatDeezerResult(track) {
+      return {
+        deezer_id: track.id,
+        deezer_url: track.link,
+        artwork: track.album?.cover_medium || ''
+      };
     }
 
+    /**
+     * ⭐ RECHERCHE DEEZER AMÉLIORÉE - 7 STRATÉGIES
+     * Gère ponctuation, accents, collaborations, etc.
+     */
     async function fetchDeezerTrackIdRetro(artist, title) {
       const cleanTitle = normalizeForSearch(title);
       const cleanArtist = normalizeForSearch(artist);
       
+      if (!cleanTitle || !cleanArtist) {
+        return null;
+      }
+      
       // STRATÉGIE 1 : Recherche exacte avec guillemets
       let results = await searchDeezerJSONP(`artist:"${cleanArtist}" track:"${cleanTitle}"`);
       if (results.length > 0) {
-        const track = results[0];
-        return {
-          deezer_id: track.id,
-          deezer_url: track.link,
-          artwork: track.album?.cover_medium || ''
-        };
+        return formatDeezerResult(results[0]);
       }
       
       await sleep(100);
@@ -2070,115 +2107,147 @@
       // STRATÉGIE 2 : Recherche simple sans guillemets
       results = await searchDeezerJSONP(`${cleanArtist} ${cleanTitle}`);
       if (results.length > 0) {
-        const track = results[0];
-        return {
-          deezer_id: track.id,
-          deezer_url: track.link,
-          artwork: track.album?.cover_medium || ''
-        };
+        return formatDeezerResult(results[0]);
       }
       
       await sleep(100);
       
-      // STRATÉGIE 3 : Juste le titre
+      // STRATÉGIE 3 : Juste le titre (pour les titres très connus)
       results = await searchDeezerJSONP(`track:"${cleanTitle}"`);
       if (results.length > 0) {
-        const track = results[0];
-        return {
-          deezer_id: track.id,
-          deezer_url: track.link,
-          artwork: track.album?.cover_medium || ''
-        };
+        return formatDeezerResult(results[0]);
       }
       
       await sleep(100);
       
-      // STRATÉGIE 4 : Premier artiste seulement
+      // STRATÉGIE 4 : Premier artiste seulement (pour les collaborations)
       const firstArtist = cleanArtist.split(/\s+(?:and|et|feat|ft|,)\s+/i)[0].trim();
-      if (firstArtist && firstArtist !== cleanArtist) {
+      if (firstArtist && firstArtist !== cleanArtist && firstArtist.length > 2) {
         results = await searchDeezerJSONP(`artist:"${firstArtist}" track:"${cleanTitle}"`);
         if (results.length > 0) {
-          const track = results[0];
-          return {
-            deezer_id: track.id,
-            deezer_url: track.link,
-            artwork: track.album?.cover_medium || ''
-          };
+          return formatDeezerResult(results[0]);
         }
+        await sleep(100);
       }
       
-      await sleep(100);
+      // STRATÉGIE 5 : Essayer avec le titre original (avec ponctuation) si différent
+      const originalTitle = title.replace(/\(.*?\)/g, '').replace(/\[.*?\]/g, '').trim();
+      if (originalTitle !== cleanTitle && originalTitle.length > 2) {
+        results = await searchDeezerJSONP(`artist:"${cleanArtist}" track:"${originalTitle}"`);
+        if (results.length > 0) {
+          return formatDeezerResult(results[0]);
+        }
+        await sleep(100);
+      }
       
-      // STRATÉGIE 5 : Recherche large
-      results = await searchDeezerJSONP(`${cleanTitle}`);
+      // STRATÉGIE 6 : Mots-clés du titre seulement (pour les titres longs)
+      const titleWords = cleanTitle.split(' ').filter(w => w.length > 3);
+      if (titleWords.length >= 2) {
+        const keywords = titleWords.slice(0, 3).join(' ');
+        results = await searchDeezerJSONP(`artist:"${cleanArtist}" ${keywords}`);
+        if (results.length > 0) {
+          return formatDeezerResult(results[0]);
+        }
+        await sleep(100);
+      }
+      
+      // STRATÉGIE 7 : Recherche large (dernier recours)
+      results = await searchDeezerJSONP(`${cleanTitle} ${cleanArtist.split(' ')[0]}`);
       if (results.length > 0) {
-        const track = results[0];
-        return {
-          deezer_id: track.id,
-          deezer_url: track.link,
-          artwork: track.album?.cover_medium || ''
-        };
+        return formatDeezerResult(results[0]);
       }
       
       return null;
     }
 
+    /**
+     * ⭐ RECHERCHE YOUTUBE AMÉLIORÉE - Avec variantes de requêtes
+     */
     async function fetchYouTubeVideoIdRetro(artist, title) {
       const apiKey = localStorage.getItem('youtubeApiKey');
       if (!apiKey) return null;
       
       const cleanTitle = normalizeForSearch(title);
       const cleanArtist = normalizeForSearch(artist);
-      const query = `${cleanArtist} ${cleanTitle} official video`;
       
-      try {
-        const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(query)}&type=video&maxResults=5&key=${apiKey}&order=relevance`;
-        const response = await fetch(url);
-        
-        if (response.status === 403) {
-          const errorData = await response.json();
-          if (errorData.error?.message?.toLowerCase().includes('quota')) {
-            alert('⚠️ Quota YouTube dépassé !\n\nRéessayez demain ou changez de clé API.');
-            return null;
+      if (!cleanTitle || !cleanArtist) return null;
+      
+      // Essayer plusieurs variantes de requête
+      const queries = [
+        `${cleanArtist} ${cleanTitle} official video`,
+        `${cleanArtist} ${cleanTitle}`,
+        `${cleanTitle} ${cleanArtist.split(' ')[0]}`
+      ];
+      
+      for (const query of queries) {
+        try {
+          const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(query)}&type=video&maxResults=5&key=${apiKey}&order=relevance`;
+          const response = await fetch(url);
+          
+          if (response.status === 403) {
+            const errorData = await response.json();
+            if (errorData.error?.message?.toLowerCase().includes('quota')) {
+              alert('⚠️ Quota YouTube dépassé !\n\nRéessayez demain ou changez de clé API.');
+              return null;
+            }
           }
-        }
-        
-        if (response.status !== 200) return null;
-        
-        const data = await response.json();
-        if (!data.items || data.items.length === 0) return null;
-        
-        const excludeKeywords = ['lyrics', 'lyric', 'audio only', 'cover', 'live', 'karaoke', 'remix'];
-        
-        for (const item of data.items) {
-          const videoTitle = item.snippet.title.toLowerCase();
-          const channel = item.snippet.channelTitle.toLowerCase();
           
-          const isOfficial = videoTitle.includes('official video') || videoTitle.includes('official') || videoTitle.includes('clip officiel');
-          const isVevo = channel.includes('vevo');
-          const isExcluded = excludeKeywords.some(kw => videoTitle.includes(kw));
+          if (response.status !== 200) continue;
           
-          if (!isExcluded && (isOfficial || isVevo)) {
+          const data = await response.json();
+          if (!data.items || data.items.length === 0) continue;
+          
+          const excludeKeywords = ['lyrics', 'lyric', 'audio only', 'cover', 'live', 'karaoke', 'remix'];
+          
+          // Chercher une vidéo officielle
+          for (const item of data.items) {
+            const videoTitle = item.snippet.title.toLowerCase();
+            const channel = item.snippet.channelTitle.toLowerCase();
+            
+            const isOfficial = videoTitle.includes('official video') || 
+                              videoTitle.includes('official') || 
+                              videoTitle.includes('clip officiel') ||
+                              videoTitle.includes('official audio');
+            const isVevo = channel.includes('vevo');
+            const isExcluded = excludeKeywords.some(kw => videoTitle.includes(kw));
+            
+            if (!isExcluded && (isOfficial || isVevo)) {
+              return {
+                youtube_id: item.id.videoId,
+                youtube_url: `https://www.youtube.com/watch?v=${item.id.videoId}`
+              };
+            }
+          }
+          
+          // Fallback : première vidéo non-exclue
+          for (const item of data.items) {
+            const videoTitle = item.snippet.title.toLowerCase();
+            const isExcluded = excludeKeywords.some(kw => videoTitle.includes(kw));
+            if (!isExcluded) {
+              return {
+                youtube_id: item.id.videoId,
+                youtube_url: `https://www.youtube.com/watch?v=${item.id.videoId}`
+              };
+            }
+          }
+          
+          // Si on a trouvé quelque chose mais rien d'officiel, prendre le premier résultat
+          if (data.items.length > 0) {
             return {
-              youtube_id: item.id.videoId,
-              youtube_url: `https://www.youtube.com/watch?v=${item.id.videoId}`
+              youtube_id: data.items[0].id.videoId,
+              youtube_url: `https://www.youtube.com/watch?v=${data.items[0].id.videoId}`
             };
           }
+          
+        } catch (e) {
+          console.error('Erreur YouTube:', e);
+          continue;
         }
         
-        for (const item of data.items) {
-          const videoTitle = item.snippet.title.toLowerCase();
-          const isExcluded = excludeKeywords.some(kw => videoTitle.includes(kw));
-          if (!isExcluded) {
-            return {
-              youtube_id: item.id.videoId,
-              youtube_url: `https://www.youtube.com/watch?v=${item.id.videoId}`
-            };
-          }
-        }
-      } catch (e) {
-        console.error('Erreur YouTube:', e);
+        // Pause entre les requêtes
+        await sleep(300);
       }
+      
       return null;
     }
 
@@ -2348,7 +2417,6 @@
 
     /**
      * Extrait les années et semaines disponibles depuis le cache rétro
-     * Retourne : { "1989": [1, 2, 3, ...], "1990": [1, 2, ...] }
      */
     function getAvailableYearsFromCache() {
       const result = {};
@@ -2365,7 +2433,6 @@
         result[year].push(parseInt(week));
       });
       
-      // Trier les semaines
       Object.keys(result).forEach(year => {
         result[year].sort((a, b) => a - b);
       });
@@ -2377,7 +2444,6 @@
      * Initialise les sélecteurs avec uniquement les années/semaines disponibles
      */
     function initRetroSelectors() {
-      // Vider les sélecteurs
       retroYear.innerHTML = '';
       retroWeek.innerHTML = '';
       cleanYear.innerHTML = '';
@@ -2407,13 +2473,10 @@
         return;
       }
       
-      // Trier les années par ordre décroissant
       years.sort((a, b) => b - a);
       
-      // Calculer le nombre total d'archives
       const totalArchives = years.reduce((sum, year) => sum + availableData[year].length, 0);
       
-      // Afficher le résumé
       retroSummary.innerHTML = `
         <div class="modal-intro">
           <strong>📚 ${totalArchives} archives disponibles</strong><br>
@@ -2421,7 +2484,6 @@
         </div>
       `;
       
-      // Remplir les sélecteurs d'années
       years.forEach(year => {
         const weekCount = availableData[year].length;
         
@@ -2436,7 +2498,6 @@
         cleanYear.appendChild(optionClean);
       });
       
-      // Remplir les semaines pour la première année
       updateWeekSelector();
     }
 
@@ -2465,7 +2526,6 @@
         const option = document.createElement('option');
         option.value = week;
         
-        // Essayer de récupérer la date depuis l'archive
         const cacheKey = `${selectedYear}-${String(week).padStart(2, '0')}`;
         const archive = RETRO_CACHE ? RETRO_CACHE[cacheKey] : null;
         
@@ -2482,7 +2542,6 @@
     function openRetroModal() {
       retroModal.classList.add("active");
       
-      // Afficher un indicateur de chargement pendant le chargement du cache
       retroSummary.innerHTML = `
         <div class="loading" style="padding: 20px;">
           <p>📦 Chargement du cache des archives...</p>
@@ -2493,7 +2552,6 @@
         initRetroSelectors();
         updateDeezerConnectionStatus();
         
-        // Réinitialiser le contenu si pas d'archives
         const availableData = getAvailableYearsFromCache();
         if (Object.keys(availableData).length === 0) {
           retroContent.innerHTML = '<div class="empty">Aucune archive disponible pour le moment</div>';
@@ -3147,8 +3205,7 @@
 
     applyTheme(savedTheme);
 
-    // Note : initRetroSelectors() est maintenant appelé dans openRetroModal()
-    // après chargement du cache, pour n'afficher que les années disponibles
+    // Note : initRetroSelectors() est appelé dans openRetroModal() après chargement du cache
     checkDeezerCallback();
     loadChartData();
   </script>
