@@ -133,6 +133,11 @@
       border-color: var(--accent);
     }
 
+    .button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
     .button-primary {
       background: linear-gradient(135deg, var(--accent), var(--accent-2));
       color: white;
@@ -189,6 +194,18 @@
     }
 
     .button-danger:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
+    .button-settings {
+      background: linear-gradient(135deg, #6b7280, #4b5563);
+      color: white;
+      border: none;
+      font-weight: 600;
+    }
+
+    .button-settings:hover {
       opacity: 0.9;
       transform: translateY(-1px);
     }
@@ -504,6 +521,17 @@
       font-weight: 700;
     }
 
+    .enriched-badge {
+      display: inline-block;
+      background: var(--success);
+      color: white;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 700;
+      margin-left: 8px;
+    }
+
     .empty {
       padding: 48px 20px;
       text-align: center;
@@ -741,6 +769,101 @@
       overflow-y: auto;
     }
 
+    /* Panneau d'enrichissement rétro */
+    .retro-enrichment-panel {
+      margin-top: 20px;
+      padding: 20px;
+      background: var(--overlay);
+      border: 2px solid rgba(99, 102, 241, 0.2);
+      border-radius: 16px;
+    }
+
+    .retro-enrichment-panel h4 {
+      margin: 0 0 12px 0;
+      color: var(--text);
+      font-size: 18px;
+    }
+
+    .retro-enrichment-panel > p {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0 0 15px 0;
+      line-height: 1.5;
+    }
+
+    .platform-checkboxes {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+    }
+
+    .platform-checkboxes label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      padding: 8px 12px;
+      border-radius: 8px;
+      background: var(--chip-bg);
+      transition: all 0.15s ease;
+    }
+
+    .platform-checkboxes label:hover {
+      background: var(--accent-bg);
+    }
+
+    .platform-checkboxes input[type="checkbox"] {
+      width: auto;
+      cursor: pointer;
+    }
+
+    .enrichment-progress {
+      margin-top: 15px;
+    }
+
+    .progress-bar-container {
+      background: var(--overlay);
+      border-radius: 8px;
+      overflow: hidden;
+      height: 24px;
+      border: 1px solid var(--border);
+    }
+
+    .progress-bar-fill {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      height: 100%;
+      width: 0%;
+      transition: width 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .progress-status {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .api-key-info {
+      margin-top: 15px;
+      padding: 12px;
+      background: var(--warning-bg);
+      border: 1px solid var(--warning);
+      border-radius: 8px;
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    .api-key-info strong {
+      color: var(--warning);
+    }
+
     code {
       background: var(--overlay);
       padding: 2px 6px;
@@ -806,6 +929,7 @@
         <span class="badge" id="weekBadge">Chargement...</span>
         <button class="button" id="themeToggle" type="button">🌙 Sombre</button>
         <button class="button" id="refreshBtn" type="button">🔄 Actualiser</button>
+        <button class="button button-settings" id="settingsBtn" type="button">⚙️ API Keys</button>
         <button class="button button-retro" id="retroBtn" type="button">📼 Rétro Top 50</button>
       </div>
     </header>
@@ -912,6 +1036,9 @@
         <div class="modal-intro">
           <strong>Archives complètes du Top 50 français depuis 1984</strong><br>
           Sélectionnez une année et une semaine pour afficher le classement historique.
+          <br><br>
+          <strong>💡 Enrichissement à la demande :</strong><br>
+          Les archives ne contiennent pas d'IDs streaming. Vous pouvez les rechercher après avoir chargé une archive.
         </div>
 
         <div class="retro-controls">
@@ -933,6 +1060,45 @@
 
         <div id="retroContent" style="margin-top: 20px;">
           <div class="empty">Sélectionnez une date et cliquez sur "Charger l'archive"</div>
+        </div>
+
+        <!-- Panneau d'enrichissement -->
+        <div id="retroEnrichmentPanel" class="retro-enrichment-panel" style="display: none;">
+          <h4>🔍 Enrichir avec les IDs streaming</h4>
+          <p>
+            Cette archive ne contient pas d'identifiants streaming. Vous pouvez les rechercher maintenant.
+            Les résultats seront mis en cache dans votre navigateur pour ne pas être re-recherchés.
+          </p>
+          
+          <div class="platform-checkboxes">
+            <label>
+              <input type="checkbox" id="enrichYouTube" checked>
+              ▶️ YouTube (vidéos officielles)
+            </label>
+            <label>
+              <input type="checkbox" id="enrichDeezer" checked>
+              🎧 Deezer (avec pochettes)
+            </label>
+          </div>
+          
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <button class="button button-primary" id="enrichRetroBtn">🔍 Lancer l'enrichissement</button>
+            <button class="button" id="clearRetroCacheBtn">🗑️ Vider le cache rétro</button>
+          </div>
+          
+          <div id="enrichmentProgress" class="enrichment-progress" style="display: none;">
+            <div class="progress-bar-container">
+              <div class="progress-bar-fill" id="enrichmentProgressBar"></div>
+            </div>
+            <p class="progress-status" id="enrichmentStatus">Préparation...</p>
+          </div>
+          
+          <div id="apiKeyWarning" class="api-key-info" style="display: none;">
+            <strong>⚠️ Clé API YouTube non configurée</strong><br>
+            Pour rechercher les IDs YouTube, configurez votre clé API dans les paramètres (⚙️ API Keys).
+            <br><br>
+            Deezer fonctionne sans clé API.
+          </div>
         </div>
 
         <!-- Gestion du cache rétro -->
@@ -964,6 +1130,46 @@
     </div>
   </div>
 
+  <!-- Modal API Keys -->
+  <div class="modal-overlay" id="settingsModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>⚙️ Configuration des API Keys</h3>
+        <button class="modal-close" id="settingsClose">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-intro">
+          <strong>Configurez vos clés API pour l'enrichissement</strong><br>
+          Les clés sont stockées localement dans votre navigateur et ne sont jamais envoyées à un serveur tiers.
+        </div>
+
+        <div class="control-group" style="margin-bottom: 20px;">
+          <label for="youtubeApiKey">Clé API YouTube Data v3</label>
+          <input type="password" id="youtubeApiKey" placeholder="AIzaSy..." autocomplete="off">
+          <p style="color: var(--muted); font-size: 13px; margin-top: 8px;">
+            Nécessaire pour rechercher les IDs YouTube (vidéos officielles).<br>
+            Obtenez une clé gratuite sur : <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google Cloud Console</a>
+          </p>
+        </div>
+
+        <div class="control-group" style="margin-bottom: 20px;">
+          <label for="deezerApiKey">Clé API Deezer</label>
+          <input type="text" id="deezerApiKey" placeholder="Optionnel" value="Non nécessaire" disabled>
+          <p style="color: var(--muted); font-size: 13px; margin-top: 8px;">
+            Deezer utilise une API publique gratuite, aucune clé nécessaire. ✅
+          </p>
+        </div>
+
+        <div style="display: flex; gap: 10px;">
+          <button class="button button-primary" id="saveSettingsBtn">💾 Sauvegarder</button>
+          <button class="button" id="clearSettingsBtn">🗑️ Effacer toutes les clés</button>
+        </div>
+
+        <div id="settingsStatus" style="margin-top: 15px; padding: 12px; border-radius: 8px; display: none;"></div>
+      </div>
+    </div>
+  </div>
+
   <script>
     // ===== VARIABLES GLOBALES =====
     let CHARTS_DATA = null;
@@ -972,6 +1178,8 @@
     let REGIONS = {};
     let CURRENT_ENTRIES = [];
     let ADDED_TRACKS = new Set(JSON.parse(localStorage.getItem('addedTracks') || '[]'));
+
+    const RETRO_CACHE_KEY = 'retroStreamingIds';
 
     // ===== ÉLÉMENTS DOM =====
     const regionSelect = document.getElementById("regionSelect");
@@ -994,6 +1202,7 @@
     const shareBtn = document.getElementById("shareBtn");
     const exportBtn = document.getElementById("exportBtn");
     const retroBtn = document.getElementById("retroBtn");
+    const settingsBtn = document.getElementById("settingsBtn");
     const playlistModal = document.getElementById("playlistModal");
     const modalClose = document.getElementById("modalClose");
     const trackList = document.getElementById("trackList");
@@ -1012,6 +1221,20 @@
     const listCacheBtn = document.getElementById("listCacheBtn");
     const cleanCacheBtn = document.getElementById("cleanCacheBtn");
     const cacheInfo = document.getElementById("cacheInfo");
+    const settingsModal = document.getElementById("settingsModal");
+    const settingsClose = document.getElementById("settingsClose");
+    const youtubeApiKey = document.getElementById("youtubeApiKey");
+    const saveSettingsBtn = document.getElementById("saveSettingsBtn");
+    const clearSettingsBtn = document.getElementById("clearSettingsBtn");
+    const settingsStatus = document.getElementById("settingsStatus");
+    const enrichRetroBtn = document.getElementById("enrichRetroBtn");
+    const clearRetroCacheBtn = document.getElementById("clearRetroCacheBtn");
+    const enrichmentProgress = document.getElementById("enrichmentProgress");
+    const enrichmentProgressBar = document.getElementById("enrichmentProgressBar");
+    const enrichmentStatus = document.getElementById("enrichmentStatus");
+    const apiKeyWarning = document.getElementById("apiKeyWarning");
+    const enrichYouTube = document.getElementById("enrichYouTube");
+    const enrichDeezer = document.getElementById("enrichDeezer");
 
     // ===== FONCTIONS UTILITAIRES =====
     function escapeHtml(value) {
@@ -1045,6 +1268,10 @@
         document.execCommand('copy');
         document.body.removeChild(textArea);
       }
+    }
+
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
     }
 
     // ===== SMART LINKS DEEZER ET SPOTIFY =====
@@ -1352,7 +1579,258 @@
       }
     }
 
+    // ===== ENRICHISSEMENT RÉTRO À LA DEMANDE =====
+
+    function getRetroCacheKey(artist, title) {
+      const cleanArtist = artist.replace(/\(.*?\)/g, '').toLowerCase().trim().replace(/[^\w\s]/g, '').trim();
+      const cleanTitle = title.replace(/\(.*?\)/g, '').toLowerCase().trim().replace(/[^\w\s]/g, '').trim();
+      return `${cleanArtist}|${cleanTitle}`;
+    }
+
+    function loadRetroStreamingCache() {
+      try {
+        const cached = localStorage.getItem(RETRO_CACHE_KEY);
+        return cached ? JSON.parse(cached) : {};
+      } catch (e) {
+        console.error('Erreur chargement cache rétro:', e);
+        return {};
+      }
+    }
+
+    function saveRetroStreamingCache(cache) {
+      try {
+        localStorage.setItem(RETRO_CACHE_KEY, JSON.stringify(cache));
+      } catch (e) {
+        console.error('Erreur sauvegarde cache rétro:', e);
+      }
+    }
+
+    function clearRetroStreamingCache() {
+      if (confirm('⚠️ Êtes-vous sûr de vouloir vider le cache des IDs rétro ?\n\nVous devrez re-rechercher les IDs pour toutes les archives.')) {
+        localStorage.removeItem(RETRO_CACHE_KEY);
+        alert('✅ Cache rétro vidé !');
+      }
+    }
+
+    async function fetchDeezerTrackIdRetro(artist, title) {
+      const cleanTitle = title.replace(/\(.*?\)/g, '').trim();
+      const cleanArtist = artist.replace(/\(.*?\)/g, '').trim();
+      const query = encodeURIComponent(`${cleanArtist} ${cleanTitle}`);
+      
+      try {
+        const response = await fetch(`https://api.deezer.com/search?q=${query}&limit=1`);
+        if (response.status === 200) {
+          const data = await response.json();
+          if (data.data && data.data.length > 0) {
+            const track = data.data[0];
+            return {
+              deezer_id: track.id,
+              deezer_url: track.link,
+              artwork: track.album?.cover_medium || ''
+            };
+          }
+        }
+      } catch (e) {
+        console.error('Erreur Deezer:', e);
+      }
+      return null;
+    }
+
+    async function fetchYouTubeVideoIdRetro(artist, title) {
+      const apiKey = localStorage.getItem('youtubeApiKey');
+      if (!apiKey) return null;
+      
+      const cleanTitle = title.replace(/\(.*?\)/g, '').trim();
+      const cleanArtist = artist.replace(/\(.*?\)/g, '').trim();
+      const query = `${cleanArtist} ${cleanTitle} official video`;
+      
+      try {
+        const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(query)}&type=video&maxResults=5&key=${apiKey}&order=relevance`;
+        const response = await fetch(url);
+        
+        if (response.status === 403) {
+          const errorData = await response.json();
+          if (errorData.error?.message?.toLowerCase().includes('quota')) {
+            alert('⚠️ Quota YouTube dépassé !\n\nRéessayez demain ou changez de clé API.');
+            return null;
+          }
+        }
+        
+        if (response.status !== 200) return null;
+        
+        const data = await response.json();
+        if (!data.items || data.items.length === 0) return null;
+        
+        const excludeKeywords = ['lyrics', 'lyric', 'audio only', 'cover', 'live', 'karaoke', 'remix'];
+        
+        // Chercher une vidéo officielle
+        for (const item of data.items) {
+          const videoTitle = item.snippet.title.toLowerCase();
+          const channel = item.snippet.channelTitle.toLowerCase();
+          
+          const isOfficial = videoTitle.includes('official video') || videoTitle.includes('official') || videoTitle.includes('clip officiel');
+          const isVevo = channel.includes('vevo');
+          const isExcluded = excludeKeywords.some(kw => videoTitle.includes(kw));
+          
+          if (!isExcluded && (isOfficial || isVevo)) {
+            return {
+              youtube_id: item.id.videoId,
+              youtube_url: `https://www.youtube.com/watch?v=${item.id.videoId}`
+            };
+          }
+        }
+        
+        // Fallback : première vidéo non-exclue
+        for (const item of data.items) {
+          const videoTitle = item.snippet.title.toLowerCase();
+          const isExcluded = excludeKeywords.some(kw => videoTitle.includes(kw));
+          if (!isExcluded) {
+            return {
+              youtube_id: item.id.videoId,
+              youtube_url: `https://www.youtube.com/watch?v=${item.id.videoId}`
+            };
+          }
+        }
+      } catch (e) {
+        console.error('Erreur YouTube:', e);
+      }
+      return null;
+    }
+
+    async function enrichRetroArchive(archiveData, platforms) {
+      const cache = loadRetroStreamingCache();
+      const { youtube: doYouTube, deezer: doDeezer } = platforms;
+      
+      const total = archiveData.entries.length;
+      let enriched = 0;
+      let fromCache = 0;
+      let searched = 0;
+      
+      enrichmentProgress.style.display = 'block';
+      enrichmentProgressBar.style.width = '0%';
+      enrichmentProgressBar.textContent = '0%';
+      enrichmentStatus.textContent = 'Préparation...';
+      
+      for (let i = 0; i < total; i++) {
+        const entry = archiveData.entries[i];
+        const cacheKey = getRetroCacheKey(entry.track.artist, entry.track.title);
+        
+        // Vérifier le cache
+        if (cache[cacheKey]) {
+          const cached = cache[cacheKey];
+          if (cached.youtube_id && doYouTube) {
+            entry.youtube_id = cached.youtube_id;
+            entry.youtube_url = cached.youtube_url;
+            enriched++;
+          }
+          if (cached.deezer_id && doDeezer) {
+            entry.deezer_id = cached.deezer_id;
+            entry.deezer_url = cached.deezer_url;
+            if (cached.artwork) entry.track.artwork = cached.artwork;
+            enriched++;
+          }
+          fromCache++;
+        } else {
+          // Rechercher
+          const entryCache = { artist: entry.track.artist, title: entry.track.title };
+          
+          if (doDeezer) {
+            enrichmentStatus.textContent = `🎧 Deezer : ${i + 1}/${total} - ${entry.track.artist} - ${entry.track.title}`;
+            const deezerInfo = await fetchDeezerTrackIdRetro(entry.track.artist, entry.track.title);
+            if (deezerInfo) {
+              entry.deezer_id = deezerInfo.deezer_id;
+              entry.deezer_url = deezerInfo.deezer_url;
+              if (deezerInfo.artwork) entry.track.artwork = deezerInfo.artwork;
+              entryCache.deezer_id = deezerInfo.deezer_id;
+              entryCache.deezer_url = deezerInfo.deezer_url;
+              entryCache.artwork = deezerInfo.artwork;
+              enriched++;
+            }
+            await sleep(200);
+          }
+          
+          if (doYouTube) {
+            enrichmentStatus.textContent = `▶️ YouTube : ${i + 1}/${total} - ${entry.track.artist} - ${entry.track.title}`;
+            const ytInfo = await fetchYouTubeVideoIdRetro(entry.track.artist, entry.track.title);
+            if (ytInfo) {
+              entry.youtube_id = ytInfo.youtube_id;
+              entry.youtube_url = ytInfo.youtube_url;
+              entryCache.youtube_id = ytInfo.youtube_id;
+              entryCache.youtube_url = ytInfo.youtube_url;
+              enriched++;
+            }
+            await sleep(300);
+          }
+          
+          // Sauvegarder dans le cache
+          entryCache.cached_at = new Date().toISOString().split('T')[0];
+          cache[cacheKey] = entryCache;
+          saveRetroStreamingCache(cache);
+          searched++;
+        }
+        
+        // Mise à jour de la barre de progression
+        const progress = ((i + 1) / total) * 100;
+        enrichmentProgressBar.style.width = `${progress}%`;
+        enrichmentProgressBar.textContent = `${Math.round(progress)}%`;
+      }
+      
+      // Message final
+      enrichmentStatus.innerHTML = `
+        <strong>✅ Enrichissement terminé !</strong><br>
+        📊 ${enriched} IDs trouvés (${fromCache} depuis le cache, ${searched} nouvelles recherches)<br>
+        💡 Rafraîchissez l'archive pour voir les liens directs.
+      `;
+      
+      return archiveData;
+    }
+
+    // ===== GESTION DES PARAMÈTRES =====
+
+    function openSettingsModal() {
+      const apiKey = localStorage.getItem('youtubeApiKey') || '';
+      youtubeApiKey.value = apiKey;
+      settingsModal.classList.add('active');
+    }
+
+    function closeSettingsModal() {
+      settingsModal.classList.remove('active');
+    }
+
+    function saveSettings() {
+      const apiKey = youtubeApiKey.value.trim();
+      
+      if (apiKey) {
+        localStorage.setItem('youtubeApiKey', apiKey);
+        settingsStatus.style.display = 'block';
+        settingsStatus.style.background = 'var(--success-bg)';
+        settingsStatus.style.color = 'var(--success)';
+        settingsStatus.style.border = '1px solid var(--success)';
+        settingsStatus.innerHTML = '✅ Clé API YouTube sauvegardée !';
+      } else {
+        localStorage.removeItem('youtubeApiKey');
+        settingsStatus.style.display = 'block';
+        settingsStatus.style.background = 'var(--warning-bg)';
+        settingsStatus.style.color = 'var(--warning)';
+        settingsStatus.style.border = '1px solid var(--warning)';
+        settingsStatus.innerHTML = '⚠️ Clé API YouTube supprimée. Deezer reste disponible.';
+      }
+      
+      setTimeout(() => {
+        settingsStatus.style.display = 'none';
+      }, 3000);
+    }
+
+    function clearAllSettings() {
+      if (confirm('⚠️ Êtes-vous sûr de vouloir effacer toutes les clés API ?')) {
+        localStorage.removeItem('youtubeApiKey');
+        youtubeApiKey.value = '';
+        alert('✅ Toutes les clés API ont été effacées.');
+      }
+    }
+
     // ===== SECTION RÉTRO =====
+
     async function loadRetroCache() {
       try {
         const response = await fetch('data/cache/retro_archives.json');
@@ -1379,7 +1857,7 @@
         retroYear.appendChild(option);
       }
       
-      for (let week = 1; week <= 52; week++) {
+      for (let week = 1; week <= 53; week++) {
         const option = document.createElement('option');
         option.value = week;
         option.textContent = `Semaine ${week}`;
@@ -1440,12 +1918,10 @@
             L'archive pour la semaine ${week}/${year} n'a pas encore été téléchargée.
             <br><br>
             <strong>Pour la télécharger :</strong><br>
-            Exécutez localement : <code>python fetch_archive.py --year ${year} --week ${week}</code>
-            <br><br>
-            Puis uploadez le fichier <code>data/cache/retro_archives.json</code> 
-            dans votre dépôt GitHub.
+            Exécutez le workflow GitHub Actions "Fetch Retro Archives" avec l'année ${year}.
           </div>
         `;
+        document.getElementById('retroEnrichmentPanel').style.display = 'none';
       }
     }
 
@@ -1454,48 +1930,89 @@
       
       if (entries.length === 0) {
         retroContent.innerHTML = `<div class="empty">Aucune donnée trouvée pour cette archive.</div>`;
+        document.getElementById('retroEnrichmentPanel').style.display = 'none';
         return;
       }
+      
+      // Enrichir avec le cache si disponible
+      const cache = loadRetroStreamingCache();
+      entries.forEach(entry => {
+        const cacheKey = getRetroCacheKey(entry.track.artist, entry.track.title);
+        if (cache[cacheKey]) {
+          const cached = cache[cacheKey];
+          if (cached.youtube_id) {
+            entry.youtube_id = cached.youtube_id;
+            entry.youtube_url = cached.youtube_url;
+          }
+          if (cached.deezer_id) {
+            entry.deezer_id = cached.deezer_id;
+            entry.deezer_url = cached.deezer_url;
+            if (cached.artwork) entry.track.artwork = cached.artwork;
+          }
+        }
+      });
+      
+      // Vérifier si l'archive a des IDs
+      const hasYouTube = entries.some(e => e.youtube_id);
+      const hasDeezer = entries.some(e => e.deezer_id);
+      const hasAnyId = hasYouTube || hasDeezer;
       
       let html = `
         <div class="chart-header">
           <div>
-            <h2 style="font-size: 22px;">Top 50 - ${archiveData.date || `Semaine ${archiveData.week}/${archiveData.year}`}</h2>
-            <p>Archives lescharts.com</p>
+            <h2 style="font-size: 22px;">
+              Top 50 - ${archiveData.date || `Semaine ${archiveData.week}/${archiveData.year}`}
+              ${hasAnyId ? '<span class="enriched-badge">✓ Enrichi</span>' : ''}
+            </h2>
+            <p>Archives top-archives.fr</p>
           </div>
         </div>
       `;
       
-      html += entries.map((entry, index) => `
-        <div class="row">
-          <div class="rank ${entry.position <= 3 ? "top" : ""}">${entry.position}</div>
-          <div class="movement same">📼 Archive</div>
-          <div class="cover">${initials(entry.track.title)}</div>
-          <div class="meta">
-            <div class="title">${escapeHtml(entry.track.title)}</div>
-            <div class="artist">${escapeHtml(entry.track.artist)}</div>
+      html += entries.map((entry, index) => {
+        const coverStyle = entry.track.artwork 
+          ? `background-image: url('${entry.track.artwork}');` 
+          : '';
+        const coverContent = entry.track.artwork 
+          ? '' 
+          : initials(entry.track.title);
+        
+        return `
+          <div class="row">
+            <div class="rank ${entry.position <= 3 ? "top" : ""}">${entry.position}</div>
+            <div class="movement same">📼 Archive</div>
+            <div class="cover" style="${coverStyle}">${coverContent}</div>
+            <div class="meta">
+              <div class="title">${escapeHtml(entry.track.title)}</div>
+              <div class="artist">${escapeHtml(entry.track.artist)}</div>
+            </div>
+            <div class="details">
+              ${createListenButtons(entry)}
+            </div>
           </div>
-          <div class="details">
-            <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(entry.track.artist + ' ' + entry.track.title)}" 
-               target="_blank" rel="noopener" class="listen-btn youtube">
-              ▶️ YouTube
-            </a>
-            <a href="https://open.spotify.com/search/${encodeURIComponent(entry.track.artist + ' ' + entry.track.title)}" 
-               target="_blank" rel="noopener" class="listen-btn spotify">
-              🎵 Spotify
-            </a>
-            <a href="https://www.deezer.com/search/${encodeURIComponent(entry.track.artist + ' ' + entry.track.title)}/tracks" 
-               target="_blank" rel="noopener" class="listen-btn deezer">
-              🎧 Deezer
-            </a>
-          </div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
       
       retroContent.innerHTML = html;
+      
+      // Afficher le panneau d'enrichissement
+      const enrichmentPanel = document.getElementById('retroEnrichmentPanel');
+      enrichmentPanel.style.display = 'block';
+      
+      // Vérifier si la clé API YouTube est configurée
+      const apiKey = localStorage.getItem('youtubeApiKey');
+      if (!apiKey) {
+        apiKeyWarning.style.display = 'block';
+      } else {
+        apiKeyWarning.style.display = 'none';
+      }
+      
+      // Stocker les données de l'archive courante pour l'enrichissement
+      window.currentRetroArchive = archiveData;
     }
 
     // ===== GESTION DU CACHE RÉTRO =====
+
     function listRetroCache() {
       if (!RETRO_CACHE || Object.keys(RETRO_CACHE).length === 0) {
         cacheInfo.innerHTML = '<span style="color: var(--warning);">📭 Le cache rétro est vide</span>';
@@ -1552,40 +2069,31 @@
       // Supprimer les entrées
       keysToRemove.forEach(key => delete RETRO_CACHE[key]);
       
-      // Sauvegarder le cache modifié localement
-      try {
-        localStorage.setItem('retro_cache_modified', JSON.stringify(RETRO_CACHE));
-        
-        // Télécharger le fichier modifié
-        const blob = new Blob([JSON.stringify(RETRO_CACHE, null, 2)], { type: 'application/json' });
-        const link = document.createElement('a');
-        const url = URL.createObjectURL(blob);
-        
-        link.setAttribute('href', url);
-        link.setAttribute('download', 'retro_archives.json');
-        link.style.visibility = 'hidden';
-        
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        
-        alert(`🧹 Nettoyage effectué !\n\n` +
-              `${keysToRemove.length} archives de ${year} supprimées.\n\n` +
-              `📥 Le fichier modifié a été téléchargé.\n\n` +
-              `Pour finaliser :\n` +
-              `1. Uploadez le fichier téléchargé dans data/cache/retro_archives.json\n` +
-              `2. Committez et poussez les changements\n\n` +
-              `Ou exécutez localement :\n` +
-              `python fetch_archive.py --clean-year ${year}`);
-        
-        listRetroCache();
-        
-      } catch (error) {
-        alert(`❌ Erreur : ${error.message}`);
-      }
+      // Télécharger le fichier modifié
+      const blob = new Blob([JSON.stringify(RETRO_CACHE, null, 2)], { type: 'application/json' });
+      const link = document.createElement('a');
+      const url = URL.createObjectURL(blob);
+      
+      link.setAttribute('href', url);
+      link.setAttribute('download', 'retro_archives.json');
+      link.style.visibility = 'hidden';
+      
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      alert(`🧹 Nettoyage effectué !\n\n` +
+            `${keysToRemove.length} archives de ${year} supprimées.\n\n` +
+            `📥 Le fichier modifié a été téléchargé.\n\n` +
+            `Pour finaliser :\n` +
+            `1. Uploadez le fichier téléchargé dans data/cache/retro_archives.json\n` +
+            `2. Committez et poussez les changements`);
+      
+      listRetroCache();
     }
 
     // ===== CHARGEMENT DES DONNÉES =====
+
     async function loadChartData() {
       try {
         loadingIndicator.style.display = "block";
@@ -1944,6 +2452,7 @@
     shareBtn.addEventListener("click", shareYouTubePlaylist);
     exportBtn.addEventListener("click", () => exportToCSV(CURRENT_ENTRIES));
     retroBtn.addEventListener("click", openRetroModal);
+    settingsBtn.addEventListener("click", openSettingsModal);
     modalClose.addEventListener("click", closePlaylistModal);
     createPlaylistBtn.addEventListener("click", createYouTubePlaylist);
     sharePlaylistBtn.addEventListener("click", shareYouTubePlaylist);
@@ -1953,6 +2462,44 @@
     loadArchiveBtn.addEventListener("click", loadArchive);
     listCacheBtn.addEventListener("click", listRetroCache);
     cleanCacheBtn.addEventListener("click", cleanRetroCache);
+    settingsClose.addEventListener("click", closeSettingsModal);
+    saveSettingsBtn.addEventListener("click", saveSettings);
+    clearSettingsBtn.addEventListener("click", clearAllSettings);
+    clearRetroCacheBtn.addEventListener("click", clearRetroStreamingCache);
+
+    enrichRetroBtn.addEventListener("click", async () => {
+      const doYouTube = enrichYouTube.checked;
+      const doDeezer = enrichDeezer.checked;
+      
+      if (!doYouTube && !doDeezer) {
+        alert('⚠️ Veuillez sélectionner au moins une plateforme.');
+        return;
+      }
+      
+      const apiKey = localStorage.getItem('youtubeApiKey');
+      if (doYouTube && !apiKey) {
+        alert('⚠️ Clé API YouTube non configurée.\n\nConfigurez-la dans les paramètres (⚙️ API Keys) ou décochez YouTube.');
+        return;
+      }
+      
+      if (!window.currentRetroArchive) {
+        alert('⚠️ Aucune archive chargée.');
+        return;
+      }
+      
+      enrichRetroBtn.disabled = true;
+      
+      try {
+        await enrichRetroArchive(window.currentRetroArchive, { youtube: doYouTube, deezer: doDeezer });
+        
+        // Réafficher l'archive enrichie
+        displayArchive(window.currentRetroArchive);
+      } catch (error) {
+        alert(`❌ Erreur lors de l'enrichissement : ${error.message}`);
+      } finally {
+        enrichRetroBtn.disabled = false;
+      }
+    });
 
     playlistModal.addEventListener("click", (e) => {
       if (e.target === playlistModal) closePlaylistModal();
@@ -1960,6 +2507,10 @@
 
     retroModal.addEventListener("click", (e) => {
       if (e.target === retroModal) closeRetroModal();
+    });
+
+    settingsModal.addEventListener("click", (e) => {
+      if (e.target === settingsModal) closeSettingsModal();
     });
 
     // ===== INITIALISATION =====
