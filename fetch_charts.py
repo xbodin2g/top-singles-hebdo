@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version avec cache intelligent + nettoyage automatique après 2 ans.
+Version complète avec cache intelligent + correction du bug des IDs manquants.
 """
 
 import json
@@ -15,14 +15,13 @@ import urllib.parse
 
 YOUTUBE_API_KEY = os.environ.get('YOUTUBE_API_KEY', '')
 
-# Configuration - Limite à 20 par pays (le quota est quotidien, se régule naturellement)
+# Configuration - Limite à 20 par pays
 YOUTUBE_LIMIT_PER_COUNTRY = 20
 DEEZER_LIMIT_PER_COUNTRY = 20
 
 # Configuration du cache
 CACHE_DIR = "data/cache"
 CACHE_FILE = os.path.join(CACHE_DIR, "streaming_ids.json")
-CACHE_RETRO_FILE = os.path.join(CACHE_DIR, "retro_archives.json")
 CACHE_MAX_AGE_DAYS = 730  # 2 ans
 
 SOURCES = {
@@ -82,7 +81,7 @@ HEADERS = {
 
 youtube_quota_exceeded = False
 
-# ===== GESTION DU CACHE PRINCIPAL =====
+# ===== GESTION DU CACHE =====
 
 def load_cache():
     """Charge le cache et applique le nettoyage automatique"""
@@ -106,10 +105,7 @@ def load_cache():
     return cache
 
 def clean_cache(cache, max_age_days=CACHE_MAX_AGE_DAYS):
-    """
-    Nettoie le cache en supprimant les entrées de plus de max_age_days.
-    Retourne le cache nettoyé.
-    """
+    """Nettoie le cache en supprimant les entrées de plus de max_age_days"""
     if not cache:
         return cache
     
@@ -261,6 +257,7 @@ def fetch_youtube_video_id_official(artist, title):
         
         best_video = None
         
+        # Chercher une vidéo officielle
         for item in items:
             video_title = item['snippet']['title'].lower()
             channel = item['snippet']['channelTitle'].lower()
@@ -274,6 +271,7 @@ def fetch_youtube_video_id_official(artist, title):
                 best_video = item
                 break
         
+        # Fallback : première vidéo non-exclue
         if not best_video:
             for item in items:
                 video_title = item['snippet']['title'].lower()
@@ -282,6 +280,7 @@ def fetch_youtube_video_id_official(artist, title):
                     best_video = item
                     break
         
+        # Dernier recours
         if not best_video and items:
             best_video = items[0]
         
@@ -299,10 +298,13 @@ def fetch_youtube_video_id_official(artist, title):
     
     return None
 
-# ===== ENRICHISSEMENT AVEC CACHE =====
+# ===== ENRICHISSEMENT AVEC CACHE (VERSION CORRIGÉE) =====
 
 def enrich_with_cache(entries, cache, country_name):
-    """Enrichit les entrées en utilisant le cache d'abord"""
+    """
+    Enrichit les entrées en utilisant le cache d'abord.
+    CORRECTION : Si un ID manque dans le cache, on le recherche.
+    """
     global youtube_quota_exceeded
     
     print(f"  🔍 Enrichissement pour {country_name}...")
@@ -312,6 +314,8 @@ def enrich_with_cache(entries, cache, country_name):
     deezer_searches = 0
     youtube_found = 0
     deezer_found = 0
+    youtube_completed = 0  # Compteur pour les IDs YouTube complétés depuis le cache
+    deezer_completed = 0   # Compteur pour les IDs Deezer complétés depuis le cache
     
     for entry in entries[:DEEZER_LIMIT_PER_COUNTRY]:
         artist = entry['track']['artist']
@@ -321,22 +325,72 @@ def enrich_with_cache(entries, cache, country_name):
         # Vérifier d'abord le cache
         if cache_key in cache:
             cached = cache[cache_key]
+            cache_updated = False
             
+            # Utiliser l'ID YouTube du cache s'il existe
             if cached.get('youtube_id'):
                 entry['youtube_id'] = cached['youtube_id']
                 entry['youtube_url'] = cached['youtube_url']
                 entry['youtube_video_title'] = cached.get('youtube_title')
             
+            # Utiliser l'ID Deezer du cache s'il existe
             if cached.get('deezer_id'):
                 entry['deezer_id'] = cached['deezer_id']
                 entry['deezer_url'] = cached['deezer_url']
                 if cached.get('artwork'):
                     entry['track']['artwork'] = cached['artwork']
             
+            # ⭐ CORRECTION : Si l'ID YouTube manque dans le cache, le rechercher
+            if not cached.get('youtube_id') and not youtube_quota_exceeded and YOUTUBE_API_KEY:
+                youtube_info = fetch_youtube_video_id_official(artist, title)
+                if youtube_info:
+                    entry['youtube_id'] = youtube_info.get('youtube_id')
+                    entry['youtube_url'] = youtube_info.get('youtube_url')
+                    entry['youtube_video_title'] = youtube_info.get('youtube_title')
+                    
+                    # Mettre à jour le cache
+                    cached['youtube_id'] = youtube_info['youtube_id']
+                    cached['youtube_url'] = youtube_info['youtube_url']
+                    cached['youtube_title'] = youtube_info.get('youtube_title')
+                    cached['cached_at'] = datetime.now().strftime('%Y-%m-%d')
+                    
+                    youtube_found += 1
+                    youtube_completed += 1
+                    cache_updated = True
+                
+                youtube_searches += 1
+                time.sleep(0.3)
+            
+            # ⭐ CORRECTION : Si l'ID Deezer manque dans le cache, le rechercher
+            if not cached.get('deezer_id'):
+                deezer_info = fetch_deezer_track_id(artist, title)
+                if deezer_info:
+                    entry['deezer_id'] = deezer_info.get('deezer_id')
+                    entry['deezer_url'] = deezer_info.get('deezer_url')
+                    if deezer_info.get('artwork'):
+                        entry['track']['artwork'] = deezer_info['artwork']
+                    
+                    # Mettre à jour le cache
+                    cached['deezer_id'] = deezer_info['deezer_id']
+                    cached['deezer_url'] = deezer_info['deezer_url']
+                    cached['artwork'] = deezer_info.get('artwork')
+                    cached['cached_at'] = datetime.now().strftime('%Y-%m-%d')
+                    
+                    deezer_found += 1
+                    deezer_completed += 1
+                    cache_updated = True
+                
+                deezer_searches += 1
+                time.sleep(0.2)
+            
+            # Sauvegarder les mises à jour du cache
+            if cache_updated:
+                cache[cache_key] = cached
+            
             from_cache += 1
             continue
         
-        # Pas dans le cache → faire les recherches
+        # Pas dans le cache → faire toutes les recherches
         entry_cache = {}
         
         # Recherche Deezer
@@ -371,13 +425,16 @@ def enrich_with_cache(entries, cache, country_name):
             youtube_searches += 1
             time.sleep(0.3)
         
-        # Sauvegarder dans le cache
+        # Sauvegarder dans le cache (même si pas trouvé, pour éviter de re-chercher)
         entry_cache['cached_at'] = datetime.now().strftime('%Y-%m-%d')
         entry_cache['artist'] = artist
         entry_cache['title'] = title
         cache[cache_key] = entry_cache
     
-    print(f"    📊 Cache: {from_cache} | Deezer: {deezer_found}/{deezer_searches} | YouTube: {youtube_found}/{youtube_searches}")
+    # Log détaillé
+    print(f"    📊 Cache: {from_cache} titres utilisés")
+    print(f"    📊 Deezer: {deezer_found}/{deezer_searches} trouvés (dont {deezer_completed} complétés depuis le cache)")
+    print(f"    📊 YouTube: {youtube_found}/{youtube_searches} trouvés (dont {youtube_completed} complétés depuis le cache)")
     
     return entries
 
@@ -745,7 +802,7 @@ def main():
         elif source_used == "itunes_rss":
             entries = fetch_itunes_rss(country_info["itunes_url"], country_info["name"])
         
-        # Enrichir avec le cache
+        # Enrichir avec le cache (version corrigée)
         if entries and len(entries) >= 5:
             entries = enrich_with_cache(entries, cache, country_info["name"])
         
