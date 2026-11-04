@@ -4,11 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       year:
-        description: 'Année (ex: 1995)'
-        required: true
-        type: string
-      weeks:
-        description: 'Semaines (ex: 1-52 ou 23 ou 1,5,10)'
+        description: 'Année (1984-1993 uniquement)'
         required: true
         type: string
 
@@ -37,7 +33,7 @@ jobs:
         
       - name: Fetch archives
         run: |
-          python fetch_archive_batch.py --year ${{ github.event.inputs.year }} --weeks "${{ github.event.inputs.weeks }}"
+          python fetch_archive_batch.py --year ${{ github.event.inputs.year }}
       
       - name: Commit and push changes
         run: |
