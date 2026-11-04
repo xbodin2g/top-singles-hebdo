@@ -210,6 +210,18 @@
       transform: translateY(-1px);
     }
 
+    .button-deezer {
+      background: linear-gradient(135deg, #ff0092, #d40078);
+      color: white;
+      border: none;
+      font-weight: 600;
+    }
+
+    .button-deezer:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
     .loading {
       text-align: center;
       padding: 48px 20px;
@@ -861,6 +873,59 @@
       color: var(--warning);
     }
 
+    .playlist-creation-section {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 2px dashed var(--border);
+    }
+
+    .playlist-creation-section h4 {
+      margin: 0 0 12px 0;
+      color: var(--text);
+      font-size: 18px;
+    }
+
+    .playlist-creation-section > p {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0 0 15px 0;
+      line-height: 1.5;
+    }
+
+    .playlist-info {
+      margin-top: 15px;
+      padding: 15px;
+      background: var(--success-bg);
+      border: 1px solid var(--success);
+      border-radius: 12px;
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .playlist-info strong {
+      color: var(--success);
+    }
+
+    .playlist-info ol {
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+
+    .playlist-info li {
+      margin-bottom: 5px;
+    }
+
+    .playlist-info a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .playlist-info a:hover {
+      text-decoration: underline;
+    }
+
     code {
       background: var(--overlay);
       padding: 2px 6px;
@@ -1036,6 +1101,9 @@
           <br><br>
           <strong>💡 Enrichissement à la demande :</strong><br>
           Les archives ne contiennent pas d'IDs streaming. Vous pouvez les rechercher après avoir chargé une archive.
+          <br><br>
+          <strong>🎵 Création de playlist Deezer :</strong><br>
+          Une fois l'archive enrichie, utilisez le bouton "Créer une playlist Deezer" pour l'exporter vers Soundiiz.
         </div>
 
         <div class="retro-controls">
@@ -1095,6 +1163,22 @@
             Pour rechercher les IDs YouTube, configurez votre clé API dans les paramètres (⚙️ API Keys).
             <br><br>
             Deezer fonctionne sans clé API.
+          </div>
+
+          <!-- Section création de playlist Deezer -->
+          <div class="playlist-creation-section">
+            <h4>🎵 Créer une playlist Deezer</h4>
+            <p>
+              Une fois l'archive chargée, vous pouvez générer une liste de titres et la transférer vers Deezer
+              via le service gratuit <strong>Soundiiz</strong>. Aucune compétence technique requise !
+            </p>
+            
+            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+              <button class="button button-deezer" id="createDeezerPlaylistBtn">🎧 Créer une playlist Deezer (via Soundiiz)</button>
+              <button class="button" id="copyPlaylistTextBtn">📋 Copier la liste des titres</button>
+            </div>
+            
+            <div id="playlistCreationInfo" class="playlist-info" style="display: none;"></div>
           </div>
         </div>
 
@@ -1232,6 +1316,9 @@
     const apiKeyWarning = document.getElementById("apiKeyWarning");
     const enrichYouTube = document.getElementById("enrichYouTube");
     const enrichDeezer = document.getElementById("enrichDeezer");
+    const createDeezerPlaylistBtn = document.getElementById("createDeezerPlaylistBtn");
+    const copyPlaylistTextBtn = document.getElementById("copyPlaylistTextBtn");
+    const playlistCreationInfo = document.getElementById("playlistCreationInfo");
 
     // ===== FONCTIONS UTILITAIRES =====
     function escapeHtml(value) {
@@ -1610,39 +1697,27 @@
     }
 
     /**
-     * ⭐ VERSION JSONP - Contourne le problème CORS de Deezer
-     * Deezer ne supporte pas CORS, donc on utilise JSONP qui fonctionne via une balise <script>
+     * ⭐ RECHERCHE DEEZER VIA JSONP (contourne CORS)
      */
-    function fetchDeezerTrackIdRetro(artist, title) {
-      const cleanTitle = title.replace(/\(.*?\)/g, '').trim();
-      const cleanArtist = artist.replace(/\(.*?\)/g, '').trim();
-      const query = encodeURIComponent(`${cleanArtist} ${cleanTitle}`);
-      
+    function searchDeezerJSONP(query) {
       return new Promise((resolve) => {
-        const callbackName = 'deezerCallback_' + Date.now() + '_' + Math.floor(Math.random() * 1000);
-        const url = `https://api.deezer.com/search?q=${query}&limit=1&output=jsonp&callback=${callbackName}`;
+        const callbackName = 'deezerCallback_' + Date.now() + '_' + Math.floor(Math.random() * 10000);
+        const encodedQuery = encodeURIComponent(query);
+        const url = `https://api.deezer.com/search?q=${encodedQuery}&limit=3&output=jsonp&callback=${callbackName}`;
         
-        // Créer la fonction callback globale
         window[callbackName] = function(data) {
-          // Nettoyer
           delete window[callbackName];
           if (script.parentNode) {
             document.body.removeChild(script);
           }
           
           if (data.data && data.data.length > 0) {
-            const track = data.data[0];
-            resolve({
-              deezer_id: track.id,
-              deezer_url: track.link,
-              artwork: track.album?.cover_medium || ''
-            });
+            resolve(data.data);
           } else {
-            resolve(null);
+            resolve([]);
           }
         };
         
-        // Créer le script JSONP
         const script = document.createElement('script');
         script.src = url;
         
@@ -1651,30 +1726,119 @@
           if (script.parentNode) {
             document.body.removeChild(script);
           }
-          resolve(null);
+          resolve([]);
         };
         
         document.body.appendChild(script);
         
-        // Timeout de sécurité (10 secondes)
         setTimeout(() => {
           if (window[callbackName]) {
             delete window[callbackName];
             if (script.parentNode) {
               document.body.removeChild(script);
             }
-            resolve(null);
+            resolve([]);
           }
         }, 10000);
       });
+    }
+
+    /**
+     * ⭐ NORMALISATION POUR LA RECHERCHE
+     * Supprime les parenthèses, crochets, "feat.", remplace & par "and"
+     */
+    function normalizeForSearch(text) {
+      return text
+        .replace(/\(.*?\)/g, '')
+        .replace(/\[.*?\]/g, '')
+        .replace(/\s*[Ff]eat\.?\s.*$/g, '')
+        .replace(/&/g, 'and')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    /**
+     * ⭐ RECHERCHE DEEZER AMÉLIORÉE AVEC 5 STRATÉGIES
+     */
+    async function fetchDeezerTrackIdRetro(artist, title) {
+      const cleanTitle = normalizeForSearch(title);
+      const cleanArtist = normalizeForSearch(artist);
+      
+      // STRATÉGIE 1 : Recherche exacte avec guillemets
+      let results = await searchDeezerJSONP(`artist:"${cleanArtist}" track:"${cleanTitle}"`);
+      if (results.length > 0) {
+        const track = results[0];
+        return {
+          deezer_id: track.id,
+          deezer_url: track.link,
+          artwork: track.album?.cover_medium || ''
+        };
+      }
+      
+      await sleep(100);
+      
+      // STRATÉGIE 2 : Recherche simple sans guillemets
+      results = await searchDeezerJSONP(`${cleanArtist} ${cleanTitle}`);
+      if (results.length > 0) {
+        const track = results[0];
+        return {
+          deezer_id: track.id,
+          deezer_url: track.link,
+          artwork: track.album?.cover_medium || ''
+        };
+      }
+      
+      await sleep(100);
+      
+      // STRATÉGIE 3 : Juste le titre (pour les titres très connus)
+      results = await searchDeezerJSONP(`track:"${cleanTitle}"`);
+      if (results.length > 0) {
+        const track = results[0];
+        return {
+          deezer_id: track.id,
+          deezer_url: track.link,
+          artwork: track.album?.cover_medium || ''
+        };
+      }
+      
+      await sleep(100);
+      
+      // STRATÉGIE 4 : Premier artiste seulement (pour les collaborations)
+      const firstArtist = cleanArtist.split(/\s+(?:and|et|feat|ft|,)\s+/i)[0].trim();
+      if (firstArtist && firstArtist !== cleanArtist) {
+        results = await searchDeezerJSONP(`artist:"${firstArtist}" track:"${cleanTitle}"`);
+        if (results.length > 0) {
+          const track = results[0];
+          return {
+            deezer_id: track.id,
+            deezer_url: track.link,
+            artwork: track.album?.cover_medium || ''
+          };
+        }
+      }
+      
+      await sleep(100);
+      
+      // STRATÉGIE 5 : Recherche large (dernier recours)
+      results = await searchDeezerJSONP(`${cleanTitle}`);
+      if (results.length > 0) {
+        const track = results[0];
+        return {
+          deezer_id: track.id,
+          deezer_url: track.link,
+          artwork: track.album?.cover_medium || ''
+        };
+      }
+      
+      return null;
     }
 
     async function fetchYouTubeVideoIdRetro(artist, title) {
       const apiKey = localStorage.getItem('youtubeApiKey');
       if (!apiKey) return null;
       
-      const cleanTitle = title.replace(/\(.*?\)/g, '').trim();
-      const cleanArtist = artist.replace(/\(.*?\)/g, '').trim();
+      const cleanTitle = normalizeForSearch(title);
+      const cleanArtist = normalizeForSearch(artist);
       const query = `${cleanArtist} ${cleanTitle} official video`;
       
       try {
@@ -1696,7 +1860,6 @@
         
         const excludeKeywords = ['lyrics', 'lyric', 'audio only', 'cover', 'live', 'karaoke', 'remix'];
         
-        // Chercher une vidéo officielle
         for (const item of data.items) {
           const videoTitle = item.snippet.title.toLowerCase();
           const channel = item.snippet.channelTitle.toLowerCase();
@@ -1713,7 +1876,6 @@
           }
         }
         
-        // Fallback : première vidéo non-exclue
         for (const item of data.items) {
           const videoTitle = item.snippet.title.toLowerCase();
           const isExcluded = excludeKeywords.some(kw => videoTitle.includes(kw));
@@ -1748,7 +1910,6 @@
         const entry = archiveData.entries[i];
         const cacheKey = getRetroCacheKey(entry.track.artist, entry.track.title);
         
-        // Vérifier le cache
         if (cache[cacheKey]) {
           const cached = cache[cacheKey];
           if (cached.youtube_id && doYouTube) {
@@ -1764,7 +1925,6 @@
           }
           fromCache++;
         } else {
-          // Rechercher
           const entryCache = { artist: entry.track.artist, title: entry.track.title };
           
           if (doDeezer) {
@@ -1795,27 +1955,97 @@
             await sleep(300);
           }
           
-          // Sauvegarder dans le cache
           entryCache.cached_at = new Date().toISOString().split('T')[0];
           cache[cacheKey] = entryCache;
           saveRetroStreamingCache(cache);
           searched++;
         }
         
-        // Mise à jour de la barre de progression
         const progress = ((i + 1) / total) * 100;
         enrichmentProgressBar.style.width = `${progress}%`;
         enrichmentProgressBar.textContent = `${Math.round(progress)}%`;
       }
       
-      // Message final
       enrichmentStatus.innerHTML = `
         <strong>✅ Enrichissement terminé !</strong><br>
         📊 ${enriched} IDs trouvés (${fromCache} depuis le cache, ${searched} nouvelles recherches)<br>
-        💡 Rafraîchissez l'archive pour voir les liens directs.
+        💡 Les liens directs sont maintenant visibles.
       `;
       
       return archiveData;
+    }
+
+    // ===== CRÉATION DE PLAYLIST DEEZER VIA SOUNDIIZ =====
+
+    function generatePlaylistText(entries) {
+      return entries.map(entry => {
+        const artist = entry.track.artist.trim();
+        const title = entry.track.title.trim();
+        return `${artist} - ${title}`;
+      }).join('\n');
+    }
+
+    function createDeezerPlaylist() {
+      if (!window.currentRetroArchive || !window.currentRetroArchive.entries) {
+        alert('⚠️ Aucune archive chargée !');
+        return;
+      }
+      
+      const entries = window.currentRetroArchive.entries;
+      
+      if (entries.length === 0) {
+        alert('⚠️ Aucun titre dans cette archive !');
+        return;
+      }
+      
+      const playlistText = generatePlaylistText(entries);
+      copyToClipboard(playlistText);
+      
+      playlistCreationInfo.style.display = 'block';
+      playlistCreationInfo.innerHTML = `
+        <strong>✅ Liste copiée dans le presse-papier !</strong><br>
+        📊 ${entries.length} titres prêts à être transférés vers Deezer.<br><br>
+        <strong>Étapes pour créer la playlist Deezer :</strong>
+        <ol>
+          <li>Soundiiz va s'ouvrir dans un nouvel onglet (dans 2 secondes)</li>
+          <li>Créez un compte gratuit sur Soundiiz (avec votre email ou Google)</li>
+          <li>Cliquez sur <strong>"Créer"</strong> puis <strong>"Playlist"</strong></li>
+          <li>Choisissez <strong>"Importer depuis du texte"</strong></li>
+          <li>Collez la liste copiée (Ctrl+V ou appui long → Coller)</li>
+          <li>Sélectionnez <strong>Deezer</strong> comme destination</li>
+          <li>Connectez votre compte Deezer</li>
+          <li>La playlist sera créée automatiquement ! 🎉</li>
+        </ol>
+        <strong>💡 Astuce :</strong> Donnez un nom clair à votre playlist, ex : "Top 50 France - ${window.currentRetroArchive.date || window.currentRetroArchive.year}"
+      `;
+      
+      setTimeout(() => {
+        window.open('https://soundiiz.com/fr/', '_blank');
+      }, 2000);
+    }
+
+    function copyPlaylistText() {
+      if (!window.currentRetroArchive || !window.currentRetroArchive.entries) {
+        alert('⚠️ Aucune archive chargée !');
+        return;
+      }
+      
+      const entries = window.currentRetroArchive.entries;
+      const playlistText = generatePlaylistText(entries);
+      
+      copyToClipboard(playlistText);
+      
+      playlistCreationInfo.style.display = 'block';
+      playlistCreationInfo.innerHTML = `
+        <strong>✅ Liste copiée dans le presse-papier !</strong><br>
+        📊 ${entries.length} titres copiés.<br><br>
+        Vous pouvez maintenant :
+        <ul>
+          <li>Coller dans <a href="https://soundiiz.com/fr/" target="_blank">Soundiiz</a> pour créer une playlist Deezer/Spotify</li>
+          <li>Coller dans <a href="https://www.tunemymusic.com/fr/" target="_blank">TuneMyMusic</a> (alternative gratuite)</li>
+          <li>Coller dans un email ou un message pour partager la liste</li>
+        </ul>
+      `;
     }
 
     // ===== GESTION DES PARAMÈTRES =====
@@ -1897,7 +2127,6 @@
         retroWeek.appendChild(option);
       }
       
-      // Sélecteur pour le nettoyage
       for (let year = currentYear; year >= startYear; year--) {
         const option = document.createElement('option');
         option.value = year;
@@ -1925,7 +2154,6 @@
         </div>
       `;
       
-      // Vérifier d'abord le cache rétro
       const cacheKey = `${year}-${week.padStart(2, '0')}`;
       
       if (RETRO_CACHE && RETRO_CACHE[cacheKey]) {
@@ -1933,7 +2161,6 @@
         return;
       }
       
-      // Sinon, essayer de charger depuis les fichiers
       try {
         const response = await fetch(`data/archives/top50-${year}-${week.padStart(2, '0')}.json`);
         
@@ -1967,7 +2194,6 @@
         return;
       }
       
-      // Enrichir avec le cache si disponible
       const cache = loadRetroStreamingCache();
       entries.forEach(entry => {
         const cacheKey = getRetroCacheKey(entry.track.artist, entry.track.title);
@@ -1985,7 +2211,6 @@
         }
       });
       
-      // Vérifier si l'archive a des IDs
       const hasYouTube = entries.some(e => e.youtube_id);
       const hasDeezer = entries.some(e => e.deezer_id);
       const hasAnyId = hasYouTube || hasDeezer;
@@ -2028,11 +2253,9 @@
       
       retroContent.innerHTML = html;
       
-      // Afficher le panneau d'enrichissement
       const enrichmentPanel = document.getElementById('retroEnrichmentPanel');
       enrichmentPanel.style.display = 'block';
       
-      // Vérifier si la clé API YouTube est configurée
       const apiKey = localStorage.getItem('youtubeApiKey');
       if (!apiKey) {
         apiKeyWarning.style.display = 'block';
@@ -2040,7 +2263,6 @@
         apiKeyWarning.style.display = 'none';
       }
       
-      // Stocker les données de l'archive courante pour l'enrichissement
       window.currentRetroArchive = archiveData;
     }
 
@@ -2099,10 +2321,8 @@
         return;
       }
       
-      // Supprimer les entrées
       keysToRemove.forEach(key => delete RETRO_CACHE[key]);
       
-      // Télécharger le fichier modifié
       const blob = new Blob([JSON.stringify(RETRO_CACHE, null, 2)], { type: 'application/json' });
       const link = document.createElement('a');
       const url = URL.createObjectURL(blob);
@@ -2499,6 +2719,8 @@
     saveSettingsBtn.addEventListener("click", saveSettings);
     clearSettingsBtn.addEventListener("click", clearAllSettings);
     clearRetroCacheBtn.addEventListener("click", clearRetroStreamingCache);
+    createDeezerPlaylistBtn.addEventListener("click", createDeezerPlaylist);
+    copyPlaylistTextBtn.addEventListener("click", copyPlaylistText);
 
     enrichRetroBtn.addEventListener("click", async () => {
       const doYouTube = enrichYouTube.checked;
@@ -2525,7 +2747,6 @@
       try {
         await enrichRetroArchive(window.currentRetroArchive, { youtube: doYouTube, deezer: doDeezer });
         
-        // Réafficher l'archive enrichie
         displayArchive(window.currentRetroArchive);
       } catch (error) {
         alert(`❌ Erreur lors de l'enrichissement : ${error.message}`);
