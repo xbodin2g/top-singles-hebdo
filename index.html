@@ -181,6 +181,18 @@
       transform: translateY(-1px);
     }
 
+    .button-danger {
+      background: linear-gradient(135deg, #ef4444, #dc2626);
+      color: white;
+      border: none;
+      font-weight: 600;
+    }
+
+    .button-danger:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
     .loading {
       text-align: center;
       padding: 48px 20px;
@@ -498,7 +510,7 @@
       color: var(--muted);
     }
 
-    /* Modal */
+    /* Modals */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -695,32 +707,46 @@
     }
 
     /* Section rétro */
-    .retro-panel {
-      margin-top: 20px;
-      padding: 24px;
-      background: linear-gradient(135deg, rgba(245, 158, 11, 0.05), rgba(217, 119, 6, 0.05));
-      border: 2px solid rgba(245, 158, 11, 0.2);
-    }
-
-    .retro-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
     .retro-controls {
       display: flex;
       gap: 10px;
-      align-items: center;
+      align-items: flex-end;
       flex-wrap: wrap;
+      margin-bottom: 20px;
     }
 
-    .retro-controls select {
-      width: auto;
-      min-width: 100px;
+    .retro-controls .control-group {
+      min-width: 120px;
+    }
+
+    .cache-management {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+
+    .cache-management h4 {
+      margin: 0 0 15px 0;
+      color: var(--text);
+    }
+
+    .cache-info {
+      margin-top: 15px;
+      padding: 12px;
+      background: var(--overlay);
+      border-radius: 8px;
+      font-size: 14px;
+      color: var(--muted);
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    code {
+      background: var(--overlay);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 13px;
     }
 
     @media (max-width: 900px) {
@@ -857,10 +883,9 @@
 
         <div class="modal-intro" id="modalIntro">
           <strong>Comment ça fonctionne ?</strong><br>
-          Les titres avec un <span class="direct-indicator"></span> ont un lien direct YouTube.
-          Cliquez sur "Créer la playlist" pour ouvrir une vraie playlist YouTube avec ces titres.
+          Les titres avec un <span class="direct-indicator"></span> ont un lien direct YouTube (vidéo officielle).
           <br><br>
-          <strong>Pour ouvrir dans une autre app (Umihi, Simpmusic...) :</strong><br>
+          <strong>💡 Pour ouvrir dans une autre app (Umihi, Simpmusic...) :</strong><br>
           Cliquez sur "📤 Partager" et choisissez votre app dans le menu Android.
         </div>
 
@@ -909,17 +934,46 @@
         <div id="retroContent" style="margin-top: 20px;">
           <div class="empty">Sélectionnez une date et cliquez sur "Charger l'archive"</div>
         </div>
+
+        <!-- Gestion du cache rétro -->
+        <div class="cache-management">
+          <h4>🧹 Gestion du cache rétro</h4>
+          
+          <div class="retro-controls">
+            <div class="control-group">
+              <label for="cleanYear">Année à nettoyer</label>
+              <select id="cleanYear"></select>
+            </div>
+            
+            <div class="control-group">
+              <label>&nbsp;</label>
+              <button class="button" id="listCacheBtn">📋 Lister les archives</button>
+            </div>
+            
+            <div class="control-group">
+              <label>&nbsp;</label>
+              <button class="button button-danger" id="cleanCacheBtn">🗑️ Nettoyer cette année</button>
+            </div>
+          </div>
+          
+          <div id="cacheInfo" class="cache-info">
+            Cliquez sur "Lister les archives" pour voir le contenu du cache.
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <script>
+    // ===== VARIABLES GLOBALES =====
     let CHARTS_DATA = null;
+    let RETRO_CACHE = null;
     let COUNTRIES = {};
     let REGIONS = {};
     let CURRENT_ENTRIES = [];
     let ADDED_TRACKS = new Set(JSON.parse(localStorage.getItem('addedTracks') || '[]'));
 
+    // ===== ÉLÉMENTS DOM =====
     const regionSelect = document.getElementById("regionSelect");
     const countrySelect = document.getElementById("countrySelect");
     const viewMode = document.getElementById("viewMode");
@@ -954,7 +1008,12 @@
     const retroWeek = document.getElementById("retroWeek");
     const loadArchiveBtn = document.getElementById("loadArchiveBtn");
     const retroContent = document.getElementById("retroContent");
+    const cleanYear = document.getElementById("cleanYear");
+    const listCacheBtn = document.getElementById("listCacheBtn");
+    const cleanCacheBtn = document.getElementById("cleanCacheBtn");
+    const cacheInfo = document.getElementById("cacheInfo");
 
+    // ===== FONCTIONS UTILITAIRES =====
     function escapeHtml(value) {
       return String(value)
         .replaceAll("&", "&amp;")
@@ -975,6 +1034,20 @@
       return "● Stable";
     }
 
+    function copyToClipboard(text) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text);
+      } else {
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
+      }
+    }
+
+    // ===== SMART LINKS DEEZER ET SPOTIFY =====
     function openDeezerSmart(deezerId) {
       const appUrl = `deezer://track/${deezerId}`;
       const webUrl = `https://www.deezer.com/track/${deezerId}`;
@@ -1016,6 +1089,7 @@
       }, 1500);
     }
 
+    // ===== GÉNÉRATION D'URLS D'ÉCOUTE =====
     function generateListenUrl(entry, platform) {
       const title = entry.track.title;
       const artist = entry.track.artist;
@@ -1083,6 +1157,7 @@
       `;
     }
 
+    // ===== PLAYLIST YOUTUBE =====
     function generateYouTubePlaylistUrl() {
       const withIds = CURRENT_ENTRIES.filter(e => e.youtube_id);
       
@@ -1144,7 +1219,6 @@
       
       const entries = CURRENT_ENTRIES.filter(e => e.youtube_id);
       
-      // Utiliser l'API Web Share si disponible (Android/iOS)
       if (navigator.share) {
         navigator.share({
           title: 'Top Singles Hebdo - Playlist YouTube',
@@ -1154,31 +1228,16 @@
           console.log('Playlist partagée avec succès');
         }).catch((error) => {
           console.log('Erreur lors du partage:', error);
-          // Fallback : copier le lien
           copyToClipboard(playlistUrl);
           alert(`📋 Lien copié !\n\nVous pouvez le coller dans votre app préférée.`);
         });
       } else {
-        // Fallback pour les navigateurs qui ne supportent pas Web Share
         copyToClipboard(playlistUrl);
         alert(`📋 Lien copié !\n\nVous pouvez le coller dans votre app préférée.\n\nLien : ${playlistUrl}`);
       }
     }
 
-    function copyToClipboard(text) {
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(text);
-      } else {
-        // Fallback pour anciens navigateurs
-        const textArea = document.createElement('textarea');
-        textArea.value = text;
-        document.body.appendChild(textArea);
-        textArea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textArea);
-      }
-    }
-
+    // ===== EXPORT CSV =====
     function exportToCSV(entries) {
       if (!entries || entries.length === 0) {
         alert("Aucune donnée à exporter !");
@@ -1216,6 +1275,7 @@
       alert(`📥 Export réussi !\n\n${entries.length} titres exportés en CSV.`);
     }
 
+    // ===== MODAL PLAYLIST =====
     function openPlaylistModal() {
       if (!CURRENT_ENTRIES || CURRENT_ENTRIES.length === 0) {
         alert("Aucun titre à ajouter !");
@@ -1293,12 +1353,25 @@
     }
 
     // ===== SECTION RÉTRO =====
+    async function loadRetroCache() {
+      try {
+        const response = await fetch('data/cache/retro_archives.json');
+        
+        if (!response.ok) {
+          RETRO_CACHE = {};
+          return;
+        }
+        
+        RETRO_CACHE = await response.json();
+      } catch (error) {
+        RETRO_CACHE = {};
+      }
+    }
 
     function initRetroSelectors() {
       const currentYear = new Date().getFullYear();
       const startYear = 1984;
       
-      // Remplir les années
       for (let year = currentYear; year >= startYear; year--) {
         const option = document.createElement('option');
         option.value = year;
@@ -1306,17 +1379,25 @@
         retroYear.appendChild(option);
       }
       
-      // Remplir les semaines
       for (let week = 1; week <= 52; week++) {
         const option = document.createElement('option');
         option.value = week;
         option.textContent = `Semaine ${week}`;
         retroWeek.appendChild(option);
       }
+      
+      // Sélecteur pour le nettoyage
+      for (let year = currentYear; year >= startYear; year--) {
+        const option = document.createElement('option');
+        option.value = year;
+        option.textContent = year;
+        cleanYear.appendChild(option);
+      }
     }
 
     function openRetroModal() {
       retroModal.classList.add("active");
+      loadRetroCache();
     }
 
     function closeRetroModal() {
@@ -1333,19 +1414,26 @@
         </div>
       `;
       
+      // Vérifier d'abord le cache rétro
+      const cacheKey = `${year}-${week.padStart(2, '0')}`;
+      
+      if (RETRO_CACHE && RETRO_CACHE[cacheKey]) {
+        displayArchive(RETRO_CACHE[cacheKey]);
+        return;
+      }
+      
+      // Sinon, essayer de charger depuis les fichiers
       try {
-        // Essayer de charger l'archive depuis data/archives/
         const response = await fetch(`data/archives/top50-${year}-${week.padStart(2, '0')}.json`);
         
         if (!response.ok) {
-          throw new Error("Archive non trouvée localement");
+          throw new Error("Archive non trouvée");
         }
         
         const data = await response.json();
         displayArchive(data);
         
       } catch (error) {
-        // Si l'archive n'existe pas localement, proposer de la télécharger
         retroContent.innerHTML = `
           <div class="modal-intro" style="background: var(--warning-bg);">
             <strong style="color: var(--warning);">⚠️ Archive non trouvée</strong><br>
@@ -1354,7 +1442,7 @@
             <strong>Pour la télécharger :</strong><br>
             Exécutez localement : <code>python fetch_archive.py --year ${year} --week ${week}</code>
             <br><br>
-            Puis uploadez le fichier <code>data/archives/top50-${year}-${week.padStart(2, '0')}.json</code> 
+            Puis uploadez le fichier <code>data/cache/retro_archives.json</code> 
             dans votre dépôt GitHub.
           </div>
         `;
@@ -1407,8 +1495,97 @@
       retroContent.innerHTML = html;
     }
 
-    // ===== FONCTIONS PRINCIPALES =====
+    // ===== GESTION DU CACHE RÉTRO =====
+    function listRetroCache() {
+      if (!RETRO_CACHE || Object.keys(RETRO_CACHE).length === 0) {
+        cacheInfo.innerHTML = '<span style="color: var(--warning);">📭 Le cache rétro est vide</span>';
+        return;
+      }
+      
+      const archiveKeys = Object.keys(RETRO_CACHE);
+      
+      const archivesByYear = {};
+      archiveKeys.forEach(key => {
+        const [year, week] = key.split('-');
+        if (!archivesByYear[year]) {
+          archivesByYear[year] = [];
+        }
+        archivesByYear[year].push(parseInt(week));
+      });
+      
+      let html = `<strong>📚 ${archiveKeys.length} archives en cache :</strong><br><br>`;
+      
+      const years = Object.keys(archivesByYear).sort((a, b) => b - a);
+      
+      years.forEach(year => {
+        const weeks = archivesByYear[year].sort((a, b) => a - b);
+        html += `<strong>${year}</strong> : ${weeks.length} archives (S${weeks.join(', S')})<br>`;
+      });
+      
+      cacheInfo.innerHTML = html;
+    }
 
+    async function cleanRetroCache() {
+      const year = cleanYear.value;
+      
+      if (!year) {
+        alert('Veuillez sélectionner une année à nettoyer');
+        return;
+      }
+      
+      if (!RETRO_CACHE || Object.keys(RETRO_CACHE).length === 0) {
+        alert('❌ Le cache rétro est vide');
+        return;
+      }
+      
+      const keysToRemove = Object.keys(RETRO_CACHE).filter(key => key.startsWith(`${year}-`));
+      
+      if (keysToRemove.length === 0) {
+        alert(`ℹ️ Aucune archive trouvée pour l'année ${year}`);
+        return;
+      }
+      
+      if (!confirm(`⚠️ Êtes-vous sûr de vouloir supprimer ${keysToRemove.length} archives de ${year} ?\n\nCette action est irréversible.`)) {
+        return;
+      }
+      
+      // Supprimer les entrées
+      keysToRemove.forEach(key => delete RETRO_CACHE[key]);
+      
+      // Sauvegarder le cache modifié localement
+      try {
+        localStorage.setItem('retro_cache_modified', JSON.stringify(RETRO_CACHE));
+        
+        // Télécharger le fichier modifié
+        const blob = new Blob([JSON.stringify(RETRO_CACHE, null, 2)], { type: 'application/json' });
+        const link = document.createElement('a');
+        const url = URL.createObjectURL(blob);
+        
+        link.setAttribute('href', url);
+        link.setAttribute('download', 'retro_archives.json');
+        link.style.visibility = 'hidden';
+        
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        
+        alert(`🧹 Nettoyage effectué !\n\n` +
+              `${keysToRemove.length} archives de ${year} supprimées.\n\n` +
+              `📥 Le fichier modifié a été téléchargé.\n\n` +
+              `Pour finaliser :\n` +
+              `1. Uploadez le fichier téléchargé dans data/cache/retro_archives.json\n` +
+              `2. Committez et poussez les changements\n\n` +
+              `Ou exécutez localement :\n` +
+              `python fetch_archive.py --clean-year ${year}`);
+        
+        listRetroCache();
+        
+      } catch (error) {
+        alert(`❌ Erreur : ${error.message}`);
+      }
+    }
+
+    // ===== CHARGEMENT DES DONNÉES =====
     async function loadChartData() {
       try {
         loadingIndicator.style.display = "block";
@@ -1736,6 +1913,7 @@
       renderList(entries, view);
     }
 
+    // ===== THÈME =====
     function applyTheme(theme) {
       document.documentElement.setAttribute("data-theme", theme);
       themeToggle.textContent = theme === "dark" ? "☀️ Clair" : "🌙 Sombre";
@@ -1747,7 +1925,7 @@
       applyTheme(current);
     }
 
-    // Écouteurs d'événements
+    // ===== ÉCOUTEURS D'ÉVÉNEMENTS =====
     regionSelect.addEventListener("change", () => {
       populateCountries();
       render();
@@ -1773,6 +1951,8 @@
     resetBtn.addEventListener("click", resetAddedTracks);
     retroClose.addEventListener("click", closeRetroModal);
     loadArchiveBtn.addEventListener("click", loadArchive);
+    listCacheBtn.addEventListener("click", listRetroCache);
+    cleanCacheBtn.addEventListener("click", cleanRetroCache);
 
     playlistModal.addEventListener("click", (e) => {
       if (e.target === playlistModal) closePlaylistModal();
@@ -1782,15 +1962,14 @@
       if (e.target === retroModal) closeRetroModal();
     });
 
+    // ===== INITIALISATION =====
     const savedTheme =
       localStorage.getItem("musiccharts-theme") ||
       (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
 
     applyTheme(savedTheme);
 
-    // Initialiser les sélecteurs rétro
     initRetroSelectors();
-
     loadChartData();
   </script>
 </body>
