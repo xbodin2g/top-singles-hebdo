@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-Script pour télécharger les archives du Top 50 français depuis DEUX sources :
+Script pour télécharger les archives du Top singles français depuis DEUX sources :
 1. top-archives.fr (1984-1993) - archives complètes
-2. chartsinfrance.net (1985-2026) - données officielles SNEP
+2. chartsinfrance.net (1994-2026) - source officielle SNEP
 
-Stratégie :
-- 1984-1993 : Priorité à top-archives.fr (plus complet)
-- 1994-2026 : Utiliser chartsinfrance.net uniquement
+Format d'URL chartsinfrance : https://www.chartsinfrance.net/charts/YYNN/singles.php
+- YY = année sur 2 chiffres (ex: 95 = 1995, 07 = 2007, 25 = 2025)
+- NN = numéro de semaine sur 2 chiffres (01-53)
+- ?page=2, ?page=3, etc. pour la pagination
 """
 
 import json
@@ -28,10 +29,6 @@ HEADERS = {
 CACHE_DIR = "data/cache"
 CACHE_RETRO_FILE = os.path.join(CACHE_DIR, "retro_archives.json")
 
-# Configuration chartsinfrance
-CIF_REF_WEEK = 8645
-CIF_REF_DATE = datetime(1986, 11, 6)
-
 def load_retro_cache():
     if os.path.exists(CACHE_RETRO_FILE):
         try:
@@ -50,17 +47,18 @@ def save_retro_cache(cache):
     except Exception as e:
         print(f"⚠️ Erreur sauvegarde: {e}")
 
-def week_to_date(year, week):
-    """Convertit numéro de semaine ISO en date"""
+def year_to_yy(year):
+    """Convertit une année complète en format 2 chiffres"""
+    if year >= 2000:
+        return str(year)[2:]  # 2025 -> 25, 2007 -> 07
+    else:
+        return str(year)[2:]  # 1995 -> 95, 1989 -> 89
+
+def get_date_from_year_week(year, week):
+    """Calcule la date approximative d'une semaine ISO"""
     jan4 = datetime(year, 1, 4)
     start_of_week1 = jan4 - timedelta(days=jan4.weekday())
     return start_of_week1 + timedelta(weeks=week-1)
-
-def date_to_cif_week(target_date):
-    """Convertit une date en numéro de semaine chartsinfrance"""
-    delta_days = (target_date - CIF_REF_DATE).days
-    delta_weeks = delta_days // 7
-    return CIF_REF_WEEK + delta_weeks
 
 # ===== SOURCE 1 : top-archives.fr (1984-1993) =====
 
@@ -69,10 +67,8 @@ def fetch_toparchives_week(year, week, cache):
     cache_key = f"{year}-{week:02d}"
     
     if cache_key in cache:
-        print(f"  ⏭️  top-archives.fr : déjà en cache")
         return True
     
-    # Récupérer la liste des semaines pour l'année
     url = f"https://top-archives.fr/top/year/{year}"
     
     try:
@@ -84,25 +80,18 @@ def fetch_toparchives_week(year, week, cache):
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # Trouver le lien pour cette semaine
         week_id = None
-        
         for link in soup.find_all('a', href=re.compile(r'/top/week/\d+')):
             href = link.get('href', '')
-            link_text = link.get_text(strip=True)
+            match = re.search(r'/top/week/(\d+)', href)
             
-            # Chercher le numéro de semaine dans le texte
-            if f"Semaine {week}" in link_text or f"S{week}" in link_text:
-                match = re.search(r'/top/week/(\d+)', href)
-                if match:
-                    week_id = int(match.group(1))
-                    break
+            if match:
+                week_id = int(match.group(1))
+                break
         
         if not week_id:
-            print(f"  ❌ top-archives.fr : Semaine {week} non trouvée")
             return False
         
-        # Récupérer les données
         url = f"https://top-archives.fr/top/week/{week_id}"
         response = requests.get(url, headers=HEADERS, timeout=30)
         
@@ -113,12 +102,12 @@ def fetch_toparchives_week(year, week, cache):
         entries = parse_toparchives_html(soup)
         
         if entries:
-            date = week_to_date(year, week)
+            date = get_date_from_year_week(year, week)
             
             archive_data = {
                 "week": week,
                 "year": year,
-                "date": date.strftime('%Y-%m-%d'),
+                "date": date.strftime('%d/%m/%Y'),
                 "entries": entries,
                 "source": "top-archives.fr",
                 "cached_at": datetime.now().strftime('%Y-%m-%d')
@@ -154,7 +143,6 @@ def parse_toparchives_html(soup):
                     rank = int(rank_match.group())
                     
                     if 1 <= rank <= 50:
-                        # Extraire artiste et titre
                         links = cells[1].find_all('a')
                         
                         if len(links) >= 2:
@@ -177,135 +165,262 @@ def parse_toparchives_html(soup):
     
     return entries
 
-# ===== SOURCE 2 : chartsinfrance.net (1985-2026) =====
+# ===== SOURCE 2 : chartsinfrance.net (1994-2026) =====
 
 def fetch_chartsinfrance_week(year, week, cache):
-    """Récupère depuis chartsinfrance.net"""
+    """
+    Récupère depuis chartsinfrance.net avec gestion de la pagination
+    Format URL : /charts/YYNN/singles.php?page=X
+    """
     cache_key = f"{year}-{week:02d}"
     
     if cache_key in cache:
-        print(f"  ⏭️  chartsinfrance.net : déjà en cache")
         return True
     
-    # Calculer le numéro de semaine chartsinfrance
-    date = week_to_date(year, week)
-    cif_week = date_to_cif_week(date)
+    yy = year_to_yy(year)
+    nn = f"{week:02d}"
     
-    url = f"https://www.chartsinfrance.net/charts/{cif_week}/singles.php"
+    print(f"  📥 chartsinfrance.net : {year} S{week:02d}...")
     
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=30)
+    all_entries = []
+    page = 1
+    max_pages = 5  # Limite de sécurité
+    
+    while page <= max_pages:
+        url = f"https://www.chartsinfrance.net/charts/{yy}{nn}/singles.php"
+        if page > 1:
+            url += f"?page={page}"
         
-        if response.status_code == 404:
-            print(f"  ❌ chartsinfrance.net : Page non trouvée")
-            return False
-        
-        response.raise_for_status()
-        
-        if "Aucun classement disponible" in response.text:
-            print(f"  ❌ chartsinfrance.net : Aucune donnée")
-            return False
-        
-        soup = BeautifulSoup(response.text, 'html.parser')
-        entries = parse_chartsinfrance_html(soup, response.text)
-        
-        if entries:
-            archive_data = {
-                "week": week,
-                "year": year,
-                "date": date.strftime('%Y-%m-%d'),
-                "entries": entries,
-                "source": "chartsinfrance.net",
-                "cached_at": datetime.now().strftime('%Y-%m-%d')
-            }
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=30)
             
-            cache[cache_key] = archive_data
-            print(f"  ✅ chartsinfrance.net : {len(entries)} entrées")
-            time.sleep(1)
-            return True
-        
-    except Exception as e:
-        print(f"  ❌ chartsinfrance.net erreur: {e}")
-    
-    return False
-
-def parse_chartsinfrance_html(soup, html_text):
-    """Parse le HTML de chartsinfrance.net"""
-    entries = []
-    
-    # Parser ligne par ligne
-    lines = html_text.split('\n')
-    
-    for i, line in enumerate(lines):
-        # Chercher les positions
-        if re.search(r'^\s*\d{1,2}\s*$', line.strip()):
-            position = int(line.strip())
+            if response.status_code == 404:
+                if page == 1:
+                    print(f"    ❌ Semaine non trouvée (404)")
+                    return False
+                else:
+                    break  # Plus de pages
             
-            if position <= 50:
-                title = ""
-                artist = ""
-                
-                # Chercher titre et artiste dans les lignes suivantes
-                for j in range(i+1, min(i+5, len(lines))):
-                    next_line = lines[j].strip()
-                    
-                    if next_line and not next_line.startswith('_') and len(next_line) > 3:
-                        if not title:
-                            title = next_line
-                        elif not artist:
-                            artist = next_line
-                            break
-                
-                if title and artist:
-                    # Déterminer le mouvement
-                    movement = "same"
-                    
-                    for j in range(i+1, min(i+10, len(lines))):
-                        if 'arrow_top' in lines[j] or '▲' in lines[j]:
-                            movement = "up"
-                            break
-                        elif 'arrow_bot' in lines[j] or '▼' in lines[j]:
-                            movement = "down"
-                            break
-                        elif 'New' in lines[j]:
-                            movement = "new"
-                            break
-                    
-                    entries.append({
-                        "position": position,
-                        "track": {"title": title, "artist": artist},
-                        "movement": movement,
-                        "weeksOnChart": 1,
-                        "peakPosition": position
-                    })
+            if "Aucun classement disponible" in response.text:
+                if page == 1:
+                    print(f"    ❌ Aucune donnée disponible")
+                    return False
+                else:
+                    break
+            
+            response.raise_for_status()
+            
+            entries = parse_chartsinfrance_html(response.text)
+            
+            if not entries:
+                break  # Plus d'entrées sur cette page
+            
+            all_entries.extend(entries)
+            
+            # Vérifier s'il y a une page suivante
+            if not has_next_page(response.text):
+                break
+            
+            page += 1
+            time.sleep(0.5)
+            
+        except Exception as e:
+            print(f"    ⚠️ Erreur page {page}: {e}")
+            if page == 1:
+                return False
+            break
     
-    # Dédupliquer et trier
+    if not all_entries:
+        print(f"    ❌ Aucune entrée parsée")
+        return False
+    
+    # Trier par position et dédoublonner
+    all_entries.sort(key=lambda x: x["position"])
+    
     seen = set()
     unique_entries = []
-    for entry in entries:
+    for entry in all_entries:
         if entry["position"] not in seen:
             seen.add(entry["position"])
             unique_entries.append(entry)
     
-    return sorted(unique_entries, key=lambda x: x["position"])[:50]
+    # Garder le top 100 max (ou plus si demandé)
+    entries = unique_entries[:100]
+    
+    if entries:
+        date = get_date_from_year_week(year, week)
+        
+        archive_data = {
+            "week": week,
+            "year": year,
+            "date": date.strftime('%d/%m/%Y'),
+            "entries": entries,
+            "source": "chartsinfrance.net",
+            "pages": page,
+            "cached_at": datetime.now().strftime('%Y-%m-%d')
+        }
+        
+        cache[cache_key] = archive_data
+        print(f"  ✅ chartsinfrance.net : {len(entries)} entrées (sur {page} page(s))")
+        time.sleep(1)
+        return True
+    
+    return False
+
+def parse_chartsinfrance_html(html_text):
+    """Parse le HTML de chartsinfrance.net"""
+    entries = []
+    soup = BeautifulSoup(html_text, 'html.parser')
+    
+    # Méthode 1 : Chercher les éléments de classement avec une structure plus robuste
+    # Le site utilise des divs avec des classes spécifiques
+    
+    # Chercher tous les éléments qui contiennent un numéro de position
+    # Pattern : position, puis titre (h2 ou div), puis artiste
+    
+    # Stratégie : parser le texte brut ligne par ligne avec un pattern amélioré
+    text = soup.get_text(separator='\n', strip=True)
+    lines = [line.strip() for line in text.split('\n') if line.strip()]
+    
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        
+        # Chercher une position (nombre seul ou avec étoile)
+        pos_match = re.match(r'^[\*_]?\s*(\d{1,3})\s*$', line)
+        
+        if pos_match:
+            position = int(pos_match.group(1))
+            
+            if position <= 100:
+                title = ""
+                artist = ""
+                movement = "same"
+                previous_pos = None
+                
+                # Chercher titre et artiste dans les lignes suivantes
+                for j in range(i+1, min(i+8, len(lines))):
+                    next_line = lines[j]
+                    
+                    # Ignorer les lignes de navigation/UI
+                    if next_line.startswith('_') or next_line.startswith('arrow') or next_line.startswith('timeline'):
+                        continue
+                    
+                    # Ignorer les lignes très courtes ou avec des symboles spéciaux
+                    if len(next_line) < 2:
+                        continue
+                    
+                    # Détecter le mouvement
+                    if 'arrow_top' in next_line or next_line.startswith('↑'):
+                        movement = "up"
+                        num_match = re.search(r'(\d+)', next_line)
+                        if num_match:
+                            previous_pos = position + int(num_match.group(1))
+                        continue
+                    elif 'arrow_bot' in next_line or next_line.startswith('↓'):
+                        movement = "down"
+                        num_match = re.search(r'(\d+)', next_line)
+                        if num_match:
+                            previous_pos = position - int(num_match.group(1))
+                        continue
+                    elif 'New' in next_line or 'new' in next_line.lower():
+                        movement = "new"
+                        continue
+                    elif 'arrow_right' in next_line or next_line.startswith('→'):
+                        movement = "same"
+                        previous_pos = position
+                        continue
+                    
+                    # Si on a déjà titre et artiste, on arrête
+                    if title and artist:
+                        break
+                    
+                    # Première ligne significative = titre
+                    if not title and len(next_line) > 2:
+                        title = next_line
+                    # Deuxième ligne significative = artiste
+                    elif not artist and len(next_line) > 2:
+                        artist = next_line
+                
+                if title and artist:
+                    if previous_pos is None and movement != "new":
+                        previous_pos = position
+                    
+                    entries.append({
+                        "position": position,
+                        "track": {"title": title, "artist": artist},
+                        "previousPosition": previous_pos,
+                        "movement": movement,
+                        "weeksOnChart": 1,
+                        "peakPosition": position,
+                        "source": "chartsinfrance"
+                    })
+        
+        i += 1
+    
+    # Méthode alternative : chercher directement dans le HTML structuré
+    if len(entries) < 10:
+        entries = []
+        
+        # Chercher les blocs de classement
+        # Pattern typique : <div class="..."> avec position, titre h2, artiste
+        
+        for elem in soup.find_all(['div', 'article', 'li']):
+            elem_text = elem.get_text(separator='|', strip=True)
+            
+            # Chercher un pattern : position | titre | artiste
+            match = re.search(r'(\d{1,2})\s*\|\s*(.+?)\s*\|\s*([^\|]+?)(?:\s*\||$)', elem_text)
+            
+            if match:
+                position = int(match.group(1))
+                title = match.group(2).strip()
+                artist = match.group(3).strip()
+                
+                if position <= 100 and len(title) > 2 and len(artist) > 2:
+                    entries.append({
+                        "position": position,
+                        "track": {"title": title, "artist": artist},
+                        "previousPosition": None,
+                        "movement": "same",
+                        "weeksOnChart": 1,
+                        "peakPosition": position,
+                        "source": "chartsinfrance"
+                    })
+    
+    return entries
+
+def has_next_page(html_text):
+    """Vérifie s'il y a une page suivante"""
+    # Chercher des indicateurs de pagination
+    if '?page=' in html_text:
+        # Chercher "page suivante" ou numéro de page + 1
+        if 'Suivant' in html_text or 'Next' in html_text or 'arrow_right' in html_text:
+            return True
+    return False
 
 # ===== FONCTION PRINCIPALE =====
 
 def main():
-    parser = argparse.ArgumentParser(description='Télécharge les archives Top 50 depuis 2 sources')
+    parser = argparse.ArgumentParser(description='Télécharge les archives Top singles depuis 2 sources')
     parser.add_argument('--year', type=int, required=True, help='Année (1984-2026)')
     parser.add_argument('--weeks', type=str, default='1-53', help='Semaines (ex: 1-52)')
     
     args = parser.parse_args()
     
     year = args.year
+    current_year = datetime.now().year
     
-    if year < 1984 or year > datetime.now().year:
-        print(f"❌ Année invalide (1984-{datetime.now().year})")
+    if year < 1984 or year > current_year:
+        print(f"❌ Année invalide (1984-{current_year})")
         sys.exit(1)
     
-    print(f"📅 Archives Top 50 France - Année {year}")
-    print(f"   Sources : top-archives.fr (1984-1993) + chartsinfrance.net (1985-2026)")
+    print(f"📅 Archives Top singles France - Année {year}")
+    
+    if year <= 1993:
+        print(f"   Source principale : top-archives.fr (1984-1993)")
+    else:
+        print(f"   Source principale : chartsinfrance.net (format YYNN)")
+    
     print(f"{'='*60}\n")
     
     # Parser les semaines
@@ -320,28 +435,24 @@ def main():
     
     success = 0
     fail = 0
+    skip = 0
     
     for week in weeks:
         cache_key = f"{year}-{week:02d}"
         
         if cache_key in cache:
-            print(f"  ⏭️  Semaine {week}/{year} : déjà en cache")
-            success += 1
+            print(f"  ⏭️  Semaine {week:02d}/{year} : déjà en cache")
+            skip += 1
             continue
         
-        print(f"\n📥 Semaine {week}/{year}...")
+        print(f"\n📥 Semaine {week:02d}/{year}...")
         
         # Stratégie selon l'année
         if year <= 1993:
-            # 1984-1993 : Essayer top-archives.fr d'abord
+            # 1984-1993 : top-archives.fr en priorité
             result = fetch_toparchives_week(year, week, cache)
-            
-            if not result:
-                # Fallback sur chartsinfrance.net
-                print(f"  🔄 Essai chartsinfrance.net...")
-                result = fetch_chartsinfrance_week(year, week, cache)
         else:
-            # 1994+ : Utiliser chartsinfrance.net uniquement
+            # 1994+ : chartsinfrance.net
             result = fetch_chartsinfrance_week(year, week, cache)
         
         if result:
@@ -359,6 +470,7 @@ def main():
     print(f"\n{'='*60}")
     print(f"✅ Année {year} terminée")
     print(f"   - {success} semaines récupérées")
+    print(f"   - {skip} déjà en cache")
     print(f"   - {fail} échecs")
     print(f"   - Total en cache : {len(cache)} archives")
     print(f"{'='*60}")
