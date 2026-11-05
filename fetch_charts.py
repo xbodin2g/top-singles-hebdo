@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version complète avec cache intelligent + correction du bug des IDs manquants.
+Version complète avec :
+- Cache intelligent + correction du bug des IDs manquants
+- chartsinfrance.net comme source officielle pour la France (SNEP/SCPP)
+- Fallback automatique entre sources
 """
 
 import json
@@ -35,8 +38,7 @@ SOURCES = {
         "name": "France", 
         "flag": "🇫🇷", 
         "region": "europe", 
-        "source": "acharts",
-        "acharts_url": "https://acharts.co/france_singles_top_100"
+        "source": "chartsinfrance"  # Source officielle SNEP/SCPP
     },
     "gb": {
         "name": "Royaume-Uni", 
@@ -276,25 +278,20 @@ def fetch_youtube_video_id_official(artist, title):
             for item in items:
                 video_title = item['snippet']['title'].lower()
                 is_excluded = any(keyword in video_title for keyword in exclude_keywords)
+                
                 if not is_excluded:
                     best_video = item
                     break
-        
-        # Dernier recours
-        if not best_video and items:
-            best_video = items[0]
         
         if best_video:
             video_id = best_video['id']['videoId']
             return {
                 'youtube_id': video_id,
-                'youtube_url': f"https://www.youtube.com/watch?v={video_id}",
-                'youtube_title': best_video['snippet']['title']
+                'youtube_url': f"https://www.youtube.com/watch?v={video_id}"
             }
     
     except Exception as e:
-        print(f"      ⚠️ Erreur YouTube: {str(e)[:80]}")
-        return None
+        print(f"      ⚠️ Erreur YouTube: {e}")
     
     return None
 
@@ -302,322 +299,177 @@ def fetch_youtube_video_id_official(artist, title):
 
 def enrich_with_cache(entries, cache, country_name):
     """
-    Enrichit les entrées en utilisant le cache d'abord.
-    CORRECTION : Si un ID manque dans le cache, on le recherche.
+    Enrichit les entrées avec les IDs Deezer et YouTube en utilisant le cache.
+    Version corrigée qui recherche les IDs manquants même si l'autre plateforme est en cache.
     """
-    global youtube_quota_exceeded
+    print(f"  📊 Enrichissement avec cache pour {country_name}...")
     
-    print(f"  🔍 Enrichissement pour {country_name}...")
+    youtube_count = 0
+    deezer_count = 0
+    youtube_from_cache = 0
+    deezer_from_cache = 0
+    cache_updates = 0
     
-    from_cache = 0
-    youtube_searches = 0
-    deezer_searches = 0
-    youtube_found = 0
-    deezer_found = 0
-    youtube_completed = 0  # Compteur pour les IDs YouTube complétés depuis le cache
-    deezer_completed = 0   # Compteur pour les IDs Deezer complétés depuis le cache
-    
-    for entry in entries[:DEEZER_LIMIT_PER_COUNTRY]:
+    for entry in entries:
         artist = entry['track']['artist']
         title = entry['track']['title']
         cache_key = get_cache_key(artist, title)
         
-        # Vérifier d'abord le cache
+        # Vérifier si on a déjà des IDs
+        has_youtube = bool(entry.get('youtube_id'))
+        has_deezer = bool(entry.get('deezer_id'))
+        
+        # Compter les limites
+        can_search_youtube = youtube_count < YOUTUBE_LIMIT_PER_COUNTRY
+        can_search_deezer = deezer_count < DEEZER_LIMIT_PER_COUNTRY
+        
+        # Vérifier le cache
         if cache_key in cache:
             cached = cache[cache_key]
-            cache_updated = False
             
-            # Utiliser l'ID YouTube du cache s'il existe
-            if cached.get('youtube_id'):
+            # Appliquer les IDs YouTube depuis le cache si absents
+            if not has_youtube and cached.get('youtube_id'):
                 entry['youtube_id'] = cached['youtube_id']
                 entry['youtube_url'] = cached['youtube_url']
-                entry['youtube_video_title'] = cached.get('youtube_title')
+                has_youtube = True
+                youtube_from_cache += 1
             
-            # Utiliser l'ID Deezer du cache s'il existe
-            if cached.get('deezer_id'):
+            # Appliquer les IDs Deezer depuis le cache si absents
+            if not has_deezer and cached.get('deezer_id'):
                 entry['deezer_id'] = cached['deezer_id']
                 entry['deezer_url'] = cached['deezer_url']
                 if cached.get('artwork'):
                     entry['track']['artwork'] = cached['artwork']
-            
-            # ⭐ CORRECTION : Si l'ID YouTube manque dans le cache, le rechercher
-            if not cached.get('youtube_id') and not youtube_quota_exceeded and YOUTUBE_API_KEY:
-                youtube_info = fetch_youtube_video_id_official(artist, title)
-                if youtube_info:
-                    entry['youtube_id'] = youtube_info.get('youtube_id')
-                    entry['youtube_url'] = youtube_info.get('youtube_url')
-                    entry['youtube_video_title'] = youtube_info.get('youtube_title')
-                    
-                    # Mettre à jour le cache
-                    cached['youtube_id'] = youtube_info['youtube_id']
-                    cached['youtube_url'] = youtube_info['youtube_url']
-                    cached['youtube_title'] = youtube_info.get('youtube_title')
-                    cached['cached_at'] = datetime.now().strftime('%Y-%m-%d')
-                    
-                    youtube_found += 1
-                    youtube_completed += 1
-                    cache_updated = True
-                
-                youtube_searches += 1
-                time.sleep(0.3)
-            
-            # ⭐ CORRECTION : Si l'ID Deezer manque dans le cache, le rechercher
-            if not cached.get('deezer_id'):
-                deezer_info = fetch_deezer_track_id(artist, title)
-                if deezer_info:
-                    entry['deezer_id'] = deezer_info.get('deezer_id')
-                    entry['deezer_url'] = deezer_info.get('deezer_url')
-                    if deezer_info.get('artwork'):
-                        entry['track']['artwork'] = deezer_info['artwork']
-                    
-                    # Mettre à jour le cache
-                    cached['deezer_id'] = deezer_info['deezer_id']
-                    cached['deezer_url'] = deezer_info['deezer_url']
-                    cached['artwork'] = deezer_info.get('artwork')
-                    cached['cached_at'] = datetime.now().strftime('%Y-%m-%d')
-                    
-                    deezer_found += 1
-                    deezer_completed += 1
-                    cache_updated = True
-                
-                deezer_searches += 1
-                time.sleep(0.2)
-            
-            # Sauvegarder les mises à jour du cache
-            if cache_updated:
-                cache[cache_key] = cached
-            
-            from_cache += 1
-            continue
+                has_deezer = True
+                deezer_from_cache += 1
         
-        # Pas dans le cache → faire toutes les recherches
-        entry_cache = {}
+        # Rechercher les IDs manquants (même si l'autre est en cache)
+        needs_update = False
         
-        # Recherche Deezer
-        deezer_info = fetch_deezer_track_id(artist, title)
-        if deezer_info:
-            entry['deezer_id'] = deezer_info.get('deezer_id')
-            entry['deezer_url'] = deezer_info.get('deezer_url')
-            if deezer_info.get('artwork'):
-                entry['track']['artwork'] = deezer_info['artwork']
-            
-            entry_cache['deezer_id'] = deezer_info['deezer_id']
-            entry_cache['deezer_url'] = deezer_info['deezer_url']
-            entry_cache['artwork'] = deezer_info.get('artwork')
-            deezer_found += 1
-        
-        deezer_searches += 1
-        time.sleep(0.2)
-        
-        # Recherche YouTube (si quota disponible)
-        if not youtube_quota_exceeded and YOUTUBE_API_KEY:
+        # Rechercher YouTube si manquant et dans la limite
+        if not has_youtube and can_search_youtube:
             youtube_info = fetch_youtube_video_id_official(artist, title)
             if youtube_info:
-                entry['youtube_id'] = youtube_info.get('youtube_id')
-                entry['youtube_url'] = youtube_info.get('youtube_url')
-                entry['youtube_video_title'] = youtube_info.get('youtube_title')
+                entry['youtube_id'] = youtube_info['youtube_id']
+                entry['youtube_url'] = youtube_info['youtube_url']
+                youtube_count += 1
                 
-                entry_cache['youtube_id'] = youtube_info['youtube_id']
-                entry_cache['youtube_url'] = youtube_info['youtube_url']
-                entry_cache['youtube_title'] = youtube_info.get('youtube_title')
-                youtube_found += 1
+                # Mettre à jour le cache
+                if cache_key not in cache:
+                    cache[cache_key] = {
+                        'artist': artist,
+                        'title': title,
+                        'cached_at': datetime.now().strftime('%Y-%m-%d')
+                    }
+                cache[cache_key]['youtube_id'] = youtube_info['youtube_id']
+                cache[cache_key]['youtube_url'] = youtube_info['youtube_url']
+                needs_update = True
             
-            youtube_searches += 1
             time.sleep(0.3)
         
-        # Sauvegarder dans le cache (même si pas trouvé, pour éviter de re-chercher)
-        entry_cache['cached_at'] = datetime.now().strftime('%Y-%m-%d')
-        entry_cache['artist'] = artist
-        entry_cache['title'] = title
-        cache[cache_key] = entry_cache
+        # Rechercher Deezer si manquant et dans la limite
+        if not has_deezer and can_search_deezer:
+            deezer_info = fetch_deezer_track_id(artist, title)
+            if deezer_info:
+                entry['deezer_id'] = deezer_info['deezer_id']
+                entry['deezer_url'] = deezer_info['deezer_url']
+                if deezer_info.get('artwork'):
+                    entry['track']['artwork'] = deezer_info['artwork']
+                deezer_count += 1
+                
+                # Mettre à jour le cache
+                if cache_key not in cache:
+                    cache[cache_key] = {
+                        'artist': artist,
+                        'title': title,
+                        'cached_at': datetime.now().strftime('%Y-%m-%d')
+                    }
+                cache[cache_key]['deezer_id'] = deezer_info['deezer_id']
+                cache[cache_key]['deezer_url'] = deezer_info['deezer_url']
+                if deezer_info.get('artwork'):
+                    cache[cache_key]['artwork'] = deezer_info['artwork']
+                needs_update = True
+            
+            time.sleep(0.2)
+        
+        if needs_update:
+            cache_updates += 1
     
-    # Log détaillé
-    print(f"    📊 Cache: {from_cache} titres utilisés")
-    print(f"    📊 Deezer: {deezer_found}/{deezer_searches} trouvés (dont {deezer_completed} complétés depuis le cache)")
-    print(f"    📊 YouTube: {youtube_found}/{youtube_searches} trouvés (dont {youtube_completed} complétés depuis le cache)")
+    print(f"  📊 Cache: {youtube_from_cache + deezer_from_cache} titres utilisés")
+    print(f"  📊 Deezer: {deezer_count}/{min(DEEZER_LIMIT_PER_COUNTRY, len(entries))} trouvés" +
+          (f" (dont {deezer_from_cache} complétés depuis le cache)" if deezer_from_cache > 0 else ""))
+    print(f"  📊 YouTube: {youtube_count}/{min(YOUTUBE_LIMIT_PER_COUNTRY, len(entries))} trouvés" +
+          (f" (dont {youtube_from_cache} complétés depuis le cache)" if youtube_from_cache > 0 else ""))
+    
+    if cache_updates > 0:
+        print(f"  💾 {cache_updates} nouvelles entrées ajoutées au cache")
     
     return entries
 
-# ===== SCRAPERS =====
+# ===== SOURCES DE DONNÉES =====
 
 def fetch_acharts(url, country_name):
-    """Scrape acharts.co"""
+    """Récupère le top via acharts.co"""
     print(f"  🔍 Scraping acharts.co pour {country_name}...")
     
     try:
         response = requests.get(url, headers=HEADERS, timeout=30)
-        
-        if response.status_code in [403, 404]:
-            return []
-        
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         
         entries = []
-        table = soup.find('table')
+        table = soup.find('table', class_='detail')
         
         if not table:
-            return []
+            table = soup.find('table')
         
-        rows = table.find_all('tr')[1:]
-        
-        for row in rows[:50]:
-            cells = row.find_all('td')
+        if table:
+            rows = table.find_all('tr')[1:]
             
-            if len(cells) >= 3:
-                pos_text = cells[0].get_text(strip=True)
-                rank_match = re.search(r'\d+', pos_text)
-                
-                if rank_match:
-                    rank = int(rank_match.group())
-                    
-                    prev_text = cells[1].get_text(strip=True).lower()
-                    previous_pos = None
-                    
-                    if 'new' in prev_text or 're-entry' in prev_text:
-                        previous_pos = None
-                    else:
-                        prev_match = re.search(r'\d+', prev_text)
-                        if prev_match:
-                            previous_pos = int(prev_match.group())
-                    
-                    title_cell = cells[2]
-                    title_text = title_cell.get_text(separator='\n', strip=True)
-                    lines = [line.strip() for line in title_text.split('\n') if line.strip()]
-                    
-                    if len(lines) >= 2:
-                        title = lines[0]
-                        artist = lines[1]
-                        
-                        peak_match = re.search(r'peak position:\s*(\d+)', title_text, re.I)
-                        weeks_match = re.search(r'total weeks:\s*(\d+)', title_text, re.I)
-                        
-                        peak = int(peak_match.group(1)) if peak_match else rank
-                        weeks = int(weeks_match.group(1)) if weeks_match else 1
-                        
-                        movement = calculate_movement(rank, previous_pos)
-                        
-                        entries.append({
-                            "position": rank,
-                            "track": {"title": title, "artist": artist},
-                            "previousPosition": previous_pos,
-                            "movement": movement,
-                            "weeksOnChart": weeks,
-                            "peakPosition": peak,
-                            "source": "acharts"
-                        })
-        
-        print(f"    ✅ {len(entries)} entrées trouvées")
-        return entries
-    
-    except Exception as e:
-        print(f"    ❌ Erreur: {e}")
-        return []
-
-def fetch_brazil_promusica():
-    """Scrape Pro-Música Brasil"""
-    print(f"  🔍 Scraping Pro-Música Brasil...")
-    
-    try:
-        response = requests.get(SOURCES["br"]["primary_url"], headers=HEADERS, timeout=30)
-        
-        if response.status_code == 403:
-            return []
-        
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        entries = []
-        
-        for table in soup.find_all('table'):
-            for row in table.find_all('tr', limit=51):
+            for row in rows:
                 cells = row.find_all('td')
                 
-                if len(cells) >= 3:
-                    rank_text = cells[0].get_text(strip=True)
+                if len(cells) >= 4:
+                    # Position
+                    pos_text = cells[0].get_text(strip=True)
+                    rank_match = re.search(r'\d+', pos_text)
                     
-                    if rank_text.isdigit():
-                        rank = int(rank_text)
-                        artist_cell = cells[2] if len(cells) > 2 else None
-                        
-                        if artist_cell:
-                            artist_strong = artist_cell.find('strong')
-                            
-                            if artist_strong:
-                                artist = artist_strong.get_text(strip=True)
-                                title_parts = []
-                                
-                                for elem in artist_cell.descendants:
-                                    if isinstance(elem, str) and elem.strip():
-                                        text = elem.strip()
-                                        if text != artist and text:
-                                            title_parts.append(text)
-                                
-                                title = ' '.join(title_parts) if title_parts else ""
-                                
-                                if title:
-                                    entries.append({
-                                        "position": rank,
-                                        "track": {"title": title, "artist": artist},
-                                        "previousPosition": None,
-                                        "movement": "same",
-                                        "weeksOnChart": 1,
-                                        "peakPosition": rank,
-                                        "source": "promusica"
-                                    })
-        
-        print(f"    ✅ {len(entries)} entrées trouvées")
-        return entries
-    
-    except Exception as e:
-        print(f"    ❌ Erreur: {e}")
-        return []
-
-def fetch_kworb_itunes(url, country_name):
-    """Scrape kworb.net iTunes"""
-    print(f"  🔍 Scraping kworb iTunes pour {country_name}...")
-    
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=30)
-        
-        if response.status_code in [403, 404]:
-            return []
-        
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        entries = []
-        
-        table = soup.find('table')
-        if not table:
-            return []
-        
-        rows = table.find_all('tr')
-        
-        for row in rows[1:51]:
-            cells = row.find_all('td')
-            
-            if len(cells) >= 3:
-                pos_text = cells[0].get_text(strip=True)
-                
-                if pos_text.isdigit():
-                    rank = int(pos_text)
+                    if not rank_match:
+                        continue
                     
+                    rank = int(rank_match.group())
+                    
+                    # Mouvement
                     movement_text = cells[1].get_text(strip=True).lower()
-                    artist_cell = cells[2]
-                    artist_text = artist_cell.get_text(strip=True)
                     
-                    title = ""
-                    artist = ""
+                    # Titre et artiste
+                    title_cell = cells[3] if len(cells) > 3 else cells[2]
+                    title = None
+                    artist = None
                     
-                    if ' - ' in artist_text:
-                        parts = artist_text.split(' - ', 1)
-                        if len(parts) == 2:
-                            artist = parts[0].strip()
-                            title = parts[1].strip()
+                    # Chercher les liens
+                    title_link = title_cell.find('a')
+                    if title_link:
+                        title = title_link.get_text(strip=True)
+                        
+                        # L'artiste est souvent dans la cellule suivante ou dans un lien séparé
+                        artist_cell = cells[4] if len(cells) > 4 else cells[3]
+                        artist_link = artist_cell.find('a')
+                        
+                        if artist_link:
+                            artist = artist_link.get_text(strip=True)
+                        else:
+                            # Parfois l'artiste est dans la même cellule après un <br>
+                            artist_text = artist_cell.get_text(strip=True)
+                            if artist_text and artist_text != title:
+                                artist = artist_text
                     else:
-                        links = artist_cell.find_all('a')
-                        if len(links) >= 2:
-                            artist = links[0].get_text(strip=True)
-                            title = links[1].get_text(strip=True)
+                        # Pas de lien, essayer de parser le texte
+                        text = title_cell.get_text(separator='|', strip=True)
+                        parts = [p.strip() for p in text.split('|') if p.strip()]
+                        if len(parts) >= 2:
+                            title = parts[0]
+                            artist = parts[1]
                     
                     if title and artist:
                         previous_pos = None
@@ -652,8 +504,171 @@ def fetch_kworb_itunes(url, country_name):
                             "movement": movement,
                             "weeksOnChart": 1,
                             "peakPosition": rank,
-                            "source": "kworb_itunes"
+                            "source": "acharts"
                         })
+        
+        print(f"    ✅ {len(entries)} entrées trouvées")
+        return entries
+    
+    except Exception as e:
+        print(f"    ❌ Erreur: {e}")
+        return []
+
+def fetch_brazil_promusica():
+    """Récupère le top brésilien via Pro-Música Brasil"""
+    print(f"  🔍 Scraping Pro-Música Brasil...")
+    
+    try:
+        url = "https://pro-musicabr.org.br/home/top-50-streaming/"
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        entries = []
+        
+        # Chercher les lignes du classement
+        rows = soup.find_all('tr')
+        
+        for row in rows:
+            cells = row.find_all('td')
+            
+            if len(cells) >= 3:
+                # Position
+                pos_text = cells[0].get_text(strip=True)
+                rank_match = re.search(r'\d+', pos_text)
+                
+                if rank_match:
+                    rank = int(rank_match.group())
+                    
+                    if rank <= 50:
+                        # Titre et artiste
+                        title_cell = cells[1]
+                        artist_cell = cells[2]
+                        
+                        title = title_cell.get_text(strip=True)
+                        artist = artist_cell.get_text(strip=True)
+                        
+                        if title and artist:
+                            entries.append({
+                                "position": rank,
+                                "track": {"title": title, "artist": artist},
+                                "previousPosition": None,
+                                "movement": "same",
+                                "weeksOnChart": 1,
+                                "peakPosition": rank,
+                                "source": "promusica"
+                            })
+        
+        print(f"    ✅ {len(entries)} entrées trouvées")
+        return entries
+    
+    except Exception as e:
+        print(f"    ❌ Erreur: {e}")
+        return []
+
+def fetch_kworb_itunes(url, country_name):
+    """Récupère le top via kworb.net (iTunes)"""
+    print(f"  🔍 Scraping kworb.net pour {country_name}...")
+    
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        entries = []
+        table = soup.find('table', class_='chartlist')
+        
+        if not table:
+            table = soup.find('table')
+        
+        if table:
+            rows = table.find_all('tr')[1:]
+            
+            for row in rows:
+                cells = row.find_all('td')
+                
+                if len(cells) >= 3:
+                    # Position
+                    pos_text = cells[0].get_text(strip=True)
+                    rank_match = re.search(r'\d+', pos_text)
+                    
+                    if rank_match:
+                        rank = int(rank_match.group())
+                        
+                        # Mouvement
+                        movement_cell = cells[1]
+                        movement_text = movement_cell.get_text(strip=True)
+                        
+                        # Titre et artiste
+                        title_cell = cells[2]
+                        title = None
+                        artist = None
+                        
+                        # Parser la cellule titre/artiste
+                        title_link = title_cell.find('a')
+                        
+                        if title_link:
+                            title = title_link.get_text(strip=True)
+                            
+                            # Chercher l'artiste
+                            artist_cell = cells[3] if len(cells) > 3 else None
+                            
+                            if artist_cell:
+                                artist_link = artist_cell.find('a')
+                                if artist_link:
+                                    artist = artist_link.get_text(strip=True)
+                                else:
+                                    artist = artist_cell.get_text(strip=True)
+                        else:
+                            # Pas de lien, parser le texte
+                            text = title_cell.get_text(separator='|', strip=True)
+                            parts = [p.strip() for p in text.split('|') if p.strip()]
+                            
+                            if len(parts) >= 2:
+                                title = parts[0]
+                                artist = parts[1]
+                            elif len(parts) == 1:
+                                # Essayer de séparer artiste - titre
+                                if ' - ' in parts[0]:
+                                    artist, title = parts[0].split(' - ', 1)
+                                else:
+                                    title = parts[0]
+                        
+                        if title and artist:
+                            previous_pos = None
+                            movement = "new"
+                            
+                            if movement_text == 'new' or movement_text == '':
+                                movement = "new"
+                            elif movement_text.startswith('+'):
+                                try:
+                                    diff = int(movement_text[1:])
+                                    previous_pos = rank + diff
+                                    movement = "up"
+                                except:
+                                    movement = "same"
+                                    previous_pos = rank
+                            elif movement_text.startswith('-'):
+                                try:
+                                    diff = int(movement_text[1:])
+                                    previous_pos = rank - diff
+                                    movement = "down"
+                                except:
+                                    movement = "same"
+                                    previous_pos = rank
+                            else:
+                                movement = "same"
+                                previous_pos = rank
+                            
+                            entries.append({
+                                "position": rank,
+                                "track": {"title": title, "artist": artist},
+                                "previousPosition": previous_pos,
+                                "movement": movement,
+                                "weeksOnChart": 1,
+                                "peakPosition": rank,
+                                "source": "kworb_itunes"
+                            })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
         return entries
@@ -744,6 +759,137 @@ def fetch_billboard_hot100():
     
     return fetch_acharts("https://acharts.co/us_singles_top_100", "US")
 
+# ===== SOURCE CHARTSINFRANCE.NET (NOUVELLE) =====
+
+def fetch_chartsinfrance_latest():
+    """
+    Récupère le dernier top singles depuis chartsinfrance.net
+    Source officielle SNEP/SCPP (Syndicat National de l'Édition Phonographique)
+    """
+    print(f"  🔍 Tentative chartsinfrance.net (source officielle SNEP)...")
+    
+    # Point de référence : 8645 = 6 novembre 1986
+    REF_WEEK = 8645
+    REF_DATE = datetime(1986, 11, 6)
+    
+    # Calculer le numéro de semaine pour aujourd'hui
+    today = datetime.now()
+    delta_days = (today - REF_DATE).days
+    delta_weeks = delta_days // 7
+    current_week_num = REF_WEEK + delta_weeks
+    
+    # Essayer cette semaine et les 2 précédentes
+    for offset in range(0, 3):
+        week_num = current_week_num - offset
+        url = f"https://www.chartsinfrance.net/charts/{week_num}/singles.php"
+        
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=30)
+            
+            if response.status_code == 404:
+                print(f"    ⚠️ Semaine {week_num} non trouvée, essai suivant...")
+                continue
+            
+            if "Aucun classement disponible" in response.text:
+                print(f"    ⚠️ Aucune donnée pour semaine {week_num}, essai suivant...")
+                continue
+            
+            response.raise_for_status()
+            
+            # Parser le HTML
+            entries = []
+            lines = response.text.split('\n')
+            
+            for i, line in enumerate(lines):
+                # Chercher les positions (nombres seuls sur une ligne)
+                if re.search(r'^\s*\d{1,2}\s*$', line.strip()):
+                    position = int(line.strip())
+                    
+                    if position <= 50:
+                        title = ""
+                        artist = ""
+                        
+                        # Chercher titre et artiste dans les lignes suivantes
+                        for j in range(i+1, min(i+5, len(lines))):
+                            next_line = lines[j].strip()
+                            
+                            # Ignorer les lignes vides ou avec des underscores
+                            if next_line and not next_line.startswith('_') and len(next_line) > 3:
+                                if not title:
+                                    title = next_line
+                                elif not artist:
+                                    artist = next_line
+                                    break
+                        
+                        if title and artist:
+                            # Déterminer le mouvement
+                            movement = "same"
+                            previous_pos = None
+                            
+                            # Chercher les indicateurs de mouvement
+                            for j in range(i+1, min(i+10, len(lines))):
+                                line_lower = lines[j].lower()
+                                
+                                if 'arrow_top' in line_lower or '▲' in lines[j]:
+                                    movement = "up"
+                                    # Essayer d'extraire le nombre de places gagnées
+                                    num_match = re.search(r'(\d+)', lines[j])
+                                    if num_match:
+                                        diff = int(num_match.group(1))
+                                        previous_pos = position + diff
+                                    break
+                                elif 'arrow_bot' in line_lower or '▼' in lines[j]:
+                                    movement = "down"
+                                    num_match = re.search(r'(\d+)', lines[j])
+                                    if num_match:
+                                        diff = int(num_match.group(1))
+                                        previous_pos = position - diff
+                                    break
+                                elif 'new' in line_lower:
+                                    movement = "new"
+                                    break
+                                elif 'arrow_right' in line_lower or '→' in lines[j]:
+                                    movement = "same"
+                                    previous_pos = position
+                                    break
+                            
+                            if previous_pos is None and movement != "new":
+                                previous_pos = position
+                            
+                            entries.append({
+                                "position": position,
+                                "track": {"title": title, "artist": artist},
+                                "previousPosition": previous_pos,
+                                "movement": movement,
+                                "weeksOnChart": 1,
+                                "peakPosition": position,
+                                "source": "chartsinfrance"
+                            })
+            
+            # Dédupliquer par position
+            seen = set()
+            unique_entries = []
+            for entry in entries:
+                if entry["position"] not in seen:
+                    seen.add(entry["position"])
+                    unique_entries.append(entry)
+            
+            entries = sorted(unique_entries, key=lambda x: x["position"])[:50]
+            
+            if entries:
+                # Calculer la date de la semaine
+                week_date = REF_DATE + timedelta(weeks=(week_num - REF_WEEK))
+                
+                print(f"    ✅ {len(entries)} entrées trouvées via chartsinfrance.net (semaine du {week_date.strftime('%d/%m/%Y')})")
+                return entries
+        
+        except Exception as e:
+            print(f"    ⚠️ Erreur chartsinfrance semaine {week_num}: {e}")
+            continue
+    
+    print(f"    ❌ Échec : aucune semaine disponible")
+    return []
+
 # ===== FONCTION PRINCIPALE =====
 
 def main():
@@ -791,6 +937,7 @@ def main():
         source_used = country_info["source"]
         entries = []
         
+        # Récupérer les données selon la source
         if source_used == "billboard":
             entries = fetch_billboard_hot100()
         elif source_used == "acharts":
@@ -801,6 +948,13 @@ def main():
             entries = fetch_brazil_promusica()
         elif source_used == "itunes_rss":
             entries = fetch_itunes_rss(country_info["itunes_url"], country_info["name"])
+        elif source_used == "chartsinfrance":
+            entries = fetch_chartsinfrance_latest()
+        
+        # Fallback pour la France : si chartsinfrance échoue, essayer acharts
+        if code == "fr" and (not entries or len(entries) < 5):
+            print(f"  🔄 Fallback sur acharts.co pour la France...")
+            entries = fetch_acharts("https://acharts.co/france_singles_top_100", country_info["name"])
         
         # Enrichir avec le cache (version corrigée)
         if entries and len(entries) >= 5:
