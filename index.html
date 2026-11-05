@@ -2609,86 +2609,135 @@
       }
     }
 
-    function displayArchive(archiveData) {
-      const entries = archiveData.entries || [];
-      
-      if (entries.length === 0) {
-        retroContent.innerHTML = `<div class="empty">Aucune donnée trouvée pour cette archive.</div>`;
-        document.getElementById('retroEnrichmentPanel').style.display = 'none';
-        return;
+ function displayArchive(archiveData) {
+  const entries = archiveData.entries || [];
+  
+  if (entries.length === 0) {
+    retroContent.innerHTML = `<div class="empty">Aucune donnée trouvée pour cette archive.</div>`;
+    document.getElementById('retroEnrichmentPanel').style.display = 'none';
+    return;
+  }
+  
+  const cache = loadRetroStreamingCache();
+  entries.forEach(entry => {
+    const cacheKey = getRetroCacheKey(entry.track.artist, entry.track.title);
+    if (cache[cacheKey]) {
+      const cached = cache[cacheKey];
+      if (cached.youtube_id) {
+        entry.youtube_id = cached.youtube_id;
+        entry.youtube_url = cached.youtube_url;
       }
-      
-      const cache = loadRetroStreamingCache();
-      entries.forEach(entry => {
-        const cacheKey = getRetroCacheKey(entry.track.artist, entry.track.title);
-        if (cache[cacheKey]) {
-          const cached = cache[cacheKey];
-          if (cached.youtube_id) {
-            entry.youtube_id = cached.youtube_id;
-            entry.youtube_url = cached.youtube_url;
-          }
-          if (cached.deezer_id) {
-            entry.deezer_id = cached.deezer_id;
-            entry.deezer_url = cached.deezer_url;
-            if (cached.artwork) entry.track.artwork = cached.artwork;
-          }
-        }
-      });
-      
-      const hasYouTube = entries.some(e => e.youtube_id);
-      const hasDeezer = entries.some(e => e.deezer_id);
-      const hasAnyId = hasYouTube || hasDeezer;
-      
-      let html = `
-        <div class="chart-header">
-          <div>
-            <h2 style="font-size: 22px;">
-              Top 50 - ${archiveData.date || `Semaine ${archiveData.week}/${archiveData.year}`}
-              ${hasAnyId ? '<span class="enriched-badge">✓ Enrichi</span>' : ''}
-            </h2>
-            <p>Archives top-archives.fr</p>
-          </div>
-        </div>
-      `;
-      
-      html += entries.map((entry, index) => {
-        const coverStyle = entry.track.artwork 
-          ? `background-image: url('${entry.track.artwork}');` 
-          : '';
-        const coverContent = entry.track.artwork 
-          ? '' 
-          : initials(entry.track.title);
-        
-        return `
-          <div class="row">
-            <div class="rank ${entry.position <= 3 ? "top" : ""}">${entry.position}</div>
-            <div class="movement same">📼 Archive</div>
-            <div class="cover" style="${coverStyle}">${coverContent}</div>
-            <div class="meta">
-              <div class="title">${escapeHtml(entry.track.title)}</div>
-              <div class="artist">${escapeHtml(entry.track.artist)}</div>
-            </div>
-            <div class="details">
-              ${createListenButtons(entry)}
-            </div>
-          </div>
-        `;
-      }).join('');
-      
-      retroContent.innerHTML = html;
-      
-      const enrichmentPanel = document.getElementById('retroEnrichmentPanel');
-      enrichmentPanel.style.display = 'block';
-      
-      const apiKey = localStorage.getItem('youtubeApiKey');
-      if (!apiKey) {
-        apiKeyWarning.style.display = 'block';
-      } else {
-        apiKeyWarning.style.display = 'none';
+      if (cached.deezer_id) {
+        entry.deezer_id = cached.deezer_id;
+        entry.deezer_url = cached.deezer_url;
+        if (cached.artwork) entry.track.artwork = cached.artwork;
       }
-      
-      window.currentRetroArchive = archiveData;
     }
+  });
+  
+  const hasYouTube = entries.some(e => e.youtube_id);
+  const hasDeezer = entries.some(e => e.deezer_id);
+  const hasAnyId = hasYouTube || hasDeezer;
+  
+  // Calculer des statistiques sur les mouvements
+  const upCount = entries.filter(e => e.movement === 'up').length;
+  const downCount = entries.filter(e => e.movement === 'down').length;
+  const newCount = entries.filter(e => e.movement === 'new').length;
+  
+  let html = `
+    <div class="chart-header">
+      <div>
+        <h2 style="font-size: 22px;">
+          Top ${entries.length} - ${archiveData.date || `Semaine ${archiveData.week}/${archiveData.year}`}
+          ${hasAnyId ? '<span class="enriched-badge">✓ Enrichi</span>' : ''}
+        </h2>
+        <p>
+          📼 Archive ${archiveData.source || 'chartsinfrance.net'} · 
+          ${upCount} ▲ · ${downCount} ▼ · ${newCount} ✦
+        </p>
+      </div>
+    </div>
+  `;
+  
+  html += entries.map((entry, index) => {
+    const coverStyle = entry.track.artwork 
+      ? `background-image: url('${entry.track.artwork}');` 
+      : '';
+    const coverContent = entry.track.artwork 
+      ? '' 
+      : initials(entry.track.title);
+    
+    // Déterminer le mouvement à afficher
+    let movementHtml = '';
+    let movementClass = 'same';
+    let movementLabel = '●';
+    
+    if (entry.movement === 'new') {
+      movementClass = 'new';
+      movementLabel = '✦ Nouveau';
+    } else if (entry.movement === 'up' && entry.previousPosition) {
+      movementClass = 'up';
+      const diff = entry.previousPosition - entry.position;
+      movementLabel = `▲ ${diff}`;
+    } else if (entry.movement === 'down' && entry.previousPosition) {
+      movementClass = 'down';
+      const diff = entry.position - entry.previousPosition;
+      movementLabel = `▼ ${diff}`;
+    } else {
+      movementClass = 'same';
+      movementLabel = '● Stable';
+    }
+    
+    // Détails additionnels (semaines, pic, précédent)
+    const detailsChips = [];
+    
+    if (entry.weeksOnChart && entry.weeksOnChart > 1) {
+      detailsChips.push(`<span class="chip">${entry.weeksOnChart} sem.</span>`);
+    }
+    
+    if (entry.peakPosition) {
+      detailsChips.push(`<span class="chip">Pic ${entry.peakPosition}</span>`);
+    }
+    
+    if (entry.previousPosition && entry.movement !== 'new') {
+      detailsChips.push(`<span class="chip">Préc. ${entry.previousPosition}</span>`);
+    }
+    
+    if (entry.movement === 'new') {
+      detailsChips.push(`<span class="chip new">Entrée</span>`);
+    }
+    
+    return `
+      <div class="row">
+        <div class="rank ${entry.position <= 3 ? "top" : ""}">${entry.position}</div>
+        <div class="movement ${movementClass}">${movementLabel}</div>
+        <div class="cover" style="${coverStyle}">${coverContent}</div>
+        <div class="meta">
+          <div class="title">${escapeHtml(entry.track.title)}</div>
+          <div class="artist">${escapeHtml(entry.track.artist)}</div>
+        </div>
+        <div class="details">
+          ${detailsChips.join('')}
+          ${createListenButtons(entry)}
+        </div>
+      </div>
+    `;
+  }).join('');
+  
+  retroContent.innerHTML = html;
+  
+  const enrichmentPanel = document.getElementById('retroEnrichmentPanel');
+  enrichmentPanel.style.display = 'block';
+  
+  const apiKey = localStorage.getItem('youtubeApiKey');
+  if (!apiKey) {
+    apiKeyWarning.style.display = 'block';
+  } else {
+    apiKeyWarning.style.display = 'none';
+  }
+  
+  window.currentRetroArchive = archiveData;
+}
 
     // ===== GESTION DU CACHE RÉTRO =====
 
