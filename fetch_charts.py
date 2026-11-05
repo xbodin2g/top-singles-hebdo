@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
-Version complète avec :
-- Cache intelligent + correction du bug des IDs manquants
-- chartsinfrance.net comme source officielle pour la France (SNEP/SCPP)
-- Fallback automatique entre sources
+Version avec SNEP comme source principale pour la France.
 """
 
 import json
@@ -18,14 +15,12 @@ import urllib.parse
 
 YOUTUBE_API_KEY = os.environ.get('YOUTUBE_API_KEY', '')
 
-# Configuration - Limite à 20 par pays
 YOUTUBE_LIMIT_PER_COUNTRY = 20
 DEEZER_LIMIT_PER_COUNTRY = 20
 
-# Configuration du cache
 CACHE_DIR = "data/cache"
 CACHE_FILE = os.path.join(CACHE_DIR, "streaming_ids.json")
-CACHE_MAX_AGE_DAYS = 730  # 2 ans
+CACHE_MAX_AGE_DAYS = 730
 
 SOURCES = {
     "us": {
@@ -38,7 +33,7 @@ SOURCES = {
         "name": "France", 
         "flag": "🇫🇷", 
         "region": "europe", 
-        "source": "chartsinfrance"  # Source officielle SNEP/SCPP
+        "source": "snep"  # ← SNEP comme source principale
     },
     "gb": {
         "name": "Royaume-Uni", 
@@ -86,7 +81,6 @@ youtube_quota_exceeded = False
 # ===== GESTION DU CACHE =====
 
 def load_cache():
-    """Charge le cache et applique le nettoyage automatique"""
     cache = {}
     
     if os.path.exists(CACHE_FILE):
@@ -94,10 +88,7 @@ def load_cache():
             with open(CACHE_FILE, 'r', encoding='utf-8') as f:
                 cache = json.load(f)
             print(f"📦 Cache chargé : {len(cache)} titres en mémoire")
-            
-            # Appliquer le nettoyage automatique
             cache = clean_cache(cache)
-            
         except Exception as e:
             print(f"⚠️ Erreur lors du chargement du cache: {e}")
             cache = {}
@@ -107,7 +98,6 @@ def load_cache():
     return cache
 
 def clean_cache(cache, max_age_days=CACHE_MAX_AGE_DAYS):
-    """Nettoie le cache en supprimant les entrées de plus de max_age_days"""
     if not cache:
         return cache
     
@@ -126,7 +116,6 @@ def clean_cache(cache, max_age_days=CACHE_MAX_AGE_DAYS):
             else:
                 removed_count += 1
         except (ValueError, TypeError):
-            # Si la date est invalide, garder l'entrée par sécurité
             cleaned_cache[key] = value
     
     if removed_count > 0:
@@ -136,7 +125,6 @@ def clean_cache(cache, max_age_days=CACHE_MAX_AGE_DAYS):
     return cleaned_cache
 
 def save_cache(cache):
-    """Sauvegarde le cache dans le fichier JSON"""
     try:
         os.makedirs(CACHE_DIR, exist_ok=True)
         with open(CACHE_FILE, 'w', encoding='utf-8') as f:
@@ -146,7 +134,6 @@ def save_cache(cache):
         print(f"⚠️ Erreur lors de la sauvegarde du cache: {e}")
 
 def get_cache_key(artist, title):
-    """Génère une clé unique pour un titre (normalisée)"""
     artist_clean = re.sub(r'\(.*?\)', '', artist).lower().strip()
     title_clean = re.sub(r'\(.*?\)', '', title).lower().strip()
     
@@ -179,7 +166,6 @@ def calculate_movement(current_pos, previous_pos):
 # ===== RECHERCHE DEEZER =====
 
 def fetch_deezer_track_id(artist, title):
-    """Récupère l'ID Deezer d'un titre via l'API publique"""
     try:
         clean_title = re.sub(r'\(.*?\)', '', title).strip()
         clean_artist = re.sub(r'\(.*?\)', '', artist).strip()
@@ -206,7 +192,6 @@ def fetch_deezer_track_id(artist, title):
 # ===== RECHERCHE YOUTUBE =====
 
 def fetch_youtube_video_id_official(artist, title):
-    """Récupère l'ID vidéo YouTube en privilégiant les vidéos officielles"""
     global youtube_quota_exceeded
     
     if youtube_quota_exceeded:
@@ -259,7 +244,6 @@ def fetch_youtube_video_id_official(artist, title):
         
         best_video = None
         
-        # Chercher une vidéo officielle
         for item in items:
             video_title = item['snippet']['title'].lower()
             channel = item['snippet']['channelTitle'].lower()
@@ -273,7 +257,6 @@ def fetch_youtube_video_id_official(artist, title):
                 best_video = item
                 break
         
-        # Fallback : première vidéo non-exclue
         if not best_video:
             for item in items:
                 video_title = item['snippet']['title'].lower()
@@ -295,13 +278,9 @@ def fetch_youtube_video_id_official(artist, title):
     
     return None
 
-# ===== ENRICHISSEMENT AVEC CACHE (VERSION CORRIGÉE) =====
+# ===== ENRICHISSEMENT AVEC CACHE =====
 
 def enrich_with_cache(entries, cache, country_name):
-    """
-    Enrichit les entrées avec les IDs Deezer et YouTube en utilisant le cache.
-    Version corrigée qui recherche les IDs manquants même si l'autre plateforme est en cache.
-    """
     print(f"  📊 Enrichissement avec cache pour {country_name}...")
     
     youtube_count = 0
@@ -315,26 +294,21 @@ def enrich_with_cache(entries, cache, country_name):
         title = entry['track']['title']
         cache_key = get_cache_key(artist, title)
         
-        # Vérifier si on a déjà des IDs
         has_youtube = bool(entry.get('youtube_id'))
         has_deezer = bool(entry.get('deezer_id'))
         
-        # Compter les limites
         can_search_youtube = youtube_count < YOUTUBE_LIMIT_PER_COUNTRY
         can_search_deezer = deezer_count < DEEZER_LIMIT_PER_COUNTRY
         
-        # Vérifier le cache
         if cache_key in cache:
             cached = cache[cache_key]
             
-            # Appliquer les IDs YouTube depuis le cache si absents
             if not has_youtube and cached.get('youtube_id'):
                 entry['youtube_id'] = cached['youtube_id']
                 entry['youtube_url'] = cached['youtube_url']
                 has_youtube = True
                 youtube_from_cache += 1
             
-            # Appliquer les IDs Deezer depuis le cache si absents
             if not has_deezer and cached.get('deezer_id'):
                 entry['deezer_id'] = cached['deezer_id']
                 entry['deezer_url'] = cached['deezer_url']
@@ -343,10 +317,8 @@ def enrich_with_cache(entries, cache, country_name):
                 has_deezer = True
                 deezer_from_cache += 1
         
-        # Rechercher les IDs manquants (même si l'autre est en cache)
         needs_update = False
         
-        # Rechercher YouTube si manquant et dans la limite
         if not has_youtube and can_search_youtube:
             youtube_info = fetch_youtube_video_id_official(artist, title)
             if youtube_info:
@@ -354,7 +326,6 @@ def enrich_with_cache(entries, cache, country_name):
                 entry['youtube_url'] = youtube_info['youtube_url']
                 youtube_count += 1
                 
-                # Mettre à jour le cache
                 if cache_key not in cache:
                     cache[cache_key] = {
                         'artist': artist,
@@ -367,7 +338,6 @@ def enrich_with_cache(entries, cache, country_name):
             
             time.sleep(0.3)
         
-        # Rechercher Deezer si manquant et dans la limite
         if not has_deezer and can_search_deezer:
             deezer_info = fetch_deezer_track_id(artist, title)
             if deezer_info:
@@ -377,7 +347,6 @@ def enrich_with_cache(entries, cache, country_name):
                     entry['track']['artwork'] = deezer_info['artwork']
                 deezer_count += 1
                 
-                # Mettre à jour le cache
                 if cache_key not in cache:
                     cache[cache_key] = {
                         'artist': artist,
@@ -409,7 +378,6 @@ def enrich_with_cache(entries, cache, country_name):
 # ===== SOURCES DE DONNÉES =====
 
 def fetch_acharts(url, country_name):
-    """Récupère le top via acharts.co"""
     print(f"  🔍 Scraping acharts.co pour {country_name}...")
     
     try:
@@ -430,7 +398,6 @@ def fetch_acharts(url, country_name):
                 cells = row.find_all('td')
                 
                 if len(cells) >= 4:
-                    # Position
                     pos_text = cells[0].get_text(strip=True)
                     rank_match = re.search(r'\d+', pos_text)
                     
@@ -439,32 +406,26 @@ def fetch_acharts(url, country_name):
                     
                     rank = int(rank_match.group())
                     
-                    # Mouvement
                     movement_text = cells[1].get_text(strip=True).lower()
                     
-                    # Titre et artiste
                     title_cell = cells[3] if len(cells) > 3 else cells[2]
                     title = None
                     artist = None
                     
-                    # Chercher les liens
                     title_link = title_cell.find('a')
                     if title_link:
                         title = title_link.get_text(strip=True)
                         
-                        # L'artiste est souvent dans la cellule suivante ou dans un lien séparé
                         artist_cell = cells[4] if len(cells) > 4 else cells[3]
                         artist_link = artist_cell.find('a')
                         
                         if artist_link:
                             artist = artist_link.get_text(strip=True)
                         else:
-                            # Parfois l'artiste est dans la même cellule après un <br>
                             artist_text = artist_cell.get_text(strip=True)
                             if artist_text and artist_text != title:
                                 artist = artist_text
                     else:
-                        # Pas de lien, essayer de parser le texte
                         text = title_cell.get_text(separator='|', strip=True)
                         parts = [p.strip() for p in text.split('|') if p.strip()]
                         if len(parts) >= 2:
@@ -515,7 +476,6 @@ def fetch_acharts(url, country_name):
         return []
 
 def fetch_brazil_promusica():
-    """Récupère le top brésilien via Pro-Música Brasil"""
     print(f"  🔍 Scraping Pro-Música Brasil...")
     
     try:
@@ -526,14 +486,12 @@ def fetch_brazil_promusica():
         
         entries = []
         
-        # Chercher les lignes du classement
         rows = soup.find_all('tr')
         
         for row in rows:
             cells = row.find_all('td')
             
             if len(cells) >= 3:
-                # Position
                 pos_text = cells[0].get_text(strip=True)
                 rank_match = re.search(r'\d+', pos_text)
                 
@@ -541,7 +499,6 @@ def fetch_brazil_promusica():
                     rank = int(rank_match.group())
                     
                     if rank <= 50:
-                        # Titre et artiste
                         title_cell = cells[1]
                         artist_cell = cells[2]
                         
@@ -567,7 +524,6 @@ def fetch_brazil_promusica():
         return []
 
 def fetch_kworb_itunes(url, country_name):
-    """Récupère le top via kworb.net (iTunes)"""
     print(f"  🔍 Scraping kworb.net pour {country_name}...")
     
     try:
@@ -588,29 +544,24 @@ def fetch_kworb_itunes(url, country_name):
                 cells = row.find_all('td')
                 
                 if len(cells) >= 3:
-                    # Position
                     pos_text = cells[0].get_text(strip=True)
                     rank_match = re.search(r'\d+', pos_text)
                     
                     if rank_match:
                         rank = int(rank_match.group())
                         
-                        # Mouvement
                         movement_cell = cells[1]
                         movement_text = movement_cell.get_text(strip=True)
                         
-                        # Titre et artiste
                         title_cell = cells[2]
                         title = None
                         artist = None
                         
-                        # Parser la cellule titre/artiste
                         title_link = title_cell.find('a')
                         
                         if title_link:
                             title = title_link.get_text(strip=True)
                             
-                            # Chercher l'artiste
                             artist_cell = cells[3] if len(cells) > 3 else None
                             
                             if artist_cell:
@@ -620,7 +571,6 @@ def fetch_kworb_itunes(url, country_name):
                                 else:
                                     artist = artist_cell.get_text(strip=True)
                         else:
-                            # Pas de lien, parser le texte
                             text = title_cell.get_text(separator='|', strip=True)
                             parts = [p.strip() for p in text.split('|') if p.strip()]
                             
@@ -628,7 +578,6 @@ def fetch_kworb_itunes(url, country_name):
                                 title = parts[0]
                                 artist = parts[1]
                             elif len(parts) == 1:
-                                # Essayer de séparer artiste - titre
                                 if ' - ' in parts[0]:
                                     artist, title = parts[0].split(' - ', 1)
                                 else:
@@ -678,7 +627,6 @@ def fetch_kworb_itunes(url, country_name):
         return []
 
 def fetch_itunes_rss(url, country_name):
-    """Récupère le top via l'API iTunes RSS"""
     print(f"  🔍 Scraping iTunes RSS pour {country_name}...")
     
     try:
@@ -722,7 +670,6 @@ def fetch_itunes_rss(url, country_name):
         return []
 
 def fetch_billboard_hot100():
-    """Récupère le Billboard Hot 100"""
     print(f"  🔍 Tentative avec billboard.py...")
     
     try:
@@ -759,136 +706,158 @@ def fetch_billboard_hot100():
     
     return fetch_acharts("https://acharts.co/us_singles_top_100", "US")
 
-# ===== SOURCE CHARTSINFRANCE.NET (NOUVELLE) =====
+# ===== SOURCE SNEP (NOUVELLE - SOURCE OFFICIELLE) =====
 
-def fetch_chartsinfrance_latest():
+def fetch_snep_latest():
     """
-    Récupère le dernier top singles depuis chartsinfrance.net
-    Source officielle SNEP/SCPP (Syndicat National de l'Édition Phonographique)
+    Récupère le dernier top singles depuis snepmusique.com (SOURCE OFFICIELLE SNEP)
     """
-    print(f"  🔍 Tentative chartsinfrance.net (source officielle SNEP)...")
+    print(f"  🔍 Tentative snepmusique.com (source officielle SNEP)...")
     
-    # Point de référence : 8645 = 6 novembre 1986
-    REF_WEEK = 8645
-    REF_DATE = datetime(1986, 11, 6)
+    # URL pour la semaine en cours
+    url = "https://snepmusique.com/classement-radio/"
     
-    # Calculer le numéro de semaine pour aujourd'hui
-    today = datetime.now()
-    delta_days = (today - REF_DATE).days
-    delta_weeks = delta_days // 7
-    current_week_num = REF_WEEK + delta_weeks
-    
-    # Essayer cette semaine et les 2 précédentes
-    for offset in range(0, 3):
-        week_num = current_week_num - offset
-        url = f"https://www.chartsinfrance.net/charts/{week_num}/singles.php"
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
         
-        try:
-            response = requests.get(url, headers=HEADERS, timeout=30)
+        if response.status_code == 404:
+            print(f"    ❌ Page non trouvée (404)")
+            return []
+        
+        response.raise_for_status()
+        
+        if "Aucun classement" in response.text or len(response.text) < 1000:
+            print(f"    ❌ Aucune donnée disponible")
+            return []
+        
+        entries = parse_snep_html(response.text)
+        
+        if not entries:
+            print(f"    ❌ Aucune entrée parsée")
+            return []
+        
+        entries.sort(key=lambda x: x["position"])
+        
+        seen = set()
+        unique_entries = []
+        for entry in entries:
+            if entry["position"] not in seen:
+                seen.add(entry["position"])
+                unique_entries.append(entry)
+        
+        entries = unique_entries[:200]
+        
+        if entries:
+            print(f"    ✅ {len(entries)} entrées trouvées via SNEP (source officielle)")
             
-            if response.status_code == 404:
-                print(f"    ⚠️ Semaine {week_num} non trouvée, essai suivant...")
-                continue
+            new_count = sum(1 for e in entries if e.get('movement') == 'new')
+            up_count = sum(1 for e in entries if e.get('movement') == 'up')
+            down_count = sum(1 for e in entries if e.get('movement') == 'down')
+            print(f"       📊 {new_count} nouvelles, {up_count} ▲, {down_count} ▼")
             
-            if "Aucun classement disponible" in response.text:
-                print(f"    ⚠️ Aucune donnée pour semaine {week_num}, essai suivant...")
-                continue
+            return entries
+    
+    except Exception as e:
+        print(f"    ❌ Erreur SNEP: {e}")
+    
+    return []
+
+def parse_snep_html(html_text):
+    """
+    Parse le HTML de snepmusique.com (VERSION FINALE CORRIGÉE)
+    """
+    entries = []
+    soup = BeautifulSoup(html_text, 'html.parser')
+    
+    text = soup.get_text(separator='\n', strip=True)
+    lines = [line.strip() for line in text.split('\n') if line.strip()]
+    
+    known_labels = [
+        'SONY MUSIC', 'UNIVERSAL', 'WARNER MUSIC', 'BELIEVE', 
+        'WAGRAM', 'WAGRAM MUSIC', 'IDOL', 'SCORPIO', 'HAPPY MUSIC', 
+        'THIRTY KNOTS', 'NOJOKE RECORDS', 'AWAL', 'EMPIRE', 
+        'BECAUSE MUSIC', 'LEVEL UP MUSIC', 'YPDP', 'ARGENTIC MUSIC', 
+        'STMPD RCRDS', 'FIDEL', 'TRINITY', 'LORE', 'THE ORCHARD',
+        'UNIVERSAL MUSIC', 'POLYDOR', 'VIRGIN', 'PARLOPHONE',
+        'EPIC', 'COLUMBIA', 'RCA', 'ATLANTIC', 'ELEKTRA', 'DEF JAM',
+        'PLAY TWO', 'EARLY BIRD', 'TÔT OU TARD', 'NAÏVE', 'PIAS',
+        'WARNER', 'SONY', 'BECAUSE', '3EME OEIL'
+    ]
+    known_labels_upper = [lbl.upper().strip() for lbl in known_labels]
+    
+    nav_keywords = [
+        'Semaine précédente', 'Semaine suivante', 'Télécharger en PDF', 
+        'Voir les filtres', 'Top Radio', 'Top Outre-mer', 'Abonnement',
+        'newsletter', 'Twitter', 'LinkedIn', 'Email', 'Copy link',
+        'Merci de partager', 'AddToAny', 'FERMER', 'Marketing Permissions'
+    ]
+    
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        
+        pos_match = re.match(r'^(\d{1,3})$', line)
+        
+        if pos_match:
+            position = int(pos_match.group(1))
             
-            response.raise_for_status()
-            
-            # Parser le HTML
-            entries = []
-            lines = response.text.split('\n')
-            
-            for i, line in enumerate(lines):
-                # Chercher les positions (nombres seuls sur une ligne)
-                if re.search(r'^\s*\d{1,2}\s*$', line.strip()):
-                    position = int(line.strip())
+            if 1 <= position <= 200:
+                block = []
+                for j in range(i + 1, min(i + 13, len(lines))):
+                    block.append(lines[j])
+                
+                if len(block) >= 5:
+                    title = block[0]
+                    artist = block[1]
+                    label = ""
+                    previous_pos = None
+                    movement = "same"
+                    weeks_on_chart = 1
                     
-                    if position <= 50:
-                        title = ""
-                        artist = ""
+                    if len(block) > 2 and block[2].upper() in known_labels_upper:
+                        label = block[2]
+                        data_start = 3
+                    else:
+                        data_start = 2
+                    
+                    for k, bline in enumerate(block[data_start:], start=data_start):
+                        if 'La Semaine Dernière' in bline:
+                            if k >= 2:
+                                prev_line = block[k - 2]
+                                if prev_line.isdigit():
+                                    previous_pos = int(prev_line)
+                                    if previous_pos > position:
+                                        movement = "up"
+                                    elif previous_pos < position:
+                                        movement = "down"
+                                    else:
+                                        movement = "same"
                         
-                        # Chercher titre et artiste dans les lignes suivantes
-                        for j in range(i+1, min(i+5, len(lines))):
-                            next_line = lines[j].strip()
-                            
-                            # Ignorer les lignes vides ou avec des underscores
-                            if next_line and not next_line.startswith('_') and len(next_line) > 3:
-                                if not title:
-                                    title = next_line
-                                elif not artist:
-                                    artist = next_line
-                                    break
-                        
-                        if title and artist:
-                            # Déterminer le mouvement
-                            movement = "same"
-                            previous_pos = None
-                            
-                            # Chercher les indicateurs de mouvement
-                            for j in range(i+1, min(i+10, len(lines))):
-                                line_lower = lines[j].lower()
-                                
-                                if 'arrow_top' in line_lower or '▲' in lines[j]:
-                                    movement = "up"
-                                    # Essayer d'extraire le nombre de places gagnées
-                                    num_match = re.search(r'(\d+)', lines[j])
-                                    if num_match:
-                                        diff = int(num_match.group(1))
-                                        previous_pos = position + diff
-                                    break
-                                elif 'arrow_bot' in line_lower or '▼' in lines[j]:
-                                    movement = "down"
-                                    num_match = re.search(r'(\d+)', lines[j])
-                                    if num_match:
-                                        diff = int(num_match.group(1))
-                                        previous_pos = position - diff
-                                    break
-                                elif 'new' in line_lower:
-                                    movement = "new"
-                                    break
-                                elif 'arrow_right' in line_lower or '→' in lines[j]:
-                                    movement = "same"
-                                    previous_pos = position
-                                    break
-                            
-                            if previous_pos is None and movement != "new":
-                                previous_pos = position
-                            
+                        elif 'Semaine dans le Top' in bline:
+                            if k >= 2:
+                                prev_line = block[k - 2]
+                                if prev_line.isdigit():
+                                    weeks_on_chart = int(prev_line)
+                                    if weeks_on_chart == 1:
+                                        movement = "new"
+                                        previous_pos = None
+                    
+                    if title and artist and len(title) > 2 and len(artist) > 2:
+                        if not any(kw in title.lower() for kw in ['semaine', 'top radio', 'actualités', 'les tops', 'news', 'newsletter']):
                             entries.append({
                                 "position": position,
                                 "track": {"title": title, "artist": artist},
+                                "label": label if label else None,
                                 "previousPosition": previous_pos,
                                 "movement": movement,
-                                "weeksOnChart": 1,
+                                "weeksOnChart": weeks_on_chart,
                                 "peakPosition": position,
-                                "source": "chartsinfrance"
+                                "source": "snep"
                             })
-            
-            # Dédupliquer par position
-            seen = set()
-            unique_entries = []
-            for entry in entries:
-                if entry["position"] not in seen:
-                    seen.add(entry["position"])
-                    unique_entries.append(entry)
-            
-            entries = sorted(unique_entries, key=lambda x: x["position"])[:50]
-            
-            if entries:
-                # Calculer la date de la semaine
-                week_date = REF_DATE + timedelta(weeks=(week_num - REF_WEEK))
-                
-                print(f"    ✅ {len(entries)} entrées trouvées via chartsinfrance.net (semaine du {week_date.strftime('%d/%m/%Y')})")
-                return entries
         
-        except Exception as e:
-            print(f"    ⚠️ Erreur chartsinfrance semaine {week_num}: {e}")
-            continue
+        i += 1
     
-    print(f"    ❌ Échec : aucune semaine disponible")
-    return []
+    return entries
 
 # ===== FONCTION PRINCIPALE =====
 
@@ -897,7 +866,6 @@ def main():
     
     print(f"🎵 Début de la collecte - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
     
-    # Charger le cache (avec nettoyage automatique)
     cache = load_cache()
     
     if YOUTUBE_API_KEY:
@@ -937,7 +905,6 @@ def main():
         source_used = country_info["source"]
         entries = []
         
-        # Récupérer les données selon la source
         if source_used == "billboard":
             entries = fetch_billboard_hot100()
         elif source_used == "acharts":
@@ -948,15 +915,14 @@ def main():
             entries = fetch_brazil_promusica()
         elif source_used == "itunes_rss":
             entries = fetch_itunes_rss(country_info["itunes_url"], country_info["name"])
-        elif source_used == "chartsinfrance":
-            entries = fetch_chartsinfrance_latest()
+        elif source_used == "snep":
+            entries = fetch_snep_latest()
         
-        # Fallback pour la France : si chartsinfrance échoue, essayer acharts
+        # Fallback pour la France : si SNEP échoue, essayer acharts
         if code == "fr" and (not entries or len(entries) < 5):
             print(f"  🔄 Fallback sur acharts.co pour la France...")
             entries = fetch_acharts("https://acharts.co/france_singles_top_100", country_info["name"])
         
-        # Enrichir avec le cache (version corrigée)
         if entries and len(entries) >= 5:
             entries = enrich_with_cache(entries, cache, country_info["name"])
         
@@ -976,10 +942,8 @@ def main():
             failed_sources.append(country_info["name"])
             print(f"  ❌ Échec")
     
-    # Sauvegarder le cache mis à jour
     save_cache(cache)
     
-    # Message final sur le quota
     if youtube_quota_exceeded:
         print(f"\n⚠️ ATTENTION : Le quota YouTube a été dépassé pendant la collecte")
         print(f"   Les titres non trouvés seront recherchés à la prochaine exécution")
