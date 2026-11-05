@@ -734833,5 +734833,4763 @@
     ],
     "source": "snepmusique.com",
     "cached_at": "2026-11-05"
+  },
+  "2014-01": {
+    "week": 1,
+    "year": 2014,
+    "date": "30/12/2013",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Formidable",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Hey Brother",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Papaoutai",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Royals",
+          "artist": "Lorde"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Timber",
+          "artist": "Pitbull"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Wake Me Up",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Flute",
+          "artist": "New World Sound And Thomas Newson"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Photomaton",
+          "artist": "Jabberwocky"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Paris-Seychelles",
+          "artist": "Julien Doré"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "The Monster feat. Rihanna",
+          "artist": "Eminem"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Wrecking Ball",
+          "artist": "Miley Cyrus"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Do What U Want",
+          "artist": "Lady Gaga"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Treasure",
+          "artist": "Bruno Mars"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Changer",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Animals",
+          "artist": "Martin Garrix"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Game Over",
+          "artist": "Vitaa"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Tsunami",
+          "artist": "DVBBS & Borgeous"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Blurred Lines",
+          "artist": "Robin Thicke"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Somewhere Only We Know",
+          "artist": "Lily Allen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-02": {
+    "week": 2,
+    "year": 2014,
+    "date": "06/01/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Hey Brother",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Royals",
+          "artist": "Lorde"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Timber",
+          "artist": "Pitbull"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Photomaton",
+          "artist": "Jabberwocky"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Papaoutai",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Flute",
+          "artist": "New World Sound And Thomas Newson"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Somewhere Only We Know",
+          "artist": "Lily Allen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "The Monster feat. Rihanna",
+          "artist": "Eminem"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Changer",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Paris-Seychelles"
+        },
+        "previousPosition": null,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Paris-Seychelles",
+          "artist": "Julien Doré"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Wrecking Ball",
+          "artist": "Miley Cyrus"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Wake Me Up",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Born Again",
+          "artist": "Ahzee"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Do What U Want",
+          "artist": "Lady Gaga"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Game Over",
+          "artist": "Vitaa"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Tsunami",
+          "artist": "DVBBS & Borgeous"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Drunk In Love",
+          "artist": "Beyoncé"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-03": {
+    "week": 3,
+    "year": 2014,
+    "date": "13/01/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Hey Brother",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Photomaton",
+          "artist": "Jabberwocky"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Formidable",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Timber",
+          "artist": "Pitbull"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Somewhere Only We Know",
+          "artist": "Lily Allen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Flute",
+          "artist": "New World Sound And Thomas Newson"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Papaoutai",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Talk Dirty",
+          "artist": "Jason Derulo"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Royals"
+        },
+        "previousPosition": 15,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Royals",
+          "artist": "Lorde"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "The Monster feat. Rihanna",
+          "artist": "Eminem"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Paris-Seychelles",
+          "artist": "Julien Doré"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Born Again",
+          "artist": "Ahzee"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Changer",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Wake Me Up",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Underwater",
+          "artist": "Mika"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Team BS",
+          "artist": "Fababy"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Wrecking Ball",
+          "artist": "Miley Cyrus"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-04": {
+    "week": 4,
+    "year": 2014,
+    "date": "20/01/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Photomaton",
+          "artist": "Jabberwocky"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Royals",
+          "artist": "Lorde"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Somewhere Only We Know",
+          "artist": "Lily Allen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Hey Brother",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Timber",
+          "artist": "Pitbull"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Sirens Call"
+        },
+        "previousPosition": null,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Somewhere Only We Know",
+          "artist": "Lily Allen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Formidable",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Flute",
+          "artist": "New World Sound And Thomas Newson"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Papaoutai",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Changer",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "The Monster feat. Rihanna",
+          "artist": "Eminem"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Born Again",
+          "artist": "Ahzee"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Talk Dirty",
+          "artist": "Jason Derulo"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Paris-Seychelles",
+          "artist": "Julien Doré"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Team BS",
+          "artist": "Fababy"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Do What U Want",
+          "artist": "Lady Gaga"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Wake Me Up",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Addicted To You",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-05": {
+    "week": 5,
+    "year": 2014,
+    "date": "27/01/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Royals",
+          "artist": "Lorde"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Somewhere Only We Know"
+        },
+        "previousPosition": null,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Somewhere Only We Know",
+          "artist": "Lily Allen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Photomaton",
+          "artist": "Jabberwocky"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Timber",
+          "artist": "Pitbull"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Hey Brother",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Drunk In Love",
+          "artist": "Beyoncé"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Formidable",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Flute",
+          "artist": "New World Sound And Thomas Newson"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Changer",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Born Again",
+          "artist": "Ahzee"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Royals",
+          "artist": "Lorde"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Still Loving You",
+          "artist": "Scorpions"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "The Monster feat. Rihanna",
+          "artist": "Eminem"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Dark Horse",
+          "artist": "Katy Perry"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "Purecharts est partenaire officiel du SNEP (Syndicat National de l'Edition Phonographique).",
+          "artist": "Ventes de disques en France"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "The Monster feat. Rihanna",
+          "artist": "Eminem"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-06": {
+    "week": 6,
+    "year": 2014,
+    "date": "03/02/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "La mort leur va si bien",
+          "artist": "Booba"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Royals"
+        },
+        "previousPosition": null,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Invisible",
+          "artist": "Somewhere Only We Know"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Somewhere Only We Know",
+          "artist": "Lily Allen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Timber",
+          "artist": "Pitbull"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Photomaton",
+          "artist": "Jabberwocky"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Hey Brother",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Drunk In Love",
+          "artist": "Beyoncé"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Flute",
+          "artist": "New World Sound And Thomas Newson"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Formidable",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Another Love",
+          "artist": "Tom Odell"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Ordinary Love",
+          "artist": "Jubel"
+        },
+        "previousPosition": null,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Papaoutai",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Born Again",
+          "artist": "Ahzee"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Changer",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-07": {
+    "week": 7,
+    "year": 2014,
+    "date": "10/02/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Shot Me Down",
+          "artist": "David Guetta"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Royals"
+        },
+        "previousPosition": null,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Royals",
+          "artist": "Lorde"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Formidable",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Somewhere Only We Know",
+          "artist": "Lily Allen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Drunk In Love",
+          "artist": "Beyoncé"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Papaoutai",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Hey Brother",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Tourner dans le vide",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Photomaton",
+          "artist": "Jabberwocky"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Timber",
+          "artist": "Pitbull"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Another Love",
+          "artist": "Tom Odell"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Changes",
+          "artist": "Faul & Wad Ad & Pnau"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Paris-Seychelles",
+          "artist": "Julien Doré"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Addicted To You",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Flute",
+          "artist": "New World Sound And Thomas Newson"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-08": {
+    "week": 8,
+    "year": 2014,
+    "date": "17/02/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Wasting My Young Years",
+          "artist": "London Grammar"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Royals",
+          "artist": "Lorde"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Drunk In Love",
+          "artist": "Beyoncé"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Shot Me Down",
+          "artist": "David Guetta"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Another Love",
+          "artist": "Tom Odell"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Photomaton",
+          "artist": "Jabberwocky"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Somewhere Only We Know",
+          "artist": "Lily Allen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Dark Horse"
+        },
+        "previousPosition": null,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Dark Horse",
+          "artist": "Katy Perry"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Tourner dans le vide",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Addicted To You",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Formidable",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Hey Brother",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Papaoutai",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Changes",
+          "artist": "Faul & Wad Ad & Pnau"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Timber",
+          "artist": "Pitbull"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 81,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 81,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-09": {
+    "week": 9,
+    "year": 2014,
+    "date": "24/02/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Wasting My Young Years",
+          "artist": "London Grammar"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Dark Horse",
+          "artist": "Katy Perry"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Addicted To You",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Happy",
+          "artist": "Fly By"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Drunk In Love",
+          "artist": "Beyoncé"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Somewhere Only We Know",
+          "artist": "Lily Allen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Royals"
+        },
+        "previousPosition": 15,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Royals",
+          "artist": "Lorde"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Another Love",
+          "artist": "Tom Odell"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Tourner dans le vide",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Photomaton",
+          "artist": "Jabberwocky"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Changes",
+          "artist": "Faul & Wad Ad & Pnau"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Hey Brother",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Shot Me Down",
+          "artist": "David Guetta"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Case départ",
+          "artist": "Team BS"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Timber",
+          "artist": "Pitbull"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-10": {
+    "week": 10,
+    "year": 2014,
+    "date": "03/03/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Wasting My Young Years",
+          "artist": "London Grammar"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Magic",
+          "artist": "Coldplay"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Dark Horse",
+          "artist": "Katy Perry"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Addicted To You",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Rather Be",
+          "artist": "Clean Bandit"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Changes",
+          "artist": "Faul & Wad Ad & Pnau"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Drunk In Love",
+          "artist": "Beyoncé"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Photomaton",
+          "artist": "Jabberwocky"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Changes",
+          "artist": "Faul & Wad Ad & Pnau"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Liar Liar",
+          "artist": "Cris Cab"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Shot Me Down"
+        },
+        "previousPosition": null,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Shot Me Down",
+          "artist": "David Guetta"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Tourner dans le vide",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Stolen Dance",
+          "artist": "Milky Chance"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Case départ",
+          "artist": "Team BS"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Black Pearl (He's A Pirate)",
+          "artist": "Rebel"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 58,
+        "track": {
+          "title": "Purecharts est partenaire officiel du SNEP (Syndicat National de l'Edition Phonographique).",
+          "artist": "Ventes de disques en France"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 58,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-11": {
+    "week": 11,
+    "year": 2014,
+    "date": "10/03/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Wasting My Young Years",
+          "artist": "London Grammar"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Rather Be",
+          "artist": "Clean Bandit"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Dark Horse",
+          "artist": "Katy Perry"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Addicted To You",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Stolen Dance",
+          "artist": "Milky Chance"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Liar Liar",
+          "artist": "Cris Cab"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Black Pearl (He's A Pirate)",
+          "artist": "Rebel"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Another Love",
+          "artist": "Tom Odell"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Drunk In Love",
+          "artist": "Beyoncé"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Belfast",
+          "artist": "Indochine"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Shot Me Down",
+          "artist": "David Guetta"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "La chanson du bénévole",
+          "artist": "Les Enfoirés"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Magic",
+          "artist": "Coldplay"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Demons",
+          "artist": "Imagine Dragons"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Somewhere Only We Know",
+          "artist": "Lily Allen"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Magic",
+          "artist": "Coldplay"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-12": {
+    "week": 12,
+    "year": 2014,
+    "date": "17/03/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Rather Be",
+          "artist": "Clean Bandit"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Wasting My Young Years",
+          "artist": "London Grammar"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Dark Horse",
+          "artist": "Katy Perry"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Black Pearl (He's A Pirate)",
+          "artist": "Rebel"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Stolen Dance",
+          "artist": "Milky Chance"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Addicted To You",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Liar Liar",
+          "artist": "Cris Cab"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Changes",
+          "artist": "Faul & Wad Ad & Pnau"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Shot Me Down",
+          "artist": "David Guetta"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Another Love",
+          "artist": "Tom Odell"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Demons",
+          "artist": "Imagine Dragons"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Drunk In Love",
+          "artist": "Beyoncé"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Tourner dans le vide",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Get Lucky feat. Pharrell Wi...",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "tous les mêmes",
+          "artist": "Stromae"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Dans ma paranoïa",
+          "artist": "Jul"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Paris-Seychelles"
+        },
+        "previousPosition": null,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Paris-Seychelles",
+          "artist": "Julien Doré"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-13": {
+    "week": 13,
+    "year": 2014,
+    "date": "24/03/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Rather Be",
+          "artist": "Clean Bandit"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Stolen Dance",
+          "artist": "Milky Chance"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Black Pearl (He's A Pirate)",
+          "artist": "Rebel"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Black Pearl (He's A Pirate)",
+          "artist": "Rebel"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Addicted To You",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Wasting My Young Years",
+          "artist": "London Grammar"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Dark Horse",
+          "artist": "Katy Perry"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Liar Liar",
+          "artist": "Cris Cab"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Le graal",
+          "artist": "Kyo"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Changes",
+          "artist": "Faul & Wad Ad & Pnau"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "You & Me",
+          "artist": "Disclosure"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Mme Pavoshko",
+          "artist": "Black M"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Changes",
+          "artist": "Faul & Wad Ad & Pnau"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Sur ma route",
+          "artist": "Black M"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Demons",
+          "artist": "Imagine Dragons"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Shot Me Down",
+          "artist": "David Guetta"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "La légende Black",
+          "artist": "Black M"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Sirens Call",
+          "artist": "Cats On Trees"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Tourner dans le vide",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Le regard des gens",
+          "artist": "Black M"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Casse pas ton dos",
+          "artist": "Black M"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-14": {
+    "week": 14,
+    "year": 2014,
+    "date": "31/03/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Stolen Dance",
+          "artist": "Milky Chance"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Rather Be",
+          "artist": "Clean Bandit"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Black Pearl (He's A Pirate)",
+          "artist": "Rebel"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "You & Me",
+          "artist": "Disclosure"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Wasting My Young Years",
+          "artist": "London Grammar"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Liar Liar",
+          "artist": "Cris Cab"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Addicted To You",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Dark Horse"
+        },
+        "previousPosition": null,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Dark Horse",
+          "artist": "Katy Perry"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Demons",
+          "artist": "Imagine Dragons"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Le graal",
+          "artist": "Kyo"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Mme Pavoshko",
+          "artist": "Black M"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Shot Me Down",
+          "artist": "David Guetta"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Tourner dans le vide",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Can't Remember To Forget You",
+          "artist": "Shakira & Rihanna"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Dark Horse",
+          "artist": "Katy Perry"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Dare (La La La)",
+          "artist": "Shakira"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Team",
+          "artist": "Lorde"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Dans ma paranoïa",
+          "artist": "Jul"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Dare (La La La)",
+          "artist": "Shakira"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
+  },
+  "2014-15": {
+    "week": 15,
+    "year": 2014,
+    "date": "07/04/2014",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Happy",
+          "artist": "Pharrell Williams"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "You & Me",
+          "artist": "Disclosure"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Stolen Dance",
+          "artist": "Milky Chance"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Rather Be",
+          "artist": "Clean Bandit"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Black Pearl (He's A Pirate)",
+          "artist": "Rebel"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Bad",
+          "artist": "David Guetta"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Dernière danse",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Wasting My Young Years",
+          "artist": "London Grammar"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Liar Liar",
+          "artist": "Cris Cab"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Addicted To You",
+          "artist": "Avicii"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Changes",
+          "artist": "Faul & Wad Ad & Pnau"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "OneRepublic",
+          "artist": "Dark Horse"
+        },
+        "previousPosition": null,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Dark Horse",
+          "artist": "Katy Perry"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Jubel",
+          "artist": "Klingande"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Mme Pavoshko",
+          "artist": "Black M"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Demons",
+          "artist": "Imagine Dragons"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Waves (Robin Schulz Remix)",
+          "artist": "Mr. Probz"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Instant Crush",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Tourner dans le vide",
+          "artist": "Indila"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Zombie",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Come On To Me",
+          "artist": "Major Lazer"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Shot Me Down",
+          "artist": "David Guetta"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Le graal",
+          "artist": "Kyo"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "All Of Me",
+          "artist": "John Legend"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Magic In The Air",
+          "artist": "Magic System"
+        },
+        "previousPosition": null,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-05"
   }
 }
