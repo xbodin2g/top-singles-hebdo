@@ -284,10 +284,10 @@ def parse_chartsinfrance_html(html_text):
     text = soup.get_text(separator='\n', strip=True)
     lines = [line.strip() for line in text.split('\n') if line.strip()]
     
-    # DEBUG : Afficher les 30 premières lignes de la première exécution
+     # DEBUG : Afficher les lignes 50-80 pour voir les données
     if not hasattr(parse_chartsinfrance_html, '_debug_done'):
-        print("    🔍 DEBUG chartsinfrance - 30 premières lignes :")
-        for i, line in enumerate(lines[:30]):
+        print("    🔍 DEBUG chartsinfrance - Lignes 50-80 (données de classement) :")
+        for i, line in enumerate(lines[50:80], start=50):
             print(f"       [{i}] {line}")
         parse_chartsinfrance_html._debug_done = True
     
@@ -478,14 +478,15 @@ def parse_snep_html(html_text):
     entries = []
     soup = BeautifulSoup(html_text, 'html.parser')
     
-    # DEBUG : Afficher les 30 premières lignes
+     # DEBUG : Afficher les lignes 50-100 pour voir les données
     if not hasattr(parse_snep_html, '_debug_done'):
         text_debug = soup.get_text(separator='\n', strip=True)
         lines_debug = [l.strip() for l in text_debug.split('\n') if l.strip()]
-        print("    🔍 DEBUG SNEP - 30 premières lignes :")
-        for i, line in enumerate(lines_debug[:30]):
+        print("    🔍 DEBUG SNEP - Lignes 50-100 (données de classement) :")
+        for i, line in enumerate(lines_debug[50:100], start=50):
             print(f"       [{i}] {line}")
         parse_snep_html._debug_done = True
+
     
     # Labels connus
     known_labels = [
