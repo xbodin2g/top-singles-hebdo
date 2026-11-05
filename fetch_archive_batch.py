@@ -2,13 +2,13 @@
 """
 Script pour télécharger les archives du Top singles français depuis TROIS sources :
 1. top-archives.fr (1984-1993) - archives complètes
-2. chartsinfrance.net (1994-2014 S15) - format YYNN
+2. chartsinfrance.net (1994-2026 avril) - format YYNN
 3. snepmusique.com (2014 S16 - aujourd'hui) - SOURCE OFFICIELLE SNEP
 
 Stratégie :
 - 1984-1993 : top-archives.fr
-- 1994-2014 S15 : chartsinfrance.net
-- 2014 S16+ : snepmusique.com (officiel, données complètes avec labels)
+- 1994-2026 : chartsinfrance.net (avec fallback SNEP)
+- 2014 S16+ : SNEP en priorité (officiel, données complètes avec labels)
 """
 
 import json
@@ -30,7 +30,6 @@ HEADERS = {
 CACHE_DIR = "data/cache"
 CACHE_RETRO_FILE = os.path.join(CACHE_DIR, "retro_archives.json")
 
-# Point de transition : SNEP commence à la semaine 16 de 2014
 SNEP_START_YEAR = 2014
 SNEP_START_WEEK = 16
 
@@ -175,7 +174,7 @@ def parse_toparchives_html(soup):
     
     return entries
 
-# ===== SOURCE 2 : chartsinfrance.net (1994-2014 S15) =====
+# ===== SOURCE 2 : chartsinfrance.net (1994-2026 avril) =====
 
 def fetch_chartsinfrance_week(year, week, cache):
     """
@@ -275,142 +274,137 @@ def fetch_chartsinfrance_week(year, week, cache):
     return False
 
 def parse_chartsinfrance_html(html_text):
-    """Parse le HTML de chartsinfrance.net avec extraction robuste des mouvements"""
+    """
+    Parse le HTML de chartsinfrance.net (VERSION CORRIGÉE 2013-2014)
+    Gère : _star_, ##, arrow_top, arrow_bot, arrow_right, New
+    """
     entries = []
     soup = BeautifulSoup(html_text, 'html.parser')
     
-    titles = soup.find_all('h2')
+    # Méthode : Parser ligne par ligne avec contexte
+    text = soup.get_text(separator='\n', strip=True)
+    lines = [line.strip() for line in text.split('\n') if line.strip()]
     
-    for title_elem in titles:
-        try:
-            parent = title_elem.parent
-            while parent and parent.name not in ['div', 'article', 'li', 'tr']:
-                parent = parent.parent
-            
-            if not parent:
-                continue
-            
-            full_text = parent.get_text(separator='\n', strip=True)
-            lines = [l.strip() for l in full_text.split('\n') if l.strip()]
-            
-            if len(lines) < 3:
-                continue
-            
-            pos_match = re.match(r'^[\*_]?\s*(\d{1,3})\s*$', lines[0])
-            if not pos_match:
-                continue
-            
-            position = int(pos_match.group(1))
-            if position > 100:
-                continue
-            
-            title = title_elem.get_text(strip=True)
-            if not title or len(title) < 2:
-                continue
-            
-            artist = ""
-            movement_keywords = ['arrow_top', 'arrow_bot', 'arrow_right', 'timeline', 'New', 'star', 'Voir']
-            
-            for line in lines[2:]:
-                if not line or len(line) < 2:
-                    continue
-                if any(kw in line for kw in movement_keywords):
-                    continue
-                if line.startswith('_') or line.startswith('↑') or line.startswith('↓') or line.startswith('→'):
-                    continue
-                artist = line
-                break
-            
-            if not artist:
-                continue
-            
-            movement = "same"
-            previous_pos = None
-            
-            full_parent_text = ' '.join(lines)
-            
-            up_match = re.search(r'arrow_top[_\s]*(\d+)|↑\s*(\d+)', full_parent_text)
-            if up_match:
-                movement = "up"
-                diff = int(up_match.group(1) or up_match.group(2))
-                previous_pos = position + diff
-                entries.append({
-                    "position": position,
-                    "track": {"title": title, "artist": artist},
-                    "previousPosition": previous_pos,
-                    "movement": movement,
-                    "weeksOnChart": 1,
-                    "peakPosition": position,
-                    "source": "chartsinfrance"
-                })
-                continue
-            
-            down_match = re.search(r'arrow_bot[_\s]*(\d+)|↓\s*(\d+)', full_parent_text)
-            if down_match:
-                movement = "down"
-                diff = int(down_match.group(1) or down_match.group(2))
-                previous_pos = position - diff
-                entries.append({
-                    "position": position,
-                    "track": {"title": title, "artist": artist},
-                    "previousPosition": previous_pos,
-                    "movement": movement,
-                    "weeksOnChart": 1,
-                    "peakPosition": position,
-                    "source": "chartsinfrance"
-                })
-                continue
-            
-            if 'New' in full_parent_text or 'new' in full_parent_text.lower():
-                movement = "new"
-                previous_pos = None
-                entries.append({
-                    "position": position,
-                    "track": {"title": title, "artist": artist},
-                    "previousPosition": None,
-                    "movement": "new",
-                    "weeksOnChart": 1,
-                    "peakPosition": position,
-                    "source": "chartsinfrance"
-                })
-                continue
-            
-            if 'arrow_right' in full_parent_text or '→' in full_parent_text:
-                movement = "same"
-                previous_pos = position
-                entries.append({
-                    "position": position,
-                    "track": {"title": title, "artist": artist},
-                    "previousPosition": previous_pos,
-                    "movement": "same",
-                    "weeksOnChart": 1,
-                    "peakPosition": position,
-                    "source": "chartsinfrance"
-                })
-                continue
-            
-            previous_pos = position
-            entries.append({
-                "position": position,
-                "track": {"title": title, "artist": artist},
-                "previousPosition": previous_pos,
-                "movement": "same",
-                "weeksOnChart": 1,
-                "peakPosition": position,
-                "source": "chartsinfrance"
-            })
+    i = 0
+    while i < len(lines):
+        line = lines[i]
         
-        except Exception as e:
-            continue
+        # Pattern 1 : Position seule (nombre) ou avec _star_
+        pos_match = re.match(r'^(?:_star_\s*)?(\d{1,3})$', line)
+        
+        if not pos_match:
+            # Pattern alternatif : nombre suivi de ## sur la même ligne
+            pos_match = re.match(r'^(\d{1,3})\s*(?:##)?', line)
+        
+        if pos_match:
+            position = int(pos_match.group(1))
+            
+            if position <= 100:
+                title = ""
+                artist = ""
+                movement = "same"
+                previous_pos = None
+                
+                # Chercher titre, artiste, mouvement dans les lignes suivantes
+                j = i + 1
+                lines_scanned = 0
+                
+                while j < len(lines) and lines_scanned < 8:
+                    next_line = lines[j].strip()
+                    
+                    if not next_line or len(next_line) < 2:
+                        j += 1
+                        continue
+                    
+                    # Ignorer les éléments UI/navigation
+                    ui_keywords = ['Top Singles', 'Classement', 'Semaine du', 'chevron',
+                                  'calendar', 'star', 'Voir les stats', 'timeline']
+                    if any(kw.lower() in next_line.lower() for kw in ui_keywords):
+                        if 'star' in next_line.lower() and len(next_line) < 10:
+                            # C'est juste "_star_" seul, ignorer
+                            j += 1
+                            lines_scanned += 1
+                            continue
+                        j += 1
+                        lines_scanned += 1
+                        continue
+                    
+                    # Détecter le mouvement AVANT le titre
+                    if 'arrow_top' in next_line:
+                        movement = "up"
+                        num_match = re.search(r'arrow_top[_\s]*(\d+)', next_line)
+                        if num_match:
+                            previous_pos = position + int(num_match.group(1))
+                        j += 1
+                        lines_scanned += 1
+                        continue
+                    
+                    if 'arrow_bot' in next_line:
+                        movement = "down"
+                        num_match = re.search(r'arrow_bot[_\s]*(\d+)', next_line)
+                        if num_match:
+                            previous_pos = position - int(num_match.group(1))
+                        j += 1
+                        lines_scanned += 1
+                        continue
+                    
+                    if 'arrow_right' in next_line:
+                        movement = "same"
+                        previous_pos = position
+                        j += 1
+                        lines_scanned += 1
+                        continue
+                    
+                    if next_line.lower() == 'new' or next_line == 'New':
+                        movement = "new"
+                        previous_pos = None
+                        j += 1
+                        lines_scanned += 1
+                        continue
+                    
+                    # Ignorer les symboles flèches seuls
+                    if next_line in ['↑', '↓', '→', '▲', '▼']:
+                        j += 1
+                        lines_scanned += 1
+                        continue
+                    
+                    # Si ligne commence par ##, c'est un titre markdown
+                    if next_line.startswith('##'):
+                        title = next_line[2:].strip()
+                        j += 1
+                        lines_scanned += 1
+                        continue
+                    
+                    # Première ligne significative = titre (si pas déjà trouvé)
+                    if not title and len(next_line) > 2 and not next_line.startswith('_'):
+                        title = next_line
+                        j += 1
+                        lines_scanned += 1
+                        continue
+                    
+                    # Deuxième ligne significative = artiste
+                    if title and not artist and len(next_line) > 2 and not next_line.startswith('_'):
+                        artist = next_line
+                        break  # On a tout, on arrête
+                    
+                    j += 1
+                    lines_scanned += 1
+                
+                # Valider l'entrée
+                if title and artist and len(title) > 2 and len(artist) > 2:
+                    entries.append({
+                        "position": position,
+                        "track": {"title": title, "artist": artist},
+                        "previousPosition": previous_pos,
+                        "movement": movement,
+                        "weeksOnChart": 1,
+                        "peakPosition": position,
+                        "source": "chartsinfrance"
+                    })
+        
+        i += 1
     
-    seen = set()
-    unique_entries = []
-    for entry in entries:
-        if entry["position"] not in seen:
-            seen.add(entry["position"])
-            unique_entries.append(entry)
-    
-    return sorted(unique_entries, key=lambda x: x["position"])
+    return entries
 
 def has_next_page(html_text):
     """Vérifie s'il y a une page suivante"""
@@ -435,7 +429,6 @@ def fetch_snep_week(year, week, cache):
     
     # Construire l'URL
     if year == datetime.now().year and week == datetime.now().isocalendar()[1]:
-        # Semaine en cours
         url = "https://snepmusique.com/classement-radio/"
     else:
         url = f"https://snepmusique.com/classement-radio/?annee={year}&semaine={week}"
@@ -449,7 +442,6 @@ def fetch_snep_week(year, week, cache):
         
         response.raise_for_status()
         
-        # Vérifier si la page contient des données
         if "Aucun classement" in response.text or len(response.text) < 1000:
             print(f"    ❌ Aucune donnée disponible")
             return False
@@ -460,10 +452,8 @@ def fetch_snep_week(year, week, cache):
             print(f"    ❌ Aucune entrée parsée")
             return False
         
-        # Trier par position
         entries.sort(key=lambda x: x["position"])
         
-        # Dédupliquer
         seen = set()
         unique_entries = []
         for entry in entries:
@@ -471,7 +461,7 @@ def fetch_snep_week(year, week, cache):
                 seen.add(entry["position"])
                 unique_entries.append(entry)
         
-        entries = unique_entries[:200]  # SNEP peut avoir plus de 100 entrées
+        entries = unique_entries[:200]
         
         if entries:
             date = get_date_from_year_week(year, week)
@@ -488,7 +478,6 @@ def fetch_snep_week(year, week, cache):
             cache[cache_key] = archive_data
             print(f"  ✅ SNEP : {len(entries)} entrées (source officielle)")
             
-            # Afficher quelques stats
             new_count = sum(1 for e in entries if e.get('movement') == 'new')
             up_count = sum(1 for e in entries if e.get('movement') == 'up')
             down_count = sum(1 for e in entries if e.get('movement') == 'down')
@@ -504,36 +493,50 @@ def fetch_snep_week(year, week, cache):
 
 def parse_snep_html(html_text):
     """
-    Parse le HTML de snepmusique.com
-    Structure détectée :
-    - Position (chiffre)
-    - Titre
-    - Artiste
-    - Label
-    - Position précédente (**Xer** La Semaine Dernière)
-    - Semaines dans le Top (**Xer** Semaine dans le Top)
+    Parse le HTML de snepmusique.com (VERSION CORRIGÉE)
+    
+    CORRIGÉ : Les **X** dans le rendu Markdown deviennent juste X après extraction,
+    car ce sont des balises <strong>. On cherche donc "7e La Semaine Dernière" 
+    et non "**7e** La Semaine Dernière".
     """
     entries = []
     soup = BeautifulSoup(html_text, 'html.parser')
     
-    # Chercher tous les éléments de classement
-    # Le site utilise une structure simple avec des divs ou des sections
-    
-    # Méthode 1 : Parser le texte brut avec regex
     text = soup.get_text(separator='\n', strip=True)
     lines = [line.strip() for line in text.split('\n') if line.strip()]
+    
+    # Labels connus à ignorer lors de la détection titre/artiste
+    known_labels = [
+        'SONY MUSIC', 'UNIVERSAL', 'WARNER MUSIC', 'BELIEVE', 
+        'WAGRAM', 'WAGRAM MUSIC', 'IDOL', 'SCORPIO', 'HAPPY MUSIC', 
+        'THIRTY KNOTS', 'NOJOKE RECORDS', 'AWAL', 'EMPIRE', 
+        'BECAUSE MUSIC', 'LEVEL UP MUSIC', 'YPDP', 'ARGENTIC MUSIC', 
+        'STMPD RCRDS', 'FIDEL', 'TRINITY', 'LORE', 'THE ORCHARD',
+        'UNIVERSAL MUSIC', 'POLYDOR', 'VIRGIN', 'PARLOPHONE',
+        'TÔT OU TARD', 'NAÏVE', 'PIAS', 'DOMINO', 'BEGGARS',
+        'EPIC', 'COLUMBIA', 'RCA', 'ATLANTIC', 'ELEKTRA', 'DEF JAM'
+    ]
+    known_labels_upper = [lbl.upper() for lbl in known_labels]
+    
+    # Mots-clés de navigation à ignorer
+    nav_keywords = [
+        'Semaine précédente', 'Semaine suivante', 'Télécharger en PDF', 
+        'Voir les filtres', 'Top Radio', 'Top Outre-mer', 'Abonnement',
+        'newsletter', 'Twitter', 'LinkedIn', 'Email', 'Copy link',
+        'Merci de partager', 'AddToAny', 'FERMER'
+    ]
     
     i = 0
     while i < len(lines):
         line = lines[i]
         
-        # Chercher une position (nombre seul)
+        # Chercher une position (nombre seul sur une ligne)
         pos_match = re.match(r'^(\d{1,3})$', line)
         
         if pos_match:
             position = int(pos_match.group(1))
             
-            if position <= 200:  # SNEP peut avoir jusqu'à 200 entrées
+            if position <= 200:
                 title = ""
                 artist = ""
                 label = ""
@@ -541,22 +544,24 @@ def parse_snep_html(html_text):
                 movement = "same"
                 weeks_on_chart = 1
                 
-                # Chercher titre, artiste, label dans les lignes suivantes
+                # Chercher dans les 10 lignes suivantes
                 j = i + 1
-                line_count = 0
                 
-                while j < len(lines) and line_count < 10:
+                while j < len(lines) and j < i + 12:
                     next_line = lines[j].strip()
                     
-                    # Ignorer les lignes vides ou de navigation
                     if not next_line or len(next_line) < 2:
                         j += 1
                         continue
                     
-                    # Détecter les mots-clés de mouvement/position
+                    # Ignorer navigation/UI
+                    if any(kw.lower() in next_line.lower() for kw in nav_keywords):
+                        j += 1
+                        continue
+                    
+                    # Détection position précédente : "Xer La Semaine Dernière"
                     if 'La Semaine Dernière' in next_line:
-                        # Extraire la position précédente
-                        prev_match = re.search(r'\*\*(\d+)(?:er|e|ème)?\*\*.*La Semaine Dernière', next_line)
+                        prev_match = re.search(r'(\d+)(?:er|e|ème|ere)?\s*La Semaine Dernière', next_line, re.IGNORECASE)
                         if prev_match:
                             previous_pos = int(prev_match.group(1))
                             if previous_pos > position:
@@ -568,28 +573,19 @@ def parse_snep_html(html_text):
                         j += 1
                         continue
                     
+                    # Détection semaines dans le top : "Xer Semaine dans le Top"
                     if 'Semaine dans le Top' in next_line:
-                        # Extraire le nombre de semaines
-                        weeks_match = re.search(r'\*\*(\d+)(?:er|e|ème)?\*\*.*Semaine dans le Top', next_line)
+                        weeks_match = re.search(r'(\d+)(?:er|e|ème|ere)?\s*Semaine dans le Top', next_line, re.IGNORECASE)
                         if weeks_match:
                             weeks_on_chart = int(weeks_match.group(1))
-                        
-                        # Détecter nouvelle entrée
-                        if '1er' in next_line and 'Semaine dans le Top' in next_line:
-                            movement = "new"
-                            previous_pos = None
-                        
+                            if weeks_on_chart == 1:
+                                movement = "new"
+                                previous_pos = None
                         j += 1
                         continue
                     
-                    # Ignorer les labels connus (à adapter selon besoin)
-                    known_labels = ['SONY MUSIC', 'UNIVERSAL', 'WARNER MUSIC', 'BELIEVE', 
-                                   'WAGRAM', 'IDOL', 'SCORPIO', 'HAPPY MUSIC', 'THIRTY KNOTS',
-                                   'NOJOKE RECORDS', 'AWAL', 'EMPIRE', 'BECAUSE MUSIC',
-                                   'LEVEL UP MUSIC', 'YPDP', 'ARGENTIC MUSIC', 'STMPD RCRDS',
-                                   'FIDEL', 'TRINITY', 'LORE', 'THE ORCHARD']
-                    
-                    if next_line in known_labels or any(lbl in next_line for lbl in known_labels):
+                    # Ignorer les labels
+                    if next_line.upper() in known_labels_upper:
                         label = next_line
                         j += 1
                         continue
@@ -598,14 +594,12 @@ def parse_snep_html(html_text):
                     if not title and len(next_line) > 2:
                         title = next_line
                     # Deuxième ligne significative = artiste
-                    elif not artist and len(next_line) > 2:
+                    elif title and not artist and len(next_line) > 2:
                         artist = next_line
-                        break  # On a titre et artiste, on arrête
                     
                     j += 1
-                    line_count += 1
                 
-                # Vérifier qu'on a bien titre et artiste
+                # Valider
                 if title and artist and len(title) > 2 and len(artist) > 2:
                     entries.append({
                         "position": position,
@@ -613,7 +607,7 @@ def parse_snep_html(html_text):
                             "title": title,
                             "artist": artist
                         },
-                        "label": label,
+                        "label": label if label else None,
                         "previousPosition": previous_pos,
                         "movement": movement,
                         "weeksOnChart": weeks_on_chart,
@@ -643,20 +637,17 @@ def main():
     
     print(f"📅 Archives Top singles France - Année {year}")
     
-    # Déterminer la source selon l'année
     if year <= 1993:
         print(f"   Source : top-archives.fr (1984-1993)")
-    elif year < SNEP_START_YEAR or (year == SNEP_START_YEAR):
-        if year < SNEP_START_YEAR:
-            print(f"   Source : chartsinfrance.net (1994-2013)")
-        else:
-            print(f"   Source : chartsinfrance.net (S01-S15) + SNEP (S16+)")
+    elif year < SNEP_START_YEAR:
+        print(f"   Source : chartsinfrance.net (1994-2013)")
+    elif year == SNEP_START_YEAR:
+        print(f"   Source : chartsinfrance.net (S01-S15) + SNEP (S16+)")
     else:
-        print(f"   Source : snepmusique.com (SOURCE OFFICIELLE SNEP)")
+        print(f"   Source : SNEP (officiel) + chartsinfrance (fallback)")
     
     print(f"{'='*60}\n")
     
-    # Parser les semaines
     weeks = []
     if '-' in args.weeks:
         start, end = map(int, args.weeks.split('-'))
@@ -680,9 +671,9 @@ def main():
         
         print(f"\n📥 Semaine {week:02d}/{year}...")
         
-        # Stratégie selon l'année et la semaine
+        # Stratégie selon l'année
         if year <= 1993:
-            # 1984-1993 : top-archives.fr
+            # 1984-1993 : top-archives.fr uniquement
             result = fetch_toparchives_week(year, week, cache)
         
         elif year < SNEP_START_YEAR:
@@ -697,15 +688,19 @@ def main():
                 result = fetch_snep_week(year, week, cache)
         
         else:
-            # 2015+ : SNEP uniquement
+            # 2015+ : SNEP en priorité, chartsinfrance en fallback
             result = fetch_snep_week(year, week, cache)
+            
+            # Fallback si SNEP échoue (pour les semaines récentes non encore sur SNEP)
+            if not result:
+                print(f"  🔄 Fallback sur chartsinfrance.net...")
+                result = fetch_chartsinfrance_week(year, week, cache)
         
         if result:
             success += 1
         else:
             fail += 1
         
-        # Sauvegarder toutes les 5 semaines
         if (success + fail) % 5 == 0 and success > 0:
             save_retro_cache(cache)
             print(f"\n  💾 Cache sauvegardé ({len(cache)} archives)\n")
