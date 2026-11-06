@@ -6,7 +6,7 @@
     "updatedAt": "2026-11-06",
     "sourceNote": "✅ 3 sources OK. ❌ 4 échouées.",
     "hasStreamingIds": true,
-    "cacheSize": 185
+    "cacheSize": 251
   },
   "countries": {
     "fr": {
@@ -387,10 +387,10 @@
           "weeksOnChart": 25,
           "peakPosition": 21,
           "source": "snep",
-          "deezer_id": 3979633611,
-          "deezer_url": "https://www.deezer.com/track/3979633611",
           "youtube_id": "8jtA-uYv5Aw",
-          "youtube_url": "https://www.youtube.com/watch?v=8jtA-uYv5Aw"
+          "youtube_url": "https://www.youtube.com/watch?v=8jtA-uYv5Aw",
+          "deezer_id": 3979633611,
+          "deezer_url": "https://www.deezer.com/track/3979633611"
         },
         {
           "position": 22,
@@ -405,10 +405,10 @@
           "weeksOnChart": 28,
           "peakPosition": 22,
           "source": "snep",
-          "deezer_id": 3940103361,
-          "deezer_url": "https://www.deezer.com/track/3940103361",
           "youtube_id": "hBeNj5mX3To",
-          "youtube_url": "https://www.youtube.com/watch?v=hBeNj5mX3To"
+          "youtube_url": "https://www.youtube.com/watch?v=hBeNj5mX3To",
+          "deezer_id": 3940103361,
+          "deezer_url": "https://www.deezer.com/track/3940103361"
         },
         {
           "position": 23,
@@ -423,10 +423,10 @@
           "weeksOnChart": 22,
           "peakPosition": 23,
           "source": "snep",
-          "deezer_id": 3711016002,
-          "deezer_url": "https://www.deezer.com/track/3711016002",
           "youtube_id": "_0RRXkJBX4k",
-          "youtube_url": "https://www.youtube.com/watch?v=_0RRXkJBX4k"
+          "youtube_url": "https://www.youtube.com/watch?v=_0RRXkJBX4k",
+          "deezer_id": 3711016002,
+          "deezer_url": "https://www.deezer.com/track/3711016002"
         },
         {
           "position": 24,
@@ -441,10 +441,10 @@
           "weeksOnChart": 25,
           "peakPosition": 24,
           "source": "snep",
-          "deezer_id": 3995047821,
-          "deezer_url": "https://www.deezer.com/track/3995047821",
           "youtube_id": "MEKERDMnC48",
-          "youtube_url": "https://www.youtube.com/watch?v=MEKERDMnC48"
+          "youtube_url": "https://www.youtube.com/watch?v=MEKERDMnC48",
+          "deezer_id": 3995047821,
+          "deezer_url": "https://www.deezer.com/track/3995047821"
         },
         {
           "position": 25,
@@ -459,10 +459,10 @@
           "weeksOnChart": 10,
           "peakPosition": 25,
           "source": "snep",
-          "deezer_id": 4064189131,
-          "deezer_url": "https://www.deezer.com/track/4064189131",
           "youtube_id": "v6TfDP8VQYo",
-          "youtube_url": "https://www.youtube.com/watch?v=v6TfDP8VQYo"
+          "youtube_url": "https://www.youtube.com/watch?v=v6TfDP8VQYo",
+          "deezer_id": 4064189131,
+          "deezer_url": "https://www.deezer.com/track/4064189131"
         },
         {
           "position": 26,
@@ -477,10 +477,10 @@
           "weeksOnChart": 4,
           "peakPosition": 26,
           "source": "snep",
-          "deezer_id": 4173612762,
-          "deezer_url": "https://www.deezer.com/track/4173612762",
           "youtube_id": "8UVNT4wvIGY",
-          "youtube_url": "https://www.youtube.com/watch?v=8UVNT4wvIGY"
+          "youtube_url": "https://www.youtube.com/watch?v=8UVNT4wvIGY",
+          "deezer_id": 4173612762,
+          "deezer_url": "https://www.deezer.com/track/4173612762"
         },
         {
           "position": 27,
@@ -495,10 +495,10 @@
           "weeksOnChart": 10,
           "peakPosition": 27,
           "source": "snep",
-          "deezer_id": 4242078772,
-          "deezer_url": "https://www.deezer.com/track/4242078772",
           "youtube_id": "vTOeTavoagc",
-          "youtube_url": "https://www.youtube.com/watch?v=vTOeTavoagc"
+          "youtube_url": "https://www.youtube.com/watch?v=vTOeTavoagc",
+          "deezer_id": 4242078772,
+          "deezer_url": "https://www.deezer.com/track/4242078772"
         },
         {
           "position": 28,
@@ -513,10 +513,10 @@
           "weeksOnChart": 18,
           "peakPosition": 28,
           "source": "snep",
-          "deezer_id": 3867905131,
-          "deezer_url": "https://www.deezer.com/track/3867905131",
           "youtube_id": "gpc5c5PMQiw",
-          "youtube_url": "https://www.youtube.com/watch?v=gpc5c5PMQiw"
+          "youtube_url": "https://www.youtube.com/watch?v=gpc5c5PMQiw",
+          "deezer_id": 3867905131,
+          "deezer_url": "https://www.deezer.com/track/3867905131"
         },
         {
           "position": 29,
@@ -567,10 +567,10 @@
           "weeksOnChart": 19,
           "peakPosition": 31,
           "source": "snep",
-          "deezer_id": 4059400101,
-          "deezer_url": "https://www.deezer.com/track/4059400101",
           "youtube_id": "XMBDdTHTIEo",
-          "youtube_url": "https://www.youtube.com/watch?v=XMBDdTHTIEo"
+          "youtube_url": "https://www.youtube.com/watch?v=XMBDdTHTIEo",
+          "deezer_id": 4059400101,
+          "deezer_url": "https://www.deezer.com/track/4059400101"
         },
         {
           "position": 32,
@@ -766,7 +766,9 @@
           "peakPosition": 42,
           "source": "snep",
           "deezer_id": 4242363112,
-          "deezer_url": "https://www.deezer.com/track/4242363112"
+          "deezer_url": "https://www.deezer.com/track/4242363112",
+          "youtube_id": "FwxjZqMaeGc",
+          "youtube_url": "https://www.youtube.com/watch?v=FwxjZqMaeGc"
         },
         {
           "position": 43,
@@ -782,7 +784,9 @@
           "peakPosition": 43,
           "source": "snep",
           "deezer_id": 4314450762,
-          "deezer_url": "https://www.deezer.com/track/4314450762"
+          "deezer_url": "https://www.deezer.com/track/4314450762",
+          "youtube_id": "gWuBQyAb7Dk",
+          "youtube_url": "https://www.youtube.com/watch?v=gWuBQyAb7Dk"
         },
         {
           "position": 44,
@@ -798,7 +802,9 @@
           "peakPosition": 44,
           "source": "snep",
           "deezer_id": 4094311121,
-          "deezer_url": "https://www.deezer.com/track/4094311121"
+          "deezer_url": "https://www.deezer.com/track/4094311121",
+          "youtube_id": "hfZNuoY7rqE",
+          "youtube_url": "https://www.youtube.com/watch?v=hfZNuoY7rqE"
         },
         {
           "position": 45,
@@ -814,7 +820,9 @@
           "peakPosition": 45,
           "source": "snep",
           "deezer_id": 4048535481,
-          "deezer_url": "https://www.deezer.com/track/4048535481"
+          "deezer_url": "https://www.deezer.com/track/4048535481",
+          "youtube_id": "8mPQkkYn7Wg",
+          "youtube_url": "https://www.youtube.com/watch?v=8mPQkkYn7Wg"
         },
         {
           "position": 46,
@@ -830,7 +838,9 @@
           "peakPosition": 46,
           "source": "snep",
           "deezer_id": 4020979891,
-          "deezer_url": "https://www.deezer.com/track/4020979891"
+          "deezer_url": "https://www.deezer.com/track/4020979891",
+          "youtube_id": "jodJzaVZfj8",
+          "youtube_url": "https://www.youtube.com/watch?v=jodJzaVZfj8"
         },
         {
           "position": 47,
@@ -845,6 +855,8 @@
           "weeksOnChart": 28,
           "peakPosition": 47,
           "source": "snep",
+          "youtube_id": "lH2rQyG_0pk",
+          "youtube_url": "https://www.youtube.com/watch?v=lH2rQyG_0pk",
           "deezer_id": 3889748961,
           "deezer_url": "https://www.deezer.com/track/3889748961"
         },
@@ -862,7 +874,9 @@
           "peakPosition": 48,
           "source": "snep",
           "deezer_id": 3818963601,
-          "deezer_url": "https://www.deezer.com/track/3818963601"
+          "deezer_url": "https://www.deezer.com/track/3818963601",
+          "youtube_id": "xnP7qKxwzjg",
+          "youtube_url": "https://www.youtube.com/watch?v=xnP7qKxwzjg"
         },
         {
           "position": 49,
@@ -878,7 +892,9 @@
           "peakPosition": 49,
           "source": "snep",
           "deezer_id": 4046207801,
-          "deezer_url": "https://www.deezer.com/track/4046207801"
+          "deezer_url": "https://www.deezer.com/track/4046207801",
+          "youtube_id": "Gip10Rxst1M",
+          "youtube_url": "https://www.youtube.com/watch?v=Gip10Rxst1M"
         },
         {
           "position": 50,
@@ -894,7 +910,9 @@
           "peakPosition": 50,
           "source": "snep",
           "deezer_id": 3869647201,
-          "deezer_url": "https://www.deezer.com/track/3869647201"
+          "deezer_url": "https://www.deezer.com/track/3869647201",
+          "youtube_id": "hkUSnrHQJHg",
+          "youtube_url": "https://www.youtube.com/watch?v=hkUSnrHQJHg"
         },
         {
           "position": 51,
@@ -910,7 +928,9 @@
           "peakPosition": 51,
           "source": "snep",
           "deezer_id": 3650665212,
-          "deezer_url": "https://www.deezer.com/track/3650665212"
+          "deezer_url": "https://www.deezer.com/track/3650665212",
+          "youtube_id": "PhxPYdBRgYs",
+          "youtube_url": "https://www.youtube.com/watch?v=PhxPYdBRgYs"
         },
         {
           "position": 52,
@@ -926,46 +946,63 @@
           "peakPosition": 52,
           "source": "snep",
           "deezer_id": 4034363911,
-          "deezer_url": "https://www.deezer.com/track/4034363911"
+          "deezer_url": "https://www.deezer.com/track/4034363911",
+          "youtube_id": "CrtAQWDSPco",
+          "youtube_url": "https://www.youtube.com/watch?v=CrtAQWDSPco"
         },
         {
           "position": 53,
           "track": {
             "title": "Chaussures roses",
-            "artist": "TeddyBear"
+            "artist": "TeddyBear",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/5547c3fd13519678869a7631cc1b3cf9/250x250-000000-80-0-0.jpg"
           },
           "label": "BELIEVE",
           "previousPosition": 61,
           "movement": "up",
           "weeksOnChart": 10,
           "peakPosition": 53,
-          "source": "snep"
+          "source": "snep",
+          "youtube_id": "xYSXKiBMVEM",
+          "youtube_url": "https://www.youtube.com/watch?v=xYSXKiBMVEM",
+          "deezer_id": 3940644351,
+          "deezer_url": "https://www.deezer.com/track/3940644351"
         },
         {
           "position": 54,
           "track": {
             "title": "Soleil",
-            "artist": "Gims"
+            "artist": "Gims",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/09999028a45dba6a141a5aa36739c362/250x250-000000-80-0-0.jpg"
           },
           "label": "BELIEVE",
           "previousPosition": 70,
           "movement": "up",
           "weeksOnChart": 30,
           "peakPosition": 54,
-          "source": "snep"
+          "source": "snep",
+          "youtube_id": "QAJGWSM6Z-w",
+          "youtube_url": "https://www.youtube.com/watch?v=QAJGWSM6Z-w",
+          "deezer_id": 3935276381,
+          "deezer_url": "https://www.deezer.com/track/3935276381"
         },
         {
           "position": 55,
           "track": {
             "title": "Pocahontas",
-            "artist": "PLK"
+            "artist": "PLK",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/da047273c9d96904ebb7d2585fcb5021/250x250-000000-80-0-0.jpg"
           },
           "label": "WAGRAM MUSIC",
           "previousPosition": 45,
           "movement": "down",
           "weeksOnChart": 33,
           "peakPosition": 55,
-          "source": "snep"
+          "source": "snep",
+          "youtube_id": "BN_B84QS2vU",
+          "youtube_url": "https://www.youtube.com/watch?v=BN_B84QS2vU",
+          "deezer_id": 3862146511,
+          "deezer_url": "https://www.deezer.com/track/3862146511"
         },
         {
           "position": 56,
@@ -978,7 +1015,11 @@
           "movement": "up",
           "weeksOnChart": 3,
           "peakPosition": 56,
-          "source": "snep"
+          "source": "snep",
+          "youtube_id": "vVuUUb6TBAE",
+          "youtube_url": "https://www.youtube.com/watch?v=vVuUUb6TBAE",
+          "deezer_id": 4271075652,
+          "deezer_url": "https://www.deezer.com/track/4271075652"
         },
         {
           "position": 57,
@@ -994,46 +1035,63 @@
           "peakPosition": 57,
           "source": "snep",
           "deezer_id": 4294454742,
-          "deezer_url": "https://www.deezer.com/track/4294454742"
+          "deezer_url": "https://www.deezer.com/track/4294454742",
+          "youtube_id": "w-7MbI4zYKc",
+          "youtube_url": "https://www.youtube.com/watch?v=w-7MbI4zYKc"
         },
         {
           "position": 58,
           "track": {
             "title": "Cote à la hausse",
-            "artist": "Bouss"
+            "artist": "Bouss",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/a85bdb619412f15341d589f18929b563/250x250-000000-80-0-0.jpg"
           },
           "label": "LEVEL UP MUSIC",
           "previousPosition": 58,
           "movement": "same",
           "weeksOnChart": 9,
           "peakPosition": 58,
-          "source": "snep"
+          "source": "snep",
+          "youtube_id": "30YwZ26WY5Q",
+          "youtube_url": "https://www.youtube.com/watch?v=30YwZ26WY5Q",
+          "deezer_id": 3420336041,
+          "deezer_url": "https://www.deezer.com/track/3420336041"
         },
         {
           "position": 59,
           "track": {
             "title": "Egaré",
-            "artist": "M. Pokora"
+            "artist": "M. Pokora",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/fb78c7acb3b475e523a0982ee196473a/250x250-000000-80-0-0.jpg"
           },
           "label": "SONY MUSIC",
           "previousPosition": 69,
           "movement": "up",
           "weeksOnChart": 8,
           "peakPosition": 59,
-          "source": "snep"
+          "source": "snep",
+          "youtube_id": "hnAFlsCR5Do",
+          "youtube_url": "https://www.youtube.com/watch?v=hnAFlsCR5Do",
+          "deezer_id": 3630231462,
+          "deezer_url": "https://www.deezer.com/track/3630231462"
         },
         {
           "position": 60,
           "track": {
             "title": "My oh my",
-            "artist": "Kris Kross Amsterdam x Luisa Sonza x Willy William"
+            "artist": "Kris Kross Amsterdam x Luisa Sonza x Willy William",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/4ca3e273e77611b3ee60d1d390ce1cfa/250x250-000000-80-0-0.jpg"
           },
           "label": "WARNER MUSIC",
           "previousPosition": 55,
           "movement": "down",
           "weeksOnChart": 10,
           "peakPosition": 60,
-          "source": "snep"
+          "source": "snep",
+          "youtube_id": "UQL3apywHCI",
+          "youtube_url": "https://www.youtube.com/watch?v=UQL3apywHCI",
+          "deezer_id": 4107161841,
+          "deezer_url": "https://www.deezer.com/track/4107161841"
         }
       ],
       "sourceType": "snep"
@@ -1111,23 +1169,6 @@
         {
           "position": 5,
           "track": {
-            "title": "Bad Times (Extended Version)",
-            "artist": "Imael Angel",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/3c1ad077afa12575fcf9802af32505e1/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 7,
-          "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 5,
-          "source": "kworb_itunes",
-          "youtube_id": "fw5g3yZyivw",
-          "youtube_url": "https://www.youtube.com/watch?v=fw5g3yZyivw",
-          "deezer_id": 3960272061,
-          "deezer_url": "https://www.deezer.com/track/3960272061"
-        },
-        {
-          "position": 6,
-          "track": {
             "title": "Later Become Never",
             "artist": "Kimo Sounds",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/7953737ddeaac4a31dd9c590e0171112/250x250-000000-80-0-0.jpg"
@@ -1135,10 +1176,27 @@
           "previousPosition": 4,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 6,
+          "peakPosition": 5,
           "source": "kworb_itunes",
           "deezer_id": 4288399812,
           "deezer_url": "https://www.deezer.com/track/4288399812"
+        },
+        {
+          "position": 6,
+          "track": {
+            "title": "Bad Times (Extended Version)",
+            "artist": "Imael Angel",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/3c1ad077afa12575fcf9802af32505e1/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 7,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 6,
+          "source": "kworb_itunes",
+          "youtube_id": "fw5g3yZyivw",
+          "youtube_url": "https://www.youtube.com/watch?v=fw5g3yZyivw",
+          "deezer_id": 3960272061,
+          "deezer_url": "https://www.deezer.com/track/3960272061"
         },
         {
           "position": 7,
@@ -1160,36 +1218,35 @@
         {
           "position": 8,
           "track": {
-            "title": "Lake Ontario",
-            "artist": "Bryan Adams",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/a633a295b2425837436186d88e64fd9f/250x250-000000-80-0-0.jpg"
+            "title": "Patient Zero",
+            "artist": "Taylor Swift",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/3b43f946f6478daf5233a41414c34067/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 8,
-          "movement": "same",
+          "previousPosition": 9,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 8,
           "source": "kworb_itunes",
-          "youtube_id": "VQFYuM2N1Bc",
-          "youtube_url": "https://www.youtube.com/watch?v=VQFYuM2N1Bc",
-          "deezer_id": 4360439891,
-          "deezer_url": "https://www.deezer.com/track/4360439891"
+          "youtube_id": "mw3kSNIxjqo",
+          "youtube_url": "https://www.youtube.com/watch?v=mw3kSNIxjqo",
+          "deezer_id": 4304169612,
+          "deezer_url": "https://www.deezer.com/track/4304169612"
         },
         {
           "position": 9,
           "track": {
-            "title": "Patient Zero",
-            "artist": "Taylor Swift",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/3b43f946f6478daf5233a41414c34067/250x250-000000-80-0-0.jpg"
+            "title": "Berserker",
+            "artist": "Sabaton"
           },
           "previousPosition": 9,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 9,
           "source": "kworb_itunes",
-          "youtube_id": "mw3kSNIxjqo",
-          "youtube_url": "https://www.youtube.com/watch?v=mw3kSNIxjqo",
-          "deezer_id": 4304169612,
-          "deezer_url": "https://www.deezer.com/track/4304169612"
+          "youtube_id": "Cs4OZ1yqwEI",
+          "youtube_url": "https://www.youtube.com/watch?v=Cs4OZ1yqwEI",
+          "deezer_id": 4375105031,
+          "deezer_url": "https://www.deezer.com/track/4375105031"
         },
         {
           "position": 10,
@@ -1211,22 +1268,6 @@
         {
           "position": 11,
           "track": {
-            "title": "Berserker",
-            "artist": "Sabaton"
-          },
-          "previousPosition": 11,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 11,
-          "source": "kworb_itunes",
-          "youtube_id": "Cs4OZ1yqwEI",
-          "youtube_url": "https://www.youtube.com/watch?v=Cs4OZ1yqwEI",
-          "deezer_id": 4375105031,
-          "deezer_url": "https://www.deezer.com/track/4375105031"
-        },
-        {
-          "position": 12,
-          "track": {
             "title": "ISSA",
             "artist": "Sido",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/318fe0882f23f7f15a26d4e14923da94/250x250-000000-80-0-0.jpg"
@@ -1234,7 +1275,7 @@
           "previousPosition": 13,
           "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 12,
+          "peakPosition": 11,
           "source": "kworb_itunes",
           "youtube_id": "NBZ30B8VYqo",
           "youtube_url": "https://www.youtube.com/watch?v=NBZ30B8VYqo",
@@ -1242,33 +1283,50 @@
           "deezer_url": "https://www.deezer.com/track/4231654522"
         },
         {
+          "position": 12,
+          "track": {
+            "title": "Lake Ontario",
+            "artist": "Bryan Adams",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/a633a295b2425837436186d88e64fd9f/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 12,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 12,
+          "source": "kworb_itunes",
+          "youtube_id": "VQFYuM2N1Bc",
+          "youtube_url": "https://www.youtube.com/watch?v=VQFYuM2N1Bc",
+          "deezer_id": 4360439891,
+          "deezer_url": "https://www.deezer.com/track/4360439891"
+        },
+        {
           "position": 13,
           "track": {
-            "title": "Danke fÃ¼r Garnix",
-            "artist": "Alice Stark",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/67028b511e59ed3d3773ae491f915ee1/250x250-000000-80-0-0.jpg"
+            "title": "Wo sind die Freaks?",
+            "artist": "PlanschemalÃ¶Ã¶r"
           },
           "previousPosition": 13,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 13,
-          "source": "kworb_itunes",
-          "youtube_id": "AgSvPkdznkc",
-          "youtube_url": "https://www.youtube.com/watch?v=AgSvPkdznkc",
-          "deezer_id": 4284760792,
-          "deezer_url": "https://www.deezer.com/track/4284760792"
+          "source": "kworb_itunes"
         },
         {
           "position": 14,
           "track": {
-            "title": "Wo sind die Freaks?",
-            "artist": "PlanschemalÃ¶Ã¶r"
+            "title": "Danke fÃ¼r Garnix",
+            "artist": "Alice Stark",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/67028b511e59ed3d3773ae491f915ee1/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 14,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 14,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "AgSvPkdznkc",
+          "youtube_url": "https://www.youtube.com/watch?v=AgSvPkdznkc",
+          "deezer_id": 4284760792,
+          "deezer_url": "https://www.deezer.com/track/4284760792"
         },
         {
           "position": 15,
@@ -1290,20 +1348,6 @@
         {
           "position": 16,
           "track": {
-            "title": "Alles anders",
-            "artist": "Jennifer Rostock"
-          },
-          "previousPosition": 16,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 16,
-          "source": "kworb_itunes",
-          "youtube_id": "9frxjL-1sBk",
-          "youtube_url": "https://www.youtube.com/watch?v=9frxjL-1sBk"
-        },
-        {
-          "position": 17,
-          "track": {
             "title": "Mi Chico",
             "artist": "DJ Goja",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/86a2dbf1f380e706c3f49aaf36e4e0a0/250x250-000000-80-0-0.jpg"
@@ -1311,12 +1355,26 @@
           "previousPosition": 11,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 17,
+          "peakPosition": 16,
           "source": "kworb_itunes",
           "youtube_id": "6Db-cEgbmC4",
           "youtube_url": "https://www.youtube.com/watch?v=6Db-cEgbmC4",
           "deezer_id": 3941164881,
           "deezer_url": "https://www.deezer.com/track/3941164881"
+        },
+        {
+          "position": 17,
+          "track": {
+            "title": "Sag mir",
+            "artist": "BASSMASSAGE"
+          },
+          "previousPosition": 17,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 17,
+          "source": "kworb_itunes",
+          "youtube_id": "XhGXBvZYHpc",
+          "youtube_url": "https://www.youtube.com/watch?v=XhGXBvZYHpc"
         },
         {
           "position": 18,
@@ -1338,36 +1396,21 @@
         {
           "position": 19,
           "track": {
-            "title": "PROPAGANDA",
-            "artist": "Sido & Fler",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/acc683a3295ab31fc70f0fbacfe095df/250x250-000000-80-0-0.jpg"
+            "title": "Alles anders",
+            "artist": "Jennifer Rostock"
           },
-          "previousPosition": 22,
-          "movement": "up",
+          "previousPosition": 19,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 19,
           "source": "kworb_itunes",
-          "youtube_id": "1abzMQhso9s",
-          "youtube_url": "https://www.youtube.com/watch?v=1abzMQhso9s",
-          "deezer_id": 4375083281,
-          "deezer_url": "https://www.deezer.com/track/4375083281"
+          "youtube_id": "9frxjL-1sBk",
+          "youtube_url": "https://www.youtube.com/watch?v=9frxjL-1sBk",
+          "deezer_id": 4396531521,
+          "deezer_url": "https://www.deezer.com/track/4396531521"
         },
         {
           "position": 20,
-          "track": {
-            "title": "Sag mir",
-            "artist": "BASSMASSAGE"
-          },
-          "previousPosition": 20,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 20,
-          "source": "kworb_itunes",
-          "youtube_id": "XhGXBvZYHpc",
-          "youtube_url": "https://www.youtube.com/watch?v=XhGXBvZYHpc"
-        },
-        {
-          "position": 21,
           "track": {
             "title": "Bad Times",
             "artist": "Imael Angel",
@@ -1376,12 +1419,29 @@
           "previousPosition": 10,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 21,
+          "peakPosition": 20,
           "source": "kworb_itunes",
           "youtube_id": "fw5g3yZyivw",
           "youtube_url": "https://www.youtube.com/watch?v=fw5g3yZyivw",
           "deezer_id": 3960272061,
           "deezer_url": "https://www.deezer.com/track/3960272061"
+        },
+        {
+          "position": 21,
+          "track": {
+            "title": "WARUM",
+            "artist": "Helene Fischer",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/599f6fbcb12f3a8568500c724ec7b80b/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 23,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 21,
+          "source": "kworb_itunes",
+          "youtube_id": "Iuuck33u7N8",
+          "youtube_url": "https://www.youtube.com/watch?v=Iuuck33u7N8",
+          "deezer_id": 4337185442,
+          "deezer_url": "https://www.deezer.com/track/4337185442"
         },
         {
           "position": 22,
@@ -1395,13 +1455,64 @@
           "weeksOnChart": 1,
           "peakPosition": 22,
           "source": "kworb_itunes",
-          "deezer_id": 3889748961,
-          "deezer_url": "https://www.deezer.com/track/3889748961",
           "youtube_id": "lH2rQyG_0pk",
-          "youtube_url": "https://www.youtube.com/watch?v=lH2rQyG_0pk"
+          "youtube_url": "https://www.youtube.com/watch?v=lH2rQyG_0pk",
+          "deezer_id": 3889748961,
+          "deezer_url": "https://www.deezer.com/track/3889748961"
         },
         {
           "position": 23,
+          "track": {
+            "title": "Stop The Wedding!",
+            "artist": "Ashe",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/556af4b24a45d8fd6912014d706ff7d4/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 21,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 23,
+          "source": "kworb_itunes",
+          "youtube_id": "DLV8FpyxZPQ",
+          "youtube_url": "https://www.youtube.com/watch?v=DLV8FpyxZPQ",
+          "deezer_id": 4209416002,
+          "deezer_url": "https://www.deezer.com/track/4209416002"
+        },
+        {
+          "position": 24,
+          "track": {
+            "title": "AN MEINER SEITE",
+            "artist": "Helene Fischer",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/42bf7a581df912ae81ab2f4fd7ae00c1/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 14,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 24,
+          "source": "kworb_itunes",
+          "youtube_id": "VvZY0wiQnrg",
+          "youtube_url": "https://www.youtube.com/watch?v=VvZY0wiQnrg",
+          "deezer_id": 4250536021,
+          "deezer_url": "https://www.deezer.com/track/4250536021"
+        },
+        {
+          "position": 25,
+          "track": {
+            "title": "Magnetic",
+            "artist": "The Bausa",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/a9f10b9adc9d762a545a3b98d4a9edef/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 24,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 25,
+          "source": "kworb_itunes",
+          "deezer_id": 3843457421,
+          "deezer_url": "https://www.deezer.com/track/3843457421",
+          "youtube_id": "mOXvLHTDB-8",
+          "youtube_url": "https://www.youtube.com/watch?v=mOXvLHTDB-8"
+        },
+        {
+          "position": 26,
           "track": {
             "title": "My Own Way",
             "artist": "Aeriva",
@@ -1410,114 +1521,63 @@
           "previousPosition": 45,
           "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 23,
+          "peakPosition": 26,
           "source": "kworb_itunes",
-          "deezer_id": 4310841642,
-          "deezer_url": "https://www.deezer.com/track/4310841642",
           "youtube_id": "-DfUfuzFig0",
-          "youtube_url": "https://www.youtube.com/watch?v=-DfUfuzFig0"
+          "youtube_url": "https://www.youtube.com/watch?v=-DfUfuzFig0",
+          "deezer_id": 4310841642,
+          "deezer_url": "https://www.deezer.com/track/4310841642"
         },
         {
-          "position": 24,
+          "position": 27,
           "track": {
             "title": "Make Me Love You",
             "artist": "Nickelback",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/c703df579523d56edef50b19c0715c59/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 26,
-          "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 24,
-          "source": "kworb_itunes",
-          "deezer_id": 4111964271,
-          "deezer_url": "https://www.deezer.com/track/4111964271",
-          "youtube_id": "5l5OKWE3rbA",
-          "youtube_url": "https://www.youtube.com/watch?v=5l5OKWE3rbA"
-        },
-        {
-          "position": 25,
-          "track": {
-            "title": "Dazed",
-            "artist": "Easy Action",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/c486f5bd180659dc1d5df842e6dff647/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 5,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 25,
-          "source": "kworb_itunes",
-          "youtube_id": "RBCQbh38qmI",
-          "youtube_url": "https://www.youtube.com/watch?v=RBCQbh38qmI",
-          "deezer_id": 4097503941,
-          "deezer_url": "https://www.deezer.com/track/4097503941"
-        },
-        {
-          "position": 26,
-          "track": {
-            "title": "WARUM",
-            "artist": "Helene Fischer",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/599f6fbcb12f3a8568500c724ec7b80b/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 23,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 26,
-          "source": "kworb_itunes",
-          "deezer_id": 4337185442,
-          "deezer_url": "https://www.deezer.com/track/4337185442",
-          "youtube_id": "Iuuck33u7N8",
-          "youtube_url": "https://www.youtube.com/watch?v=Iuuck33u7N8"
-        },
-        {
-          "position": 27,
-          "track": {
-            "title": "Stay For One More Sunrise",
-            "artist": "Seth Walker",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/5271910e08ef7e2ef81f347b65141b86/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 12,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 27,
           "source": "kworb_itunes",
-          "youtube_id": "xcN0o5wBKao",
-          "youtube_url": "https://www.youtube.com/watch?v=xcN0o5wBKao",
-          "deezer_id": 4269786852,
-          "deezer_url": "https://www.deezer.com/track/4269786852"
+          "youtube_id": "5l5OKWE3rbA",
+          "youtube_url": "https://www.youtube.com/watch?v=5l5OKWE3rbA",
+          "deezer_id": 4111964271,
+          "deezer_url": "https://www.deezer.com/track/4111964271"
         },
         {
           "position": 28,
           "track": {
-            "title": "Rivers",
-            "artist": "Rea Garvey & Imran",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/bf05b0e8400495aecdda89b77942b42a/250x250-000000-80-0-0.jpg"
+            "title": "New Religion",
+            "artist": "Bebe Rexha & Faithless",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/44fcf0e5b0e84a25c0dd7969ce63ecca/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 41,
+          "previousPosition": 42,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 28,
           "source": "kworb_itunes",
-          "deezer_id": 4192900942,
-          "deezer_url": "https://www.deezer.com/track/4192900942",
-          "youtube_id": "9850qGeRCf4",
-          "youtube_url": "https://www.youtube.com/watch?v=9850qGeRCf4"
+          "youtube_id": "366CV87TguE",
+          "youtube_url": "https://www.youtube.com/watch?v=366CV87TguE",
+          "deezer_id": 3850680281,
+          "deezer_url": "https://www.deezer.com/track/3850680281"
         },
         {
           "position": 29,
           "track": {
-            "title": "Babydoll",
-            "artist": "Jamie Miller & Antonio Cipriano",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/408f1d7b222c5943a8ce05442bbb497a/250x250-000000-80-0-0.jpg"
+            "title": "PROPAGANDA",
+            "artist": "Sido & Fler",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/acc683a3295ab31fc70f0fbacfe095df/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 31,
-          "movement": "up",
+          "previousPosition": 22,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 29,
           "source": "kworb_itunes",
-          "deezer_id": 4290658002,
-          "deezer_url": "https://www.deezer.com/track/4290658002",
-          "youtube_id": "8g25GeJgxgs",
-          "youtube_url": "https://www.youtube.com/watch?v=8g25GeJgxgs"
+          "youtube_id": "1abzMQhso9s",
+          "youtube_url": "https://www.youtube.com/watch?v=1abzMQhso9s",
+          "deezer_id": 4375083281,
+          "deezer_url": "https://www.deezer.com/track/4375083281"
         },
         {
           "position": 30,
@@ -1539,70 +1599,65 @@
         {
           "position": 31,
           "track": {
-            "title": "AN MEINER SEITE",
-            "artist": "Helene Fischer",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/42bf7a581df912ae81ab2f4fd7ae00c1/250x250-000000-80-0-0.jpg"
+            "title": "Flower In A Hurricane [From GTAVI: Original Score]",
+            "artist": "Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/8772a255e44ebb7acdb7d6ca5030ed5f/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 14,
-          "movement": "down",
+          "previousPosition": 31,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 31,
           "source": "kworb_itunes",
-          "youtube_id": "VvZY0wiQnrg",
-          "youtube_url": "https://www.youtube.com/watch?v=VvZY0wiQnrg",
-          "deezer_id": 4250536021,
-          "deezer_url": "https://www.deezer.com/track/4250536021"
+          "youtube_id": "5dPwBWvmcbQ",
+          "youtube_url": "https://www.youtube.com/watch?v=5dPwBWvmcbQ",
+          "deezer_id": 4342358342,
+          "deezer_url": "https://www.deezer.com/track/4342358342"
         },
         {
           "position": 32,
           "track": {
-            "title": "WOKE",
-            "artist": "Sido",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/d62dc917f4948c10a5ee09cc05df4128/250x250-000000-80-0-0.jpg"
+            "title": "Rivers",
+            "artist": "Rea Garvey & Imran",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/bf05b0e8400495aecdda89b77942b42a/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 55,
+          "previousPosition": 41,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 32,
           "source": "kworb_itunes",
-          "youtube_id": "-0pslS5g-4c",
-          "youtube_url": "https://www.youtube.com/watch?v=-0pslS5g-4c",
-          "deezer_id": 4288464802,
-          "deezer_url": "https://www.deezer.com/track/4288464802"
+          "youtube_id": "9850qGeRCf4",
+          "youtube_url": "https://www.youtube.com/watch?v=9850qGeRCf4",
+          "deezer_id": 4192900942,
+          "deezer_url": "https://www.deezer.com/track/4192900942"
         },
         {
           "position": 33,
           "track": {
-            "title": "New Religion",
-            "artist": "Bebe Rexha & Faithless",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/44fcf0e5b0e84a25c0dd7969ce63ecca/250x250-000000-80-0-0.jpg"
+            "title": "KÃ¶lsche Maid",
+            "artist": "Calvin Kleinen, Ikke HÃ¼ftgold & Rabaue"
           },
-          "previousPosition": 42,
-          "movement": "up",
+          "previousPosition": 33,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 33,
-          "source": "kworb_itunes",
-          "deezer_id": 3850680281,
-          "deezer_url": "https://www.deezer.com/track/3850680281",
-          "youtube_id": "366CV87TguE",
-          "youtube_url": "https://www.youtube.com/watch?v=366CV87TguE"
+          "source": "kworb_itunes"
         },
         {
           "position": 34,
           "track": {
-            "title": "Stop The Wedding!",
-            "artist": "Ashe",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/556af4b24a45d8fd6912014d706ff7d4/250x250-000000-80-0-0.jpg"
+            "title": "Babydoll",
+            "artist": "Jamie Miller & Antonio Cipriano",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/408f1d7b222c5943a8ce05442bbb497a/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 21,
+          "previousPosition": 31,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 34,
           "source": "kworb_itunes",
-          "youtube_id": "DLV8FpyxZPQ",
-          "youtube_url": "https://www.youtube.com/watch?v=DLV8FpyxZPQ",
-          "deezer_id": 4209416002,
-          "deezer_url": "https://www.deezer.com/track/4209416002"
+          "youtube_id": "8g25GeJgxgs",
+          "youtube_url": "https://www.youtube.com/watch?v=8g25GeJgxgs",
+          "deezer_id": 4290658002,
+          "deezer_url": "https://www.deezer.com/track/4290658002"
         },
         {
           "position": 35,
@@ -1624,219 +1679,17 @@
         {
           "position": 36,
           "track": {
-            "title": "Flower In A Hurricane [From GTAVI: Original Score]",
-            "artist": "Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/8772a255e44ebb7acdb7d6ca5030ed5f/250x250-000000-80-0-0.jpg"
+            "title": "Donner",
+            "artist": "DÃ¤mmerland & Feuerschwanz"
           },
           "previousPosition": 36,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 36,
-          "source": "kworb_itunes",
-          "youtube_id": "5dPwBWvmcbQ",
-          "youtube_url": "https://www.youtube.com/watch?v=5dPwBWvmcbQ",
-          "deezer_id": 4342358342,
-          "deezer_url": "https://www.deezer.com/track/4342358342"
+          "source": "kworb_itunes"
         },
         {
           "position": 37,
-          "track": {
-            "title": "Wenn Du Liebst (Live in Berlin 2026)",
-            "artist": "Clueso & LOTTE"
-          },
-          "previousPosition": 36,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 37,
-          "source": "kworb_itunes",
-          "youtube_id": "ws0keQ7GxKE",
-          "youtube_url": "https://www.youtube.com/watch?v=ws0keQ7GxKE"
-        },
-        {
-          "position": 38,
-          "track": {
-            "title": "Take a Little",
-            "artist": "Jaxson Blue",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/7cc06ac71c7209d37144c2c63558f68a/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 18,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 38,
-          "source": "kworb_itunes",
-          "youtube_id": "RVkZBose6ro",
-          "youtube_url": "https://www.youtube.com/watch?v=RVkZBose6ro",
-          "deezer_id": 1587062972,
-          "deezer_url": "https://www.deezer.com/track/1587062972"
-        },
-        {
-          "position": 39,
-          "track": {
-            "title": "Dracula (with JENNIE)",
-            "artist": "Tame Impala",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/b428fa5da7496083cd2c2e87b94e2ceb/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 28,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 39,
-          "source": "kworb_itunes",
-          "deezer_id": 3567385391,
-          "deezer_url": "https://www.deezer.com/track/3567385391",
-          "youtube_id": "xnP7qKxwzjg",
-          "youtube_url": "https://www.youtube.com/watch?v=xnP7qKxwzjg"
-        },
-        {
-          "position": 40,
-          "track": {
-            "title": "TiK ToK",
-            "artist": "Kesha",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/6b4c12d69aafd210b11bd74836ce3311/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 50,
-          "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 40,
-          "source": "kworb_itunes",
-          "youtube_id": "iP6XpLQM2Cs",
-          "youtube_url": "https://www.youtube.com/watch?v=iP6XpLQM2Cs",
-          "deezer_id": 4764905,
-          "deezer_url": "https://www.deezer.com/track/4764905"
-        },
-        {
-          "position": 41,
-          "track": {
-            "title": "Magnetic",
-            "artist": "The Bausa",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/a9f10b9adc9d762a545a3b98d4a9edef/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 24,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 41,
-          "source": "kworb_itunes",
-          "deezer_id": 3843457421,
-          "deezer_url": "https://www.deezer.com/track/3843457421"
-        },
-        {
-          "position": 42,
-          "track": {
-            "title": "Bass Persuades",
-            "artist": "Miley Cyrus",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/00118eb3dccc7678a7c5e66569a40eeb/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 60,
-          "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 42,
-          "source": "kworb_itunes",
-          "deezer_id": 4262469891,
-          "deezer_url": "https://www.deezer.com/track/4262469891"
-        },
-        {
-          "position": 43,
-          "track": {
-            "title": "Mr. Know It All",
-            "artist": "Teddy Swims",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/ae84b07e7cc79189d9f54948789633ac/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 39,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 43,
-          "source": "kworb_itunes",
-          "youtube_id": "KllnaNOxe0I",
-          "youtube_url": "https://www.youtube.com/watch?v=KllnaNOxe0I",
-          "deezer_id": 3931143901,
-          "deezer_url": "https://www.deezer.com/track/3931143901"
-        },
-        {
-          "position": 44,
-          "track": {
-            "title": "I Wish You Were Here",
-            "artist": "Rea Garvey"
-          },
-          "previousPosition": 44,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 44,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 45,
-          "track": {
-            "title": "Ich weiÃ, was du brauchst",
-            "artist": "Kerstin Ott & Maite Kelly"
-          },
-          "previousPosition": 27,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 45,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 46,
-          "track": {
-            "title": "KÃ¶lsche Maid",
-            "artist": "Calvin Kleinen, Ikke HÃ¼ftgold & Rabaue"
-          },
-          "previousPosition": 46,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 46,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 47,
-          "track": {
-            "title": "Why Don't You Spend the Night",
-            "artist": "Voltage X",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/215a1dd713b55af71746bb6d9c94de81/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 30,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 47,
-          "source": "kworb_itunes",
-          "deezer_id": 4282987242,
-          "deezer_url": "https://www.deezer.com/track/4282987242"
-        },
-        {
-          "position": 48,
-          "track": {
-            "title": "Moog City 2",
-            "artist": "C418",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/20259a08299998530c0517e1657fc7db/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 20,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 48,
-          "source": "kworb_itunes",
-          "youtube_id": "C8df2pbOX6g",
-          "youtube_url": "https://www.youtube.com/watch?v=C8df2pbOX6g",
-          "deezer_id": 3765727322,
-          "deezer_url": "https://www.deezer.com/track/3765727322"
-        },
-        {
-          "position": 49,
-          "track": {
-            "title": "Fucking Shit, Holy Shit",
-            "artist": "Shards of Art",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/d622f5032c789be551af34a661e626e2/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 32,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 49,
-          "source": "kworb_itunes",
-          "youtube_id": "Cm5xuN1gBF0",
-          "youtube_url": "https://www.youtube.com/watch?v=Cm5xuN1gBF0",
-          "deezer_id": 3951588721,
-          "deezer_url": "https://www.deezer.com/track/3951588721"
-        },
-        {
-          "position": 50,
           "track": {
             "title": "The Greatest Show On Earth",
             "artist": "U2",
@@ -1845,114 +1698,63 @@
           "previousPosition": 62,
           "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 50,
+          "peakPosition": 37,
           "source": "kworb_itunes",
           "deezer_id": 4343992142,
-          "deezer_url": "https://www.deezer.com/track/4343992142"
+          "deezer_url": "https://www.deezer.com/track/4343992142",
+          "youtube_id": "TUuVOW7XogA",
+          "youtube_url": "https://www.youtube.com/watch?v=TUuVOW7XogA"
         },
         {
-          "position": 51,
+          "position": 38,
           "track": {
-            "title": "Cool",
-            "artist": "Mark Forster",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/20fc3b12d153e8b40b90e8455ab91f1f/250x250-000000-80-0-0.jpg"
+            "title": "Dazed",
+            "artist": "Easy Action",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/c486f5bd180659dc1d5df842e6dff647/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 38,
+          "previousPosition": 5,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 51,
+          "peakPosition": 38,
           "source": "kworb_itunes",
-          "deezer_id": 4295672882,
-          "deezer_url": "https://www.deezer.com/track/4295672882"
+          "youtube_id": "RBCQbh38qmI",
+          "youtube_url": "https://www.youtube.com/watch?v=RBCQbh38qmI",
+          "deezer_id": 4097503941,
+          "deezer_url": "https://www.deezer.com/track/4097503941"
         },
         {
-          "position": 52,
+          "position": 39,
           "track": {
-            "title": "A.S.S.N. 2.0",
-            "artist": "AK AUSSERKONTROLLE",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/bebfb05a7dbbc921324596733361f1a5/250x250-000000-80-0-0.jpg"
+            "title": "Wenn Du Liebst (Live in Berlin 2026)",
+            "artist": "Clueso & LOTTE"
           },
-          "previousPosition": 52,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 52,
-          "source": "kworb_itunes",
-          "deezer_id": 4390518141,
-          "deezer_url": "https://www.deezer.com/track/4390518141"
-        },
-        {
-          "position": 53,
-          "track": {
-            "title": "Daughter of the Black Pine",
-            "artist": "Bjorn Bonebreaker",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/3ed1add50d9e1a5db947d52112b0ce62/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 40,
+          "previousPosition": 36,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 53,
+          "peakPosition": 39,
           "source": "kworb_itunes",
-          "deezer_id": 4351054902,
-          "deezer_url": "https://www.deezer.com/track/4351054902"
+          "youtube_id": "ws0keQ7GxKE",
+          "youtube_url": "https://www.youtube.com/watch?v=ws0keQ7GxKE"
         },
         {
-          "position": 54,
+          "position": 40,
           "track": {
-            "title": "Yuppididuh (und der Ochs und die Kuh) [AprÃ¨s-Ski Partymix]",
-            "artist": "Heino"
+            "title": "WOKE",
+            "artist": "Sido",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/d62dc917f4948c10a5ee09cc05df4128/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 54,
-          "movement": "same",
+          "previousPosition": 55,
+          "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 54,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 55,
-          "track": {
-            "title": "REGENBOGEN",
-            "artist": "JAYNBERG",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/ef7b2f8c2d099beb783be1a5204bed78/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 51,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 55,
+          "peakPosition": 40,
           "source": "kworb_itunes",
-          "deezer_id": 4206175362,
-          "deezer_url": "https://www.deezer.com/track/4206175362"
+          "youtube_id": "-0pslS5g-4c",
+          "youtube_url": "https://www.youtube.com/watch?v=-0pslS5g-4c",
+          "deezer_id": 4288464802,
+          "deezer_url": "https://www.deezer.com/track/4288464802"
         },
         {
-          "position": 56,
-          "track": {
-            "title": "BbY WOW",
-            "artist": "KAROL G, Judeline & rusowsky",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 33,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 56,
-          "source": "kworb_itunes",
-          "youtube_id": "fRIhCiUVaKs",
-          "youtube_url": "https://www.youtube.com/watch?v=fRIhCiUVaKs",
-          "deezer_id": 4208859922,
-          "deezer_url": "https://www.deezer.com/track/4208859922"
-        },
-        {
-          "position": 57,
-          "track": {
-            "title": "take me home (4 christmas)",
-            "artist": "Olivia Rodrigo"
-          },
-          "previousPosition": 57,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 57,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 58,
+          "position": 41,
           "track": {
             "title": "Sonne (Live in Mexico City)",
             "artist": "Rammstein",
@@ -1961,72 +1763,32 @@
           "previousPosition": 64,
           "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 58,
+          "peakPosition": 41,
           "source": "kworb_itunes",
           "deezer_id": 14381638,
-          "deezer_url": "https://www.deezer.com/track/14381638"
+          "deezer_url": "https://www.deezer.com/track/14381638",
+          "youtube_id": "StZcUAPRRac",
+          "youtube_url": "https://www.youtube.com/watch?v=StZcUAPRRac"
         },
         {
-          "position": 59,
+          "position": 42,
           "track": {
-            "title": "Find Me",
-            "artist": "Tiffany Aris",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/8e457b3db373a98cd5dbef62e189faf7/250x250-000000-80-0-0.jpg"
+            "title": "Take a Little",
+            "artist": "Jaxson Blue",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/7cc06ac71c7209d37144c2c63558f68a/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 49,
+          "previousPosition": 18,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 59,
+          "peakPosition": 42,
           "source": "kworb_itunes",
-          "deezer_id": 4236793372,
-          "deezer_url": "https://www.deezer.com/track/4236793372"
+          "youtube_id": "RVkZBose6ro",
+          "youtube_url": "https://www.youtube.com/watch?v=RVkZBose6ro",
+          "deezer_id": 1587062972,
+          "deezer_url": "https://www.deezer.com/track/1587062972"
         },
         {
-          "position": 60,
-          "track": {
-            "title": "In My Soul",
-            "artist": "Bob Dominator",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/3ad734831132a784cff92a79fa1630fb/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 91,
-          "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 60,
-          "source": "kworb_itunes",
-          "deezer_id": 4011424701,
-          "deezer_url": "https://www.deezer.com/track/4011424701"
-        },
-        {
-          "position": 61,
-          "track": {
-            "title": "Self Aware",
-            "artist": "Temper City",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/4e803aeb014d512c960b5cc7ccaa1800/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 29,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 61,
-          "source": "kworb_itunes",
-          "youtube_id": "mh4AQkw4Jjc",
-          "youtube_url": "https://www.youtube.com/watch?v=mh4AQkw4Jjc",
-          "deezer_id": 3848530521,
-          "deezer_url": "https://www.deezer.com/track/3848530521"
-        },
-        {
-          "position": 62,
-          "track": {
-            "title": "Take It Slow (Bullit)",
-            "artist": "Robin Schulz & WatermÃ¤t"
-          },
-          "previousPosition": 89,
-          "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 62,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 63,
+          "position": 43,
           "track": {
             "title": "Storm in my heart",
             "artist": "Rockin' Jukebox",
@@ -2035,216 +1797,250 @@
           "previousPosition": 67,
           "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 63,
+          "peakPosition": 43,
           "source": "kworb_itunes",
           "deezer_id": 6635901,
-          "deezer_url": "https://www.deezer.com/track/6635901"
+          "deezer_url": "https://www.deezer.com/track/6635901",
+          "youtube_id": "472BrHf7H6c",
+          "youtube_url": "https://www.youtube.com/watch?v=472BrHf7H6c"
         },
         {
-          "position": 64,
+          "position": 44,
           "track": {
-            "title": "Housewife",
-            "artist": "Tate McRae",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/0717657c0f9540946fb9813d3383a500/250x250-000000-80-0-0.jpg"
+            "title": "Cool",
+            "artist": "Mark Forster",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/20fc3b12d153e8b40b90e8455ab91f1f/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 17,
+          "previousPosition": 38,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 64,
+          "peakPosition": 44,
           "source": "kworb_itunes",
-          "youtube_id": "DPEodkHzH-s",
-          "youtube_url": "https://www.youtube.com/watch?v=DPEodkHzH-s",
-          "deezer_id": 4350411742,
-          "deezer_url": "https://www.deezer.com/track/4350411742"
+          "deezer_id": 4295672882,
+          "deezer_url": "https://www.deezer.com/track/4295672882",
+          "youtube_id": "Fb2UcPEpzWQ",
+          "youtube_url": "https://www.youtube.com/watch?v=Fb2UcPEpzWQ"
         },
         {
-          "position": 65,
+          "position": 45,
           "track": {
-            "title": "Lily Was Here (feat. Candy Dulfer) [From \"Lily Was Here\"]",
-            "artist": "David A. Stewart"
+            "title": "Bass Persuades",
+            "artist": "Miley Cyrus",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/00118eb3dccc7678a7c5e66569a40eeb/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 106,
+          "previousPosition": 60,
           "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 65,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 66,
-          "track": {
-            "title": "Because I Love You",
-            "artist": "AbriJan",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/d232066b442249203e32e6940b2c0291/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 61,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 66,
+          "peakPosition": 45,
           "source": "kworb_itunes",
-          "deezer_id": 4342190262,
-          "deezer_url": "https://www.deezer.com/track/4342190262"
+          "deezer_id": 4262469891,
+          "deezer_url": "https://www.deezer.com/track/4262469891"
         },
         {
-          "position": 67,
-          "track": {
-            "title": "After the Fall",
-            "artist": "Kimo Sounds",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/5eba00148db3cc4f8c5b3b42bd917a42/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 43,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 67,
-          "source": "kworb_itunes",
-          "deezer_id": 4161459182,
-          "deezer_url": "https://www.deezer.com/track/4161459182"
-        },
-        {
-          "position": 68,
-          "track": {
-            "title": "Templars (feat. Pop Evil)",
-            "artist": "Sabaton & Pop Evil",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/c8fcea345d211ac9868b7b68bcea45dd/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 68,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 68,
-          "source": "kworb_itunes",
-          "deezer_id": 4208206252,
-          "deezer_url": "https://www.deezer.com/track/4208206252"
-        },
-        {
-          "position": 69,
-          "track": {
-            "title": "Wie lang noch",
-            "artist": "Adel Tawil"
-          },
-          "previousPosition": 69,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 69,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 70,
-          "track": {
-            "title": "Silencio",
-            "artist": "U2",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/5c288ebd50b3cc02b666d9979dde5420/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 117,
-          "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 70,
-          "source": "kworb_itunes",
-          "deezer_id": 4295970472,
-          "deezer_url": "https://www.deezer.com/track/4295970472"
-        },
-        {
-          "position": 71,
-          "track": {
-            "title": "HEUTE NACHT",
-            "artist": "Helene Fischer",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/b69863fc7366aa31f897289fd1af0aa9/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 37,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 71,
-          "source": "kworb_itunes",
-          "deezer_id": 4037206611,
-          "deezer_url": "https://www.deezer.com/track/4037206611"
-        },
-        {
-          "position": 72,
+          "position": 46,
           "track": {
             "title": "Street Of Dreams",
-            "artist": "U2"
+            "artist": "U2",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/cfe8417f09a3b563f618c274696eacf1/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 141,
           "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 72,
-          "source": "kworb_itunes"
+          "peakPosition": 46,
+          "source": "kworb_itunes",
+          "youtube_id": "hRnS0Wf64Is",
+          "youtube_url": "https://www.youtube.com/watch?v=hRnS0Wf64Is",
+          "deezer_id": 4124553641,
+          "deezer_url": "https://www.deezer.com/track/4124553641"
         },
         {
-          "position": 73,
+          "position": 47,
           "track": {
-            "title": "Merry Christmas To You",
-            "artist": "A*Teens"
+            "title": "take me home (4 christmas)",
+            "artist": "Olivia Rodrigo"
           },
-          "previousPosition": 73,
+          "previousPosition": 47,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 73,
-          "source": "kworb_itunes"
+          "peakPosition": 47,
+          "source": "kworb_itunes",
+          "youtube_id": "uXymCnWk9LI",
+          "youtube_url": "https://www.youtube.com/watch?v=uXymCnWk9LI"
         },
         {
-          "position": 74,
+          "position": 48,
           "track": {
-            "title": "Make It Spectacular",
-            "artist": "Kimo Sounds"
+            "title": "Stay For One More Sunrise",
+            "artist": "Seth Walker",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/5271910e08ef7e2ef81f347b65141b86/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 68,
+          "previousPosition": 12,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 74,
-          "source": "kworb_itunes"
+          "peakPosition": 48,
+          "source": "kworb_itunes",
+          "youtube_id": "xcN0o5wBKao",
+          "youtube_url": "https://www.youtube.com/watch?v=xcN0o5wBKao",
+          "deezer_id": 4269786852,
+          "deezer_url": "https://www.deezer.com/track/4269786852"
         },
         {
-          "position": 75,
+          "position": 49,
           "track": {
-            "title": "Donner",
-            "artist": "DÃ¤mmerland & Feuerschwanz"
+            "title": "Find Me",
+            "artist": "Tiffany Aris",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/8e457b3db373a98cd5dbef62e189faf7/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 75,
+          "previousPosition": 49,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 75,
+          "peakPosition": 49,
+          "source": "kworb_itunes",
+          "deezer_id": 4236793372,
+          "deezer_url": "https://www.deezer.com/track/4236793372",
+          "youtube_id": "t1mI9gvMocg",
+          "youtube_url": "https://www.youtube.com/watch?v=t1mI9gvMocg"
+        },
+        {
+          "position": 50,
+          "track": {
+            "title": "Why Don't You Spend the Night",
+            "artist": "Voltage X",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/215a1dd713b55af71746bb6d9c94de81/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 30,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 50,
+          "source": "kworb_itunes",
+          "deezer_id": 4282987242,
+          "deezer_url": "https://www.deezer.com/track/4282987242",
+          "youtube_id": "Yk8ZKUrhFtQ",
+          "youtube_url": "https://www.youtube.com/watch?v=Yk8ZKUrhFtQ"
+        },
+        {
+          "position": 51,
+          "track": {
+            "title": "Dracula (with JENNIE)",
+            "artist": "Tame Impala",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/b428fa5da7496083cd2c2e87b94e2ceb/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 28,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 51,
+          "source": "kworb_itunes",
+          "youtube_id": "xnP7qKxwzjg",
+          "youtube_url": "https://www.youtube.com/watch?v=xnP7qKxwzjg",
+          "deezer_id": 3567385391,
+          "deezer_url": "https://www.deezer.com/track/3567385391"
+        },
+        {
+          "position": 52,
+          "track": {
+            "title": "I Am The 21st Century",
+            "artist": "Phillip Boa And The Voodooclub"
+          },
+          "previousPosition": 52,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 52,
           "source": "kworb_itunes"
         },
         {
-          "position": 76,
+          "position": 53,
+          "track": {
+            "title": "Mr. Know It All",
+            "artist": "Teddy Swims",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/ae84b07e7cc79189d9f54948789633ac/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 39,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 53,
+          "source": "kworb_itunes",
+          "youtube_id": "KllnaNOxe0I",
+          "youtube_url": "https://www.youtube.com/watch?v=KllnaNOxe0I",
+          "deezer_id": 3931143901,
+          "deezer_url": "https://www.deezer.com/track/3931143901"
+        },
+        {
+          "position": 54,
+          "track": {
+            "title": "My Body Isn't Ready",
+            "artist": "sombr",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/eae17bfb701e178e2070705e21dd1571/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 54,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 54,
+          "source": "kworb_itunes",
+          "deezer_id": 4092422631,
+          "deezer_url": "https://www.deezer.com/track/4092422631",
+          "youtube_id": "ofywN3NgGqY",
+          "youtube_url": "https://www.youtube.com/watch?v=ofywN3NgGqY"
+        },
+        {
+          "position": 55,
+          "track": {
+            "title": "I Wish You Were Here",
+            "artist": "Rea Garvey"
+          },
+          "previousPosition": 55,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 55,
+          "source": "kworb_itunes",
+          "youtube_id": "3bblHIpgTJ0",
+          "youtube_url": "https://www.youtube.com/watch?v=3bblHIpgTJ0"
+        },
+        {
+          "position": 56,
           "track": {
             "title": "Deutschland (Live in Mexico City)",
-            "artist": "Rammstein"
+            "artist": "Rammstein",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/4886636be143303aa0df47cd6d93983e/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 78,
           "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 76,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 77,
-          "track": {
-            "title": "Boston",
-            "artist": "STELLA LEFTY",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/66d6baca9df5092af22a710ce10d39cf/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 34,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 77,
+          "peakPosition": 56,
           "source": "kworb_itunes",
-          "deezer_id": 3895241341,
-          "deezer_url": "https://www.deezer.com/track/3895241341"
+          "deezer_id": 678687242,
+          "deezer_url": "https://www.deezer.com/track/678687242"
         },
         {
-          "position": 78,
+          "position": 57,
           "track": {
             "title": "Sorry Papi",
-            "artist": "Topic & Becky G"
+            "artist": "Topic & Becky G",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/9796e0d0f86333841f1456be22e50d0d/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 109,
           "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 78,
+          "peakPosition": 57,
+          "source": "kworb_itunes",
+          "youtube_id": "CxJu0bncG0k",
+          "youtube_url": "https://www.youtube.com/watch?v=CxJu0bncG0k",
+          "deezer_id": 3966512921,
+          "deezer_url": "https://www.deezer.com/track/3966512921"
+        },
+        {
+          "position": 58,
+          "track": {
+            "title": "Ich weiÃ, was du brauchst",
+            "artist": "Kerstin Ott & Maite Kelly"
+          },
+          "previousPosition": 27,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 58,
           "source": "kworb_itunes"
         },
         {
-          "position": 79,
+          "position": 59,
           "track": {
             "title": "VALHALLA CALLING",
             "artist": "Ragal Ironbull",
@@ -2253,49 +2049,32 @@
           "previousPosition": 35,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 79,
+          "peakPosition": 59,
           "source": "kworb_itunes",
           "deezer_id": 3940529761,
-          "deezer_url": "https://www.deezer.com/track/3940529761"
+          "deezer_url": "https://www.deezer.com/track/3940529761",
+          "youtube_id": "BH9IOx6xPgE",
+          "youtube_url": "https://www.youtube.com/watch?v=BH9IOx6xPgE"
         },
         {
-          "position": 80,
+          "position": 60,
           "track": {
-            "title": "Ruf mich nicht mehr an",
-            "artist": "Levant"
+            "title": "Housewife",
+            "artist": "Tate McRae",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/0717657c0f9540946fb9813d3383a500/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 54,
+          "previousPosition": 17,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 80,
-          "source": "kworb_itunes"
+          "peakPosition": 60,
+          "source": "kworb_itunes",
+          "youtube_id": "DPEodkHzH-s",
+          "youtube_url": "https://www.youtube.com/watch?v=DPEodkHzH-s",
+          "deezer_id": 4350411742,
+          "deezer_url": "https://www.deezer.com/track/4350411742"
         },
         {
-          "position": 81,
-          "track": {
-            "title": "American Girls",
-            "artist": "Harry Styles"
-          },
-          "previousPosition": 58,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 81,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 82,
-          "track": {
-            "title": "skeletons",
-            "artist": "ClockClock"
-          },
-          "previousPosition": 53,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 82,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 83,
+          "position": 61,
           "track": {
             "title": "Ain't In LA",
             "artist": "ADÃLA",
@@ -2304,7 +2083,7 @@
           "previousPosition": 19,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 83,
+          "peakPosition": 61,
           "source": "kworb_itunes",
           "youtube_id": "0ijm2Xui5N8",
           "youtube_url": "https://www.youtube.com/watch?v=0ijm2Xui5N8",
@@ -2312,213 +2091,433 @@
           "deezer_url": "https://www.deezer.com/track/4158551132"
         },
         {
-          "position": 84,
+          "position": 62,
+          "track": {
+            "title": "Wie lang noch",
+            "artist": "Adel Tawil"
+          },
+          "previousPosition": 62,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 62,
+          "source": "kworb_itunes"
+        },
+        {
+          "position": 63,
+          "track": {
+            "title": "Silencio",
+            "artist": "U2",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/5c288ebd50b3cc02b666d9979dde5420/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 117,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 63,
+          "source": "kworb_itunes",
+          "deezer_id": 4295970472,
+          "deezer_url": "https://www.deezer.com/track/4295970472"
+        },
+        {
+          "position": 64,
+          "track": {
+            "title": "HEUTE NACHT",
+            "artist": "Helene Fischer",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/b69863fc7366aa31f897289fd1af0aa9/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 37,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 64,
+          "source": "kworb_itunes",
+          "deezer_id": 4037206611,
+          "deezer_url": "https://www.deezer.com/track/4037206611"
+        },
+        {
+          "position": 65,
+          "track": {
+            "title": "BbY WOW",
+            "artist": "KAROL G, Judeline & rusowsky",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 33,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 65,
+          "source": "kworb_itunes",
+          "youtube_id": "fRIhCiUVaKs",
+          "youtube_url": "https://www.youtube.com/watch?v=fRIhCiUVaKs",
+          "deezer_id": 4208859922,
+          "deezer_url": "https://www.deezer.com/track/4208859922"
+        },
+        {
+          "position": 66,
+          "track": {
+            "title": "In My Soul",
+            "artist": "Bob Dominator",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/3ad734831132a784cff92a79fa1630fb/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 91,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 66,
+          "source": "kworb_itunes",
+          "deezer_id": 4011424701,
+          "deezer_url": "https://www.deezer.com/track/4011424701"
+        },
+        {
+          "position": 67,
+          "track": {
+            "title": "Engel 07 (Remix)",
+            "artist": "Die WBL"
+          },
+          "previousPosition": 67,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 67,
+          "source": "kworb_itunes",
+          "youtube_id": "YYMMg7bUUAE",
+          "youtube_url": "https://www.youtube.com/watch?v=YYMMg7bUUAE"
+        },
+        {
+          "position": 68,
+          "track": {
+            "title": "After the Fall",
+            "artist": "Kimo Sounds",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/5eba00148db3cc4f8c5b3b42bd917a42/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 43,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 68,
+          "source": "kworb_itunes",
+          "deezer_id": 4161459182,
+          "deezer_url": "https://www.deezer.com/track/4161459182"
+        },
+        {
+          "position": 69,
+          "track": {
+            "title": "TiK ToK",
+            "artist": "Kesha",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/6b4c12d69aafd210b11bd74836ce3311/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 50,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 69,
+          "source": "kworb_itunes",
+          "youtube_id": "iP6XpLQM2Cs",
+          "youtube_url": "https://www.youtube.com/watch?v=iP6XpLQM2Cs",
+          "deezer_id": 4764905,
+          "deezer_url": "https://www.deezer.com/track/4764905"
+        },
+        {
+          "position": 70,
+          "track": {
+            "title": "REGENBOGEN",
+            "artist": "JAYNBERG",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/ef7b2f8c2d099beb783be1a5204bed78/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 51,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 70,
+          "source": "kworb_itunes",
+          "deezer_id": 4206175362,
+          "deezer_url": "https://www.deezer.com/track/4206175362",
+          "youtube_id": "c89uC4Fuz-E",
+          "youtube_url": "https://www.youtube.com/watch?v=c89uC4Fuz-E"
+        },
+        {
+          "position": 71,
+          "track": {
+            "title": "Merry Christmas To You",
+            "artist": "A*Teens"
+          },
+          "previousPosition": 71,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 71,
+          "source": "kworb_itunes",
+          "youtube_id": "HchTwbxfr0I",
+          "youtube_url": "https://www.youtube.com/watch?v=HchTwbxfr0I"
+        },
+        {
+          "position": 72,
+          "track": {
+            "title": "Self Aware",
+            "artist": "Temper City",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/4e803aeb014d512c960b5cc7ccaa1800/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 29,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 72,
+          "source": "kworb_itunes",
+          "youtube_id": "mh4AQkw4Jjc",
+          "youtube_url": "https://www.youtube.com/watch?v=mh4AQkw4Jjc",
+          "deezer_id": 3848530521,
+          "deezer_url": "https://www.deezer.com/track/3848530521"
+        },
+        {
+          "position": 73,
+          "track": {
+            "title": "Ruf mich nicht mehr an",
+            "artist": "Levant",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/bef0a91b63462dee377f88fafd37c147/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 54,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 73,
+          "source": "kworb_itunes",
+          "deezer_id": 4084712421,
+          "deezer_url": "https://www.deezer.com/track/4084712421"
+        },
+        {
+          "position": 74,
+          "track": {
+            "title": "Lily Was Here (feat. Candy Dulfer) [From \"Lily Was Here\"]",
+            "artist": "David A. Stewart"
+          },
+          "previousPosition": 106,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 74,
+          "source": "kworb_itunes"
+        },
+        {
+          "position": 75,
+          "track": {
+            "title": "My own rules",
+            "artist": "Ionut Sima785",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/99db295639335dd866e81e05b628b678/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 112,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 75,
+          "source": "kworb_itunes",
+          "deezer_id": 4380541701,
+          "deezer_url": "https://www.deezer.com/track/4380541701"
+        },
+        {
+          "position": 76,
+          "track": {
+            "title": "Lichterkinder",
+            "artist": "Lichterkinder",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/f6a481db36532a7bcaaab5cd7651923d/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 63,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 76,
+          "source": "kworb_itunes",
+          "deezer_id": 404853642,
+          "deezer_url": "https://www.deezer.com/track/404853642"
+        },
+        {
+          "position": 77,
           "track": {
             "title": "Armee der Tristen (Live in Mexico City)",
-            "artist": "Rammstein"
+            "artist": "Rammstein",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/8f1604733de258398816027728710a4b/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 86,
           "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 84,
-          "source": "kworb_itunes"
+          "peakPosition": 77,
+          "source": "kworb_itunes",
+          "deezer_id": 1728067457,
+          "deezer_url": "https://www.deezer.com/track/1728067457"
         },
         {
-          "position": 85,
+          "position": 78,
           "track": {
-            "title": "I Am The 21st Century",
-            "artist": "Phillip Boa And The Voodooclub"
+            "title": "Because I Love You",
+            "artist": "AbriJan",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/d232066b442249203e32e6940b2c0291/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 85,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 85,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 86,
-          "track": {
-            "title": "drop dead",
-            "artist": "Olivia Rodrigo",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/b755e304f6639c3a231f9f67832850a2/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 70,
+          "previousPosition": 61,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 86,
+          "peakPosition": 78,
           "source": "kworb_itunes",
-          "youtube_id": "78wrful9cVU",
-          "youtube_url": "https://www.youtube.com/watch?v=78wrful9cVU",
-          "deezer_id": 3965376601,
-          "deezer_url": "https://www.deezer.com/track/3965376601"
+          "deezer_id": 4342190262,
+          "deezer_url": "https://www.deezer.com/track/4342190262",
+          "youtube_id": "Xc1uQI2XmZs",
+          "youtube_url": "https://www.youtube.com/watch?v=Xc1uQI2XmZs"
         },
         {
-          "position": 87,
+          "position": 79,
+          "track": {
+            "title": "Moog City 2",
+            "artist": "C418",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/20259a08299998530c0517e1657fc7db/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 20,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 79,
+          "source": "kworb_itunes",
+          "youtube_id": "C8df2pbOX6g",
+          "youtube_url": "https://www.youtube.com/watch?v=C8df2pbOX6g",
+          "deezer_id": 3765727322,
+          "deezer_url": "https://www.deezer.com/track/3765727322"
+        },
+        {
+          "position": 80,
+          "track": {
+            "title": "Streichholz",
+            "artist": "Kontra K",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/694d11aa499d56e425b790ee27202ad1/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 75,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 80,
+          "source": "kworb_itunes",
+          "deezer_id": 4376263101,
+          "deezer_url": "https://www.deezer.com/track/4376263101",
+          "youtube_id": "giEUmYIEQt0",
+          "youtube_url": "https://www.youtube.com/watch?v=giEUmYIEQt0"
+        },
+        {
+          "position": 81,
           "track": {
             "title": "Tastes Like Summer",
-            "artist": "James Blunt"
+            "artist": "James Blunt",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/2c77b7e0b162a5129bf3b9d7af0307e8/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 57,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 87,
+          "peakPosition": 81,
+          "source": "kworb_itunes",
+          "deezer_id": 4183195462,
+          "deezer_url": "https://www.deezer.com/track/4183195462"
+        },
+        {
+          "position": 82,
+          "track": {
+            "title": "Yuppididuh (und der Ochs und die Kuh) [AprÃ¨s-Ski Partymix]",
+            "artist": "Heino"
+          },
+          "previousPosition": 82,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 82,
           "source": "kworb_itunes"
         },
         {
-          "position": 88,
-          "track": {
-            "title": "Complicated",
-            "artist": "Avril Lavigne",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/1130d6301d5e87976279ea2f706fcc26/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 25,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 88,
-          "source": "kworb_itunes",
-          "deezer_id": 15587465,
-          "deezer_url": "https://www.deezer.com/track/15587465"
-        },
-        {
-          "position": 89,
+          "position": 83,
           "track": {
             "title": "Cover You",
-            "artist": "Michael Schulte"
+            "artist": "Michael Schulte",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/eb8b3c5795f6b160e83335284bc203fe/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 130,
           "movement": "up",
           "weeksOnChart": 1,
+          "peakPosition": 83,
+          "source": "kworb_itunes",
+          "deezer_id": 4293654522,
+          "deezer_url": "https://www.deezer.com/track/4293654522"
+        },
+        {
+          "position": 84,
+          "track": {
+            "title": "The Battle Of Lundy's Lane",
+            "artist": "Bryan Adams",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/75fb54bf80e95b52ad0de66be411ab31/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 84,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 84,
+          "source": "kworb_itunes",
+          "deezer_id": 4274325072,
+          "deezer_url": "https://www.deezer.com/track/4274325072"
+        },
+        {
+          "position": 85,
+          "track": {
+            "title": "Make It Spectacular",
+            "artist": "Kimo Sounds",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/37c0a87f259d28869f7b7f758db80581/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 68,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 85,
+          "source": "kworb_itunes",
+          "deezer_id": 4250471431,
+          "deezer_url": "https://www.deezer.com/track/4250471431"
+        },
+        {
+          "position": 86,
+          "track": {
+            "title": "Himmel und HÃ¶lle",
+            "artist": "Kastelruther Spatzen"
+          },
+          "previousPosition": 86,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 86,
+          "source": "kworb_itunes",
+          "youtube_id": "wlyJekuFWFI",
+          "youtube_url": "https://www.youtube.com/watch?v=wlyJekuFWFI",
+          "deezer_id": 4364535031,
+          "deezer_url": "https://www.deezer.com/track/4364535031"
+        },
+        {
+          "position": 87,
+          "track": {
+            "title": "Fucking Shit, Holy Shit",
+            "artist": "Shards of Art",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/d622f5032c789be551af34a661e626e2/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 32,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 87,
+          "source": "kworb_itunes",
+          "youtube_id": "Cm5xuN1gBF0",
+          "youtube_url": "https://www.youtube.com/watch?v=Cm5xuN1gBF0",
+          "deezer_id": 3951588721,
+          "deezer_url": "https://www.deezer.com/track/3951588721"
+        },
+        {
+          "position": 88,
+          "track": {
+            "title": "Boston",
+            "artist": "STELLA LEFTY",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/66d6baca9df5092af22a710ce10d39cf/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 34,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 88,
+          "source": "kworb_itunes",
+          "deezer_id": 3895241341,
+          "deezer_url": "https://www.deezer.com/track/3895241341"
+        },
+        {
+          "position": 89,
+          "track": {
+            "title": "Natty or Not",
+            "artist": "Iron Jarl",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1221f679e129c4de700afdd1d8d5e7f8/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 89,
+          "movement": "same",
+          "weeksOnChart": 1,
           "peakPosition": 89,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "deezer_id": 3980808441,
+          "deezer_url": "https://www.deezer.com/track/3980808441"
         },
         {
           "position": 90,
-          "track": {
-            "title": "Thriller",
-            "artist": "Michael Jackson",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/92a024220a9532489c75c9d994835697/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 90,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 90,
-          "source": "kworb_itunes",
-          "deezer_id": 555639,
-          "deezer_url": "https://www.deezer.com/track/555639"
-        },
-        {
-          "position": 91,
-          "track": {
-            "title": "With or Without You",
-            "artist": "U2"
-          },
-          "previousPosition": 91,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 91,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 92,
-          "track": {
-            "title": "Lass die Pferde frei - Album-Version",
-            "artist": "2raumwohnung"
-          },
-          "previousPosition": 92,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 92,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 93,
-          "track": {
-            "title": "The Battle Of Lundy's Lane",
-            "artist": "Bryan Adams"
-          },
-          "previousPosition": 93,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 93,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 94,
-          "track": {
-            "title": "My Body Isn't Ready",
-            "artist": "sombr",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/eae17bfb701e178e2070705e21dd1571/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": 94,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 94,
-          "source": "kworb_itunes",
-          "deezer_id": 4092422631,
-          "deezer_url": "https://www.deezer.com/track/4092422631"
-        },
-        {
-          "position": 95,
-          "track": {
-            "title": "Moog City",
-            "artist": "C418"
-          },
-          "previousPosition": 103,
-          "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 95,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 96,
-          "track": {
-            "title": "Outro",
-            "artist": "M83"
-          },
-          "previousPosition": 107,
-          "movement": "up",
-          "weeksOnChart": 1,
-          "peakPosition": 96,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 97,
-          "track": {
-            "title": "Natty or Not",
-            "artist": "Iron Jarl"
-          },
-          "previousPosition": 97,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 97,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 98,
-          "track": {
-            "title": "O Geisterbaum (Inhaltsangabe)",
-            "artist": "Die drei ???"
-          },
-          "previousPosition": 98,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 98,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 99,
-          "track": {
-            "title": "Before You Know It",
-            "artist": "Kygo & Ava Max"
-          },
-          "previousPosition": 72,
-          "movement": "down",
-          "weeksOnChart": 1,
-          "peakPosition": 99,
-          "source": "kworb_itunes"
-        },
-        {
-          "position": 100,
           "track": {
             "title": "Dai Dai",
             "artist": "Shakira & Burna Boy",
@@ -2527,7 +2526,7 @@
           "previousPosition": 48,
           "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 100,
+          "peakPosition": 90,
           "source": "kworb_itunes",
           "youtube_id": "fcnDmrtj6Sk",
           "youtube_url": "https://www.youtube.com/watch?v=fcnDmrtj6Sk",
@@ -2535,37 +2534,196 @@
           "deezer_url": "https://www.deezer.com/track/4015341011"
         },
         {
-          "position": 101,
+          "position": 91,
           "track": {
-            "title": "DerniÃ¨re danse",
-            "artist": "Indila"
+            "title": "11 von 11",
+            "artist": "Druckluft",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/506635109e1da2358233687ad7200ded/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 101,
+          "previousPosition": 121,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 91,
+          "source": "kworb_itunes",
+          "youtube_id": "Qc_V9OT0f6k",
+          "youtube_url": "https://www.youtube.com/watch?v=Qc_V9OT0f6k",
+          "deezer_id": 4000741151,
+          "deezer_url": "https://www.deezer.com/track/4000741151"
+        },
+        {
+          "position": 92,
+          "track": {
+            "title": "Two Vikings",
+            "artist": "RAVNIR & VYRMA"
+          },
+          "previousPosition": 168,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 92,
+          "source": "kworb_itunes"
+        },
+        {
+          "position": 93,
+          "track": {
+            "title": "skeletons",
+            "artist": "ClockClock",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/af05b2c58a77cd1d10d66f3d27ba0610/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 53,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 93,
+          "source": "kworb_itunes",
+          "deezer_id": 4265272142,
+          "deezer_url": "https://www.deezer.com/track/4265272142"
+        },
+        {
+          "position": 94,
+          "track": {
+            "title": "A.S.S.N. 2.0",
+            "artist": "AK AUSSERKONTROLLE",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/bebfb05a7dbbc921324596733361f1a5/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 94,
           "movement": "same",
           "weeksOnChart": 1,
+          "peakPosition": 94,
+          "source": "kworb_itunes",
+          "deezer_id": 4390518141,
+          "deezer_url": "https://www.deezer.com/track/4390518141"
+        },
+        {
+          "position": 95,
+          "track": {
+            "title": "Templars (feat. Pop Evil)",
+            "artist": "Sabaton & Pop Evil",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/c8fcea345d211ac9868b7b68bcea45dd/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 95,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 95,
+          "source": "kworb_itunes",
+          "deezer_id": 4208206252,
+          "deezer_url": "https://www.deezer.com/track/4208206252"
+        },
+        {
+          "position": 96,
+          "track": {
+            "title": "Go!",
+            "artist": "Celo & Abdi",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/58642090da7cc900ca1345ee5af4ecca/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 96,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 96,
+          "source": "kworb_itunes",
+          "deezer_id": 4261191331,
+          "deezer_url": "https://www.deezer.com/track/4261191331"
+        },
+        {
+          "position": 97,
+          "track": {
+            "title": "Daughter of the Black Pine",
+            "artist": "Bjorn Bonebreaker",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/3ed1add50d9e1a5db947d52112b0ce62/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 40,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 97,
+          "source": "kworb_itunes",
+          "deezer_id": 4351054902,
+          "deezer_url": "https://www.deezer.com/track/4351054902",
+          "youtube_id": "8LMx_EpcYOE",
+          "youtube_url": "https://www.youtube.com/watch?v=8LMx_EpcYOE"
+        },
+        {
+          "position": 98,
+          "track": {
+            "title": "drop dead",
+            "artist": "Olivia Rodrigo",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/b755e304f6639c3a231f9f67832850a2/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 70,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 98,
+          "source": "kworb_itunes",
+          "youtube_id": "78wrful9cVU",
+          "youtube_url": "https://www.youtube.com/watch?v=78wrful9cVU",
+          "deezer_id": 3965376601,
+          "deezer_url": "https://www.deezer.com/track/3965376601"
+        },
+        {
+          "position": 99,
+          "track": {
+            "title": "Mon Amour (So lang ich noch Luft in meiner Lunge hab) [Party Version]",
+            "artist": "Tobee",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/5e0fba60e9c2ef5368c41fb82da48830/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 155,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 99,
+          "source": "kworb_itunes",
+          "deezer_id": 3896806851,
+          "deezer_url": "https://www.deezer.com/track/3896806851"
+        },
+        {
+          "position": 100,
+          "track": {
+            "title": "Circles",
+            "artist": "James Blunt",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1bec306df441b91cdb6877f982e4519a/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 82,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 100,
+          "source": "kworb_itunes",
+          "deezer_id": 4244695431,
+          "deezer_url": "https://www.deezer.com/track/4244695431"
+        },
+        {
+          "position": 101,
+          "track": {
+            "title": "Complicated",
+            "artist": "Avril Lavigne",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1130d6301d5e87976279ea2f706fcc26/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 25,
+          "movement": "down",
+          "weeksOnChart": 1,
           "peakPosition": 101,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "deezer_id": 15587465,
+          "deezer_url": "https://www.deezer.com/track/15587465"
         },
         {
           "position": 102,
           "track": {
-            "title": "My own rules",
-            "artist": "Ionut Sima785"
+            "title": "Mama, I still call your name",
+            "artist": "Noah Nine",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/a2d109f4821942598042f5eaad866cfb/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 112,
-          "movement": "up",
+          "previousPosition": 102,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 102,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "deezer_id": 4031632891,
+          "deezer_url": "https://www.deezer.com/track/4031632891"
         },
         {
           "position": 103,
           "track": {
-            "title": "FÃ¼r immer",
-            "artist": "AYLIVA"
+            "title": "Fuck the ones",
+            "artist": "Rocky B"
           },
-          "previousPosition": 103,
-          "movement": "same",
+          "previousPosition": 125,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 103,
           "source": "kworb_itunes"
@@ -2573,8 +2731,8 @@
         {
           "position": 104,
           "track": {
-            "title": "Guten Morgen, Welt",
-            "artist": "PapaBoka"
+            "title": "Amore & Alaaf",
+            "artist": "Marc Eggers, @47_kÃ¶11sch & Dj Aaron"
           },
           "previousPosition": 104,
           "movement": "same",
@@ -2585,8 +2743,8 @@
         {
           "position": 105,
           "track": {
-            "title": "Go!",
-            "artist": "Celo & Abdi"
+            "title": "Happy Birthday",
+            "artist": "Stevie Wonder"
           },
           "previousPosition": 105,
           "movement": "same",
@@ -2597,23 +2755,20 @@
         {
           "position": 106,
           "track": {
-            "title": "Streichholz",
-            "artist": "Kontra K",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/694d11aa499d56e425b790ee27202ad1/250x250-000000-80-0-0.jpg"
+            "title": "Don't Stop Believin' (2024 Remaster)",
+            "artist": "Journey"
           },
-          "previousPosition": 75,
-          "movement": "down",
+          "previousPosition": 158,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 106,
-          "source": "kworb_itunes",
-          "deezer_id": 4376263101,
-          "deezer_url": "https://www.deezer.com/track/4376263101"
+          "source": "kworb_itunes"
         },
         {
           "position": 107,
           "track": {
-            "title": "Wunschzettel",
-            "artist": "DIKKA"
+            "title": "Outro",
+            "artist": "M83"
           },
           "previousPosition": 107,
           "movement": "same",
@@ -2624,11 +2779,11 @@
         {
           "position": 108,
           "track": {
-            "title": "GG",
-            "artist": "PA Sports & Farid Bang"
+            "title": "Before You Know (feat. Ava Max)",
+            "artist": "Kygo"
           },
-          "previousPosition": 108,
-          "movement": "same",
+          "previousPosition": 72,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 108,
           "source": "kworb_itunes"
@@ -2636,11 +2791,11 @@
         {
           "position": 109,
           "track": {
-            "title": "pigeonplops",
-            "artist": "polyphony_digital"
+            "title": "Take It Slow (Bullit)",
+            "artist": "Robin Schulz & WatermÃ¤t"
           },
-          "previousPosition": 109,
-          "movement": "same",
+          "previousPosition": 89,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 109,
           "source": "kworb_itunes"
@@ -2648,23 +2803,20 @@
         {
           "position": 110,
           "track": {
-            "title": "Feel My Love",
-            "artist": "Take That & Michael Patrick Kelly",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/3c72b07a6d460af5908560e4daab7a78/250x250-000000-80-0-0.jpg"
+            "title": "My life, My rules",
+            "artist": "DjElynzoo"
           },
-          "previousPosition": 46,
+          "previousPosition": 90,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 110,
-          "source": "kworb_itunes",
-          "deezer_id": 4250840681,
-          "deezer_url": "https://www.deezer.com/track/4250840681"
+          "source": "kworb_itunes"
         },
         {
           "position": 111,
           "track": {
-            "title": "Mama, I still call your name",
-            "artist": "Noah Nine"
+            "title": "DerniÃ¨re danse",
+            "artist": "Indila"
           },
           "previousPosition": 111,
           "movement": "same",
@@ -2675,11 +2827,11 @@
         {
           "position": 112,
           "track": {
-            "title": "Should Have Known Better",
-            "artist": "Pedro Santos"
+            "title": "American Girls",
+            "artist": "Harry Styles"
           },
-          "previousPosition": 112,
-          "movement": "same",
+          "previousPosition": 58,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 112,
           "source": "kworb_itunes"
@@ -2687,11 +2839,11 @@
         {
           "position": 113,
           "track": {
-            "title": "Fuck the ones",
-            "artist": "Rocky B"
+            "title": "FÃ¼r immer",
+            "artist": "AYLIVA"
           },
-          "previousPosition": 125,
-          "movement": "up",
+          "previousPosition": 113,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 113,
           "source": "kworb_itunes"
@@ -2699,11 +2851,11 @@
         {
           "position": 114,
           "track": {
-            "title": "Skandinavia",
-            "artist": "RAVNIR"
+            "title": "How's It Goin'",
+            "artist": "Bryan Adams"
           },
-          "previousPosition": 114,
-          "movement": "same",
+          "previousPosition": 172,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 114,
           "source": "kworb_itunes"
@@ -2711,8 +2863,8 @@
         {
           "position": 115,
           "track": {
-            "title": "Safe hab ich Bock auf Karneval",
-            "artist": "Kuhl un de GÃ¤ng & Carolina"
+            "title": "Guten Morgen, Welt",
+            "artist": "PapaBoka"
           },
           "previousPosition": 115,
           "movement": "same",
@@ -2723,8 +2875,8 @@
         {
           "position": 116,
           "track": {
-            "title": "Amore & Alaaf",
-            "artist": "Marc Eggers, @47_kÃ¶11sch & Dj Aaron"
+            "title": "Verschwommen",
+            "artist": "Ski Aggu & Ericson"
           },
           "previousPosition": 116,
           "movement": "same",
@@ -2735,8 +2887,8 @@
         {
           "position": 117,
           "track": {
-            "title": "Genau so!",
-            "artist": "BASSMASSAGE"
+            "title": "GG",
+            "artist": "PA Sports & Farid Bang"
           },
           "previousPosition": 117,
           "movement": "same",
@@ -2747,23 +2899,26 @@
         {
           "position": 118,
           "track": {
-            "title": "A Handful Of Gold",
-            "artist": "Bryan Adams"
+            "title": "Feel My Love",
+            "artist": "Take That & Michael Patrick Kelly",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/3c72b07a6d460af5908560e4daab7a78/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 118,
-          "movement": "same",
+          "previousPosition": 46,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 118,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "deezer_id": 4250840681,
+          "deezer_url": "https://www.deezer.com/track/4250840681"
         },
         {
           "position": 119,
           "track": {
-            "title": "Happy Christmas",
-            "artist": "Rea Garvey"
+            "title": "My Whole World",
+            "artist": "Kings of Leon"
           },
-          "previousPosition": 99,
-          "movement": "down",
+          "previousPosition": 124,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 119,
           "source": "kworb_itunes"
@@ -2771,20 +2926,23 @@
         {
           "position": 120,
           "track": {
-            "title": "Ich liebe das Leben",
-            "artist": "Vicky Leandros"
+            "title": "Thriller",
+            "artist": "Michael Jackson",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/92a024220a9532489c75c9d994835697/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 102,
+          "previousPosition": 81,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 120,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "deezer_id": 555639,
+          "deezer_url": "https://www.deezer.com/track/555639"
         },
         {
           "position": 121,
           "track": {
-            "title": "Himmel und HÃ¶lle",
-            "artist": "Kastelruther Spatzen"
+            "title": "Skandinavia",
+            "artist": "RAVNIR"
           },
           "previousPosition": 121,
           "movement": "same",
@@ -2795,8 +2953,8 @@
         {
           "position": 122,
           "track": {
-            "title": "Happy Birthday",
-            "artist": "Stevie Wonder"
+            "title": "With or Without You",
+            "artist": "U2"
           },
           "previousPosition": 122,
           "movement": "same",
@@ -2807,11 +2965,11 @@
         {
           "position": 123,
           "track": {
-            "title": "Golden",
-            "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast"
+            "title": "Safe hab ich Bock auf Karneval",
+            "artist": "Kuhl un de GÃ¤ng & Carolina"
           },
-          "previousPosition": 59,
-          "movement": "down",
+          "previousPosition": 123,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 123,
           "source": "kworb_itunes"
@@ -2819,8 +2977,8 @@
         {
           "position": 124,
           "track": {
-            "title": "I Still Haven't Found What I'm Looking For",
-            "artist": "U2"
+            "title": "Genau so!",
+            "artist": "BASSMASSAGE"
           },
           "previousPosition": 124,
           "movement": "same",
@@ -2831,11 +2989,11 @@
         {
           "position": 125,
           "track": {
-            "title": "Deeper We Go",
-            "artist": "Lincoln Jesser, Coco & Breezy & Ultra NatÃ©"
+            "title": "Lass die Pferde frei - Album-Version",
+            "artist": "2raumwohnung"
           },
-          "previousPosition": 159,
-          "movement": "up",
+          "previousPosition": 125,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 125,
           "source": "kworb_itunes"
@@ -2843,8 +3001,8 @@
         {
           "position": 126,
           "track": {
-            "title": "History Repeating",
-            "artist": "ÃSDÃS"
+            "title": "A Handful Of Gold",
+            "artist": "Bryan Adams"
           },
           "previousPosition": 126,
           "movement": "same",
@@ -2855,11 +3013,11 @@
         {
           "position": 127,
           "track": {
-            "title": "Starburster",
-            "artist": "Fontaines D.C."
+            "title": "Not for Everyone",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 127,
-          "movement": "same",
+          "previousPosition": 97,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 127,
           "source": "kworb_itunes"
@@ -2867,11 +3025,11 @@
         {
           "position": 128,
           "track": {
-            "title": "Mr. Brightside",
-            "artist": "The Killers"
+            "title": "51st State",
+            "artist": "Bryan Adams"
           },
-          "previousPosition": 92,
-          "movement": "down",
+          "previousPosition": 132,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 128,
           "source": "kworb_itunes"
@@ -2879,11 +3037,11 @@
         {
           "position": 129,
           "track": {
-            "title": "My life, My rules",
-            "artist": "DjElynzoo"
+            "title": "O Geisterbaum (Inhaltsangabe)",
+            "artist": "Die drei ???"
           },
-          "previousPosition": 90,
-          "movement": "down",
+          "previousPosition": 129,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 129,
           "source": "kworb_itunes"
@@ -2891,20 +3049,23 @@
         {
           "position": 130,
           "track": {
-            "title": "Nicole Kidman",
-            "artist": "ADÃLA"
+            "title": "You Never Can Tell",
+            "artist": "Chuck Berry",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/f3d66e855e15ac75c9e3a085aa6697b6/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 145,
-          "movement": "up",
+          "previousPosition": 44,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 130,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "deezer_id": 646290952,
+          "deezer_url": "https://www.deezer.com/track/646290952"
         },
         {
           "position": 131,
           "track": {
-            "title": "Donât Let Me Disappear (feat. Ylva Ironheart)",
-            "artist": "Bjorn Bonebreaker"
+            "title": "Talk To You (feat. 54 Ultra)",
+            "artist": "ANOTR"
           },
           "previousPosition": 131,
           "movement": "same",
@@ -2915,26 +3076,23 @@
         {
           "position": 132,
           "track": {
-            "title": "You Never Can Tell",
-            "artist": "Chuck Berry",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/f3d66e855e15ac75c9e3a085aa6697b6/250x250-000000-80-0-0.jpg"
+            "title": "Pieces Of Me",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 44,
-          "movement": "down",
+          "previousPosition": 140,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 132,
-          "source": "kworb_itunes",
-          "deezer_id": 646290952,
-          "deezer_url": "https://www.deezer.com/track/646290952"
+          "source": "kworb_itunes"
         },
         {
           "position": 133,
           "track": {
-            "title": "11 von 11",
-            "artist": "Druckluft"
+            "title": "Sag mir wo",
+            "artist": "Dennis Wilms"
           },
-          "previousPosition": 121,
-          "movement": "down",
+          "previousPosition": 133,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 133,
           "source": "kworb_itunes"
@@ -2942,8 +3100,8 @@
         {
           "position": 134,
           "track": {
-            "title": "Talk To You (feat. 54 Ultra)",
-            "artist": "ANOTR"
+            "title": "STORM II",
+            "artist": "GENER8ION & Yung Lean"
           },
           "previousPosition": 134,
           "movement": "same",
@@ -2954,11 +3112,11 @@
         {
           "position": 135,
           "track": {
-            "title": "Mon Amour",
-            "artist": "Marc Eggers, Aditotoro & Paul Frege"
+            "title": "Intro",
+            "artist": "The xx"
           },
-          "previousPosition": 190,
-          "movement": "up",
+          "previousPosition": 135,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 135,
           "source": "kworb_itunes"
@@ -2966,11 +3124,11 @@
         {
           "position": 136,
           "track": {
-            "title": "Livin' On a Prayer",
-            "artist": "Bon Jovi"
+            "title": "Wunschzettel",
+            "artist": "DIKKA"
           },
-          "previousPosition": 152,
-          "movement": "up",
+          "previousPosition": 136,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 136,
           "source": "kworb_itunes"
@@ -2978,8 +3136,8 @@
         {
           "position": 137,
           "track": {
-            "title": "Sag mir wo",
-            "artist": "Dennis Wilms"
+            "title": "pigeonplops",
+            "artist": "polyphony_digital"
           },
           "previousPosition": 137,
           "movement": "same",
@@ -2990,11 +3148,11 @@
         {
           "position": 138,
           "track": {
-            "title": "Intro",
-            "artist": "The xx"
+            "title": "Test My Luck",
+            "artist": "Purple Disco Machine & MEEK"
           },
-          "previousPosition": 138,
-          "movement": "same",
+          "previousPosition": 111,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 138,
           "source": "kworb_itunes"
@@ -3002,8 +3160,8 @@
         {
           "position": 139,
           "track": {
-            "title": "SarÃ  perchÃ© ti amo",
-            "artist": "Ricchi & Poveri"
+            "title": "Turn the Lights Off (Radio Edit)",
+            "artist": "Jon & KATO"
           },
           "previousPosition": 139,
           "movement": "same",
@@ -3014,11 +3172,11 @@
         {
           "position": 140,
           "track": {
-            "title": "Verschwommen",
-            "artist": "Ski Aggu & Ericson"
+            "title": "Collide",
+            "artist": "Glockenbach & Calum Scott"
           },
-          "previousPosition": 140,
-          "movement": "same",
+          "previousPosition": 113,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 140,
           "source": "kworb_itunes"
@@ -3026,11 +3184,11 @@
         {
           "position": 141,
           "track": {
-            "title": "Mon Amour (So lang ich noch Luft in meiner Lunge hab) [Party Version]",
-            "artist": "Tobee"
+            "title": "Beautiful Things",
+            "artist": "Benson Boone"
           },
-          "previousPosition": 155,
-          "movement": "up",
+          "previousPosition": 141,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 141,
           "source": "kworb_itunes"
@@ -3038,11 +3196,11 @@
         {
           "position": 142,
           "track": {
-            "title": "November Rain",
-            "artist": "Guns N' Roses"
+            "title": "Nothing Else Matters",
+            "artist": "Metallica"
           },
-          "previousPosition": 142,
-          "movement": "same",
+          "previousPosition": 177,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 142,
           "source": "kworb_itunes"
@@ -3050,23 +3208,28 @@
         {
           "position": 143,
           "track": {
-            "title": "Turn the Lights Off (Radio Edit)",
-            "artist": "Jon & KATO"
+            "title": "Dracula",
+            "artist": "Tame Impala",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/b428fa5da7496083cd2c2e87b94e2ceb/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 143,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 143,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "xnP7qKxwzjg",
+          "youtube_url": "https://www.youtube.com/watch?v=xnP7qKxwzjg",
+          "deezer_id": 3567385391,
+          "deezer_url": "https://www.deezer.com/track/3567385391"
         },
         {
           "position": 144,
           "track": {
-            "title": "Collide",
-            "artist": "Glockenbach & Calum Scott"
+            "title": "Olurmusun?",
+            "artist": "MERO & Poizi"
           },
-          "previousPosition": 113,
-          "movement": "down",
+          "previousPosition": 144,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 144,
           "source": "kworb_itunes"
@@ -3074,11 +3237,11 @@
         {
           "position": 145,
           "track": {
-            "title": "Circles",
-            "artist": "James Blunt"
+            "title": "Rose",
+            "artist": "Kings of Leon"
           },
-          "previousPosition": 82,
-          "movement": "down",
+          "previousPosition": 145,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 145,
           "source": "kworb_itunes"
@@ -3086,10 +3249,10 @@
         {
           "position": 146,
           "track": {
-            "title": "Run Run River (Angels Above Me)",
-            "artist": "David Guetta, Alok & Stick Figure"
+            "title": "All I Want for Christmas Is You",
+            "artist": "Mariah Carey"
           },
-          "previousPosition": 76,
+          "previousPosition": 73,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 146,
@@ -3098,10 +3261,10 @@
         {
           "position": 147,
           "track": {
-            "title": "My Whole World",
-            "artist": "Kings of Leon"
+            "title": "I Will Stand",
+            "artist": "WarningGame"
           },
-          "previousPosition": 124,
+          "previousPosition": 69,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 147,
@@ -3110,22 +3273,20 @@
         {
           "position": 148,
           "track": {
-            "title": "DEPENDS",
-            "artist": "XG"
+            "title": "Moog City",
+            "artist": "C418"
           },
-          "previousPosition": 148,
-          "movement": "same",
+          "previousPosition": 103,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 148,
-          "source": "kworb_itunes",
-          "youtube_id": "ftDNJhhJ22k",
-          "youtube_url": "https://www.youtube.com/watch?v=ftDNJhhJ22k"
+          "source": "kworb_itunes"
         },
         {
           "position": 149,
           "track": {
-            "title": "Olurmusun?",
-            "artist": "MERO & Poizi"
+            "title": "I Still Haven't Found What I'm Looking For",
+            "artist": "U2"
           },
           "previousPosition": 149,
           "movement": "same",
@@ -3136,11 +3297,11 @@
         {
           "position": 150,
           "track": {
-            "title": "Someone to Hold",
-            "artist": "JENNIE"
+            "title": "Two Days",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 150,
-          "movement": "same",
+          "previousPosition": 119,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 150,
           "source": "kworb_itunes"
@@ -3148,35 +3309,45 @@
         {
           "position": 151,
           "track": {
-            "title": "NACHWEISLICH",
-            "artist": "18 Karat & Kolja Goldstein"
+            "title": "Animal",
+            "artist": "KATSEYE",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/7d2094a163bfe016e981381f97ccfd25/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 151,
-          "movement": "same",
+          "previousPosition": 108,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 151,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "m7k9UMcHbr0",
+          "youtube_url": "https://www.youtube.com/watch?v=m7k9UMcHbr0",
+          "deezer_id": 4159582602,
+          "deezer_url": "https://www.deezer.com/track/4159582602"
         },
         {
           "position": 152,
           "track": {
-            "title": "Pressure",
-            "artist": "Godwin"
+            "title": "Choosin' Texas",
+            "artist": "Ella Langley",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/749ad2ad7609ec768e342bec41078095/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 152,
-          "movement": "same",
+          "previousPosition": 131,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 152,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "nUsrYVxrDwI",
+          "youtube_url": "https://www.youtube.com/watch?v=nUsrYVxrDwI",
+          "deezer_id": 3602074142,
+          "deezer_url": "https://www.deezer.com/track/3602074142"
         },
         {
           "position": 153,
           "track": {
-            "title": "Diesel and Dirt",
-            "artist": "Bryan Adams"
+            "title": "Deeper We Go",
+            "artist": "Lincoln Jesser, Coco & Breezy & Ultra NatÃ©"
           },
-          "previousPosition": 153,
-          "movement": "same",
+          "previousPosition": 159,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 153,
           "source": "kworb_itunes"
@@ -3184,23 +3355,28 @@
         {
           "position": 154,
           "track": {
-            "title": "Hey, People",
-            "artist": "James Blunt"
+            "title": "An meiner Seite",
+            "artist": "Helene Fischer",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/42bf7a581df912ae81ab2f4fd7ae00c1/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 154,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 154,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "VvZY0wiQnrg",
+          "youtube_url": "https://www.youtube.com/watch?v=VvZY0wiQnrg",
+          "deezer_id": 4250536021,
+          "deezer_url": "https://www.deezer.com/track/4250536021"
         },
         {
           "position": 155,
           "track": {
-            "title": "All I Want for Christmas Is You",
-            "artist": "Mariah Carey"
+            "title": "Alone",
+            "artist": "Heart"
           },
-          "previousPosition": 73,
-          "movement": "down",
+          "previousPosition": 155,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 155,
           "source": "kworb_itunes"
@@ -3208,11 +3384,11 @@
         {
           "position": 156,
           "track": {
-            "title": "Billie Jean",
-            "artist": "Michael Jackson"
+            "title": "Mon Amour",
+            "artist": "Marc Eggers, Aditotoro & Paul Frege"
           },
-          "previousPosition": 156,
-          "movement": "same",
+          "previousPosition": 190,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 156,
           "source": "kworb_itunes"
@@ -3220,11 +3396,11 @@
         {
           "position": 157,
           "track": {
-            "title": "He's a Pirate",
-            "artist": "Klaus Badelt"
+            "title": "Where Is Gone?",
+            "artist": "Fontaines D.C. & ROSALÃA"
           },
-          "previousPosition": 157,
-          "movement": "same",
+          "previousPosition": 192,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 157,
           "source": "kworb_itunes"
@@ -3232,10 +3408,10 @@
         {
           "position": 158,
           "track": {
-            "title": "Taking our power back",
-            "artist": "Peacefuldan"
+            "title": "Ghost",
+            "artist": "Sugababes"
           },
-          "previousPosition": 144,
+          "previousPosition": 95,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 158,
@@ -3244,8 +3420,8 @@
         {
           "position": 159,
           "track": {
-            "title": "What's My Age Again?",
-            "artist": "blink-182"
+            "title": "On Point",
+            "artist": "Samy Deluxe, MADEE & DJ Desue"
           },
           "previousPosition": 159,
           "movement": "same",
@@ -3256,28 +3432,23 @@
         {
           "position": 160,
           "track": {
-            "title": "Fucking Shit, Holy Shit (Melodic Techno Edition)",
-            "artist": "Shards of Art",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/d622f5032c789be551af34a661e626e2/250x250-000000-80-0-0.jpg"
+            "title": "SarÃ  perchÃ© ti amo",
+            "artist": "Ricchi & Poveri"
           },
-          "previousPosition": 104,
-          "movement": "down",
+          "previousPosition": 160,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 160,
-          "source": "kworb_itunes",
-          "youtube_id": "Cm5xuN1gBF0",
-          "youtube_url": "https://www.youtube.com/watch?v=Cm5xuN1gBF0",
-          "deezer_id": 3951588721,
-          "deezer_url": "https://www.deezer.com/track/3951588721"
+          "source": "kworb_itunes"
         },
         {
           "position": 161,
           "track": {
-            "title": "Not for Everyone",
-            "artist": "Kimo Sounds"
+            "title": "(I've Had) The Time of My Life",
+            "artist": "Bill Medley & Jennifer Warnes"
           },
-          "previousPosition": 97,
-          "movement": "down",
+          "previousPosition": 161,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 161,
           "source": "kworb_itunes"
@@ -3285,11 +3456,11 @@
         {
           "position": 162,
           "track": {
-            "title": "Two Days",
-            "artist": "Kimo Sounds"
+            "title": "Back From The Dead",
+            "artist": "The Interrupters"
           },
-          "previousPosition": 119,
-          "movement": "down",
+          "previousPosition": 162,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 162,
           "source": "kworb_itunes"
@@ -3297,23 +3468,20 @@
         {
           "position": 163,
           "track": {
-            "title": "Training Season",
-            "artist": "Dua Lipa",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/d2d717350a1f2fcc7ef9fb01eb84163f/250x250-000000-80-0-0.jpg"
+            "title": "November Rain",
+            "artist": "Guns N' Roses"
           },
-          "previousPosition": 122,
-          "movement": "down",
+          "previousPosition": 163,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 163,
-          "source": "kworb_itunes",
-          "deezer_id": 2661514912,
-          "deezer_url": "https://www.deezer.com/track/2661514912"
+          "source": "kworb_itunes"
         },
         {
           "position": 164,
           "track": {
-            "title": "Fijord Moonlight (Valhalla Viking)",
-            "artist": "Northveil"
+            "title": "Lose Yourself (Soundtrack Version)",
+            "artist": "Eminem"
           },
           "previousPosition": 164,
           "movement": "same",
@@ -3324,28 +3492,26 @@
         {
           "position": 165,
           "track": {
-            "title": "Choosin' Texas",
-            "artist": "Ella Langley",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/749ad2ad7609ec768e342bec41078095/250x250-000000-80-0-0.jpg"
+            "title": "The Fate of Ophelia",
+            "artist": "Taylor Swift",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1c24ac9789718046b3fa75d083b56c11/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 131,
+          "previousPosition": 84,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 165,
           "source": "kworb_itunes",
-          "youtube_id": "nUsrYVxrDwI",
-          "youtube_url": "https://www.youtube.com/watch?v=nUsrYVxrDwI",
-          "deezer_id": 3602074142,
-          "deezer_url": "https://www.deezer.com/track/3602074142"
+          "deezer_id": 3680045492,
+          "deezer_url": "https://www.deezer.com/track/3680045492"
         },
         {
           "position": 166,
           "track": {
-            "title": "51st State",
-            "artist": "Bryan Adams"
+            "title": "Dog Days Are Over",
+            "artist": "Florence + the Machine"
           },
-          "previousPosition": 132,
-          "movement": "down",
+          "previousPosition": 166,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 166,
           "source": "kworb_itunes"
@@ -3353,11 +3519,11 @@
         {
           "position": 167,
           "track": {
-            "title": "Iris",
-            "artist": "The Goo Goo Dolls"
+            "title": "Should Have Known Better",
+            "artist": "Pedro Santos"
           },
-          "previousPosition": 134,
-          "movement": "down",
+          "previousPosition": 167,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 167,
           "source": "kworb_itunes"
@@ -3365,20 +3531,22 @@
         {
           "position": 168,
           "track": {
-            "title": "Viva La Vida",
-            "artist": "Coldplay"
+            "title": "Someone to Hold",
+            "artist": "JENNIE"
           },
           "previousPosition": 168,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 168,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "OEHGEmjDuLE",
+          "youtube_url": "https://www.youtube.com/watch?v=OEHGEmjDuLE"
         },
         {
           "position": 169,
           "track": {
-            "title": "Shackles (Praise You)",
-            "artist": "Mary Mary"
+            "title": "The Bridge",
+            "artist": "Bryan Adams"
           },
           "previousPosition": 169,
           "movement": "same",
@@ -3389,11 +3557,11 @@
         {
           "position": 170,
           "track": {
-            "title": "The Barrel Of Her Gun",
-            "artist": "Citycreed & CloÄ Hubbard"
+            "title": "Diesel and Dirt",
+            "artist": "Bryan Adams"
           },
-          "previousPosition": 165,
-          "movement": "down",
+          "previousPosition": 170,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 170,
           "source": "kworb_itunes"
@@ -3401,10 +3569,10 @@
         {
           "position": 171,
           "track": {
-            "title": "Fade into You",
-            "artist": "Mazzy Star"
+            "title": "Happy Christmas",
+            "artist": "Rea Garvey"
           },
-          "previousPosition": 143,
+          "previousPosition": 99,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 171,
@@ -3413,28 +3581,23 @@
         {
           "position": 172,
           "track": {
-            "title": "Rise Slow (Bass Boosted)",
-            "artist": "Kimo Sounds",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/3759a7754f009f8c30b3fcaa4748220a/250x250-000000-80-0-0.jpg"
+            "title": "Ich liebe das Leben",
+            "artist": "Vicky Leandros"
           },
-          "previousPosition": 101,
+          "previousPosition": 102,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 172,
-          "source": "kworb_itunes",
-          "youtube_id": "QIF39DxuaHI",
-          "youtube_url": "https://www.youtube.com/watch?v=QIF39DxuaHI",
-          "deezer_id": 4155868012,
-          "deezer_url": "https://www.deezer.com/track/4155868012"
+          "source": "kworb_itunes"
         },
         {
           "position": 173,
           "track": {
-            "title": "Gute Laune",
-            "artist": "GroÃstadtEngel"
+            "title": "Taking our power back",
+            "artist": "Peacefuldan"
           },
-          "previousPosition": 173,
-          "movement": "same",
+          "previousPosition": 144,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 173,
           "source": "kworb_itunes"
@@ -3442,8 +3605,8 @@
         {
           "position": 174,
           "track": {
-            "title": "Engel 07 (Remix)",
-            "artist": "Die WBL"
+            "title": "NO BATIDÃO",
+            "artist": "ZXKAI & slxughter"
           },
           "previousPosition": 174,
           "movement": "same",
@@ -3454,8 +3617,8 @@
         {
           "position": 175,
           "track": {
-            "title": "Alone",
-            "artist": "Heart"
+            "title": "My Moment",
+            "artist": "Kimo Sounds"
           },
           "previousPosition": 175,
           "movement": "same",
@@ -3466,11 +3629,11 @@
         {
           "position": 176,
           "track": {
-            "title": "TRIPPIN",
-            "artist": "BUNT. & Mapei"
+            "title": "Golden",
+            "artist": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast"
           },
-          "previousPosition": 176,
-          "movement": "same",
+          "previousPosition": 59,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 176,
           "source": "kworb_itunes"
@@ -3478,11 +3641,11 @@
         {
           "position": 177,
           "track": {
-            "title": "Azadi (feat. NAVA)",
-            "artist": "Charlotte de Witte"
+            "title": "MÃ¸rk Pels",
+            "artist": "RAVNIR"
           },
-          "previousPosition": 83,
-          "movement": "down",
+          "previousPosition": 177,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 177,
           "source": "kworb_itunes"
@@ -3490,11 +3653,11 @@
         {
           "position": 178,
           "track": {
-            "title": "It's My Life",
-            "artist": "Bon Jovi"
+            "title": "Fijord Moonlight (Valhalla Viking)",
+            "artist": "Northveil"
           },
-          "previousPosition": 178,
-          "movement": "same",
+          "previousPosition": 164,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 178,
           "source": "kworb_itunes"
@@ -3502,8 +3665,8 @@
         {
           "position": 179,
           "track": {
-            "title": "WHERE IS MY HUSBAND!",
-            "artist": "RAYE"
+            "title": "History Repeating",
+            "artist": "ÃSDÃS"
           },
           "previousPosition": 179,
           "movement": "same",
@@ -3514,11 +3677,11 @@
         {
           "position": 180,
           "track": {
-            "title": "How's It Goin'",
-            "artist": "Bryan Adams"
+            "title": "All the Small Things",
+            "artist": "blink-182"
           },
-          "previousPosition": 172,
-          "movement": "down",
+          "previousPosition": 180,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 180,
           "source": "kworb_itunes"
@@ -3526,11 +3689,11 @@
         {
           "position": 181,
           "track": {
-            "title": "Fehler im System",
-            "artist": "Jennifer Rostock"
+            "title": "The Barrel Of Her Gun",
+            "artist": "Citycreed & CloÄ Hubbard"
           },
-          "previousPosition": 181,
-          "movement": "same",
+          "previousPosition": 165,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 181,
           "source": "kworb_itunes"
@@ -3538,8 +3701,8 @@
         {
           "position": 182,
           "track": {
-            "title": "In The Path of Hurricanes",
-            "artist": "Heather Nova"
+            "title": "She Break",
+            "artist": "shockfactor"
           },
           "previousPosition": 182,
           "movement": "same",
@@ -3550,28 +3713,28 @@
         {
           "position": 183,
           "track": {
-            "title": "hate that i made you love me",
-            "artist": "Ariana Grande",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/020b1804e8c8a2aba6770f5b2763847b/250x250-000000-80-0-0.jpg"
+            "title": "FEVER DREAM",
+            "artist": "Alex Warren",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/7c046b1707ebac85e21b843b8ff24ba6/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 183,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 183,
           "source": "kworb_itunes",
-          "youtube_id": "82-jTNka3uc",
-          "youtube_url": "https://www.youtube.com/watch?v=82-jTNka3uc",
-          "deezer_id": 4045817471,
-          "deezer_url": "https://www.deezer.com/track/4045817471"
+          "youtube_id": "hkUSnrHQJHg",
+          "youtube_url": "https://www.youtube.com/watch?v=hkUSnrHQJHg",
+          "deezer_id": 3869647201,
+          "deezer_url": "https://www.deezer.com/track/3869647201"
         },
         {
           "position": 184,
           "track": {
-            "title": "KOYSAR",
-            "artist": "Kings of Leon"
+            "title": "Starburster",
+            "artist": "Fontaines D.C."
           },
-          "previousPosition": 88,
-          "movement": "down",
+          "previousPosition": 184,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 184,
           "source": "kworb_itunes"
@@ -3579,11 +3742,11 @@
         {
           "position": 185,
           "track": {
-            "title": "Where Is Gone?",
-            "artist": "Fontaines D.C. & ROSALÃA"
+            "title": "Mr. Brightside",
+            "artist": "The Killers"
           },
-          "previousPosition": 192,
-          "movement": "up",
+          "previousPosition": 92,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 185,
           "source": "kworb_itunes"
@@ -3591,26 +3754,28 @@
         {
           "position": 186,
           "track": {
-            "title": "Babydoll",
-            "artist": "Jamie Miller",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/1cd86a85a96a4aff4153dbbae008f3eb/250x250-000000-80-0-0.jpg"
+            "title": "Rise Slow (Bass Boosted)",
+            "artist": "Kimo Sounds",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/3759a7754f009f8c30b3fcaa4748220a/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 65,
+          "previousPosition": 101,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 186,
           "source": "kworb_itunes",
-          "deezer_id": 4192901122,
-          "deezer_url": "https://www.deezer.com/track/4192901122"
+          "youtube_id": "QIF39DxuaHI",
+          "youtube_url": "https://www.youtube.com/watch?v=QIF39DxuaHI",
+          "deezer_id": 4155868012,
+          "deezer_url": "https://www.deezer.com/track/4155868012"
         },
         {
           "position": 187,
           "track": {
-            "title": "Bis dann",
-            "artist": "AVEN"
+            "title": "Gute Laune",
+            "artist": "GroÃstadtEngel"
           },
-          "previousPosition": 175,
-          "movement": "down",
+          "previousPosition": 187,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 187,
           "source": "kworb_itunes"
@@ -3618,10 +3783,10 @@
         {
           "position": 188,
           "track": {
-            "title": "Ghost",
-            "artist": "Sugababes"
+            "title": "Nicole Kidman",
+            "artist": "ADÃLA"
           },
-          "previousPosition": 95,
+          "previousPosition": 145,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 188,
@@ -3630,10 +3795,10 @@
         {
           "position": 189,
           "track": {
-            "title": "Thunder Love (feat. Phil Collen)",
-            "artist": "Crossbone Skully"
+            "title": "Dancing Queen",
+            "artist": "ABBA"
           },
-          "previousPosition": 149,
+          "previousPosition": 156,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 189,
@@ -3642,11 +3807,11 @@
         {
           "position": 190,
           "track": {
-            "title": "Pieces Of Me",
-            "artist": "Kimo Sounds"
+            "title": "Donât Let Me Disappear (feat. Ylva Ironheart)",
+            "artist": "Bjorn Bonebreaker"
           },
-          "previousPosition": 140,
-          "movement": "down",
+          "previousPosition": 190,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 190,
           "source": "kworb_itunes"
@@ -3654,8 +3819,8 @@
         {
           "position": 191,
           "track": {
-            "title": "STORM II",
-            "artist": "GENER8ION & Yung Lean"
+            "title": "VALHALLA CALLING (Valhalla Viking)",
+            "artist": "Northveil"
           },
           "previousPosition": 191,
           "movement": "same",
@@ -3666,8 +3831,8 @@
         {
           "position": 192,
           "track": {
-            "title": "Golden Summer",
-            "artist": "Loi & David Puentez"
+            "title": "CLASSIC",
+            "artist": "Nico Santos"
           },
           "previousPosition": 192,
           "movement": "same",
@@ -3678,11 +3843,11 @@
         {
           "position": 193,
           "track": {
-            "title": "Moth To A Flame",
-            "artist": "Swedish House Mafia & The Weeknd"
+            "title": "Let Time Answer",
+            "artist": "Kimo Sounds"
           },
-          "previousPosition": 193,
-          "movement": "same",
+          "previousPosition": 52,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 193,
           "source": "kworb_itunes"
@@ -3690,8 +3855,8 @@
         {
           "position": 194,
           "track": {
-            "title": "Back From The Dead",
-            "artist": "The Interrupters"
+            "title": "If You Donât Like Me, Fvck Off",
+            "artist": "Diane Butler"
           },
           "previousPosition": 194,
           "movement": "same",
@@ -3702,11 +3867,11 @@
         {
           "position": 195,
           "track": {
-            "title": "Test My Luck",
-            "artist": "Purple Disco Machine & MEEK"
+            "title": "Love Is Gonna Save Us",
+            "artist": "Benny Benassi"
           },
-          "previousPosition": 111,
-          "movement": "down",
+          "previousPosition": 195,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 195,
           "source": "kworb_itunes"
@@ -3714,11 +3879,11 @@
         {
           "position": 196,
           "track": {
-            "title": "Don't Stop Me Now",
-            "artist": "Queen"
+            "title": "Azadi (feat. NAVA)",
+            "artist": "Charlotte de Witte"
           },
-          "previousPosition": 196,
-          "movement": "same",
+          "previousPosition": 83,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 196,
           "source": "kworb_itunes"
@@ -3726,8 +3891,8 @@
         {
           "position": 197,
           "track": {
-            "title": "Lose Yourself (From \"8 Mile\")",
-            "artist": "Eminem"
+            "title": "Jesus On My Mind (All the Time) [Pacific Light Orchestra Remix]",
+            "artist": "Tristan Trexler"
           },
           "previousPosition": 197,
           "movement": "same",
@@ -3738,8 +3903,8 @@
         {
           "position": 198,
           "track": {
-            "title": "What Christmas Means to Me",
-            "artist": "Joy Denalane"
+            "title": "Fehler im System",
+            "artist": "Jennifer Rostock"
           },
           "previousPosition": 198,
           "movement": "same",
@@ -3750,11 +3915,11 @@
         {
           "position": 199,
           "track": {
-            "title": "A Good Day",
-            "artist": "Anderson .Paak & Cordae"
+            "title": "Careless Whisper",
+            "artist": "George Michael"
           },
-          "previousPosition": 167,
-          "movement": "down",
+          "previousPosition": 199,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 199,
           "source": "kworb_itunes"
@@ -3762,11 +3927,11 @@
         {
           "position": 200,
           "track": {
-            "title": "The Dublin Deluge (Live)",
-            "artist": "Native Echo"
+            "title": "In The Path of Hurricanes",
+            "artist": "Heather Nova"
           },
-          "previousPosition": 96,
-          "movement": "down",
+          "previousPosition": 200,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 200,
           "source": "kworb_itunes"
@@ -3908,10 +4073,10 @@
           "weeksOnChart": 1,
           "peakPosition": 8,
           "source": "itunes_rss",
-          "deezer_id": 2661514912,
-          "deezer_url": "https://www.deezer.com/track/2661514912",
           "youtube_id": "ZjBZ8MUnB0E",
-          "youtube_url": "https://www.youtube.com/watch?v=ZjBZ8MUnB0E"
+          "youtube_url": "https://www.youtube.com/watch?v=ZjBZ8MUnB0E",
+          "deezer_id": 2661514912,
+          "deezer_url": "https://www.deezer.com/track/2661514912"
         },
         {
           "position": 9,
@@ -4297,6 +4462,21 @@
         {
           "position": 32,
           "track": {
+            "title": "First Love",
+            "artist": "Hikaru Utada",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/e004947115457f462c63988ece2ba45a/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 32,
+          "source": "itunes_rss",
+          "deezer_id": 435816202,
+          "deezer_url": "https://www.deezer.com/track/435816202"
+        },
+        {
+          "position": 33,
+          "track": {
             "title": "Fantastic Baby",
             "artist": "BIGBANG",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/b5c6bd624adc5e3a686a159d2a73ef77/250x250-000000-80-0-0.jpg"
@@ -4304,15 +4484,32 @@
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 32,
+          "peakPosition": 33,
           "source": "itunes_rss",
-          "deezer_id": 45616751,
-          "deezer_url": "https://www.deezer.com/track/45616751",
           "youtube_id": "AAbokV76tkU",
-          "youtube_url": "https://www.youtube.com/watch?v=AAbokV76tkU"
+          "youtube_url": "https://www.youtube.com/watch?v=AAbokV76tkU",
+          "deezer_id": 45616751,
+          "deezer_url": "https://www.deezer.com/track/45616751"
         },
         {
-          "position": 33,
+          "position": 34,
+          "track": {
+            "title": "I Feel It Coming (feat. Daft Punk)",
+            "artist": "The Weeknd",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/134778e4c4f19ea71c82408300925a9a/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 34,
+          "source": "itunes_rss",
+          "youtube_id": "qFLhGq0060w",
+          "youtube_url": "https://www.youtube.com/watch?v=qFLhGq0060w",
+          "deezer_id": 136889434,
+          "deezer_url": "https://www.deezer.com/track/136889434"
+        },
+        {
+          "position": 35,
           "track": {
             "title": "Flowers",
             "artist": "Miley Cyrus",
@@ -4321,7 +4518,7 @@
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 33,
+          "peakPosition": 35,
           "source": "itunes_rss",
           "youtube_id": "G7KNmW9a75Y",
           "youtube_url": "https://www.youtube.com/watch?v=G7KNmW9a75Y",
@@ -4329,7 +4526,7 @@
           "deezer_url": "https://www.deezer.com/track/2105158337"
         },
         {
-          "position": 34,
+          "position": 36,
           "track": {
             "title": "It's Beginning to Look a Lot like Christmas",
             "artist": "Michael Bublé",
@@ -4338,7 +4535,7 @@
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 34,
+          "peakPosition": 36,
           "source": "itunes_rss",
           "youtube_id": "0bhsXykXxfg",
           "youtube_url": "https://www.youtube.com/watch?v=0bhsXykXxfg",
@@ -4346,7 +4543,22 @@
           "deezer_url": "https://www.deezer.com/track/1934770197"
         },
         {
-          "position": 35,
+          "position": 37,
+          "track": {
+            "title": "One Of The Girls",
+            "artist": "The Weeknd, JENNIE & Lily Rose Depp",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/cf979d162bdd9430a742be2ba588c7f6/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 37,
+          "source": "itunes_rss",
+          "deezer_id": 2338371075,
+          "deezer_url": "https://www.deezer.com/track/2338371075"
+        },
+        {
+          "position": 38,
           "track": {
             "title": "Gangnam Style",
             "artist": "PSY",
@@ -4355,13 +4567,32 @@
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 35,
+          "peakPosition": 38,
           "source": "itunes_rss",
           "deezer_id": 60726278,
-          "deezer_url": "https://www.deezer.com/track/60726278"
+          "deezer_url": "https://www.deezer.com/track/60726278",
+          "youtube_id": "SW_iujvUAzQ",
+          "youtube_url": "https://www.youtube.com/watch?v=SW_iujvUAzQ"
         },
         {
-          "position": 36,
+          "position": 39,
+          "track": {
+            "title": "Beauty and a Beat (feat. Nicki Minaj)",
+            "artist": "Justin Bieber",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/0354bd17ccf674f4c04311aa445b0c2d/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": null,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 39,
+          "source": "itunes_rss",
+          "youtube_id": "Ys7-6_t7OEQ",
+          "youtube_url": "https://www.youtube.com/watch?v=Ys7-6_t7OEQ",
+          "deezer_id": 63456716,
+          "deezer_url": "https://www.deezer.com/track/63456716"
+        },
+        {
+          "position": 40,
           "track": {
             "title": "The One That Got Away",
             "artist": "Katy Perry",
@@ -4370,13 +4601,13 @@
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 36,
+          "peakPosition": 40,
           "source": "itunes_rss",
           "deezer_id": 17135114,
           "deezer_url": "https://www.deezer.com/track/17135114"
         },
         {
-          "position": 37,
+          "position": 41,
           "track": {
             "title": "Save Your Tears (Remix)",
             "artist": "The Weeknd & Ariana Grande",
@@ -4385,13 +4616,13 @@
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 37,
+          "peakPosition": 41,
           "source": "itunes_rss",
           "deezer_id": 1352360622,
           "deezer_url": "https://www.deezer.com/track/1352360622"
         },
         {
-          "position": 38,
+          "position": 42,
           "track": {
             "title": "Said I Loved You...But I Lied",
             "artist": "Michael Bolton",
@@ -4400,13 +4631,13 @@
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 38,
+          "peakPosition": 42,
           "source": "itunes_rss",
           "deezer_id": 1119849162,
           "deezer_url": "https://www.deezer.com/track/1119849162"
         },
         {
-          "position": 39,
+          "position": 43,
           "track": {
             "title": "Blue and white porcelain (Cantonese version)",
             "artist": "SimYee",
@@ -4415,11 +4646,13 @@
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 39,
-          "source": "itunes_rss"
+          "peakPosition": 43,
+          "source": "itunes_rss",
+          "youtube_id": "Z8Mqw0b9ADs",
+          "youtube_url": "https://www.youtube.com/watch?v=Z8Mqw0b9ADs"
         },
         {
-          "position": 40,
+          "position": 44,
           "track": {
             "title": "山海不说话(我路过山 山不说话)",
             "artist": "陳鴨梨Charlie",
@@ -4428,11 +4661,13 @@
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 40,
-          "source": "itunes_rss"
+          "peakPosition": 44,
+          "source": "itunes_rss",
+          "youtube_id": "2q2Ip6FIrQo",
+          "youtube_url": "https://www.youtube.com/watch?v=2q2Ip6FIrQo"
         },
         {
-          "position": 41,
+          "position": 45,
           "track": {
             "title": "Shinka",
             "artist": "ADO",
@@ -4441,108 +4676,66 @@
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 41,
+          "peakPosition": 45,
           "source": "itunes_rss",
           "deezer_id": 4380647161,
-          "deezer_url": "https://www.deezer.com/track/4380647161"
-        },
-        {
-          "position": 42,
-          "track": {
-            "title": "Rise Without A Sound",
-            "artist": "JJ Lin",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/02/6e/f2026ee3-5566-cdcc-5916-bac2c484fa64/4711720343594.jpg/170x170bb.png"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 42,
-          "source": "itunes_rss"
-        },
-        {
-          "position": 43,
-          "track": {
-            "title": "Le Flâneur Étoilé",
-            "artist": "Billy Easton",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/01/0b/b3010bd8-909a-a576-c548-ea682f1e1bea/artwork.jpg/170x170bb.png"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 43,
-          "source": "itunes_rss"
-        },
-        {
-          "position": 44,
-          "track": {
-            "title": "ADDICTED",
-            "artist": "JISOO",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6e/7d/c6/6e7dc611-3961-7a16-58d6-68c567745703/054391222435.jpg/170x170bb.png"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 44,
-          "source": "itunes_rss"
-        },
-        {
-          "position": 45,
-          "track": {
-            "title": "例外 The Exception",
-            "artist": "诺一 Roy",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/cf/8e/26cf8e90-067c-fa87-7c98-623901438e3a/artwork.jpg/170x170bb.png"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 45,
-          "source": "itunes_rss"
+          "deezer_url": "https://www.deezer.com/track/4380647161",
+          "youtube_id": "H-QtHcjP0aY",
+          "youtube_url": "https://www.youtube.com/watch?v=H-QtHcjP0aY"
         },
         {
           "position": 46,
           "track": {
-            "title": "expectations",
-            "artist": "Olivia Rodrigo & Chappell Roan",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/3c/b2/d23cb283-5f3e-7433-bc41-86c7d77c4503/26UM1IM29619.rgb.jpg/170x170bb.png"
+            "title": "Rise Without A Sound",
+            "artist": "JJ Lin",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/5944ba9532f62b47a46312419b96f8e7/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 46,
-          "source": "itunes_rss"
+          "source": "itunes_rss",
+          "deezer_id": 4335378382,
+          "deezer_url": "https://www.deezer.com/track/4335378382"
         },
         {
           "position": 47,
           "track": {
-            "title": "欲落未落",
-            "artist": "DIOR 大穎",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/58/ec/9758ec53-5a48-c131-d3e3-70861a2f5d69/4711499358447.jpg/170x170bb.png"
+            "title": "Le Flâneur Étoilé",
+            "artist": "Billy Easton",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/e13c8cd5ec0ce43155ab3428f313cd8b/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 47,
-          "source": "itunes_rss"
+          "source": "itunes_rss",
+          "youtube_id": "eWOsIfsu9ag",
+          "youtube_url": "https://www.youtube.com/watch?v=eWOsIfsu9ag",
+          "deezer_id": 4168464122,
+          "deezer_url": "https://www.deezer.com/track/4168464122"
         },
         {
           "position": 48,
           "track": {
-            "title": "Jumping Machine (跳楼机)",
-            "artist": "LBI",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/86/27/5c8627d2-719a-07ca-1713-17ad694fc141/196872814286.jpg/170x170bb.png"
+            "title": "ADDICTED",
+            "artist": "JISOO",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/941319ca4ff4d277fb925df3409d4f59/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 48,
-          "source": "itunes_rss"
+          "source": "itunes_rss",
+          "deezer_id": 4372849791,
+          "deezer_url": "https://www.deezer.com/track/4372849791"
         },
         {
           "position": 49,
           "track": {
-            "title": "POKITO",
-            "artist": "Daddy Yankee & Diljit Dosanjh",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/2a/a4/242aa4a9-808f-419f-289c-e7e6a1517c08/4593106.jpg/170x170bb.png"
+            "title": "例外 The Exception",
+            "artist": "诺一 Roy",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/cf/8e/26cf8e90-067c-fa87-7c98-623901438e3a/artwork.jpg/170x170bb.png"
           },
           "previousPosition": null,
           "movement": "same",
@@ -4553,15 +4746,19 @@
         {
           "position": 50,
           "track": {
-            "title": "Uptown Funk (feat. Bruno Mars)",
-            "artist": "Mark Ronson",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7e/30/c5/7e30c572-aa47-5f7b-c6fd-42d50cd2c56d/886444959797.jpg/170x170bb.png"
+            "title": "expectations",
+            "artist": "Olivia Rodrigo & Chappell Roan",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/c3fe022788899cf9b0a41c7cbb27dffd/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": null,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 50,
-          "source": "itunes_rss"
+          "source": "itunes_rss",
+          "youtube_id": "gsZauX8gwxo",
+          "youtube_url": "https://www.youtube.com/watch?v=gsZauX8gwxo",
+          "deezer_id": 4348981142,
+          "deezer_url": "https://www.deezer.com/track/4348981142"
         }
       ],
       "sourceType": "itunes_rss"
