@@ -926,29 +926,6 @@
       text-decoration: underline;
     }
 
-    .deezer-status {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 6px 12px;
-      border-radius: 999px;
-      font-size: 12px;
-      font-weight: 600;
-      margin-bottom: 15px;
-    }
-
-    .deezer-status.connected {
-      background: var(--success-bg);
-      color: var(--success);
-      border: 1px solid var(--success);
-    }
-
-    .deezer-status.disconnected {
-      background: var(--warning-bg);
-      color: var(--warning);
-      border: 1px solid var(--warning);
-    }
-
     .playlist-options {
       margin: 15px 0;
       padding: 12px;
@@ -1206,11 +1183,12 @@
             Deezer fonctionne sans clé API.
           </div>
 
-          <!-- Section création de playlist Deezer/YouTube -->
+          <!-- Section création de playlist TuneMyMusic -->
           <div class="playlist-creation-section">
-            <h4>🎧 Créer une playlist</h4>
+            <h4>🎧 Créer une playlist via TuneMyMusic</h4>
             <p>
-              Plusieurs méthodes disponibles pour créer une playlist sur <strong>Deezer</strong> ou <strong>YouTube</strong>.
+              Copiez la liste des titres et collez-la dans TuneMyMusic. 
+              Vous pourrez ensuite choisir la plateforme de destination (Deezer, YouTube, Spotify...).
             </p>
 
             <div class="playlist-options">
@@ -1218,19 +1196,11 @@
                 <input type="checkbox" id="reversePlaylist" checked>
                 <strong>🔄 Inverser l'ordre</strong> (du #50 vers le #1, idéal pour un effet de suspense)
               </label>
-              <label>
-                <input type="radio" name="playlistPlatform" value="deezer" checked>
-                🎧 Deezer
-              </label>
-              <label>
-                <input type="radio" name="playlistPlatform" value="youtube">
-                ▶️ YouTube
-              </label>
             </div>
             
             <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-              <button class="button button-deezer" id="createPlaylistViaTuneMyBtn">🌐 Via TuneMyMusic</button>
-              <button class="button" id="copyPlaylistTextBtn">📋 Copier la liste</button>
+              <button class="button button-primary" id="createPlaylistViaTuneMyBtn">🌐 Copier et ouvrir TuneMyMusic</button>
+              <button class="button" id="copyPlaylistTextBtn">📋 Copier uniquement</button>
             </div>
             
             <div id="playlistCreationInfo" class="playlist-info" style="display: none;"></div>
@@ -1313,7 +1283,6 @@
     let ADDED_TRACKS = new Set(JSON.parse(localStorage.getItem('addedTracks') || '[]'));
 
     const RETRO_CACHE_KEY = 'retroStreamingIds';
-    const CORS_PROXY = 'https://corsproxy.io/?url=';
 
     // ===== ÉLÉMENTS DOM =====
     const regionSelect = document.getElementById("regionSelect");
@@ -1865,7 +1834,7 @@
         await sleep(100);
       }
       
-      const originalTitle = title.replace(/\(.*?\)/g, '').replace(/\[.*?\]/g, '').trim();
+      const originalTitle = title.replace(/\(.*?\)/g, '').replace(/\[.*?\)/g, '').trim();
       if (originalTitle !== cleanTitle && originalTitle.length > 2) {
         results = await searchDeezerJSONP(`artist:"${cleanArtist}" track:"${originalTitle}"`);
         if (results.length > 0) {
@@ -2343,7 +2312,6 @@
       const hasDeezer = entries.some(e => e.deezer_id);
       const hasAnyId = hasYouTube || hasDeezer;
       
-      // Calculer des statistiques sur les mouvements
       const upCount = entries.filter(e => e.movement === 'up').length;
       const downCount = entries.filter(e => e.movement === 'down').length;
       const newCount = entries.filter(e => e.movement === 'new').length;
@@ -2371,8 +2339,6 @@
           ? '' 
           : initials(entry.track.title);
         
-        // Déterminer le mouvement à afficher
-        let movementHtml = '';
         let movementClass = 'same';
         let movementLabel = '●';
         
@@ -2392,7 +2358,6 @@
           movementLabel = '● Stable';
         }
         
-        // Détails additionnels
         const detailsChips = [];
         
         if (entry.weeksOnChart && entry.weeksOnChart > 1) {
@@ -2559,19 +2524,15 @@
       }
       
       const shouldReverse = reversePlaylist.checked;
-      const platform = document.querySelector('input[name="playlistPlatform"]:checked').value;
-      
       const playlistText = generatePlaylistText(entries, shouldReverse);
       copyToClipboard(playlistText);
       
-      const platformName = platform === 'deezer' ? 'Deezer' : 'YouTube';
       const orderText = shouldReverse ? 'inversé (#50 → #1)' : 'normal (#1 → #50)';
       
       playlistCreationInfo.style.display = 'block';
       playlistCreationInfo.innerHTML = `
         <strong>✅ Liste copiée dans le presse-papier !</strong><br>
         📊 ${entries.length} titres prêts à être transférés.<br>
-        🎯 Plateforme : <strong>${platformName}</strong><br>
         🔄 Ordre : <strong>${orderText}</strong><br><br>
         <strong>Étapes sur TuneMyMusic :</strong>
         <ol>
@@ -2580,8 +2541,8 @@
           <li>Choisissez <strong>"N'importe quelle source"</strong> puis <strong>"Fichier texte"</strong></li>
           <li><strong>Collez la liste</strong> (appui long → Coller)</li>
           <li>Cliquez sur <strong>"Suivant"</strong></li>
-          <li>Sélectionnez <strong>${platformName}</strong> comme destination</li>
-          <li>Connectez votre compte ${platformName}</li>
+          <li>Sélectionnez votre plateforme (Deezer, YouTube, Spotify...)</li>
+          <li>Connectez votre compte</li>
           <li>Cliquez sur <strong>"Commencer le transfert"</strong></li>
           <li>✅ Votre playlist est créée !</li>
         </ol>
