@@ -377,7 +377,13 @@ def enrich_with_cache(entries, cache, country_name):
 
 # ===== SOURCES DE DONNÉES =====
 
+
 def fetch_acharts(url, country_name):
+    """
+    Parse acharts.co (VERSION CORRIGÉE)
+    Structure : Tableau HTML avec <br> comme séparateurs
+    Chaque entrée : Position. / (Précédent ou new/re-entry) / Titre<br>Artiste<br>peak position:...
+    """
     print(f"  🔍 Scraping acharts.co pour {country_name}...")
     
     try:
@@ -386,87 +392,112 @@ def fetch_acharts(url, country_name):
         soup = BeautifulSoup(response.text, 'html.parser')
         
         entries = []
-        table = soup.find('table', class_='detail')
         
+        # Chercher le tableau de classement
+        table = soup.find('table')
         if not table:
-            table = soup.find('table')
+            print(f"    ❌ Aucun tableau trouvé")
+            return []
         
-        if table:
-            rows = table.find_all('tr')[1:]
+        rows = table.find_all('tr')[1:]  # Ignorer l'en-tête
+        
+        for row in rows:
+            cells = row.find_all('td')
             
-            for row in rows:
-                cells = row.find_all('td')
+            if len(cells) < 3:
+                continue
+            
+            # Cellule 1 : Position actuelle et précédente
+            # Format : "1." suivi de "(1)" ou "(new)" ou "(re-entry)"
+            pos_cell = cells[0]
+            pos_text = pos_cell.get_text(separator='|', strip=True)
+            
+            # Extraire la position actuelle (premier nombre)
+            current_match = re.search(r'^(\d+)\.', pos_text)
+            if not current_match:
+                continue
+            
+            current_pos = int(current_match.group(1))
+            
+            # Extraire la position précédente ou indicateur spécial
+            previous_pos = None
+            movement = "same"
+            
+            # Chercher entre parenthèses
+            prev_match = re.search(r'\(([^)]+)\)', pos_text)
+            if prev_match:
+                prev_value = prev_match.group(1).strip()
                 
-                if len(cells) >= 4:
-                    pos_text = cells[0].get_text(strip=True)
-                    rank_match = re.search(r'\d+', pos_text)
-                    
-                    if not rank_match:
-                        continue
-                    
-                    rank = int(rank_match.group())
-                    
-                    movement_text = cells[1].get_text(strip=True).lower()
-                    
-                    title_cell = cells[3] if len(cells) > 3 else cells[2]
-                    title = None
-                    artist = None
-                    
-                    title_link = title_cell.find('a')
-                    if title_link:
-                        title = title_link.get_text(strip=True)
-                        
-                        artist_cell = cells[4] if len(cells) > 4 else cells[3]
-                        artist_link = artist_cell.find('a')
-                        
-                        if artist_link:
-                            artist = artist_link.get_text(strip=True)
-                        else:
-                            artist_text = artist_cell.get_text(strip=True)
-                            if artist_text and artist_text != title:
-                                artist = artist_text
+                if prev_value == 'new':
+                    movement = "new"
+                    previous_pos = None
+                elif prev_value == 're-entry':
+                    movement = "new"  # Traiter comme nouvelle entrée
+                    previous_pos = None
+                elif prev_value.isdigit():
+                    previous_pos = int(prev_value)
+                    if previous_pos > current_pos:
+                        movement = "up"
+                    elif previous_pos < current_pos:
+                        movement = "down"
                     else:
-                        text = title_cell.get_text(separator='|', strip=True)
-                        parts = [p.strip() for p in text.split('|') if p.strip()]
-                        if len(parts) >= 2:
-                            title = parts[0]
-                            artist = parts[1]
-                    
-                    if title and artist:
-                        previous_pos = None
-                        movement = "new"
-                        
-                        if movement_text == 'new' or movement_text == '':
-                            movement = "new"
-                        elif movement_text.startswith('+'):
-                            try:
-                                diff = int(movement_text[1:])
-                                previous_pos = rank + diff
-                                movement = "up"
-                            except:
-                                movement = "same"
-                                previous_pos = rank
-                        elif movement_text.startswith('-'):
-                            try:
-                                diff = int(movement_text[1:])
-                                previous_pos = rank - diff
-                                movement = "down"
-                            except:
-                                movement = "same"
-                                previous_pos = rank
-                        else:
-                            movement = "same"
-                            previous_pos = rank
-                        
-                        entries.append({
-                            "position": rank,
-                            "track": {"title": title, "artist": artist},
-                            "previousPosition": previous_pos,
-                            "movement": movement,
-                            "weeksOnChart": 1,
-                            "peakPosition": rank,
-                            "source": "acharts"
-                        })
+                        movement = "same"
+            
+            # Cellule 3 : Titre, Artiste et metadata
+            # Format : "Titre<br>Artiste<br>_peak position:_ X – _total weeks:_ Y"
+            title_cell = cells[2] if len(cells) > 2 else cells[1]
+            cell_text = title_cell.get_text(separator='|', strip=True)
+            
+            # Séparer par |
+            parts = [p.strip() for p in cell_text.split('|') if p.strip()]
+            
+            if len(parts) < 2:
+                continue
+            
+            title = parts[0]
+            artist = parts[1]
+            
+            # Extraire weeks on chart si présent
+            weeks_on_chart = 1
+            peak_position = current_pos
+            
+            for part in parts:
+                weeks_match = re.search(r'_total weeks:_\s*(\d+)', part)
+                if weeks_match:
+                    weeks_on_chart = int(weeks_match.group(1))
+                
+                peak_match = re.search(r'_peak position:_\s*(\d+)', part)
+                if peak_match:
+                    peak_position = int(peak_match.group(1))
+            
+            # Valider
+            if title and artist and len(title) > 1 and len(artist) > 1:
+                # Ignorer les lignes parasites
+                if any(kw in title.lower() for kw in ['current', 'previous', 'title', 'peak', 'weeks']):
+                    continue
+                
+                entries.append({
+                    "position": current_pos,
+                    "track": {"title": title, "artist": artist},
+                    "previousPosition": previous_pos,
+                    "movement": movement,
+                    "weeksOnChart": weeks_on_chart,
+                    "peakPosition": peak_position,
+                    "source": "acharts"
+                })
+        
+        # Trier par position
+        entries.sort(key=lambda x: x["position"])
+        
+        # Dédupliquer
+        seen = set()
+        unique_entries = []
+        for entry in entries:
+            if entry["position"] not in seen:
+                seen.add(entry["position"])
+                unique_entries.append(entry)
+        
+        entries = unique_entries[:100]
         
         print(f"    ✅ {len(entries)} entrées trouvées")
         return entries
@@ -474,6 +505,7 @@ def fetch_acharts(url, country_name):
     except Exception as e:
         print(f"    ❌ Erreur: {e}")
         return []
+
 
 def fetch_brazil_promusica():
     print(f"  🔍 Scraping Pro-Música Brasil...")
