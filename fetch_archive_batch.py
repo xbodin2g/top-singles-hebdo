@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
 Script pour télécharger les archives du Top singles français depuis TROIS sources :
-1. top-archives.fr (1984-1993) - archives complètes
-2. chartsinfrance.net (1994-2026 avril) - format YYNN
+1. top-archives.fr (1984-1993 S35) - archives complètes
+2. chartsinfrance.net (1993 S36-2026 avril) - format YYNN
 3. snepmusique.com (2014 S16 - aujourd'hui) - SOURCE OFFICIELLE SNEP
 
 Stratégie :
-- 1984-1993 : top-archives.fr
-- 1994-2026 : chartsinfrance.net (avec fallback SNEP)
-- 2014 S16+ : SNEP en priorité (officiel, données complètes avec labels)
+- 1984-1993 S35 : top-archives.fr
+- 1993 S36-2013 : chartsinfrance.net
+- 2014 S01-S15 : chartsinfrance.net
+- 2014 S16-2026 : SNEP en priorité, chartsinfrance en fallback
 """
 
 import json
@@ -32,6 +33,8 @@ CACHE_RETRO_FILE = os.path.join(CACHE_DIR, "retro_archives.json")
 
 SNEP_START_YEAR = 2014
 SNEP_START_WEEK = 16
+TOP_ARCHIVES_END_YEAR = 1993
+TOP_ARCHIVES_END_WEEK = 35
 
 def load_retro_cache():
     if os.path.exists(CACHE_RETRO_FILE):
@@ -61,15 +64,7 @@ def get_date_from_year_week(year, week):
     start_of_week1 = jan4 - timedelta(days=jan4.weekday())
     return start_of_week1 + timedelta(weeks=week-1)
 
-def use_snep(year, week):
-    """Détermine si on doit utiliser SNEP pour cette semaine"""
-    if year > SNEP_START_YEAR:
-        return True
-    elif year == SNEP_START_YEAR and week >= SNEP_START_WEEK:
-        return True
-    return False
-
-# ===== SOURCE 1 : top-archives.fr (1984-1993) =====
+# ===== SOURCE 1 : top-archives.fr (1984-1993 S35) =====
 
 def fetch_toparchives_week(year, week, cache):
     """Récupère depuis top-archives.fr"""
@@ -174,7 +169,7 @@ def parse_toparchives_html(soup):
     
     return entries
 
-# ===== SOURCE 2 : chartsinfrance.net (1994-2026 avril) =====
+# ===== SOURCE 2 : chartsinfrance.net (1993 S36-2026 avril) =====
 
 def fetch_chartsinfrance_week(year, week, cache):
     """
@@ -443,9 +438,8 @@ def fetch_snep_week(year, week, cache):
 
 def parse_snep_html(html_text):
     """
-    Parse snepmusique.com - VERSION FINALE CORRIGÉE
-    Structure réelle : Position → Titre → Artiste → LABEL → [nombre] → [e] → La Semaine Dernière → [nombre] → [e] → Semaine dans le Top
-    Le nombre et le suffixe "e" sont sur DES LIGNES SÉPARÉES !
+    Parse le HTML de snepmusique.com (VERSION FINALE CORRIGÉE)
+    Structure : Position → Titre → Artiste → LABEL → [nombre] → [e] → La Semaine Dernière → [nombre] → [e] → Semaine dans le Top
     """
     entries = []
     soup = BeautifulSoup(html_text, 'html.parser')
@@ -467,18 +461,23 @@ def parse_snep_html(html_text):
     ]
     known_labels_upper = [lbl.upper().strip() for lbl in known_labels]
     
+    nav_keywords = [
+        'Semaine précédente', 'Semaine suivante', 'Télécharger en PDF', 
+        'Voir les filtres', 'Top Radio', 'Top Outre-mer', 'Abonnement',
+        'newsletter', 'Twitter', 'LinkedIn', 'Email', 'Copy link',
+        'Merci de partager', 'AddToAny', 'FERMER', 'Marketing Permissions'
+    ]
+    
     i = 0
     while i < len(lines):
         line = lines[i]
         
-        # Position : nombre seul sur une ligne
         pos_match = re.match(r'^(\d{1,3})$', line)
         
         if pos_match:
             position = int(pos_match.group(1))
             
             if 1 <= position <= 200:
-                # Collecter les 12 lignes suivantes
                 block = []
                 for j in range(i + 1, min(i + 13, len(lines))):
                     block.append(lines[j])
@@ -491,17 +490,14 @@ def parse_snep_html(html_text):
                     movement = "same"
                     weeks_on_chart = 1
                     
-                    # Chercher le label dans block[2]
                     if len(block) > 2 and block[2].upper() in known_labels_upper:
                         label = block[2]
                         data_start = 3
                     else:
                         data_start = 2
                     
-                    # Chercher "La Semaine Dernière" et "Semaine dans le Top"
                     for k, bline in enumerate(block[data_start:], start=data_start):
                         if 'La Semaine Dernière' in bline:
-                            # Le nombre est 2 lignes AVANT
                             if k >= 2:
                                 prev_line = block[k - 2]
                                 if prev_line.isdigit():
@@ -514,7 +510,6 @@ def parse_snep_html(html_text):
                                         movement = "same"
                         
                         elif 'Semaine dans le Top' in bline:
-                            # Le nombre est 2 lignes AVANT
                             if k >= 2:
                                 prev_line = block[k - 2]
                                 if prev_line.isdigit():
@@ -523,9 +518,7 @@ def parse_snep_html(html_text):
                                         movement = "new"
                                         previous_pos = None
                     
-                    # Valider
                     if title and artist and len(title) > 2 and len(artist) > 2:
-                        # Ignorer les faux positifs
                         if not any(kw in title.lower() for kw in ['semaine', 'top radio', 'actualités', 'les tops', 'news', 'newsletter']):
                             entries.append({
                                 "position": position,
@@ -560,11 +553,13 @@ def main():
     
     print(f"📅 Archives Top singles France - Année {year}")
     
-    if year <= 1993:
-        print(f"   Source : top-archives.fr (1984-1993)")
-    elif year < SNEP_START_YEAR:
+    if year < 1993:
+        print(f"   Source : top-archives.fr (1984-1992)")
+    elif year == 1993:
+        print(f"   Source : top-archives.fr (S01-S35) + chartsinfrance.net (S36+)")
+    elif year < 2014:
         print(f"   Source : chartsinfrance.net (1994-2013)")
-    elif year == SNEP_START_YEAR:
+    elif year == 2014:
         print(f"   Source : chartsinfrance.net (S01-S15) + SNEP (S16+)")
     else:
         print(f"   Source : SNEP (officiel) + chartsinfrance (fallback)")
@@ -594,18 +589,25 @@ def main():
         
         print(f"\n📥 Semaine {week:02d}/{year}...")
         
-        # Stratégie selon l'année
-        if year <= 1993:
-            # 1984-1993 : top-archives.fr uniquement
+        # Stratégie selon l'année et la semaine
+        if year < 1993:
+            # 1984-1992 : top-archives.fr uniquement
             result = fetch_toparchives_week(year, week, cache)
         
-        elif year < SNEP_START_YEAR:
-            # 1994-2013 : chartsinfrance.net
+        elif year == 1993:
+            # 1993 : top-archives.fr pour S01-S35, chartsinfrance pour S36+
+            if week <= 35:
+                result = fetch_toparchives_week(year, week, cache)
+            else:
+                result = fetch_chartsinfrance_week(year, week, cache)
+        
+        elif year < 2014:
+            # 1994-2013 : chartsinfrance.net uniquement
             result = fetch_chartsinfrance_week(year, week, cache)
         
-        elif year == SNEP_START_YEAR:
+        elif year == 2014:
             # 2014 : chartsinfrance pour S01-S15, SNEP pour S16+
-            if week < SNEP_START_WEEK:
+            if week < 16:
                 result = fetch_chartsinfrance_week(year, week, cache)
             else:
                 result = fetch_snep_week(year, week, cache)
@@ -614,7 +616,7 @@ def main():
             # 2015+ : SNEP en priorité, chartsinfrance en fallback
             result = fetch_snep_week(year, week, cache)
             
-            # Fallback si SNEP échoue (pour les semaines récentes non encore sur SNEP)
+            # Fallback si SNEP échoue
             if not result:
                 print(f"  🔄 Fallback sur chartsinfrance.net...")
                 result = fetch_chartsinfrance_week(year, week, cache)
