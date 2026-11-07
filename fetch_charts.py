@@ -9,6 +9,7 @@ Sources :
 - Singapour : iTunes RSS
 - UK Indie : Official Charts Company
 YouTube : API + yt-dlp comme fallback automatique
+Anti-bot : cloudscraper pour Billboard Brasil et Official Charts
 """
 
 import json
@@ -92,6 +93,24 @@ HEADERS = {
 }
 
 youtube_quota_exceeded = False
+
+# ===== CLOUDSCRAPER (Contournement Cloudflare) =====
+
+def get_scraper():
+    """Retourne un scraper avec cloudscraper pour contourner Cloudflare"""
+    try:
+        import cloudscraper
+        scraper = cloudscraper.create_scraper(
+            browser={
+                'browser': 'chrome',
+                'platform': 'windows',
+                'mobile': False
+            }
+        )
+        return scraper
+    except ImportError:
+        print("    ⚠️ cloudscraper non installé, utilisation de requests")
+        return requests
 
 # ===== GESTION DU CACHE =====
 
@@ -177,24 +196,6 @@ def calculate_movement(current_pos, previous_pos):
         return "down"
     else:
         return "same"
-
-# ===== SCRAPER AVEC CLOUDSCRAPER =====
-
-def get_scraper():
-    """Retourne un scraper avec cloudscraper pour contourner Cloudflare"""
-    try:
-        import cloudscraper
-        scraper = cloudscraper.create_scraper(
-            browser={
-                'browser': 'chrome',
-                'platform': 'windows',
-                'mobile': False
-            }
-        )
-        return scraper
-    except ImportError:
-        print("    ⚠️ cloudscraper non installé, utilisation de requests")
-        return requests
 
 # ===== RECHERCHE DEEZER =====
 
@@ -283,6 +284,7 @@ def fetch_youtube_video_id_official(artist, title):
             
             is_official = any(keyword in video_title for keyword in ['official video', 'official', 'clip officiel', 'official clip'])
             is_vevo = 'vevo' in channel
+            
             is_excluded = any(keyword in video_title for keyword in exclude_keywords)
             
             if not is_excluded and (is_official or is_vevo):
@@ -383,7 +385,7 @@ def fetch_youtube_video_id_ytdlp(artist, title):
     except Exception as e:
         return None
 
-# ===== ENRICHISSEMENT AVEC CACHE (Anti-spam) =====
+# ===== ENRICHISSEMENT AVEC CACHE (Anti-spam logs) =====
 
 def enrich_with_cache(entries, cache, country_name):
     print(f"  📊 Enrichissement avec cache pour {country_name}...")
@@ -426,6 +428,7 @@ def enrich_with_cache(entries, cache, country_name):
         
         if not has_youtube and can_search_youtube and not youtube_quota_exceeded:
             youtube_info = fetch_youtube_video_id_official(artist, title)
+            
             if youtube_info:
                 entry['youtube_id'] = youtube_info['youtube_id']
                 entry['youtube_url'] = youtube_info['youtube_url']
@@ -646,6 +649,8 @@ def fetch_acharts(url, country_name):
         traceback.print_exc()
         return []
 
+# ===== NOUVELLE SOURCE : BILLBOARD BRASIL (avec cloudscraper) =====
+
 def fetch_billboard_brasil():
     """Récupère le Billboard Brasil Hot 100 avec cloudscraper"""
     print(f"  🔍 Scraping Billboard Brasil Hot 100...")
@@ -760,6 +765,8 @@ def fetch_billboard_brasil():
     except Exception as e:
         print(f"    ❌ Erreur Billboard Brasil: {e}")
         return []
+
+# ===== NOUVELLE SOURCE : OFFICIAL CHARTS UK INDIE (avec cloudscraper) =====
 
 def fetch_official_charts_indie():
     """Récupère le Official UK Independent Singles Chart avec cloudscraper"""
