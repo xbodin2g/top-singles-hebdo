@@ -4,6 +4,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Top Singles Hebdo — Données Officielles</title>
+  <!--
+    ============================================
+    Top Singles Hebdo - Version 1.0
+    ============================================
+    Sources : SNEP (FR), acharts.co (US/UK/CH),
+              Official Charts (UK Indie), kworb (DE),
+              Billboard Brasil + Pro-Música (BR), iTunes RSS (SG)
+    Playlists : YouTube direct + TuneMyMusic (hebdo & rétro)
+    Archives : 1984-2026 (top-archives, chartsinfrance, SNEP)
+    ============================================
+  -->
   <style>
     :root {
       --bg: #f5f7ff;
@@ -634,20 +645,6 @@
       color: var(--accent);
     }
 
-    .playlist-success {
-      background: var(--success-bg);
-      padding: 16px;
-      border-radius: 16px;
-      margin-bottom: 20px;
-      color: var(--text);
-      line-height: 1.5;
-      border: 1px solid var(--success);
-    }
-
-    .playlist-success strong {
-      color: var(--success);
-    }
-
     .modal-actions {
       display: flex;
       gap: 10px;
@@ -873,6 +870,27 @@
       color: var(--warning);
     }
 
+    .playlist-section {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: var(--overlay);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+
+    .playlist-section h4 {
+      margin: 0 0 12px 0;
+      font-size: 16px;
+      color: var(--text);
+    }
+
+    .playlist-section > p {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0 0 12px 0;
+      line-height: 1.5;
+    }
+
     .playlist-creation-section {
       margin-top: 20px;
       padding-top: 20px;
@@ -907,7 +925,7 @@
       color: var(--success);
     }
 
-    .playlist-info ol {
+    .playlist-info ol, .playlist-info ul {
       margin: 10px 0;
       padding-left: 20px;
     }
@@ -1066,8 +1084,7 @@
         </div>
 
         <div class="chart-actions">
-          <button class="button button-youtube" id="playlistBtn">🎵 Playlist YouTube</button>
-          <button class="button button-share" id="shareBtn">📤 Partager la playlist</button>
+          <button class="button button-youtube" id="playlistBtn">🎵 Playlist</button>
           <button class="button" id="exportBtn">📥 Exporter CSV</button>
         </div>
 
@@ -1076,31 +1093,66 @@
     </div>
   </div>
 
-  <!-- Modal Playlist YouTube -->
+  <!-- Modal Playlist Hebdo (YouTube + TuneMyMusic) -->
   <div class="modal-overlay" id="playlistModal">
     <div class="modal">
       <div class="modal-header">
-        <h3>🎵 Créer une playlist YouTube</h3>
+        <h3>🎵 Créer une playlist</h3>
         <button class="modal-close" id="modalClose">×</button>
       </div>
       <div class="modal-body">
         <div id="playlistStatus"></div>
 
         <div class="modal-intro" id="modalIntro">
-          <strong>Comment ça fonctionne ?</strong><br>
-          Les titres avec un <span class="direct-indicator"></span> ont un lien direct YouTube (vidéo officielle).
-          <br><br>
-          <strong>💡 Pour ouvrir dans une autre app (Umihi, Simpmusic...) :</strong><br>
-          Cliquez sur "📤 Partager" et choisissez votre app dans le menu Android.
+          <strong>Deux méthodes disponibles :</strong><br><br>
+          <strong>🎬 YouTube Direct :</strong> Ouvre les vidéos officielles directement dans YouTube<br>
+          <strong>🌐 TuneMyMusic :</strong> Transfère vers Deezer, YouTube, Spotify, etc.
         </div>
 
-        <div class="modal-actions">
-          <button class="button button-primary" id="createPlaylistBtn">🎬 Ouvrir dans YouTube</button>
-          <button class="button button-share" id="sharePlaylistBtn">📤 Partager (autre app)</button>
-          <button class="button" id="copyListBtn">📋 Copier la liste</button>
-          <button class="button" id="resetBtn">♻️ Réinitialiser</button>
+        <!-- Section Playlist YouTube -->
+        <div class="playlist-section">
+          <h4>🎬 Playlist YouTube directe</h4>
+          <p>
+            Ouvre directement les vidéos dans YouTube (nécessite les IDs YouTube).
+          </p>
+          <div class="modal-actions" style="margin-bottom: 0;">
+            <button class="button button-primary" id="createPlaylistBtn">🎬 Ouvrir dans YouTube</button>
+            <button class="button button-share" id="sharePlaylistBtn">📤 Partager (autre app)</button>
+          </div>
         </div>
 
+        <!-- Section TuneMyMusic -->
+        <div class="playlist-section">
+          <h4>🌐 Export vers TuneMyMusic</h4>
+          <p>
+            Copie la liste et ouvre TuneMyMusic pour transférer vers n'importe quelle plateforme.
+          </p>
+
+          <div class="playlist-options">
+            <label>
+              <input type="checkbox" id="reverseWeeklyPlaylist" checked>
+              <strong>🔄 Inverser l'ordre</strong> (du #50 vers le #1, effet de suspense)
+            </label>
+          </div>
+
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <button class="button button-primary" id="createWeeklyViaTuneMyBtn">🌐 Copier et ouvrir TuneMyMusic</button>
+            <button class="button" id="copyWeeklyPlaylistBtn">📋 Copier uniquement</button>
+          </div>
+        </div>
+
+        <!-- Section Gestion -->
+        <div class="playlist-section">
+          <h4>⚙️ Gestion</h4>
+          <div class="modal-actions" style="margin-bottom: 0;">
+            <button class="button" id="copyListBtn">📋 Copier la liste simple</button>
+            <button class="button" id="resetBtn">♻️ Réinitialiser les ajouts</button>
+          </div>
+        </div>
+
+        <div id="weeklyPlaylistInfo" class="playlist-info" style="display: none;"></div>
+
+        <h4 style="margin: 20px 0 12px 0;">📋 Titres de la playlist</h4>
         <div class="track-list" id="trackList"></div>
       </div>
     </div>
@@ -1152,7 +1204,7 @@
             Cette archive ne contient pas d'identifiants streaming. Vous pouvez les rechercher maintenant.
             Les résultats seront mis en cache dans votre navigateur pour ne pas être re-recherchés.
           </p>
-          
+
           <div class="platform-checkboxes">
             <label>
               <input type="checkbox" id="enrichYouTube" checked>
@@ -1163,19 +1215,19 @@
               🎧 Deezer (avec pochettes)
             </label>
           </div>
-          
+
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
             <button class="button button-primary" id="enrichRetroBtn">🔍 Lancer l'enrichissement</button>
             <button class="button" id="clearRetroCacheBtn">🗑️ Vider le cache rétro</button>
           </div>
-          
+
           <div id="enrichmentProgress" class="enrichment-progress" style="display: none;">
             <div class="progress-bar-container">
               <div class="progress-bar-fill" id="enrichmentProgressBar"></div>
             </div>
             <p class="progress-status" id="enrichmentStatus">Préparation...</p>
           </div>
-          
+
           <div id="apiKeyWarning" class="api-key-info" style="display: none;">
             <strong>⚠️ Clé API YouTube non configurée</strong><br>
             Pour rechercher les IDs YouTube, configurez votre clé API dans les paramètres (⚙️ API Keys).
@@ -1187,7 +1239,7 @@
           <div class="playlist-creation-section">
             <h4>🎧 Créer une playlist via TuneMyMusic</h4>
             <p>
-              Copiez la liste des titres et collez-la dans TuneMyMusic. 
+              Copiez la liste des titres et collez-la dans TuneMyMusic.
               Vous pourrez ensuite choisir la plateforme de destination (Deezer, YouTube, Spotify...).
             </p>
 
@@ -1197,12 +1249,12 @@
                 <strong>🔄 Inverser l'ordre</strong> (du #50 vers le #1, idéal pour un effet de suspense)
               </label>
             </div>
-            
+
             <div style="display: flex; gap: 10px; flex-wrap: wrap;">
               <button class="button button-primary" id="createPlaylistViaTuneMyBtn">🌐 Copier et ouvrir TuneMyMusic</button>
               <button class="button" id="copyPlaylistTextBtn">📋 Copier uniquement</button>
             </div>
-            
+
             <div id="playlistCreationInfo" class="playlist-info" style="display: none;"></div>
           </div>
         </div>
@@ -1210,29 +1262,29 @@
         <!-- Gestion du cache rétro -->
         <div class="cache-management">
           <h4>🧹 Gestion du cache rétro</h4>
-          
+
           <div class="retro-controls">
             <div class="control-group">
               <label for="cleanYearStart">Année début</label>
               <select id="cleanYearStart"></select>
             </div>
-            
+
             <div class="control-group">
               <label for="cleanYearEnd">Année fin</label>
               <select id="cleanYearEnd"></select>
             </div>
-            
+
             <div class="control-group">
               <label>&nbsp;</label>
               <button class="button" id="listCacheBtn">📋 Lister les archives</button>
             </div>
-            
+
             <div class="control-group">
               <label>&nbsp;</label>
               <button class="button button-danger" id="cleanCacheBtn">🗑️ Nettoyer cette plage</button>
             </div>
           </div>
-          
+
           <div id="cacheInfo" class="cache-info">
             Cliquez sur "Lister les archives" pour voir le contenu du cache.
           </div>
@@ -1302,7 +1354,6 @@
     const mainContent = document.getElementById("mainContent");
     const refreshBtn = document.getElementById("refreshBtn");
     const playlistBtn = document.getElementById("playlistBtn");
-    const shareBtn = document.getElementById("shareBtn");
     const exportBtn = document.getElementById("exportBtn");
     const retroBtn = document.getElementById("retroBtn");
     const settingsBtn = document.getElementById("settingsBtn");
@@ -1314,6 +1365,10 @@
     const copyListBtn = document.getElementById("copyListBtn");
     const resetBtn = document.getElementById("resetBtn");
     const playlistStatus = document.getElementById("playlistStatus");
+    const weeklyPlaylistInfo = document.getElementById("weeklyPlaylistInfo");
+    const reverseWeeklyPlaylist = document.getElementById("reverseWeeklyPlaylist");
+    const createWeeklyViaTuneMyBtn = document.getElementById("createWeeklyViaTuneMyBtn");
+    const copyWeeklyPlaylistBtn = document.getElementById("copyWeeklyPlaylistBtn");
     const retroModal = document.getElementById("retroModal");
     const retroClose = document.getElementById("retroClose");
     const retroYear = document.getElementById("retroYear");
@@ -1383,12 +1438,8 @@
       return new Promise(resolve => setTimeout(resolve, ms));
     }
 
-    /**
-     * ⭐ NORMALISATION AGGRESSIVE POUR LA RECHERCHE
-     */
     function normalizeForSearch(text) {
       if (!text) return '';
-      
       return text
         .replace(/\(.*?\)/g, '')
         .replace(/\[.*?\]/g, '')
@@ -1401,23 +1452,29 @@
         .trim();
     }
 
-    function removeAccents(text) {
-      if (!text) return '';
-      return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    /**
+     * Génère le texte de playlist pour TuneMyMusic
+     * Utilisé par la playlist hebdo ET le rétro
+     */
+    function generatePlaylistText(entries, reverse = false) {
+      const sortedEntries = reverse ? [...entries].reverse() : entries;
+
+      return sortedEntries.map(entry => {
+        const artist = entry.track.artist.trim();
+        const title = entry.track.title.trim();
+        return `${artist} - ${title}`;
+      }).join('\n');
     }
 
     // ===== SMART LINKS DEEZER ET SPOTIFY =====
     function openDeezerSmart(deezerId) {
       const appUrl = `deezer://track/${deezerId}`;
       const webUrl = `https://www.deezer.com/track/${deezerId}`;
-      
       const startTime = Date.now();
-      
       const iframe = document.createElement('iframe');
       iframe.style.display = 'none';
       iframe.src = appUrl;
       document.body.appendChild(iframe);
-      
       setTimeout(() => {
         document.body.removeChild(iframe);
         if (Date.now() - startTime < 2500) {
@@ -1429,17 +1486,13 @@
     function openSpotifySmart(artist, title) {
       const query = `${artist} ${title}`;
       const encodedQuery = encodeURIComponent(query);
-      
       const appUrl = `spotify://search/${encodedQuery}`;
       const webUrl = `https://open.spotify.com/search/${encodedQuery}`;
-      
       const startTime = Date.now();
-      
       const iframe = document.createElement('iframe');
       iframe.style.display = 'none';
       iframe.src = appUrl;
       document.body.appendChild(iframe);
-      
       setTimeout(() => {
         document.body.removeChild(iframe);
         if (Date.now() - startTime < 2500) {
@@ -1453,21 +1506,21 @@
       const title = entry.track.title;
       const artist = entry.track.artist;
       const query = encodeURIComponent(`${artist} ${title}`);
-      
+
       if (platform === 'youtube' && entry.youtube_url) {
         return entry.youtube_url;
       }
-      
+
       switch(platform) {
-        case 'youtube': 
+        case 'youtube':
           return `https://www.youtube.com/results?search_query=${query}`;
-        case 'spotify': 
+        case 'spotify':
           return `https://open.spotify.com/search/${query}`;
-        case 'deezer': 
+        case 'deezer':
           return entry.deezer_url || `https://www.deezer.com/search/${query}/tracks`;
-        case 'amazon': 
+        case 'amazon':
           return `https://music.amazon.com/search/${query}`;
-        default: 
+        default:
           return '#';
       }
     }
@@ -1476,36 +1529,36 @@
       const hasDeezer = !!entry.deezer_url;
       const hasYoutube = !!entry.youtube_url;
       const deezerId = entry.deezer_id;
-      
+
       const youtubeBtn = `
-        <a href="${generateListenUrl(entry, 'youtube')}" target="_blank" rel="noopener" 
-           class="listen-btn youtube ${hasYoutube ? 'direct' : ''}" 
+        <a href="${generateListenUrl(entry, 'youtube')}" target="_blank" rel="noopener"
+           class="listen-btn youtube ${hasYoutube ? 'direct' : ''}"
            title="${hasYoutube ? 'Lien direct YouTube (vidéo officielle)' : 'Recherche YouTube'}">
           ▶️ YouTube${hasYoutube ? '<span class="direct-indicator"></span>' : ''}
         </a>`;
-      
+
       const spotifyBtn = `
-        <a href="#" onclick="event.preventDefault(); openSpotifySmart('${escapeHtml(entry.track.artist).replace(/'/g, "\\'")}', '${escapeHtml(entry.track.title).replace(/'/g, "\\'")}'); return false;" 
-           class="listen-btn spotify" 
+        <a href="#" onclick="event.preventDefault(); openSpotifySmart('${escapeHtml(entry.track.artist).replace(/'/g, "\\'")}', '${escapeHtml(entry.track.title).replace(/'/g, "\\'")}'); return false;"
+           class="listen-btn spotify"
            title="Ouvre dans l'app Spotify si installée, sinon dans le navigateur">
           🎵 Spotify<span class="app-badge">📱 App</span>
         </a>`;
-      
-      const deezerBtn = deezerId 
-        ? `<a href="#" onclick="event.preventDefault(); openDeezerSmart(${deezerId}); return false;" 
-             class="listen-btn deezer direct" 
+
+      const deezerBtn = deezerId
+        ? `<a href="#" onclick="event.preventDefault(); openDeezerSmart(${deezerId}); return false;"
+             class="listen-btn deezer direct"
              title="Ouvre dans l'app Deezer si installée (piste exacte), sinon dans le navigateur">
              🎧 Deezer<span class="direct-indicator"></span><span class="app-badge">📱 App</span>
            </a>`
         : `<a href="${generateListenUrl(entry, 'deezer')}" target="_blank" rel="noopener" class="listen-btn deezer">
              🎧 Deezer
            </a>`;
-      
+
       const amazonBtn = `
         <a href="${generateListenUrl(entry, 'amazon')}" target="_blank" rel="noopener" class="listen-btn amazon">
           📀 Amazon
         </a>`;
-      
+
       return `
         <div class="listen-buttons">
           ${youtubeBtn}
@@ -1516,28 +1569,23 @@
       `;
     }
 
-    // ===== PLAYLIST YOUTUBE =====
+    // ===== PLAYLIST YOUTUBE (HEBDO) =====
     function generateYouTubePlaylistUrl() {
       const withIds = CURRENT_ENTRIES.filter(e => e.youtube_id);
-      
-      if (withIds.length === 0) {
-        return null;
-      }
-      
+      if (withIds.length === 0) return null;
       const videoIds = withIds.map(e => e.youtube_id).join(',');
       return `https://www.youtube.com/watch_videos?video_ids=${videoIds}`;
     }
 
     function createYouTubePlaylist() {
       const entries = CURRENT_ENTRIES.slice(0, 50);
-      
       if (entries.length === 0) {
         alert("Aucun titre !");
         return;
       }
-      
+
       const withIds = entries.filter(e => e.youtube_id);
-      
+
       if (withIds.length === 0) {
         playlistStatus.innerHTML = `
           <div class="modal-intro" style="background: var(--warning-bg);">
@@ -1545,24 +1593,22 @@
             Les titres n'ont pas encore été enrichis avec les IDs YouTube.
           </div>
         `;
-        
         entries.slice(0, 5).forEach((entry, i) => {
           setTimeout(() => {
             window.open(generateListenUrl(entry, 'youtube'), '_blank');
           }, i * 300);
         });
-        
         return;
       }
-      
+
       const playlistUrl = generateYouTubePlaylistUrl();
       window.open(playlistUrl, '_blank');
-      
+
       playlistStatus.innerHTML = `
-        <div class="playlist-success">
+        <div class="playlist-info">
           <strong>✅ Playlist YouTube créée avec succès !</strong><br>
           ${withIds.length} titres jouables automatiquement.<br><br>
-          <strong>💡 Astuce :</strong> Pour ouvrir dans une autre app (Umihi, Simpmusic, etc.), 
+          <strong>💡 Astuce :</strong> Pour ouvrir dans une autre app (Umihi, Simpmusic, etc.),
           utilisez le bouton "📤 Partager" qui ouvrira le menu de partage Android.
         </div>
       `;
@@ -1570,14 +1616,13 @@
 
     function shareYouTubePlaylist() {
       const playlistUrl = generateYouTubePlaylistUrl();
-      
       if (!playlistUrl) {
         alert("⚠️ Aucun titre avec ID YouTube disponible pour le partage.");
         return;
       }
-      
+
       const entries = CURRENT_ENTRIES.filter(e => e.youtube_id);
-      
+
       if (navigator.share) {
         navigator.share({
           title: 'Top Singles Hebdo - Playlist YouTube',
@@ -1596,6 +1641,71 @@
       }
     }
 
+    // ===== PLAYLIST HEBDO VIA TUNEMY MUSIC =====
+    function createWeeklyPlaylistViaTuneMyMusic() {
+      if (!CURRENT_ENTRIES || CURRENT_ENTRIES.length === 0) {
+        alert('⚠️ Aucune donnée à exporter !');
+        return;
+      }
+
+      const entries = CURRENT_ENTRIES.slice(0, 50);
+      const shouldReverse = reverseWeeklyPlaylist.checked;
+      const playlistText = generatePlaylistText(entries, shouldReverse);
+      copyToClipboard(playlistText);
+
+      const orderText = shouldReverse ? 'inversé (#50 → #1)' : 'normal (#1 → #50)';
+
+      weeklyPlaylistInfo.style.display = 'block';
+      weeklyPlaylistInfo.innerHTML = `
+        <strong>✅ Liste copiée dans le presse-papier !</strong><br>
+        📊 ${entries.length} titres prêts à être transférés.<br>
+        🔄 Ordre : <strong>${orderText}</strong><br><br>
+        <strong>Étapes sur TuneMyMusic :</strong>
+        <ol>
+          <li>TuneMyMusic s'ouvre dans 3 secondes</li>
+          <li>Cliquez sur <strong>"Commençons"</strong></li>
+          <li>Choisissez <strong>"N'importe quelle source"</strong> puis <strong>"Fichier texte"</strong></li>
+          <li><strong>Collez la liste</strong> (appui long → Coller)</li>
+          <li>Cliquez sur <strong>"Suivant"</strong></li>
+          <li>Sélectionnez votre plateforme (Deezer, YouTube, Spotify...)</li>
+          <li>Connectez votre compte</li>
+          <li>Cliquez sur <strong>"Commencer le transfert"</strong></li>
+          <li>✅ Votre playlist est créée !</li>
+        </ol>
+      `;
+
+      setTimeout(() => {
+        window.open('https://www.tunemymusic.com/fr/', '_blank');
+      }, 3000);
+    }
+
+    function copyWeeklyPlaylistText() {
+      if (!CURRENT_ENTRIES || CURRENT_ENTRIES.length === 0) {
+        alert('⚠️ Aucune donnée à exporter !');
+        return;
+      }
+
+      const entries = CURRENT_ENTRIES.slice(0, 50);
+      const shouldReverse = reverseWeeklyPlaylist.checked;
+      const playlistText = generatePlaylistText(entries, shouldReverse);
+      copyToClipboard(playlistText);
+
+      const orderText = shouldReverse ? 'inversé (#50 → #1)' : 'normal (#1 → #50)';
+
+      weeklyPlaylistInfo.style.display = 'block';
+      weeklyPlaylistInfo.innerHTML = `
+        <strong>✅ Liste copiée !</strong><br>
+        📊 ${entries.length} titres dans le presse-papier.<br>
+        🔄 Ordre : <strong>${orderText}</strong><br><br>
+        Vous pouvez maintenant :
+        <ul>
+          <li>Coller dans <a href="https://www.tunemymusic.com/fr/" target="_blank">TuneMyMusic</a></li>
+          <li>Coller dans <a href="https://soundiiz.com/fr/" target="_blank">Soundiiz</a></li>
+          <li>Coller dans un email ou un message</li>
+        </ul>
+      `;
+    }
+
     // ===== EXPORT CSV =====
     function exportToCSV(entries) {
       if (!entries || entries.length === 0) {
@@ -1604,7 +1714,7 @@
       }
 
       let csv = "Position,Titre,Artiste,Évolution,Semaines,Pic,YouTube ID,Deezer ID\n";
-      
+
       entries.forEach(entry => {
         const row = [
           entry.position,
@@ -1622,15 +1732,13 @@
       const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
       const link = document.createElement('a');
       const url = URL.createObjectURL(blob);
-      
       link.setAttribute('href', url);
       link.setAttribute('download', `chart-${new Date().toISOString().split('T')[0]}.csv`);
       link.style.visibility = 'hidden';
-      
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      
+
       alert(`📥 Export réussi !\n\n${entries.length} titres exportés en CSV.`);
     }
 
@@ -1640,8 +1748,8 @@
         alert("Aucun titre à ajouter !");
         return;
       }
-
       playlistStatus.innerHTML = '';
+      weeklyPlaylistInfo.style.display = 'none';
       renderTrackList();
       playlistModal.classList.add("active");
     }
@@ -1652,12 +1760,12 @@
 
     function renderTrackList() {
       const entries = CURRENT_ENTRIES.slice(0, 30);
-      
+
       trackList.innerHTML = entries.map((entry, index) => {
         const key = `${entry.track.title}|${entry.track.artist}`.toLowerCase();
         const isAdded = ADDED_TRACKS.has(key);
         const hasYt = !!entry.youtube_id;
-        
+
         return `
           <div class="track-item ${isAdded ? 'added' : ''}" data-key="${key}">
             <div class="track-number">${entry.position}</div>
@@ -1679,22 +1787,20 @@
     function openTrackInYouTube(index) {
       const entry = CURRENT_ENTRIES[index];
       const url = generateListenUrl(entry, 'youtube');
-      
       window.open(url, '_blank');
-      
+
       const key = `${entry.track.title}|${entry.track.artist}`.toLowerCase();
       ADDED_TRACKS.add(key);
       localStorage.setItem('addedTracks', JSON.stringify(Array.from(ADDED_TRACKS)));
-      
       renderTrackList();
     }
 
     function copyTrackList() {
       const entries = CURRENT_ENTRIES.slice(0, 30);
-      const list = entries.map((entry, index) => 
+      const list = entries.map((entry, index) =>
         `${index + 1}. ${entry.track.artist} - ${entry.track.title}`
       ).join('\n');
-      
+
       navigator.clipboard.writeText(list).then(() => {
         alert(`📋 Liste copiée !\n\n${entries.length} titres dans le presse-papier.`);
       }).catch(err => {
@@ -1712,7 +1818,6 @@
     }
 
     // ===== ENRICHISSEMENT RÉTRO À LA DEMANDE =====
-
     function getRetroCacheKey(artist, title) {
       const cleanArtist = normalizeForSearch(artist).toLowerCase();
       const cleanTitle = normalizeForSearch(title).toLowerCase();
@@ -1749,23 +1854,22 @@
         const callbackName = 'deezerCallback_' + Date.now() + '_' + Math.floor(Math.random() * 10000);
         const encodedQuery = encodeURIComponent(query);
         const url = `https://api.deezer.com/search?q=${encodedQuery}&limit=3&output=jsonp&callback=${callbackName}`;
-        
+
         window[callbackName] = function(data) {
           delete window[callbackName];
           if (script.parentNode) {
             document.body.removeChild(script);
           }
-          
           if (data.data && data.data.length > 0) {
             resolve(data.data);
           } else {
             resolve([]);
           }
         };
-        
+
         const script = document.createElement('script');
         script.src = url;
-        
+
         script.onerror = () => {
           delete window[callbackName];
           if (script.parentNode) {
@@ -1773,9 +1877,9 @@
           }
           resolve([]);
         };
-        
+
         document.body.appendChild(script);
-        
+
         setTimeout(() => {
           if (window[callbackName]) {
             delete window[callbackName];
@@ -1799,88 +1903,69 @@
     async function fetchDeezerTrackIdRetro(artist, title) {
       const cleanTitle = normalizeForSearch(title);
       const cleanArtist = normalizeForSearch(artist);
-      
-      if (!cleanTitle || !cleanArtist) {
-        return null;
-      }
-      
+
+      if (!cleanTitle || !cleanArtist) return null;
+
       let results = await searchDeezerJSONP(`artist:"${cleanArtist}" track:"${cleanTitle}"`);
-      if (results.length > 0) {
-        return formatDeezerResult(results[0]);
-      }
-      
+      if (results.length > 0) return formatDeezerResult(results[0]);
       await sleep(100);
-      
+
       results = await searchDeezerJSONP(`${cleanArtist} ${cleanTitle}`);
-      if (results.length > 0) {
-        return formatDeezerResult(results[0]);
-      }
-      
+      if (results.length > 0) return formatDeezerResult(results[0]);
       await sleep(100);
-      
+
       results = await searchDeezerJSONP(`track:"${cleanTitle}"`);
-      if (results.length > 0) {
-        return formatDeezerResult(results[0]);
-      }
-      
+      if (results.length > 0) return formatDeezerResult(results[0]);
       await sleep(100);
-      
+
       const firstArtist = cleanArtist.split(/\s+(?:and|et|feat|ft|,)\s+/i)[0].trim();
       if (firstArtist && firstArtist !== cleanArtist && firstArtist.length > 2) {
         results = await searchDeezerJSONP(`artist:"${firstArtist}" track:"${cleanTitle}"`);
-        if (results.length > 0) {
-          return formatDeezerResult(results[0]);
-        }
+        if (results.length > 0) return formatDeezerResult(results[0]);
         await sleep(100);
       }
-      
-      const originalTitle = title.replace(/\(.*?\)/g, '').replace(/\[.*?\)/g, '').trim();
+
+      const originalTitle = title.replace(/\(.*?\)/g, '').replace(/\[.*?\]/g, '').trim();
       if (originalTitle !== cleanTitle && originalTitle.length > 2) {
         results = await searchDeezerJSONP(`artist:"${cleanArtist}" track:"${originalTitle}"`);
-        if (results.length > 0) {
-          return formatDeezerResult(results[0]);
-        }
+        if (results.length > 0) return formatDeezerResult(results[0]);
         await sleep(100);
       }
-      
+
       const titleWords = cleanTitle.split(' ').filter(w => w.length > 3);
       if (titleWords.length >= 2) {
         const keywords = titleWords.slice(0, 3).join(' ');
         results = await searchDeezerJSONP(`artist:"${cleanArtist}" ${keywords}`);
-        if (results.length > 0) {
-          return formatDeezerResult(results[0]);
-        }
+        if (results.length > 0) return formatDeezerResult(results[0]);
         await sleep(100);
       }
-      
+
       results = await searchDeezerJSONP(`${cleanTitle} ${cleanArtist.split(' ')[0]}`);
-      if (results.length > 0) {
-        return formatDeezerResult(results[0]);
-      }
-      
+      if (results.length > 0) return formatDeezerResult(results[0]);
+
       return null;
     }
 
     async function fetchYouTubeVideoIdRetro(artist, title) {
       const apiKey = localStorage.getItem('youtubeApiKey');
       if (!apiKey) return null;
-      
+
       const cleanTitle = normalizeForSearch(title);
       const cleanArtist = normalizeForSearch(artist);
-      
+
       if (!cleanTitle || !cleanArtist) return null;
-      
+
       const queries = [
         `${cleanArtist} ${cleanTitle} official video`,
         `${cleanArtist} ${cleanTitle}`,
         `${cleanTitle} ${cleanArtist.split(' ')[0]}`
       ];
-      
+
       for (const query of queries) {
         try {
           const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(query)}&type=video&maxResults=5&key=${apiKey}&order=relevance`;
           const response = await fetch(url);
-          
+
           if (response.status === 403) {
             const errorData = await response.json();
             if (errorData.error?.message?.toLowerCase().includes('quota')) {
@@ -1888,25 +1973,25 @@
               return null;
             }
           }
-          
+
           if (response.status !== 200) continue;
-          
+
           const data = await response.json();
           if (!data.items || data.items.length === 0) continue;
-          
+
           const excludeKeywords = ['lyrics', 'lyric', 'audio only', 'cover', 'live', 'karaoke', 'remix'];
-          
+
           for (const item of data.items) {
             const videoTitle = item.snippet.title.toLowerCase();
             const channel = item.snippet.channelTitle.toLowerCase();
-            
-            const isOfficial = videoTitle.includes('official video') || 
-                              videoTitle.includes('official') || 
+
+            const isOfficial = videoTitle.includes('official video') ||
+                              videoTitle.includes('official') ||
                               videoTitle.includes('clip officiel') ||
                               videoTitle.includes('official audio');
             const isVevo = channel.includes('vevo');
             const isExcluded = excludeKeywords.some(kw => videoTitle.includes(kw));
-            
+
             if (!isExcluded && (isOfficial || isVevo)) {
               return {
                 youtube_id: item.id.videoId,
@@ -1914,7 +1999,7 @@
               };
             }
           }
-          
+
           for (const item of data.items) {
             const videoTitle = item.snippet.title.toLowerCase();
             const isExcluded = excludeKeywords.some(kw => videoTitle.includes(kw));
@@ -1925,43 +2010,43 @@
               };
             }
           }
-          
+
           if (data.items.length > 0) {
             return {
               youtube_id: data.items[0].id.videoId,
               youtube_url: `https://www.youtube.com/watch?v=${data.items[0].id.videoId}`
             };
           }
-          
+
         } catch (e) {
           console.error('Erreur YouTube:', e);
           continue;
         }
-        
+
         await sleep(300);
       }
-      
+
       return null;
     }
 
     async function enrichRetroArchive(archiveData, platforms) {
       const cache = loadRetroStreamingCache();
       const { youtube: doYouTube, deezer: doDeezer } = platforms;
-      
+
       const total = archiveData.entries.length;
       let enriched = 0;
       let fromCache = 0;
       let searched = 0;
-      
+
       enrichmentProgress.style.display = 'block';
       enrichmentProgressBar.style.width = '0%';
       enrichmentProgressBar.textContent = '0%';
       enrichmentStatus.textContent = 'Préparation...';
-      
+
       for (let i = 0; i < total; i++) {
         const entry = archiveData.entries[i];
         const cacheKey = getRetroCacheKey(entry.track.artist, entry.track.title);
-        
+
         if (cache[cacheKey]) {
           const cached = cache[cacheKey];
           if (cached.youtube_id && doYouTube) {
@@ -1978,7 +2063,7 @@
           fromCache++;
         } else {
           const entryCache = { artist: entry.track.artist, title: entry.track.title };
-          
+
           if (doDeezer) {
             enrichmentStatus.textContent = `🎧 Deezer : ${i + 1}/${total} - ${entry.track.artist} - ${entry.track.title}`;
             const deezerInfo = await fetchDeezerTrackIdRetro(entry.track.artist, entry.track.title);
@@ -1993,7 +2078,7 @@
             }
             await sleep(200);
           }
-          
+
           if (doYouTube) {
             enrichmentStatus.textContent = `▶️ YouTube : ${i + 1}/${total} - ${entry.track.artist} - ${entry.track.title}`;
             const ytInfo = await fetchYouTubeVideoIdRetro(entry.track.artist, entry.track.title);
@@ -2006,29 +2091,28 @@
             }
             await sleep(300);
           }
-          
+
           entryCache.cached_at = new Date().toISOString().split('T')[0];
           cache[cacheKey] = entryCache;
           saveRetroStreamingCache(cache);
           searched++;
         }
-        
+
         const progress = ((i + 1) / total) * 100;
         enrichmentProgressBar.style.width = `${progress}%`;
         enrichmentProgressBar.textContent = `${Math.round(progress)}%`;
       }
-      
+
       enrichmentStatus.innerHTML = `
         <strong>✅ Enrichissement terminé !</strong><br>
         📊 ${enriched} IDs trouvés (${fromCache} depuis le cache, ${searched} nouvelles recherches)<br>
         💡 Les liens directs sont maintenant visibles.
       `;
-      
+
       return archiveData;
     }
 
     // ===== GESTION DES PARAMÈTRES =====
-
     function openSettingsModal() {
       const apiKey = localStorage.getItem('youtubeApiKey') || '';
       youtubeApiKey.value = apiKey;
@@ -2041,9 +2125,8 @@
 
     function saveSettings() {
       const apiKey = youtubeApiKey.value.trim();
-      
       let messages = [];
-      
+
       if (apiKey) {
         localStorage.setItem('youtubeApiKey', apiKey);
         messages.push('✅ Clé API YouTube sauvegardée');
@@ -2051,13 +2134,13 @@
         localStorage.removeItem('youtubeApiKey');
         messages.push('⚠️ Clé API YouTube supprimée');
       }
-      
+
       settingsStatus.style.display = 'block';
       settingsStatus.style.background = 'var(--success-bg)';
       settingsStatus.style.color = 'var(--success)';
       settingsStatus.style.border = '1px solid var(--success)';
       settingsStatus.innerHTML = messages.join('<br>');
-      
+
       setTimeout(() => {
         settingsStatus.style.display = 'none';
       }, 4000);
@@ -2072,16 +2155,13 @@
     }
 
     // ===== SECTION RÉTRO =====
-
     async function loadRetroCache() {
       try {
         const response = await fetch('data/cache/retro_archives.json');
-        
         if (!response.ok) {
           RETRO_CACHE = {};
           return RETRO_CACHE;
         }
-        
         RETRO_CACHE = await response.json();
         return RETRO_CACHE;
       } catch (error) {
@@ -2093,11 +2173,9 @@
 
     function getAvailableYearsFromCache() {
       const result = {};
-      
       if (!RETRO_CACHE || Object.keys(RETRO_CACHE).length === 0) {
         return result;
       }
-      
       Object.keys(RETRO_CACHE).forEach(key => {
         const [year, week] = key.split('-');
         if (!result[year]) {
@@ -2105,11 +2183,9 @@
         }
         result[year].push(parseInt(week));
       });
-      
       Object.keys(result).forEach(year => {
         result[year].sort((a, b) => a - b);
       });
-      
       return result;
     }
 
@@ -2118,16 +2194,16 @@
       retroWeek.innerHTML = '';
       cleanYearStart.innerHTML = '';
       cleanYearEnd.innerHTML = '';
-      
+
       const availableData = getAvailableYearsFromCache();
       const years = Object.keys(availableData);
-      
+
       if (years.length === 0) {
         retroYear.innerHTML = '<option value="">Aucune archive</option>';
         retroWeek.innerHTML = '<option value="">Aucune archive</option>';
         cleanYearStart.innerHTML = '<option value="">Aucune archive</option>';
         cleanYearEnd.innerHTML = '<option value="">Aucune archive</option>';
-        
+
         retroSummary.innerHTML = `
           <div class="modal-intro" style="background: var(--warning-bg);">
             <strong style="color: var(--warning);">📭 Aucune archive disponible</strong><br>
@@ -2144,87 +2220,85 @@
         `;
         return;
       }
-      
+
       years.sort((a, b) => b - a);
-      
+
       const totalArchives = years.reduce((sum, year) => sum + availableData[year].length, 0);
-      
+
       retroSummary.innerHTML = `
         <div class="modal-intro">
           <strong>📚 ${totalArchives} archives disponibles</strong><br>
           📅 ${years.length} année(s) : ${years.slice().reverse().join(', ')}
         </div>
       `;
-      
+
       years.forEach(year => {
         const weekCount = availableData[year].length;
-        
+
         const option = document.createElement('option');
         option.value = year;
         option.textContent = `${year} (${weekCount} sem.)`;
         retroYear.appendChild(option);
-        
+
         const optionCleanStart = document.createElement('option');
         optionCleanStart.value = year;
         optionCleanStart.textContent = `${year} (${weekCount} sem.)`;
         cleanYearStart.appendChild(optionCleanStart);
-        
+
         const optionCleanEnd = document.createElement('option');
         optionCleanEnd.value = year;
         optionCleanEnd.textContent = `${year} (${weekCount} sem.)`;
         cleanYearEnd.appendChild(optionCleanEnd);
       });
-      
+
       updateWeekSelector();
     }
 
     function updateWeekSelector() {
       const selectedYear = retroYear.value;
-      
       retroWeek.innerHTML = '';
-      
+
       if (!selectedYear) {
         retroWeek.innerHTML = '<option value="">Choisir une année</option>';
         return;
       }
-      
+
       const availableData = getAvailableYearsFromCache();
       const weeks = availableData[selectedYear] || [];
-      
+
       if (weeks.length === 0) {
         retroWeek.innerHTML = '<option value="">Aucune semaine</option>';
         return;
       }
-      
+
       weeks.forEach(week => {
         const option = document.createElement('option');
         option.value = week;
-        
+
         const cacheKey = `${selectedYear}-${String(week).padStart(2, '0')}`;
         const archive = RETRO_CACHE ? RETRO_CACHE[cacheKey] : null;
-        
+
         if (archive && archive.date) {
           option.textContent = `Semaine ${week} (${archive.date})`;
         } else {
           option.textContent = `Semaine ${week}`;
         }
-        
+
         retroWeek.appendChild(option);
       });
     }
 
     function openRetroModal() {
       retroModal.classList.add("active");
-      
+
       retroSummary.innerHTML = `
         <div class="loading" style="padding: 20px;">
           <p>📦 Chargement du cache des archives...</p>
         </div>
       `;
-      
+
       loadRetroCache().then(() => {
         initRetroSelectors();
-        
         const availableData = getAvailableYearsFromCache();
         if (Object.keys(availableData).length === 0) {
           retroContent.innerHTML = '<div class="empty">Aucune archive disponible pour le moment</div>';
@@ -2239,35 +2313,32 @@
     async function loadArchive() {
       const year = retroYear.value;
       const week = retroWeek.value;
-      
+
       if (!year || !week) {
         alert('⚠️ Veuillez sélectionner une année et une semaine valides.');
         return;
       }
-      
+
       retroContent.innerHTML = `
         <div class="loading">
           <p>📥 Chargement de l'archive Top 50 - Semaine ${week}/${year}...</p>
         </div>
       `;
-      
+
       const cacheKey = `${year}-${String(week).padStart(2, '0')}`;
-      
+
       if (RETRO_CACHE && RETRO_CACHE[cacheKey]) {
         displayArchive(RETRO_CACHE[cacheKey]);
         return;
       }
-      
+
       try {
         const response = await fetch(`data/archives/top50-${year}-${String(week).padStart(2, '0')}.json`);
-        
         if (!response.ok) {
           throw new Error("Archive non trouvée");
         }
-        
         const data = await response.json();
         displayArchive(data);
-        
       } catch (error) {
         retroContent.innerHTML = `
           <div class="modal-intro" style="background: var(--warning-bg);">
@@ -2284,13 +2355,13 @@
 
     function displayArchive(archiveData) {
       const entries = archiveData.entries || [];
-      
+
       if (entries.length === 0) {
         retroContent.innerHTML = `<div class="empty">Aucune donnée trouvée pour cette archive.</div>`;
         document.getElementById('retroEnrichmentPanel').style.display = 'none';
         return;
       }
-      
+
       const cache = loadRetroStreamingCache();
       entries.forEach(entry => {
         const cacheKey = getRetroCacheKey(entry.track.artist, entry.track.title);
@@ -2307,15 +2378,15 @@
           }
         }
       });
-      
+
       const hasYouTube = entries.some(e => e.youtube_id);
       const hasDeezer = entries.some(e => e.deezer_id);
       const hasAnyId = hasYouTube || hasDeezer;
-      
+
       const upCount = entries.filter(e => e.movement === 'up').length;
       const downCount = entries.filter(e => e.movement === 'down').length;
       const newCount = entries.filter(e => e.movement === 'new').length;
-      
+
       let html = `
         <div class="chart-header">
           <div>
@@ -2324,62 +2395,62 @@
               ${hasAnyId ? '<span class="enriched-badge">✓ Enrichi</span>' : ''}
             </h2>
             <p>
-              📼 Archive ${archiveData.source || 'chartsinfrance.net'} · 
+              📼 Archive ${archiveData.source || 'chartsinfrance.net'} ·
               ${upCount} ▲ · ${downCount} ▼ · ${newCount} ✦
             </p>
           </div>
         </div>
       `;
-      
+
       html += entries.map((entry, index) => {
-        const coverStyle = entry.track.artwork 
-          ? `background-image: url('${entry.track.artwork}');` 
+        const coverStyle = entry.track.artwork
+          ? `background-image: url('${entry.track.artwork}');`
           : '';
-        const coverContent = entry.track.artwork 
-          ? '' 
+        const coverContent = entry.track.artwork
+          ? ''
           : initials(entry.track.title);
-        
+
         let movementClass = 'same';
-        let movementLabel = '●';
-        
+        let movementLabelText = '●';
+
         if (entry.movement === 'new') {
           movementClass = 'new';
-          movementLabel = '✦ Nouveau';
+          movementLabelText = '✦ Nouveau';
         } else if (entry.movement === 'up' && entry.previousPosition) {
           movementClass = 'up';
           const diff = entry.previousPosition - entry.position;
-          movementLabel = `▲ ${diff}`;
+          movementLabelText = `▲ ${diff}`;
         } else if (entry.movement === 'down' && entry.previousPosition) {
           movementClass = 'down';
           const diff = entry.position - entry.previousPosition;
-          movementLabel = `▼ ${diff}`;
+          movementLabelText = `▼ ${diff}`;
         } else {
           movementClass = 'same';
-          movementLabel = '● Stable';
+          movementLabelText = '● Stable';
         }
-        
+
         const detailsChips = [];
-        
+
         if (entry.weeksOnChart && entry.weeksOnChart > 1) {
           detailsChips.push(`<span class="chip">${entry.weeksOnChart} sem.</span>`);
         }
-        
+
         if (entry.peakPosition) {
           detailsChips.push(`<span class="chip">Pic ${entry.peakPosition}</span>`);
         }
-        
+
         if (entry.previousPosition && entry.movement !== 'new') {
           detailsChips.push(`<span class="chip">Préc. ${entry.previousPosition}</span>`);
         }
-        
+
         if (entry.movement === 'new') {
           detailsChips.push(`<span class="chip new">Entrée</span>`);
         }
-        
+
         return `
           <div class="row">
             <div class="rank ${entry.position <= 3 ? "top" : ""}">${entry.position}</div>
-            <div class="movement ${movementClass}">${movementLabel}</div>
+            <div class="movement ${movementClass}">${movementLabelText}</div>
             <div class="cover" style="${coverStyle}">${coverContent}</div>
             <div class="meta">
               <div class="title">${escapeHtml(entry.track.title)}</div>
@@ -2392,32 +2463,31 @@
           </div>
         `;
       }).join('');
-      
+
       retroContent.innerHTML = html;
-      
+
       const enrichmentPanel = document.getElementById('retroEnrichmentPanel');
       enrichmentPanel.style.display = 'block';
-      
+
       const apiKey = localStorage.getItem('youtubeApiKey');
       if (!apiKey) {
         apiKeyWarning.style.display = 'block';
       } else {
         apiKeyWarning.style.display = 'none';
       }
-      
+
       window.currentRetroArchive = archiveData;
     }
 
     // ===== GESTION DU CACHE RÉTRO =====
-
     function listRetroCache() {
       if (!RETRO_CACHE || Object.keys(RETRO_CACHE).length === 0) {
         cacheInfo.innerHTML = '<span style="color: var(--warning);">📭 Le cache rétro est vide</span>';
         return;
       }
-      
+
       const archiveKeys = Object.keys(RETRO_CACHE);
-      
+
       const archivesByYear = {};
       archiveKeys.forEach(key => {
         const [year, week] = key.split('-');
@@ -2426,66 +2496,64 @@
         }
         archivesByYear[year].push(parseInt(week));
       });
-      
+
       let html = `<strong>📚 ${archiveKeys.length} archives en cache :</strong><br><br>`;
-      
+
       const years = Object.keys(archivesByYear).sort((a, b) => b - a);
-      
+
       years.forEach(year => {
         const weeks = archivesByYear[year].sort((a, b) => a - b);
         html += `<strong>${year}</strong> : ${weeks.length} archives (S${weeks.join(', S')})<br>`;
       });
-      
+
       cacheInfo.innerHTML = html;
     }
 
     async function cleanRetroCache() {
       const yearStart = cleanYearStart.value;
       const yearEnd = cleanYearEnd.value;
-      
+
       if (!yearStart || !yearEnd) {
         alert('⚠️ Veuillez sélectionner une plage d\'années valide');
         return;
       }
-      
+
       if (parseInt(yearStart) > parseInt(yearEnd)) {
         alert('⚠️ L\'année de début doit être inférieure ou égale à l\'année de fin');
         return;
       }
-      
+
       if (!RETRO_CACHE || Object.keys(RETRO_CACHE).length === 0) {
         alert('❌ Le cache rétro est vide');
         return;
       }
-      
+
       const keysToRemove = Object.keys(RETRO_CACHE).filter(key => {
         const year = parseInt(key.split('-')[0]);
         return year >= parseInt(yearStart) && year <= parseInt(yearEnd);
       });
-      
+
       if (keysToRemove.length === 0) {
         alert(`ℹ️ Aucune archive trouvée pour la plage ${yearStart}-${yearEnd}`);
         return;
       }
-      
+
       if (!confirm(`⚠️ Êtes-vous sûr de vouloir supprimer ${keysToRemove.length} archives de ${yearStart} à ${yearEnd} ?\n\nCette action est irréversible.`)) {
         return;
       }
-      
+
       keysToRemove.forEach(key => delete RETRO_CACHE[key]);
-      
+
       const blob = new Blob([JSON.stringify(RETRO_CACHE, null, 2)], { type: 'application/json' });
       const link = document.createElement('a');
       const url = URL.createObjectURL(blob);
-      
       link.setAttribute('href', url);
       link.setAttribute('download', 'retro_archives.json');
       link.style.visibility = 'hidden';
-      
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      
+
       alert(`🧹 Nettoyage effectué !\n\n` +
             `${keysToRemove.length} archives de ${yearStart} à ${yearEnd} supprimées.\n\n` +
             `📥 Le fichier modifié a été téléchargé.\n\n` +
@@ -2493,42 +2561,31 @@
             `1. Uploadez le fichier téléchargé dans data/cache/retro_archives.json\n` +
             `2. Committez et poussez les changements\n\n` +
             `Fermez et rouvrez ce modal pour voir les changements.`);
-      
+
       listRetroCache();
       initRetroSelectors();
     }
 
-    // ===== CRÉATION DE PLAYLIST VIA TUNEMY MUSIC =====
-
-    function generatePlaylistText(entries, reverse = false) {
-      const sortedEntries = reverse ? [...entries].reverse() : entries;
-      
-      return sortedEntries.map(entry => {
-        const artist = entry.track.artist.trim();
-        const title = entry.track.title.trim();
-        return `${artist} - ${title}`;
-      }).join('\n');
-    }
-
+    // ===== CRÉATION DE PLAYLIST VIA TUNEMY MUSIC (RÉTRO) =====
     function createPlaylistViaTuneMyMusic() {
       if (!window.currentRetroArchive || !window.currentRetroArchive.entries) {
         alert('⚠️ Aucune archive chargée !');
         return;
       }
-      
+
       const entries = window.currentRetroArchive.entries;
-      
+
       if (entries.length === 0) {
         alert('⚠️ Aucun titre dans cette archive !');
         return;
       }
-      
+
       const shouldReverse = reversePlaylist.checked;
       const playlistText = generatePlaylistText(entries, shouldReverse);
       copyToClipboard(playlistText);
-      
+
       const orderText = shouldReverse ? 'inversé (#50 → #1)' : 'normal (#1 → #50)';
-      
+
       playlistCreationInfo.style.display = 'block';
       playlistCreationInfo.innerHTML = `
         <strong>✅ Liste copiée dans le presse-papier !</strong><br>
@@ -2547,7 +2604,7 @@
           <li>✅ Votre playlist est créée !</li>
         </ol>
       `;
-      
+
       setTimeout(() => {
         window.open('https://www.tunemymusic.com/fr/', '_blank');
       }, 3000);
@@ -2558,15 +2615,14 @@
         alert('⚠️ Aucune archive chargée !');
         return;
       }
-      
+
       const entries = window.currentRetroArchive.entries;
       const shouldReverse = reversePlaylist.checked;
       const playlistText = generatePlaylistText(entries, shouldReverse);
-      
       copyToClipboard(playlistText);
-      
+
       const orderText = shouldReverse ? 'inversé (#50 → #1)' : 'normal (#1 → #50)';
-      
+
       playlistCreationInfo.style.display = 'block';
       playlistCreationInfo.innerHTML = `
         <strong>✅ Liste copiée !</strong><br>
@@ -2582,7 +2638,6 @@
     }
 
     // ===== CHARGEMENT DES DONNÉES =====
-
     async function loadChartData() {
       try {
         loadingIndicator.style.display = "block";
@@ -2590,7 +2645,7 @@
         mainContent.style.display = "none";
 
         const response = await fetch("data/charts-latest.json");
-        
+
         if (!response.ok) {
           throw new Error("Fichier de données introuvable");
         }
@@ -2637,7 +2692,6 @@
       regionSelect.innerHTML = Object.entries(REGIONS)
         .map(([code, region]) => `<option value="${code}">${escapeHtml(region.label)}</option>`)
         .join("");
-
       regionSelect.value = "europe";
     }
 
@@ -2685,7 +2739,7 @@
         const chart = CHARTS_DATA.countries[code]?.chart || [];
         chart.forEach((entry) => {
           const trackKey = `${entry.track.title}-${entry.track.artist}`.toLowerCase();
-          
+
           if (!aggregated.has(trackKey)) {
             aggregated.set(trackKey, {
               track: entry.track,
@@ -2705,7 +2759,7 @@
           item.countryCodes.add(code);
           item.bestPosition = Math.min(item.bestPosition, entry.position);
           item.entries.push({ ...entry, country: code });
-          
+
           if (entry.youtube_id && !item.youtube_id) {
             item.youtube_id = entry.youtube_id;
             item.youtube_url = entry.youtube_url;
@@ -2797,13 +2851,13 @@
     }
 
     function countryRow(entry) {
-      const coverStyle = entry.track.artwork 
-        ? `background-image: url('${entry.track.artwork}');` 
+      const coverStyle = entry.track.artwork
+        ? `background-image: url('${entry.track.artwork}');`
         : '';
-      const coverContent = entry.track.artwork 
-        ? '' 
+      const coverContent = entry.track.artwork
+        ? ''
         : initials(entry.track.title);
-      
+
       return `
         <div class="row">
           <div class="rank ${entry.position <= 3 ? "top" : ""}">${entry.position}</div>
@@ -2816,7 +2870,7 @@
           <div class="details">
             <span class="chip">${entry.weeksOnChart} sem.</span>
             <span class="chip">Pic ${entry.peakPosition}</span>
-            ${entry.previousPosition 
+            ${entry.previousPosition
               ? `<span class="chip">Préc. ${entry.previousPosition}</span>`
               : `<span class="chip new">Entrée</span>`}
             ${createListenButtons(entry)}
@@ -2826,13 +2880,13 @@
     }
 
     function synthesisRow(entry) {
-      const coverStyle = entry.track.artwork 
-        ? `background-image: url('${entry.track.artwork}');` 
+      const coverStyle = entry.track.artwork
+        ? `background-image: url('${entry.track.artwork}');`
         : '';
-      const coverContent = entry.track.artwork 
-        ? '' 
+      const coverContent = entry.track.artwork
+        ? ''
         : initials(entry.track.title);
-      
+
       return `
         <div class="row">
           <div class="rank ${entry.position <= 3 ? "top" : ""}">${entry.position}</div>
@@ -2856,7 +2910,7 @@
 
     function renderList(entries, view) {
       CURRENT_ENTRIES = entries;
-      
+
       if (!entries.length) {
         chartContent.innerHTML = `<div class="empty">Aucun résultat.</div>`;
         return;
@@ -2938,7 +2992,6 @@
     themeToggle.addEventListener("click", toggleTheme);
     refreshBtn.addEventListener("click", loadChartData);
     playlistBtn.addEventListener("click", openPlaylistModal);
-    shareBtn.addEventListener("click", shareYouTubePlaylist);
     exportBtn.addEventListener("click", () => exportToCSV(CURRENT_ENTRIES));
     retroBtn.addEventListener("click", openRetroModal);
     settingsBtn.addEventListener("click", openSettingsModal);
@@ -2957,34 +3010,37 @@
     clearRetroCacheBtn.addEventListener("click", clearRetroStreamingCache);
     createPlaylistViaTuneMyBtn.addEventListener("click", createPlaylistViaTuneMyMusic);
     copyPlaylistTextBtn.addEventListener("click", copyPlaylistText);
-    
+
+    // Playlist hebdo TuneMyMusic
+    createWeeklyViaTuneMyBtn.addEventListener("click", createWeeklyPlaylistViaTuneMyMusic);
+    copyWeeklyPlaylistBtn.addEventListener("click", copyWeeklyPlaylistText);
+
     retroYear.addEventListener("change", updateWeekSelector);
 
     enrichRetroBtn.addEventListener("click", async () => {
       const doYouTube = enrichYouTube.checked;
       const doDeezer = enrichDeezer.checked;
-      
+
       if (!doYouTube && !doDeezer) {
         alert('⚠️ Veuillez sélectionner au moins une plateforme.');
         return;
       }
-      
+
       const apiKey = localStorage.getItem('youtubeApiKey');
       if (doYouTube && !apiKey) {
         alert('⚠️ Clé API YouTube non configurée.\n\nConfigurez-la dans les paramètres (⚙️ API Keys) ou décochez YouTube.');
         return;
       }
-      
+
       if (!window.currentRetroArchive) {
         alert('⚠️ Aucune archive chargée.');
         return;
       }
-      
+
       enrichRetroBtn.disabled = true;
-      
+
       try {
         await enrichRetroArchive(window.currentRetroArchive, { youtube: doYouTube, deezer: doDeezer });
-        
         displayArchive(window.currentRetroArchive);
       } catch (error) {
         alert(`❌ Erreur lors de l'enrichissement : ${error.message}`);
