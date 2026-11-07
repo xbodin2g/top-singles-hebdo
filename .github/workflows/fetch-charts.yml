@@ -1,9 +1,16 @@
-name: Fetch Music Charts
+name: Fetch Weekly Charts
 
 on:
   schedule:
-    - cron: '0 10 * * 6'
+    # Exécuter chaque vendredi à 14h UTC (après publication des charts)
+    - cron: '0 14 * * 5'
+  
   workflow_dispatch:
+    inputs:
+      debug:
+        description: 'Mode debug (affiche plus de logs)'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write
@@ -23,17 +30,18 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-        
+      
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 billboard.py yt-dlp
-        
-      - name: Fetch charts (with cache auto-cleanup)
+          pip install requests beautifulsoup4 yt-dlp
+      
+      - name: Fetch weekly charts
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python fetch_charts.py
+        run: |
+          python fetch_charts.py
       
-      - name: Commit and push changes (including caches)
+      - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -45,6 +53,6 @@ jobs:
             exit 0
           fi
           
-          git commit -m "Update charts and caches - $(date +%Y-%m-%d)"
+          git commit -m "Update weekly charts - $(date +%Y-%m-%d)"
           git pull --rebase origin main
           git push origin main
