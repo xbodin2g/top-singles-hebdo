@@ -6,7 +6,7 @@
     "updatedAt": "2026-11-07",
     "sourceNote": "✅ 7 sources OK. ❌ 1 échouées.",
     "hasStreamingIds": true,
-    "cacheSize": 590
+    "cacheSize": 591
   },
   "countries": {
     "us": {
@@ -6814,10 +6814,10 @@
           "weeksOnChart": 1,
           "peakPosition": 174,
           "source": "kworb_itunes",
-          "deezer_id": 4377110651,
-          "deezer_url": "https://www.deezer.com/track/4377110651",
           "youtube_id": "-6h5tHjs8Xs",
-          "youtube_url": "https://www.youtube.com/watch?v=-6h5tHjs8Xs"
+          "youtube_url": "https://www.youtube.com/watch?v=-6h5tHjs8Xs",
+          "deezer_id": 4377110651,
+          "deezer_url": "https://www.deezer.com/track/4377110651"
         },
         {
           "position": 175,
@@ -7090,10 +7090,10 @@
           "weeksOnChart": 1,
           "peakPosition": 191,
           "source": "kworb_itunes",
-          "deezer_id": 4274325042,
-          "deezer_url": "https://www.deezer.com/track/4274325042",
           "youtube_id": "AKec3LTILRU",
-          "youtube_url": "https://www.youtube.com/watch?v=AKec3LTILRU"
+          "youtube_url": "https://www.youtube.com/watch?v=AKec3LTILRU",
+          "deezer_id": 4274325042,
+          "deezer_url": "https://www.deezer.com/track/4274325042"
         },
         {
           "position": 192,
@@ -7107,10 +7107,10 @@
           "weeksOnChart": 1,
           "peakPosition": 192,
           "source": "kworb_itunes",
-          "deezer_id": 3787855,
-          "deezer_url": "https://www.deezer.com/track/3787855",
           "youtube_id": "9ehkgnqd35Y",
-          "youtube_url": "https://www.youtube.com/watch?v=9ehkgnqd35Y"
+          "youtube_url": "https://www.youtube.com/watch?v=9ehkgnqd35Y",
+          "deezer_id": 3787855,
+          "deezer_url": "https://www.deezer.com/track/3787855"
         },
         {
           "position": 193,
@@ -7124,10 +7124,10 @@
           "weeksOnChart": 1,
           "peakPosition": 193,
           "source": "kworb_itunes",
-          "deezer_id": 4285643492,
-          "deezer_url": "https://www.deezer.com/track/4285643492",
           "youtube_id": "Q9eAMMeiLC0",
-          "youtube_url": "https://www.youtube.com/watch?v=Q9eAMMeiLC0"
+          "youtube_url": "https://www.youtube.com/watch?v=Q9eAMMeiLC0",
+          "deezer_id": 4285643492,
+          "deezer_url": "https://www.deezer.com/track/4285643492"
         },
         {
           "position": 194,
@@ -7141,10 +7141,10 @@
           "weeksOnChart": 1,
           "peakPosition": 194,
           "source": "kworb_itunes",
-          "deezer_id": 4369838131,
-          "deezer_url": "https://www.deezer.com/track/4369838131",
           "youtube_id": "p6DJgx85EVQ",
-          "youtube_url": "https://www.youtube.com/watch?v=p6DJgx85EVQ"
+          "youtube_url": "https://www.youtube.com/watch?v=p6DJgx85EVQ",
+          "deezer_id": 4369838131,
+          "deezer_url": "https://www.deezer.com/track/4369838131"
         },
         {
           "position": 195,
@@ -7158,10 +7158,10 @@
           "weeksOnChart": 1,
           "peakPosition": 195,
           "source": "kworb_itunes",
-          "deezer_id": 4292230702,
-          "deezer_url": "https://www.deezer.com/track/4292230702",
           "youtube_id": "3hXr2ewiV68",
-          "youtube_url": "https://www.youtube.com/watch?v=3hXr2ewiV68"
+          "youtube_url": "https://www.youtube.com/watch?v=3hXr2ewiV68",
+          "deezer_id": 4292230702,
+          "deezer_url": "https://www.deezer.com/track/4292230702"
         },
         {
           "position": 196,
@@ -7175,10 +7175,10 @@
           "weeksOnChart": 1,
           "peakPosition": 196,
           "source": "kworb_itunes",
-          "deezer_id": 4256911561,
-          "deezer_url": "https://www.deezer.com/track/4256911561",
           "youtube_id": "6jJkdRaa04g",
-          "youtube_url": "https://www.youtube.com/watch?v=6jJkdRaa04g"
+          "youtube_url": "https://www.youtube.com/watch?v=6jJkdRaa04g",
+          "deezer_id": 4256911561,
+          "deezer_url": "https://www.deezer.com/track/4256911561"
         },
         {
           "position": 197,
@@ -7192,10 +7192,10 @@
           "weeksOnChart": 1,
           "peakPosition": 197,
           "source": "kworb_itunes",
-          "deezer_id": 15587465,
-          "deezer_url": "https://www.deezer.com/track/15587465",
           "youtube_id": "5NPBIwQyPWE",
-          "youtube_url": "https://www.youtube.com/watch?v=5NPBIwQyPWE"
+          "youtube_url": "https://www.youtube.com/watch?v=5NPBIwQyPWE",
+          "deezer_id": 15587465,
+          "deezer_url": "https://www.deezer.com/track/15587465"
         },
         {
           "position": 198,
@@ -7209,10 +7209,10 @@
           "weeksOnChart": 1,
           "peakPosition": 198,
           "source": "kworb_itunes",
-          "deezer_id": 4310038872,
-          "deezer_url": "https://www.deezer.com/track/4310038872",
           "youtube_id": "yxpfCkNnxdg",
-          "youtube_url": "https://www.youtube.com/watch?v=yxpfCkNnxdg"
+          "youtube_url": "https://www.youtube.com/watch?v=yxpfCkNnxdg",
+          "deezer_id": 4310038872,
+          "deezer_url": "https://www.deezer.com/track/4310038872"
         },
         {
           "position": 199,
@@ -7226,10 +7226,10 @@
           "weeksOnChart": 1,
           "peakPosition": 199,
           "source": "kworb_itunes",
-          "deezer_id": 2947516331,
-          "deezer_url": "https://www.deezer.com/track/2947516331",
           "youtube_id": "kPa7bsKwL-c",
-          "youtube_url": "https://www.youtube.com/watch?v=kPa7bsKwL-c"
+          "youtube_url": "https://www.youtube.com/watch?v=kPa7bsKwL-c",
+          "deezer_id": 2947516331,
+          "deezer_url": "https://www.deezer.com/track/2947516331"
         },
         {
           "position": 200,
