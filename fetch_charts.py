@@ -646,6 +646,155 @@ def fetch_acharts(url, country_name):
         traceback.print_exc()
         return []
 
+# ===== SOURCE : OFFICIAL CHARTS UK INDIE (VERSION CORRIGÉE) =====
+
+def fetch_official_charts_indie():
+    """Récupère le Official UK Independent Singles Chart avec cloudscraper"""
+    print(f"  🔍 Scraping Official Charts UK Indie...")
+    
+    try:
+        scraper = get_scraper()
+        
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Language': 'en-GB,en;q=0.9,fr;q=0.8',
+            'Referer': 'https://www.officialcharts.com/',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+        }
+        
+        url = "https://www.officialcharts.com/charts/independent-singles-chart/"
+        response = scraper.get(url, headers=headers, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        entries = []
+        
+        text = soup.get_text(separator='\n', strip=True)
+        lines = [line.strip() for line in text.split('\n') if line.strip()]
+        
+        i = 0
+        while i < len(lines):
+            # Chercher le marqueur "Number"
+            if lines[i] == 'Number' and i + 2 < len(lines):
+                # La ligne suivante est la position
+                pos_line = lines[i + 1]
+                
+                if not re.match(r'^\d+$', pos_line):
+                    i += 1
+                    continue
+                
+                position = int(pos_line)
+                
+                if not (1 <= position <= 100):
+                    i += 1
+                    continue
+                
+                # La ligne suivante est le titre
+                if i + 2 >= len(lines):
+                    break
+                title = lines[i + 2]
+                
+                # Collecter l'artiste jusqu'à "LW:"
+                artist_parts = []
+                j = i + 3
+                
+                while j < len(lines):
+                    if lines[j] == 'LW:':
+                        break
+                    artist_parts.append(lines[j])
+                    j += 1
+                
+                # Nettoyer l'artiste : enlever les "/" en fin de ligne
+                artist_clean_parts = []
+                for part in artist_parts:
+                    clean_part = part.rstrip('/').strip()
+                    if clean_part:
+                        artist_clean_parts.append(clean_part)
+                
+                artist = ' feat. '.join(artist_clean_parts) if artist_clean_parts else ''
+                
+                # Extraire LW, Peak, Weeks des lignes suivantes
+                previous_pos = None
+                peak_position = position
+                weeks_on_chart = 1
+                movement = "same"
+                
+                # Chercher les labels dans les 20 lignes suivantes
+                remaining_block = lines[j:min(j + 20, len(lines))]
+                block_text = ' '.join(remaining_block)
+                
+                lw_match = re.search(r'LW:\s*([A-Z0-9-]+)', block_text)
+                if lw_match:
+                    lw_value = lw_match.group(1).strip()
+                    if lw_value == 'RE' or lw_value == '-':
+                        movement = "new"
+                        previous_pos = None
+                    elif lw_value.isdigit():
+                        previous_pos = int(lw_value)
+                        if previous_pos > position:
+                            movement = "up"
+                        elif previous_pos < position:
+                            movement = "down"
+                        else:
+                            movement = "same"
+                else:
+                    movement = "new"
+                    previous_pos = None
+                
+                peak_match = re.search(r'Peak:\s*(\d+)', block_text)
+                if peak_match:
+                    peak_position = int(peak_match.group(1))
+                
+                weeks_match = re.search(r'Weeks:\s*(\d+)', block_text)
+                if weeks_match:
+                    weeks_on_chart = int(weeks_match.group(1))
+                
+                # Valider
+                if title and artist and len(title) > 1 and len(artist) > 1:
+                    if not any(kw in title.lower() for kw in ['copyright', 'fonticons', 'official charts']):
+                        entries.append({
+                            "position": position,
+                            "track": {"title": title, "artist": artist},
+                            "previousPosition": previous_pos,
+                            "movement": movement,
+                            "weeksOnChart": weeks_on_chart,
+                            "peakPosition": peak_position,
+                            "source": "official_charts"
+                        })
+            
+            i += 1
+        
+        entries.sort(key=lambda x: x["position"])
+        
+        seen = set()
+        unique_entries = []
+        for entry in entries:
+            if entry["position"] not in seen:
+                seen.add(entry["position"])
+                unique_entries.append(entry)
+        
+        entries = unique_entries[:100]
+        
+        print(f"    ✅ {len(entries)} entrées trouvées")
+        
+        if entries:
+            print(f"       📊 Exemples :")
+            for e in entries[:3]:
+                move_symbol = "▲" if e['movement'] == 'up' else ("▼" if e['movement'] == 'down' else ("✦" if e['movement'] == 'new' else "●"))
+                print(f"          {e['position']}. {e['track']['artist']} - {e['track']['title']} {move_symbol}")
+        
+        return entries
+    
+    except Exception as e:
+        print(f"    ❌ Erreur Official Charts: {e}")
+        import traceback
+        traceback.print_exc()
+        return []
+
+# ===== SOURCE : BILLBOARD BRASIL (VERSION CORRIGÉE) =====
+
 def fetch_billboard_brasil():
     """Récupère le Billboard Brasil Hot 100 avec cloudscraper"""
     print(f"  🔍 Scraping Billboard Brasil Hot 100...")
@@ -656,16 +805,10 @@ def fetch_billboard_brasil():
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
-            'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6',
-            'Accept-Encoding': 'gzip, deflate, br',
+            'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
             'Referer': 'https://billboard.com.br/',
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
-            'Sec-Fetch-Dest': 'document',
-            'Sec-Fetch-Mode': 'navigate',
-            'Sec-Fetch-Site': 'same-origin',
-            'Sec-Fetch-User': '?1',
-            'Cache-Control': 'max-age=0'
         }
         
         url = "https://billboard.com.br/billboard-brasil-hot-100/"
@@ -682,57 +825,74 @@ def fetch_billboard_brasil():
         while i < len(lines):
             line = lines[i]
             
+            # Chercher un nombre seul (position)
             if re.match(r'^\d+$', line):
                 position = int(line)
                 
                 if 1 <= position <= 100:
-                    block = []
-                    for j in range(i + 1, min(i + 10, len(lines))):
-                        if re.match(r'^\d+$', lines[j]):
-                            break
-                        block.append(lines[j])
+                    # Vérifier que les 3 prochaines lignes correspondent au pattern
+                    # [titre] [artiste] [Últ. Semana]
+                    if i + 3 >= len(lines):
+                        i += 1
+                        continue
                     
-                    if len(block) >= 6:
-                        title = block[0]
-                        artist = block[1]
+                    title = lines[i + 1]
+                    artist = lines[i + 2]
+                    next_label = lines[i + 3]
+                    
+                    # Valider le pattern : la ligne après artiste doit être "Últ. Semana"
+                    if 'Últ' not in next_label and 'Semana' not in next_label:
+                        i += 1
+                        continue
+                    
+                    # Extraire les valeurs suivantes
+                    previous_pos = None
+                    peak_position = position
+                    weeks_on_chart = 1
+                    movement = "same"
+                    
+                    # Scanner les 10 lignes suivantes pour les labels
+                    for j in range(i + 3, min(i + 12, len(lines))):
+                        bline = lines[j]
                         
-                        previous_pos = None
-                        peak_position = position
-                        weeks_on_chart = 1
-                        movement = "same"
+                        # Si on tombe sur un nouveau numéro de position (prochaine entrée), on arrête
+                        if re.match(r'^\d+$', bline) and j > i + 3:
+                            break
                         
-                        for bline in block[2:]:
-                            ult_match = re.search(r'Últ\.\s*Semana\s+(\d+)', bline)
-                            if ult_match:
-                                previous_pos = int(ult_match.group(1))
+                        if 'Últ' in bline and 'Semana' in bline:
+                            # La valeur est sur la ligne suivante
+                            if j + 1 < len(lines) and re.match(r'^\d+$', lines[j + 1]):
+                                previous_pos = int(lines[j + 1])
                                 if previous_pos > position:
                                     movement = "up"
                                 elif previous_pos < position:
                                     movement = "down"
                                 else:
                                     movement = "same"
-                            
-                            peak_match = re.search(r'Pos\.\s*Máxima\s+(\d+)', bline)
-                            if peak_match:
-                                peak_position = int(peak_match.group(1))
-                            
-                            weeks_match = re.search(r'Semanas no Chart\s+(\d+)', bline)
-                            if weeks_match:
-                                weeks_on_chart = int(weeks_match.group(1))
                         
-                        if previous_pos is None:
-                            movement = "new"
+                        elif 'Pos' in bline and 'xima' in bline:
+                            if j + 1 < len(lines) and re.match(r'^\d+$', lines[j + 1]):
+                                peak_position = int(lines[j + 1])
                         
-                        if title and artist and len(title) > 1 and len(artist) > 1:
-                            entries.append({
-                                "position": position,
-                                "track": {"title": title, "artist": artist},
-                                "previousPosition": previous_pos,
-                                "movement": movement,
-                                "weeksOnChart": weeks_on_chart,
-                                "peakPosition": peak_position,
-                                "source": "billboard_brasil"
-                            })
+                        elif 'Semanas no Chart' in bline:
+                            if j + 1 < len(lines) and re.match(r'^\d+$', lines[j + 1]):
+                                weeks_on_chart = int(lines[j + 1])
+                    
+                    # Si pas de previous_pos, c'est une nouvelle entrée
+                    if previous_pos is None:
+                        movement = "new"
+                    
+                    # Valider
+                    if title and artist and len(title) > 1 and len(artist) > 1:
+                        entries.append({
+                            "position": position,
+                            "track": {"title": title, "artist": artist},
+                            "previousPosition": previous_pos,
+                            "movement": movement,
+                            "weeksOnChart": weeks_on_chart,
+                            "peakPosition": peak_position,
+                            "source": "billboard_brasil"
+                        })
             
             i += 1
         
@@ -747,7 +907,7 @@ def fetch_billboard_brasil():
         
         entries = unique_entries[:100]
         
-        print(f"    ✅ {len(entries)} entrées trouvées via cloudscraper")
+        print(f"    ✅ {len(entries)} entrées trouvées")
         
         if entries:
             print(f"       📊 Exemples :")
@@ -759,132 +919,8 @@ def fetch_billboard_brasil():
     
     except Exception as e:
         print(f"    ❌ Erreur Billboard Brasil: {e}")
-        return []
-
-def fetch_official_charts_indie():
-    """Récupère le Official UK Independent Singles Chart avec cloudscraper"""
-    print(f"  🔍 Scraping Official Charts UK Indie...")
-    
-    try:
-        scraper = get_scraper()
-        
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
-            'Accept-Language': 'en-GB,en;q=0.9,fr;q=0.8',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Referer': 'https://www.officialcharts.com/',
-            'Connection': 'keep-alive',
-            'Upgrade-Insecure-Requests': '1',
-            'Sec-Fetch-Dest': 'document',
-            'Sec-Fetch-Mode': 'navigate',
-            'Sec-Fetch-Site': 'same-origin',
-            'Sec-Fetch-User': '?1',
-            'Cache-Control': 'max-age=0'
-        }
-        
-        url = "https://www.officialcharts.com/charts/independent-singles-chart/"
-        response = scraper.get(url, headers=headers, timeout=30)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        entries = []
-        
-        text = soup.get_text(separator='\n', strip=True)
-        lines = [line.strip() for line in text.split('\n') if line.strip()]
-        
-        i = 0
-        while i < len(lines):
-            line = lines[i]
-            
-            num_match = re.match(r'^Number\s+(\d+)$', line)
-            
-            if num_match:
-                position = int(num_match.group(1))
-                
-                if 1 <= position <= 100:
-                    block = []
-                    for j in range(i + 1, min(i + 10, len(lines))):
-                        if lines[j].startswith('Number '):
-                            break
-                        block.append(lines[j])
-                    
-                    if len(block) >= 2:
-                        title = block[0]
-                        artist = block[1]
-                        
-                        previous_pos = None
-                        peak_position = position
-                        weeks_on_chart = 1
-                        movement = "same"
-                        
-                        block_text = ' '.join(block)
-                        
-                        lw_match = re.search(r'LW:\s*([A-Z0-9]+)', block_text)
-                        if lw_match:
-                            lw_value = lw_match.group(1)
-                            if lw_value == 'RE':
-                                movement = "new"
-                                previous_pos = None
-                            elif lw_value.isdigit():
-                                previous_pos = int(lw_value)
-                                if previous_pos > position:
-                                    movement = "up"
-                                elif previous_pos < position:
-                                    movement = "down"
-                                else:
-                                    movement = "same"
-                        else:
-                            movement = "new"
-                            previous_pos = None
-                        
-                        peak_match = re.search(r'Peak:\s*(\d+)', block_text)
-                        if peak_match:
-                            peak_position = int(peak_match.group(1))
-                        
-                        weeks_match = re.search(r'Weeks:\s*(\d+)', block_text)
-                        if weeks_match:
-                            weeks_on_chart = int(weeks_match.group(1))
-                        
-                        artist = artist.replace('/', ' feat. ')
-                        
-                        if title and artist and len(title) > 1 and len(artist) > 1:
-                            if not any(kw in title.lower() for kw in ['copyright', 'fonticons']):
-                                entries.append({
-                                    "position": position,
-                                    "track": {"title": title, "artist": artist},
-                                    "previousPosition": previous_pos,
-                                    "movement": movement,
-                                    "weeksOnChart": weeks_on_chart,
-                                    "peakPosition": peak_position,
-                                    "source": "official_charts"
-                                })
-            
-            i += 1
-        
-        entries.sort(key=lambda x: x["position"])
-        
-        seen = set()
-        unique_entries = []
-        for entry in entries:
-            if entry["position"] not in seen:
-                seen.add(entry["position"])
-                unique_entries.append(entry)
-        
-        entries = unique_entries[:100]
-        
-        print(f"    ✅ {len(entries)} entrées trouvées via cloudscraper")
-        
-        if entries:
-            print(f"       📊 Exemples :")
-            for e in entries[:3]:
-                move_symbol = "▲" if e['movement'] == 'up' else ("▼" if e['movement'] == 'down' else ("✦" if e['movement'] == 'new' else "●"))
-                print(f"          {e['position']}. {e['track']['artist']} - {e['track']['title']} {move_symbol}")
-        
-        return entries
-    
-    except Exception as e:
-        print(f"    ❌ Erreur Official Charts: {e}")
+        import traceback
+        traceback.print_exc()
         return []
 
 def fetch_brazil_promusica():
