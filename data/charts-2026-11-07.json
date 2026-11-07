@@ -4,7 +4,7 @@
     "week": 45,
     "year": 2026,
     "updatedAt": "2026-11-07",
-    "sourceNote": "✅ 7 sources OK. ❌ 1 échouées.",
+    "sourceNote": "✅ Toutes les sources : 8 tops collectés.",
     "hasStreamingIds": true,
     "cacheSize": 591
   },
@@ -3940,6 +3940,779 @@
         }
       ],
       "sourceType": "acharts"
+    },
+    "gb_indie": {
+      "name": "UK Indie",
+      "flag": "🇬🇧🎸",
+      "region": "europe",
+      "chart": [
+        {
+          "position": 1,
+          "track": {
+            "title": "MOVIN' TO THE SUN",
+            "artist": "HUGEL feat. IMAEL ANGEL feat. ULTRA NATE",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/021770bfdd65ae5978680a8e3b9e8899/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 1,
+          "movement": "same",
+          "weeksOnChart": 23,
+          "peakPosition": 1,
+          "source": "official_charts",
+          "youtube_id": "bJ7yyX4Qic4",
+          "youtube_url": "https://www.youtube.com/watch?v=bJ7yyX4Qic4",
+          "deezer_id": 4019797791,
+          "deezer_url": "https://www.deezer.com/track/4019797791"
+        },
+        {
+          "position": 2,
+          "track": {
+            "title": "WHERE IS MY HUSBAND",
+            "artist": "RAYE",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/924237f02fb85d4c849ab324ff42b30d/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 2,
+          "movement": "same",
+          "weeksOnChart": 59,
+          "peakPosition": 1,
+          "source": "official_charts",
+          "youtube_id": "iOpesuAYbcw",
+          "youtube_url": "https://www.youtube.com/watch?v=iOpesuAYbcw",
+          "deezer_id": 3548216281,
+          "deezer_url": "https://www.deezer.com/track/3548216281"
+        },
+        {
+          "position": 3,
+          "track": {
+            "title": "FREE YOUR MIND",
+            "artist": "PROSPA feat. CLOONEE",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/11adb012a8b67c16ebb2d32ed7bdfe7c/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 3,
+          "movement": "same",
+          "weeksOnChart": 32,
+          "peakPosition": 1,
+          "source": "official_charts",
+          "youtube_id": "gJYjbDnyx-o",
+          "youtube_url": "https://www.youtube.com/watch?v=gJYjbDnyx-o",
+          "deezer_id": 3896566861,
+          "deezer_url": "https://www.deezer.com/track/3896566861"
+        },
+        {
+          "position": 4,
+          "track": {
+            "title": "JAPAN",
+            "artist": "FONTAINES DC",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1c966eee509ca0aef9a0c302d7834512/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 4,
+          "movement": "same",
+          "weeksOnChart": 3,
+          "peakPosition": 3,
+          "source": "official_charts",
+          "youtube_id": "GPNbnromGgk",
+          "youtube_url": "https://www.youtube.com/watch?v=GPNbnromGgk",
+          "deezer_id": 4303139302,
+          "deezer_url": "https://www.deezer.com/track/4303139302"
+        },
+        {
+          "position": 5,
+          "track": {
+            "title": "SHOTTA'S.",
+            "artist": "SEASON 25",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/bf4e606b6011bbd9d256dd55bbcdd8b9/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 7,
+          "movement": "up",
+          "weeksOnChart": 5,
+          "peakPosition": 5,
+          "source": "official_charts",
+          "youtube_id": "CpMTe_ZYheo",
+          "youtube_url": "https://www.youtube.com/watch?v=CpMTe_ZYheo",
+          "deezer_id": 3964173531,
+          "deezer_url": "https://www.deezer.com/track/3964173531"
+        },
+        {
+          "position": 6,
+          "track": {
+            "title": "MARIANNE",
+            "artist": "FONTAINES DC",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1c966eee509ca0aef9a0c302d7834512/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 5,
+          "movement": "down",
+          "weeksOnChart": 12,
+          "peakPosition": 1,
+          "source": "official_charts",
+          "youtube_id": "lWNxWy012Ro",
+          "youtube_url": "https://www.youtube.com/watch?v=lWNxWy012Ro",
+          "deezer_id": 4303139222,
+          "deezer_url": "https://www.deezer.com/track/4303139222"
+        },
+        {
+          "position": 7,
+          "track": {
+            "title": "GOOD GIRL",
+            "artist": "CLOONEE & PROSPA FT TRISTAN",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/f7a06e12b6da4470825d23d788182175/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 6,
+          "movement": "down",
+          "weeksOnChart": 15,
+          "peakPosition": 5,
+          "source": "official_charts",
+          "youtube_id": "wdTq2Aa8b4U",
+          "youtube_url": "https://www.youtube.com/watch?v=wdTq2Aa8b4U",
+          "deezer_id": 4124060341,
+          "deezer_url": "https://www.deezer.com/track/4124060341"
+        },
+        {
+          "position": 8,
+          "track": {
+            "title": "END OF BEGINNING",
+            "artist": "DJO",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/48703808be05c3bb3c5deff2efd2ec9e/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 13,
+          "movement": "up",
+          "weeksOnChart": 143,
+          "peakPosition": 1,
+          "source": "official_charts",
+          "youtube_id": "aH7gkoBpN3s",
+          "youtube_url": "https://www.youtube.com/watch?v=aH7gkoBpN3s",
+          "deezer_id": 1899060227,
+          "deezer_url": "https://www.deezer.com/track/1899060227"
+        },
+        {
+          "position": 9,
+          "track": {
+            "title": "CREEP",
+            "artist": "RADIOHEAD",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1dd56fd8824492e1a5106c99a00a85ec/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 14,
+          "movement": "up",
+          "weeksOnChart": 552,
+          "peakPosition": 4,
+          "source": "official_charts",
+          "youtube_id": "XFkzRNyygfk",
+          "youtube_url": "https://www.youtube.com/watch?v=XFkzRNyygfk",
+          "deezer_id": 138547415,
+          "deezer_url": "https://www.deezer.com/track/138547415"
+        },
+        {
+          "position": 10,
+          "track": {
+            "title": "TALK TO YOU",
+            "artist": "ANOTR feat. 54 ULTRA",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/ab1abe2d073bf5a55943ccc6dff8bcdc/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 8,
+          "movement": "down",
+          "weeksOnChart": 35,
+          "peakPosition": 1,
+          "source": "official_charts",
+          "youtube_id": "ajUMhpotf8k",
+          "youtube_url": "https://www.youtube.com/watch?v=ajUMhpotf8k",
+          "deezer_id": 3784724892,
+          "deezer_url": "https://www.deezer.com/track/3784724892"
+        },
+        {
+          "position": 11,
+          "track": {
+            "title": "MI CHICO",
+            "artist": "DJ GOJA feat. JASON DERULO feat. MELODY",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/20e5e541bd783267b7a48761882ff827/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 10,
+          "movement": "down",
+          "weeksOnChart": 22,
+          "peakPosition": 6,
+          "source": "official_charts",
+          "youtube_id": "6Db-cEgbmC4",
+          "youtube_url": "https://www.youtube.com/watch?v=6Db-cEgbmC4",
+          "deezer_id": 4078598061,
+          "deezer_url": "https://www.deezer.com/track/4078598061"
+        },
+        {
+          "position": 12,
+          "track": {
+            "title": "STARBURSTER",
+            "artist": "FONTAINES DC",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/a82318c83b8264d2f334ed5bbc5354de/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 16,
+          "movement": "up",
+          "weeksOnChart": 133,
+          "peakPosition": 10,
+          "source": "official_charts",
+          "youtube_id": "KHocVRUlvkk",
+          "youtube_url": "https://www.youtube.com/watch?v=KHocVRUlvkk",
+          "deezer_id": 2723278042,
+          "deezer_url": "https://www.deezer.com/track/2723278042"
+        },
+        {
+          "position": 13,
+          "track": {
+            "title": "DO I WANNA KNOW",
+            "artist": "ARCTIC MONKEYS",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 18,
+          "movement": "up",
+          "weeksOnChart": 699,
+          "peakPosition": 2,
+          "source": "official_charts",
+          "youtube_id": "bpOSxM0rNPM",
+          "youtube_url": "https://www.youtube.com/watch?v=bpOSxM0rNPM",
+          "deezer_id": 70322130,
+          "deezer_url": "https://www.deezer.com/track/70322130"
+        },
+        {
+          "position": 14,
+          "track": {
+            "title": "SELF AWARE",
+            "artist": "TEMPER CITY",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/4e803aeb014d512c960b5cc7ccaa1800/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 17,
+          "movement": "up",
+          "weeksOnChart": 36,
+          "peakPosition": 4,
+          "source": "official_charts",
+          "youtube_id": "mh4AQkw4Jjc",
+          "youtube_url": "https://www.youtube.com/watch?v=mh4AQkw4Jjc",
+          "deezer_id": 3848530521,
+          "deezer_url": "https://www.deezer.com/track/3848530521"
+        },
+        {
+          "position": 15,
+          "track": {
+            "title": "ESCAPISM",
+            "artist": "RAYE FT 070 SHAKE",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/87d3870a44a28f2ba5695e12059072b0/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 12,
+          "movement": "down",
+          "weeksOnChart": 208,
+          "peakPosition": 1,
+          "source": "official_charts",
+          "youtube_id": "Dll6VJ2C7wo",
+          "youtube_url": "https://www.youtube.com/watch?v=Dll6VJ2C7wo",
+          "deezer_id": 1925023707,
+          "deezer_url": "https://www.deezer.com/track/1925023707"
+        },
+        {
+          "position": 16,
+          "track": {
+            "title": "UNETHICAL",
+            "artist": "FAOUZIA",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/cca6dba02653fbdf9694ae7bc8d6a195/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 19,
+          "movement": "up",
+          "weeksOnChart": 14,
+          "peakPosition": 16,
+          "source": "official_charts",
+          "youtube_id": "I1zqCX3Dvxo",
+          "youtube_url": "https://www.youtube.com/watch?v=I1zqCX3Dvxo",
+          "deezer_id": 3458894481,
+          "deezer_url": "https://www.deezer.com/track/3458894481"
+        },
+        {
+          "position": 17,
+          "track": {
+            "title": "I LOVE YOU",
+            "artist": "FONTAINES DC",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/d52ab9c24ef84187fb596e97bea6fe14/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 20,
+          "movement": "up",
+          "weeksOnChart": 108,
+          "peakPosition": 11,
+          "source": "official_charts",
+          "youtube_id": "Ty9Pcg3qrmU",
+          "youtube_url": "https://www.youtube.com/watch?v=Ty9Pcg3qrmU",
+          "deezer_id": 3124731151,
+          "deezer_url": "https://www.deezer.com/track/3124731151"
+        },
+        {
+          "position": 18,
+          "track": {
+            "title": "MIMESIS",
+            "artist": "FONTAINES DC",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1c966eee509ca0aef9a0c302d7834512/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 9,
+          "movement": "down",
+          "weeksOnChart": 3,
+          "peakPosition": 5,
+          "source": "official_charts",
+          "youtube_id": "GPNbnromGgk",
+          "youtube_url": "https://www.youtube.com/watch?v=GPNbnromGgk",
+          "deezer_id": 4303139232,
+          "deezer_url": "https://www.deezer.com/track/4303139232"
+        },
+        {
+          "position": 19,
+          "track": {
+            "title": "A BAR SONG (TIPSY)",
+            "artist": "SHABOOZEY",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/d4f0d9289d6f68204dee8a22fe777c70/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 27,
+          "movement": "up",
+          "weeksOnChart": 134,
+          "peakPosition": 1,
+          "source": "official_charts",
+          "youtube_id": "t7bQwwqW-Hc",
+          "youtube_url": "https://www.youtube.com/watch?v=t7bQwwqW-Hc",
+          "deezer_id": 2729273551,
+          "deezer_url": "https://www.deezer.com/track/2729273551"
+        },
+        {
+          "position": 20,
+          "track": {
+            "title": "THINK OF YOU",
+            "artist": "KETTAMA & PROSPA",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/89ad4dbd84473c172a658d989af1fdbb/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 21,
+          "movement": "up",
+          "weeksOnChart": 3,
+          "peakPosition": 12,
+          "source": "official_charts",
+          "youtube_id": "d2iWMT9lBb4",
+          "youtube_url": "https://www.youtube.com/watch?v=d2iWMT9lBb4",
+          "deezer_id": 4315706512,
+          "deezer_url": "https://www.deezer.com/track/4315706512"
+        },
+        {
+          "position": 21,
+          "track": {
+            "title": "505",
+            "artist": "ARCTIC MONKEYS",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/aa8ea17eb50583c3ee24e3989385f963/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 24,
+          "movement": "up",
+          "weeksOnChart": 353,
+          "peakPosition": 2,
+          "source": "official_charts",
+          "youtube_id": "iIfl5k2nQBQ",
+          "youtube_url": "https://www.youtube.com/watch?v=iIfl5k2nQBQ",
+          "deezer_id": 1120498752,
+          "deezer_url": "https://www.deezer.com/track/1120498752"
+        },
+        {
+          "position": 22,
+          "track": {
+            "title": "DUVET",
+            "artist": "BOA",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/a56d7dac6980f4c4f2eb2e8221a5c226/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 29,
+          "movement": "up",
+          "weeksOnChart": 174,
+          "peakPosition": 19,
+          "source": "official_charts",
+          "youtube_id": "Uoox9fpmDP0",
+          "youtube_url": "https://www.youtube.com/watch?v=Uoox9fpmDP0",
+          "deezer_id": 1557745322,
+          "deezer_url": "https://www.deezer.com/track/1557745322"
+        },
+        {
+          "position": 23,
+          "track": {
+            "title": "SOMEONE LIKE YOU",
+            "artist": "ADELE",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/8d8e1cbd9fd6165dc9271297f2a2a58c/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 33,
+          "movement": "up",
+          "weeksOnChart": 824,
+          "peakPosition": 1,
+          "source": "official_charts",
+          "youtube_id": "hLQl3WQQoQ0",
+          "youtube_url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0",
+          "deezer_id": 547504672,
+          "deezer_url": "https://www.deezer.com/track/547504672"
+        },
+        {
+          "position": 24,
+          "track": {
+            "title": "DEMOLITION",
+            "artist": "FONTAINES DC",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1c966eee509ca0aef9a0c302d7834512/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 11,
+          "movement": "down",
+          "weeksOnChart": 3,
+          "peakPosition": 4,
+          "source": "official_charts",
+          "youtube_id": "GPNbnromGgk",
+          "youtube_url": "https://www.youtube.com/watch?v=GPNbnromGgk",
+          "deezer_id": 4303139252,
+          "deezer_url": "https://www.deezer.com/track/4303139252"
+        },
+        {
+          "position": 25,
+          "track": {
+            "title": "TAKE ME OUT",
+            "artist": "FRANZ FERDINAND",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/f274cdbda80d97a785e001848378dd29/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 31,
+          "movement": "up",
+          "weeksOnChart": 817,
+          "peakPosition": 1,
+          "source": "official_charts",
+          "youtube_id": "GhCXAiNz9Jo",
+          "youtube_url": "https://www.youtube.com/watch?v=GhCXAiNz9Jo",
+          "deezer_id": 4315684,
+          "deezer_url": "https://www.deezer.com/track/4315684"
+        },
+        {
+          "position": 26,
+          "track": {
+            "title": "RUNNING UP THAT HILL",
+            "artist": "KATE BUSH",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/22fedaf5d2b0ac8977b93bc1db7a4a2a/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 41,
+          "movement": "up",
+          "weeksOnChart": 77,
+          "peakPosition": 5,
+          "source": "official_charts",
+          "youtube_id": "wp43OdtAAkM",
+          "youtube_url": "https://www.youtube.com/watch?v=wp43OdtAAkM",
+          "deezer_id": 2173954687,
+          "deezer_url": "https://www.deezer.com/track/2173954687"
+        },
+        {
+          "position": 27,
+          "track": {
+            "title": "TRAPPED",
+            "artist": "KOLTER",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/b4ddb5b2a3123343e4398d5e86d3f99e/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 36,
+          "movement": "up",
+          "weeksOnChart": 21,
+          "peakPosition": 8,
+          "source": "official_charts",
+          "youtube_id": "VEBepAlBXQQ",
+          "youtube_url": "https://www.youtube.com/watch?v=VEBepAlBXQQ",
+          "deezer_id": 4058063061,
+          "deezer_url": "https://www.deezer.com/track/4058063061"
+        },
+        {
+          "position": 28,
+          "track": {
+            "title": "STORM II",
+            "artist": "GENER8ION feat. YUNG LEAN",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/ea9782202a27ecb386625846177f8f30/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 25,
+          "movement": "down",
+          "weeksOnChart": 10,
+          "peakPosition": 8,
+          "source": "official_charts",
+          "youtube_id": "Szu8fRyLmJM",
+          "youtube_url": "https://www.youtube.com/watch?v=Szu8fRyLmJM",
+          "deezer_id": 3937217881,
+          "deezer_url": "https://www.deezer.com/track/3937217881"
+        },
+        {
+          "position": 29,
+          "track": {
+            "title": "FANCY FOOTWORK",
+            "artist": "CHRIS LORENZO feat. CHROMEO",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1aa4dda5c6a19ba619dbeea870258bee/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 38,
+          "movement": "up",
+          "weeksOnChart": 3,
+          "peakPosition": 29,
+          "source": "official_charts",
+          "youtube_id": "3ZKq2ptu7qw",
+          "youtube_url": "https://www.youtube.com/watch?v=3ZKq2ptu7qw",
+          "deezer_id": 4285683222,
+          "deezer_url": "https://www.deezer.com/track/4285683222"
+        },
+        {
+          "position": 30,
+          "track": {
+            "title": "CAN'T HOLD US",
+            "artist": "MACKLEMORE feat. RYAN LEWIS feat. DALTON",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/238f1c36e8445fd162d1d53b8181ecb5/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 32,
+          "movement": "up",
+          "weeksOnChart": 727,
+          "peakPosition": 1,
+          "source": "official_charts",
+          "youtube_id": "2zNSgSzhBfM",
+          "youtube_url": "https://www.youtube.com/watch?v=2zNSgSzhBfM",
+          "deezer_id": 61424044,
+          "deezer_url": "https://www.deezer.com/track/61424044"
+        },
+        {
+          "position": 31,
+          "track": {
+            "title": "IMPULSIVE",
+            "artist": "THEKIDSZN",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/46dc1a76832bcc86065dbbfe2c8643eb/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 30,
+          "movement": "down",
+          "weeksOnChart": 5,
+          "peakPosition": 30,
+          "source": "official_charts",
+          "youtube_id": "fo2IXZ9G13w",
+          "youtube_url": "https://www.youtube.com/watch?v=fo2IXZ9G13w",
+          "deezer_id": 4334493232,
+          "deezer_url": "https://www.deezer.com/track/4334493232"
+        },
+        {
+          "position": 32,
+          "track": {
+            "title": "SHOW ME LOVE",
+            "artist": "ROBIN S"
+          },
+          "previousPosition": 39,
+          "movement": "up",
+          "weeksOnChart": 830,
+          "peakPosition": 8,
+          "source": "official_charts"
+        },
+        {
+          "position": 33,
+          "track": {
+            "title": "WHERE IS GONE",
+            "artist": "FONTAINES DC & ROSALIA"
+          },
+          "previousPosition": 15,
+          "movement": "down",
+          "weeksOnChart": 4,
+          "peakPosition": 6,
+          "source": "official_charts"
+        },
+        {
+          "position": 34,
+          "track": {
+            "title": "NEW RELIGION",
+            "artist": "BEBE REXHA & FAITHLESS",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/44fcf0e5b0e84a25c0dd7969ce63ecca/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 43,
+          "movement": "up",
+          "weeksOnChart": 35,
+          "peakPosition": 7,
+          "source": "official_charts",
+          "youtube_id": "366CV87TguE",
+          "youtube_url": "https://www.youtube.com/watch?v=366CV87TguE",
+          "deezer_id": 3850680281,
+          "deezer_url": "https://www.deezer.com/track/3850680281"
+        },
+        {
+          "position": 35,
+          "track": {
+            "title": "FAVOURITE",
+            "artist": "FONTAINES DC"
+          },
+          "previousPosition": 34,
+          "movement": "down",
+          "weeksOnChart": 124,
+          "peakPosition": 11,
+          "source": "official_charts"
+        },
+        {
+          "position": 36,
+          "track": {
+            "title": "FLUORESCENT ADOLESCENT",
+            "artist": "ARCTIC MONKEYS"
+          },
+          "previousPosition": 37,
+          "movement": "up",
+          "weeksOnChart": 943,
+          "peakPosition": 1,
+          "source": "official_charts"
+        },
+        {
+          "position": 37,
+          "track": {
+            "title": "THE NIGHT WE MET",
+            "artist": "LORD HURON",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/19b14fa5b494e0e74332f7dbf8dab87d/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 35,
+          "movement": "down",
+          "weeksOnChart": 501,
+          "peakPosition": 2,
+          "source": "official_charts",
+          "youtube_id": "KtlgYxa6BMU",
+          "youtube_url": "https://www.youtube.com/watch?v=KtlgYxa6BMU",
+          "deezer_id": 499988832,
+          "deezer_url": "https://www.deezer.com/track/499988832"
+        },
+        {
+          "position": 38,
+          "track": {
+            "title": "LET DOWN",
+            "artist": "RADIOHEAD"
+          },
+          "previousPosition": 45,
+          "movement": "up",
+          "weeksOnChart": 90,
+          "peakPosition": 1,
+          "source": "official_charts"
+        },
+        {
+          "position": 39,
+          "track": {
+            "title": "SMALLTOWN BOY",
+            "artist": "BRONSKI BEAT"
+          },
+          "previousPosition": 46,
+          "movement": "up",
+          "weeksOnChart": 403,
+          "peakPosition": 9,
+          "source": "official_charts"
+        },
+        {
+          "position": 40,
+          "track": {
+            "title": "SWEET DISPOSITION",
+            "artist": "TEMPER TRAP"
+          },
+          "previousPosition": 55,
+          "movement": "up",
+          "weeksOnChart": 902,
+          "peakPosition": 1,
+          "source": "official_charts"
+        },
+        {
+          "position": 41,
+          "track": {
+            "title": "YOU MISS ME",
+            "artist": "FONTAINES DC"
+          },
+          "previousPosition": 23,
+          "movement": "down",
+          "weeksOnChart": 3,
+          "peakPosition": 13,
+          "source": "official_charts"
+        },
+        {
+          "position": 42,
+          "track": {
+            "title": "TIME WARP",
+            "artist": "RICHARD O'BRIEN feat. PATRICIA QUINN"
+          },
+          "previousPosition": 158,
+          "movement": "up",
+          "weeksOnChart": 35,
+          "peakPosition": 13,
+          "source": "official_charts"
+        },
+        {
+          "position": 43,
+          "track": {
+            "title": "A LITTLE RESPECT",
+            "artist": "ERASURE"
+          },
+          "previousPosition": 51,
+          "movement": "up",
+          "weeksOnChart": 686,
+          "peakPosition": 18,
+          "source": "official_charts"
+        },
+        {
+          "position": 44,
+          "track": {
+            "title": "I WANNA BE YOURS",
+            "artist": "ARCTIC MONKEYS"
+          },
+          "previousPosition": 47,
+          "movement": "up",
+          "weeksOnChart": 430,
+          "peakPosition": 4,
+          "source": "official_charts"
+        },
+        {
+          "position": 45,
+          "track": {
+            "title": "THE HAPPY SONG",
+            "artist": "IMOGEN HEAP"
+          },
+          "previousPosition": 52,
+          "movement": "up",
+          "weeksOnChart": 136,
+          "peakPosition": 28,
+          "source": "official_charts"
+        },
+        {
+          "position": 46,
+          "track": {
+            "title": "ROMAN HOLIDAY",
+            "artist": "FONTAINES DC"
+          },
+          "previousPosition": 49,
+          "movement": "up",
+          "weeksOnChart": 77,
+          "peakPosition": 36,
+          "source": "official_charts"
+        },
+        {
+          "position": 47,
+          "track": {
+            "title": "RE",
+            "artist": "THE ADDAMS FAMILY feat. ANDREW GOLD"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 4,
+          "peakPosition": 47,
+          "source": "official_charts"
+        },
+        {
+          "position": 48,
+          "track": {
+            "title": "CAN I RIDE",
+            "artist": "SIDEPIECE feat. 95 SOUTH"
+          },
+          "previousPosition": 54,
+          "movement": "up",
+          "weeksOnChart": 6,
+          "peakPosition": 48,
+          "source": "official_charts"
+        },
+        {
+          "position": 49,
+          "track": {
+            "title": "RE",
+            "artist": "HALLOWEEN THEME feat. JOHN CARPENTER"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 9,
+          "peakPosition": 49,
+          "source": "official_charts"
+        },
+        {
+          "position": 50,
+          "track": {
+            "title": "COMES AND GOES",
+            "artist": "KETTAMA"
+          },
+          "previousPosition": 42,
+          "movement": "down",
+          "weeksOnChart": 24,
+          "peakPosition": 16,
+          "source": "official_charts"
+        }
+      ],
+      "sourceType": "official_charts"
     },
     "de": {
       "name": "Allemagne",
@@ -8896,844 +9669,1345 @@
         {
           "position": 1,
           "track": {
-            "title": "Postinho De Gasolina",
-            "artist": "João Gustavo & Murilo, Grelo",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/73162157e1fc438ddfc4273aaae892c6/250x250-000000-80-0-0.jpg"
+            "title": "Pós (Ao Vivo)",
+            "artist": "Felipe e Rodrigo",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/4c07cc728fd1531094bbf11235afef34/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": null,
+          "previousPosition": 1,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 1,
-          "source": "promusica",
-          "youtube_id": "lZNGR12x7cM",
-          "youtube_url": "https://www.youtube.com/watch?v=lZNGR12x7cM",
-          "deezer_id": 4179195042,
-          "deezer_url": "https://www.deezer.com/track/4179195042"
-        },
-        {
-          "position": 2,
-          "track": {
-            "title": "Pós (Ao Vivo)",
-            "artist": "Felipe & Rodrigo",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/4c07cc728fd1531094bbf11235afef34/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 2,
-          "source": "promusica",
-          "youtube_id": "7qcq8wAX9pU",
-          "youtube_url": "https://www.youtube.com/watch?v=7qcq8wAX9pU",
+          "source": "billboard_brasil",
+          "youtube_id": "q-4Em1uquuc",
+          "youtube_url": "https://www.youtube.com/watch?v=q-4Em1uquuc",
           "deezer_id": 4337389322,
           "deezer_url": "https://www.deezer.com/track/4337389322"
         },
         {
-          "position": 3,
+          "position": 2,
           "track": {
-            "title": "Cadeira Cativa (Ao Vivo)",
-            "artist": "Zé Neto & Cristiano",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/1a07a2b0a950baa2953d75ffc2f765e4/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 3,
-          "source": "promusica",
-          "youtube_id": "lBDDMrUCz1A",
-          "youtube_url": "https://www.youtube.com/watch?v=lBDDMrUCz1A",
-          "deezer_id": 4053915861,
-          "deezer_url": "https://www.deezer.com/track/4053915861"
-        },
-        {
-          "position": 4,
-          "track": {
-            "title": "Flash (Ao Vivo)",
-            "artist": "Hugo & Guilherme",
+            "title": "Flash",
+            "artist": "Hugo e Guilherme, Zé Vaqueiro",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/ae6c8bdfeebf2715328e687d61715bfd/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": null,
-          "movement": "same",
+          "previousPosition": 3,
+          "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 4,
-          "source": "promusica",
-          "youtube_id": "akkCnFdhPWo",
-          "youtube_url": "https://www.youtube.com/watch?v=akkCnFdhPWo",
+          "peakPosition": 2,
+          "source": "billboard_brasil",
+          "youtube_id": "1J9vgcQNfDw",
+          "youtube_url": "https://www.youtube.com/watch?v=1J9vgcQNfDw",
           "deezer_id": 4200755112,
           "deezer_url": "https://www.deezer.com/track/4200755112"
         },
         {
-          "position": 5,
+          "position": 3,
           "track": {
-            "title": "Mega Hair (Ao Vivo)",
+            "title": "Postinho De Gasolina",
+            "artist": "João Gustavo e Murilo, Grelo",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/73162157e1fc438ddfc4273aaae892c6/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 2,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 3,
+          "source": "billboard_brasil",
+          "youtube_id": "KrNbOlD1Tek",
+          "youtube_url": "https://www.youtube.com/watch?v=KrNbOlD1Tek",
+          "deezer_id": 4179195042,
+          "deezer_url": "https://www.deezer.com/track/4179195042"
+        },
+        {
+          "position": 4,
+          "track": {
+            "title": "Mega Hair",
             "artist": "Netto Brito, Luan Pereira",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/26b5899bb076ace43141a11bf4a5f1aa/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": null,
+          "previousPosition": 4,
           "movement": "same",
           "weeksOnChart": 1,
-          "peakPosition": 5,
-          "source": "promusica",
+          "peakPosition": 4,
+          "source": "billboard_brasil",
           "youtube_id": "xNHRoKY1GDY",
           "youtube_url": "https://www.youtube.com/watch?v=xNHRoKY1GDY",
           "deezer_id": 4257221701,
           "deezer_url": "https://www.deezer.com/track/4257221701"
         },
         {
+          "position": 5,
+          "track": {
+            "title": "CADEIRA CATIVA",
+            "artist": "Zé Neto e Cristiano",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1a07a2b0a950baa2953d75ffc2f765e4/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 6,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 5,
+          "source": "billboard_brasil",
+          "youtube_id": "lBDDMrUCz1A",
+          "youtube_url": "https://www.youtube.com/watch?v=lBDDMrUCz1A",
+          "deezer_id": 4053915861,
+          "deezer_url": "https://www.deezer.com/track/4053915861"
+        },
+        {
           "position": 6,
           "track": {
-            "title": "Peão Todo Tatuado",
-            "artist": "Jeninho, Mariana Fagundes",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/9ea8594571852dc0d78c5aaf9259f95e/250x250-000000-80-0-0.jpg"
+            "title": "Ta Pedindo Toma",
+            "artist": "MC Leozinho ZS",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/9afb8f27ca0daebf95ea2bd4d048a69e/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": null,
-          "movement": "same",
+          "previousPosition": 5,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 6,
-          "source": "promusica",
-          "youtube_id": "2yreX_ZCfgM",
-          "youtube_url": "https://www.youtube.com/watch?v=2yreX_ZCfgM",
-          "deezer_id": 3893226711,
-          "deezer_url": "https://www.deezer.com/track/3893226711"
+          "source": "billboard_brasil",
+          "youtube_id": "mmWZzDPPykI",
+          "youtube_url": "https://www.youtube.com/watch?v=mmWZzDPPykI",
+          "deezer_id": 4100798411,
+          "deezer_url": "https://www.deezer.com/track/4100798411"
         },
         {
           "position": 7,
           "track": {
-            "title": "Ta Pedindo Toma (Feat. Mc Rn Do Capão, Mc Pelourinho)",
-            "artist": "Mc Leozinho Zs, Mc Murilo Mt, Mc Dr, Dj Jhow Beats"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 7,
-          "source": "promusica",
-          "youtube_id": "mmWZzDPPykI",
-          "youtube_url": "https://www.youtube.com/watch?v=mmWZzDPPykI"
-        },
-        {
-          "position": 8,
-          "track": {
-            "title": "Um Peão Desse",
-            "artist": "CountryBeat, Mari Fernandez",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/e3e7324417845b9a4c02d679b3041efc/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 8,
-          "source": "promusica",
-          "youtube_id": "ok6LYl38Ku0",
-          "youtube_url": "https://www.youtube.com/watch?v=ok6LYl38Ku0",
-          "deezer_id": 4194449262,
-          "deezer_url": "https://www.deezer.com/track/4194449262"
-        },
-        {
-          "position": 9,
-          "track": {
-            "title": "Eu Te Seguro (Ao Vivo)",
-            "artist": "Panda, MJ Records",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/89c22cec4403a928945d6fb0162cad49/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 9,
-          "source": "promusica",
-          "youtube_id": "kI6ywewtYkc",
-          "youtube_url": "https://www.youtube.com/watch?v=kI6ywewtYkc",
-          "deezer_id": 3546914011,
-          "deezer_url": "https://www.deezer.com/track/3546914011"
-        },
-        {
-          "position": 10,
-          "track": {
-            "title": "Aproveita Que Eu Tô Brigado (Ao Vivo)",
-            "artist": "Nattan, Zé Vaqueiro",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/ec3899c0f68c2baf764588e687402a5f/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 10,
-          "source": "promusica",
-          "youtube_id": "EKGic7WUtdM",
-          "youtube_url": "https://www.youtube.com/watch?v=EKGic7WUtdM",
-          "deezer_id": 3979983291,
-          "deezer_url": "https://www.deezer.com/track/3979983291"
-        },
-        {
-          "position": 11,
-          "track": {
-            "title": "Cuida Do Pet (Feat. Mc Negão Original, Du'l, Dj Aladin Gdb)",
-            "artist": "Oldilla, Aaron Modesto, Mc Willian, Mc Iguinho Ct",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/0fd527a4f0a366fb3f1db9e6ca6539c2/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 11,
-          "source": "promusica",
-          "youtube_id": "VPIddm2m_Is",
-          "youtube_url": "https://www.youtube.com/watch?v=VPIddm2m_Is",
-          "deezer_id": 4003509191,
-          "deezer_url": "https://www.deezer.com/track/4003509191"
-        },
-        {
-          "position": 12,
-          "track": {
-            "title": "Pau Pra Toda Obra",
-            "artist": "Mc Jacaré, Mc Ryan Sp, Mc Lele Jp, Mc Ig",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/78179e8420bb79081b47f4da1bd84007/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 12,
-          "source": "promusica",
-          "deezer_id": 4100657281,
-          "deezer_url": "https://www.deezer.com/track/4100657281"
-        },
-        {
-          "position": 13,
-          "track": {
-            "title": "Ignora (Ao Vivo)",
-            "artist": "Felipe & Rodrigo",
+            "title": "Ignora",
+            "artist": "Felipe e Rodrigo",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/e8489eac19c73870d5d9866ef4b3928a/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": null,
-          "movement": "same",
+          "previousPosition": 9,
+          "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 13,
-          "source": "promusica",
-          "youtube_id": "y15gPbntaLE",
-          "youtube_url": "https://www.youtube.com/watch?v=y15gPbntaLE",
+          "peakPosition": 7,
+          "source": "billboard_brasil",
+          "youtube_id": "9nL-fTjZ0bQ",
+          "youtube_url": "https://www.youtube.com/watch?v=9nL-fTjZ0bQ",
           "deezer_id": 3682660782,
           "deezer_url": "https://www.deezer.com/track/3682660782"
         },
         {
-          "position": 14,
+          "position": 8,
           "track": {
-            "title": "Quem É Esse? (Ao Vivo)",
-            "artist": "Julliany Souza",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/4ce464858a647677b9c19d277e272b6e/250x250-000000-80-0-0.jpg"
+            "title": "Aproveita Que Eu Tô Brigado",
+            "artist": "Nattan, Zé Vaqueiro, NATTAN Feat. Zé Vaqueiro",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/ec3899c0f68c2baf764588e687402a5f/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": null,
-          "movement": "same",
+          "previousPosition": 11,
+          "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 14,
-          "source": "promusica",
-          "youtube_id": "0ZF5em0MTwY",
-          "youtube_url": "https://www.youtube.com/watch?v=0ZF5em0MTwY",
-          "deezer_id": 3184911081,
-          "deezer_url": "https://www.deezer.com/track/3184911081"
+          "peakPosition": 8,
+          "source": "billboard_brasil",
+          "youtube_id": "R4nwKYDdpo8",
+          "youtube_url": "https://www.youtube.com/watch?v=R4nwKYDdpo8",
+          "deezer_id": 3979983291,
+          "deezer_url": "https://www.deezer.com/track/3979983291"
         },
         {
-          "position": 15,
+          "position": 9,
           "track": {
-            "title": "Exagerado",
-            "artist": "Mc Jvila, Mc Meno K, Mc Rodrigo Do Cn, Dj Glenner",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/dbe314e321469d40c0fbc9976bbc8e27/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 15,
-          "source": "promusica",
-          "youtube_id": "xu6a8VqwVsw",
-          "youtube_url": "https://www.youtube.com/watch?v=xu6a8VqwVsw",
-          "deezer_id": 4008389051,
-          "deezer_url": "https://www.deezer.com/track/4008389051"
-        },
-        {
-          "position": 16,
-          "track": {
-            "title": "Puxa O Lança (Feat. Honaiser, Nagalli, Stick, Toledo)",
-            "artist": "Mc Jvila, KayBlack, Veigh, Vulgo Fk",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/ae4b1b96126a99355622bf6571479fa1/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 16,
-          "source": "promusica",
-          "youtube_id": "F5TRbqPTBLQ",
-          "youtube_url": "https://www.youtube.com/watch?v=F5TRbqPTBLQ",
-          "deezer_id": 4238620212,
-          "deezer_url": "https://www.deezer.com/track/4238620212"
-        },
-        {
-          "position": 17,
-          "track": {
-            "title": "Só Com Ela (Ao Vivo)",
-            "artist": "Murilo Huff, Matheus Fernandes",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/f002b948a5dcb89dca8cbb62574259de/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 17,
-          "source": "promusica",
-          "youtube_id": "8jBSqYTByM4",
-          "youtube_url": "https://www.youtube.com/watch?v=8jBSqYTByM4",
-          "deezer_id": 4059462101,
-          "deezer_url": "https://www.deezer.com/track/4059462101"
-        },
-        {
-          "position": 18,
-          "track": {
-            "title": "Oi, Tudo Bem? (Ao Vivo)",
-            "artist": "Zé Neto & Cristiano",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/1a07a2b0a950baa2953d75ffc2f765e4/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 18,
-          "source": "promusica",
-          "youtube_id": "vWO2Ui3vHbQ",
-          "youtube_url": "https://www.youtube.com/watch?v=vWO2Ui3vHbQ",
-          "deezer_id": 4053915901,
-          "deezer_url": "https://www.deezer.com/track/4053915901"
-        },
-        {
-          "position": 19,
-          "track": {
-            "title": "Menos Foco Mais Ansiedade (Ce Ta Nervosa) (Feat. Mc Lele Jp, Zanolini)",
-            "artist": "Dj Andreoli, Mc Jacaré, Mc Ryan Sp, Mc Luuky",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/ab7790ac0e223755591ab628456203a4/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 19,
-          "source": "promusica",
-          "youtube_id": "NK4H4G13bZc",
-          "youtube_url": "https://www.youtube.com/watch?v=NK4H4G13bZc",
-          "deezer_id": 4264132152,
-          "deezer_url": "https://www.deezer.com/track/4264132152"
-        },
-        {
-          "position": 20,
-          "track": {
-            "title": "Ultima Saudade (Ao Vivo)",
-            "artist": "Henrique & Juliano",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/2685d25829f166b528c1ef79e9bf19d0/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 20,
-          "source": "promusica",
-          "youtube_id": "9Vt4XguN2-A",
-          "youtube_url": "https://www.youtube.com/watch?v=9Vt4XguN2-A",
-          "deezer_id": 3876591901,
-          "deezer_url": "https://www.deezer.com/track/3876591901"
-        },
-        {
-          "position": 21,
-          "track": {
-            "title": "Telefone Sem Fio (Ao Vivo)",
-            "artist": "Mari Fernandez",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/18552f97441be675373357f323d3f19c/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 21,
-          "source": "promusica",
-          "youtube_id": "GtZ6Y4WsSWE",
-          "youtube_url": "https://www.youtube.com/watch?v=GtZ6Y4WsSWE",
-          "deezer_id": 3991589561,
-          "deezer_url": "https://www.deezer.com/track/3991589561"
-        },
-        {
-          "position": 22,
-          "track": {
-            "title": "Eu Duvido (Ao Vivo)",
-            "artist": "Guilherme & Benuto, Panda",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/de75632872c80ead35290f6dbea8bd4d/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 22,
-          "source": "promusica",
-          "youtube_id": "5ymK_qr474k",
-          "youtube_url": "https://www.youtube.com/watch?v=5ymK_qr474k",
-          "deezer_id": 3904776821,
-          "deezer_url": "https://www.deezer.com/track/3904776821"
-        },
-        {
-          "position": 23,
-          "track": {
-            "title": "Grwm (Feat. Mc Gp, Du'l)",
-            "artist": "Mc Iguinho Ct, Dj Aladin Gdb, Mc Willian, Mc Luuky",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/81cf25b652553771e16a415eb8450e84/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 23,
-          "source": "promusica",
-          "youtube_id": "fSVd_jVcpQA",
-          "youtube_url": "https://www.youtube.com/watch?v=fSVd_jVcpQA",
-          "deezer_id": 4217623972,
-          "deezer_url": "https://www.deezer.com/track/4217623972"
-        },
-        {
-          "position": 24,
-          "track": {
-            "title": "Eu Não Sou Terapia (Ao Vivo)",
-            "artist": "Danilo & Davi",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/d2ea41d7dbb2bad32b032361693af17a/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 24,
-          "source": "promusica",
-          "youtube_id": "Hj9uDtq0M7E",
-          "youtube_url": "https://www.youtube.com/watch?v=Hj9uDtq0M7E",
-          "deezer_id": 3996803841,
-          "deezer_url": "https://www.deezer.com/track/3996803841"
-        },
-        {
-          "position": 25,
-          "track": {
-            "title": "Mentira Ou Verdade",
-            "artist": "Dj Biel Do Furduncinho, Mc Jvila",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/2365284bb2c9d15af34693b2bece7382/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 25,
-          "source": "promusica",
-          "youtube_id": "Q-ESnb-c65A",
-          "youtube_url": "https://www.youtube.com/watch?v=Q-ESnb-c65A",
-          "deezer_id": 4086936421,
-          "deezer_url": "https://www.deezer.com/track/4086936421"
-        },
-        {
-          "position": 26,
-          "track": {
-            "title": "Plano C (Ao Vivo)",
-            "artist": "Zé Neto & Cristiano",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/1a07a2b0a950baa2953d75ffc2f765e4/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 26,
-          "source": "promusica",
-          "youtube_id": "J_2EgtODGt4",
-          "youtube_url": "https://www.youtube.com/watch?v=J_2EgtODGt4",
-          "deezer_id": 4053915961,
-          "deezer_url": "https://www.deezer.com/track/4053915961"
-        },
-        {
-          "position": 27,
-          "track": {
-            "title": "Flash (Minha Mente)",
-            "artist": "Hugo & Guilherme, Zé Vaqueiro",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/ae6c8bdfeebf2715328e687d61715bfd/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 27,
-          "source": "promusica",
-          "youtube_id": "akkCnFdhPWo",
-          "youtube_url": "https://www.youtube.com/watch?v=akkCnFdhPWo",
-          "deezer_id": 4200755112,
-          "deezer_url": "https://www.deezer.com/track/4200755112"
-        },
-        {
-          "position": 28,
-          "track": {
-            "title": "Tubarões (Ao Vivo)",
-            "artist": "Diego & Victor Hugo",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/986eeed46b43643964c9e8ec618876a1/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 28,
-          "source": "promusica",
-          "youtube_id": "10XarNSkw0s",
-          "youtube_url": "https://www.youtube.com/watch?v=10XarNSkw0s",
-          "deezer_id": 3648749602,
-          "deezer_url": "https://www.deezer.com/track/3648749602"
-        },
-        {
-          "position": 29,
-          "track": {
-            "title": "Set Boca 09 (Feat. Mc Jvila, Mc Lele JP, Mc Leozin, Mc Bruninho Da Praia, Dj Glenner)",
-            "artist": "Mc Ryan Sp, Mc Meno K, Mc GP, Dj Daltin No Beat",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/e9cbf4117c191de0af39d67c325100b4/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 29,
-          "source": "promusica",
-          "youtube_id": "XJLMelLlO4M",
-          "youtube_url": "https://www.youtube.com/watch?v=XJLMelLlO4M",
-          "deezer_id": 4232249262,
-          "deezer_url": "https://www.deezer.com/track/4232249262"
-        },
-        {
-          "position": 30,
-          "track": {
-            "title": "Imagina Você",
-            "artist": "Ícaro & Gilmar",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/25a054cbb75adfa0c3c17985ca264bfd/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 30,
-          "source": "promusica",
-          "youtube_id": "I0xFOKAtkMU",
-          "youtube_url": "https://www.youtube.com/watch?v=I0xFOKAtkMU",
-          "deezer_id": 4247950341,
-          "deezer_url": "https://www.deezer.com/track/4247950341"
-        },
-        {
-          "position": 31,
-          "track": {
-            "title": "Lembrança Boa",
-            "artist": "Pedro & Benicio",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/cc742f7eeddcf5f8aea9ed5b5020e492/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 31,
-          "source": "promusica",
-          "youtube_id": "6ruV4VZQliI",
-          "youtube_url": "https://www.youtube.com/watch?v=6ruV4VZQliI",
-          "deezer_id": 3984420331,
-          "deezer_url": "https://www.deezer.com/track/3984420331"
-        },
-        {
-          "position": 32,
-          "track": {
-            "title": "Quando Eu Tomo Gin De 10",
-            "artist": "Mc Neguinho Do Morro, Mc Nina",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/58f623536e5a5491bdb2ea3f63f63705/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 32,
-          "source": "promusica",
-          "youtube_id": "LgA0ztLS9WM",
-          "youtube_url": "https://www.youtube.com/watch?v=LgA0ztLS9WM",
-          "deezer_id": 3656617832,
-          "deezer_url": "https://www.deezer.com/track/3656617832"
-        },
-        {
-          "position": 33,
-          "track": {
-            "title": "Dois Gumes (Ao Vivo)",
-            "artist": "Felipe & Rodrigo",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/6c4ad2bcca62697de16acba84b19f7cb/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 33,
-          "source": "promusica",
-          "youtube_id": "MuJJm9kqopk",
-          "youtube_url": "https://www.youtube.com/watch?v=MuJJm9kqopk",
-          "deezer_id": 3871706491,
-          "deezer_url": "https://www.deezer.com/track/3871706491"
-        },
-        {
-          "position": 34,
-          "track": {
-            "title": "P Do Pecado (Ao Vivo)",
-            "artist": "Grupo Menos É Mais, Simone Mendes",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/b4ba96de5c901cc03fc4c211e31f1beb/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 34,
-          "source": "promusica",
-          "youtube_id": "eAIivxKZYZw",
-          "youtube_url": "https://www.youtube.com/watch?v=eAIivxKZYZw",
-          "deezer_id": 3329623921,
-          "deezer_url": "https://www.deezer.com/track/3329623921"
-        },
-        {
-          "position": 35,
-          "track": {
-            "title": "Saudade Estranha (Ao Vivo)",
-            "artist": "Murilo Huff",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/c5a02e3fdf815c63a85379dd3748c028/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 35,
-          "source": "promusica",
-          "youtube_id": "5m1ysywXMgE",
-          "youtube_url": "https://www.youtube.com/watch?v=5m1ysywXMgE",
-          "deezer_id": 3835649951,
-          "deezer_url": "https://www.deezer.com/track/3835649951"
-        },
-        {
-          "position": 36,
-          "track": {
-            "title": "Cheiro De Culpado (Ao Vivo)",
-            "artist": "Júnior & Cézar",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/69e0ffc4c867729999eac3fdd2a7afac/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 36,
-          "source": "promusica",
-          "youtube_id": "gWYIo3l1oQ4",
-          "youtube_url": "https://www.youtube.com/watch?v=gWYIo3l1oQ4",
-          "deezer_id": 3638422822,
-          "deezer_url": "https://www.deezer.com/track/3638422822"
-        },
-        {
-          "position": 37,
-          "track": {
-            "title": "Apaga Apaga Apaga (Ao Vivo)",
-            "artist": "Danilo & Davi",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/d4e4301b5eb92858143cb5c7f35aa417/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 37,
-          "source": "promusica",
-          "youtube_id": "WLhMxtuZr70",
-          "youtube_url": "https://www.youtube.com/watch?v=WLhMxtuZr70",
-          "deezer_id": 2916157971,
-          "deezer_url": "https://www.deezer.com/track/2916157971"
-        },
-        {
-          "position": 38,
-          "track": {
-            "title": "Mente Barulhenta",
-            "artist": "Mc Ig, Mc Lele Jp, Dj Oreia, Dj Noiskita"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 38,
-          "source": "promusica",
-          "youtube_id": "gv_zam5wWKs",
-          "youtube_url": "https://www.youtube.com/watch?v=gv_zam5wWKs"
-        },
-        {
-          "position": 39,
-          "track": {
-            "title": "Carnívoro",
-            "artist": "Mc Jacaré, Mc Negão Original, Mc Lele JP, DJ Japa Nk",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/a34d269a7bafa1dc1e8df60fb997ef1c/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 39,
-          "source": "promusica",
-          "youtube_id": "zZUyiqR7rNM",
-          "youtube_url": "https://www.youtube.com/watch?v=zZUyiqR7rNM",
-          "deezer_id": 3843128551,
-          "deezer_url": "https://www.deezer.com/track/3843128551"
-        },
-        {
-          "position": 40,
-          "track": {
-            "title": "Irmão Da Lua, Amigo Das Estrelas",
-            "artist": "Zezé Di Camargo & Luciano",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/666ec54915003441e3dfb52402b491fd/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 40,
-          "source": "promusica",
-          "youtube_id": "Cqgw36m2b60",
-          "youtube_url": "https://www.youtube.com/watch?v=Cqgw36m2b60",
-          "deezer_id": 70581197,
-          "deezer_url": "https://www.deezer.com/track/70581197"
-        },
-        {
-          "position": 41,
-          "track": {
-            "title": "Meu Silêncio (Ao Vivo)",
-            "artist": "Matheus & Kauan, Simone Mendes",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/170ce593eb72101351e55eac07657149/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 41,
-          "source": "promusica",
-          "youtube_id": "3KkCoYA40Ck",
-          "youtube_url": "https://www.youtube.com/watch?v=3KkCoYA40Ck",
-          "deezer_id": 4008581661,
-          "deezer_url": "https://www.deezer.com/track/4008581661"
-        },
-        {
-          "position": 42,
-          "track": {
-            "title": "Famoso Ímã / O Poderoso Chatão",
-            "artist": "Mc Lele Jp, Mc Poze Do Rodo, Mc Leozinho Zs, Dj Gordinho Da Vf",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/050e3f0f01b37a5b2687835b6f9fd1e8/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 42,
-          "source": "promusica",
-          "youtube_id": "ODijwjs8Qvc",
-          "youtube_url": "https://www.youtube.com/watch?v=ODijwjs8Qvc",
-          "deezer_id": 3837322301,
-          "deezer_url": "https://www.deezer.com/track/3837322301"
-        },
-        {
-          "position": 43,
-          "track": {
-            "title": "Eu Me Apaixonei",
-            "artist": "Vitinho Imperador",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/651a4ad97dc9a1a09c84aaddd3713787/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 43,
-          "source": "promusica",
-          "youtube_id": "HD2sMiAwpCQ",
-          "youtube_url": "https://www.youtube.com/watch?v=HD2sMiAwpCQ",
-          "deezer_id": 3240320441,
-          "deezer_url": "https://www.deezer.com/track/3240320441"
-        },
-        {
-          "position": 44,
-          "track": {
-            "title": "Diário De Um Cafajeste (Feat. Mc Tuto, Mc Negão Original)",
-            "artist": "Dj Oreia, Mc Lele Jp, Mc Meno K, Mc Ryan Sp",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/5cedc1c90a8b44b4a78655e0e00c2b54/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 44,
-          "source": "promusica",
-          "youtube_id": "WQHYbOy7H2g",
-          "youtube_url": "https://www.youtube.com/watch?v=WQHYbOy7H2g",
-          "deezer_id": 3640608352,
-          "deezer_url": "https://www.deezer.com/track/3640608352"
-        },
-        {
-          "position": 45,
-          "track": {
-            "title": "Geme Baixo (Feat. Dj João Pereira, G.A, Galdino)",
-            "artist": "Mc Jvila, Menor Mc, Honaiser, Dj Dael",
+            "title": "Geme Baixo",
+            "artist": "MC Jvila",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/b2cc408a69943e984269a2358e97b5de/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": null,
-          "movement": "same",
+          "previousPosition": 16,
+          "movement": "up",
           "weeksOnChart": 1,
-          "peakPosition": 45,
-          "source": "promusica",
+          "peakPosition": 9,
+          "source": "billboard_brasil",
           "youtube_id": "Y4nJWY4FXd0",
           "youtube_url": "https://www.youtube.com/watch?v=Y4nJWY4FXd0",
           "deezer_id": 4323836632,
           "deezer_url": "https://www.deezer.com/track/4323836632"
         },
         {
-          "position": 46,
+          "position": 10,
           "track": {
-            "title": "Coração Partido (Corazón Partío) (Ao Vivo)",
-            "artist": "Grupo Menos É Mais",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/dc8a602909b1cd752aad82af47ce4810/250x250-000000-80-0-0.jpg"
+            "title": "Um Peão Desse",
+            "artist": "CountryBeat",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/e3e7324417845b9a4c02d679b3041efc/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": null,
+          "previousPosition": 7,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 10,
+          "source": "billboard_brasil",
+          "youtube_id": "ok6LYl38Ku0",
+          "youtube_url": "https://www.youtube.com/watch?v=ok6LYl38Ku0",
+          "deezer_id": 4194449262,
+          "deezer_url": "https://www.deezer.com/track/4194449262"
+        },
+        {
+          "position": 11,
+          "track": {
+            "title": "Eu Te Seguro",
+            "artist": "Helton Lima",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/9a7414588afbe50ddd433b7f57c725cc/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 8,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 11,
+          "source": "billboard_brasil",
+          "youtube_id": "g5hfUZ37bKw",
+          "youtube_url": "https://www.youtube.com/watch?v=g5hfUZ37bKw",
+          "deezer_id": 4100793811,
+          "deezer_url": "https://www.deezer.com/track/4100793811"
+        },
+        {
+          "position": 12,
+          "track": {
+            "title": "Peão Todo Tatuado",
+            "artist": "Jeninho & Mariana Fagundes, Jeninho, Mariana Fagundes",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/9ea8594571852dc0d78c5aaf9259f95e/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 10,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 12,
+          "source": "billboard_brasil",
+          "youtube_id": "2yreX_ZCfgM",
+          "youtube_url": "https://www.youtube.com/watch?v=2yreX_ZCfgM",
+          "deezer_id": 3893226711,
+          "deezer_url": "https://www.deezer.com/track/3893226711"
+        },
+        {
+          "position": 13,
+          "track": {
+            "title": "Puxa o Lança",
+            "artist": "MC Jvila",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/ae4b1b96126a99355622bf6571479fa1/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 15,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 13,
+          "source": "billboard_brasil",
+          "youtube_id": "F5TRbqPTBLQ",
+          "youtube_url": "https://www.youtube.com/watch?v=F5TRbqPTBLQ",
+          "deezer_id": 4238620212,
+          "deezer_url": "https://www.deezer.com/track/4238620212"
+        },
+        {
+          "position": 14,
+          "track": {
+            "title": "EXAGERADO",
+            "artist": "MC Jvila",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/dbe314e321469d40c0fbc9976bbc8e27/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 14,
           "movement": "same",
           "weeksOnChart": 1,
+          "peakPosition": 14,
+          "source": "billboard_brasil",
+          "youtube_id": "scnWM09fmkc",
+          "youtube_url": "https://www.youtube.com/watch?v=scnWM09fmkc",
+          "deezer_id": 4008389051,
+          "deezer_url": "https://www.deezer.com/track/4008389051"
+        },
+        {
+          "position": 15,
+          "track": {
+            "title": "Cuida do Pet",
+            "artist": "MC Iguinho CT, Aaron Modesto, MC Negão Original, Oldilla, Du\\'L, MC Willian, DJ Aladin GDB"
+          },
+          "previousPosition": 13,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 15,
+          "source": "billboard_brasil",
+          "youtube_id": "-fK39F0VKto",
+          "youtube_url": "https://www.youtube.com/watch?v=-fK39F0VKto"
+        },
+        {
+          "position": 16,
+          "track": {
+            "title": "Mentira ou Verdade",
+            "artist": "DJ Biel Do Furduncinho, DJ Biel Do Furduncinho & MC Jvila, MC Jvila",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/2365284bb2c9d15af34693b2bece7382/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 20,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 16,
+          "source": "billboard_brasil",
+          "youtube_id": "Q-ESnb-c65A",
+          "youtube_url": "https://www.youtube.com/watch?v=Q-ESnb-c65A",
+          "deezer_id": 4086936421,
+          "deezer_url": "https://www.deezer.com/track/4086936421"
+        },
+        {
+          "position": 17,
+          "track": {
+            "title": "OI, TUDO BEM?",
+            "artist": "Zé Neto e Cristiano",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1a07a2b0a950baa2953d75ffc2f765e4/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 19,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 17,
+          "source": "billboard_brasil",
+          "youtube_id": "vWO2Ui3vHbQ",
+          "youtube_url": "https://www.youtube.com/watch?v=vWO2Ui3vHbQ",
+          "deezer_id": 4053915901,
+          "deezer_url": "https://www.deezer.com/track/4053915901"
+        },
+        {
+          "position": 18,
+          "track": {
+            "title": "EU NÃO SOU TERAPIA",
+            "artist": "Danilo e Davi",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/d2ea41d7dbb2bad32b032361693af17a/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 18,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 18,
+          "source": "billboard_brasil",
+          "youtube_id": "Hj9uDtq0M7E",
+          "youtube_url": "https://www.youtube.com/watch?v=Hj9uDtq0M7E",
+          "deezer_id": 3996803841,
+          "deezer_url": "https://www.deezer.com/track/3996803841"
+        },
+        {
+          "position": 19,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "12",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/c938cc1af68b900d820d3ecf22c61ed6/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 29,
+          "peakPosition": 19,
+          "source": "billboard_brasil",
+          "youtube_id": "tlfcsqEjpwo",
+          "youtube_url": "https://www.youtube.com/watch?v=tlfcsqEjpwo",
+          "deezer_id": 3493204731,
+          "deezer_url": "https://www.deezer.com/track/3493204731"
+        },
+        {
+          "position": 20,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "16",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/798d0cfdb34770f5247fab843a359356/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 13,
+          "peakPosition": 20,
+          "source": "billboard_brasil",
+          "youtube_id": "tlfcsqEjpwo",
+          "youtube_url": "https://www.youtube.com/watch?v=tlfcsqEjpwo",
+          "deezer_id": 139668721,
+          "deezer_url": "https://www.deezer.com/track/139668721"
+        },
+        {
+          "position": 21,
+          "track": {
+            "title": "Pau Pra Toda Obra",
+            "artist": "MC Jacaré",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/78179e8420bb79081b47f4da1bd84007/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 17,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 21,
+          "source": "billboard_brasil",
+          "deezer_id": 4100657281,
+          "deezer_url": "https://www.deezer.com/track/4100657281"
+        },
+        {
+          "position": 22,
+          "track": {
+            "title": "EU DUVIDO",
+            "artist": "Panda, Hugo e Guilherme"
+          },
+          "previousPosition": 21,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 22,
+          "source": "billboard_brasil",
+          "youtube_id": "5ymK_qr474k",
+          "youtube_url": "https://www.youtube.com/watch?v=5ymK_qr474k"
+        },
+        {
+          "position": 23,
+          "track": {
+            "title": "Meu Silêncio",
+            "artist": "Matheus e Kauan, Simone Mendes",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/170ce593eb72101351e55eac07657149/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 31,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 23,
+          "source": "billboard_brasil",
+          "deezer_id": 4008581661,
+          "deezer_url": "https://www.deezer.com/track/4008581661"
+        },
+        {
+          "position": 24,
+          "track": {
+            "title": "Menos Foco Mais Ansiedade",
+            "artist": "MC Ryan SP, MC Lele JP, ZANOLINI, MC LUUKY, DJ Andreoli, MC Jacaré"
+          },
+          "previousPosition": 24,
+          "movement": "same",
+          "weeksOnChart": 1,
+          "peakPosition": 24,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 25,
+          "track": {
+            "title": "Cheiro De Culpado",
+            "artist": "Júnior e Cézar"
+          },
+          "previousPosition": 34,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 25,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 26,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "20"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 51,
+          "peakPosition": 26,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 27,
+          "track": {
+            "title": "Lembrança Boa",
+            "artist": "Pedro e Benicio"
+          },
+          "previousPosition": 22,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 27,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 28,
+          "track": {
+            "title": "Solinho do Fora PT",
+            "artist": "Prismah"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 1,
+          "peakPosition": 28,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 29,
+          "track": {
+            "title": "Plano C",
+            "artist": "Zé Neto e Cristiano"
+          },
+          "previousPosition": 30,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 29,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 30,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "18"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 8,
+          "peakPosition": 30,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 31,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "23"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 24,
+          "peakPosition": 31,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 32,
+          "track": {
+            "title": "Imagina Você,",
+            "artist": "Ícaro e Gilmar"
+          },
+          "previousPosition": 29,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 32,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 33,
+          "track": {
+            "title": "Bandoleira",
+            "artist": "MC Ryan SP, MC Lele JP, MC Meno K, DJ Glenner, DJ Daltin No Beat, Nego Trufa, MC Jvila"
+          },
+          "previousPosition": 40,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 33,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 34,
+          "track": {
+            "title": "SAUDADE ESTRANHA",
+            "artist": "Murilo Huff",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/c5a02e3fdf815c63a85379dd3748c028/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 32,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 34,
+          "source": "billboard_brasil",
+          "youtube_id": "5m1ysywXMgE",
+          "youtube_url": "https://www.youtube.com/watch?v=5m1ysywXMgE",
+          "deezer_id": 3835649951,
+          "deezer_url": "https://www.deezer.com/track/3835649951"
+        },
+        {
+          "position": 35,
+          "track": {
+            "title": "GRWM",
+            "artist": "MC Iguinho CT"
+          },
+          "previousPosition": 28,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 35,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 36,
+          "track": {
+            "title": "Nem Balancei",
+            "artist": "João Gustavo e Murilo"
+          },
+          "previousPosition": 38,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 36,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 37,
+          "track": {
+            "title": "Pegada Bruta",
+            "artist": "CountryBeat"
+          },
+          "previousPosition": 43,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 37,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 38,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "36"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 3,
+          "peakPosition": 38,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 39,
+          "track": {
+            "title": "Tubarões",
+            "artist": "Diego e Victor Hugo"
+          },
+          "previousPosition": 37,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 39,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 40,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "33"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 2,
+          "peakPosition": 40,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 41,
+          "track": {
+            "title": "QUANDO EU TOMO GIN DE 10",
+            "artist": "MC Neguinho Do Morro & MC Nina, MC Neguinho Do Morro, MC Nina"
+          },
+          "previousPosition": 36,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 41,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 42,
+          "track": {
+            "title": "Mente Barulhenta",
+            "artist": "MC IG"
+          },
+          "previousPosition": 41,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 42,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 43,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "37"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 4,
+          "peakPosition": 43,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 44,
+          "track": {
+            "title": "AH, JESUS / CORAÇÃO IGUAL AO TEU",
+            "artist": "Julliany Souza"
+          },
+          "previousPosition": 49,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 44,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 45,
+          "track": {
+            "title": "Irmão da Lua, Amigo das Estrelas",
+            "artist": "Zezé Di Camargo e Luciano"
+          },
+          "previousPosition": 42,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 45,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 46,
+          "track": {
+            "title": "SET BOCA 09",
+            "artist": "MC Leozin, MC Ryan SP, MC Lele JP, MC Bruninho Da Praia, DJ Daltin No Beat, MC Jvila"
+          },
+          "previousPosition": 47,
+          "movement": "up",
+          "weeksOnChart": 1,
           "peakPosition": 46,
-          "source": "promusica",
-          "youtube_id": "n5wxZ_OBUXk",
-          "youtube_url": "https://www.youtube.com/watch?v=n5wxZ_OBUXk",
-          "deezer_id": 2954217391,
-          "deezer_url": "https://www.deezer.com/track/2954217391"
+          "source": "billboard_brasil"
         },
         {
           "position": 47,
           "track": {
-            "title": "Flash (Ao Vivo)",
-            "artist": "Lucas & Higor",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/8d800b69cde45836656556da1257dc32/250x250-000000-80-0-0.jpg"
+            "title": "Pos. Máxima",
+            "artist": "29"
           },
           "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
+          "movement": "new",
+          "weeksOnChart": 10,
           "peakPosition": 47,
-          "source": "promusica",
-          "youtube_id": "SiLkvmg9WRo",
-          "youtube_url": "https://www.youtube.com/watch?v=SiLkvmg9WRo",
-          "deezer_id": 3625745552,
-          "deezer_url": "https://www.deezer.com/track/3625745552"
+          "source": "billboard_brasil"
         },
         {
           "position": 48,
           "track": {
-            "title": "Baqueado (Ao Vivo)",
-            "artist": "Panda, Ícaro & Gilmar",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/544f244a1d37f811e4c3a2261d73350a/250x250-000000-80-0-0.jpg"
-          },
-          "previousPosition": null,
-          "movement": "same",
-          "weeksOnChart": 1,
-          "peakPosition": 48,
-          "source": "promusica",
-          "youtube_id": "ZdvSXUb48dc",
-          "youtube_url": "https://www.youtube.com/watch?v=ZdvSXUb48dc",
-          "deezer_id": 3135700161,
-          "deezer_url": "https://www.deezer.com/track/3135700161"
-        },
-        {
-          "position": 49,
-          "track": {
-            "title": "Me Fala Qual Necessidade (Ao Vivo)",
+            "title": "Me Fala Qual Necessidade",
             "artist": "Henry Freitas",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/34e109ac376009b72b4d0231ec5e6132/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": null,
-          "movement": "same",
+          "previousPosition": 33,
+          "movement": "down",
           "weeksOnChart": 1,
-          "peakPosition": 49,
-          "source": "promusica",
+          "peakPosition": 48,
+          "source": "billboard_brasil",
           "youtube_id": "3Y3P8xqgqXE",
           "youtube_url": "https://www.youtube.com/watch?v=3Y3P8xqgqXE",
           "deezer_id": 3794010892,
           "deezer_url": "https://www.deezer.com/track/3794010892"
         },
         {
-          "position": 50,
+          "position": 49,
           "track": {
-            "title": "Não Mexe Nas Minhas Gavetas (Ao Vivo)",
-            "artist": "Danilo & Davi",
-            "artwork": "https://cdn-images.dzcdn.net/images/cover/45e093bc156b609926d7fe2a9828f498/250x250-000000-80-0-0.jpg"
+            "title": "Pos. Máxima",
+            "artist": "18"
           },
           "previousPosition": null,
-          "movement": "same",
+          "movement": "new",
+          "weeksOnChart": 23,
+          "peakPosition": 49,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 50,
+          "track": {
+            "title": "Primavera",
+            "artist": "Jorge e Mateus"
+          },
+          "previousPosition": null,
+          "movement": "new",
           "weeksOnChart": 1,
           "peakPosition": 50,
-          "source": "promusica",
-          "youtube_id": "sp1ubzi3Yiw",
-          "youtube_url": "https://www.youtube.com/watch?v=sp1ubzi3Yiw",
-          "deezer_id": 3779252122,
-          "deezer_url": "https://www.deezer.com/track/3779252122"
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 51,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "38"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 93,
+          "peakPosition": 51,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 52,
+          "track": {
+            "title": "Apaga Apaga Apaga",
+            "artist": "Danilo e Davi"
+          },
+          "previousPosition": 58,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 52,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 53,
+          "track": {
+            "title": "Mulher Nunca Foi Pra Menino",
+            "artist": "Danilo e Davi"
+          },
+          "previousPosition": 60,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 53,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 54,
+          "track": {
+            "title": "FOI POR CONVENIÊNCIA",
+            "artist": "Marília Mendonça"
+          },
+          "previousPosition": 62,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 54,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 55,
+          "track": {
+            "title": "Eu Me Apaixonei",
+            "artist": "Vitinho Imperador",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/651a4ad97dc9a1a09c84aaddd3713787/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 48,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 55,
+          "source": "billboard_brasil",
+          "youtube_id": "HD2sMiAwpCQ",
+          "youtube_url": "https://www.youtube.com/watch?v=HD2sMiAwpCQ",
+          "deezer_id": 3240320441,
+          "deezer_url": "https://www.deezer.com/track/3240320441"
+        },
+        {
+          "position": 56,
+          "track": {
+            "title": "Vermelho",
+            "artist": "Fafá De Belém"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 1,
+          "peakPosition": 56,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 57,
+          "track": {
+            "title": "Nicole Kidman",
+            "artist": "ADÉLA"
+          },
+          "previousPosition": 55,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 57,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 58,
+          "track": {
+            "title": "FUNK NIKOLAS FERREIRA",
+            "artist": "Nikolas Ferreira"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 1,
+          "peakPosition": 58,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 59,
+          "track": {
+            "title": "Displicente",
+            "artist": "Wesley Safadão"
+          },
+          "previousPosition": 66,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 59,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 60,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "53"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 13,
+          "peakPosition": 60,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 61,
+          "track": {
+            "title": "Beatriz",
+            "artist": "2ZDinizz, HHR, Leborato"
+          },
+          "previousPosition": 59,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 61,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 62,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "26"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 49,
+          "peakPosition": 62,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 63,
+          "track": {
+            "title": "HOUSEWIFE",
+            "artist": "Tate McRae",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/0717657c0f9540946fb9813d3383a500/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 1,
+          "peakPosition": 63,
+          "source": "billboard_brasil",
+          "youtube_id": "DPEodkHzH-s",
+          "youtube_url": "https://www.youtube.com/watch?v=DPEodkHzH-s",
+          "deezer_id": 4350411742,
+          "deezer_url": "https://www.deezer.com/track/4350411742"
+        },
+        {
+          "position": 64,
+          "track": {
+            "title": "MOÇA PRA CASAR",
+            "artist": "Diego e Victor Hugo"
+          },
+          "previousPosition": 44,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 64,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 65,
+          "track": {
+            "title": "Caos De Alguém",
+            "artist": "Felipe e Rodrigo"
+          },
+          "previousPosition": 98,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 65,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 66,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "40"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 25,
+          "peakPosition": 66,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 67,
+          "track": {
+            "title": "Não é Pressa, é Pressão",
+            "artist": "Rincon, Ana Castela, DJ BOSS",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/ecb7afbd7c21cface1e68dfc3d3acf86/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 53,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 67,
+          "source": "billboard_brasil",
+          "deezer_id": 4210021552,
+          "deezer_url": "https://www.deezer.com/track/4210021552"
+        },
+        {
+          "position": 68,
+          "track": {
+            "title": "Famoso Ímã O poderoso chatão",
+            "artist": "MC Lele JP, MC Poze Do Rodo, MC Leozinho ZS, DJ Gordinho Da VF"
+          },
+          "previousPosition": 56,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 68,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 69,
+          "track": {
+            "title": "Saudade De Quem Eu Sou",
+            "artist": "Henrique e Juliano"
+          },
+          "previousPosition": 57,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 69,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 70,
+          "track": {
+            "title": "Menos Foco Mais Ansiedade 2",
+            "artist": "DJ Andreoli"
+          },
+          "previousPosition": 46,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 70,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 71,
+          "track": {
+            "title": "Tempo Perdido",
+            "artist": "Legião Urbana"
+          },
+          "previousPosition": 61,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 71,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 72,
+          "track": {
+            "title": "Deixa Eu",
+            "artist": "Murilo Huff"
+          },
+          "previousPosition": 84,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 72,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 73,
+          "track": {
+            "title": "Coração Partido",
+            "artist": "Menos é Mais"
+          },
+          "previousPosition": 54,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 73,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 74,
+          "track": {
+            "title": "Sinais de fogo",
+            "artist": "Preta Gil"
+          },
+          "previousPosition": 72,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 74,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 75,
+          "track": {
+            "title": "SWIM",
+            "artist": "BTS",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/a3b8e9462db0c02e082c706c624f9811/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 64,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 75,
+          "source": "billboard_brasil",
+          "youtube_id": "b4iVv91Z6lY",
+          "youtube_url": "https://www.youtube.com/watch?v=b4iVv91Z6lY",
+          "deezer_id": 3907717261,
+          "deezer_url": "https://www.deezer.com/track/3907717261"
+        },
+        {
+          "position": 76,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "49"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 2,
+          "peakPosition": 76,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 77,
+          "track": {
+            "title": "Gosta De Rua",
+            "artist": "Felipe e Rodrigo"
+          },
+          "previousPosition": 67,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 77,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 78,
+          "track": {
+            "title": "ARREPENDIDAÇO",
+            "artist": "Ferrugem"
+          },
+          "previousPosition": 68,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 78,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 79,
+          "track": {
+            "title": "Traidor",
+            "artist": "Paula Fernandes, Zé Vaqueiro"
+          },
+          "previousPosition": 70,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 79,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 80,
+          "track": {
+            "title": "expectations",
+            "artist": "Olivia Rodrigo",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/07d6896c8afea3a87dcf9381c3d0e6c7/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": 45,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 80,
+          "source": "billboard_brasil",
+          "youtube_id": "gsZauX8gwxo",
+          "youtube_url": "https://www.youtube.com/watch?v=gsZauX8gwxo",
+          "deezer_id": 4078105041,
+          "deezer_url": "https://www.deezer.com/track/4078105041"
+        },
+        {
+          "position": 81,
+          "track": {
+            "title": "PELA ÚLTIMA VEZ",
+            "artist": "Nattan, Menos é Mais"
+          },
+          "previousPosition": 65,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 81,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 82,
+          "track": {
+            "title": "Set Dj Gm 6.0",
+            "artist": "Mc Neguinho Do ITR And Mistério Dj"
+          },
+          "previousPosition": 74,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 82,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 83,
+          "track": {
+            "title": "Admita",
+            "artist": "Matheus e Kauan, Lauana Prado"
+          },
+          "previousPosition": 85,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 83,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 84,
+          "track": {
+            "title": "Diário de um Cafajeste",
+            "artist": "MC Ryan SP, MC Lele JP, DJ Oreia, MC Meno K"
+          },
+          "previousPosition": 63,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 84,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 85,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "36"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 40,
+          "peakPosition": 85,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 86,
+          "track": {
+            "title": "Dois Enganados",
+            "artist": "Murilo Huff, Marília Mendonça"
+          },
+          "previousPosition": 97,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 86,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 87,
+          "track": {
+            "title": "Posso Até Não Te Dar Flores",
+            "artist": "MC Ryan SP, MC Meno K, DJ Davi DogDog, MC Jacaré, DJ Japa NK"
+          },
+          "previousPosition": 77,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 87,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 88,
+          "track": {
+            "title": "Bala Alojada",
+            "artist": "Gusttavo Lima"
+          },
+          "previousPosition": 71,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 88,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 89,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "31"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 3,
+          "peakPosition": 89,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 90,
+          "track": {
+            "title": "Ama Um Maloqueiro",
+            "artist": "Rafa e Junior, Hugo e Guilherme, DJ Ari SL"
+          },
+          "previousPosition": 82,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 90,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 91,
+          "track": {
+            "title": "Pra Não Esquecer De Mim",
+            "artist": "Aaron Modesto, MC Magal, MC Meno K, DJ Glenner"
+          },
+          "previousPosition": 86,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 91,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 92,
+          "track": {
+            "title": "Seja Ex",
+            "artist": "Henrique e Juliano"
+          },
+          "previousPosition": 93,
+          "movement": "up",
+          "weeksOnChart": 1,
+          "peakPosition": 92,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 93,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "18"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 95,
+          "peakPosition": 93,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 94,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "12",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/c938cc1af68b900d820d3ecf22c61ed6/250x250-000000-80-0-0.jpg"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 92,
+          "peakPosition": 94,
+          "source": "billboard_brasil",
+          "youtube_id": "tlfcsqEjpwo",
+          "youtube_url": "https://www.youtube.com/watch?v=tlfcsqEjpwo",
+          "deezer_id": 3493204731,
+          "deezer_url": "https://www.deezer.com/track/3493204731"
+        },
+        {
+          "position": 95,
+          "track": {
+            "title": "Bebe e Vem Me Procurar / Quem Ama Sente Saudade",
+            "artist": "Turma do Pagode"
+          },
+          "previousPosition": 81,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 95,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 96,
+          "track": {
+            "title": "Entregador de Flor",
+            "artist": "Diego e Victor Hugo"
+          },
+          "previousPosition": 87,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 96,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 97,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "31"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 95,
+          "peakPosition": 97,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 98,
+          "track": {
+            "title": "Assunto Que Dói",
+            "artist": "Gusttavo Lima"
+          },
+          "previousPosition": 69,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 98,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 99,
+          "track": {
+            "title": "Pos. Máxima",
+            "artist": "65"
+          },
+          "previousPosition": null,
+          "movement": "new",
+          "weeksOnChart": 59,
+          "peakPosition": 99,
+          "source": "billboard_brasil"
+        },
+        {
+          "position": 100,
+          "track": {
+            "title": "Desocupa",
+            "artist": "Matheus Vargas"
+          },
+          "previousPosition": 95,
+          "movement": "down",
+          "weeksOnChart": 1,
+          "peakPosition": 100,
+          "source": "billboard_brasil"
         }
       ],
       "sourceType": "billboard_brasil"
@@ -10573,6 +11847,7 @@
       "countries": [
         "fr",
         "gb",
+        "gb_indie",
         "de",
         "ch"
       ]
