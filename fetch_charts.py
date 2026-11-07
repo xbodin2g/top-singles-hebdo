@@ -2,6 +2,7 @@
 """
 Script de collecte hebdomadaire des tops musicaux officiels.
 Version avec SNEP comme source principale pour la France.
+Sources multiples : acharts.co, kworb iTunes, SNEP, Pro-Música Brasil, iTunes RSS
 """
 
 import json
@@ -27,7 +28,8 @@ SOURCES = {
         "name": "États-Unis", 
         "flag": "🇺🇸", 
         "region": "anglo", 
-        "source": "billboard"
+        "source": "acharts",
+        "acharts_url": "https://acharts.co/us_singles_top_100"
     },
     "fr": {
         "name": "France", 
@@ -218,6 +220,12 @@ def fetch_youtube_video_id_official(artist, title):
         
         response = requests.get(url, params=params, timeout=10)
         
+        # Gestion du rate limiting (429)
+        if response.status_code == 429:
+            print(f"      ⚠️ Rate limit YouTube (429) - Pause de 5 secondes...")
+            time.sleep(5)
+            response = requests.get(url, params=params, timeout=10)
+        
         if response.status_code == 403:
             error_data = response.json()
             error_message = error_data.get('error', {}).get('message', '')
@@ -319,7 +327,7 @@ def enrich_with_cache(entries, cache, country_name):
         
         needs_update = False
         
-        if not has_youtube and can_search_youtube:
+        if not has_youtube and can_search_youtube and not youtube_quota_exceeded:
             youtube_info = fetch_youtube_video_id_official(artist, title)
             if youtube_info:
                 entry['youtube_id'] = youtube_info['youtube_id']
@@ -336,7 +344,7 @@ def enrich_with_cache(entries, cache, country_name):
                 cache[cache_key]['youtube_url'] = youtube_info['youtube_url']
                 needs_update = True
             
-            time.sleep(0.3)
+            time.sleep(0.5)  # Délai augmenté pour éviter rate limiting
         
         if not has_deezer and can_search_deezer:
             deezer_info = fetch_deezer_track_id(artist, title)
@@ -377,12 +385,10 @@ def enrich_with_cache(entries, cache, country_name):
 
 # ===== SOURCES DE DONNÉES =====
 
-
 def fetch_acharts(url, country_name):
     """
-    Parse acharts.co (VERSION CORRIGÉE)
-    Structure : Tableau HTML avec <br> comme séparateurs
-    Chaque entrée : Position. / (Précédent ou new/re-entry) / Titre<br>Artiste<br>peak position:...
+    Parse acharts.co (VERSION FINALE CORRIGÉE)
+    Utilise itemprop="position" pour la position et gère les cas spéciaux
     """
     print(f"  🔍 Scraping acharts.co pour {country_name}...")
     
@@ -393,8 +399,11 @@ def fetch_acharts(url, country_name):
         
         entries = []
         
-        # Chercher le tableau de classement
-        table = soup.find('table')
+        # Chercher le tableau avec id="ChartTable"
+        table = soup.find('table', id='ChartTable')
+        if not table:
+            table = soup.find('table')
+        
         if not table:
             print(f"    ❌ Aucun tableau trouvé")
             return []
@@ -404,78 +413,120 @@ def fetch_acharts(url, country_name):
         for row in rows:
             cells = row.find_all('td')
             
-            if len(cells) < 3:
+            if len(cells) < 6:
                 continue
             
-            # Cellule 1 : Position actuelle et précédente
-            # Format : "1." suivi de "(1)" ou "(new)" ou "(re-entry)"
+            # ===== EXTRACTION POSITION ACTUELLE =====
             pos_cell = cells[0]
-            pos_text = pos_cell.get_text(separator='|', strip=True)
             
-            # Extraire la position actuelle (premier nombre)
-            current_match = re.search(r'^(\d+)\.', pos_text)
-            if not current_match:
+            # Méthode 1 : Chercher itemprop="position"
+            pos_span = pos_cell.find('span', itemprop='position')
+            if pos_span:
+                current_pos_text = pos_span.get_text(strip=True)
+                if current_pos_text.isdigit():
+                    current_pos = int(current_pos_text)
+                else:
+                    continue
+            else:
+                # Méthode 2 : Regex sur le texte
+                pos_text = pos_cell.get_text(separator=' ', strip=True)
+                pos_match = re.match(r'^(\d+)', pos_text)
+                if not pos_match:
+                    continue
+                current_pos = int(pos_match.group(1))
+            
+            if current_pos < 1 or current_pos > 100:
                 continue
             
-            current_pos = int(current_match.group(1))
-            
-            # Extraire la position précédente ou indicateur spécial
+            # ===== EXTRACTION POSITION PRÉCÉDENTE =====
             previous_pos = None
             movement = "same"
             
-            # Chercher entre parenthèses
-            prev_match = re.search(r'\(([^)]+)\)', pos_text)
-            if prev_match:
-                prev_value = prev_match.group(1).strip()
-                
-                if prev_value == 'new':
-                    movement = "new"
-                    previous_pos = None
-                elif prev_value == 're-entry':
-                    movement = "new"  # Traiter comme nouvelle entrée
-                    previous_pos = None
-                elif prev_value.isdigit():
-                    previous_pos = int(prev_value)
-                    if previous_pos > current_pos:
-                        movement = "up"
-                    elif previous_pos < current_pos:
-                        movement = "down"
-                    else:
-                        movement = "same"
+            # Méthode 1 : Utiliser la cellule "Previous" (cells[1])
+            prev_cell = cells[1]
+            prev_text = prev_cell.get_text(strip=True)
             
-            # Cellule 3 : Titre, Artiste et metadata
-            # Format : "Titre<br>Artiste<br>_peak position:_ X – _total weeks:_ Y"
-            title_cell = cells[2] if len(cells) > 2 else cells[1]
+            if prev_text and prev_text.isdigit():
+                previous_pos = int(prev_text)
+            else:
+                # Méthode 2 : Chercher dans la cellule position
+                prev_match = re.search(r'\(([^)]+)\)', pos_cell.get_text(strip=True))
+                if prev_match:
+                    prev_value = prev_match.group(1).strip().lower()
+                    
+                    if prev_value == 'new':
+                        movement = "new"
+                        previous_pos = None
+                    elif prev_value == 're-entry' or prev_value == 're':
+                        movement = "new"  # Traiter comme nouvelle entrée
+                        previous_pos = None
+                    elif prev_value.isdigit():
+                        previous_pos = int(prev_value)
+            
+            # Déterminer le mouvement si on a previous_pos
+            if previous_pos is not None and movement == "same":
+                if previous_pos > current_pos:
+                    movement = "up"
+                elif previous_pos < current_pos:
+                    movement = "down"
+                else:
+                    movement = "same"
+            
+            # ===== EXTRACTION TITRE ET ARTISTE =====
+            title_cell = cells[2]
+            
+            # Chercher le titre dans itemprop="name"
+            title_link = title_cell.find('a', itemprop='url')
+            title_span = title_cell.find('span', itemprop='name')
+            
+            if title_span:
+                title = title_span.get_text(strip=True)
+            else:
+                continue
+            
+            # Construire l'artiste en récupérant tout le texte après le titre
             cell_text = title_cell.get_text(separator='|', strip=True)
-            
-            # Séparer par |
             parts = [p.strip() for p in cell_text.split('|') if p.strip()]
             
             if len(parts) < 2:
                 continue
             
-            title = parts[0]
-            artist = parts[1]
+            # Ignorer les textes parasites
+            skip_texts = ['peak position:', 'total weeks:', 'Longest on Chart', 
+                         'Highest Debut', 'Biggest Fall', 'Best Comeback']
             
-            # Extraire weeks on chart si présent
-            weeks_on_chart = 1
-            peak_position = current_pos
+            # Trouver l'artiste (après le titre)
+            artist_parts = []
+            found_title = False
             
             for part in parts:
-                weeks_match = re.search(r'_total weeks:_\s*(\d+)', part)
-                if weeks_match:
-                    weeks_on_chart = int(weeks_match.group(1))
-                
-                peak_match = re.search(r'_peak position:_\s*(\d+)', part)
-                if peak_match:
-                    peak_position = int(peak_match.group(1))
-            
-            # Valider
-            if title and artist and len(title) > 1 and len(artist) > 1:
-                # Ignorer les lignes parasites
-                if any(kw in title.lower() for kw in ['current', 'previous', 'title', 'peak', 'weeks']):
+                if part == title:
+                    found_title = True
                     continue
                 
+                if found_title:
+                    # Arrêter si on rencontre un texte parasite
+                    if any(skip in part for skip in skip_texts):
+                        break
+                    artist_parts.append(part)
+            
+            if not artist_parts:
+                continue
+            
+            artist = ' '.join(artist_parts)
+            
+            # ===== EXTRACTION PEAK ET WEEKS =====
+            peak_position = current_pos
+            weeks_on_chart = 1
+            
+            if len(cells) > 4 and cells[4].get_text(strip=True).isdigit():
+                peak_position = int(cells[4].get_text(strip=True))
+            
+            if len(cells) > 5 and cells[5].get_text(strip=True).isdigit():
+                weeks_on_chart = int(cells[5].get_text(strip=True))
+            
+            # ===== VALIDATION =====
+            if title and artist and len(title) > 1 and len(artist) > 1:
                 entries.append({
                     "position": current_pos,
                     "track": {"title": title, "artist": artist},
@@ -500,14 +551,24 @@ def fetch_acharts(url, country_name):
         entries = unique_entries[:100]
         
         print(f"    ✅ {len(entries)} entrées trouvées")
+        
+        # Afficher quelques exemples
+        if entries:
+            print(f"       📊 Exemples :")
+            for e in entries[:3]:
+                move_symbol = "▲" if e['movement'] == 'up' else ("▼" if e['movement'] == 'down' else "●")
+                print(f"          {e['position']}. {e['track']['artist']} - {e['track']['title']} {move_symbol}")
+        
         return entries
     
     except Exception as e:
         print(f"    ❌ Erreur: {e}")
+        import traceback
+        traceback.print_exc()
         return []
 
-
 def fetch_brazil_promusica():
+    """Récupère le top brésilien via Pro-Música Brasil (VERSION CORRIGÉE)"""
     print(f"  🔍 Scraping Pro-Música Brasil...")
     
     try:
@@ -518,12 +579,20 @@ def fetch_brazil_promusica():
         
         entries = []
         
-        rows = soup.find_all('tr')
+        # Chercher le tableau
+        table = soup.find('table')
+        
+        if not table:
+            print(f"    ❌ Aucun tableau trouvé")
+            return []
+        
+        rows = table.find_all('tr')
         
         for row in rows:
             cells = row.find_all('td')
             
             if len(cells) >= 3:
+                # Cellule 0 : Position
                 pos_text = cells[0].get_text(strip=True)
                 rank_match = re.search(r'\d+', pos_text)
                 
@@ -531,22 +600,27 @@ def fetch_brazil_promusica():
                     rank = int(rank_match.group())
                     
                     if rank <= 50:
-                        title_cell = cells[1]
-                        artist_cell = cells[2]
+                        # Cellule 2 : Artiste en gras + <br> + Titre
+                        title_cell = cells[2]
+                        cell_text = title_cell.get_text(separator='|', strip=True)
                         
-                        title = title_cell.get_text(strip=True)
-                        artist = artist_cell.get_text(strip=True)
+                        # Séparer par |
+                        parts = [p.strip() for p in cell_text.split('|') if p.strip()]
                         
-                        if title and artist:
-                            entries.append({
-                                "position": rank,
-                                "track": {"title": title, "artist": artist},
-                                "previousPosition": None,
-                                "movement": "same",
-                                "weeksOnChart": 1,
-                                "peakPosition": rank,
-                                "source": "promusica"
-                            })
+                        if len(parts) >= 2:
+                            artist = parts[0]
+                            title = parts[1]
+                            
+                            if title and artist:
+                                entries.append({
+                                    "position": rank,
+                                    "track": {"title": title, "artist": artist},
+                                    "previousPosition": None,
+                                    "movement": "same",
+                                    "weeksOnChart": 1,
+                                    "peakPosition": rank,
+                                    "source": "promusica"
+                                })
         
         print(f"    ✅ {len(entries)} entrées trouvées")
         return entries
@@ -701,44 +775,7 @@ def fetch_itunes_rss(url, country_name):
         print(f"    ❌ Erreur: {e}")
         return []
 
-def fetch_billboard_hot100():
-    print(f"  🔍 Tentative avec billboard.py...")
-    
-    try:
-        import billboard
-        
-        chart = billboard.ChartData('hot-100')
-        entries = []
-        
-        for i, entry in enumerate(chart.entries[:50]):
-            lw = getattr(entry, 'lastPos', None)
-            peak = getattr(entry, 'peakPos', i + 1)
-            weeks = getattr(entry, 'weeks', 1)
-            
-            if lw == 0:
-                lw = None
-            
-            movement = calculate_movement(i + 1, lw)
-            
-            entries.append({
-                "position": i + 1,
-                "track": {"title": entry.title, "artist": entry.artist},
-                "previousPosition": lw,
-                "movement": movement,
-                "weeksOnChart": weeks,
-                "peakPosition": peak,
-                "source": "billboard"
-            })
-        
-        print(f"    ✅ {len(entries)} entrées trouvées")
-        return entries
-    
-    except Exception as e:
-        print(f"    ❌ Erreur billboard.py: {e}")
-    
-    return fetch_acharts("https://acharts.co/us_singles_top_100", "US")
-
-# ===== SOURCE SNEP (NOUVELLE - SOURCE OFFICIELLE) =====
+# ===== SOURCE SNEP (SOURCE OFFICIELLE FRANCE) =====
 
 def fetch_snep_latest():
     """
@@ -746,7 +783,6 @@ def fetch_snep_latest():
     """
     print(f"  🔍 Tentative snepmusique.com (source officielle SNEP)...")
     
-    # URL pour la semaine en cours
     url = "https://snepmusique.com/classement-radio/"
     
     try:
@@ -937,9 +973,7 @@ def main():
         source_used = country_info["source"]
         entries = []
         
-        if source_used == "billboard":
-            entries = fetch_billboard_hot100()
-        elif source_used == "acharts":
+        if source_used == "acharts":
             entries = fetch_acharts(country_info["acharts_url"], country_info["name"])
         elif source_used == "kworb_itunes":
             entries = fetch_kworb_itunes(country_info["kworb_url"], country_info["name"])
@@ -949,11 +983,6 @@ def main():
             entries = fetch_itunes_rss(country_info["itunes_url"], country_info["name"])
         elif source_used == "snep":
             entries = fetch_snep_latest()
-        
-        # Fallback pour la France : si SNEP échoue, essayer acharts
-        if code == "fr" and (not entries or len(entries) < 5):
-            print(f"  🔄 Fallback sur acharts.co pour la France...")
-            entries = fetch_acharts("https://acharts.co/france_singles_top_100", country_info["name"])
         
         if entries and len(entries) >= 5:
             entries = enrich_with_cache(entries, cache, country_info["name"])
