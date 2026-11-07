@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       year:
-        description: 'Année (1984-1993 uniquement)'
+        description: 'Année (1984-Aujourd'hui)'
         required: true
         type: string
 
