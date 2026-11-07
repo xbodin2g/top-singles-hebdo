@@ -7,7 +7,7 @@ Sources :
 - USA, UK, Suisse : acharts.co
 - Allemagne : kworb iTunes
 - Singapour : iTunes RSS
-- UK Indie : Official Charts Company (NOUVEAU)
+- UK Indie : Official Charts Company
 YouTube : API + yt-dlp comme fallback automatique
 """
 
@@ -177,6 +177,24 @@ def calculate_movement(current_pos, previous_pos):
         return "down"
     else:
         return "same"
+
+# ===== SCRAPER AVEC CLOUDSCRAPER =====
+
+def get_scraper():
+    """Retourne un scraper avec cloudscraper pour contourner Cloudflare"""
+    try:
+        import cloudscraper
+        scraper = cloudscraper.create_scraper(
+            browser={
+                'browser': 'chrome',
+                'platform': 'windows',
+                'mobile': False
+            }
+        )
+        return scraper
+    except ImportError:
+        print("    ⚠️ cloudscraper non installé, utilisation de requests")
+        return requests
 
 # ===== RECHERCHE DEEZER =====
 
@@ -365,7 +383,7 @@ def fetch_youtube_video_id_ytdlp(artist, title):
     except Exception as e:
         return None
 
-# ===== ENRICHISSEMENT AVEC CACHE (Avec anti-spam logs) =====
+# ===== ENRICHISSEMENT AVEC CACHE (Anti-spam) =====
 
 def enrich_with_cache(entries, cache, country_name):
     print(f"  📊 Enrichissement avec cache pour {country_name}...")
@@ -375,8 +393,6 @@ def enrich_with_cache(entries, cache, country_name):
     youtube_from_cache = 0
     deezer_from_cache = 0
     cache_updates = 0
-    ytdlp_fallback_count = 0  # Compteur pour anti-spam
-    ytdlp_logged = False  # Pour n'afficher le message qu'une seule fois
     
     for entry in entries:
         artist = entry['track']['artist']
@@ -409,17 +425,7 @@ def enrich_with_cache(entries, cache, country_name):
         needs_update = False
         
         if not has_youtube and can_search_youtube and not youtube_quota_exceeded:
-            # Vérifier si on doit utiliser yt-dlp avant l'API
-            use_ytdlp_directly = youtube_quota_exceeded
-            
             youtube_info = fetch_youtube_video_id_official(artist, title)
-            
-            # Détecter si c'est un fallback yt-dlp (en vérifiant si l'API a échoué)
-            # On log seulement la première occurrence
-            if not ytdlp_logged and not has_youtube and youtube_info:
-                # Si on a obtenu un résultat mais l'API était en rate limit, c'est yt-dlp
-                pass  # Le logging se fera à la fin
-            
             if youtube_info:
                 entry['youtube_id'] = youtube_info['youtube_id']
                 entry['youtube_url'] = youtube_info['youtube_url']
@@ -463,15 +469,10 @@ def enrich_with_cache(entries, cache, country_name):
         if needs_update:
             cache_updates += 1
     
-    # Compter les fallbacks yt-dlp (approximation : si quota dépassé ou si on a beaucoup de recherches)
-    if youtube_quota_exceeded and youtube_count > 0:
-        ytdlp_fallback_count = youtube_count
-    
     print(f"  📊 Cache: {youtube_from_cache + deezer_from_cache} titres utilisés")
     print(f"  📊 Deezer: {deezer_count}/{min(DEEZER_LIMIT_PER_COUNTRY, len(entries))} trouvés" +
           (f" (dont {deezer_from_cache} complétés depuis le cache)" if deezer_from_cache > 0 else ""))
     
-    # Message intelligent pour YouTube
     youtube_msg = f"  📊 YouTube: {youtube_count}/{min(YOUTUBE_LIMIT_PER_COUNTRY, len(entries))} trouvés"
     if youtube_from_cache > 0:
         youtube_msg += f" (dont {youtube_from_cache} depuis le cache)"
@@ -645,24 +646,35 @@ def fetch_acharts(url, country_name):
         traceback.print_exc()
         return []
 
-# ===== NOUVELLE SOURCE : BILLBOARD BRASIL =====
-
 def fetch_billboard_brasil():
-    """Récupère le Billboard Brasil Hot 100 (source officielle)"""
+    """Récupère le Billboard Brasil Hot 100 avec cloudscraper"""
     print(f"  🔍 Scraping Billboard Brasil Hot 100...")
     
     try:
+        scraper = get_scraper()
+        
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Referer': 'https://billboard.com.br/',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'same-origin',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'max-age=0'
+        }
+        
         url = "https://billboard.com.br/billboard-brasil-hot-100/"
-        response = requests.get(url, headers=HEADERS, timeout=30)
+        response = scraper.get(url, headers=headers, timeout=30)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         
         entries = []
         
-        # La structure utilise des blocs avec h4 pour titre/artiste
-        # Chercher les blocs de classement
-        
-        # Méthode : parser le texte ligne par ligne
         text = soup.get_text(separator='\n', strip=True)
         lines = [line.strip() for line in text.split('\n') if line.strip()]
         
@@ -670,28 +682,26 @@ def fetch_billboard_brasil():
         while i < len(lines):
             line = lines[i]
             
-            # Chercher un nombre seul sur une ligne (position)
             if re.match(r'^\d+$', line):
                 position = int(line)
                 
                 if 1 <= position <= 100:
-                    # Chercher les 6 lignes suivantes
-                    block = lines[i+1:min(i+10, len(lines))]
-                    
-                    # Filtrer les lignes non vides
-                    block = [b for b in block if b]
+                    block = []
+                    for j in range(i + 1, min(i + 10, len(lines))):
+                        if re.match(r'^\d+$', lines[j]):
+                            break
+                        block.append(lines[j])
                     
                     if len(block) >= 6:
                         title = block[0]
                         artist = block[1]
                         
-                        # Chercher "Últ. Semana", "Pos. Máxima", "Semanas no Chart"
                         previous_pos = None
                         peak_position = position
                         weeks_on_chart = 1
                         movement = "same"
                         
-                        for j, bline in enumerate(block[2:]):
+                        for bline in block[2:]:
                             ult_match = re.search(r'Últ\.\s*Semana\s+(\d+)', bline)
                             if ult_match:
                                 previous_pos = int(ult_match.group(1))
@@ -737,7 +747,7 @@ def fetch_billboard_brasil():
         
         entries = unique_entries[:100]
         
-        print(f"    ✅ {len(entries)} entrées trouvées")
+        print(f"    ✅ {len(entries)} entrées trouvées via cloudscraper")
         
         if entries:
             print(f"       📊 Exemples :")
@@ -748,24 +758,38 @@ def fetch_billboard_brasil():
         return entries
     
     except Exception as e:
-        print(f"    ❌ Erreur: {e}")
+        print(f"    ❌ Erreur Billboard Brasil: {e}")
         return []
 
-# ===== NOUVELLE SOURCE : OFFICIAL CHARTS UK INDIE =====
-
 def fetch_official_charts_indie():
-    """Récupère le Official UK Independent Singles Chart"""
+    """Récupère le Official UK Independent Singles Chart avec cloudscraper"""
     print(f"  🔍 Scraping Official Charts UK Indie...")
     
     try:
+        scraper = get_scraper()
+        
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Language': 'en-GB,en;q=0.9,fr;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Referer': 'https://www.officialcharts.com/',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'same-origin',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'max-age=0'
+        }
+        
         url = "https://www.officialcharts.com/charts/independent-singles-chart/"
-        response = requests.get(url, headers=HEADERS, timeout=30)
+        response = scraper.get(url, headers=headers, timeout=30)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         
         entries = []
         
-        # La structure : "Number X", puis Titre, puis Artiste, puis "LW: X, Peak: X, Weeks: X"
         text = soup.get_text(separator='\n', strip=True)
         lines = [line.strip() for line in text.split('\n') if line.strip()]
         
@@ -773,14 +797,12 @@ def fetch_official_charts_indie():
         while i < len(lines):
             line = lines[i]
             
-            # Chercher "Number X"
             num_match = re.match(r'^Number\s+(\d+)$', line)
             
             if num_match:
                 position = int(num_match.group(1))
                 
                 if 1 <= position <= 100:
-                    # Les lignes suivantes : Titre, Artiste, puis métadonnées
                     block = []
                     for j in range(i + 1, min(i + 10, len(lines))):
                         if lines[j].startswith('Number '):
@@ -791,7 +813,6 @@ def fetch_official_charts_indie():
                         title = block[0]
                         artist = block[1]
                         
-                        # Chercher LW, Peak, Weeks dans le bloc
                         previous_pos = None
                         peak_position = position
                         weeks_on_chart = 1
@@ -814,7 +835,6 @@ def fetch_official_charts_indie():
                                 else:
                                     movement = "same"
                         else:
-                            # Pas de LW = nouvelle entrée
                             movement = "new"
                             previous_pos = None
                         
@@ -826,11 +846,9 @@ def fetch_official_charts_indie():
                         if weeks_match:
                             weeks_on_chart = int(weeks_match.group(1))
                         
-                        # Remplacer les "/" dans l'artiste par " feat. "
                         artist = artist.replace('/', ' feat. ')
                         
                         if title and artist and len(title) > 1 and len(artist) > 1:
-                            # Ignorer les lignes parasites
                             if not any(kw in title.lower() for kw in ['copyright', 'fonticons']):
                                 entries.append({
                                     "position": position,
@@ -855,7 +873,7 @@ def fetch_official_charts_indie():
         
         entries = unique_entries[:100]
         
-        print(f"    ✅ {len(entries)} entrées trouvées")
+        print(f"    ✅ {len(entries)} entrées trouvées via cloudscraper")
         
         if entries:
             print(f"       📊 Exemples :")
@@ -866,7 +884,7 @@ def fetch_official_charts_indie():
         return entries
     
     except Exception as e:
-        print(f"    ❌ Erreur: {e}")
+        print(f"    ❌ Erreur Official Charts: {e}")
         return []
 
 def fetch_brazil_promusica():
@@ -1269,7 +1287,6 @@ def main():
             entries = fetch_acharts(country_info["acharts_url"], country_info["name"])
         elif source_used == "billboard_brasil":
             entries = fetch_billboard_brasil()
-            # Fallback si Billboard échoue
             if not entries or len(entries) < 5:
                 print(f"  🔄 Fallback sur Pro-Música Brasil...")
                 entries = fetch_brazil_promusica()
