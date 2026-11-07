@@ -3,6 +3,7 @@
 Script de collecte hebdomadaire des tops musicaux officiels.
 Version avec SNEP comme source principale pour la France.
 Sources multiples : acharts.co, kworb iTunes, SNEP, Pro-Música Brasil, iTunes RSS
+YouTube : API + yt-dlp comme fallback automatique
 """
 
 import json
@@ -191,13 +192,14 @@ def fetch_deezer_track_id(artist, title):
     
     return None
 
-# ===== RECHERCHE YOUTUBE =====
+# ===== RECHERCHE YOUTUBE (API + yt-dlp FALLBACK) =====
 
 def fetch_youtube_video_id_official(artist, title):
     global youtube_quota_exceeded
     
+    # Si quota dépassé, utiliser directement yt-dlp
     if youtube_quota_exceeded:
-        return None
+        return fetch_youtube_video_id_ytdlp(artist, title)
     
     if not YOUTUBE_API_KEY:
         return None
@@ -220,11 +222,10 @@ def fetch_youtube_video_id_official(artist, title):
         
         response = requests.get(url, params=params, timeout=10)
         
-        # Gestion du rate limiting (429)
+        # Gestion du rate limiting (429) - fallback yt-dlp
         if response.status_code == 429:
-            print(f"      ⚠️ Rate limit YouTube (429) - Pause de 5 secondes...")
-            time.sleep(5)
-            response = requests.get(url, params=params, timeout=10)
+            print(f"      ⚠️ Rate limit YouTube (429) - Tentative via yt-dlp...")
+            return fetch_youtube_video_id_ytdlp(artist, title)
         
         if response.status_code == 403:
             error_data = response.json()
@@ -232,15 +233,15 @@ def fetch_youtube_video_id_official(artist, title):
             
             if 'quota' in error_message.lower():
                 youtube_quota_exceeded = True
-                print(f"      ⚠️ QUOTA YOUTUBE DÉPASSÉ - Arrêt des recherches YouTube")
-                return None
+                print(f"      ⚠️ QUOTA YOUTUBE DÉPASSÉ - Tentative via yt-dlp...")
+                return fetch_youtube_video_id_ytdlp(artist, title)
             else:
-                print(f"      ⚠️ Erreur API YouTube 403: {error_message[:100]}")
-                return None
+                print(f"      ⚠️ Erreur API YouTube 403: {error_message[:100]} - Tentative yt-dlp...")
+                return fetch_youtube_video_id_ytdlp(artist, title)
         
         if response.status_code != 200:
-            print(f"      ⚠️ Erreur API YouTube: HTTP {response.status_code}")
-            return None
+            print(f"      ⚠️ Erreur API YouTube: HTTP {response.status_code} - Tentative yt-dlp...")
+            return fetch_youtube_video_id_ytdlp(artist, title)
         
         data = response.json()
         items = data.get('items', [])
@@ -282,9 +283,91 @@ def fetch_youtube_video_id_official(artist, title):
             }
     
     except Exception as e:
-        print(f"      ⚠️ Erreur YouTube: {e}")
+        print(f"      ⚠️ Erreur YouTube API: {e} - Tentative yt-dlp...")
+        return fetch_youtube_video_id_ytdlp(artist, title)
     
     return None
+
+def fetch_youtube_video_id_ytdlp(artist, title):
+    """
+    Recherche YouTube via yt-dlp (fallback quand l'API échoue)
+    Pas de quota, pas de clé API nécessaire
+    """
+    try:
+        import yt_dlp
+        
+        clean_title = re.sub(r'\(.*?\)', '', title).strip()
+        clean_artist = re.sub(r'\(.*?\)', '', artist).strip()
+        
+        query = f"{clean_artist} {clean_title} official video"
+        
+        # Configuration yt-dlp pour recherche uniquement (pas de téléchargement)
+        ydl_opts = {
+            'quiet': True,
+            'no_warnings': True,
+            'extract_flat': True,  # Ne pas télécharger, juste chercher
+            'default_search': 'ytsearch5',  # Chercher 5 résultats
+            'playlistend': 5,
+            'format': 'best',
+        }
+        
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            try:
+                result = ydl.extract_info(f"ytsearch5:{query}", download=False)
+                
+                if not result or 'entries' not in result:
+                    return None
+                
+                exclude_keywords = ['lyrics', 'lyric', 'audio only', 'cover', 'live', 'karaoke', 'remix']
+                
+                for item in result['entries']:
+                    if not item:
+                        continue
+                    
+                    video_title = (item.get('title') or '').lower()
+                    channel = (item.get('channel') or '').lower()
+                    
+                    is_official = any(keyword in video_title for keyword in 
+                                    ['official video', 'official', 'clip officiel', 'official clip'])
+                    is_vevo = 'vevo' in channel
+                    is_excluded = any(keyword in video_title for keyword in exclude_keywords)
+                    
+                    if not is_excluded and (is_official or is_vevo):
+                        video_id = item.get('id')
+                        if video_id:
+                            return {
+                                'youtube_id': video_id,
+                                'youtube_url': f"https://www.youtube.com/watch?v={video_id}"
+                            }
+                
+                # Fallback : première vidéo non-exclue
+                for item in result['entries']:
+                    if not item:
+                        continue
+                    
+                    video_title = (item.get('title') or '').lower()
+                    is_excluded = any(keyword in video_title for keyword in exclude_keywords)
+                    
+                    if not is_excluded:
+                        video_id = item.get('id')
+                        if video_id:
+                            return {
+                                'youtube_id': video_id,
+                                'youtube_url': f"https://www.youtube.com/watch?v={video_id}"
+                            }
+            
+            except Exception as e:
+                print(f"      ⚠️ Erreur yt-dlp: {e}")
+                return None
+        
+        return None
+    
+    except ImportError:
+        print(f"      ⚠️ yt-dlp non installé - fallback impossible")
+        return None
+    except Exception as e:
+        print(f"      ⚠️ Erreur yt-dlp: {e}")
+        return None
 
 # ===== ENRICHISSEMENT AVEC CACHE =====
 
@@ -344,7 +427,7 @@ def enrich_with_cache(entries, cache, country_name):
                 cache[cache_key]['youtube_url'] = youtube_info['youtube_url']
                 needs_update = True
             
-            time.sleep(0.5)  # Délai augmenté pour éviter rate limiting
+            time.sleep(0.5)  # Délai entre requêtes
         
         if not has_deezer and can_search_deezer:
             deezer_info = fetch_deezer_track_id(artist, title)
@@ -939,7 +1022,8 @@ def main():
     if YOUTUBE_API_KEY:
         print(f"✅ Clé API YouTube configurée")
         print(f"   Limite: {YOUTUBE_LIMIT_PER_COUNTRY} titres/pays")
-        print(f"   Cache: réduction automatique des recherches\n")
+        print(f"   Cache: réduction automatique des recherches")
+        print(f"   yt-dlp: fallback automatique en cas de rate limiting\n")
     else:
         print("⚠️ Pas de clé API YouTube - seul Deezer fournira des IDs directs\n")
     
@@ -1007,7 +1091,7 @@ def main():
     
     if youtube_quota_exceeded:
         print(f"\n⚠️ ATTENTION : Le quota YouTube a été dépassé pendant la collecte")
-        print(f"   Les titres non trouvés seront recherchés à la prochaine exécution")
+        print(f"   Les titres non trouvés ont été recherchés via yt-dlp")
     
     if successful_sources and failed_sources:
         charts_data["meta"]["sourceNote"] = f"✅ {len(successful_sources)} sources OK. ❌ {len(failed_sources)} échouées."
