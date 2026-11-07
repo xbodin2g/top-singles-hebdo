@@ -1132,4 +1132,205 @@ def parse_snep_html(html_text):
     lines = [line.strip() for line in text.split('\n') if line.strip()]
     
     known_labels = [
-        'SON
+        'SONY MUSIC', 'UNIVERSAL', 'WARNER MUSIC', 'BELIEVE', 
+        'WAGRAM', 'WAGRAM MUSIC', 'IDOL', 'SCORPIO', 'HAPPY MUSIC', 
+        'THIRTY KNOTS', 'NOJOKE RECORDS', 'AWAL', 'EMPIRE', 
+        'BECAUSE MUSIC', 'LEVEL UP MUSIC', 'YPDP', 'ARGENTIC MUSIC', 
+        'STMPD RCRDS', 'FIDEL', 'TRINITY', 'LORE', 'THE ORCHARD',
+        'UNIVERSAL MUSIC', 'POLYDOR', 'VIRGIN', 'PARLOPHONE',
+        'EPIC', 'COLUMBIA', 'RCA', 'ATLANTIC', 'ELEKTRA', 'DEF JAM',
+        'PLAY TWO', 'EARLY BIRD', 'TÔT OU TARD', 'NAÏVE', 'PIAS',
+        'WARNER', 'SONY', 'BECAUSE', '3EME OEIL'
+    ]
+    known_labels_upper = [lbl.upper().strip() for lbl in known_labels]
+    
+    nav_keywords = [
+        'Semaine précédente', 'Semaine suivante', 'Télécharger en PDF', 
+        'Voir les filtres', 'Top Radio', 'Top Outre-mer', 'Abonnement',
+        'newsletter', 'Twitter', 'LinkedIn', 'Email', 'Copy link',
+        'Merci de partager', 'AddToAny', 'FERMER', 'Marketing Permissions'
+    ]
+    
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        
+        pos_match = re.match(r'^(\d{1,3})$', line)
+        
+        if pos_match:
+            position = int(pos_match.group(1))
+            
+            if 1 <= position <= 200:
+                block = []
+                for j in range(i + 1, min(i + 13, len(lines))):
+                    block.append(lines[j])
+                
+                if len(block) >= 5:
+                    title = block[0]
+                    artist = block[1]
+                    label = ""
+                    previous_pos = None
+                    movement = "same"
+                    weeks_on_chart = 1
+                    
+                    if len(block) > 2 and block[2].upper() in known_labels_upper:
+                        label = block[2]
+                        data_start = 3
+                    else:
+                        data_start = 2
+                    
+                    for k, bline in enumerate(block[data_start:], start=data_start):
+                        if 'La Semaine Dernière' in bline:
+                            if k >= 2:
+                                prev_line = block[k - 2]
+                                if prev_line.isdigit():
+                                    previous_pos = int(prev_line)
+                                    if previous_pos > position:
+                                        movement = "up"
+                                    elif previous_pos < position:
+                                        movement = "down"
+                                    else:
+                                        movement = "same"
+                        
+                        elif 'Semaine dans le Top' in bline:
+                            if k >= 2:
+                                prev_line = block[k - 2]
+                                if prev_line.isdigit():
+                                    weeks_on_chart = int(prev_line)
+                                    if weeks_on_chart == 1:
+                                        movement = "new"
+                                        previous_pos = None
+                    
+                    if title and artist and len(title) > 2 and len(artist) > 2:
+                        if not any(kw in title.lower() for kw in ['semaine', 'top radio', 'actualités', 'les tops', 'news', 'newsletter']):
+                            entries.append({
+                                "position": position,
+                                "track": {"title": title, "artist": artist},
+                                "label": label if label else None,
+                                "previousPosition": previous_pos,
+                                "movement": movement,
+                                "weeksOnChart": weeks_on_chart,
+                                "peakPosition": position,
+                                "source": "snep"
+                            })
+        
+        i += 1
+    
+    return entries
+
+# ===== FONCTION PRINCIPALE =====
+
+def main():
+    global youtube_quota_exceeded
+    
+    print(f"🎵 Début de la collecte - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    
+    cache = load_cache()
+    
+    if YOUTUBE_API_KEY:
+        print(f"✅ Clé API YouTube configurée")
+        print(f"   Limite: {YOUTUBE_LIMIT_PER_COUNTRY} titres/pays")
+        print(f"   Cache: réduction automatique des recherches")
+        print(f"   yt-dlp: fallback automatique en cas de rate limiting\n")
+    else:
+        print("⚠️ Pas de clé API YouTube - seul Deezer fournira des IDs directs\n")
+    
+    week_info = get_week_info()
+    
+    charts_data = {
+        "meta": {
+            "weekLabel": week_info["label"],
+            "week": week_info["week"],
+            "year": week_info["year"],
+            "updatedAt": week_info["date"],
+            "sourceNote": "",
+            "hasStreamingIds": True,
+            "cacheSize": len(cache)
+        },
+        "countries": {},
+        "regions": {
+            "europe": {"label": "Europe", "countries": []},
+            "anglo": {"label": "Pays anglo-saxons", "countries": []},
+            "latam": {"label": "Amérique du Sud", "countries": []},
+            "asia": {"label": "Asie", "countries": []}
+        }
+    }
+    
+    successful_sources = []
+    failed_sources = []
+    
+    for code, country_info in SOURCES.items():
+        print(f"\n📊 Traitement de {country_info['name']} {country_info['flag']}...")
+        
+        source_used = country_info["source"]
+        entries = []
+        
+        if source_used == "acharts":
+            entries = fetch_acharts(country_info["acharts_url"], country_info["name"])
+        elif source_used == "billboard_brasil":
+            entries = fetch_billboard_brasil()
+            # Fallback si Billboard échoue
+            if not entries or len(entries) < 5:
+                print(f"  🔄 Fallback sur Pro-Música Brasil...")
+                entries = fetch_brazil_promusica()
+        elif source_used == "official_charts":
+            entries = fetch_official_charts_indie()
+        elif source_used == "kworb_itunes":
+            entries = fetch_kworb_itunes(country_info["kworb_url"], country_info["name"])
+        elif source_used == "promusica":
+            entries = fetch_brazil_promusica()
+        elif source_used == "itunes_rss":
+            entries = fetch_itunes_rss(country_info["itunes_url"], country_info["name"])
+        elif source_used == "snep":
+            entries = fetch_snep_latest()
+        
+        if entries and len(entries) >= 5:
+            entries = enrich_with_cache(entries, cache, country_info["name"])
+        
+        if entries and len(entries) >= 5:
+            charts_data["countries"][code] = {
+                "name": country_info["name"],
+                "flag": country_info["flag"],
+                "region": country_info["region"],
+                "chart": entries,
+                "sourceType": source_used
+            }
+            
+            charts_data["regions"][country_info["region"]]["countries"].append(code)
+            successful_sources.append(country_info["name"])
+            print(f"  ✅ {len(entries)} titres collectés via {source_used}")
+        else:
+            failed_sources.append(country_info["name"])
+            print(f"  ❌ Échec")
+    
+    save_cache(cache)
+    
+    if youtube_quota_exceeded:
+        print(f"\n⚠️ ATTENTION : Le quota YouTube a été dépassé pendant la collecte")
+        print(f"   Les titres non trouvés ont été recherchés via yt-dlp")
+    
+    if successful_sources and failed_sources:
+        charts_data["meta"]["sourceNote"] = f"✅ {len(successful_sources)} sources OK. ❌ {len(failed_sources)} échouées."
+    elif successful_sources:
+        charts_data["meta"]["sourceNote"] = f"✅ Toutes les sources : {len(successful_sources)} tops collectés."
+    else:
+        charts_data["meta"]["sourceNote"] = "❌ Aucune source collectée."
+    
+    output_dir = "data"
+    os.makedirs(output_dir, exist_ok=True)
+    
+    with open(f"{output_dir}/charts-latest.json", "w", encoding="utf-8") as f:
+        json.dump(charts_data, f, ensure_ascii=False, indent=2)
+    
+    with open(f"{output_dir}/charts-{week_info['date']}.json", "w", encoding="utf-8") as f:
+        json.dump(charts_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"\n{'='*60}")
+    print(f"✅ Collecte terminée")
+    print(f"   - {len(successful_sources)} sources réussies")
+    print(f"   - {len(failed_sources)} sources échouées")
+    print(f"   - Cache: {len(cache)} titres en mémoire")
+    print(f"{'='*60}")
+
+if __name__ == "__main__":
+    main()
