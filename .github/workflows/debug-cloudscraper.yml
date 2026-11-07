@@ -25,4 +25,4 @@ jobs:
       
       - name: Run debug script
         run: |
-          python debug_cloudscraper.py
+          python debug_detailed.py
