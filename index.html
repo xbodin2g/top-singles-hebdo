@@ -3,16 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Top Singles — Version 2.1</title>
+  <title>Top Singles — Version 2.1.1</title>
   <!--
     ============================================
-    Top Singles - Version 2.1
+    Top Singles - Version 2.1.1
     ============================================
     - 3 vues : 📊 Hebdo, 📼 Rétro, 🎤 Artistes
-    - Rétro automatisé (navigation année/semaine)
-    - Fiches artistes avec stats et navigation
-    - Export TuneMyMusic / YouTube / CSV / Copier
-    - Panneaux repliables, toasts, thème clair/sombre
+    - En-tête allégé
+    - Tiroir d'outils en bas de page
+    - Exports centralisés
+    - Artiste cliquable depuis les tops
+    - Recherche artiste par nom ou titre
+    - Infos rétro condensées
     ============================================
   -->
   <style>
@@ -80,7 +82,7 @@
     .app {
       width: min(1200px, calc(100% - 32px));
       margin: 0 auto;
-      padding: 20px 0 80px;
+      padding: 20px 0 110px;
     }
 
     .panel {
@@ -573,43 +575,6 @@
       color: var(--muted);
     }
 
-    .action-bar {
-      margin-top: 16px;
-      padding: 14px;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      background: var(--overlay);
-    }
-
-    .action-summary {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    .action-count {
-      font-weight: 800;
-      color: var(--text);
-    }
-
-    .reverse-toggle[aria-pressed="true"] {
-      border-color: var(--accent);
-      background: var(--accent-bg);
-      color: var(--accent);
-      font-weight: 750;
-    }
-
-    .action-buttons {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
     .playlist-info {
       padding: 14px;
       background: var(--success-bg);
@@ -686,10 +651,11 @@
       padding: 16px;
     }
 
-    .retro-summary-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 12px;
+    .compact-retro-info {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
     }
 
     .retro-selector {
@@ -697,6 +663,7 @@
       grid-template-columns: minmax(160px, 1fr) minmax(220px, 2fr) auto;
       gap: 12px;
       align-items: end;
+      margin-top: 16px;
     }
 
     .week-nav {
@@ -810,91 +777,9 @@
       line-height: 1.5;
     }
 
-    .modal-overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.62);
-      backdrop-filter: blur(5px);
-      z-index: 1000;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-    }
-
-    .modal-overlay.active {
-      display: flex;
-    }
-
-    .modal {
-      background: var(--panel-solid);
-      border-radius: 24px;
-      max-width: 680px;
-      width: 100%;
-      max-height: 85vh;
-      display: flex;
-      flex-direction: column;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-      border: 1px solid var(--border);
-    }
-
-    .modal-header {
-      padding: 20px 22px;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .modal-header h3 {
-      margin: 0;
-      font-size: 21px;
-      color: var(--text);
-    }
-
-    .modal-close {
-      background: none;
-      border: none;
-      font-size: 28px;
-      cursor: pointer;
-      color: var(--muted);
-      padding: 0;
-      width: 34px;
-      height: 34px;
-      display: grid;
-      place-items: center;
-      border-radius: 10px;
-      transition: all 0.15s ease;
-    }
-
-    .modal-close:hover {
-      background: var(--overlay);
-      color: var(--text);
-    }
-
-    .modal-body {
-      padding: 18px 22px 22px;
-      overflow-y: auto;
-      flex: 1;
-    }
-
-    .modal-intro {
-      background: var(--accent-bg);
-      padding: 14px;
-      border-radius: 14px;
-      margin-bottom: 18px;
-      color: var(--text);
-      line-height: 1.5;
-      font-size: 14px;
-    }
-
-    .modal-intro strong {
-      color: var(--accent);
-    }
-
     .toast-container {
       position: fixed;
-      bottom: 20px;
+      bottom: 92px;
       left: 50%;
       transform: translateX(-50%);
       z-index: 2000;
@@ -938,7 +823,7 @@
       to { opacity: 1; transform: none; }
     }
 
-    /* ===== VUE ARTISTES ===== */
+    /* ===== ARTISTES ===== */
     .artist-controls {
       display: flex;
       gap: 12px;
@@ -950,6 +835,13 @@
     .artist-search {
       flex: 1;
       min-width: 220px;
+    }
+
+    .search-help {
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
     }
 
     .artist-grid {
@@ -1019,13 +911,6 @@
       flex-wrap: wrap;
     }
 
-    .artist-toolbar {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin: 16px 0;
-    }
-
     .artist-track-list {
       display: flex;
       flex-direction: column;
@@ -1085,6 +970,161 @@
       transform: translateY(-1px);
     }
 
+    .artist-link {
+      background: none;
+      border: none;
+      color: var(--accent);
+      font: inherit;
+      font-weight: 750;
+      cursor: pointer;
+      padding: 0;
+      text-decoration: underline dotted transparent;
+      transition: color 0.15s ease, text-decoration-color 0.15s ease, transform 0.15s ease;
+    }
+
+    .artist-link:hover {
+      text-decoration-color: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    /* ===== FAB + DRAWER ===== */
+    .fab {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 900;
+      border: none;
+      border-radius: 999px;
+      padding: 14px 18px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: white;
+      font: inherit;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 16px 34px rgba(99, 102, 241, 0.28);
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+    .fab:hover {
+      transform: translateY(-2px);
+      opacity: 0.95;
+    }
+
+    .drawer-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.58);
+      backdrop-filter: blur(5px);
+      z-index: 1200;
+      align-items: flex-end;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .drawer-overlay.active {
+      display: flex;
+    }
+
+    .drawer {
+      width: min(760px, 100%);
+      max-height: 84vh;
+      background: var(--panel-solid);
+      border-radius: 24px 24px 0 0;
+      border: 1px solid var(--border);
+      border-bottom: none;
+      box-shadow: 0 -18px 60px rgba(0, 0, 0, 0.24);
+      display: flex;
+      flex-direction: column;
+      transform: translateY(100%);
+      transition: transform 0.24s ease;
+    }
+
+    .drawer-overlay.active .drawer {
+      transform: translateY(0);
+    }
+
+    .drawer-header {
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .drawer-header h3 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .drawer-close {
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 28px;
+      cursor: pointer;
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      border-radius: 10px;
+    }
+
+    .drawer-close:hover {
+      background: var(--overlay);
+      color: var(--text);
+    }
+
+    .drawer-body {
+      padding: 18px 20px 24px;
+      overflow-y: auto;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .drawer-section {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 14px;
+      background: var(--overlay);
+    }
+
+    .drawer-section h4 {
+      margin: 0 0 10px 0;
+      font-size: 15px;
+    }
+
+    .drawer-section p {
+      margin: 0 0 12px 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .drawer-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .drawer-context {
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .reverse-toggle[aria-pressed="true"] {
+      border-color: var(--accent);
+      background: var(--accent-bg);
+      color: var(--accent);
+      font-weight: 750;
+    }
+
     code {
       background: var(--overlay);
       padding: 2px 6px;
@@ -1132,7 +1172,7 @@
     }
 
     @media (max-width: 640px) {
-      .app { padding-bottom: 90px; }
+      .app { padding-bottom: 120px; }
       .controls, .stats { grid-template-columns: 1fr; }
       .row {
         grid-template-columns: auto 1fr;
@@ -1142,11 +1182,11 @@
           "details details";
       }
       .cover { width: 46px; height: 46px; border-radius: 13px; }
-      .action-buttons { width: 100%; }
-      .action-buttons .button { flex: 1 1 calc(50% - 4px); }
-      .modal { max-height: 92vh; }
+      .drawer-actions { width: 100%; }
+      .drawer-actions .button { flex: 1 1 calc(50% - 4px); }
       .topbar h1 { font-size: 24px; }
       .artist-controls { flex-direction: column; align-items: stretch; }
+      .fab { right: 14px; bottom: 14px; }
     }
   </style>
 </head>
@@ -1159,15 +1199,13 @@
       <div>
         <h1>Top Singles</h1>
         <p>
-          Classements officiels, archives rétro, fiches artistes et exports — Version 2.1.
+          Classements officiels, archives rétro, fiches artistes et exports — Version 2.1.1.
         </p>
       </div>
 
       <div class="topbar-actions">
         <span class="badge" id="weekBadge">Chargement...</span>
         <button class="button" id="themeToggle" type="button" data-action="theme">🌙 Sombre</button>
-        <button class="button" type="button" data-action="refresh">🔄 Actualiser</button>
-        <button class="button button-settings" type="button" data-action="open-settings">⚙️ API Keys</button>
       </div>
     </header>
 
@@ -1228,25 +1266,6 @@
         </div>
 
         <div id="chartContent"></div>
-
-        <div class="action-bar">
-          <div class="action-summary">
-            <span class="action-count" id="hebdoActionCount">0 titre</span>
-            <button class="button reverse-toggle" type="button" data-action="reverse" aria-pressed="true">
-              🔄 <span class="reverse-state">Ordre inversé</span>
-            </button>
-          </div>
-
-          <div class="action-buttons">
-            <button class="button button-youtube" type="button" data-action="youtube">🎬 YouTube</button>
-            <button class="button button-primary" type="button" data-action="tunemy">🌐 TuneMyMusic</button>
-            <button class="button" type="button" data-action="copy">📋 Copier</button>
-            <button class="button" type="button" data-action="csv">📥 CSV</button>
-            <button class="button button-share" type="button" data-action="share">📤 Partager</button>
-          </div>
-
-          <div class="playlist-info" id="hebdoPlaylistInfo" style="display: none;"></div>
-        </div>
       </section>
     </section>
 
@@ -1259,14 +1278,13 @@
           <div>
             <h2>📼 Archives Top 50 Français</h2>
             <p>
-              Navigation automatique par année et semaine. Les archives disponibles sont chargées depuis le cache JSON.
+              Navigation automatique par année et semaine.
             </p>
+            <p class="compact-retro-info" id="retroCompactInfo">Chargement...</p>
           </div>
         </div>
 
-        <div id="retroSummary" class="retro-summary-grid"></div>
-
-        <div class="retro-selector" style="margin-top: 16px;">
+        <div class="retro-selector">
           <div class="control-group">
             <label for="retroYear">Année</label>
             <select id="retroYear"></select>
@@ -1287,25 +1305,6 @@
 
         <div id="retroContent" style="margin-top: 16px;">
           <div class="empty">Chargement des archives rétro...</div>
-        </div>
-
-        <div class="action-bar">
-          <div class="action-summary">
-            <span class="action-count" id="retroActionCount">0 titre</span>
-            <button class="button reverse-toggle" type="button" data-action="reverse" aria-pressed="true">
-              🔄 <span class="reverse-state">Ordre inversé</span>
-            </button>
-          </div>
-
-          <div class="action-buttons">
-            <button class="button button-youtube" type="button" data-action="youtube">🎬 YouTube</button>
-            <button class="button button-primary" type="button" data-action="tunemy">🌐 TuneMyMusic</button>
-            <button class="button" type="button" data-action="copy">📋 Copier</button>
-            <button class="button" type="button" data-action="csv">📥 CSV</button>
-            <button class="button button-share" type="button" data-action="share">📤 Partager</button>
-          </div>
-
-          <div class="playlist-info" id="retroPlaylistInfo" style="display: none;"></div>
         </div>
       </section>
 
@@ -1330,7 +1329,6 @@
 
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
             <button class="button button-primary" type="button" data-action="enrich-retro">🔍 Lancer l’enrichissement</button>
-            <button class="button" type="button" data-action="clear-retro-stream">🗑️ Vider le cache streaming rétro</button>
           </div>
 
           <div id="enrichmentProgress" class="enrichment-progress" style="display: none;">
@@ -1342,7 +1340,7 @@
 
           <div id="apiKeyWarning" class="api-key-info" style="display: none;">
             <strong>⚠️ Clé API YouTube non configurée</strong><br>
-            Pour rechercher les IDs YouTube, configurez votre clé API dans les paramètres (⚙️ API Keys).
+            Pour rechercher les IDs YouTube, configurez votre clé API dans le tiroir d’outils en bas de page.
             Deezer fonctionne sans clé API.
           </div>
         </div>
@@ -1390,61 +1388,104 @@
             <h2>🎤 Fiches artistes</h2>
             <p id="artistStatus">Chargement...</p>
           </div>
-          <div class="legend">
-            <button class="button" type="button" data-action="refresh-artists">🔄 Index</button>
-          </div>
         </div>
 
         <div class="artist-controls">
           <div class="control-group artist-search">
-            <label for="artistSearch">Rechercher un artiste</label>
-            <input id="artistSearch" type="search" placeholder="Ex. Stromae, Madonna, Freeze Corleone" autocomplete="off" />
-          </div>
-
-          <div class="control-group">
-            <label>&nbsp;</label>
-            <button class="button reverse-toggle" type="button" data-action="reverse" aria-pressed="true">
-              🔄 <span class="reverse-state">Ordre inversé</span>
-            </button>
+            <label for="artistSearch">Recherche</label>
+            <input id="artistSearch" type="search" placeholder="Rechercher un artiste ou un titre classé" autocomplete="off" />
+            <div class="search-help" id="artistSearchHelp">
+              Tu peux chercher un artiste (ex. Stromae) ou un titre (ex. Papaoutai).
+            </div>
           </div>
         </div>
 
         <div id="artistList" class="artist-grid"></div>
         <div id="artistDetail" style="display:none;"></div>
-        <div id="artistDetailInfo" class="playlist-info" style="display:none; margin-top:16px;"></div>
       </section>
     </section>
   </div>
 
-  <!-- Modal API Keys -->
-  <div class="modal-overlay" id="settingsModal">
-    <div class="modal">
-      <div class="modal-header">
-        <h3>⚙️ Configuration des API Keys</h3>
-        <button class="modal-close" type="button" data-action="close-settings">×</button>
+  <button class="fab" type="button" data-action="open-drawer">⚙️ Outils</button>
+
+  <div class="drawer-overlay" id="drawerOverlay">
+    <div class="drawer">
+      <div class="drawer-header">
+        <h3>🧰 Outils & exports</h3>
+        <button class="drawer-close" type="button" data-action="close-drawer">×</button>
       </div>
-      <div class="modal-body">
-        <div class="modal-intro">
-          <strong>Configurez vos clés API pour l’enrichissement et les playlists</strong><br>
-          Les clés sont stockées localement dans votre navigateur et ne sont jamais envoyées à un serveur tiers.
+
+      <div class="drawer-body">
+        <div class="drawer-section">
+          <h4>🎼 Export de la liste courante</h4>
+          <div class="drawer-context" id="drawerContext">Aucune liste sélectionnée.</div>
+
+          <div class="drawer-actions" style="margin-bottom: 12px;">
+            <button class="button reverse-toggle" type="button" data-action="reverse" aria-pressed="true">
+              🔄 <span class="reverse-state">Ordre inversé</span>
+            </button>
+          </div>
+
+          <div class="drawer-actions">
+            <button class="button button-youtube" type="button" data-action="drawer-youtube">🎬 YouTube</button>
+            <button class="button button-primary" type="button" data-action="drawer-tunemy">🌐 TuneMyMusic</button>
+            <button class="button" type="button" data-action="drawer-copy">📋 Copier</button>
+            <button class="button" type="button" data-action="drawer-csv">📥 CSV</button>
+            <button class="button button-share" type="button" data-action="drawer-share">📤 Partager</button>
+          </div>
+
+          <div class="playlist-info" id="drawerMessage" style="display:none; margin-top: 14px;"></div>
         </div>
 
-        <div class="control-group" style="margin-bottom: 18px;">
-          <label for="youtubeApiKey">Clé API YouTube Data v3</label>
-          <input type="password" id="youtubeApiKey" placeholder="AIzaSy..." autocomplete="off">
-          <p style="color: var(--muted); font-size: 13px; margin-top: 8px; line-height: 1.45;">
-            Nécessaire pour rechercher les IDs YouTube (vidéos officielles).<br>
-            Obtenez une clé gratuite sur :
-            <a href="https://console.cloud.google.com/apis/credentials" target="_blank" rel="noopener">Google Cloud Console</a>
+        <div class="drawer-section">
+          <h4>🔑 API YouTube</h4>
+          <p>
+            Nécessaire uniquement pour l’enrichissement streaming rétro.
+            La clé est stockée localement dans ton navigateur.
           </p>
+
+          <div class="control-group" style="margin-bottom: 12px;">
+            <label for="youtubeApiKey">Clé API YouTube Data v3</label>
+            <input type="password" id="youtubeApiKey" placeholder="AIzaSy..." autocomplete="off">
+          </div>
+
+          <div class="drawer-actions">
+            <button class="button button-primary" type="button" data-action="save-api-key">💾 Sauvegarder</button>
+            <button class="button" type="button" data-action="clear-api-key">🗑️ Effacer</button>
+          </div>
         </div>
 
-        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-          <button class="button button-primary" type="button" data-action="save-settings">💾 Sauvegarder</button>
-          <button class="button" type="button" data-action="clear-settings">🗑️ Effacer toutes les clés</button>
+        <div class="drawer-section">
+          <h4>🔄 Recharger les données</h4>
+          <p>
+            Utilise ces boutons si tu viens de pousser de nouveaux fichiers via GitHub Actions.
+          </p>
+
+          <div class="drawer-actions">
+            <button class="button" type="button" data-action="refresh-hebdo">📊 Actualiser hebdo</button>
+            <button class="button" type="button" data-action="refresh-retro">📼 Actualiser rétro</button>
+            <button class="button" type="button" data-action="refresh-artists">🎤 Actualiser artistes</button>
+          </div>
         </div>
 
-        <div id="settingsStatus" style="margin-top: 15px; padding: 12px; border-radius: 12px; display: none;"></div>
+        <div class="drawer-section">
+          <h4>🧹 Cache streaming rétro</h4>
+          <p>
+            Ce cache stocke localement les IDs YouTube / Deezer trouvés lors des enrichissements rétro.
+          </p>
+
+          <div class="drawer-actions">
+            <button class="button button-danger" type="button" data-action="clear-retro-stream">🗑️ Vider le cache streaming</button>
+          </div>
+        </div>
+
+        <div class="drawer-section">
+          <h4>🔗 Services externes</h4>
+          <div class="drawer-actions">
+            <a class="button" href="https://www.tunemymusic.com/fr/" target="_blank" rel="noopener">🌐 TuneMyMusic</a>
+            <a class="button" href="https://soundiiz.com/fr/" target="_blank" rel="noopener">🎚️ Soundiiz</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -1459,6 +1500,7 @@
     let RETRO_ENTRIES = [];
     let activeView = "hebdo";
     let playlistReverse = true;
+
     let retroInitialized = false;
     let retroInitPromise = null;
     let retroLoading = false;
@@ -1466,6 +1508,8 @@
 
     let ARTIST_INDEX = null;
     let ARTIST_ARRAY = [];
+    let ARTIST_MAP = {};
+    let ARTIST_NAME_MAP = {};
     let artistInitialized = false;
     let artistInitPromise = null;
     let currentArtistId = null;
@@ -1488,33 +1532,34 @@
     const sourceNote = $("#sourceNote");
     const themeToggle = $("#themeToggle");
     const countryGroup = $("#countryGroup");
+
     const retroYear = $("#retroYear");
     const retroWeek = $("#retroWeek");
     const retroContent = $("#retroContent");
-    const retroSummary = $("#retroSummary");
+    const retroCompactInfo = $("#retroCompactInfo");
     const retroStatus = $("#retroStatus");
     const cleanYearStart = $("#cleanYearStart");
     const cleanYearEnd = $("#cleanYearEnd");
     const cacheInfo = $("#cacheInfo");
-    const settingsModal = $("#settingsModal");
-    const youtubeApiKey = $("#youtubeApiKey");
-    const settingsStatus = $("#settingsStatus");
+
     const enrichmentProgress = $("#enrichmentProgress");
     const enrichmentProgressBar = $("#enrichmentProgressBar");
     const enrichmentStatus = $("#enrichmentStatus");
     const apiKeyWarning = $("#apiKeyWarning");
     const enrichYouTube = $("#enrichYouTube");
     const enrichDeezer = $("#enrichDeezer");
-    const hebdoPlaylistInfo = $("#hebdoPlaylistInfo");
-    const retroPlaylistInfo = $("#retroPlaylistInfo");
-    const hebdoActionCount = $("#hebdoActionCount");
-    const retroActionCount = $("#retroActionCount");
-    const toastContainer = $("#toastContainer");
+
     const artistSearch = $("#artistSearch");
+    const artistSearchHelp = $("#artistSearchHelp");
     const artistList = $("#artistList");
     const artistDetail = $("#artistDetail");
-    const artistDetailInfo = $("#artistDetailInfo");
     const artistStatus = $("#artistStatus");
+
+    const drawerOverlay = $("#drawerOverlay");
+    const drawerContext = $("#drawerContext");
+    const drawerMessage = $("#drawerMessage");
+    const youtubeApiKey = $("#youtubeApiKey");
+    const toastContainer = $("#toastContainer");
 
     // ===== UTILITAIRES =====
     function escapeHtml(value) {
@@ -1608,10 +1653,6 @@
       return activeView === "retro" ? RETRO_ENTRIES : CURRENT_ENTRIES;
     }
 
-    function getActivePlaylistInfoEl() {
-      return activeView === "retro" ? retroPlaylistInfo : hebdoPlaylistInfo;
-    }
-
     function updateReverseButtons() {
       $$(".reverse-toggle").forEach((btn) => {
         btn.setAttribute("aria-pressed", String(playlistReverse));
@@ -1622,26 +1663,14 @@
       });
     }
 
-    function updateActionCounts() {
-      const hebdoCount = CURRENT_ENTRIES.length;
-      const retroCount = RETRO_ENTRIES.length;
+    function setDrawerMessage(html) {
+      drawerMessage.innerHTML = html;
+      drawerMessage.style.display = "block";
+    }
 
-      hebdoActionCount.textContent = `${hebdoCount} titre${hebdoCount > 1 ? "s" : ""}`;
-      retroActionCount.textContent = `${retroCount} titre${retroCount > 1 ? "s" : ""}`;
-
-      $$("#viewHebdo [data-action]").forEach((btn) => {
-        const action = btn.dataset.action;
-        if (["youtube", "tunemy", "copy", "csv", "share"].includes(action)) {
-          btn.disabled = hebdoCount === 0;
-        }
-      });
-
-      $$("#viewRetro [data-action]").forEach((btn) => {
-        const action = btn.dataset.action;
-        if (["youtube", "tunemy", "copy", "csv", "share"].includes(action)) {
-          btn.disabled = retroCount === 0;
-        }
-      });
+    function clearDrawerMessage() {
+      drawerMessage.innerHTML = "";
+      drawerMessage.style.display = "none";
     }
 
     // ===== SMART LINKS =====
@@ -1754,7 +1783,58 @@
       `;
     }
 
-    // ===== ACTIONS PLAYLIST =====
+    // ===== DRAWER CONTEXT =====
+    function getExportMode() {
+      if (activeView === "artists" && currentArtistId) {
+        const artist = getArtistById(currentArtistId);
+        if (artist) return { type: "artist", artist };
+      }
+      return { type: "top", entries: getCurrentEntries() };
+    }
+
+    function updateDrawerContext() {
+      const mode = getExportMode();
+
+      if (mode.type === "artist") {
+        const artist = mode.artist;
+        drawerContext.textContent = `🎤 ${artist.name} • ${artist.tracks.length} titre(s)`;
+        setDrawerButtonsEnabled(true, false, true, true, true);
+        return;
+      }
+
+      const entries = mode.entries || [];
+      const label = activeView === "retro" ? "📼 Rétro" : "📊 Hebdo";
+      const hasYouTubeIds = entries.some((e) => e.youtube_id);
+
+      drawerContext.textContent = `${label} • ${entries.length} titre(s)`;
+      setDrawerButtonsEnabled(entries.length > 0, hasYouTubeIds, entries.length > 0, entries.length > 0, entries.length > 0);
+    }
+
+    function setDrawerButtonsEnabled(copy, youtube, tunemy, csv, share) {
+      const copyBtn = document.querySelector('[data-action="drawer-copy"]');
+      const youtubeBtn = document.querySelector('[data-action="drawer-youtube"]');
+      const tunemyBtn = document.querySelector('[data-action="drawer-tunemy"]');
+      const csvBtn = document.querySelector('[data-action="drawer-csv"]');
+      const shareBtn = document.querySelector('[data-action="drawer-share"]');
+
+      if (copyBtn) copyBtn.disabled = !copy;
+      if (youtubeBtn) youtubeBtn.disabled = !youtube;
+      if (tunemyBtn) tunemyBtn.disabled = !tunemy;
+      if (csvBtn) csvBtn.disabled = !csv;
+      if (shareBtn) shareBtn.disabled = !share;
+    }
+
+    function openDrawer() {
+      updateDrawerContext();
+      clearDrawerMessage();
+      drawerOverlay.classList.add("active");
+    }
+
+    function closeDrawer() {
+      drawerOverlay.classList.remove("active");
+    }
+
+    // ===== ACTIONS EXPORT =====
     function generateYouTubePlaylistUrl(entries) {
       const withIds = entries.filter((e) => e.youtube_id);
       if (withIds.length === 0) return null;
@@ -1762,8 +1842,15 @@
       return `https://www.youtube.com/watch_videos?video_ids=${videoIds}`;
     }
 
-    function createYouTubePlaylistFromCurrent() {
-      const entries = getCurrentEntries();
+    function drawerYouTube() {
+      const mode = getExportMode();
+
+      if (mode.type === "artist") {
+        toast("Les fiches artistes n’ont pas d’IDs YouTube directs. Utilise TuneMyMusic ou Copier.", "warning");
+        return;
+      }
+
+      const entries = mode.entries || [];
       if (!entries.length) {
         toast("Aucun titre à jouer.", "warning");
         return;
@@ -1771,31 +1858,126 @@
 
       const withIds = entries.filter((e) => e.youtube_id);
       if (!withIds.length) {
-        toast("Aucun ID YouTube disponible. Enrichissez d'abord si nécessaire.", "warning");
+        toast("Aucun ID YouTube disponible. Enrichissez d’abord si nécessaire.", "warning");
         return;
       }
 
       const url = generateYouTubePlaylistUrl(withIds);
       window.open(url, "_blank", "noopener");
-      toast(`Playlist YouTube ouverte avec ${withIds.length} titres.`, "success");
+      setDrawerMessage(`
+        <strong>✅ Playlist YouTube ouverte</strong><br>
+        ${withIds.length} titres avec liens directs.
+      `);
+      toast("Playlist YouTube ouverte.", "success");
     }
 
-    async function shareCurrentPlaylist() {
-      const entries = getCurrentEntries();
-      if (!entries.length) {
-        toast("Aucun titre à partager.", "warning");
+    function drawerCopy() {
+      const mode = getExportMode();
+      let text = "";
+      let count = 0;
+
+      if (mode.type === "artist") {
+        text = artistExportText(mode.artist);
+        count = mode.artist.tracks.length;
+      } else {
+        const entries = mode.entries || [];
+        text = generatePlaylistText(entries, playlistReverse);
+        count = entries.length;
+      }
+
+      if (!count) {
+        toast("Aucun titre à copier.", "warning");
         return;
       }
 
-      const url = generateYouTubePlaylistUrl(entries);
-      const text = generatePlaylistText(entries, playlistReverse);
+      copyToClipboard(text);
+      setDrawerMessage(`
+        <strong>✅ Liste copiée !</strong><br>
+        📊 ${count} titre(s) dans le presse-papier.<br>
+        🔄 Ordre : <strong>${playlistReverse ? "inversé" : "normal"}</strong><br><br>
+        Tu peux coller dans TuneMyMusic, Soundiiz, un message ou un bloc-notes.
+      `);
+      toast("Liste copiée.", "success");
+    }
+
+    function drawerTuneMyMusic() {
+      const mode = getExportMode();
+      let text = "";
+      let count = 0;
+
+      if (mode.type === "artist") {
+        text = artistExportText(mode.artist);
+        count = mode.artist.tracks.length;
+      } else {
+        const entries = mode.entries || [];
+        text = generatePlaylistText(entries, playlistReverse);
+        count = entries.length;
+      }
+
+      if (!count) {
+        toast("Aucun titre à transférer.", "warning");
+        return;
+      }
+
+      copyToClipboard(text);
+      setDrawerMessage(`
+        <strong>✅ Liste copiée dans le presse-papier !</strong><br>
+        📊 ${count} titre(s) prêts à être transférés.<br>
+        🔄 Ordre : <strong>${playlistReverse ? "inversé" : "normal"}</strong><br><br>
+        <strong>Étapes sur TuneMyMusic :</strong>
+        <ol>
+          <li>Clique sur <strong>"Commençons"</strong></li>
+          <li>Choisis <strong>"N'importe quelle source"</strong> puis <strong>"Fichier texte"</strong></li>
+          <li><strong>Collez la liste</strong></li>
+          <li>Clique sur <strong>"Suivant"</strong></li>
+          <li>Sélectionne ta plateforme (Deezer, YouTube, Spotify...)</li>
+          <li>Connecte ton compte</li>
+          <li>Clique sur <strong>"Commencer le transfert"</strong></li>
+        </ol>
+      `);
+
+      window.open("https://www.tunemymusic.com/fr/", "_blank", "noopener");
+      toast("TuneMyMusic ouvert. Liste déjà copiée.", "success");
+    }
+
+    function drawerCSV() {
+      const mode = getExportMode();
+
+      if (mode.type === "artist") {
+        exportArtistCSV(mode.artist.id);
+        return;
+      }
+
+      exportCurrentCSV(mode.entries || []);
+    }
+
+    async function drawerShare() {
+      const mode = getExportMode();
+      let text = "";
+      let url = null;
+      let count = 0;
+
+      if (mode.type === "artist") {
+        text = artistExportText(mode.artist);
+        count = mode.artist.tracks.length;
+      } else {
+        const entries = mode.entries || [];
+        text = generatePlaylistText(entries, playlistReverse);
+        url = generateYouTubePlaylistUrl(entries);
+        count = entries.length;
+      }
+
+      if (!count) {
+        toast("Aucun titre à partager.", "warning");
+        return;
+      }
 
       if (navigator.share) {
         try {
           if (url) {
             await navigator.share({
-              title: "Top Singles — Playlist YouTube",
-              text: `${entries.length} titres du classement musical`,
+              title: "Top Singles — Playlist",
+              text: `${count} titres du classement musical`,
               url
             });
           } else {
@@ -1815,72 +1997,8 @@
       toast("Lien ou liste copiée dans le presse-papier.", "success");
     }
 
-    function copyCurrentPlaylist() {
-      const entries = getCurrentEntries();
-      if (!entries.length) {
-        toast("Aucun titre à copier.", "warning");
-        return;
-      }
-
-      const text = generatePlaylistText(entries, playlistReverse);
-      copyToClipboard(text);
-
-      const infoEl = getActivePlaylistInfoEl();
-      infoEl.style.display = "block";
-      infoEl.innerHTML = `
-        <strong>✅ Liste copiée !</strong><br>
-        📊 ${entries.length} titres dans le presse-papier.<br>
-        🔄 Ordre : <strong>${playlistReverse ? "inversé" : "normal"}</strong><br><br>
-        Vous pouvez coller dans :
-        <ul>
-          <li><a href="https://www.tunemymusic.com/fr/" target="_blank" rel="noopener">TuneMyMusic</a></li>
-          <li><a href="https://soundiiz.com/fr/" target="_blank" rel="noopener">Soundiiz</a></li>
-          <li>Un message, un email ou un bloc-notes</li>
-        </ul>
-      `;
-
-      toast("Liste copiée.", "success");
-    }
-
-    function tuneMyMusicCurrent() {
-      const entries = getCurrentEntries();
-      if (!entries.length) {
-        toast("Aucun titre à transférer.", "warning");
-        return;
-      }
-
-      const text = generatePlaylistText(entries, playlistReverse);
-      copyToClipboard(text);
-
-      const infoEl = getActivePlaylistInfoEl();
-      infoEl.style.display = "block";
-      infoEl.innerHTML = `
-        <strong>✅ Liste copiée dans le presse-papier !</strong><br>
-        📊 ${entries.length} titres prêts à être transférés.<br>
-        🔄 Ordre : <strong>${playlistReverse ? "inversé" : "normal"}</strong><br><br>
-        <strong>Étapes sur TuneMyMusic :</strong>
-        <ol>
-          <li>TuneMyMusic s'ouvre dans 3 secondes</li>
-          <li>Cliquez sur <strong>"Commençons"</strong></li>
-          <li>Choisissez <strong>"N'importe quelle source"</strong> puis <strong>"Fichier texte"</strong></li>
-          <li><strong>Collez la liste</strong></li>
-          <li>Cliquez sur <strong>"Suivant"</strong></li>
-          <li>Sélectionnez votre plateforme (Deezer, YouTube, Spotify...)</li>
-          <li>Connectez votre compte</li>
-          <li>Cliquez sur <strong>"Commencer le transfert"</strong></li>
-        </ol>
-      `;
-
-      toast("Presse-papier rempli. Ouverture de TuneMyMusic...", "success");
-
-      setTimeout(() => {
-        window.open("https://www.tunemymusic.com/fr/", "_blank", "noopener");
-      }, 3000);
-    }
-
-    function exportCurrentCSV() {
-      const entries = getCurrentEntries();
-      if (!entries.length) {
+    function exportCurrentCSV(entries) {
+      if (!entries || !entries.length) {
         toast("Aucune donnée à exporter.", "warning");
         return;
       }
@@ -1913,6 +2031,10 @@
       document.body.removeChild(link);
       URL.revokeObjectURL(url);
 
+      setDrawerMessage(`
+        <strong>✅ Export CSV terminé</strong><br>
+        ${entries.length} titre(s) exporté(s).
+      `);
       toast(`${entries.length} titres exportés en CSV.`, "success");
     }
 
@@ -1959,7 +2081,17 @@
           <div class="cover" style="${coverStyle}">${coverContent}</div>
           <div class="meta">
             <div class="title">${escapeHtml(entry.track?.title || "")}</div>
-            <div class="artist">${escapeHtml(entry.track?.artist || "")}</div>
+            <div class="artist">
+              <button
+                class="artist-link"
+                type="button"
+                data-action="open-artist-from-credit"
+                data-credit="${escapeHtml(entry.track?.artist || "")}"
+                title="Voir la fiche artiste"
+              >
+                ${escapeHtml(entry.track?.artist || "")}
+              </button>
+            </div>
           </div>
           <div class="details">
             ${detailsChips.join("")}
@@ -1995,6 +2127,7 @@
         populateCountries();
         updateCountrySelectState();
         render();
+        updateDrawerContext();
       } catch (error) {
         chartContent.innerHTML = `
           <div class="empty">
@@ -2215,7 +2348,7 @@
         chartContent.innerHTML = head + rows;
       }
 
-      updateActionCounts();
+      updateDrawerContext();
     }
 
     // ===== VUE RÉTRO =====
@@ -2252,53 +2385,15 @@
       return result;
     }
 
-    function buildRetroSummary(availableData) {
-      const years = Object.keys(availableData).sort((a, b) => b - a);
-      if (!years.length) {
-        retroSummary.innerHTML = `
-          <div class="stat">
-            <div class="stat-value">📭</div>
-            <div class="stat-label">Aucune archive disponible</div>
-          </div>
-        `;
-        return { minYear: 1984, maxYear: 2026, total: 0, years };
-      }
-
-      const totalArchives = years.reduce((sum, year) => sum + availableData[year].length, 0);
-      const minYear = years[years.length - 1];
-      const maxYear = years[0];
-
-      retroSummary.innerHTML = `
-        <div class="stat">
-          <div class="stat-value">${totalArchives}</div>
-          <div class="stat-label">Archives disponibles</div>
-        </div>
-        <div class="stat">
-          <div class="stat-value">${years.length}</div>
-          <div class="stat-label">Années couvertes</div>
-        </div>
-        <div class="stat">
-          <div class="stat-value">${minYear} → ${maxYear}</div>
-          <div class="stat-label">Plage temporelle</div>
-        </div>
-        <div class="stat">
-          <div class="stat-value">🇫🇷</div>
-          <div class="stat-label">Top singles France</div>
-        </div>
-      `;
-
-      return { minYear, maxYear, total: totalArchives, years };
-    }
-
     function buildRetroSelectors() {
       const availableData = getAvailableYearsFromCache();
-      const summary = buildRetroSummary(availableData);
-      const years = summary.years;
+      const years = Object.keys(availableData).sort((a, b) => b - a);
 
       retroYear.innerHTML = "";
       retroWeek.innerHTML = "";
 
       if (!years.length) {
+        retroCompactInfo.textContent = "Aucune archive disponible.";
         retroYear.innerHTML = '<option value="">Aucune archive</option>';
         retroWeek.innerHTML = '<option value="">Aucune archive</option>';
         retroYear.disabled = true;
@@ -2306,9 +2401,15 @@
         retroStatus.textContent = "Aucune archive rétro trouvée dans data/cache/retro_archives.json";
         retroContent.innerHTML = `<div class="empty">Aucune archive disponible.</div>`;
         RETRO_ENTRIES = [];
-        updateActionCounts();
-        return summary;
+        updateDrawerContext();
+        return;
       }
+
+      const totalArchives = years.reduce((sum, year) => sum + availableData[year].length, 0);
+      const minYear = years[years.length - 1];
+      const maxYear = years[0];
+
+      retroCompactInfo.textContent = `${totalArchives} archives • ${years.length} années (${minYear} → ${maxYear}) • 🇫🇷 France`;
 
       retroYear.disabled = false;
       retroWeek.disabled = false;
@@ -2320,13 +2421,13 @@
         retroYear.appendChild(option);
       });
 
-      cleanYearStart.min = summary.minYear;
-      cleanYearStart.max = summary.maxYear;
-      cleanYearStart.value = summary.minYear;
+      cleanYearStart.min = minYear;
+      cleanYearStart.max = maxYear;
+      cleanYearStart.value = minYear;
 
-      cleanYearEnd.min = summary.minYear;
-      cleanYearEnd.max = summary.maxYear;
-      cleanYearEnd.value = summary.maxYear;
+      cleanYearEnd.min = minYear;
+      cleanYearEnd.max = maxYear;
+      cleanYearEnd.value = maxYear;
 
       retroYear.value = years[0];
       updateRetroWeekSelector();
@@ -2335,8 +2436,6 @@
       if (latestWeeks.length) {
         retroWeek.value = latestWeeks[latestWeeks.length - 1];
       }
-
-      return summary;
     }
 
     function updateRetroWeekSelector() {
@@ -2404,7 +2503,7 @@
         retroContent.innerHTML = `<div class="empty">Sélectionnez une année et une semaine.</div>`;
         RETRO_ENTRIES = [];
         currentRetroArchive = null;
-        updateActionCounts();
+        updateDrawerContext();
         return;
       }
 
@@ -2422,7 +2521,7 @@
         currentRetroArchive = null;
         retroContent.innerHTML = `<div class="empty">Archive introuvable pour ${cacheKey}.</div>`;
         retroStatus.textContent = "Archive introuvable dans le cache.";
-        updateActionCounts();
+        updateDrawerContext();
       }
 
       retroLoading = false;
@@ -2453,7 +2552,7 @@
 
       if (!entries.length) {
         retroContent.innerHTML = `<div class="empty">Aucune entrée dans cette archive.</div>`;
-        updateActionCounts();
+        updateDrawerContext();
         return;
       }
 
@@ -2480,8 +2579,7 @@
       html += entries.map((entry) => buildRow(entry, { synthesis: false })).join("");
       retroContent.innerHTML = html;
 
-      retroPlaylistInfo.style.display = "none";
-      updateActionCounts();
+      updateDrawerContext();
     }
 
     function navigateRetroWeek(delta) {
@@ -2824,7 +2922,7 @@
       }
     }
 
-    // ===== GESTION CACHE RÉTRO =====
+    // ===== GESTION CACHE ARCHIVES RÉTRO =====
     function listRetroCache() {
       if (!RETRO_CACHE || Object.keys(RETRO_CACHE).length === 0) {
         cacheInfo.innerHTML = "<strong>📭 Cache rétro vide</strong>";
@@ -2904,8 +3002,39 @@
     }
 
     // ===== VUE ARTISTES =====
+    function stripAccentsJs(text) {
+      return String(text || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+    }
+
+    function normalizeSpaceJs(text) {
+      return String(text || "").replace(/\s+/g, " ").trim();
+    }
+
+    function removeBracketsJs(text) {
+      return String(text || "").replace(/\([^)]*\)|\[[^\]]*\]/g, " ");
+    }
+
+    function extractPrimaryArtistJs(rawArtist) {
+      const s = normalizeSpaceJs(removeBracketsJs(rawArtist));
+      const separatorRe = /\s*(?:,|\/|\s+(?:featuring|feat\.?|ft\.?|x)\s+)\s*/i;
+      const m = s.match(separatorRe);
+      let primary = m ? s.slice(0, m.index) : s;
+      primary = primary.replace(/^[\s\-–—&]+|[\s\-–—&]+$/g, "").trim();
+      return primary || s;
+    }
+
+    function normalizeArtistKeyJs(primary) {
+      let s = stripAccentsJs(primary).toLowerCase();
+      s = s.replace(/&/g, " and ");
+      s = s.replace(/[^\w\s]/g, " ");
+      s = s.replace(/\b(?:feat|featuring|ft)\b.*$/i, "");
+      return normalizeSpaceJs(s);
+    }
+
     function getArtistById(id) {
-      return ARTIST_ARRAY.find(a => a.id === id) || null;
+      return ARTIST_MAP[id] || ARTIST_ARRAY.find(a => a.id === id) || null;
     }
 
     function artistExportText(artist) {
@@ -2914,6 +3043,69 @@
         .map(t => `${t.credit} - ${t.title}`)
         .filter(line => line.trim() !== " - ")
         .join("\n");
+    }
+
+    function findArtistByCredit(rawCredit) {
+      if (!ARTIST_ARRAY.length) return null;
+
+      const primary = extractPrimaryArtistJs(rawCredit);
+      const id = normalizeArtistKeyJs(primary);
+
+      if (ARTIST_MAP[id]) return ARTIST_MAP[id];
+
+      const nameKey = stripAccentsJs(primary)
+        .toLowerCase()
+        .replace(/[^\w\s]/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+
+      if (nameKey && ARTIST_NAME_MAP[nameKey]) {
+        return ARTIST_MAP[ARTIST_NAME_MAP[nameKey]];
+      }
+
+      for (const artist of ARTIST_ARRAY) {
+        const artistKey = stripAccentsJs(artist.name)
+          .toLowerCase()
+          .replace(/[^\w\s]/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
+
+        if (!artistKey || !nameKey) continue;
+
+        if (
+          artistKey === nameKey ||
+          nameKey.startsWith(artistKey) ||
+          artistKey.startsWith(nameKey)
+        ) {
+          return artist;
+        }
+      }
+
+      return null;
+    }
+
+    async function openArtistFromCredit(rawCredit) {
+      if (!rawCredit) return;
+
+      if (!artistInitialized) {
+        await initArtistView();
+      }
+
+      if (!ARTIST_ARRAY.length) {
+        toast("Index artiste indisponible.", "warning");
+        return;
+      }
+
+      const artist = findArtistByCredit(rawCredit);
+
+      if (!artist) {
+        toast(`Fiche artiste introuvable pour "${rawCredit}".`, "warning");
+        return;
+      }
+
+      setActiveView("artists");
+      openArtistDetail(artist.id);
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
     async function initArtistView() {
@@ -2926,7 +3118,6 @@
           artistList.style.display = "grid";
           artistList.innerHTML = `<div class="empty">Chargement...</div>`;
           artistDetail.style.display = "none";
-          artistDetailInfo.style.display = "none";
 
           const res = await fetch("data/cache/artist_index.json");
           if (!res.ok) throw new Error("artist_index.json introuvable");
@@ -2944,11 +3135,25 @@
             a.name.localeCompare(b.name, "fr", { sensitivity: "base" })
           );
 
+          ARTIST_MAP = {};
+          ARTIST_NAME_MAP = {};
+
+          ARTIST_ARRAY.forEach((artist) => {
+            ARTIST_MAP[artist.id] = artist;
+            const nameKey = stripAccentsJs(artist.name)
+              .toLowerCase()
+              .replace(/[^\w\s]/g, " ")
+              .replace(/\s+/g, " ")
+              .trim();
+            if (nameKey) ARTIST_NAME_MAP[nameKey] = artist.id;
+          });
+
           artistInitialized = true;
           renderArtistList();
 
           const totalTracks = data.trackCount || ARTIST_ARRAY.reduce((sum, a) => sum + (a.trackCount || 0), 0);
           artistStatus.textContent = `${ARTIST_ARRAY.length} artistes • ${totalTracks} titres indexés`;
+          updateDrawerContext();
         } catch (err) {
           artistList.innerHTML = `
             <div class="empty">
@@ -2970,29 +3175,54 @@
     function renderArtistList() {
       currentArtistId = null;
       artistDetail.style.display = "none";
-      artistDetailInfo.style.display = "none";
       artistList.style.display = "grid";
+      artistSearch.placeholder = "Rechercher un artiste ou un titre classé";
+      artistSearchHelp.textContent = "Tu peux chercher un artiste (ex. Stromae) ou un titre (ex. Papaoutai).";
 
       const q = (artistSearch.value || "").trim().toLowerCase();
-      const filtered = q
-        ? ARTIST_ARRAY.filter(a => String(a.name || "").toLowerCase().includes(q))
-        : ARTIST_ARRAY;
+
+      const filtered = ARTIST_ARRAY.filter((artist) => {
+        if (!q) return true;
+
+        const nameMatch = String(artist.name || "").toLowerCase().includes(q);
+        const trackMatches = (artist.tracks || []).some((t) =>
+          String(t.title || "").toLowerCase().includes(q) ||
+          String(t.credit || "").toLowerCase().includes(q)
+        );
+
+        return nameMatch || trackMatches;
+      });
 
       const limited = filtered.slice(0, 400);
 
       if (!filtered.length) {
         artistList.innerHTML = `<div class="empty">Aucun artiste trouvé.</div>`;
+        updateDrawerContext();
         return;
       }
 
-      artistList.innerHTML = limited.map(a => `
-        <button class="artist-card" type="button" data-action="open-artist" data-artist-id="${escapeHtml(a.id)}">
-          <div class="artist-name">${escapeHtml(a.name)}</div>
-          <div class="artist-meta">
-            ${a.trackCount} titre(s) • ${a.totalWeeks} semaine(s) • pic #${a.bestPeak} • ${a.firstYear} → ${a.lastYear}
-          </div>
-        </button>
-      `).join("");
+      artistList.innerHTML = limited.map((a) => {
+        const nameMatch = q ? String(a.name || "").toLowerCase().includes(q) : false;
+        const matchedTracks = q && !nameMatch
+          ? (a.tracks || []).filter(t =>
+              String(t.title || "").toLowerCase().includes(q) ||
+              String(t.credit || "").toLowerCase().includes(q)
+            )
+          : [];
+
+        let meta = `${a.trackCount} titre(s) • ${a.totalWeeks} semaine(s) • pic #${a.bestPeak} • ${a.firstYear} → ${a.lastYear}`;
+
+        if (matchedTracks.length > 0) {
+          meta = `Correspondance titre : ${escapeHtml(matchedTracks[0].title)} • ${a.trackCount} titre(s) au total`;
+        }
+
+        return `
+          <button class="artist-card" type="button" data-action="open-artist" data-artist-id="${escapeHtml(a.id)}">
+            <div class="artist-name">${escapeHtml(a.name)}</div>
+            <div class="artist-meta">${meta}</div>
+          </button>
+        `;
+      }).join("");
 
       if (filtered.length > limited.length) {
         artistList.innerHTML += `
@@ -3001,6 +3231,8 @@
           </div>
         `;
       }
+
+      updateDrawerContext();
     }
 
     function openArtistDetail(id) {
@@ -3010,12 +3242,22 @@
       currentArtistId = id;
       artistList.style.display = "none";
       artistDetail.style.display = "block";
-      artistDetailInfo.style.display = "none";
-      renderArtistDetail(artist);
+      artistSearch.placeholder = `Filtrer les titres de ${artist.name}`;
+      artistSearchHelp.textContent = "Le champ filtre maintenant les titres de cet artiste.";
+      artistSearch.value = "";
+      renderArtistDetail(artist, "");
+      updateDrawerContext();
     }
 
-    function renderArtistDetail(artist) {
-      const tracks = artist.tracks || [];
+    function renderArtistDetail(artist, filterQuery = "") {
+      const q = String(filterQuery || "").trim().toLowerCase();
+      const allTracks = artist.tracks || [];
+      const tracks = q
+        ? allTracks.filter(t =>
+            String(t.title || "").toLowerCase().includes(q) ||
+            String(t.credit || "").toLowerCase().includes(q)
+          )
+        : allTracks;
 
       artistDetail.innerHTML = `
         <button class="button artist-back" type="button" data-action="back-artists">← Retour à la liste</button>
@@ -3034,48 +3276,48 @@
           </div>
         </div>
 
-        <div class="artist-toolbar">
-          <button class="button button-primary" type="button" data-action="artist-tunemy">🌐 TuneMyMusic</button>
-          <button class="button" type="button" data-action="artist-copy">📋 Copier</button>
-          <button class="button" type="button" data-action="artist-csv">📥 CSV</button>
-        </div>
+        ${
+          tracks.length
+            ? `
+              <div class="artist-track-list">
+                ${tracks.map(t => `
+                  <div class="artist-track-row">
+                    <div class="artist-track-main">
+                      <div class="artist-track-title">${escapeHtml(t.title)}</div>
+                      <div class="artist-track-credit">${escapeHtml(t.credit)}</div>
+                    </div>
 
-        <div class="artist-track-list">
-          ${tracks.map(t => `
-            <div class="artist-track-row">
-              <div class="artist-track-main">
-                <div class="artist-track-title">${escapeHtml(t.title)}</div>
-                <div class="artist-track-credit">${escapeHtml(t.credit)}</div>
-              </div>
+                    <div>
+                      <div class="artist-stat-label">Entrée</div>
+                      <button class="artist-date-btn" type="button" data-action="go-retro-week" data-key="${escapeHtml(t.firstKey)}">
+                        ${escapeHtml(t.firstDate || t.firstKey)}
+                      </button>
+                    </div>
 
-              <div>
-                <div class="artist-stat-label">Entrée</div>
-                <button class="artist-date-btn" type="button" data-action="go-retro-week" data-key="${escapeHtml(t.firstKey)}">
-                  ${escapeHtml(t.firstDate || t.firstKey)}
-                </button>
-              </div>
+                    <div>
+                      <div class="artist-stat-label">Pic</div>
+                      <button class="artist-date-btn" type="button" data-action="go-retro-week" data-key="${escapeHtml(t.peakKey)}">
+                        #${t.peak} ${escapeHtml(t.peakDate || t.peakKey)}
+                      </button>
+                    </div>
 
-              <div>
-                <div class="artist-stat-label">Pic</div>
-                <button class="artist-date-btn" type="button" data-action="go-retro-week" data-key="${escapeHtml(t.peakKey)}">
-                  #${t.peak} ${escapeHtml(t.peakDate || t.peakKey)}
-                </button>
-              </div>
+                    <div>
+                      <div class="artist-stat-label">Durée</div>
+                      <div>${t.weeks} sem.</div>
+                    </div>
 
-              <div>
-                <div class="artist-stat-label">Durée</div>
-                <div>${t.weeks} sem.</div>
+                    <div>
+                      <div class="artist-stat-label">Sortie</div>
+                      <button class="artist-date-btn" type="button" data-action="go-retro-week" data-key="${escapeHtml(t.lastKey)}">
+                        ${escapeHtml(t.lastDate || t.lastKey)}
+                      </button>
+                    </div>
+                  </div>
+                `).join("")}
               </div>
-
-              <div>
-                <div class="artist-stat-label">Sortie</div>
-                <button class="artist-date-btn" type="button" data-action="go-retro-week" data-key="${escapeHtml(t.lastKey)}">
-                  ${escapeHtml(t.lastDate || t.lastKey)}
-                </button>
-              </div>
-            </div>
-          `).join("")}
-        </div>
+            `
+            : `<div class="empty">Aucun titre ne correspond à ce filtre.</div>`
+        }
       `;
     }
 
@@ -3089,18 +3331,11 @@
       const text = artistExportText(artist);
       copyToClipboard(text);
 
-      artistDetailInfo.style.display = "block";
-      artistDetailInfo.innerHTML = `
+      setDrawerMessage(`
         <strong>✅ Playlist de ${escapeHtml(artist.name)} copiée !</strong><br>
         📊 ${artist.tracks.length} titre(s) dans le presse-papier.<br>
-        🔄 Ordre : <strong>${playlistReverse ? "inversé" : "normal"}</strong><br><br>
-        Vous pouvez coller dans :
-        <ul>
-          <li><a href="https://www.tunemymusic.com/fr/" target="_blank" rel="noopener">TuneMyMusic</a></li>
-          <li><a href="https://soundiiz.com/fr/" target="_blank" rel="noopener">Soundiiz</a></li>
-          <li>Un message, un email ou un bloc-notes</li>
-        </ul>
-      `;
+        🔄 Ordre : <strong>${playlistReverse ? "inversé" : "normal"}</strong>
+      `);
 
       toast("Playlist artiste copiée.", "success");
     }
@@ -3115,29 +3350,24 @@
       const text = artistExportText(artist);
       copyToClipboard(text);
 
-      artistDetailInfo.style.display = "block";
-      artistDetailInfo.innerHTML = `
+      setDrawerMessage(`
         <strong>✅ Playlist de ${escapeHtml(artist.name)} copiée !</strong><br>
         📊 ${artist.tracks.length} titre(s) prêts à être transférés.<br>
         🔄 Ordre : <strong>${playlistReverse ? "inversé" : "normal"}</strong><br><br>
         <strong>Étapes sur TuneMyMusic :</strong>
         <ol>
-          <li>TuneMyMusic s'ouvre dans 3 secondes</li>
-          <li>Cliquez sur <strong>"Commençons"</strong></li>
-          <li>Choisissez <strong>"N'importe quelle source"</strong> puis <strong>"Fichier texte"</strong></li>
+          <li>Clique sur <strong>"Commençons"</strong></li>
+          <li>Choisis <strong>"N'importe quelle source"</strong> puis <strong>"Fichier texte"</strong></li>
           <li><strong>Collez la liste</strong></li>
-          <li>Cliquez sur <strong>"Suivant"</strong></li>
-          <li>Sélectionnez votre plateforme (Deezer, YouTube, Spotify...)</li>
-          <li>Connectez votre compte</li>
-          <li>Cliquez sur <strong>"Commencer le transfert"</strong></li>
+          <li>Clique sur <strong>"Suivant"</strong></li>
+          <li>Sélectionne ta plateforme (Deezer, YouTube, Spotify...)</li>
+          <li>Connecte ton compte</li>
+          <li>Clique sur <strong>"Commencer le transfert"</strong></li>
         </ol>
-      `;
+      `);
 
-      toast("Presse-papier rempli. Ouverture de TuneMyMusic...", "success");
-
-      setTimeout(() => {
-        window.open("https://www.tunemymusic.com/fr/", "_blank", "noopener");
-      }, 3000);
+      window.open("https://www.tunemymusic.com/fr/", "_blank", "noopener");
+      toast("TuneMyMusic ouvert. Liste déjà copiée.", "success");
     }
 
     function exportArtistCSV(id) {
@@ -3185,6 +3415,10 @@
       document.body.removeChild(link);
       URL.revokeObjectURL(url);
 
+      setDrawerMessage(`
+        <strong>✅ Export CSV de ${escapeHtml(artist.name)}</strong><br>
+        ${tracks.length} titre(s) exporté(s).
+      `);
       toast(`${tracks.length} titres exportés en CSV.`, "success");
     }
 
@@ -3225,49 +3459,33 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    // ===== SETTINGS =====
-    function openSettingsModal() {
+    // ===== API KEY =====
+    function loadApiKeyIntoDrawer() {
       youtubeApiKey.value = localStorage.getItem("youtubeApiKey") || "";
-      settingsModal.classList.add("active");
     }
 
-    function closeSettingsModal() {
-      settingsModal.classList.remove("active");
-    }
-
-    function saveSettings() {
+    function saveApiKey() {
       const apiKey = youtubeApiKey.value.trim();
       if (apiKey) {
         localStorage.setItem("youtubeApiKey", apiKey);
-        settingsStatus.style.display = "block";
-        settingsStatus.style.background = "var(--success-bg)";
-        settingsStatus.style.color = "var(--success)";
-        settingsStatus.style.border = "1px solid var(--success)";
-        settingsStatus.innerHTML = "✅ Clé API YouTube sauvegardée";
         apiKeyWarning.style.display = "none";
+        setDrawerMessage("<strong>✅ Clé API YouTube sauvegardée.</strong>");
         toast("Clé API YouTube sauvegardée.", "success");
       } else {
         localStorage.removeItem("youtubeApiKey");
-        settingsStatus.style.display = "block";
-        settingsStatus.style.background = "var(--warning-bg)";
-        settingsStatus.style.color = "var(--warning)";
-        settingsStatus.style.border = "1px solid var(--warning)";
-        settingsStatus.innerHTML = "⚠️ Clé API YouTube supprimée";
         apiKeyWarning.style.display = "block";
+        setDrawerMessage("<strong>⚠️ Clé API YouTube supprimée.</strong>");
         toast("Clé API YouTube supprimée.", "warning");
       }
-
-      setTimeout(() => {
-        settingsStatus.style.display = "none";
-      }, 3500);
     }
 
-    function clearAllSettings() {
-      if (confirm("Effacer toutes les clés API ?")) {
+    function clearApiKey() {
+      if (confirm("Effacer la clé API YouTube ?")) {
         localStorage.removeItem("youtubeApiKey");
         youtubeApiKey.value = "";
         apiKeyWarning.style.display = "block";
-        toast("Clés API effacées.", "success");
+        setDrawerMessage("<strong>✅ Clé API YouTube effacée.</strong>");
+        toast("Clé API effacée.", "success");
       }
     }
 
@@ -3303,7 +3521,7 @@
         initArtistView();
       }
 
-      updateActionCounts();
+      updateDrawerContext();
     }
 
     // ===== EVENT DELEGATION =====
@@ -3324,37 +3542,12 @@
           toggleTheme();
           break;
 
-        case "refresh":
-          loadChartData();
-          if (activeView === "retro") {
-            retroInitialized = false;
-            retroInitPromise = null;
-            initRetroView();
-          }
-          if (activeView === "artists") {
-            artistInitialized = false;
-            ARTIST_INDEX = null;
-            ARTIST_ARRAY = [];
-            currentArtistId = null;
-            initArtistView();
-          }
-          toast("Données actualisées.", "success");
+        case "open-drawer":
+          openDrawer();
           break;
 
-        case "open-settings":
-          openSettingsModal();
-          break;
-
-        case "close-settings":
-          closeSettingsModal();
-          break;
-
-        case "save-settings":
-          saveSettings();
-          break;
-
-        case "clear-settings":
-          clearAllSettings();
+        case "close-drawer":
+          closeDrawer();
           break;
 
         case "reverse":
@@ -3363,24 +3556,60 @@
           toast(playlistReverse ? "Ordre inversé activé." : "Ordre normal activé.", "info");
           break;
 
-        case "youtube":
-          createYouTubePlaylistFromCurrent();
+        case "drawer-youtube":
+          drawerYouTube();
           break;
 
-        case "tunemy":
-          tuneMyMusicCurrent();
+        case "drawer-tunemy":
+          drawerTuneMyMusic();
           break;
 
-        case "copy":
-          copyCurrentPlaylist();
+        case "drawer-copy":
+          drawerCopy();
           break;
 
-        case "csv":
-          exportCurrentCSV();
+        case "drawer-csv":
+          drawerCSV();
           break;
 
-        case "share":
-          shareCurrentPlaylist();
+        case "drawer-share":
+          await drawerShare();
+          break;
+
+        case "save-api-key":
+          saveApiKey();
+          break;
+
+        case "clear-api-key":
+          clearApiKey();
+          break;
+
+        case "refresh-hebdo":
+          await loadChartData();
+          toast("Données hebdo rechargées.", "success");
+          break;
+
+        case "refresh-retro":
+          retroInitialized = false;
+          retroInitPromise = null;
+          await initRetroView();
+          toast("Données rétro rechargées.", "success");
+          break;
+
+        case "refresh-artists":
+          artistInitialized = false;
+          artistInitPromise = null;
+          ARTIST_INDEX = null;
+          ARTIST_ARRAY = [];
+          ARTIST_MAP = {};
+          ARTIST_NAME_MAP = {};
+          currentArtistId = null;
+          await initArtistView();
+          toast("Index artiste rechargé.", "success");
+          break;
+
+        case "clear-retro-stream":
+          clearRetroStreamingCache();
           break;
 
         case "prev-week":
@@ -3395,25 +3624,12 @@
           startEnrichment();
           break;
 
-        case "clear-retro-stream":
-          clearRetroStreamingCache();
-          break;
-
         case "list-cache":
           listRetroCache();
           break;
 
         case "clean-cache":
           cleanRetroCache();
-          break;
-
-        case "refresh-artists":
-          artistInitialized = false;
-          ARTIST_INDEX = null;
-          ARTIST_ARRAY = [];
-          currentArtistId = null;
-          await initArtistView();
-          toast("Index artiste rechargé.", "success");
           break;
 
         case "open-artist":
@@ -3423,8 +3639,8 @@
         case "back-artists":
           currentArtistId = null;
           artistDetail.style.display = "none";
-          artistDetailInfo.style.display = "none";
           artistList.style.display = "grid";
+          artistSearch.value = "";
           renderArtistList();
           break;
 
@@ -3432,16 +3648,8 @@
           await goToRetroWeek(actionBtn.dataset.key);
           break;
 
-        case "artist-tunemy":
-          tuneMyMusicArtist(currentArtistId);
-          break;
-
-        case "artist-copy":
-          copyArtistPlaylist(currentArtistId);
-          break;
-
-        case "artist-csv":
-          exportArtistCSV(currentArtistId);
+        case "open-artist-from-credit":
+          await openArtistFromCredit(actionBtn.dataset.credit);
           break;
       }
     });
@@ -3469,15 +3677,16 @@
     retroWeek.addEventListener("change", loadRetroArchiveAuto);
 
     artistSearch.addEventListener("input", () => {
-      artistList.style.display = "grid";
-      artistDetail.style.display = "none";
-      artistDetailInfo.style.display = "none";
-      currentArtistId = null;
-      renderArtistList();
+      if (currentArtistId) {
+        const artist = getArtistById(currentArtistId);
+        if (artist) renderArtistDetail(artist, artistSearch.value);
+      } else {
+        renderArtistList();
+      }
     });
 
-    settingsModal.addEventListener("click", (e) => {
-      if (e.target === settingsModal) closeSettingsModal();
+    drawerOverlay.addEventListener("click", (e) => {
+      if (e.target === drawerOverlay) closeDrawer();
     });
 
     // ===== INITIALISATION =====
@@ -3487,8 +3696,9 @@
 
     applyTheme(savedTheme);
     updateReverseButtons();
+    loadApiKeyIntoDrawer();
     loadChartData();
-    updateActionCounts();
+    updateDrawerContext();
   </script>
 </body>
 </html>
