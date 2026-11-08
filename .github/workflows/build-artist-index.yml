@@ -1,0 +1,55 @@
+name: Build Artist Index
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # 1er dimanche du mois à 19:00 UTC
+    - cron: '0 19 1 * *'
+
+  push:
+    paths:
+      - data/cache/retro_archives.json
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-artist-index
+  cancel-in-progress: false
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build artist index
+        run: |
+          python build_artist_index.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add data/cache/artist_index.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update artist index - $(date +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin main
