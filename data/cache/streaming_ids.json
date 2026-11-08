@@ -6040,6 +6040,829 @@
     "cached_at": "2026-11-07",
     "deezer_id": 4008581661,
     "deezer_url": "https://www.deezer.com/track/4008581661",
-    "artwork": "https://cdn-images.dzcdn.net/images/cover/170ce593eb72101351e55eac07657149/250x250-000000-80-0-0.jpg"
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/170ce593eb72101351e55eac07657149/250x250-000000-80-0-0.jpg",
+    "youtube_id": "3KkCoYA40Ck",
+    "youtube_url": "https://www.youtube.com/watch?v=3KkCoYA40Ck"
+  },
+  "robin s|show me love": {
+    "artist": "ROBIN S",
+    "title": "SHOW ME LOVE",
+    "cached_at": "2026-11-08",
+    "youtube_id": "Ps2Jc28tQrw",
+    "youtube_url": "https://www.youtube.com/watch?v=Ps2Jc28tQrw",
+    "deezer_id": 6628158,
+    "deezer_url": "https://www.deezer.com/track/6628158",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/95e8fd5910548808417046907299f9df/250x250-000000-80-0-0.jpg"
+  },
+  "fontaines dc  rosalia|where is gone": {
+    "artist": "FONTAINES DC & ROSALIA",
+    "title": "WHERE IS GONE",
+    "cached_at": "2026-11-08",
+    "youtube_id": "JxS3kEhO4zk",
+    "youtube_url": "https://www.youtube.com/watch?v=JxS3kEhO4zk",
+    "deezer_id": 4303139282,
+    "deezer_url": "https://www.deezer.com/track/4303139282",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/1c966eee509ca0aef9a0c302d7834512/250x250-000000-80-0-0.jpg"
+  },
+  "fontaines dc|favourite": {
+    "artist": "FONTAINES DC",
+    "title": "FAVOURITE",
+    "cached_at": "2026-11-08",
+    "youtube_id": "0a_vpigwDb4",
+    "youtube_url": "https://www.youtube.com/watch?v=0a_vpigwDb4",
+    "deezer_id": 2928358941,
+    "deezer_url": "https://www.deezer.com/track/2928358941",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/8fd422a840884ba1dfaccc3bb42ad67d/250x250-000000-80-0-0.jpg"
+  },
+  "arctic monkeys|fluorescent adolescent": {
+    "artist": "ARCTIC MONKEYS",
+    "title": "FLUORESCENT ADOLESCENT",
+    "cached_at": "2026-11-08",
+    "youtube_id": "ma9I9VBKPiw",
+    "youtube_url": "https://www.youtube.com/watch?v=ma9I9VBKPiw",
+    "deezer_id": 4637206,
+    "deezer_url": "https://www.deezer.com/track/4637206",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/5f5beea1c209a589796b81dd0d8f86dc/250x250-000000-80-0-0.jpg"
+  },
+  "radiohead|let down": {
+    "artist": "RADIOHEAD",
+    "title": "LET DOWN",
+    "cached_at": "2026-11-08",
+    "youtube_id": "7G83jLIOmDg",
+    "youtube_url": "https://www.youtube.com/watch?v=7G83jLIOmDg",
+    "deezer_id": 138539979,
+    "deezer_url": "https://www.deezer.com/track/138539979",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/05a186e0a859a36f9cd51cdae2158fe1/250x250-000000-80-0-0.jpg"
+  },
+  "bronski beat|smalltown boy": {
+    "artist": "BRONSKI BEAT",
+    "title": "SMALLTOWN BOY",
+    "cached_at": "2026-11-08",
+    "youtube_id": "88sARuFu-tc",
+    "youtube_url": "https://www.youtube.com/watch?v=88sARuFu-tc",
+    "deezer_id": 428735732,
+    "deezer_url": "https://www.deezer.com/track/428735732",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/5656707f92ecf4d061614498b9d926e8/250x250-000000-80-0-0.jpg"
+  },
+  "temper trap|sweet disposition": {
+    "artist": "TEMPER TRAP",
+    "title": "SWEET DISPOSITION",
+    "cached_at": "2026-11-08",
+    "youtube_id": "jxKjOOR9sPU",
+    "youtube_url": "https://www.youtube.com/watch?v=jxKjOOR9sPU",
+    "deezer_id": 3344814521,
+    "deezer_url": "https://www.deezer.com/track/3344814521",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/77fb0848e31500ca7003cb7a65dae835/250x250-000000-80-0-0.jpg"
+  },
+  "fontaines dc|you miss me": {
+    "artist": "FONTAINES DC",
+    "title": "YOU MISS ME",
+    "cached_at": "2026-11-08",
+    "youtube_id": "GPNbnromGgk",
+    "youtube_url": "https://www.youtube.com/watch?v=GPNbnromGgk",
+    "deezer_id": 4303139292,
+    "deezer_url": "https://www.deezer.com/track/4303139292",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/1c966eee509ca0aef9a0c302d7834512/250x250-000000-80-0-0.jpg"
+  },
+  "richard obrien feat patricia quinn|time warp": {
+    "artist": "RICHARD O'BRIEN feat. PATRICIA QUINN",
+    "title": "TIME WARP",
+    "cached_at": "2026-11-08",
+    "youtube_id": "u1O2-oFmWXM",
+    "youtube_url": "https://www.youtube.com/watch?v=u1O2-oFmWXM",
+    "deezer_id": 4208669692,
+    "deezer_url": "https://www.deezer.com/track/4208669692",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/02251e91a67617cb1b9c0c95109687ae/250x250-000000-80-0-0.jpg"
+  },
+  "erasure|a little respect": {
+    "artist": "ERASURE",
+    "title": "A LITTLE RESPECT",
+    "cached_at": "2026-11-08",
+    "youtube_id": "x34icYC8zA0",
+    "youtube_url": "https://www.youtube.com/watch?v=x34icYC8zA0"
+  },
+  "arctic monkeys|i wanna be yours": {
+    "artist": "ARCTIC MONKEYS",
+    "title": "I WANNA BE YOURS",
+    "cached_at": "2026-11-08",
+    "youtube_id": "-cfNldzgYCQ",
+    "youtube_url": "https://www.youtube.com/watch?v=-cfNldzgYCQ",
+    "deezer_id": 70322142,
+    "deezer_url": "https://www.deezer.com/track/70322142",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/64e54e307bd5e2bdb27ffeb662fd910d/250x250-000000-80-0-0.jpg"
+  },
+  "imogen heap|the happy song": {
+    "artist": "IMOGEN HEAP",
+    "title": "THE HAPPY SONG",
+    "cached_at": "2026-11-08",
+    "youtube_id": "9PhtxqKLvVc",
+    "youtube_url": "https://www.youtube.com/watch?v=9PhtxqKLvVc",
+    "deezer_id": 1689221997,
+    "deezer_url": "https://www.deezer.com/track/1689221997",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/36d206131373a030b6a9d21924d992cf/250x250-000000-80-0-0.jpg"
+  },
+  "fontaines dc|roman holiday": {
+    "artist": "FONTAINES DC",
+    "title": "ROMAN HOLIDAY",
+    "cached_at": "2026-11-08",
+    "youtube_id": "yj3oDS6VM2o",
+    "youtube_url": "https://www.youtube.com/watch?v=yj3oDS6VM2o",
+    "deezer_id": 3124676291,
+    "deezer_url": "https://www.deezer.com/track/3124676291",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/dbf4be70179ad4f9341741c207f1cc60/250x250-000000-80-0-0.jpg"
+  },
+  "the addams family feat andrew gold|re": {
+    "artist": "THE ADDAMS FAMILY feat. ANDREW GOLD",
+    "title": "RE",
+    "cached_at": "2026-11-08",
+    "youtube_id": "RPTCIMPjURI",
+    "youtube_url": "https://www.youtube.com/watch?v=RPTCIMPjURI",
+    "deezer_id": 4323426292,
+    "deezer_url": "https://www.deezer.com/track/4323426292",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/956690f4ea205282b397402af3b692a6/250x250-000000-80-0-0.jpg"
+  },
+  "sidepiece feat 95 south|can i ride": {
+    "artist": "SIDEPIECE feat. 95 SOUTH",
+    "title": "CAN I RIDE",
+    "cached_at": "2026-11-08",
+    "youtube_id": "9cXJp5RgpaM",
+    "youtube_url": "https://www.youtube.com/watch?v=9cXJp5RgpaM",
+    "deezer_id": 4058034531,
+    "deezer_url": "https://www.deezer.com/track/4058034531",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/ac1a16f5802c0e1cadca687e8c1b55ac/250x250-000000-80-0-0.jpg"
+  },
+  "halloween theme feat john carpenter|re": {
+    "artist": "HALLOWEEN THEME feat. JOHN CARPENTER",
+    "title": "RE",
+    "cached_at": "2026-11-08",
+    "youtube_id": "pT4FY3NrhGg",
+    "youtube_url": "https://www.youtube.com/watch?v=pT4FY3NrhGg",
+    "deezer_id": 59928951,
+    "deezer_url": "https://www.deezer.com/track/59928951",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/81bd3fb1c6b3fe301bf5a79c84a0439c/250x250-000000-80-0-0.jpg"
+  },
+  "kettama|comes and goes": {
+    "artist": "KETTAMA",
+    "title": "COMES AND GOES",
+    "cached_at": "2026-11-08",
+    "youtube_id": "pVXGDY7vIOM",
+    "youtube_url": "https://www.youtube.com/watch?v=pVXGDY7vIOM",
+    "deezer_id": 4003592211,
+    "deezer_url": "https://www.deezer.com/track/4003592211",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/841e182cae8000024149722e247829a9/250x250-000000-80-0-0.jpg"
+  },
+  "poetically ill|there for you": {
+    "artist": "POETICALLY iLL",
+    "title": "There For You",
+    "cached_at": "2026-11-08",
+    "youtube_id": "_GWozPHnkaU",
+    "youtube_url": "https://www.youtube.com/watch?v=_GWozPHnkaU"
+  },
+  "tattwu design|narcissism": {
+    "artist": "Tattwu Design",
+    "title": "Narcissism",
+    "cached_at": "2026-11-08",
+    "youtube_id": "a0cTuXG6tWk",
+    "youtube_url": "https://www.youtube.com/watch?v=a0cTuXG6tWk"
+  },
+  "shockfactor|she break": {
+    "artist": "shockfactor",
+    "title": "She Break",
+    "cached_at": "2026-11-08",
+    "youtube_id": "U_4NEozVLpU",
+    "youtube_url": "https://www.youtube.com/watch?v=U_4NEozVLpU",
+    "deezer_id": 2392884785,
+    "deezer_url": "https://www.deezer.com/track/2392884785",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/c8a32bd04d2d78ea59fbaa1607d9ec57/250x250-000000-80-0-0.jpg"
+  },
+  "aeriva|cant stop now": {
+    "artist": "Aeriva",
+    "title": "Can't Stop Now",
+    "cached_at": "2026-11-08",
+    "youtube_id": "xhN0yMGkyjI",
+    "youtube_url": "https://www.youtube.com/watch?v=xhN0yMGkyjI",
+    "deezer_id": 4310841642,
+    "deezer_url": "https://www.deezer.com/track/4310841642",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/b4627173517c16a1debd84090b08ad5e/250x250-000000-80-0-0.jpg"
+  },
+  "queen|bohemian rhapsody": {
+    "artist": "Queen",
+    "title": "Bohemian Rhapsody",
+    "cached_at": "2026-11-08",
+    "youtube_id": "fJ9rUzIMcZQ",
+    "youtube_url": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+    "deezer_id": 4091937401,
+    "deezer_url": "https://www.deezer.com/track/4091937401",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/0b56f4eee05fa1ea753c5654b2cdb70c/250x250-000000-80-0-0.jpg"
+  },
+  "kimo sounds|two days": {
+    "artist": "Kimo Sounds",
+    "title": "Two Days",
+    "cached_at": "2026-11-08",
+    "youtube_id": "CD4_f5zeZsc",
+    "youtube_url": "https://www.youtube.com/watch?v=CD4_f5zeZsc",
+    "deezer_id": 4288394052,
+    "deezer_url": "https://www.deezer.com/track/4288394052",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/3e11a3b34548c5ee9101f3645e9ce686/250x250-000000-80-0-0.jpg"
+  },
+  "alannah myles|black velvet": {
+    "artist": "Alannah Myles",
+    "title": "Black Velvet",
+    "cached_at": "2026-11-08",
+    "youtube_id": "tT4d1LQy4es",
+    "youtube_url": "https://www.youtube.com/watch?v=tT4d1LQy4es",
+    "deezer_id": 101739933,
+    "deezer_url": "https://www.deezer.com/track/101739933",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/9ad0fcd99117625622f3d5392d49b163/250x250-000000-80-0-0.jpg"
+  },
+  "heart|alone": {
+    "artist": "Heart",
+    "title": "Alone",
+    "cached_at": "2026-11-08",
+    "youtube_id": "1Cw1ng75KP0",
+    "youtube_url": "https://www.youtube.com/watch?v=1Cw1ng75KP0",
+    "deezer_id": 3127630,
+    "deezer_url": "https://www.deezer.com/track/3127630",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/13bf5742cd2f2a8f3fcee8460d03817f/250x250-000000-80-0-0.jpg"
+  },
+  "karussell|als ich fortging": {
+    "artist": "Karussell",
+    "title": "Als ich fortging",
+    "cached_at": "2026-11-08",
+    "youtube_id": "R-7V0IDmb_4",
+    "youtube_url": "https://www.youtube.com/watch?v=R-7V0IDmb_4",
+    "deezer_id": 2224991,
+    "deezer_url": "https://www.deezer.com/track/2224991",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/da202763ea89b95932ef6249775bec7d/250x250-000000-80-0-0.jpg"
+  },
+  "tina turner  eros ramazzotti|cose della vita": {
+    "artist": "Tina Turner & Eros Ramazzotti",
+    "title": "Cose Della Vita",
+    "cached_at": "2026-11-08",
+    "youtube_id": "96AKIuwaDCw",
+    "youtube_url": "https://www.youtube.com/watch?v=96AKIuwaDCw",
+    "deezer_id": 963508,
+    "deezer_url": "https://www.deezer.com/track/963508",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/f49ddc1c6e8fab81f43a29ce6bce8d84/250x250-000000-80-0-0.jpg"
+  },
+  "orda|what remains": {
+    "artist": "ORDA",
+    "title": "What Remains",
+    "cached_at": "2026-11-08",
+    "youtube_id": "hUq1fW7t9dw",
+    "youtube_url": "https://www.youtube.com/watch?v=hUq1fW7t9dw",
+    "deezer_id": 4389351591,
+    "deezer_url": "https://www.deezer.com/track/4389351591",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/8917a6104e7b8996081da3be5ca38112/250x250-000000-80-0-0.jpg"
+  },
+  "bearytunes|ich bin genug": {
+    "artist": "BearyTunes",
+    "title": "Ich bin genug",
+    "cached_at": "2026-11-08",
+    "youtube_id": "alQ8UqDWslU",
+    "youtube_url": "https://www.youtube.com/watch?v=alQ8UqDWslU",
+    "deezer_id": 4122576811,
+    "deezer_url": "https://www.deezer.com/track/4122576811",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/ab91f354ee23055646018ed6416cbb1d/250x250-000000-80-0-0.jpg"
+  },
+  "andreas bourani|auf uns": {
+    "artist": "Andreas Bourani",
+    "title": "Auf uns",
+    "cached_at": "2026-11-08",
+    "youtube_id": "k9EYjn5f_nE",
+    "youtube_url": "https://www.youtube.com/watch?v=k9EYjn5f_nE",
+    "deezer_id": 77045434,
+    "deezer_url": "https://www.deezer.com/track/77045434",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/d31be1f2910db72c6964c8c0921d81e7/250x250-000000-80-0-0.jpg"
+  },
+  "pink floyd|wish you were here": {
+    "artist": "Pink Floyd",
+    "title": "Wish You Were Here",
+    "cached_at": "2026-11-08",
+    "youtube_id": "K6qj09OHvjw",
+    "youtube_url": "https://www.youtube.com/watch?v=K6qj09OHvjw",
+    "deezer_id": 116914042,
+    "deezer_url": "https://www.deezer.com/track/116914042",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/cb029c785b8d0cd624ddee9d4127ceff/250x250-000000-80-0-0.jpg"
+  },
+  "the verve|bitter sweet symphony": {
+    "artist": "The Verve",
+    "title": "Bitter Sweet Symphony",
+    "cached_at": "2026-11-08",
+    "youtube_id": "1lyu1KKwC74",
+    "youtube_url": "https://www.youtube.com/watch?v=1lyu1KKwC74",
+    "deezer_id": 398570642,
+    "deezer_url": "https://www.deezer.com/track/398570642",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/ecc7727e897198892b98e7c019fba45f/250x250-000000-80-0-0.jpg"
+  },
+  "summer cem  shirin david|mo money mo haters": {
+    "artist": "Summer Cem & Shirin David",
+    "title": "MO' MONEY MO' HATERS",
+    "cached_at": "2026-11-08",
+    "youtube_id": "kA3UrPLlF8k",
+    "youtube_url": "https://www.youtube.com/watch?v=kA3UrPLlF8k",
+    "deezer_id": 4191755182,
+    "deezer_url": "https://www.deezer.com/track/4191755182",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/5bba20e16e3a7755de5200ef2b9b744d/250x250-000000-80-0-0.jpg"
+  },
+  "peter fox|haus am see": {
+    "artist": "Peter Fox",
+    "title": "Haus am See",
+    "cached_at": "2026-11-08",
+    "youtube_id": "qdtLCfEcPL4",
+    "youtube_url": "https://www.youtube.com/watch?v=qdtLCfEcPL4",
+    "deezer_id": 2200206,
+    "deezer_url": "https://www.deezer.com/track/2200206",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/6ace32e7503ad1dcf9177de09a248c11/250x250-000000-80-0-0.jpg"
+  },
+  "benny benassi|love is gonna save us": {
+    "artist": "Benny Benassi",
+    "title": "Love Is Gonna Save Us",
+    "cached_at": "2026-11-08",
+    "youtube_id": "0IHbz4e3BO8",
+    "youtube_url": "https://www.youtube.com/watch?v=0IHbz4e3BO8"
+  },
+  "yello|break out": {
+    "artist": "Yello",
+    "title": "Break Out",
+    "cached_at": "2026-11-08",
+    "youtube_id": "5FVj4SWNVTs",
+    "youtube_url": "https://www.youtube.com/watch?v=5FVj4SWNVTs",
+    "deezer_id": 4256911541,
+    "deezer_url": "https://www.deezer.com/track/4256911541",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/9da6554dda1ed0c941a6919e71a30144/250x250-000000-80-0-0.jpg"
+  },
+  "gener8ion  yung lean|storm ii": {
+    "artist": "GENER8ION & Yung Lean",
+    "title": "STORM II",
+    "cached_at": "2026-11-08",
+    "youtube_id": "Szu8fRyLmJM",
+    "youtube_url": "https://www.youtube.com/watch?v=Szu8fRyLmJM",
+    "deezer_id": 3937217881,
+    "deezer_url": "https://www.deezer.com/track/3937217881",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/ea9782202a27ecb386625846177f8f30/250x250-000000-80-0-0.jpg"
+  },
+  "u2|one": {
+    "artist": "U2",
+    "title": "One",
+    "cached_at": "2026-11-08",
+    "deezer_id": 14343282,
+    "deezer_url": "https://www.deezer.com/track/14343282",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/64b797ea83d52f3869593a448c790a4d/250x250-000000-80-0-0.jpg"
+  },
+  "frida gold  jupiter jones|beweis": {
+    "artist": "FRIDA GOLD & Jupiter Jones",
+    "title": "Beweis",
+    "cached_at": "2026-11-08",
+    "deezer_id": 4045746561,
+    "deezer_url": "https://www.deezer.com/track/4045746561"
+  },
+  "sinãad oconnor|nothing compares 2 u": {
+    "artist": "SinÃ©ad O'Connor",
+    "title": "Nothing Compares 2 U",
+    "cached_at": "2026-11-08",
+    "deezer_id": 1787569267,
+    "deezer_url": "https://www.deezer.com/track/1787569267",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/a68ab9a9117ac3cdb5fa7bff758f935f/250x250-000000-80-0-0.jpg"
+  },
+  "mc ryan sp mc lele jp zanolini mc luuky dj andreoli mc jacaré|menos foco mais ansiedade": {
+    "artist": "MC Ryan SP, MC Lele JP, ZANOLINI, MC LUUKY, DJ Andreoli, MC Jacaré",
+    "title": "Menos Foco Mais Ansiedade",
+    "cached_at": "2026-11-08",
+    "youtube_id": "NK4H4G13bZc",
+    "youtube_url": "https://www.youtube.com/watch?v=NK4H4G13bZc",
+    "deezer_id": 4264132152,
+    "deezer_url": "https://www.deezer.com/track/4264132152",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/ab7790ac0e223755591ab628456203a4/250x250-000000-80-0-0.jpg"
+  },
+  "júnior e cézar|cheiro de culpado": {
+    "artist": "Júnior e Cézar",
+    "title": "Cheiro De Culpado",
+    "cached_at": "2026-11-08",
+    "youtube_id": "gWYIo3l1oQ4",
+    "youtube_url": "https://www.youtube.com/watch?v=gWYIo3l1oQ4",
+    "deezer_id": 3638422822,
+    "deezer_url": "https://www.deezer.com/track/3638422822",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/69e0ffc4c867729999eac3fdd2a7afac/250x250-000000-80-0-0.jpg"
+  },
+  "20|pos máxima": {
+    "artist": "20",
+    "title": "Pos. Máxima",
+    "cached_at": "2026-11-08",
+    "youtube_id": "tlfcsqEjpwo",
+    "youtube_url": "https://www.youtube.com/watch?v=tlfcsqEjpwo",
+    "deezer_id": 928349,
+    "deezer_url": "https://www.deezer.com/track/928349",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/111613309ef0580c56b92553fdc62b8c/250x250-000000-80-0-0.jpg"
+  },
+  "pedro e benicio|lembrança boa": {
+    "artist": "Pedro e Benicio",
+    "title": "Lembrança Boa",
+    "cached_at": "2026-11-08",
+    "youtube_id": "6ruV4VZQliI",
+    "youtube_url": "https://www.youtube.com/watch?v=6ruV4VZQliI",
+    "deezer_id": 3984420331,
+    "deezer_url": "https://www.deezer.com/track/3984420331",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/cc742f7eeddcf5f8aea9ed5b5020e492/250x250-000000-80-0-0.jpg"
+  },
+  "prismah|solinho do fora pt": {
+    "artist": "Prismah",
+    "title": "Solinho do Fora PT",
+    "cached_at": "2026-11-08",
+    "youtube_id": "VGvu1jH-INE",
+    "youtube_url": "https://www.youtube.com/watch?v=VGvu1jH-INE",
+    "deezer_id": 4318073342,
+    "deezer_url": "https://www.deezer.com/track/4318073342",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/340dbe5134d4715b95877232d89900e8/250x250-000000-80-0-0.jpg"
+  },
+  "zé neto e cristiano|plano c": {
+    "artist": "Zé Neto e Cristiano",
+    "title": "Plano C",
+    "cached_at": "2026-11-08",
+    "youtube_id": "J_2EgtODGt4",
+    "youtube_url": "https://www.youtube.com/watch?v=J_2EgtODGt4",
+    "deezer_id": 4053915961,
+    "deezer_url": "https://www.deezer.com/track/4053915961",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/1a07a2b0a950baa2953d75ffc2f765e4/250x250-000000-80-0-0.jpg"
+  },
+  "18|pos máxima": {
+    "artist": "18",
+    "title": "Pos. Máxima",
+    "cached_at": "2026-11-08",
+    "youtube_id": "3_AJGIxcrsU",
+    "youtube_url": "https://www.youtube.com/watch?v=3_AJGIxcrsU",
+    "deezer_id": 762832,
+    "deezer_url": "https://www.deezer.com/track/762832",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/2a7fc01ad62c7cc2bb1cc0af3dec4f65/250x250-000000-80-0-0.jpg"
+  },
+  "23|pos máxima": {
+    "artist": "23",
+    "title": "Pos. Máxima",
+    "cached_at": "2026-11-08",
+    "youtube_id": "222H4BDn5vs",
+    "youtube_url": "https://www.youtube.com/watch?v=222H4BDn5vs"
+  },
+  "ícaro e gilmar|imagina você": {
+    "artist": "Ícaro e Gilmar",
+    "title": "Imagina Você,",
+    "cached_at": "2026-11-08",
+    "youtube_id": "I0xFOKAtkMU",
+    "youtube_url": "https://www.youtube.com/watch?v=I0xFOKAtkMU",
+    "deezer_id": 4247950341,
+    "deezer_url": "https://www.deezer.com/track/4247950341",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/25a054cbb75adfa0c3c17985ca264bfd/250x250-000000-80-0-0.jpg"
+  },
+  "mc ryan sp mc lele jp mc meno k dj glenner dj daltin no beat nego trufa mc jvila|bandoleira": {
+    "artist": "MC Ryan SP, MC Lele JP, MC Meno K, DJ Glenner, DJ Daltin No Beat, Nego Trufa, MC Jvila",
+    "title": "Bandoleira",
+    "cached_at": "2026-11-08",
+    "youtube_id": "cWlBXqplRRY",
+    "youtube_url": "https://www.youtube.com/watch?v=cWlBXqplRRY"
+  },
+  "mc iguinho ct|grwm": {
+    "artist": "MC Iguinho CT",
+    "title": "GRWM",
+    "cached_at": "2026-11-08",
+    "youtube_id": "RybsazDc0NY",
+    "youtube_url": "https://www.youtube.com/watch?v=RybsazDc0NY",
+    "deezer_id": 4217623972,
+    "deezer_url": "https://www.deezer.com/track/4217623972",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/81cf25b652553771e16a415eb8450e84/250x250-000000-80-0-0.jpg"
+  },
+  "joão gustavo e murilo|nem balancei": {
+    "artist": "João Gustavo e Murilo",
+    "title": "Nem Balancei",
+    "cached_at": "2026-11-08",
+    "youtube_id": "n1T_FGV8MiI",
+    "youtube_url": "https://www.youtube.com/watch?v=n1T_FGV8MiI",
+    "deezer_id": 4309649102,
+    "deezer_url": "https://www.deezer.com/track/4309649102",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/6ad06871427ad7a583633f24e49f1e5f/250x250-000000-80-0-0.jpg"
+  },
+  "countrybeat|pegada bruta": {
+    "artist": "CountryBeat",
+    "title": "Pegada Bruta",
+    "cached_at": "2026-11-08",
+    "youtube_id": "9sq_PuUWc1k",
+    "youtube_url": "https://www.youtube.com/watch?v=9sq_PuUWc1k",
+    "deezer_id": 4297867872,
+    "deezer_url": "https://www.deezer.com/track/4297867872",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/4ed29242e80e4720ff01da947590f8be/250x250-000000-80-0-0.jpg"
+  },
+  "36|pos máxima": {
+    "artist": "36",
+    "title": "Pos. Máxima",
+    "cached_at": "2026-11-08",
+    "youtube_id": "sK9JrvYKiYk",
+    "youtube_url": "https://www.youtube.com/watch?v=sK9JrvYKiYk"
+  },
+  "diego e victor hugo|tubarões": {
+    "artist": "Diego e Victor Hugo",
+    "title": "Tubarões",
+    "cached_at": "2026-11-08",
+    "youtube_id": "10XarNSkw0s",
+    "youtube_url": "https://www.youtube.com/watch?v=10XarNSkw0s",
+    "deezer_id": 3648749602,
+    "deezer_url": "https://www.deezer.com/track/3648749602",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/986eeed46b43643964c9e8ec618876a1/250x250-000000-80-0-0.jpg"
+  },
+  "33|pos máxima": {
+    "artist": "33",
+    "title": "Pos. Máxima",
+    "cached_at": "2026-11-08",
+    "youtube_id": "GgxcvmkPD-I",
+    "youtube_url": "https://www.youtube.com/watch?v=GgxcvmkPD-I",
+    "deezer_id": 762832,
+    "deezer_url": "https://www.deezer.com/track/762832",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/2a7fc01ad62c7cc2bb1cc0af3dec4f65/250x250-000000-80-0-0.jpg"
+  },
+  "mc neguinho do morro  mc nina mc neguinho do morro mc nina|quando eu tomo gin de 10": {
+    "artist": "MC Neguinho Do Morro & MC Nina, MC Neguinho Do Morro, MC Nina",
+    "title": "QUANDO EU TOMO GIN DE 10",
+    "cached_at": "2026-11-08",
+    "youtube_id": "LgA0ztLS9WM",
+    "youtube_url": "https://www.youtube.com/watch?v=LgA0ztLS9WM",
+    "deezer_id": 3656617832,
+    "deezer_url": "https://www.deezer.com/track/3656617832",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/58f623536e5a5491bdb2ea3f63f63705/250x250-000000-80-0-0.jpg"
+  },
+  "mc ig|mente barulhenta": {
+    "artist": "MC IG",
+    "title": "Mente Barulhenta",
+    "cached_at": "2026-11-08",
+    "youtube_id": "gv_zam5wWKs",
+    "youtube_url": "https://www.youtube.com/watch?v=gv_zam5wWKs",
+    "deezer_id": 3913744081,
+    "deezer_url": "https://www.deezer.com/track/3913744081",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/cf552036cab93366e7b408de225723b8/250x250-000000-80-0-0.jpg"
+  },
+  "37|pos máxima": {
+    "artist": "37",
+    "title": "Pos. Máxima",
+    "cached_at": "2026-11-08",
+    "youtube_id": "uxCUJIeac8I",
+    "youtube_url": "https://www.youtube.com/watch?v=uxCUJIeac8I"
+  },
+  "julliany souza|ah jesus  coração igual ao teu": {
+    "artist": "Julliany Souza",
+    "title": "AH, JESUS / CORAÇÃO IGUAL AO TEU",
+    "cached_at": "2026-11-08",
+    "deezer_id": 3997639031,
+    "deezer_url": "https://www.deezer.com/track/3997639031",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/3ada67b05f133d5120cb1fa389690a45/250x250-000000-80-0-0.jpg"
+  },
+  "zezé di camargo e luciano|irmão da lua amigo das estrelas": {
+    "artist": "Zezé Di Camargo e Luciano",
+    "title": "Irmão da Lua, Amigo das Estrelas",
+    "cached_at": "2026-11-08",
+    "deezer_id": 70581197,
+    "deezer_url": "https://www.deezer.com/track/70581197",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/666ec54915003441e3dfb52402b491fd/250x250-000000-80-0-0.jpg"
+  },
+  "mc leozin mc ryan sp mc lele jp mc bruninho da praia dj daltin no beat mc jvila|set boca 09": {
+    "artist": "MC Leozin, MC Ryan SP, MC Lele JP, MC Bruninho Da Praia, DJ Daltin No Beat, MC Jvila",
+    "title": "SET BOCA 09",
+    "cached_at": "2026-11-08",
+    "deezer_id": 4232249262,
+    "deezer_url": "https://www.deezer.com/track/4232249262",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/e9cbf4117c191de0af39d67c325100b4/250x250-000000-80-0-0.jpg"
+  },
+  "jorge e mateus|primavera": {
+    "artist": "Jorge e Mateus",
+    "title": "Primavera",
+    "cached_at": "2026-11-08",
+    "deezer_id": 4339268202,
+    "deezer_url": "https://www.deezer.com/track/4339268202",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/c900a2f47f0a8b6c9e0492a6e7f56009/250x250-000000-80-0-0.jpg"
+  },
+  "danilo e davi|apaga apaga apaga": {
+    "artist": "Danilo e Davi",
+    "title": "Apaga Apaga Apaga",
+    "cached_at": "2026-11-08",
+    "deezer_id": 2916157971,
+    "deezer_url": "https://www.deezer.com/track/2916157971",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/d4e4301b5eb92858143cb5c7f35aa417/250x250-000000-80-0-0.jpg"
+  },
+  "liu yu ning|无明宙": {
+    "artist": "Liu Yu Ning",
+    "title": "无明宙 (Live)",
+    "cached_at": "2026-11-08",
+    "youtube_id": "bOwOwR00cYI",
+    "youtube_url": "https://www.youtube.com/watch?v=bOwOwR00cYI"
+  },
+  "zhang yuan|面目全非": {
+    "artist": "Zhang Yuan",
+    "title": "面目全非",
+    "cached_at": "2026-11-08",
+    "youtube_id": "F0hDZDy1J-U",
+    "youtube_url": "https://www.youtube.com/watch?v=F0hDZDy1J-U",
+    "deezer_id": 4351497002,
+    "deezer_url": "https://www.deezer.com/track/4351497002",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/8998638f415384b9ce2b1dd1f7ccb8be/250x250-000000-80-0-0.jpg"
+  },
+  "a2o  a2o lite|neon": {
+    "artist": "A2O & A2O LITE",
+    "title": "NEON",
+    "cached_at": "2026-11-08",
+    "youtube_id": "KGK2KZOFAPE",
+    "youtube_url": "https://www.youtube.com/watch?v=KGK2KZOFAPE",
+    "deezer_id": 4335117432,
+    "deezer_url": "https://www.deezer.com/track/4335117432",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/132d558f1e2a2de2764328bcdf4f72bb/250x250-000000-80-0-0.jpg"
+  },
+  "don miguelo|y qué fue": {
+    "artist": "Don Miguelo",
+    "title": "Y Qué Fue?",
+    "cached_at": "2026-11-08",
+    "youtube_id": "MD_GclD50QU",
+    "youtube_url": "https://www.youtube.com/watch?v=MD_GclD50QU",
+    "deezer_id": 2463676415,
+    "deezer_url": "https://www.deezer.com/track/2463676415",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/c11c34a8fd2eb17d0ccdd3a77487c483/250x250-000000-80-0-0.jpg"
+  },
+  "ed sheeran|photograph": {
+    "artist": "Ed Sheeran",
+    "title": "Photograph",
+    "cached_at": "2026-11-08",
+    "youtube_id": "nSDgHBxUbVQ",
+    "youtube_url": "https://www.youtube.com/watch?v=nSDgHBxUbVQ",
+    "deezer_id": 79875054,
+    "deezer_url": "https://www.deezer.com/track/79875054",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/b1d763da698c38bde6a526c8220ca0ea/250x250-000000-80-0-0.jpg"
+  },
+  "harold faltermeyer  steve stevens|top gun anthem": {
+    "artist": "Harold Faltermeyer & Steve Stevens",
+    "title": "Top Gun Anthem",
+    "cached_at": "2026-11-08",
+    "youtube_id": "wpvAKF00VNI",
+    "youtube_url": "https://www.youtube.com/watch?v=wpvAKF00VNI",
+    "deezer_id": 2247362697,
+    "deezer_url": "https://www.deezer.com/track/2247362697",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/2dd5248289c5ca22902289906a9ace84/250x250-000000-80-0-0.jpg"
+  },
+  "wang ok  李天责|before spring ends": {
+    "artist": "Wang OK & 李天责",
+    "title": "Before spring ends",
+    "cached_at": "2026-11-08",
+    "youtube_id": "tX4rUDi_ER4",
+    "youtube_url": "https://www.youtube.com/watch?v=tX4rUDi_ER4"
+  },
+  "错别字|牡丹亭": {
+    "artist": "错别字",
+    "title": "牡丹亭 (不肯回头dj版)",
+    "cached_at": "2026-11-08",
+    "youtube_id": "47XRRbm3jck",
+    "youtube_url": "https://www.youtube.com/watch?v=47XRRbm3jck"
+  },
+  "nazareth|love hurts": {
+    "artist": "Nazareth",
+    "title": "Love Hurts (Single Edit)",
+    "cached_at": "2026-11-08",
+    "youtube_id": "WUff6gpqd8s",
+    "youtube_url": "https://www.youtube.com/watch?v=WUff6gpqd8s",
+    "deezer_id": 1855566,
+    "deezer_url": "https://www.deezer.com/track/1855566",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/e4723a0862954e6adad912534f77274d/250x250-000000-80-0-0.jpg"
+  },
+  "drake|nokia": {
+    "artist": "Drake",
+    "title": "NOKIA",
+    "cached_at": "2026-11-08",
+    "youtube_id": "8ekJMC8OtGU",
+    "youtube_url": "https://www.youtube.com/watch?v=8ekJMC8OtGU",
+    "deezer_id": 4295078752,
+    "deezer_url": "https://www.deezer.com/track/4295078752",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/2f2f706059ac2ada8587fa0799ff8fbd/250x250-000000-80-0-0.jpg"
+  },
+  "justin bieber|overboard": {
+    "artist": "Justin Bieber",
+    "title": "Overboard (feat. Jessica Jarrell)",
+    "cached_at": "2026-11-08",
+    "youtube_id": "VtkY7LsCSy8",
+    "youtube_url": "https://www.youtube.com/watch?v=VtkY7LsCSy8",
+    "deezer_id": 5606975,
+    "deezer_url": "https://www.deezer.com/track/5606975",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/39aa26b45fa69cd89b8ef1a46f106c43/250x250-000000-80-0-0.jpg"
+  },
+  "ellie goulding|love me like you do": {
+    "artist": "Ellie Goulding",
+    "title": "Love Me Like You Do (From \"Fifty Shades of Grey\")",
+    "cached_at": "2026-11-08",
+    "youtube_id": "AJtDXIazrMo",
+    "youtube_url": "https://www.youtube.com/watch?v=AJtDXIazrMo",
+    "deezer_id": 111780476,
+    "deezer_url": "https://www.deezer.com/track/111780476",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/a4f27af1979fea932093403aa14e549c/250x250-000000-80-0-0.jpg"
+  },
+  "eightor|趁我們還想去": {
+    "artist": "Eightor",
+    "title": "趁我們還想去",
+    "cached_at": "2026-11-08",
+    "youtube_id": "AVuCKmB5HsE",
+    "youtube_url": "https://www.youtube.com/watch?v=AVuCKmB5HsE",
+    "deezer_id": 4293654152,
+    "deezer_url": "https://www.deezer.com/track/4293654152",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/479020dbf0843cc41584724fbab87a31/250x250-000000-80-0-0.jpg"
+  },
+  "4 non blondes|whats up": {
+    "artist": "4 Non Blondes",
+    "title": "What's Up?",
+    "cached_at": "2026-11-08",
+    "youtube_id": "6NXnxTNIWkc",
+    "youtube_url": "https://www.youtube.com/watch?v=6NXnxTNIWkc",
+    "deezer_id": 2184743,
+    "deezer_url": "https://www.deezer.com/track/2184743",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/22ab04ebf46e75a8c2c83a774c8831a8/250x250-000000-80-0-0.jpg"
+  },
+  "jess lee|失忆": {
+    "artist": "Jess Lee",
+    "title": "失忆",
+    "cached_at": "2026-11-08",
+    "youtube_id": "fUUOAfRNmjg",
+    "youtube_url": "https://www.youtube.com/watch?v=fUUOAfRNmjg",
+    "deezer_id": 14662164,
+    "deezer_url": "https://www.deezer.com/track/14662164",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/706f4e2ac796f0d1644d764f0ac77701/250x250-000000-80-0-0.jpg"
+  },
+  "phil chang|月亮惹的禍": {
+    "artist": "Phil Chang",
+    "title": "月亮惹的禍",
+    "cached_at": "2026-11-08",
+    "youtube_id": "QZ62fxkuDJE",
+    "youtube_url": "https://www.youtube.com/watch?v=QZ62fxkuDJE"
+  },
+  "wings|sejati": {
+    "artist": "Wings",
+    "title": "Sejati",
+    "cached_at": "2026-11-08",
+    "youtube_id": "2iQ7VE-H3Rg",
+    "youtube_url": "https://www.youtube.com/watch?v=2iQ7VE-H3Rg",
+    "deezer_id": 2751407681,
+    "deezer_url": "https://www.deezer.com/track/2751407681",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/5b21635889e339339112beac02a06425/250x250-000000-80-0-0.jpg"
+  },
+  "marino|im doing fine": {
+    "artist": "Marino",
+    "title": "Im Doing Fine",
+    "cached_at": "2026-11-08",
+    "youtube_id": "yzNXsn68lGs",
+    "youtube_url": "https://www.youtube.com/watch?v=yzNXsn68lGs",
+    "deezer_id": 3156646311,
+    "deezer_url": "https://www.deezer.com/track/3156646311",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/c797ea934c9665d56fc72bbf521e1a1f/250x250-000000-80-0-0.jpg"
+  },
+  "诺一 roy|斷線": {
+    "artist": "诺一 Roy",
+    "title": "斷線",
+    "cached_at": "2026-11-08",
+    "youtube_id": "5GpDc8e5BAA",
+    "youtube_url": "https://www.youtube.com/watch?v=5GpDc8e5BAA"
+  },
+  "是沛沛呀|你我怎么两清": {
+    "artist": "是沛沛呀",
+    "title": "你我怎么两清 (甲乙丙丁)",
+    "cached_at": "2026-11-08",
+    "youtube_id": "PA6glQqa0t0",
+    "youtube_url": "https://www.youtube.com/watch?v=PA6glQqa0t0"
+  },
+  "tia ray|寸寸": {
+    "artist": "TIA RAY",
+    "title": "寸寸 (《嫁金钗》电视剧魏娆·蜕变曲/片尾曲)",
+    "cached_at": "2026-11-08",
+    "deezer_id": 3495366441,
+    "deezer_url": "https://www.deezer.com/track/3495366441",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/4c37f01581220583a58200d6fba91e1e/250x250-000000-80-0-0.jpg"
+  },
+  "yiruma|kiss the rain": {
+    "artist": "Yiruma",
+    "title": "Kiss the Rain",
+    "cached_at": "2026-11-08",
+    "deezer_id": 717930212,
+    "deezer_url": "https://www.deezer.com/track/717930212",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/85f58160c587665084ab9cd0b012f005/250x250-000000-80-0-0.jpg"
+  },
+  "moon sujin|stay awake": {
+    "artist": "Moon Sujin",
+    "title": "Stay Awake (Doctor X : Mafia in White : Original Television Soundtrack)",
+    "cached_at": "2026-11-08",
+    "deezer_id": 4319315972,
+    "deezer_url": "https://www.deezer.com/track/4319315972",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/dbeb37f9c0f08632b7113596ddff40c0/250x250-000000-80-0-0.jpg"
+  },
+  "bts|hooligan": {
+    "artist": "BTS",
+    "title": "Hooligan",
+    "cached_at": "2026-11-08",
+    "deezer_id": 3907717201,
+    "deezer_url": "https://www.deezer.com/track/3907717201",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/a3b8e9462db0c02e082c706c624f9811/250x250-000000-80-0-0.jpg"
+  },
+  "depeche mode|just cant get enough": {
+    "artist": "Depeche Mode",
+    "title": "Just Can't Get Enough",
+    "cached_at": "2026-11-08",
+    "deezer_id": 68513610,
+    "deezer_url": "https://www.deezer.com/track/68513610",
+    "artwork": "https://cdn-images.dzcdn.net/images/cover/55972109f7c4049deb78402a94ee3b7b/250x250-000000-80-0-0.jpg"
   }
 }
