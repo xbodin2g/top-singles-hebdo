@@ -6,7 +6,7 @@
     "updatedAt": "2026-11-08",
     "sourceNote": "✅ Toutes les sources : 8 tops collectés.",
     "hasStreamingIds": true,
-    "cacheSize": 722
+    "cacheSize": 776
   },
   "countries": {
     "us": {
@@ -6747,10 +6747,10 @@
           "weeksOnChart": 1,
           "peakPosition": 118,
           "source": "kworb_itunes",
-          "deezer_id": 1787569267,
-          "deezer_url": "https://www.deezer.com/track/1787569267",
           "youtube_id": "0-EF60neguk",
-          "youtube_url": "https://www.youtube.com/watch?v=0-EF60neguk"
+          "youtube_url": "https://www.youtube.com/watch?v=0-EF60neguk",
+          "deezer_id": 1787569267,
+          "deezer_url": "https://www.deezer.com/track/1787569267"
         },
         {
           "position": 119,
@@ -7678,7 +7678,9 @@
           "peakPosition": 174,
           "source": "kworb_itunes",
           "deezer_id": 13141170,
-          "deezer_url": "https://www.deezer.com/track/13141170"
+          "deezer_url": "https://www.deezer.com/track/13141170",
+          "youtube_id": "4fndeDfaWCg",
+          "youtube_url": "https://www.youtube.com/watch?v=4fndeDfaWCg"
         },
         {
           "position": 175,
@@ -7792,19 +7794,26 @@
           "peakPosition": 181,
           "source": "kworb_itunes",
           "deezer_id": 114788676,
-          "deezer_url": "https://www.deezer.com/track/114788676"
+          "deezer_url": "https://www.deezer.com/track/114788676",
+          "youtube_id": "PvzpzmNpyzw",
+          "youtube_url": "https://www.youtube.com/watch?v=PvzpzmNpyzw"
         },
         {
           "position": 182,
           "track": {
             "title": "Golden Summer",
-            "artist": "Loi & David Puentez"
+            "artist": "Loi & David Puentez",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/32609148551807edfca8cb0334419e70/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 182,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 182,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "82sFvFiy-Fs",
+          "youtube_url": "https://www.youtube.com/watch?v=82sFvFiy-Fs",
+          "deezer_id": 4094497761,
+          "deezer_url": "https://www.deezer.com/track/4094497761"
         },
         {
           "position": 183,
@@ -7833,7 +7842,9 @@
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 184,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "IFZqDcFU4Ow",
+          "youtube_url": "https://www.youtube.com/watch?v=IFZqDcFU4Ow"
         },
         {
           "position": 185,
@@ -7862,7 +7873,9 @@
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 186,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "4C9i8E05bgI",
+          "youtube_url": "https://www.youtube.com/watch?v=4C9i8E05bgI"
         },
         {
           "position": 187,
@@ -7882,37 +7895,52 @@
           "position": 188,
           "track": {
             "title": "Bed of Roses",
-            "artist": "Bon Jovi"
+            "artist": "Bon Jovi",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/4a2821c5cfa61955ddd982c15cc21882/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 188,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 188,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "NvR60Wg9R7Q",
+          "youtube_url": "https://www.youtube.com/watch?v=NvR60Wg9R7Q",
+          "deezer_id": 74628110,
+          "deezer_url": "https://www.deezer.com/track/74628110"
         },
         {
           "position": 189,
           "track": {
             "title": "In the Air Tonight",
-            "artist": "Phil Collins"
+            "artist": "Phil Collins",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/73e6481676a8ab3e93f0f7b79a9cff68/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 189,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 189,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "YkADj0TPrJA",
+          "youtube_url": "https://www.youtube.com/watch?v=YkADj0TPrJA",
+          "deezer_id": 134036212,
+          "deezer_url": "https://www.deezer.com/track/134036212"
         },
         {
           "position": 190,
           "track": {
             "title": "America (Gold)",
-            "artist": "Gianna Nannini"
+            "artist": "Gianna Nannini",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/a985208a01fd7dae7a1fea5e3140fc6e/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 190,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 190,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "fqKXubPjC6Q",
+          "youtube_url": "https://www.youtube.com/watch?v=fqKXubPjC6Q",
+          "deezer_id": 4016824171,
+          "deezer_url": "https://www.deezer.com/track/4016824171"
         },
         {
           "position": 191,
@@ -7927,19 +7955,26 @@
           "peakPosition": 191,
           "source": "kworb_itunes",
           "deezer_id": 14343282,
-          "deezer_url": "https://www.deezer.com/track/14343282"
+          "deezer_url": "https://www.deezer.com/track/14343282",
+          "youtube_id": "ftjEcrrf7r0",
+          "youtube_url": "https://www.youtube.com/watch?v=ftjEcrrf7r0"
         },
         {
           "position": 192,
           "track": {
             "title": "WHY DON'T YOU STAY",
-            "artist": "Nico Santos"
+            "artist": "Nico Santos",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/fb7891e996351313952bdf478f633c92/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 192,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 192,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "UK1vGFhbVN0",
+          "youtube_url": "https://www.youtube.com/watch?v=UK1vGFhbVN0",
+          "deezer_id": 4110195141,
+          "deezer_url": "https://www.deezer.com/track/4110195141"
         },
         {
           "position": 193,
@@ -7953,7 +7988,9 @@
           "peakPosition": 193,
           "source": "kworb_itunes",
           "deezer_id": 4045746561,
-          "deezer_url": "https://www.deezer.com/track/4045746561"
+          "deezer_url": "https://www.deezer.com/track/4045746561",
+          "youtube_id": "dG-l1xip110",
+          "youtube_url": "https://www.youtube.com/watch?v=dG-l1xip110"
         },
         {
           "position": 194,
@@ -7976,13 +8013,18 @@
           "position": 195,
           "track": {
             "title": "It's My Life",
-            "artist": "Talk Talk"
+            "artist": "Talk Talk",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/b2dc7b1e677b06f29f8087a1fc9c102d/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 195,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 195,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "cFH5JgyZK1I",
+          "youtube_url": "https://www.youtube.com/watch?v=cFH5JgyZK1I",
+          "deezer_id": 3257507,
+          "deezer_url": "https://www.deezer.com/track/3257507"
         },
         {
           "position": 196,
@@ -8005,13 +8047,18 @@
           "position": 197,
           "track": {
             "title": "EMERALD EYES",
-            "artist": "Alex Warren"
+            "artist": "Alex Warren",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/8b5f3ce32fcab014c9ac82cc2d508050/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 197,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 197,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "0Sx1Y4p1yVw",
+          "youtube_url": "https://www.youtube.com/watch?v=0Sx1Y4p1yVw",
+          "deezer_id": 4061554941,
+          "deezer_url": "https://www.deezer.com/track/4061554941"
         },
         {
           "position": 198,
@@ -8034,25 +8081,35 @@
           "position": 199,
           "track": {
             "title": "Song 2",
-            "artist": "Blur"
+            "artist": "Blur",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1e6f6130ca0ccbdd0cde4dc2b05e6df9/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 199,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 199,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "SSbBvKaM6sk",
+          "youtube_url": "https://www.youtube.com/watch?v=SSbBvKaM6sk",
+          "deezer_id": 3102130,
+          "deezer_url": "https://www.deezer.com/track/3102130"
         },
         {
           "position": 200,
           "track": {
             "title": "Another Love",
-            "artist": "Tom Odell"
+            "artist": "Tom Odell",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/23d34526dc6ef2073bb854fc91a25112/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 200,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 200,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "MwpMEbgC7DA",
+          "youtube_url": "https://www.youtube.com/watch?v=MwpMEbgC7DA",
+          "deezer_id": 65723649,
+          "deezer_url": "https://www.deezer.com/track/65723649"
         }
       ],
       "sourceType": "kworb_itunes"
@@ -10422,10 +10479,10 @@
           "weeksOnChart": 1,
           "peakPosition": 44,
           "source": "billboard_brasil",
-          "deezer_id": 3997639031,
-          "deezer_url": "https://www.deezer.com/track/3997639031",
           "youtube_id": "ldK43s9UyQI",
-          "youtube_url": "https://www.youtube.com/watch?v=ldK43s9UyQI"
+          "youtube_url": "https://www.youtube.com/watch?v=ldK43s9UyQI",
+          "deezer_id": 3997639031,
+          "deezer_url": "https://www.deezer.com/track/3997639031"
         },
         {
           "position": 45,
@@ -10439,10 +10496,10 @@
           "weeksOnChart": 1,
           "peakPosition": 45,
           "source": "billboard_brasil",
-          "deezer_id": 70581197,
-          "deezer_url": "https://www.deezer.com/track/70581197",
           "youtube_id": "Cqgw36m2b60",
-          "youtube_url": "https://www.youtube.com/watch?v=Cqgw36m2b60"
+          "youtube_url": "https://www.youtube.com/watch?v=Cqgw36m2b60",
+          "deezer_id": 70581197,
+          "deezer_url": "https://www.deezer.com/track/70581197"
         },
         {
           "position": 46,
@@ -10456,10 +10513,10 @@
           "weeksOnChart": 1,
           "peakPosition": 46,
           "source": "billboard_brasil",
-          "deezer_id": 4232249262,
-          "deezer_url": "https://www.deezer.com/track/4232249262",
           "youtube_id": "Sszj1kpk2e4",
-          "youtube_url": "https://www.youtube.com/watch?v=Sszj1kpk2e4"
+          "youtube_url": "https://www.youtube.com/watch?v=Sszj1kpk2e4",
+          "deezer_id": 4232249262,
+          "deezer_url": "https://www.deezer.com/track/4232249262"
         },
         {
           "position": 47,
@@ -10521,10 +10578,10 @@
           "weeksOnChart": 1,
           "peakPosition": 50,
           "source": "billboard_brasil",
-          "deezer_id": 4339268202,
-          "deezer_url": "https://www.deezer.com/track/4339268202",
           "youtube_id": "A5vdK_kbjCU",
-          "youtube_url": "https://www.youtube.com/watch?v=A5vdK_kbjCU"
+          "youtube_url": "https://www.youtube.com/watch?v=A5vdK_kbjCU",
+          "deezer_id": 4339268202,
+          "deezer_url": "https://www.deezer.com/track/4339268202"
         },
         {
           "position": 51,
@@ -10552,10 +10609,10 @@
           "weeksOnChart": 1,
           "peakPosition": 52,
           "source": "billboard_brasil",
-          "deezer_id": 2916157971,
-          "deezer_url": "https://www.deezer.com/track/2916157971",
           "youtube_id": "WLhMxtuZr70",
-          "youtube_url": "https://www.youtube.com/watch?v=WLhMxtuZr70"
+          "youtube_url": "https://www.youtube.com/watch?v=WLhMxtuZr70",
+          "deezer_id": 2916157971,
+          "deezer_url": "https://www.deezer.com/track/2916157971"
         },
         {
           "position": 53,
@@ -10798,10 +10855,10 @@
           "weeksOnChart": 1,
           "peakPosition": 67,
           "source": "billboard_brasil",
-          "deezer_id": 4210021552,
-          "deezer_url": "https://www.deezer.com/track/4210021552",
           "youtube_id": "4PZpWJr8Lfg",
-          "youtube_url": "https://www.youtube.com/watch?v=4PZpWJr8Lfg"
+          "youtube_url": "https://www.youtube.com/watch?v=4PZpWJr8Lfg",
+          "deezer_id": 4210021552,
+          "deezer_url": "https://www.deezer.com/track/4210021552"
         },
         {
           "position": 68,
@@ -10816,7 +10873,9 @@
           "peakPosition": 68,
           "source": "billboard_brasil",
           "deezer_id": 3837322301,
-          "deezer_url": "https://www.deezer.com/track/3837322301"
+          "deezer_url": "https://www.deezer.com/track/3837322301",
+          "youtube_id": "ODijwjs8Qvc",
+          "youtube_url": "https://www.youtube.com/watch?v=ODijwjs8Qvc"
         },
         {
           "position": 69,
@@ -10831,7 +10890,9 @@
           "peakPosition": 69,
           "source": "billboard_brasil",
           "deezer_id": 3876592281,
-          "deezer_url": "https://www.deezer.com/track/3876592281"
+          "deezer_url": "https://www.deezer.com/track/3876592281",
+          "youtube_id": "UpX0SKEBYBY",
+          "youtube_url": "https://www.youtube.com/watch?v=UpX0SKEBYBY"
         },
         {
           "position": 70,
@@ -10846,7 +10907,9 @@
           "peakPosition": 70,
           "source": "billboard_brasil",
           "deezer_id": 4264132152,
-          "deezer_url": "https://www.deezer.com/track/4264132152"
+          "deezer_url": "https://www.deezer.com/track/4264132152",
+          "youtube_id": "NK4H4G13bZc",
+          "youtube_url": "https://www.youtube.com/watch?v=NK4H4G13bZc"
         },
         {
           "position": 71,
@@ -10861,7 +10924,9 @@
           "peakPosition": 71,
           "source": "billboard_brasil",
           "deezer_id": 3530724,
-          "deezer_url": "https://www.deezer.com/track/3530724"
+          "deezer_url": "https://www.deezer.com/track/3530724",
+          "youtube_id": "qHJ8CIM4jCw",
+          "youtube_url": "https://www.youtube.com/watch?v=qHJ8CIM4jCw"
         },
         {
           "position": 72,
@@ -10876,7 +10941,9 @@
           "peakPosition": 72,
           "source": "billboard_brasil",
           "deezer_id": 3772530832,
-          "deezer_url": "https://www.deezer.com/track/3772530832"
+          "deezer_url": "https://www.deezer.com/track/3772530832",
+          "youtube_id": "ToabLkXUotM",
+          "youtube_url": "https://www.youtube.com/watch?v=ToabLkXUotM"
         },
         {
           "position": 73,
@@ -10891,7 +10958,9 @@
           "peakPosition": 73,
           "source": "billboard_brasil",
           "deezer_id": 2954217391,
-          "deezer_url": "https://www.deezer.com/track/2954217391"
+          "deezer_url": "https://www.deezer.com/track/2954217391",
+          "youtube_id": "c3KtI0uTXmU",
+          "youtube_url": "https://www.youtube.com/watch?v=c3KtI0uTXmU"
         },
         {
           "position": 74,
@@ -10906,7 +10975,9 @@
           "peakPosition": 74,
           "source": "billboard_brasil",
           "deezer_id": 62510280,
-          "deezer_url": "https://www.deezer.com/track/62510280"
+          "deezer_url": "https://www.deezer.com/track/62510280",
+          "youtube_id": "oBNffYJ0Csg",
+          "youtube_url": "https://www.youtube.com/watch?v=oBNffYJ0Csg"
         },
         {
           "position": 75,
@@ -10935,7 +11006,9 @@
           "movement": "new",
           "weeksOnChart": 2,
           "peakPosition": 76,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "youtube_id": "q3zqJs7JUCQ",
+          "youtube_url": "https://www.youtube.com/watch?v=q3zqJs7JUCQ"
         },
         {
           "position": 77,
@@ -10950,7 +11023,9 @@
           "peakPosition": 77,
           "source": "billboard_brasil",
           "deezer_id": 3774088012,
-          "deezer_url": "https://www.deezer.com/track/3774088012"
+          "deezer_url": "https://www.deezer.com/track/3774088012",
+          "youtube_id": "ZsN_0_6yEXk",
+          "youtube_url": "https://www.youtube.com/watch?v=ZsN_0_6yEXk"
         },
         {
           "position": 78,
@@ -10965,7 +11040,9 @@
           "peakPosition": 78,
           "source": "billboard_brasil",
           "deezer_id": 3644768432,
-          "deezer_url": "https://www.deezer.com/track/3644768432"
+          "deezer_url": "https://www.deezer.com/track/3644768432",
+          "youtube_id": "mILYtp4UHIQ",
+          "youtube_url": "https://www.youtube.com/watch?v=mILYtp4UHIQ"
         },
         {
           "position": 79,
@@ -10980,7 +11057,9 @@
           "peakPosition": 79,
           "source": "billboard_brasil",
           "deezer_id": 4253698741,
-          "deezer_url": "https://www.deezer.com/track/4253698741"
+          "deezer_url": "https://www.deezer.com/track/4253698741",
+          "youtube_id": "luOkG7hF3mQ",
+          "youtube_url": "https://www.youtube.com/watch?v=luOkG7hF3mQ"
         },
         {
           "position": 80,
@@ -11012,7 +11091,9 @@
           "peakPosition": 81,
           "source": "billboard_brasil",
           "deezer_id": 3499654751,
-          "deezer_url": "https://www.deezer.com/track/3499654751"
+          "deezer_url": "https://www.deezer.com/track/3499654751",
+          "youtube_id": "iYjz1Ap1VvU",
+          "youtube_url": "https://www.youtube.com/watch?v=iYjz1Ap1VvU"
         },
         {
           "position": 82,
@@ -11024,31 +11105,43 @@
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 82,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "youtube_id": "UMctgUudFVg",
+          "youtube_url": "https://www.youtube.com/watch?v=UMctgUudFVg"
         },
         {
           "position": 83,
           "track": {
             "title": "Admita",
-            "artist": "Matheus e Kauan, Lauana Prado"
+            "artist": "Matheus e Kauan, Lauana Prado",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/9285d91ce3cfcc46b28ec98e1a61fab8/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 85,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 83,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "youtube_id": "LpsgjNLubAU",
+          "youtube_url": "https://www.youtube.com/watch?v=LpsgjNLubAU",
+          "deezer_id": 3778460332,
+          "deezer_url": "https://www.deezer.com/track/3778460332"
         },
         {
           "position": 84,
           "track": {
             "title": "Diário de um Cafajeste",
-            "artist": "MC Ryan SP, MC Lele JP, DJ Oreia, MC Meno K"
+            "artist": "MC Ryan SP, MC Lele JP, DJ Oreia, MC Meno K",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/5cedc1c90a8b44b4a78655e0e00c2b54/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 63,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 84,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "youtube_id": "WQHYbOy7H2g",
+          "youtube_url": "https://www.youtube.com/watch?v=WQHYbOy7H2g",
+          "deezer_id": 3640608352,
+          "deezer_url": "https://www.deezer.com/track/3640608352"
         },
         {
           "position": 85,
@@ -11068,85 +11161,116 @@
           "position": 86,
           "track": {
             "title": "Dois Enganados",
-            "artist": "Murilo Huff, Marília Mendonça"
+            "artist": "Murilo Huff, Marília Mendonça",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/b292806f1ebad9414efb95747aec5f04/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 97,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 86,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "youtube_id": "2Cr8zkP-d0I",
+          "youtube_url": "https://www.youtube.com/watch?v=2Cr8zkP-d0I",
+          "deezer_id": 3227392411,
+          "deezer_url": "https://www.deezer.com/track/3227392411"
         },
         {
           "position": 87,
           "track": {
             "title": "Posso Até Não Te Dar Flores",
-            "artist": "MC Ryan SP, MC Meno K, DJ Davi DogDog, MC Jacaré, DJ Japa NK"
+            "artist": "MC Ryan SP, MC Meno K, DJ Davi DogDog, MC Jacaré, DJ Japa NK",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/86b160eee53bce6d0f4709e327896e1d/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 77,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 87,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "youtube_id": "n5DbjaZMNSE",
+          "youtube_url": "https://www.youtube.com/watch?v=n5DbjaZMNSE",
+          "deezer_id": 3650780352,
+          "deezer_url": "https://www.deezer.com/track/3650780352"
         },
         {
           "position": 88,
           "track": {
             "title": "Bala Alojada",
-            "artist": "Gusttavo Lima"
+            "artist": "Gusttavo Lima",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/9b54ff3231725243c1833706dbcfc462/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 71,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 88,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "youtube_id": "PLq2A_GJbDw",
+          "youtube_url": "https://www.youtube.com/watch?v=PLq2A_GJbDw",
+          "deezer_id": 4094705011,
+          "deezer_url": "https://www.deezer.com/track/4094705011"
         },
         {
           "position": 89,
           "track": {
             "title": "Pos. Máxima",
-            "artist": "31"
+            "artist": "31",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/d9799dfe8139b52e07bc14e70929c4a2/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": null,
           "movement": "new",
           "weeksOnChart": 3,
           "peakPosition": 89,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "youtube_id": "SRB6xKOMjgM",
+          "youtube_url": "https://www.youtube.com/watch?v=SRB6xKOMjgM",
+          "deezer_id": 2451824815,
+          "deezer_url": "https://www.deezer.com/track/2451824815"
         },
         {
           "position": 90,
           "track": {
             "title": "Ama Um Maloqueiro",
-            "artist": "Rafa e Junior, Hugo e Guilherme, DJ Ari SL"
+            "artist": "Rafa e Junior, Hugo e Guilherme, DJ Ari SL",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/53f22eed596d8eb0a35f2642974a580d/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 82,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 90,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "youtube_id": "nclqEBJIxWk",
+          "youtube_url": "https://www.youtube.com/watch?v=nclqEBJIxWk",
+          "deezer_id": 4061078581,
+          "deezer_url": "https://www.deezer.com/track/4061078581"
         },
         {
           "position": 91,
           "track": {
             "title": "Pra Não Esquecer De Mim",
-            "artist": "Aaron Modesto, MC Magal, MC Meno K, DJ Glenner"
+            "artist": "Aaron Modesto, MC Magal, MC Meno K, DJ Glenner",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/cf3dbd63703a8f9f046384e2a53be4f7/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 86,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 91,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "deezer_id": 3638560132,
+          "deezer_url": "https://www.deezer.com/track/3638560132"
         },
         {
           "position": 92,
           "track": {
             "title": "Seja Ex",
-            "artist": "Henrique e Juliano"
+            "artist": "Henrique e Juliano",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/2685d25829f166b528c1ef79e9bf19d0/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 93,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 92,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "deezer_id": 3876591911,
+          "deezer_url": "https://www.deezer.com/track/3876591911"
         },
         {
           "position": 93,
@@ -11186,49 +11310,63 @@
           "position": 95,
           "track": {
             "title": "Bebe e Vem Me Procurar / Quem Ama Sente Saudade",
-            "artist": "Turma do Pagode"
+            "artist": "Turma do Pagode",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/7c392ba836ae78be1576ce6e84c6e74d/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 81,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 95,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "deezer_id": 1214741772,
+          "deezer_url": "https://www.deezer.com/track/1214741772"
         },
         {
           "position": 96,
           "track": {
             "title": "Entregador de Flor",
-            "artist": "Diego e Victor Hugo"
+            "artist": "Diego e Victor Hugo",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/8c1aca919d679c84333650d902678473/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 87,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 96,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "deezer_id": 702209992,
+          "deezer_url": "https://www.deezer.com/track/702209992"
         },
         {
           "position": 97,
           "track": {
             "title": "Pos. Máxima",
-            "artist": "31"
+            "artist": "31",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/d9799dfe8139b52e07bc14e70929c4a2/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": null,
           "movement": "new",
           "weeksOnChart": 95,
           "peakPosition": 97,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "youtube_id": "SRB6xKOMjgM",
+          "youtube_url": "https://www.youtube.com/watch?v=SRB6xKOMjgM",
+          "deezer_id": 2451824815,
+          "deezer_url": "https://www.deezer.com/track/2451824815"
         },
         {
           "position": 98,
           "track": {
             "title": "Assunto Que Dói",
-            "artist": "Gusttavo Lima"
+            "artist": "Gusttavo Lima",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/0c80644d3a09598b59b1161853d9d313/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 69,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 98,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "deezer_id": 3863109181,
+          "deezer_url": "https://www.deezer.com/track/3863109181"
         },
         {
           "position": 99,
@@ -11246,13 +11384,16 @@
           "position": 100,
           "track": {
             "title": "Desocupa",
-            "artist": "Matheus Vargas"
+            "artist": "Matheus Vargas",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/bc239f0efcba267c8c0cd6ee7e15e3ef/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 95,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 100,
-          "source": "billboard_brasil"
+          "source": "billboard_brasil",
+          "deezer_id": 3455849211,
+          "deezer_url": "https://www.deezer.com/track/3455849211"
         }
       ],
       "sourceType": "billboard_brasil"
@@ -11685,10 +11826,10 @@
           "weeksOnChart": 1,
           "peakPosition": 26,
           "source": "itunes_rss",
-          "deezer_id": 3859556,
-          "deezer_url": "https://www.deezer.com/track/3859556",
           "youtube_id": "GDsyUtdS1YM",
-          "youtube_url": "https://www.youtube.com/watch?v=GDsyUtdS1YM"
+          "youtube_url": "https://www.youtube.com/watch?v=GDsyUtdS1YM",
+          "deezer_id": 3859556,
+          "deezer_url": "https://www.deezer.com/track/3859556"
         },
         {
           "position": 27,
