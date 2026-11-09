@@ -1583,7 +1583,7 @@
     }
 
     // ===== V2.1.2 : NORMALISATION DES MOUVEMENTS =====
- normalizeMovement(entry) {
+ function normalizeMovement(entry) {
   const raw = String(entry?.movement ?? "").trim().toLowerCase();
   const pos = Number(entry?.position ?? 0);
   const prevRaw = entry?.previousPosition;
