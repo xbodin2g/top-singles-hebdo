@@ -1,5 +1,4 @@
-# Top Singles Hebdo - Données Officielles
-# 🎵 Top Singles — Classements musicaux & archives officielles
+# 🎵 Top Singles — Classements musicaux officiel & archives
 
 Application web de suivi des classements musicaux officiels avec archives historiques, fiches artistes et outils d'export de playlists.
 
