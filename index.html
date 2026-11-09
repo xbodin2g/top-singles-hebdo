@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Top Singles — Version 2.1.2</title>
+  <title>Top Singles — Version 2.1.1</title>
   <!--
     ============================================
-    Top Singles - Version 2.1.2
+    Top Singles - Version 2.1.1
     ============================================
     - 3 vues : 📊 Hebdo, 📼 Rétro, 🎤 Artistes
     - En-tête allégé
@@ -15,8 +15,6 @@
     - Artiste cliquable depuis les tops
     - Recherche artiste par nom ou titre
     - Infos rétro condensées
-    - V2.1.2 : correctif mouvements (nouvelles entrées,
-      variantes de codage multi-sources)
     ============================================
   -->
   <style>
@@ -1201,7 +1199,7 @@
       <div>
         <h1>Top Singles</h1>
         <p>
-          Classements officiels, archives rétro, fiches artistes et exports — Version 2.1.2.
+          Classements officiels, archives rétro, fiches artistes et exports — Version 2.1.1.
         </p>
       </div>
 
@@ -1314,7 +1312,7 @@
         <summary>🔍 Enrichissement streaming</summary>
         <div class="tool-content">
           <p style="margin: 0 0 14px 0; color: var(--muted); font-size: 14px; line-height: 1.5;">
-            Recherche les IDs YouTube et Deezer pour l'archive actuellement affichée.
+            Recherche les IDs YouTube et Deezer pour l’archive actuellement affichée.
             Les résultats sont mis en cache dans votre navigateur.
           </p>
 
@@ -1330,7 +1328,7 @@
           </div>
 
           <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-            <button class="button button-primary" type="button" data-action="enrich-retro">🔍 Lancer l'enrichissement</button>
+            <button class="button button-primary" type="button" data-action="enrich-retro">🔍 Lancer l’enrichissement</button>
           </div>
 
           <div id="enrichmentProgress" class="enrichment-progress" style="display: none;">
@@ -1342,7 +1340,7 @@
 
           <div id="apiKeyWarning" class="api-key-info" style="display: none;">
             <strong>⚠️ Clé API YouTube non configurée</strong><br>
-            Pour rechercher les IDs YouTube, configurez votre clé API dans le tiroir d'outils en bas de page.
+            Pour rechercher les IDs YouTube, configurez votre clé API dans le tiroir d’outils en bas de page.
             Deezer fonctionne sans clé API.
           </div>
         </div>
@@ -1374,7 +1372,7 @@
           </div>
 
           <div id="cacheInfo" class="cache-info">
-            Cliquez sur "Lister par décennie" pour voir un résumé compact du cache.
+            Cliquez sur “Lister par décennie” pour voir un résumé compact du cache.
           </div>
         </div>
       </details>
@@ -1442,7 +1440,7 @@
         <div class="drawer-section">
           <h4>🔑 API YouTube</h4>
           <p>
-            Nécessaire uniquement pour l'enrichissement streaming rétro.
+            Nécessaire uniquement pour l’enrichissement streaming rétro.
             La clé est stockée localement dans ton navigateur.
           </p>
 
@@ -1582,102 +1580,10 @@
         .toUpperCase();
     }
 
-    // ===== V2.1.2 : NORMALISATION DES MOUVEMENTS =====
-    function normalizeMovement(entry) {
-      const raw = String(entry?.movement ?? "").trim().toLowerCase();
-      const pos = Number(entry?.position ?? 0);
-      const prevRaw = entry?.previousPosition;
-      const prev = (prevRaw === null || prevRaw === undefined || prevRaw === "") ? null : Number(prevRaw);
-      const weeks = Number(entry?.weeksOnChart ?? 0);
-
-      // Cas 1 : mouvement explicitement codé
-      if (raw) {
-        if (raw.includes("▲")) return "up";
-        if (raw.includes("▼")) return "down";
-        if (raw.includes("✦")) return "new";
-
-        if (
-          raw === "new" ||
-          raw === "n" ||
-          raw === "nouveau" ||
-          raw === "entrée" ||
-          raw === "re" ||
-          raw === "re-entry" ||
-          raw === "reentry" ||
-          raw === "réentrée" ||
-          raw === "relance" ||
-          raw.includes("new entry")
-        ) {
-          return "new";
-        }
-
-        if (
-          raw === "up" ||
-          raw === "hausse" ||
-          raw === "monte" ||
-          raw === "progression" ||
-          raw === "+"
-        ) {
-          return "up";
-        }
-
-        if (
-          raw === "down" ||
-          raw === "baisse" ||
-          raw === "descend" ||
-          raw === "recul" ||
-          raw === "-"
-        ) {
-          return "down";
-        }
-
-        if (
-          raw === "same" ||
-          raw === "stable" ||
-          raw === "=" ||
-          raw === "●" ||
-          raw === "inchangé"
-        ) {
-          return "same";
-        }
-      }
-
-      // Cas 2 : pas de movement exploitable, on déduit à partir des données
-      if (prev === null && weeks <= 1) {
-        return "new";
-      }
-
-      if (prev !== null && Number.isFinite(prev) && prev > 0 && pos > 0) {
-        if (prev > pos) return "up";
-        if (prev < pos) return "down";
-        return "same";
-      }
-
-      return "same";
-    }
-
     function movementLabel(entry) {
-      const mv = normalizeMovement(entry);
-      const pos = Number(entry?.position ?? 0);
-      const prevRaw = entry?.previousPosition;
-      const prev = (prevRaw === null || prevRaw === undefined || prevRaw === "") ? null : Number(prevRaw);
-
-      if (mv === "new") return "✦ Nouveau";
-
-      if (mv === "up") {
-        if (prev !== null && Number.isFinite(prev) && prev > pos) {
-          return `▲ ${prev - pos}`;
-        }
-        return "▲";
-      }
-
-      if (mv === "down") {
-        if (prev !== null && Number.isFinite(prev) && prev < pos) {
-          return `▼ ${pos - prev}`;
-        }
-        return "▼";
-      }
-
+      if (entry.movement === "new") return "✦ Nouveau";
+      if (entry.movement === "up" && entry.previousPosition) return `▲ ${entry.previousPosition - entry.position}`;
+      if (entry.movement === "down" && entry.previousPosition) return `▼ ${entry.position - entry.previousPosition}`;
       return "● Stable";
     }
 
@@ -1940,7 +1846,7 @@
       const mode = getExportMode();
 
       if (mode.type === "artist") {
-        toast("Les fiches artistes n'ont pas d'IDs YouTube directs. Utilise TuneMyMusic ou Copier.", "warning");
+        toast("Les fiches artistes n’ont pas d’IDs YouTube directs. Utilise TuneMyMusic ou Copier.", "warning");
         return;
       }
 
@@ -1952,7 +1858,7 @@
 
       const withIds = entries.filter((e) => e.youtube_id);
       if (!withIds.length) {
-        toast("Aucun ID YouTube disponible. Enrichissez d'abord si nécessaire.", "warning");
+        toast("Aucun ID YouTube disponible. Enrichissez d’abord si nécessaire.", "warning");
         return;
       }
 
@@ -2104,7 +2010,7 @@
           entry.position,
           `"${String(entry.track?.title || "").replace(/"/g, '""')}"`,
           `"${String(entry.track?.artist || "").replace(/"/g, '""')}"`,
-          normalizeMovement(entry),
+          entry.movement || "same",
           entry.weeksOnChart || 1,
           entry.peakPosition || entry.position,
           entry.previousPosition || "",
@@ -2140,7 +2046,7 @@
       const coverContent = entry.track?.artwork ? "" : initials(entry.track?.title || "");
 
       const isTop = entry.position <= 3;
-      const movementClass = normalizeMovement(entry);
+      const movementClass = entry.movement || "same";
       const label = options.synthesis ? `Score ${entry.score || 0}` : movementLabel(entry);
 
       const detailsChips = [];
@@ -2160,10 +2066,10 @@
         if (entry.peakPosition) {
           detailsChips.push(`<span class="chip">Pic ${entry.peakPosition}</span>`);
         }
-        if (entry.previousPosition && movementClass !== "new") {
+        if (entry.previousPosition && entry.movement !== "new") {
           detailsChips.push(`<span class="chip">Préc. ${entry.previousPosition}</span>`);
         }
-        if (movementClass === "new") {
+        if (entry.movement === "new") {
           detailsChips.push(`<span class="chip new">Entrée</span>`);
         }
       }
@@ -2338,7 +2244,7 @@
         const country = COUNTRIES[countryCode] || { flag: "🏳️", name: countryCode };
         const fullChart = CHARTS_DATA?.countries?.[countryCode]?.chart || [];
 
-        const upCount = fullChart.filter((e) => normalizeMovement(e) === "up").length;
+        const upCount = fullChart.filter((e) => e.movement === "up").length;
         const directCount = fullChart.filter((e) => e.youtube_id || e.deezer_id).length;
 
         statsBar.innerHTML = `
@@ -2651,9 +2557,9 @@
       }
 
       const hasAnyId = entries.some((e) => e.youtube_id || e.deezer_id);
-      const upCount = entries.filter((e) => normalizeMovement(e) === "up").length;
-      const downCount = entries.filter((e) => normalizeMovement(e) === "down").length;
-      const newCount = entries.filter((e) => normalizeMovement(e) === "new").length;
+      const upCount = entries.filter((e) => e.movement === "up").length;
+      const downCount = entries.filter((e) => e.movement === "down").length;
+      const newCount = entries.filter((e) => e.movement === "new").length;
 
       let html = `
         <div class="chart-header">
@@ -3208,7 +3114,7 @@
 
       artistInitPromise = (async () => {
         try {
-          artistStatus.textContent = "Chargement de l'index artiste...";
+          artistStatus.textContent = "Chargement de l’index artiste...";
           artistList.style.display = "grid";
           artistList.innerHTML = `<div class="empty">Chargement...</div>`;
           artistDetail.style.display = "none";
@@ -3349,7 +3255,7 @@
       const tracks = q
         ? allTracks.filter(t =>
             String(t.title || "").toLowerCase().includes(q) ||
-            String(t.credit || "").toLowerCase().toLowerCase || "").toLowerCase().includes(q)
+            String(t.credit || "").toLowerCase().includes(q)
           )
         : allTracks;
 
