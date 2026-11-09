@@ -1,12 +1,9 @@
 # Top Singles Hebdo - Données Officielles
-
-Application web de suivi des tops musicaux officiels avec collecte automatisée hebdomadaire.
-
-**🌐 Site hébergé** : https://xbodin2g.github.io/top-singles-hebdo/
-
-# 🎵 Top Singles — Classements musicaux & archives
+# 🎵 Top Singles — Classements musicaux & archives officielles
 
 Application web de suivi des classements musicaux officiels avec archives historiques, fiches artistes et outils d'export de playlists.
+
+**🌐 Site hébergé** : https://xbodin2g.github.io/top-singles-hebdo/
 
 ## ✨ Fonctionnalités
 
