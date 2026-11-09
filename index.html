@@ -1583,78 +1583,85 @@
     }
 
     // ===== V2.1.2 : NORMALISATION DES MOUVEMENTS =====
-    function normalizeMovement(entry) {
-      const raw = String(entry?.movement ?? "").trim().toLowerCase();
-      const pos = Number(entry?.position ?? 0);
-      const prevRaw = entry?.previousPosition;
-      const prev = (prevRaw === null || prevRaw === undefined || prevRaw === "") ? null : Number(prevRaw);
-      const weeks = Number(entry?.weeksOnChart ?? 0);
+ normalizeMovement(entry) {
+  const raw = String(entry?.movement ?? "").trim().toLowerCase();
+  const pos = Number(entry?.position ?? 0);
+  const prevRaw = entry?.previousPosition;
+  const hasPrev = prevRaw !== null && prevRaw !== undefined && prevRaw !== "";
+  const prev = hasPrev ? Number(prevRaw) : null;
+  const weeks = Number(entry?.weeksOnChart ?? 0);
 
-      // Cas 1 : mouvement explicitement codé
-      if (raw) {
-        if (raw.includes("▲")) return "up";
-        if (raw.includes("▼")) return "down";
-        if (raw.includes("✦")) return "new";
+  // Cas spécial : pas de previousPosition ET weeksOnChart <= 1
+  // => première archive ou nouvelle entrée non détectée par le parser
+  if (!hasPrev && weeks <= 1) {
+    return "new";
+  }
 
-        if (
-          raw === "new" ||
-          raw === "n" ||
-          raw === "nouveau" ||
-          raw === "entrée" ||
-          raw === "re" ||
-          raw === "re-entry" ||
-          raw === "reentry" ||
-          raw === "réentrée" ||
-          raw === "relance" ||
-          raw.includes("new entry")
-        ) {
-          return "new";
-        }
+  // Cas 1 : mouvement explicitement codé
+  if (raw) {
+    if (raw.includes("▲")) return "up";
+    if (raw.includes("▼")) return "down";
+    if (raw.includes("✦")) return "new";
 
-        if (
-          raw === "up" ||
-          raw === "hausse" ||
-          raw === "monte" ||
-          raw === "progression" ||
-          raw === "+"
-        ) {
-          return "up";
-        }
+    if (
+      raw === "new" ||
+      raw === "n" ||
+      raw === "nouveau" ||
+      raw === "entrée" ||
+      raw === "re" ||
+      raw === "re-entry" ||
+      raw === "reentry" ||
+      raw === "réentrée" ||
+      raw === "relance" ||
+      raw.includes("new entry")
+    ) {
+      return "new";
+    }
 
-        if (
-          raw === "down" ||
-          raw === "baisse" ||
-          raw === "descend" ||
-          raw === "recul" ||
-          raw === "-"
-        ) {
-          return "down";
-        }
+    if (
+      raw === "up" ||
+      raw === "hausse" ||
+      raw === "monte" ||
+      raw === "progression" ||
+      raw === "+"
+    ) {
+      return "up";
+    }
 
-        if (
-          raw === "same" ||
-          raw === "stable" ||
-          raw === "=" ||
-          raw === "●" ||
-          raw === "inchangé"
-        ) {
-          return "same";
-        }
-      }
+    if (
+      raw === "down" ||
+      raw === "baisse" ||
+      raw === "descend" ||
+      raw === "recul" ||
+      raw === "-"
+    ) {
+      return "down";
+    }
 
-      // Cas 2 : pas de movement exploitable, on déduit à partir des données
-      if (prev === null && weeks <= 1) {
-        return "new";
-      }
-
-      if (prev !== null && Number.isFinite(prev) && prev > 0 && pos > 0) {
-        if (prev > pos) return "up";
-        if (prev < pos) return "down";
-        return "same";
-      }
-
+    if (
+      raw === "same" ||
+      raw === "stable" ||
+      raw === "=" ||
+      raw === "●" ||
+      raw === "inchangé"
+    ) {
       return "same";
     }
+  }
+
+  // Cas 2 : pas de movement exploitable, on déduit à partir des données
+  if (prev === null && weeks <= 1) {
+    return "new";
+  }
+
+  if (prev !== null && Number.isFinite(prev) && prev > 0 && pos > 0) {
+    if (prev > pos) return "up";
+    if (prev < pos) return "down";
+    return "same";
+  }
+
+  return "same";
+}
 
     function movementLabel(entry) {
       const mv = normalizeMovement(entry);
