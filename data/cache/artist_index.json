@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-08T19:57:43.785010+00:00",
-  "archiveCount": 2197,
+  "generatedAt": "2026-11-11T23:53:13.567128+00:00",
+  "archiveCount": 2198,
   "artistCount": 4518,
-  "trackCount": 10622,
+  "trackCount": 10613,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -3631,6 +3631,19 @@
           "peakDate": "10/03/2025"
         },
         {
+          "key": "you and i me and you|david guetta",
+          "title": "You and I, me and you",
+          "credit": "David Guetta x Hypaton",
+          "firstKey": "2026-46",
+          "firstDate": "09/11/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 1,
+          "peak": 56,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        },
+        {
           "key": "if you really love me|david guetta",
           "title": "If you really love me (How will I know)",
           "credit": "David Guetta x MistaJam x John Newman",
@@ -3657,15 +3670,15 @@
           "peakDate": "31/05/2004"
         }
       ],
-      "trackCount": 47,
-      "totalWeeks": 989,
+      "trackCount": 48,
+      "totalWeeks": 990,
       "bestPeak": 1,
       "firstYear": 2001,
       "lastYear": 2026,
       "firstKey": "2001-29",
       "firstDate": "16/07/2001",
-      "lastKey": "2026-24",
-      "lastDate": "08/06/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "florent pagny",
@@ -5020,9 +5033,9 @@
           "credit": "Michael Jackson",
           "firstKey": "2006-12",
           "firstDate": "20/03/2006",
-          "lastKey": "2026-40",
-          "lastDate": "28/09/2026",
-          "weeks": 25,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 26,
           "peak": 34,
           "peakKey": "2026-22",
           "peakDate": "25/05/2026"
@@ -5068,14 +5081,14 @@
         }
       ],
       "trackCount": 34,
-      "totalWeeks": 512,
+      "totalWeeks": 513,
       "bestPeak": 1,
       "firstYear": 1987,
       "lastYear": 2026,
       "firstKey": "1987-33",
       "firstDate": "16/08/1987",
-      "lastKey": "2026-40",
-      "lastDate": "28/09/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "soprano",
@@ -6759,9 +6772,9 @@
           "credit": "Gims",
           "firstKey": "2026-16",
           "firstDate": "13/04/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 29,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 30,
           "peak": 3,
           "peakKey": "2026-22",
           "peakDate": "25/05/2026"
@@ -6941,9 +6954,9 @@
           "credit": "Gims, Mauvais Djo",
           "firstKey": "2026-32",
           "firstDate": "03/08/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 14,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 15,
           "peak": 20,
           "peakKey": "2026-35",
           "peakDate": "24/08/2026"
@@ -7106,14 +7119,14 @@
         }
       ],
       "trackCount": 29,
-      "totalWeeks": 471,
+      "totalWeeks": 473,
       "bestPeak": 2,
       "firstYear": 2019,
       "lastYear": 2026,
       "firstKey": "2019-12",
       "firstDate": "18/03/2019",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "m pokora",
@@ -7380,6 +7393,19 @@
           "peakDate": "13/03/2023"
         },
         {
+          "key": "egare|m pokora",
+          "title": "Egaré",
+          "credit": "M. Pokora",
+          "firstKey": "2026-44",
+          "firstDate": "26/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 3,
+          "peak": 30,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        },
+        {
           "key": "on danse|m pokora",
           "title": "On danse",
           "credit": "M. Pokora",
@@ -7482,30 +7508,17 @@
           "peak": 57,
           "peakKey": "2015-29",
           "peakDate": "13/07/2015"
-        },
-        {
-          "key": "egare|m pokora",
-          "title": "Egaré",
-          "credit": "M. Pokora",
-          "firstKey": "2026-44",
-          "firstDate": "26/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 2,
-          "peak": 59,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
         }
       ],
       "trackCount": 29,
-      "totalWeeks": 422,
+      "totalWeeks": 423,
       "bestPeak": 1,
       "firstYear": 2005,
       "lastYear": 2026,
       "firstKey": "2005-15",
       "firstDate": "11/04/2005",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "kylie minogue",
@@ -12879,9 +12892,9 @@
           "credit": "Aya Nakamura",
           "firstKey": "2026-37",
           "firstDate": "07/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 8,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 9,
           "peak": 44,
           "peakKey": "2026-43",
           "peakDate": "19/10/2026"
@@ -12966,14 +12979,14 @@
         }
       ],
       "trackCount": 21,
-      "totalWeeks": 238,
+      "totalWeeks": 239,
       "bestPeak": 8,
       "firstYear": 2017,
       "lastYear": 2026,
       "firstKey": "2017-31",
       "firstDate": "31/07/2017",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "keen v",
@@ -19535,9 +19548,9 @@
           "credit": "Zazie",
           "firstKey": "2026-24",
           "firstDate": "08/06/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 22,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 23,
           "peak": 25,
           "peakKey": "2026-35",
           "peakDate": "24/08/2026"
@@ -19648,14 +19661,14 @@
         }
       ],
       "trackCount": 17,
-      "totalWeeks": 241,
+      "totalWeeks": 242,
       "bestPeak": 7,
       "firstYear": 1992,
       "lastYear": 2026,
       "firstKey": "1992-45",
       "firstDate": "08/11/1992",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "phil collins",
@@ -24114,9 +24127,9 @@
           "credit": "Vianney",
           "firstKey": "2026-36",
           "firstDate": "31/08/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 10,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 11,
           "peak": 4,
           "peakKey": "2026-43",
           "peakDate": "19/10/2026"
@@ -24240,14 +24253,14 @@
         }
       ],
       "trackCount": 14,
-      "totalWeeks": 275,
+      "totalWeeks": 276,
       "bestPeak": 1,
       "firstYear": 2014,
       "lastYear": 2026,
       "firstKey": "2014-53",
       "firstDate": "29/12/2014",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "lara fabian",
@@ -24809,9 +24822,9 @@
           "credit": "Taylor Swift",
           "firstKey": "2026-40",
           "firstDate": "28/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 4,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 5,
           "peak": 41,
           "peakKey": "2026-44",
           "peakDate": "26/10/2026"
@@ -24831,14 +24844,14 @@
         }
       ],
       "trackCount": 14,
-      "totalWeeks": 250,
+      "totalWeeks": 251,
       "bestPeak": 1,
       "firstYear": 2009,
       "lastYear": 2026,
       "firstKey": "2009-29",
       "firstDate": "13/07/2009",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "angele",
@@ -24980,9 +24993,9 @@
           "credit": "Angele",
           "firstKey": "2026-37",
           "firstDate": "07/09/2026",
-          "lastKey": "2026-43",
-          "lastDate": "19/10/2026",
-          "weeks": 7,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 8,
           "peak": 27,
           "peakKey": "2026-40",
           "peakDate": "28/09/2026"
@@ -25028,14 +25041,14 @@
         }
       ],
       "trackCount": 14,
-      "totalWeeks": 241,
+      "totalWeeks": 242,
       "bestPeak": 1,
       "firstYear": 2019,
       "lastYear": 2026,
       "firstKey": "2019-09",
       "firstDate": "25/02/2019",
-      "lastKey": "2026-43",
-      "lastDate": "19/10/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "jennifer lopez",
@@ -25480,9 +25493,9 @@
           "credit": "Ariana Grande",
           "firstKey": "2026-24",
           "firstDate": "08/06/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 22,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 23,
           "peak": 3,
           "peakKey": "2026-41",
           "peakDate": "05/10/2026"
@@ -25619,14 +25632,14 @@
         }
       ],
       "trackCount": 14,
-      "totalWeeks": 194,
+      "totalWeeks": 195,
       "bestPeak": 1,
       "firstYear": 2014,
       "lastYear": 2026,
       "firstKey": "2014-21",
       "firstDate": "19/05/2014",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "michel sardou",
@@ -29729,190 +29742,6 @@
       "lastDate": "04/04/2022"
     },
     {
-      "id": "paul hardcastle",
-      "name": "Paul Hardcastle",
-      "tracks": [
-        {
-          "key": "18|paul hardcastle",
-          "title": "18",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-36",
-          "firstDate": "08/09/1985",
-          "lastKey": "1985-36",
-          "lastDate": "08/09/1985",
-          "weeks": 1,
-          "peak": 15,
-          "peakKey": "1985-36",
-          "peakDate": "08/09/1985"
-        },
-        {
-          "key": "26|paul hardcastle",
-          "title": "26",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-33",
-          "firstDate": "18/08/1985",
-          "lastKey": "1985-40",
-          "lastDate": "06/10/1985",
-          "weeks": 2,
-          "peak": 17,
-          "peakKey": "1985-33",
-          "peakDate": "18/08/1985"
-        },
-        {
-          "key": "24|paul hardcastle",
-          "title": "24",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-35",
-          "firstDate": "01/09/1985",
-          "lastKey": "1985-35",
-          "lastDate": "01/09/1985",
-          "weeks": 1,
-          "peak": 18,
-          "peakKey": "1985-35",
-          "peakDate": "01/09/1985"
-        },
-        {
-          "key": "15|paul hardcastle",
-          "title": "15",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-37",
-          "firstDate": "15/09/1985",
-          "lastKey": "1985-37",
-          "lastDate": "15/09/1985",
-          "weeks": 1,
-          "peak": 20,
-          "peakKey": "1985-37",
-          "peakDate": "15/09/1985"
-        },
-        {
-          "key": "20|paul hardcastle",
-          "title": "20",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-38",
-          "firstDate": "22/09/1985",
-          "lastKey": "1985-38",
-          "lastDate": "22/09/1985",
-          "weeks": 1,
-          "peak": 22,
-          "peakKey": "1985-38",
-          "peakDate": "22/09/1985"
-        },
-        {
-          "key": "34|paul hardcastle",
-          "title": "34",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-31",
-          "firstDate": "04/08/1985",
-          "lastKey": "1985-31",
-          "lastDate": "04/08/1985",
-          "weeks": 1,
-          "peak": 23,
-          "peakKey": "1985-31",
-          "peakDate": "04/08/1985"
-        },
-        {
-          "key": "17|paul hardcastle",
-          "title": "17",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-34",
-          "firstDate": "25/08/1985",
-          "lastKey": "1985-34",
-          "lastDate": "25/08/1985",
-          "weeks": 1,
-          "peak": 24,
-          "peakKey": "1985-34",
-          "peakDate": "25/08/1985"
-        },
-        {
-          "key": "22|paul hardcastle",
-          "title": "22",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-39",
-          "firstDate": "29/09/1985",
-          "lastKey": "1985-39",
-          "lastDate": "29/09/1985",
-          "weeks": 1,
-          "peak": 26,
-          "peakKey": "1985-39",
-          "peakDate": "29/09/1985"
-        },
-        {
-          "key": "23|paul hardcastle",
-          "title": "23",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-32",
-          "firstDate": "11/08/1985",
-          "lastKey": "1985-32",
-          "lastDate": "11/08/1985",
-          "weeks": 1,
-          "peak": 26,
-          "peakKey": "1985-32",
-          "peakDate": "11/08/1985"
-        },
-        {
-          "key": "38|paul hardcastle",
-          "title": "38",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-30",
-          "firstDate": "28/07/1985",
-          "lastKey": "1985-30",
-          "lastDate": "28/07/1985",
-          "weeks": 1,
-          "peak": 34,
-          "peakKey": "1985-30",
-          "peakDate": "28/07/1985"
-        },
-        {
-          "key": "44|paul hardcastle",
-          "title": "44",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-29",
-          "firstDate": "21/07/1985",
-          "lastKey": "1985-29",
-          "lastDate": "21/07/1985",
-          "weeks": 1,
-          "peak": 38,
-          "peakKey": "1985-29",
-          "peakDate": "21/07/1985"
-        },
-        {
-          "key": "47|paul hardcastle",
-          "title": "47",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-42",
-          "firstDate": "20/10/1985",
-          "lastKey": "1985-42",
-          "lastDate": "20/10/1985",
-          "weeks": 1,
-          "peak": 46,
-          "peakKey": "1985-42",
-          "peakDate": "20/10/1985"
-        },
-        {
-          "key": "30|paul hardcastle",
-          "title": "30",
-          "credit": "Paul Hardcastle",
-          "firstKey": "1985-41",
-          "firstDate": "13/10/1985",
-          "lastKey": "1985-41",
-          "lastDate": "13/10/1985",
-          "weeks": 1,
-          "peak": 47,
-          "peakKey": "1985-41",
-          "peakDate": "13/10/1985"
-        }
-      ],
-      "trackCount": 13,
-      "totalWeeks": 14,
-      "bestPeak": 15,
-      "firstYear": 1985,
-      "lastYear": 1985,
-      "firstKey": "1985-29",
-      "firstDate": "21/07/1985",
-      "lastKey": "1985-42",
-      "lastDate": "20/10/1985"
-    },
-    {
       "id": "arctic monkeys",
       "name": "Arctic Monkeys",
       "tracks": [
@@ -32316,9 +32145,9 @@
           "credit": "Ofenbach, Starsailor",
           "firstKey": "2026-24",
           "firstDate": "08/06/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 22,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 23,
           "peak": 3,
           "peakKey": "2026-35",
           "peakDate": "24/08/2026"
@@ -32429,14 +32258,14 @@
         }
       ],
       "trackCount": 11,
-      "totalWeeks": 194,
+      "totalWeeks": 195,
       "bestPeak": 2,
       "firstYear": 2017,
       "lastYear": 2026,
       "firstKey": "2017-04",
       "firstDate": "23/01/2017",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "justin bieber",
@@ -35779,9 +35608,9 @@
           "credit": "Jeremy Frerot",
           "firstKey": "2026-21",
           "firstDate": "18/05/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 25,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 26,
           "peak": 5,
           "peakKey": "2026-33",
           "peakDate": "10/08/2026"
@@ -35879,14 +35708,14 @@
         }
       ],
       "trackCount": 10,
-      "totalWeeks": 239,
+      "totalWeeks": 240,
       "bestPeak": 2,
       "firstYear": 2018,
       "lastYear": 2026,
       "firstKey": "2018-29",
       "firstDate": "16/07/2018",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "laam",
@@ -39720,23 +39549,23 @@
           "credit": "Bruno Mars",
           "firstKey": "2026-32",
           "firstDate": "03/08/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 12,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 13,
           "peak": 26,
           "peakKey": "2026-43",
           "peakDate": "19/10/2026"
         }
       ],
       "trackCount": 9,
-      "totalWeeks": 186,
+      "totalWeeks": 187,
       "bestPeak": 1,
       "firstYear": 2012,
       "lastYear": 2026,
       "firstKey": "2012-46",
       "firstDate": "12/11/2012",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "onerepublic",
@@ -40737,9 +40566,9 @@
           "credit": "Slimane",
           "firstKey": "2026-33",
           "firstDate": "10/08/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 13,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 14,
           "peak": 17,
           "peakKey": "2026-43",
           "peakDate": "19/10/2026"
@@ -40785,14 +40614,14 @@
         }
       ],
       "trackCount": 9,
-      "totalWeeks": 152,
+      "totalWeeks": 153,
       "bestPeak": 2,
       "firstYear": 2016,
       "lastYear": 2026,
       "firstKey": "2016-28",
       "firstDate": "11/07/2016",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "robin schulz",
@@ -44095,6 +43924,138 @@
       "lastDate": "16/06/2008"
     },
     {
+      "id": "niska",
+      "name": "Niska",
+      "tracks": [
+        {
+          "key": "reseaux|niska",
+          "title": "Réseaux",
+          "credit": "Niska",
+          "firstKey": "2017-35",
+          "firstDate": "28/08/2017",
+          "lastKey": "2017-49",
+          "lastDate": "04/12/2017",
+          "weeks": 13,
+          "peak": 19,
+          "peakKey": "2017-39",
+          "peakDate": "25/09/2017"
+        },
+        {
+          "key": "adriano|niska",
+          "title": "Adriano",
+          "credit": "Niska",
+          "firstKey": "2025-31",
+          "firstDate": "28/07/2025",
+          "lastKey": "2025-50",
+          "lastDate": "08/12/2025",
+          "weeks": 20,
+          "peak": 32,
+          "peakKey": "2025-44",
+          "peakDate": "27/10/2025"
+        },
+        {
+          "key": "pow pow allo doudou|niska",
+          "title": "Pow pow / Allo doudou",
+          "credit": "Niska, litleboy lsbeats767 & Miimii KDS",
+          "firstKey": "2026-37",
+          "firstDate": "07/09/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 10,
+          "peak": 42,
+          "peakKey": "2026-43",
+          "peakDate": "19/10/2026"
+        },
+        {
+          "key": "batiment|niska",
+          "title": "Bâtiment",
+          "credit": "Niska",
+          "firstKey": "2019-39",
+          "firstDate": "23/09/2019",
+          "lastKey": "2020-05",
+          "lastDate": "27/01/2020",
+          "weeks": 14,
+          "peak": 45,
+          "peakKey": "2019-47",
+          "peakDate": "18/11/2019"
+        },
+        {
+          "key": "medicament|niska",
+          "title": "Médicament",
+          "credit": "Niska feat. Booba",
+          "firstKey": "2019-21",
+          "firstDate": "20/05/2019",
+          "lastKey": "2019-38",
+          "lastDate": "16/09/2019",
+          "weeks": 9,
+          "peak": 45,
+          "peakKey": "2019-26",
+          "peakDate": "24/06/2019"
+        },
+        {
+          "key": "n i|niska",
+          "title": "N.I",
+          "credit": "Niska feat. Ninho",
+          "firstKey": "2021-46",
+          "firstDate": "15/11/2021",
+          "lastKey": "2022-04",
+          "lastDate": "24/01/2022",
+          "weeks": 11,
+          "peak": 51,
+          "peakKey": "2021-51",
+          "peakDate": "20/12/2021"
+        },
+        {
+          "key": "w l g|niska",
+          "title": "W.L.G",
+          "credit": "Niska",
+          "firstKey": "2018-38",
+          "firstDate": "17/09/2018",
+          "lastKey": "2018-44",
+          "lastDate": "29/10/2018",
+          "weeks": 5,
+          "peak": 52,
+          "peakKey": "2018-43",
+          "peakDate": "22/10/2018"
+        },
+        {
+          "key": "sale|niska",
+          "title": "Salé",
+          "credit": "Niska",
+          "firstKey": "2017-49",
+          "firstDate": "04/12/2017",
+          "lastKey": "2018-05",
+          "lastDate": "29/01/2018",
+          "weeks": 3,
+          "peak": 54,
+          "peakKey": "2017-49",
+          "peakDate": "04/12/2017"
+        },
+        {
+          "key": "giuseppe|niska",
+          "title": "Giuseppe",
+          "credit": "Niska",
+          "firstKey": "2019-12",
+          "firstDate": "18/03/2019",
+          "lastKey": "2019-12",
+          "lastDate": "18/03/2019",
+          "weeks": 1,
+          "peak": 59,
+          "peakKey": "2019-12",
+          "peakDate": "18/03/2019"
+        }
+      ],
+      "trackCount": 9,
+      "totalWeeks": 86,
+      "bestPeak": 19,
+      "firstYear": 2017,
+      "lastYear": 2026,
+      "firstKey": "2017-35",
+      "firstDate": "28/08/2017",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "sylvie vartan",
       "name": "Sylvie Vartan",
       "tracks": [
@@ -44225,138 +44186,6 @@
       "firstDate": "10/02/1991",
       "lastKey": "2011-50",
       "lastDate": "12/12/2011"
-    },
-    {
-      "id": "niska",
-      "name": "Niska",
-      "tracks": [
-        {
-          "key": "reseaux|niska",
-          "title": "Réseaux",
-          "credit": "Niska",
-          "firstKey": "2017-35",
-          "firstDate": "28/08/2017",
-          "lastKey": "2017-49",
-          "lastDate": "04/12/2017",
-          "weeks": 13,
-          "peak": 19,
-          "peakKey": "2017-39",
-          "peakDate": "25/09/2017"
-        },
-        {
-          "key": "adriano|niska",
-          "title": "Adriano",
-          "credit": "Niska",
-          "firstKey": "2025-31",
-          "firstDate": "28/07/2025",
-          "lastKey": "2025-50",
-          "lastDate": "08/12/2025",
-          "weeks": 20,
-          "peak": 32,
-          "peakKey": "2025-44",
-          "peakDate": "27/10/2025"
-        },
-        {
-          "key": "pow pow allo doudou|niska",
-          "title": "Pow pow / Allo doudou",
-          "credit": "Niska, litleboy lsbeats767 & Miimii KDS",
-          "firstKey": "2026-37",
-          "firstDate": "07/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 9,
-          "peak": 42,
-          "peakKey": "2026-43",
-          "peakDate": "19/10/2026"
-        },
-        {
-          "key": "batiment|niska",
-          "title": "Bâtiment",
-          "credit": "Niska",
-          "firstKey": "2019-39",
-          "firstDate": "23/09/2019",
-          "lastKey": "2020-05",
-          "lastDate": "27/01/2020",
-          "weeks": 14,
-          "peak": 45,
-          "peakKey": "2019-47",
-          "peakDate": "18/11/2019"
-        },
-        {
-          "key": "medicament|niska",
-          "title": "Médicament",
-          "credit": "Niska feat. Booba",
-          "firstKey": "2019-21",
-          "firstDate": "20/05/2019",
-          "lastKey": "2019-38",
-          "lastDate": "16/09/2019",
-          "weeks": 9,
-          "peak": 45,
-          "peakKey": "2019-26",
-          "peakDate": "24/06/2019"
-        },
-        {
-          "key": "n i|niska",
-          "title": "N.I",
-          "credit": "Niska feat. Ninho",
-          "firstKey": "2021-46",
-          "firstDate": "15/11/2021",
-          "lastKey": "2022-04",
-          "lastDate": "24/01/2022",
-          "weeks": 11,
-          "peak": 51,
-          "peakKey": "2021-51",
-          "peakDate": "20/12/2021"
-        },
-        {
-          "key": "w l g|niska",
-          "title": "W.L.G",
-          "credit": "Niska",
-          "firstKey": "2018-38",
-          "firstDate": "17/09/2018",
-          "lastKey": "2018-44",
-          "lastDate": "29/10/2018",
-          "weeks": 5,
-          "peak": 52,
-          "peakKey": "2018-43",
-          "peakDate": "22/10/2018"
-        },
-        {
-          "key": "sale|niska",
-          "title": "Salé",
-          "credit": "Niska",
-          "firstKey": "2017-49",
-          "firstDate": "04/12/2017",
-          "lastKey": "2018-05",
-          "lastDate": "29/01/2018",
-          "weeks": 3,
-          "peak": 54,
-          "peakKey": "2017-49",
-          "peakDate": "04/12/2017"
-        },
-        {
-          "key": "giuseppe|niska",
-          "title": "Giuseppe",
-          "credit": "Niska",
-          "firstKey": "2019-12",
-          "firstDate": "18/03/2019",
-          "lastKey": "2019-12",
-          "lastDate": "18/03/2019",
-          "weeks": 1,
-          "peak": 59,
-          "peakKey": "2019-12",
-          "peakDate": "18/03/2019"
-        }
-      ],
-      "trackCount": 9,
-      "totalWeeks": 85,
-      "bestPeak": 19,
-      "firstYear": 2017,
-      "lastYear": 2026,
-      "firstKey": "2017-35",
-      "firstDate": "28/08/2017",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "crazy frog",
@@ -50021,6 +49850,112 @@
       "lastDate": "21/03/2022"
     },
     {
+      "id": "alex warren",
+      "name": "Alex Warren",
+      "tracks": [
+        {
+          "key": "ordinary|alex warren",
+          "title": "Ordinary",
+          "credit": "Alex Warren",
+          "firstKey": "2025-14",
+          "firstDate": "31/03/2025",
+          "lastKey": "2026-08",
+          "lastDate": "16/02/2026",
+          "weeks": 48,
+          "peak": 1,
+          "peakKey": "2025-29",
+          "peakDate": "14/07/2025"
+        },
+        {
+          "key": "fever dream|alex warren",
+          "title": "Fever dream",
+          "credit": "Alex Warren",
+          "firstKey": "2026-12",
+          "firstDate": "16/03/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 35,
+          "peak": 2,
+          "peakKey": "2026-21",
+          "peakDate": "18/05/2026"
+        },
+        {
+          "key": "carry you home|alex warren",
+          "title": "Carry you home",
+          "credit": "Alex Warren",
+          "firstKey": "2024-40",
+          "firstDate": "30/09/2024",
+          "lastKey": "2025-13",
+          "lastDate": "24/03/2025",
+          "weeks": 27,
+          "peak": 2,
+          "peakKey": "2024-49",
+          "peakDate": "02/12/2024"
+        },
+        {
+          "key": "eternity|alex warren",
+          "title": "Eternity",
+          "credit": "Alex Warren",
+          "firstKey": "2025-40",
+          "firstDate": "29/09/2025",
+          "lastKey": "2026-18",
+          "lastDate": "27/04/2026",
+          "weeks": 32,
+          "peak": 4,
+          "peakKey": "2025-52",
+          "peakDate": "22/12/2025"
+        },
+        {
+          "key": "emerald eyes|alex warren",
+          "title": "Emerald eyes",
+          "credit": "Alex Warren",
+          "firstKey": "2026-39",
+          "firstDate": "21/09/2026",
+          "lastKey": "2026-39",
+          "lastDate": "21/09/2026",
+          "weeks": 1,
+          "peak": 46,
+          "peakKey": "2026-39",
+          "peakDate": "21/09/2026"
+        },
+        {
+          "key": "burning down|alex warren",
+          "title": "Burning down",
+          "credit": "Alex Warren",
+          "firstKey": "2025-07",
+          "firstDate": "10/02/2025",
+          "lastKey": "2025-07",
+          "lastDate": "10/02/2025",
+          "weeks": 1,
+          "peak": 50,
+          "peakKey": "2025-07",
+          "peakDate": "10/02/2025"
+        },
+        {
+          "key": "passenger|alex warren",
+          "title": "Passenger",
+          "credit": "Alex Warren",
+          "firstKey": "2026-35",
+          "firstDate": "24/08/2026",
+          "lastKey": "2026-35",
+          "lastDate": "24/08/2026",
+          "weeks": 1,
+          "peak": 60,
+          "peakKey": "2026-35",
+          "peakDate": "24/08/2026"
+        }
+      ],
+      "trackCount": 7,
+      "totalWeeks": 145,
+      "bestPeak": 1,
+      "firstYear": 2024,
+      "lastYear": 2026,
+      "firstKey": "2024-40",
+      "firstDate": "30/09/2024",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "sam smith",
       "name": "Sam Smith",
       "tracks": [
@@ -50125,112 +50060,6 @@
       "firstDate": "14/04/2014",
       "lastKey": "2023-10",
       "lastDate": "06/03/2023"
-    },
-    {
-      "id": "alex warren",
-      "name": "Alex Warren",
-      "tracks": [
-        {
-          "key": "ordinary|alex warren",
-          "title": "Ordinary",
-          "credit": "Alex Warren",
-          "firstKey": "2025-14",
-          "firstDate": "31/03/2025",
-          "lastKey": "2026-08",
-          "lastDate": "16/02/2026",
-          "weeks": 48,
-          "peak": 1,
-          "peakKey": "2025-29",
-          "peakDate": "14/07/2025"
-        },
-        {
-          "key": "fever dream|alex warren",
-          "title": "Fever dream",
-          "credit": "Alex Warren",
-          "firstKey": "2026-12",
-          "firstDate": "16/03/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 34,
-          "peak": 2,
-          "peakKey": "2026-21",
-          "peakDate": "18/05/2026"
-        },
-        {
-          "key": "carry you home|alex warren",
-          "title": "Carry you home",
-          "credit": "Alex Warren",
-          "firstKey": "2024-40",
-          "firstDate": "30/09/2024",
-          "lastKey": "2025-13",
-          "lastDate": "24/03/2025",
-          "weeks": 27,
-          "peak": 2,
-          "peakKey": "2024-49",
-          "peakDate": "02/12/2024"
-        },
-        {
-          "key": "eternity|alex warren",
-          "title": "Eternity",
-          "credit": "Alex Warren",
-          "firstKey": "2025-40",
-          "firstDate": "29/09/2025",
-          "lastKey": "2026-18",
-          "lastDate": "27/04/2026",
-          "weeks": 32,
-          "peak": 4,
-          "peakKey": "2025-52",
-          "peakDate": "22/12/2025"
-        },
-        {
-          "key": "emerald eyes|alex warren",
-          "title": "Emerald eyes",
-          "credit": "Alex Warren",
-          "firstKey": "2026-39",
-          "firstDate": "21/09/2026",
-          "lastKey": "2026-39",
-          "lastDate": "21/09/2026",
-          "weeks": 1,
-          "peak": 46,
-          "peakKey": "2026-39",
-          "peakDate": "21/09/2026"
-        },
-        {
-          "key": "burning down|alex warren",
-          "title": "Burning down",
-          "credit": "Alex Warren",
-          "firstKey": "2025-07",
-          "firstDate": "10/02/2025",
-          "lastKey": "2025-07",
-          "lastDate": "10/02/2025",
-          "weeks": 1,
-          "peak": 50,
-          "peakKey": "2025-07",
-          "peakDate": "10/02/2025"
-        },
-        {
-          "key": "passenger|alex warren",
-          "title": "Passenger",
-          "credit": "Alex Warren",
-          "firstKey": "2026-35",
-          "firstDate": "24/08/2026",
-          "lastKey": "2026-35",
-          "lastDate": "24/08/2026",
-          "weeks": 1,
-          "peak": 60,
-          "peakKey": "2026-35",
-          "peakDate": "24/08/2026"
-        }
-      ],
-      "trackCount": 7,
-      "totalWeeks": 144,
-      "bestPeak": 1,
-      "firstYear": 2024,
-      "lastYear": 2026,
-      "firstKey": "2024-40",
-      "firstDate": "30/09/2024",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "shania twain",
@@ -54588,9 +54417,9 @@
           "credit": "Tiakola",
           "firstKey": "2026-28",
           "firstDate": "06/07/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 18,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 19,
           "peak": 26,
           "peakKey": "2026-42",
           "peakDate": "12/10/2026"
@@ -54622,6 +54451,19 @@
           "peakDate": "16/10/2023"
         },
         {
+          "key": "la nocturne|tiakola",
+          "title": "La nocturne",
+          "credit": "Tiakola feat. Theodora",
+          "firstKey": "2026-41",
+          "firstDate": "05/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 3,
+          "peak": 49,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        },
+        {
           "key": "pona nini|tiakola",
           "title": "Pona Nini",
           "credit": "Tiakola feat. Genezio & Prototype",
@@ -54633,19 +54475,6 @@
           "peak": 56,
           "peakKey": "2024-52",
           "peakDate": "23/12/2024"
-        },
-        {
-          "key": "la nocturne|tiakola",
-          "title": "La nocturne",
-          "credit": "Tiakola feat. Theodora",
-          "firstKey": "2026-41",
-          "firstDate": "05/10/2026",
-          "lastKey": "2026-42",
-          "lastDate": "12/10/2026",
-          "weeks": 2,
-          "peak": 56,
-          "peakKey": "2026-42",
-          "peakDate": "12/10/2026"
         },
         {
           "key": "si j savais|tiakola",
@@ -54675,14 +54504,14 @@
         }
       ],
       "trackCount": 7,
-      "totalWeeks": 53,
+      "totalWeeks": 55,
       "bestPeak": 26,
       "firstYear": 2022,
       "lastYear": 2026,
       "firstKey": "2022-21",
       "firstDate": "23/05/2022",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "claude francois",
@@ -59294,6 +59123,99 @@
       "lastDate": "08/04/2002"
     },
     {
+      "id": "eva",
+      "name": "Eva",
+      "tracks": [
+        {
+          "key": "plus belle la vie|eva",
+          "title": "Plus belle la vie",
+          "credit": "Eva",
+          "firstKey": "2005-29",
+          "firstDate": "18/07/2005",
+          "lastKey": "2011-44",
+          "lastDate": "31/10/2011",
+          "weeks": 21,
+          "peak": 7,
+          "peakKey": "2005-31",
+          "peakDate": "01/08/2005"
+        },
+        {
+          "key": "sur la piste|eva",
+          "title": "Sur la piste",
+          "credit": "Eva",
+          "firstKey": "2026-36",
+          "firstDate": "31/08/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 11,
+          "peak": 7,
+          "peakKey": "2026-43",
+          "peakDate": "19/10/2026"
+        },
+        {
+          "key": "coeur noir|eva",
+          "title": "Coeur noir",
+          "credit": "Eva",
+          "firstKey": "2020-52",
+          "firstDate": "21/12/2020",
+          "lastKey": "2021-17",
+          "lastDate": "26/04/2021",
+          "weeks": 18,
+          "peak": 19,
+          "peakKey": "2021-12",
+          "peakDate": "22/03/2021"
+        },
+        {
+          "key": "bottega|eva",
+          "title": "Bottega",
+          "credit": "Eva",
+          "firstKey": "2024-15",
+          "firstDate": "08/04/2024",
+          "lastKey": "2024-28",
+          "lastDate": "08/07/2024",
+          "weeks": 14,
+          "peak": 25,
+          "peakKey": "2024-27",
+          "peakDate": "01/07/2024"
+        },
+        {
+          "key": "je pourrais|eva",
+          "title": "Je pourrais",
+          "credit": "Eva",
+          "firstKey": "2006-07",
+          "firstDate": "13/02/2006",
+          "lastKey": "2006-14",
+          "lastDate": "03/04/2006",
+          "weeks": 8,
+          "peak": 36,
+          "peakKey": "2006-08",
+          "peakDate": "20/02/2006"
+        },
+        {
+          "key": "on fleek|eva",
+          "title": "On fleek",
+          "credit": "Eva feat. Lartiste",
+          "firstKey": "2019-06",
+          "firstDate": "04/02/2019",
+          "lastKey": "2019-11",
+          "lastDate": "11/03/2019",
+          "weeks": 6,
+          "peak": 50,
+          "peakKey": "2019-09",
+          "peakDate": "25/02/2019"
+        }
+      ],
+      "trackCount": 6,
+      "totalWeeks": 78,
+      "bestPeak": 7,
+      "firstYear": 2005,
+      "lastYear": 2026,
+      "firstKey": "2005-29",
+      "firstDate": "18/07/2005",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "pierpoljak",
       "name": "Pierpoljak",
       "tracks": [
@@ -59478,99 +59400,6 @@
       "firstDate": "15/12/1997",
       "lastKey": "2004-26",
       "lastDate": "21/06/2004"
-    },
-    {
-      "id": "eva",
-      "name": "Eva",
-      "tracks": [
-        {
-          "key": "plus belle la vie|eva",
-          "title": "Plus belle la vie",
-          "credit": "Eva",
-          "firstKey": "2005-29",
-          "firstDate": "18/07/2005",
-          "lastKey": "2011-44",
-          "lastDate": "31/10/2011",
-          "weeks": 21,
-          "peak": 7,
-          "peakKey": "2005-31",
-          "peakDate": "01/08/2005"
-        },
-        {
-          "key": "sur la piste|eva",
-          "title": "Sur la piste",
-          "credit": "Eva",
-          "firstKey": "2026-36",
-          "firstDate": "31/08/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 10,
-          "peak": 7,
-          "peakKey": "2026-43",
-          "peakDate": "19/10/2026"
-        },
-        {
-          "key": "coeur noir|eva",
-          "title": "Coeur noir",
-          "credit": "Eva",
-          "firstKey": "2020-52",
-          "firstDate": "21/12/2020",
-          "lastKey": "2021-17",
-          "lastDate": "26/04/2021",
-          "weeks": 18,
-          "peak": 19,
-          "peakKey": "2021-12",
-          "peakDate": "22/03/2021"
-        },
-        {
-          "key": "bottega|eva",
-          "title": "Bottega",
-          "credit": "Eva",
-          "firstKey": "2024-15",
-          "firstDate": "08/04/2024",
-          "lastKey": "2024-28",
-          "lastDate": "08/07/2024",
-          "weeks": 14,
-          "peak": 25,
-          "peakKey": "2024-27",
-          "peakDate": "01/07/2024"
-        },
-        {
-          "key": "je pourrais|eva",
-          "title": "Je pourrais",
-          "credit": "Eva",
-          "firstKey": "2006-07",
-          "firstDate": "13/02/2006",
-          "lastKey": "2006-14",
-          "lastDate": "03/04/2006",
-          "weeks": 8,
-          "peak": 36,
-          "peakKey": "2006-08",
-          "peakDate": "20/02/2006"
-        },
-        {
-          "key": "on fleek|eva",
-          "title": "On fleek",
-          "credit": "Eva feat. Lartiste",
-          "firstKey": "2019-06",
-          "firstDate": "04/02/2019",
-          "lastKey": "2019-11",
-          "lastDate": "11/03/2019",
-          "weeks": 6,
-          "peak": 50,
-          "peakKey": "2019-09",
-          "peakDate": "25/02/2019"
-        }
-      ],
-      "trackCount": 6,
-      "totalWeeks": 77,
-      "bestPeak": 7,
-      "firstYear": 2005,
-      "lastYear": 2026,
-      "firstKey": "2005-29",
-      "firstDate": "18/07/2005",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "spagna",
@@ -62778,6 +62607,86 @@
       "lastDate": "24/09/2018"
     },
     {
+      "id": "joseph kamel",
+      "name": "Joseph Kamel",
+      "tracks": [
+        {
+          "key": "beau|joseph kamel",
+          "title": "Beau",
+          "credit": "Joseph Kamel feat. Julien Doré",
+          "firstKey": "2024-05",
+          "firstDate": "29/01/2024",
+          "lastKey": "2024-45",
+          "lastDate": "04/11/2024",
+          "weeks": 40,
+          "peak": 3,
+          "peakKey": "2024-22",
+          "peakDate": "27/05/2024"
+        },
+        {
+          "key": "jamais|joseph kamel",
+          "title": "Jamais",
+          "credit": "Joseph Kamel feat. Vitaa",
+          "firstKey": "2026-41",
+          "firstDate": "05/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 6,
+          "peak": 6,
+          "peakKey": "2026-44",
+          "peakDate": "26/10/2026"
+        },
+        {
+          "key": "celui qui part|joseph kamel",
+          "title": "Celui qui part",
+          "credit": "Joseph Kamel",
+          "firstKey": "2023-34",
+          "firstDate": "21/08/2023",
+          "lastKey": "2024-12",
+          "lastDate": "18/03/2024",
+          "weeks": 32,
+          "peak": 13,
+          "peakKey": "2023-53",
+          "peakDate": "01/01/2024"
+        },
+        {
+          "key": "ton regard|joseph kamel",
+          "title": "Ton regard",
+          "credit": "Joseph Kamel",
+          "firstKey": "2024-37",
+          "firstDate": "09/09/2024",
+          "lastKey": "2025-09",
+          "lastDate": "24/02/2025",
+          "weeks": 26,
+          "peak": 24,
+          "peakKey": "2024-39",
+          "peakDate": "23/09/2024"
+        },
+        {
+          "key": "petit frere|joseph kamel",
+          "title": "Petit frere",
+          "credit": "Joseph Kamel",
+          "firstKey": "2025-10",
+          "firstDate": "03/03/2025",
+          "lastKey": "2025-12",
+          "lastDate": "17/03/2025",
+          "weeks": 3,
+          "peak": 35,
+          "peakKey": "2025-11",
+          "peakDate": "10/03/2025"
+        }
+      ],
+      "trackCount": 5,
+      "totalWeeks": 107,
+      "bestPeak": 3,
+      "firstYear": 2023,
+      "lastYear": 2026,
+      "firstKey": "2023-34",
+      "firstDate": "21/08/2023",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "doja cat",
       "name": "Doja Cat",
       "tracks": [
@@ -62936,86 +62845,6 @@
       "firstDate": "22/09/1997",
       "lastKey": "2008-43",
       "lastDate": "20/10/2008"
-    },
-    {
-      "id": "joseph kamel",
-      "name": "Joseph Kamel",
-      "tracks": [
-        {
-          "key": "beau|joseph kamel",
-          "title": "Beau",
-          "credit": "Joseph Kamel feat. Julien Doré",
-          "firstKey": "2024-05",
-          "firstDate": "29/01/2024",
-          "lastKey": "2024-45",
-          "lastDate": "04/11/2024",
-          "weeks": 40,
-          "peak": 3,
-          "peakKey": "2024-22",
-          "peakDate": "27/05/2024"
-        },
-        {
-          "key": "jamais|joseph kamel",
-          "title": "Jamais",
-          "credit": "Joseph Kamel feat. Vitaa",
-          "firstKey": "2026-41",
-          "firstDate": "05/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 5,
-          "peak": 6,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        },
-        {
-          "key": "celui qui part|joseph kamel",
-          "title": "Celui qui part",
-          "credit": "Joseph Kamel",
-          "firstKey": "2023-34",
-          "firstDate": "21/08/2023",
-          "lastKey": "2024-12",
-          "lastDate": "18/03/2024",
-          "weeks": 32,
-          "peak": 13,
-          "peakKey": "2023-53",
-          "peakDate": "01/01/2024"
-        },
-        {
-          "key": "ton regard|joseph kamel",
-          "title": "Ton regard",
-          "credit": "Joseph Kamel",
-          "firstKey": "2024-37",
-          "firstDate": "09/09/2024",
-          "lastKey": "2025-09",
-          "lastDate": "24/02/2025",
-          "weeks": 26,
-          "peak": 24,
-          "peakKey": "2024-39",
-          "peakDate": "23/09/2024"
-        },
-        {
-          "key": "petit frere|joseph kamel",
-          "title": "Petit frere",
-          "credit": "Joseph Kamel",
-          "firstKey": "2025-10",
-          "firstDate": "03/03/2025",
-          "lastKey": "2025-12",
-          "lastDate": "17/03/2025",
-          "weeks": 3,
-          "peak": 35,
-          "peakKey": "2025-11",
-          "peakDate": "10/03/2025"
-        }
-      ],
-      "trackCount": 5,
-      "totalWeeks": 106,
-      "bestPeak": 3,
-      "firstYear": 2023,
-      "lastYear": 2026,
-      "firstKey": "2023-34",
-      "firstDate": "21/08/2023",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "mr oizo",
@@ -70480,9 +70309,9 @@
           "credit": "Teddy Swims",
           "firstKey": "2026-19",
           "firstDate": "04/05/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 27,
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 28,
           "peak": 2,
           "peakKey": "2026-32",
           "peakDate": "03/08/2026"
@@ -70515,14 +70344,14 @@
         }
       ],
       "trackCount": 4,
-      "totalWeeks": 133,
+      "totalWeeks": 134,
       "bestPeak": 2,
       "firstYear": 2023,
       "lastYear": 2026,
       "firstKey": "2023-47",
       "firstDate": "20/11/2023",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "helmut fritz",
@@ -71597,6 +71426,73 @@
       "lastDate": "28/03/2011"
     },
     {
+      "id": "karol g",
+      "name": "Karol G",
+      "tracks": [
+        {
+          "key": "si antes te hubiera conocido|karol g",
+          "title": "Si antes te hubiera conocido",
+          "credit": "Karol G",
+          "firstKey": "2024-31",
+          "firstDate": "29/07/2024",
+          "lastKey": "2025-34",
+          "lastDate": "18/08/2025",
+          "weeks": 53,
+          "peak": 1,
+          "peakKey": "2024-39",
+          "peakDate": "23/09/2024"
+        },
+        {
+          "key": "tusa|karol g",
+          "title": "Tusa",
+          "credit": "Karol G feat. Nicki Minaj",
+          "firstKey": "2020-07",
+          "firstDate": "10/02/2020",
+          "lastKey": "2020-39",
+          "lastDate": "21/09/2020",
+          "weeks": 33,
+          "peak": 2,
+          "peakKey": "2020-18",
+          "peakDate": "27/04/2020"
+        },
+        {
+          "key": "bby wow|karol g",
+          "title": "Bby wow",
+          "credit": "Karol G",
+          "firstKey": "2026-40",
+          "firstDate": "28/09/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 7,
+          "peak": 3,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        },
+        {
+          "key": "latina foreva|karol g",
+          "title": "Latina foreva",
+          "credit": "Karol G",
+          "firstKey": "2025-29",
+          "firstDate": "14/07/2025",
+          "lastKey": "2025-29",
+          "lastDate": "14/07/2025",
+          "weeks": 1,
+          "peak": 45,
+          "peakKey": "2025-29",
+          "peakDate": "14/07/2025"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 94,
+      "bestPeak": 1,
+      "firstYear": 2020,
+      "lastYear": 2026,
+      "firstKey": "2020-07",
+      "firstDate": "10/02/2020",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "singuila",
       "name": "Singuila",
       "tracks": [
@@ -71662,73 +71558,6 @@
       "firstDate": "19/05/2003",
       "lastKey": "2010-46",
       "lastDate": "15/11/2010"
-    },
-    {
-      "id": "karol g",
-      "name": "Karol G",
-      "tracks": [
-        {
-          "key": "si antes te hubiera conocido|karol g",
-          "title": "Si antes te hubiera conocido",
-          "credit": "Karol G",
-          "firstKey": "2024-31",
-          "firstDate": "29/07/2024",
-          "lastKey": "2025-34",
-          "lastDate": "18/08/2025",
-          "weeks": 53,
-          "peak": 1,
-          "peakKey": "2024-39",
-          "peakDate": "23/09/2024"
-        },
-        {
-          "key": "tusa|karol g",
-          "title": "Tusa",
-          "credit": "Karol G feat. Nicki Minaj",
-          "firstKey": "2020-07",
-          "firstDate": "10/02/2020",
-          "lastKey": "2020-39",
-          "lastDate": "21/09/2020",
-          "weeks": 33,
-          "peak": 2,
-          "peakKey": "2020-18",
-          "peakDate": "27/04/2020"
-        },
-        {
-          "key": "bby wow|karol g",
-          "title": "Bby wow",
-          "credit": "Karol G",
-          "firstKey": "2026-40",
-          "firstDate": "28/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 6,
-          "peak": 4,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        },
-        {
-          "key": "latina foreva|karol g",
-          "title": "Latina foreva",
-          "credit": "Karol G",
-          "firstKey": "2025-29",
-          "firstDate": "14/07/2025",
-          "lastKey": "2025-29",
-          "lastDate": "14/07/2025",
-          "weeks": 1,
-          "peak": 45,
-          "peakKey": "2025-29",
-          "peakDate": "14/07/2025"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 93,
-      "bestPeak": 1,
-      "firstYear": 2020,
-      "lastYear": 2026,
-      "firstKey": "2020-07",
-      "firstDate": "10/02/2020",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "sdm",
@@ -72064,6 +71893,73 @@
       "firstDate": "15/08/2005",
       "lastKey": "2015-44",
       "lastDate": "26/10/2015"
+    },
+    {
+      "id": "charlotte cardin",
+      "name": "Charlotte Cardin",
+      "tracks": [
+        {
+          "key": "feel good|charlotte cardin",
+          "title": "Feel good",
+          "credit": "Charlotte Cardin",
+          "firstKey": "2025-06",
+          "firstDate": "03/02/2025",
+          "lastKey": "2025-39",
+          "lastDate": "22/09/2025",
+          "weeks": 34,
+          "peak": 2,
+          "peakKey": "2025-12",
+          "peakDate": "17/03/2025"
+        },
+        {
+          "key": "tant pis pour elle|charlotte cardin",
+          "title": "Tant pis pour elle",
+          "credit": "Charlotte Cardin",
+          "firstKey": "2025-42",
+          "firstDate": "13/10/2025",
+          "lastKey": "2026-24",
+          "lastDate": "08/06/2026",
+          "weeks": 35,
+          "peak": 6,
+          "peakKey": "2026-09",
+          "peakDate": "23/02/2026"
+        },
+        {
+          "key": "the way we touch|charlotte cardin",
+          "title": "The way we touch",
+          "credit": "Charlotte Cardin",
+          "firstKey": "2026-25",
+          "firstDate": "15/06/2026",
+          "lastKey": "2026-40",
+          "lastDate": "28/09/2026",
+          "weeks": 16,
+          "peak": 22,
+          "peakKey": "2026-34",
+          "peakDate": "17/08/2026"
+        },
+        {
+          "key": "memories|charlotte cardin",
+          "title": "Memories (Souvenirs)",
+          "credit": "Charlotte Cardin",
+          "firstKey": "2026-46",
+          "firstDate": "09/11/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 1,
+          "peak": 58,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 86,
+      "bestPeak": 2,
+      "firstYear": 2025,
+      "lastYear": 2026,
+      "firstKey": "2025-06",
+      "firstDate": "03/02/2025",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "tom gregory",
@@ -72602,6 +72498,73 @@
       "lastDate": "16/02/1992"
     },
     {
+      "id": "rnboi",
+      "name": "RnBoi",
+      "tracks": [
+        {
+          "key": "elle voulait|rnboi",
+          "title": "Elle voulait",
+          "credit": "RnBoi",
+          "firstKey": "2026-15",
+          "firstDate": "06/04/2026",
+          "lastKey": "2026-36",
+          "lastDate": "31/08/2026",
+          "weeks": 22,
+          "peak": 23,
+          "peakKey": "2026-28",
+          "peakDate": "06/07/2026"
+        },
+        {
+          "key": "mon bebe|rnboi",
+          "title": "Mon bebe",
+          "credit": "RnBoi",
+          "firstKey": "2025-45",
+          "firstDate": "03/11/2025",
+          "lastKey": "2026-22",
+          "lastDate": "25/05/2026",
+          "weeks": 31,
+          "peak": 31,
+          "peakKey": "2026-10",
+          "peakDate": "02/03/2026"
+        },
+        {
+          "key": "avec moi|rnboi",
+          "title": "Avec moi",
+          "credit": "RnBoi feat. Nono La Grinta",
+          "firstKey": "2026-05",
+          "firstDate": "26/01/2026",
+          "lastKey": "2026-27",
+          "lastDate": "29/06/2026",
+          "weeks": 22,
+          "peak": 35,
+          "peakKey": "2026-09",
+          "peakDate": "23/02/2026"
+        },
+        {
+          "key": "j assume|rnboi",
+          "title": "J'assume",
+          "credit": "RnBoi",
+          "firstKey": "2026-44",
+          "firstDate": "26/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 3,
+          "peak": 37,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 78,
+      "bestPeak": 23,
+      "firstYear": 2025,
+      "lastYear": 2026,
+      "firstKey": "2025-45",
+      "firstDate": "03/11/2025",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "isabelle boulay",
       "name": "Isabelle Boulay",
       "tracks": [
@@ -72868,73 +72831,6 @@
       "firstDate": "08/11/2021",
       "lastKey": "2023-26",
       "lastDate": "26/06/2023"
-    },
-    {
-      "id": "rnboi",
-      "name": "RnBoi",
-      "tracks": [
-        {
-          "key": "elle voulait|rnboi",
-          "title": "Elle voulait",
-          "credit": "RnBoi",
-          "firstKey": "2026-15",
-          "firstDate": "06/04/2026",
-          "lastKey": "2026-36",
-          "lastDate": "31/08/2026",
-          "weeks": 22,
-          "peak": 23,
-          "peakKey": "2026-28",
-          "peakDate": "06/07/2026"
-        },
-        {
-          "key": "mon bebe|rnboi",
-          "title": "Mon bebe",
-          "credit": "RnBoi",
-          "firstKey": "2025-45",
-          "firstDate": "03/11/2025",
-          "lastKey": "2026-22",
-          "lastDate": "25/05/2026",
-          "weeks": 31,
-          "peak": 31,
-          "peakKey": "2026-10",
-          "peakDate": "02/03/2026"
-        },
-        {
-          "key": "avec moi|rnboi",
-          "title": "Avec moi",
-          "credit": "RnBoi feat. Nono La Grinta",
-          "firstKey": "2026-05",
-          "firstDate": "26/01/2026",
-          "lastKey": "2026-27",
-          "lastDate": "29/06/2026",
-          "weeks": 22,
-          "peak": 35,
-          "peakKey": "2026-09",
-          "peakDate": "23/02/2026"
-        },
-        {
-          "key": "j assume|rnboi",
-          "title": "J'assume",
-          "credit": "RnBoi",
-          "firstKey": "2026-44",
-          "firstDate": "26/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 2,
-          "peak": 43,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 77,
-      "bestPeak": 23,
-      "firstYear": 2025,
-      "lastYear": 2026,
-      "firstKey": "2025-45",
-      "firstDate": "03/11/2025",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "felix gray and didier barbelivien",
@@ -74781,12 +74677,12 @@
           "credit": "Marine",
           "firstKey": "2026-43",
           "firstDate": "19/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 3,
-          "peak": 40,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 4,
+          "peak": 38,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
         },
         {
           "key": "escroc|marine",
@@ -74803,14 +74699,14 @@
         }
       ],
       "trackCount": 4,
-      "totalWeeks": 62,
+      "totalWeeks": 63,
       "bestPeak": 8,
       "firstYear": 2025,
       "lastYear": 2026,
       "firstKey": "2025-06",
       "firstDate": "03/02/2025",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "sabrina carpenter",
@@ -75617,6 +75513,73 @@
       "lastDate": "05/06/1995"
     },
     {
+      "id": "olivia rodrigo",
+      "name": "Olivia Rodrigo",
+      "tracks": [
+        {
+          "key": "good 4 u|olivia rodrigo",
+          "title": "Good 4 u",
+          "credit": "Olivia Rodrigo",
+          "firstKey": "2021-30",
+          "firstDate": "26/07/2021",
+          "lastKey": "2021-44",
+          "lastDate": "01/11/2021",
+          "weeks": 15,
+          "peak": 12,
+          "peakKey": "2021-37",
+          "peakDate": "13/09/2021"
+        },
+        {
+          "key": "vampire|olivia rodrigo",
+          "title": "Vampire",
+          "credit": "Olivia Rodrigo",
+          "firstKey": "2023-31",
+          "firstDate": "31/07/2023",
+          "lastKey": "2023-46",
+          "lastDate": "13/11/2023",
+          "weeks": 15,
+          "peak": 12,
+          "peakKey": "2023-41",
+          "peakDate": "09/10/2023"
+        },
+        {
+          "key": "drop dead|olivia rodrigo",
+          "title": "Drop dead",
+          "credit": "Olivia Rodrigo",
+          "firstKey": "2026-29",
+          "firstDate": "13/07/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 18,
+          "peak": 19,
+          "peakKey": "2026-42",
+          "peakDate": "12/10/2026"
+        },
+        {
+          "key": "drivers license|olivia rodrigo",
+          "title": "Drivers license",
+          "credit": "Olivia Rodrigo",
+          "firstKey": "2021-06",
+          "firstDate": "08/02/2021",
+          "lastKey": "2021-15",
+          "lastDate": "12/04/2021",
+          "weeks": 10,
+          "peak": 21,
+          "peakKey": "2021-13",
+          "peakDate": "29/03/2021"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 58,
+      "bestPeak": 12,
+      "firstYear": 2021,
+      "lastYear": 2026,
+      "firstKey": "2021-06",
+      "firstDate": "08/02/2021",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "natalie imbruglia",
       "name": "Natalie Imbruglia",
       "tracks": [
@@ -75950,73 +75913,6 @@
       "firstDate": "14/03/2005",
       "lastKey": "2007-20",
       "lastDate": "14/05/2007"
-    },
-    {
-      "id": "olivia rodrigo",
-      "name": "Olivia Rodrigo",
-      "tracks": [
-        {
-          "key": "good 4 u|olivia rodrigo",
-          "title": "Good 4 u",
-          "credit": "Olivia Rodrigo",
-          "firstKey": "2021-30",
-          "firstDate": "26/07/2021",
-          "lastKey": "2021-44",
-          "lastDate": "01/11/2021",
-          "weeks": 15,
-          "peak": 12,
-          "peakKey": "2021-37",
-          "peakDate": "13/09/2021"
-        },
-        {
-          "key": "vampire|olivia rodrigo",
-          "title": "Vampire",
-          "credit": "Olivia Rodrigo",
-          "firstKey": "2023-31",
-          "firstDate": "31/07/2023",
-          "lastKey": "2023-46",
-          "lastDate": "13/11/2023",
-          "weeks": 15,
-          "peak": 12,
-          "peakKey": "2023-41",
-          "peakDate": "09/10/2023"
-        },
-        {
-          "key": "drop dead|olivia rodrigo",
-          "title": "Drop dead",
-          "credit": "Olivia Rodrigo",
-          "firstKey": "2026-29",
-          "firstDate": "13/07/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 17,
-          "peak": 19,
-          "peakKey": "2026-42",
-          "peakDate": "12/10/2026"
-        },
-        {
-          "key": "drivers license|olivia rodrigo",
-          "title": "Drivers license",
-          "credit": "Olivia Rodrigo",
-          "firstKey": "2021-06",
-          "firstDate": "08/02/2021",
-          "lastKey": "2021-15",
-          "lastDate": "12/04/2021",
-          "weeks": 10,
-          "peak": 21,
-          "peakKey": "2021-13",
-          "peakDate": "29/03/2021"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 57,
-      "bestPeak": 12,
-      "firstYear": 2021,
-      "lastYear": 2026,
-      "firstKey": "2021-06",
-      "firstDate": "08/02/2021",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "de palmas",
@@ -76510,12 +76406,12 @@
           "credit": "Justice feat. Tame Impala, SZA, King Gizzard & the Lizard Wizard",
           "firstKey": "2026-43",
           "firstDate": "19/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 3,
-          "peak": 34,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 4,
+          "peak": 29,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
         },
         {
           "key": "waters of nazareth|justice",
@@ -76545,14 +76441,14 @@
         }
       ],
       "trackCount": 4,
-      "totalWeeks": 54,
+      "totalWeeks": 55,
       "bestPeak": 11,
       "firstYear": 2007,
       "lastYear": 2026,
       "firstKey": "2007-19",
       "firstDate": "07/05/2007",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "milli vanilli",
@@ -76823,6 +76719,73 @@
       "lastDate": "14/06/2004"
     },
     {
+      "id": "tove lo",
+      "name": "Tove Lo",
+      "tracks": [
+        {
+          "key": "habits|tove lo",
+          "title": "Habits (Stay high)",
+          "credit": "Tove Lo",
+          "firstKey": "2014-34",
+          "firstDate": "18/08/2014",
+          "lastKey": "2014-52",
+          "lastDate": "22/12/2014",
+          "weeks": 19,
+          "peak": 2,
+          "peakKey": "2014-39",
+          "peakDate": "22/09/2014"
+        },
+        {
+          "key": "des fleurs|tove lo",
+          "title": "Des fleurs (Quota fr)",
+          "credit": "Tove Lo x Stromae",
+          "firstKey": "2026-28",
+          "firstDate": "06/07/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 19,
+          "peak": 4,
+          "peakKey": "2026-41",
+          "peakDate": "05/10/2026"
+        },
+        {
+          "key": "2 die 4|tove lo",
+          "title": "2 die 4",
+          "credit": "Tove Lo",
+          "firstKey": "2022-53",
+          "firstDate": "02/01/2023",
+          "lastKey": "2023-10",
+          "lastDate": "06/03/2023",
+          "weeks": 11,
+          "peak": 33,
+          "peakKey": "2023-08",
+          "peakDate": "20/02/2023"
+        },
+        {
+          "key": "cool girl|tove lo",
+          "title": "Cool girl",
+          "credit": "Tove Lo",
+          "firstKey": "2016-52",
+          "firstDate": "26/12/2016",
+          "lastKey": "2017-03",
+          "lastDate": "16/01/2017",
+          "weeks": 3,
+          "peak": 53,
+          "peakKey": "2017-03",
+          "peakDate": "16/01/2017"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 52,
+      "bestPeak": 2,
+      "firstYear": 2014,
+      "lastYear": 2026,
+      "firstKey": "2014-34",
+      "firstDate": "18/08/2014",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "nouvelle star",
       "name": "Nouvelle Star",
       "tracks": [
@@ -77089,73 +77052,6 @@
       "firstDate": "18/09/1995",
       "lastKey": "2000-24",
       "lastDate": "12/06/2000"
-    },
-    {
-      "id": "tove lo",
-      "name": "Tove Lo",
-      "tracks": [
-        {
-          "key": "habits|tove lo",
-          "title": "Habits (Stay high)",
-          "credit": "Tove Lo",
-          "firstKey": "2014-34",
-          "firstDate": "18/08/2014",
-          "lastKey": "2014-52",
-          "lastDate": "22/12/2014",
-          "weeks": 19,
-          "peak": 2,
-          "peakKey": "2014-39",
-          "peakDate": "22/09/2014"
-        },
-        {
-          "key": "des fleurs|tove lo",
-          "title": "Des fleurs (Quota fr)",
-          "credit": "Tove Lo x Stromae",
-          "firstKey": "2026-28",
-          "firstDate": "06/07/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 18,
-          "peak": 4,
-          "peakKey": "2026-41",
-          "peakDate": "05/10/2026"
-        },
-        {
-          "key": "2 die 4|tove lo",
-          "title": "2 die 4",
-          "credit": "Tove Lo",
-          "firstKey": "2022-53",
-          "firstDate": "02/01/2023",
-          "lastKey": "2023-10",
-          "lastDate": "06/03/2023",
-          "weeks": 11,
-          "peak": 33,
-          "peakKey": "2023-08",
-          "peakDate": "20/02/2023"
-        },
-        {
-          "key": "cool girl|tove lo",
-          "title": "Cool girl",
-          "credit": "Tove Lo",
-          "firstKey": "2016-52",
-          "firstDate": "26/12/2016",
-          "lastKey": "2017-03",
-          "lastDate": "16/01/2017",
-          "weeks": 3,
-          "peak": 53,
-          "peakKey": "2017-03",
-          "peakDate": "16/01/2017"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 51,
-      "bestPeak": 2,
-      "firstYear": 2014,
-      "lastYear": 2026,
-      "firstKey": "2014-34",
-      "firstDate": "18/08/2014",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "rachid taha",
@@ -79637,6 +79533,73 @@
       "lastDate": "19/11/2012"
     },
     {
+      "id": "bormin",
+      "name": "Bormin'",
+      "tracks": [
+        {
+          "key": "break your heart|bormin",
+          "title": "Break your heart",
+          "credit": "Bormin'",
+          "firstKey": "2025-20",
+          "firstDate": "12/05/2025",
+          "lastKey": "2025-37",
+          "lastDate": "08/09/2025",
+          "weeks": 18,
+          "peak": 6,
+          "peakKey": "2025-26",
+          "peakDate": "23/06/2025"
+        },
+        {
+          "key": "pumped up kicks|bormin",
+          "title": "Pumped up kicks",
+          "credit": "Bormin'",
+          "firstKey": "2026-41",
+          "firstDate": "05/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 6,
+          "peak": 9,
+          "peakKey": "2026-44",
+          "peakDate": "26/10/2026"
+        },
+        {
+          "key": "cry for you|bormin",
+          "title": "Cry for you",
+          "credit": "Bormin'",
+          "firstKey": "2025-46",
+          "firstDate": "10/11/2025",
+          "lastKey": "2026-05",
+          "lastDate": "26/01/2026",
+          "weeks": 13,
+          "peak": 19,
+          "peakKey": "2026-02",
+          "peakDate": "05/01/2026"
+        },
+        {
+          "key": "night day|bormin",
+          "title": "Night & day",
+          "credit": "Bormin'",
+          "firstKey": "2017-04",
+          "firstDate": "23/01/2017",
+          "lastKey": "2017-04",
+          "lastDate": "23/01/2017",
+          "weeks": 1,
+          "peak": 54,
+          "peakKey": "2017-04",
+          "peakDate": "23/01/2017"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 38,
+      "bestPeak": 6,
+      "firstYear": 2017,
+      "lastYear": 2026,
+      "firstKey": "2017-04",
+      "firstDate": "23/01/2017",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "jil caplan",
       "name": "Jil Caplan",
       "tracks": [
@@ -79903,73 +79866,6 @@
       "firstDate": "23/12/1996",
       "lastKey": "1999-23",
       "lastDate": "07/06/1999"
-    },
-    {
-      "id": "bormin",
-      "name": "Bormin'",
-      "tracks": [
-        {
-          "key": "break your heart|bormin",
-          "title": "Break your heart",
-          "credit": "Bormin'",
-          "firstKey": "2025-20",
-          "firstDate": "12/05/2025",
-          "lastKey": "2025-37",
-          "lastDate": "08/09/2025",
-          "weeks": 18,
-          "peak": 6,
-          "peakKey": "2025-26",
-          "peakDate": "23/06/2025"
-        },
-        {
-          "key": "pumped up kicks|bormin",
-          "title": "Pumped up kicks",
-          "credit": "Bormin'",
-          "firstKey": "2026-41",
-          "firstDate": "05/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 5,
-          "peak": 9,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        },
-        {
-          "key": "cry for you|bormin",
-          "title": "Cry for you",
-          "credit": "Bormin'",
-          "firstKey": "2025-46",
-          "firstDate": "10/11/2025",
-          "lastKey": "2026-05",
-          "lastDate": "26/01/2026",
-          "weeks": 13,
-          "peak": 19,
-          "peakKey": "2026-02",
-          "peakDate": "05/01/2026"
-        },
-        {
-          "key": "night day|bormin",
-          "title": "Night & day",
-          "credit": "Bormin'",
-          "firstKey": "2017-04",
-          "firstDate": "23/01/2017",
-          "lastKey": "2017-04",
-          "lastDate": "23/01/2017",
-          "weeks": 1,
-          "peak": 54,
-          "peakKey": "2017-04",
-          "peakDate": "23/01/2017"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 37,
-      "bestPeak": 6,
-      "firstYear": 2017,
-      "lastYear": 2026,
-      "firstKey": "2017-04",
-      "firstDate": "23/01/2017",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "la clinique",
@@ -80707,6 +80603,73 @@
       "firstDate": "11/11/1984",
       "lastKey": "1986-31",
       "lastDate": "03/08/1986"
+    },
+    {
+      "id": "tate mcrae",
+      "name": "Tate McRae",
+      "tracks": [
+        {
+          "key": "greedy|tate mcrae",
+          "title": "Greedy",
+          "credit": "Tate McRae",
+          "firstKey": "2023-42",
+          "firstDate": "16/10/2023",
+          "lastKey": "2024-17",
+          "lastDate": "22/04/2024",
+          "weeks": 29,
+          "peak": 2,
+          "peakKey": "2023-46",
+          "peakDate": "13/11/2023"
+        },
+        {
+          "key": "housewife|tate mcrae",
+          "title": "Housewife",
+          "credit": "Tate McRae",
+          "firstKey": "2026-46",
+          "firstDate": "09/11/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 1,
+          "peak": 39,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        },
+        {
+          "key": "sports car|tate mcrae",
+          "title": "Sports car",
+          "credit": "Tate McRae",
+          "firstKey": "2025-12",
+          "firstDate": "17/03/2025",
+          "lastKey": "2025-12",
+          "lastDate": "17/03/2025",
+          "weeks": 1,
+          "peak": 55,
+          "peakKey": "2025-12",
+          "peakDate": "17/03/2025"
+        },
+        {
+          "key": "you broke me first|tate mcrae",
+          "title": "You broke me first",
+          "credit": "Tate McRae",
+          "firstKey": "2021-03",
+          "firstDate": "18/01/2021",
+          "lastKey": "2021-03",
+          "lastDate": "18/01/2021",
+          "weeks": 1,
+          "peak": 57,
+          "peakKey": "2021-03",
+          "peakDate": "18/01/2021"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 32,
+      "bestPeak": 2,
+      "firstYear": 2021,
+      "lastYear": 2026,
+      "firstKey": "2021-03",
+      "firstDate": "18/01/2021",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "space frog",
@@ -82680,60 +82643,6 @@
       "firstDate": "26/01/2009",
       "lastKey": "2012-03",
       "lastDate": "16/01/2012"
-    },
-    {
-      "id": "charlotte cardin",
-      "name": "Charlotte Cardin",
-      "tracks": [
-        {
-          "key": "feel good|charlotte cardin",
-          "title": "Feel good",
-          "credit": "Charlotte Cardin",
-          "firstKey": "2025-06",
-          "firstDate": "03/02/2025",
-          "lastKey": "2025-39",
-          "lastDate": "22/09/2025",
-          "weeks": 34,
-          "peak": 2,
-          "peakKey": "2025-12",
-          "peakDate": "17/03/2025"
-        },
-        {
-          "key": "tant pis pour elle|charlotte cardin",
-          "title": "Tant pis pour elle",
-          "credit": "Charlotte Cardin",
-          "firstKey": "2025-42",
-          "firstDate": "13/10/2025",
-          "lastKey": "2026-24",
-          "lastDate": "08/06/2026",
-          "weeks": 35,
-          "peak": 6,
-          "peakKey": "2026-09",
-          "peakDate": "23/02/2026"
-        },
-        {
-          "key": "the way we touch|charlotte cardin",
-          "title": "The way we touch",
-          "credit": "Charlotte Cardin",
-          "firstKey": "2026-25",
-          "firstDate": "15/06/2026",
-          "lastKey": "2026-40",
-          "lastDate": "28/09/2026",
-          "weeks": 16,
-          "peak": 22,
-          "peakKey": "2026-34",
-          "peakDate": "17/08/2026"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 85,
-      "bestPeak": 2,
-      "firstYear": 2025,
-      "lastYear": 2026,
-      "firstKey": "2025-06",
-      "firstDate": "03/02/2025",
-      "lastKey": "2026-40",
-      "lastDate": "28/09/2026"
     },
     {
       "id": "fatal bazooka",
@@ -85598,6 +85507,60 @@
       "lastDate": "21/10/2013"
     },
     {
+      "id": "mauvais djo",
+      "name": "Mauvais djo",
+      "tracks": [
+        {
+          "key": "pile|mauvais djo",
+          "title": "Pile",
+          "credit": "Mauvais djo",
+          "firstKey": "2026-23",
+          "firstDate": "01/06/2026",
+          "lastKey": "2026-45",
+          "lastDate": "02/11/2026",
+          "weeks": 23,
+          "peak": 3,
+          "peakKey": "2026-26",
+          "peakDate": "22/06/2026"
+        },
+        {
+          "key": "maladie|mauvais djo",
+          "title": "Maladie",
+          "credit": "Mauvais djo",
+          "firstKey": "2026-25",
+          "firstDate": "15/06/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 22,
+          "peak": 3,
+          "peakKey": "2026-39",
+          "peakDate": "21/09/2026"
+        },
+        {
+          "key": "wagyu|mauvais djo",
+          "title": "Wagyu",
+          "credit": "Mauvais Djo",
+          "firstKey": "2026-37",
+          "firstDate": "07/09/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 10,
+          "peak": 15,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 55,
+      "bestPeak": 3,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-23",
+      "firstDate": "01/06/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "mad house",
       "name": "Mad'House",
       "tracks": [
@@ -86028,60 +85991,6 @@
       "firstDate": "26/09/2005",
       "lastKey": "2008-31",
       "lastDate": "28/07/2008"
-    },
-    {
-      "id": "mauvais djo",
-      "name": "Mauvais djo",
-      "tracks": [
-        {
-          "key": "pile|mauvais djo",
-          "title": "Pile",
-          "credit": "Mauvais djo",
-          "firstKey": "2026-23",
-          "firstDate": "01/06/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 23,
-          "peak": 3,
-          "peakKey": "2026-26",
-          "peakDate": "22/06/2026"
-        },
-        {
-          "key": "maladie|mauvais djo",
-          "title": "Maladie",
-          "credit": "Mauvais djo",
-          "firstKey": "2026-25",
-          "firstDate": "15/06/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 21,
-          "peak": 3,
-          "peakKey": "2026-39",
-          "peakDate": "21/09/2026"
-        },
-        {
-          "key": "wagyu|mauvais djo",
-          "title": "Wagyu",
-          "credit": "Mauvais Djo",
-          "firstKey": "2026-37",
-          "firstDate": "07/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 9,
-          "peak": 27,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 53,
-      "bestPeak": 3,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-23",
-      "firstDate": "01/06/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "trois cafes gourmands",
@@ -87380,6 +87289,60 @@
       "lastDate": "18/02/2013"
     },
     {
+      "id": "bouss",
+      "name": "Bouss",
+      "tracks": [
+        {
+          "key": "biff pas d love|bouss",
+          "title": "Biff pas d'love",
+          "credit": "Bouss",
+          "firstKey": "2025-40",
+          "firstDate": "29/09/2025",
+          "lastKey": "2026-05",
+          "lastDate": "26/01/2026",
+          "weeks": 19,
+          "peak": 34,
+          "peakKey": "2026-02",
+          "peakDate": "05/01/2026"
+        },
+        {
+          "key": "ca parle mal|bouss",
+          "title": "Ca parle mal",
+          "credit": "Bouss",
+          "firstKey": "2024-39",
+          "firstDate": "23/09/2024",
+          "lastKey": "2025-09",
+          "lastDate": "24/02/2025",
+          "weeks": 22,
+          "peak": 49,
+          "peakKey": "2024-42",
+          "peakDate": "14/10/2024"
+        },
+        {
+          "key": "cote a la hausse|bouss",
+          "title": "Cote a la hausse",
+          "credit": "Bouss",
+          "firstKey": "2026-39",
+          "firstDate": "21/09/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 8,
+          "peak": 50,
+          "peakKey": "2026-41",
+          "peakDate": "05/10/2026"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 49,
+      "bestPeak": 34,
+      "firstYear": 2024,
+      "lastYear": 2026,
+      "firstKey": "2024-39",
+      "firstDate": "23/09/2024",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "moos",
       "name": "Moos",
       "tracks": [
@@ -87918,60 +87881,6 @@
       "firstDate": "15/08/2005",
       "lastKey": "2007-37",
       "lastDate": "10/09/2007"
-    },
-    {
-      "id": "bouss",
-      "name": "Bouss",
-      "tracks": [
-        {
-          "key": "biff pas d love|bouss",
-          "title": "Biff pas d'love",
-          "credit": "Bouss",
-          "firstKey": "2025-40",
-          "firstDate": "29/09/2025",
-          "lastKey": "2026-05",
-          "lastDate": "26/01/2026",
-          "weeks": 19,
-          "peak": 34,
-          "peakKey": "2026-02",
-          "peakDate": "05/01/2026"
-        },
-        {
-          "key": "ca parle mal|bouss",
-          "title": "Ca parle mal",
-          "credit": "Bouss",
-          "firstKey": "2024-39",
-          "firstDate": "23/09/2024",
-          "lastKey": "2025-09",
-          "lastDate": "24/02/2025",
-          "weeks": 22,
-          "peak": 49,
-          "peakKey": "2024-42",
-          "peakDate": "14/10/2024"
-        },
-        {
-          "key": "cote a la hausse|bouss",
-          "title": "Cote a la hausse",
-          "credit": "Bouss",
-          "firstKey": "2026-39",
-          "firstDate": "21/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 7,
-          "peak": 50,
-          "peakKey": "2026-41",
-          "peakDate": "05/10/2026"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 48,
-      "bestPeak": 34,
-      "firstYear": 2024,
-      "lastYear": 2026,
-      "firstKey": "2024-39",
-      "firstDate": "23/09/2024",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "paradisio",
@@ -93050,60 +92959,6 @@
       "lastDate": "06/01/2003"
     },
     {
-      "id": "tate mcrae",
-      "name": "Tate McRae",
-      "tracks": [
-        {
-          "key": "greedy|tate mcrae",
-          "title": "Greedy",
-          "credit": "Tate McRae",
-          "firstKey": "2023-42",
-          "firstDate": "16/10/2023",
-          "lastKey": "2024-17",
-          "lastDate": "22/04/2024",
-          "weeks": 29,
-          "peak": 2,
-          "peakKey": "2023-46",
-          "peakDate": "13/11/2023"
-        },
-        {
-          "key": "sports car|tate mcrae",
-          "title": "Sports car",
-          "credit": "Tate McRae",
-          "firstKey": "2025-12",
-          "firstDate": "17/03/2025",
-          "lastKey": "2025-12",
-          "lastDate": "17/03/2025",
-          "weeks": 1,
-          "peak": 55,
-          "peakKey": "2025-12",
-          "peakDate": "17/03/2025"
-        },
-        {
-          "key": "you broke me first|tate mcrae",
-          "title": "You broke me first",
-          "credit": "Tate McRae",
-          "firstKey": "2021-03",
-          "firstDate": "18/01/2021",
-          "lastKey": "2021-03",
-          "lastDate": "18/01/2021",
-          "weeks": 1,
-          "peak": 57,
-          "peakKey": "2021-03",
-          "peakDate": "18/01/2021"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 31,
-      "bestPeak": 2,
-      "firstYear": 2021,
-      "lastYear": 2025,
-      "firstKey": "2021-03",
-      "firstDate": "18/01/2021",
-      "lastKey": "2025-12",
-      "lastDate": "17/03/2025"
-    },
-    {
       "id": "armand van helden",
       "name": "Armand van Helden",
       "tracks": [
@@ -95858,6 +95713,60 @@
       "lastDate": "29/11/2021"
     },
     {
+      "id": "ronisia",
+      "name": "Ronisia",
+      "tracks": [
+        {
+          "key": "melodie|ronisia",
+          "title": "Mélodie (Tatami)",
+          "credit": "Ronisia",
+          "firstKey": "2022-06",
+          "firstDate": "07/02/2022",
+          "lastKey": "2022-13",
+          "lastDate": "28/03/2022",
+          "weeks": 8,
+          "peak": 38,
+          "peakKey": "2022-12",
+          "peakDate": "21/03/2022"
+        },
+        {
+          "key": "cuenta|ronisia",
+          "title": "Cuenta",
+          "credit": "Ronisia feat. Meryl & Shay",
+          "firstKey": "2026-42",
+          "firstDate": "12/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 3,
+          "peak": 43,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        },
+        {
+          "key": "solide|ronisia",
+          "title": "Solide",
+          "credit": "Ronisia",
+          "firstKey": "2025-53",
+          "firstDate": "29/12/2025",
+          "lastKey": "2026-10",
+          "lastDate": "02/03/2026",
+          "weeks": 10,
+          "peak": 45,
+          "peakKey": "2026-05",
+          "peakDate": "26/01/2026"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 21,
+      "bestPeak": 38,
+      "firstYear": 2022,
+      "lastYear": 2026,
+      "firstKey": "2022-06",
+      "firstDate": "07/02/2022",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "beenie man",
       "name": "Beenie Man",
       "tracks": [
@@ -96126,60 +96035,6 @@
       "firstDate": "29/09/2025",
       "lastKey": "2026-02",
       "lastDate": "05/01/2026"
-    },
-    {
-      "id": "ronisia",
-      "name": "Ronisia",
-      "tracks": [
-        {
-          "key": "melodie|ronisia",
-          "title": "Mélodie (Tatami)",
-          "credit": "Ronisia",
-          "firstKey": "2022-06",
-          "firstDate": "07/02/2022",
-          "lastKey": "2022-13",
-          "lastDate": "28/03/2022",
-          "weeks": 8,
-          "peak": 38,
-          "peakKey": "2022-12",
-          "peakDate": "21/03/2022"
-        },
-        {
-          "key": "solide|ronisia",
-          "title": "Solide",
-          "credit": "Ronisia",
-          "firstKey": "2025-53",
-          "firstDate": "29/12/2025",
-          "lastKey": "2026-10",
-          "lastDate": "02/03/2026",
-          "weeks": 10,
-          "peak": 45,
-          "peakKey": "2026-05",
-          "peakDate": "26/01/2026"
-        },
-        {
-          "key": "cuenta|ronisia",
-          "title": "Cuenta",
-          "credit": "Ronisia feat. Meryl & Shay",
-          "firstKey": "2026-42",
-          "firstDate": "12/10/2026",
-          "lastKey": "2026-43",
-          "lastDate": "19/10/2026",
-          "weeks": 2,
-          "peak": 57,
-          "peakKey": "2026-42",
-          "peakDate": "12/10/2026"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 20,
-      "bestPeak": 38,
-      "firstYear": 2022,
-      "lastYear": 2026,
-      "firstKey": "2022-06",
-      "firstDate": "07/02/2022",
-      "lastKey": "2026-43",
-      "lastDate": "19/10/2026"
     },
     {
       "id": "sigala",
@@ -102062,6 +101917,47 @@
       "lastDate": "02/01/2006"
     },
     {
+      "id": "katseye",
+      "name": "Katseye",
+      "tracks": [
+        {
+          "key": "gabriela|katseye",
+          "title": "Gabriela",
+          "credit": "Katseye",
+          "firstKey": "2025-41",
+          "firstDate": "06/10/2025",
+          "lastKey": "2026-18",
+          "lastDate": "27/04/2026",
+          "weeks": 31,
+          "peak": 1,
+          "peakKey": "2025-49",
+          "peakDate": "01/12/2025"
+        },
+        {
+          "key": "animal|katseye",
+          "title": "Animal",
+          "credit": "Katseye",
+          "firstKey": "2026-37",
+          "firstDate": "07/09/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 10,
+          "peak": 4,
+          "peakKey": "2026-42",
+          "peakDate": "12/10/2026"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 41,
+      "bestPeak": 1,
+      "firstYear": 2025,
+      "lastYear": 2026,
+      "firstKey": "2025-41",
+      "firstDate": "06/10/2025",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "koxie",
       "name": "Koxie",
       "tracks": [
@@ -102265,47 +102161,6 @@
       "firstDate": "26/01/1992",
       "lastKey": "2002-28",
       "lastDate": "08/07/2002"
-    },
-    {
-      "id": "katseye",
-      "name": "Katseye",
-      "tracks": [
-        {
-          "key": "gabriela|katseye",
-          "title": "Gabriela",
-          "credit": "Katseye",
-          "firstKey": "2025-41",
-          "firstDate": "06/10/2025",
-          "lastKey": "2026-18",
-          "lastDate": "27/04/2026",
-          "weeks": 31,
-          "peak": 1,
-          "peakKey": "2025-49",
-          "peakDate": "01/12/2025"
-        },
-        {
-          "key": "animal|katseye",
-          "title": "Animal",
-          "credit": "Katseye",
-          "firstKey": "2026-37",
-          "firstDate": "07/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 9,
-          "peak": 4,
-          "peakKey": "2026-42",
-          "peakDate": "12/10/2026"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 40,
-      "bestPeak": 1,
-      "firstYear": 2025,
-      "lastYear": 2026,
-      "firstKey": "2025-41",
-      "firstDate": "06/10/2025",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "luiza",
@@ -107228,6 +107083,47 @@
       "lastDate": "13/02/1995"
     },
     {
+      "id": "leto",
+      "name": "Leto",
+      "tracks": [
+        {
+          "key": "pineapple|leto",
+          "title": "Pineapple",
+          "credit": "Leto",
+          "firstKey": "2026-18",
+          "firstDate": "27/04/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 29,
+          "peak": 20,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        },
+        {
+          "key": "mapessa|leto",
+          "title": "Mapessa",
+          "credit": "Leto feat. Tiakola",
+          "firstKey": "2021-40",
+          "firstDate": "04/10/2021",
+          "lastKey": "2021-42",
+          "lastDate": "18/10/2021",
+          "weeks": 2,
+          "peak": 52,
+          "peakKey": "2021-40",
+          "peakDate": "04/10/2021"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 31,
+      "bestPeak": 20,
+      "firstYear": 2021,
+      "lastYear": 2026,
+      "firstKey": "2021-40",
+      "firstDate": "04/10/2021",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "the servant",
       "name": "The Servant",
       "tracks": [
@@ -108169,47 +108065,6 @@
       "firstDate": "28/01/2008",
       "lastKey": "2008-44",
       "lastDate": "27/10/2008"
-    },
-    {
-      "id": "leto",
-      "name": "Leto",
-      "tracks": [
-        {
-          "key": "pineapple|leto",
-          "title": "Pineapple",
-          "credit": "Leto",
-          "firstKey": "2026-18",
-          "firstDate": "27/04/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 28,
-          "peak": 22,
-          "peakKey": "2026-23",
-          "peakDate": "01/06/2026"
-        },
-        {
-          "key": "mapessa|leto",
-          "title": "Mapessa",
-          "credit": "Leto feat. Tiakola",
-          "firstKey": "2021-40",
-          "firstDate": "04/10/2021",
-          "lastKey": "2021-42",
-          "lastDate": "18/10/2021",
-          "weeks": 2,
-          "peak": 52,
-          "peakKey": "2021-40",
-          "peakDate": "04/10/2021"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 30,
-      "bestPeak": 22,
-      "firstYear": 2021,
-      "lastYear": 2026,
-      "firstKey": "2021-40",
-      "firstDate": "04/10/2021",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "kt tunstall",
@@ -109237,6 +109092,47 @@
       "lastDate": "28/06/1987"
     },
     {
+      "id": "timal",
+      "name": "Timal",
+      "tracks": [
+        {
+          "key": "sicario|timal",
+          "title": "Sicario",
+          "credit": "Timal",
+          "firstKey": "2026-36",
+          "firstDate": "31/08/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 11,
+          "peak": 21,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        },
+        {
+          "key": "filtre|timal",
+          "title": "Filtré",
+          "credit": "Timal x Gazo",
+          "firstKey": "2022-08",
+          "firstDate": "21/02/2022",
+          "lastKey": "2022-25",
+          "lastDate": "20/06/2022",
+          "weeks": 17,
+          "peak": 36,
+          "peakKey": "2022-10",
+          "peakDate": "07/03/2022"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 28,
+      "bestPeak": 21,
+      "firstYear": 2022,
+      "lastYear": 2026,
+      "firstKey": "2022-08",
+      "firstDate": "21/02/2022",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "dabatcha zz",
       "name": "Dabatcha'ZZ",
       "tracks": [
@@ -110178,47 +110074,6 @@
       "firstDate": "04/03/1996",
       "lastKey": "1996-45",
       "lastDate": "04/11/1996"
-    },
-    {
-      "id": "timal",
-      "name": "Timal",
-      "tracks": [
-        {
-          "key": "sicario|timal",
-          "title": "Sicario",
-          "credit": "Timal",
-          "firstKey": "2026-36",
-          "firstDate": "31/08/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 10,
-          "peak": 25,
-          "peakKey": "2026-43",
-          "peakDate": "19/10/2026"
-        },
-        {
-          "key": "filtre|timal",
-          "title": "Filtré",
-          "credit": "Timal x Gazo",
-          "firstKey": "2022-08",
-          "firstDate": "21/02/2022",
-          "lastKey": "2022-25",
-          "lastDate": "20/06/2022",
-          "weeks": 17,
-          "peak": 36,
-          "peakKey": "2022-10",
-          "peakDate": "07/03/2022"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 27,
-      "bestPeak": 25,
-      "firstYear": 2022,
-      "lastYear": 2026,
-      "firstKey": "2022-08",
-      "firstDate": "21/02/2022",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "ozie boo",
@@ -112476,6 +112331,47 @@
       "lastDate": "27/03/2000"
     },
     {
+      "id": "kris kross amsterdam",
+      "name": "Kris Kross Amsterdam",
+      "tracks": [
+        {
+          "key": "queen of my castle|kris kross amsterdam",
+          "title": "Queen of my castle",
+          "credit": "Kris Kross Amsterdam x Inna",
+          "firstKey": "2024-22",
+          "firstDate": "27/05/2024",
+          "lastKey": "2024-40",
+          "lastDate": "30/09/2024",
+          "weeks": 19,
+          "peak": 5,
+          "peakKey": "2024-34",
+          "peakDate": "19/08/2024"
+        },
+        {
+          "key": "my oh my|kris kross amsterdam",
+          "title": "My oh my",
+          "credit": "Kris Kross Amsterdam x Luisa Sonza x Willy William",
+          "firstKey": "2026-43",
+          "firstDate": "19/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 4,
+          "peak": 40,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 23,
+      "bestPeak": 5,
+      "firstYear": 2024,
+      "lastYear": 2026,
+      "firstKey": "2024-22",
+      "firstDate": "27/05/2024",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "beverley craven",
       "name": "Beverley Craven",
       "tracks": [
@@ -113130,47 +113026,6 @@
       "firstDate": "31/07/2006",
       "lastKey": "2007-21",
       "lastDate": "21/05/2007"
-    },
-    {
-      "id": "kris kross amsterdam",
-      "name": "Kris Kross Amsterdam",
-      "tracks": [
-        {
-          "key": "queen of my castle|kris kross amsterdam",
-          "title": "Queen of my castle",
-          "credit": "Kris Kross Amsterdam x Inna",
-          "firstKey": "2024-22",
-          "firstDate": "27/05/2024",
-          "lastKey": "2024-40",
-          "lastDate": "30/09/2024",
-          "weeks": 19,
-          "peak": 5,
-          "peakKey": "2024-34",
-          "peakDate": "19/08/2024"
-        },
-        {
-          "key": "my oh my|kris kross amsterdam",
-          "title": "My oh my",
-          "credit": "Kris Kross Amsterdam x Luisa Sonza x Willy William",
-          "firstKey": "2026-43",
-          "firstDate": "19/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 3,
-          "peak": 55,
-          "peakKey": "2026-43",
-          "peakDate": "19/10/2026"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 22,
-      "bestPeak": 5,
-      "firstYear": 2024,
-      "lastYear": 2026,
-      "firstKey": "2024-22",
-      "firstDate": "27/05/2024",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "dannii minogue",
@@ -117437,6 +117292,47 @@
       "lastDate": "17/07/2006"
     },
     {
+      "id": "tame impala",
+      "name": "Tame Impala",
+      "tracks": [
+        {
+          "key": "dracula|tame impala",
+          "title": "Dracula",
+          "credit": "Tame Impala",
+          "firstKey": "2026-14",
+          "firstDate": "30/03/2026",
+          "lastKey": "2026-19",
+          "lastDate": "04/05/2026",
+          "weeks": 6,
+          "peak": 2,
+          "peakKey": "2026-19",
+          "peakDate": "04/05/2026"
+        },
+        {
+          "key": "loser|tame impala",
+          "title": "Loser",
+          "credit": "Tame Impala",
+          "firstKey": "2026-37",
+          "firstDate": "07/09/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 10,
+          "peak": 7,
+          "peakKey": "2026-42",
+          "peakDate": "12/10/2026"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 16,
+      "bestPeak": 2,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-14",
+      "firstDate": "30/03/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "ozuna",
       "name": "Ozuna",
       "tracks": [
@@ -117888,47 +117784,6 @@
       "lastDate": "15/12/2014"
     },
     {
-      "id": "tame impala",
-      "name": "Tame Impala",
-      "tracks": [
-        {
-          "key": "dracula|tame impala",
-          "title": "Dracula",
-          "credit": "Tame Impala",
-          "firstKey": "2026-14",
-          "firstDate": "30/03/2026",
-          "lastKey": "2026-19",
-          "lastDate": "04/05/2026",
-          "weeks": 6,
-          "peak": 2,
-          "peakKey": "2026-19",
-          "peakDate": "04/05/2026"
-        },
-        {
-          "key": "loser|tame impala",
-          "title": "Loser",
-          "credit": "Tame Impala",
-          "firstKey": "2026-37",
-          "firstDate": "07/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 9,
-          "peak": 7,
-          "peakKey": "2026-42",
-          "peakDate": "12/10/2026"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 15,
-      "bestPeak": 2,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-14",
-      "firstDate": "30/03/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
-    },
-    {
       "id": "art mengo",
       "name": "Art Mengo",
       "tracks": [
@@ -117968,6 +117823,47 @@
       "firstDate": "06/11/1988",
       "lastKey": "1990-20",
       "lastDate": "20/05/1990"
+    },
+    {
+      "id": "jok air",
+      "name": "Jok'Air",
+      "tracks": [
+        {
+          "key": "noumea|jok air",
+          "title": "Noumea",
+          "credit": "Jok'Air feat. Linema",
+          "firstKey": "2026-42",
+          "firstDate": "12/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 5,
+          "peak": 15,
+          "peakKey": "2026-43",
+          "peakDate": "19/10/2026"
+        },
+        {
+          "key": "elles ont trop joue avec mon coeur|jok air",
+          "title": "Elles ont trop joué avec mon coeur",
+          "credit": "Jok'Air",
+          "firstKey": "2021-06",
+          "firstDate": "08/02/2021",
+          "lastKey": "2021-17",
+          "lastDate": "26/04/2021",
+          "weeks": 10,
+          "peak": 49,
+          "peakKey": "2021-08",
+          "peakDate": "22/02/2021"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 15,
+      "bestPeak": 15,
+      "firstYear": 2021,
+      "lastYear": 2026,
+      "firstKey": "2021-06",
+      "firstDate": "08/02/2021",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "la vache",
@@ -118419,47 +118315,6 @@
       "firstDate": "17/11/2014",
       "lastKey": "2017-45",
       "lastDate": "06/11/2017"
-    },
-    {
-      "id": "jok air",
-      "name": "Jok'Air",
-      "tracks": [
-        {
-          "key": "noumea|jok air",
-          "title": "Noumea",
-          "credit": "Jok'Air feat. Linema",
-          "firstKey": "2026-42",
-          "firstDate": "12/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 4,
-          "peak": 15,
-          "peakKey": "2026-43",
-          "peakDate": "19/10/2026"
-        },
-        {
-          "key": "elles ont trop joue avec mon coeur|jok air",
-          "title": "Elles ont trop joué avec mon coeur",
-          "credit": "Jok'Air",
-          "firstKey": "2021-06",
-          "firstDate": "08/02/2021",
-          "lastKey": "2021-17",
-          "lastDate": "26/04/2021",
-          "weeks": 10,
-          "peak": 49,
-          "peakKey": "2021-08",
-          "peakDate": "22/02/2021"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 14,
-      "bestPeak": 15,
-      "firstYear": 2021,
-      "lastYear": 2026,
-      "firstKey": "2021-06",
-      "firstDate": "08/02/2021",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "tropical family",
@@ -125809,6 +125664,34 @@
       "lastDate": "16/09/2013"
     },
     {
+      "id": "naika",
+      "name": "Naika",
+      "tracks": [
+        {
+          "key": "one track mind|naika",
+          "title": "One track mind",
+          "credit": "Naika",
+          "firstKey": "2026-14",
+          "firstDate": "30/03/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 33,
+          "peak": 4,
+          "peakKey": "2026-29",
+          "peakDate": "13/07/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 33,
+      "bestPeak": 4,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-14",
+      "firstDate": "30/03/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "kid cudi vs crookers",
       "name": "Kid Cudi vs. Crookers",
       "tracks": [
@@ -126171,34 +126054,6 @@
       "firstDate": "25/05/2015",
       "lastKey": "2016-01",
       "lastDate": "04/01/2016"
-    },
-    {
-      "id": "naika",
-      "name": "Naika",
-      "tracks": [
-        {
-          "key": "one track mind|naika",
-          "title": "One track mind",
-          "credit": "Naika",
-          "firstKey": "2026-14",
-          "firstDate": "30/03/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 32,
-          "peak": 4,
-          "peakKey": "2026-29",
-          "peakDate": "13/07/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 32,
-      "bestPeak": 4,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-14",
-      "firstDate": "30/03/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "cheb mami and k mel",
@@ -130933,6 +130788,34 @@
       "lastDate": "11/10/2021"
     },
     {
+      "id": "shakira and burna boy",
+      "name": "Shakira & Burna Boy",
+      "tracks": [
+        {
+          "key": "dai dai|shakira and burna boy",
+          "title": "Dai dai",
+          "credit": "Shakira & Burna Boy",
+          "firstKey": "2026-22",
+          "firstDate": "25/05/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 25,
+          "peak": 1,
+          "peakKey": "2026-26",
+          "peakDate": "22/06/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 25,
+      "bestPeak": 1,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-22",
+      "firstDate": "25/05/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "calvin harris and dua lipa",
       "name": "Calvin Harris & Dua Lipa",
       "tracks": [
@@ -131155,6 +131038,34 @@
       "firstDate": "12/09/2022",
       "lastKey": "2023-08",
       "lastDate": "20/02/2023"
+    },
+    {
+      "id": "temper city",
+      "name": "Temper City",
+      "tracks": [
+        {
+          "key": "self aware|temper city",
+          "title": "Self aware",
+          "credit": "Temper City",
+          "firstKey": "2026-22",
+          "firstDate": "25/05/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 25,
+          "peak": 3,
+          "peakKey": "2026-30",
+          "peakDate": "20/07/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 25,
+      "bestPeak": 3,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-22",
+      "firstDate": "25/05/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "eamon",
@@ -131885,6 +131796,34 @@
       "lastDate": "10/03/2003"
     },
     {
+      "id": "aya nakamura and la rvfleuze",
+      "name": "Aya Nakamura & La Rvfleuze",
+      "tracks": [
+        {
+          "key": "sexy nana|aya nakamura and la rvfleuze",
+          "title": "Sexy nana",
+          "credit": "Aya Nakamura & La Rvfleuze",
+          "firstKey": "2026-22",
+          "firstDate": "25/05/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 25,
+          "peak": 24,
+          "peakKey": "2026-44",
+          "peakDate": "26/10/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 25,
+      "bestPeak": 24,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-22",
+      "firstDate": "25/05/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "plain white t s",
       "name": "Plain White T's",
       "tracks": [
@@ -132107,34 +132046,6 @@
       "firstDate": "07/09/2015",
       "lastKey": "2016-08",
       "lastDate": "22/02/2016"
-    },
-    {
-      "id": "shakira and burna boy",
-      "name": "Shakira & Burna Boy",
-      "tracks": [
-        {
-          "key": "dai dai|shakira and burna boy",
-          "title": "Dai dai",
-          "credit": "Shakira & Burna Boy",
-          "firstKey": "2026-22",
-          "firstDate": "25/05/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 24,
-          "peak": 1,
-          "peakKey": "2026-26",
-          "peakDate": "22/06/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 24,
-      "bestPeak": 1,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-22",
-      "firstDate": "25/05/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "star academy",
@@ -132443,34 +132354,6 @@
       "firstDate": "09/05/2016",
       "lastKey": "2016-43",
       "lastDate": "24/10/2016"
-    },
-    {
-      "id": "temper city",
-      "name": "Temper City",
-      "tracks": [
-        {
-          "key": "self aware|temper city",
-          "title": "Self aware",
-          "credit": "Temper City",
-          "firstKey": "2026-22",
-          "firstDate": "25/05/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 24,
-          "peak": 3,
-          "peakKey": "2026-30",
-          "peakDate": "20/07/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 24,
-      "bestPeak": 3,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-22",
-      "firstDate": "25/05/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "the outhere brothers",
@@ -133227,34 +133110,6 @@
       "firstDate": "24/11/2025",
       "lastKey": "2026-25",
       "lastDate": "15/06/2026"
-    },
-    {
-      "id": "aya nakamura and la rvfleuze",
-      "name": "Aya Nakamura & La Rvfleuze",
-      "tracks": [
-        {
-          "key": "sexy nana|aya nakamura and la rvfleuze",
-          "title": "Sexy nana",
-          "credit": "Aya Nakamura & La Rvfleuze",
-          "firstKey": "2026-22",
-          "firstDate": "25/05/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 24,
-          "peak": 24,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 24,
-      "bestPeak": 24,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-22",
-      "firstDate": "25/05/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "dj visage",
@@ -138213,6 +138068,34 @@
       "lastDate": "27/11/2023"
     },
     {
+      "id": "martin garrix and ed sheeran",
+      "name": "Martin Garrix & Ed Sheeran",
+      "tracks": [
+        {
+          "key": "repeat it|martin garrix and ed sheeran",
+          "title": "Repeat it",
+          "credit": "Martin Garrix & Ed Sheeran",
+          "firstKey": "2026-26",
+          "firstDate": "22/06/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 21,
+          "peak": 23,
+          "peakKey": "2026-36",
+          "peakDate": "31/08/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 21,
+      "bestPeak": 23,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-26",
+      "firstDate": "22/06/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "kdd",
       "name": "KDD",
       "tracks": [
@@ -139697,34 +139580,6 @@
       "lastDate": "05/10/2009"
     },
     {
-      "id": "martin garrix and ed sheeran",
-      "name": "Martin Garrix & Ed Sheeran",
-      "tracks": [
-        {
-          "key": "repeat it|martin garrix and ed sheeran",
-          "title": "Repeat it",
-          "credit": "Martin Garrix & Ed Sheeran",
-          "firstKey": "2026-26",
-          "firstDate": "22/06/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 20,
-          "peak": 23,
-          "peakKey": "2026-36",
-          "peakDate": "31/08/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 20,
-      "bestPeak": 23,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-26",
-      "firstDate": "22/06/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
-    },
-    {
       "id": "m pokora and verse",
       "name": "M. Pokora & Verse",
       "tracks": [
@@ -140283,6 +140138,34 @@
       "firstDate": "24/03/2003",
       "lastKey": "2003-32",
       "lastDate": "04/08/2003"
+    },
+    {
+      "id": "adele castillon",
+      "name": "Adele Castillon",
+      "tracks": [
+        {
+          "key": "ete avec toi|adele castillon",
+          "title": "Ete avec toi",
+          "credit": "Adele Castillon",
+          "firstKey": "2026-28",
+          "firstDate": "06/07/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 19,
+          "peak": 1,
+          "peakKey": "2026-39",
+          "peakDate": "21/09/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 19,
+      "bestPeak": 1,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-28",
+      "firstDate": "06/07/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "aventura",
@@ -142805,34 +142688,6 @@
       "lastDate": "14/11/2011"
     },
     {
-      "id": "adele castillon",
-      "name": "Adele Castillon",
-      "tracks": [
-        {
-          "key": "ete avec toi|adele castillon",
-          "title": "Ete avec toi",
-          "credit": "Adele Castillon",
-          "firstKey": "2026-28",
-          "firstDate": "06/07/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 18,
-          "peak": 1,
-          "peakKey": "2026-39",
-          "peakDate": "21/09/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 18,
-      "bestPeak": 1,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-28",
-      "firstDate": "06/07/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
-    },
-    {
       "id": "gusttavo lima",
       "name": "Gusttavo Lima",
       "tracks": [
@@ -145129,6 +144984,34 @@
       "lastDate": "19/05/2014"
     },
     {
+      "id": "manon lisa",
+      "name": "Manon Lisa",
+      "tracks": [
+        {
+          "key": "le petit pecheur|manon lisa",
+          "title": "Le petit pecheur",
+          "credit": "Manon Lisa",
+          "firstKey": "2026-30",
+          "firstDate": "20/07/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 17,
+          "peak": 5,
+          "peakKey": "2026-39",
+          "peakDate": "21/09/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 17,
+      "bestPeak": 5,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-30",
+      "firstDate": "20/07/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "mariah carey and boyz ii men",
       "name": "Mariah Carey & Boyz II Men",
       "tracks": [
@@ -147311,34 +147194,6 @@
       "firstDate": "15/10/2012",
       "lastKey": "2013-05",
       "lastDate": "28/01/2013"
-    },
-    {
-      "id": "manon lisa",
-      "name": "Manon Lisa",
-      "tracks": [
-        {
-          "key": "le petit pecheur|manon lisa",
-          "title": "Le petit pecheur",
-          "credit": "Manon Lisa",
-          "firstKey": "2026-30",
-          "firstDate": "20/07/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 16,
-          "peak": 5,
-          "peakKey": "2026-39",
-          "peakDate": "21/09/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 16,
-      "bestPeak": 5,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-30",
-      "firstDate": "20/07/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "sinead o connor",
@@ -150223,6 +150078,34 @@
       "firstDate": "22/12/2014",
       "lastKey": "2015-15",
       "lastDate": "06/04/2015"
+    },
+    {
+      "id": "paul hardcastle",
+      "name": "Paul Hardcastle",
+      "tracks": [
+        {
+          "key": "19|paul hardcastle",
+          "title": "19 (version française)",
+          "credit": "Paul Hardcastle",
+          "firstKey": "1985-28",
+          "firstDate": "14/07/1985",
+          "lastKey": "1985-42",
+          "lastDate": "20/10/1985",
+          "weeks": 15,
+          "peak": 15,
+          "peakKey": "1985-36",
+          "peakDate": "08/09/1985"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 15,
+      "bestPeak": 15,
+      "firstYear": 1985,
+      "lastYear": 1985,
+      "firstKey": "1985-28",
+      "firstDate": "14/07/1985",
+      "lastKey": "1985-42",
+      "lastDate": "20/10/1985"
     },
     {
       "id": "cerena and nek",
@@ -161761,6 +161644,34 @@
       "lastDate": "10/09/2012"
     },
     {
+      "id": "mosimann and gaetan roussel",
+      "name": "Mosimann & Gaetan Roussel",
+      "tracks": [
+        {
+          "key": "soon|mosimann and gaetan roussel",
+          "title": "Soon",
+          "credit": "Mosimann & Gaetan Roussel",
+          "firstKey": "2026-36",
+          "firstDate": "31/08/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 11,
+          "peak": 9,
+          "peakKey": "2026-43",
+          "peakDate": "19/10/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 11,
+      "bestPeak": 9,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-36",
+      "firstDate": "31/08/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "pulcino pio",
       "name": "Pulcino Pio",
       "tracks": [
@@ -164813,34 +164724,6 @@
       "lastDate": "22/01/1996"
     },
     {
-      "id": "mosimann and gaetan roussel",
-      "name": "Mosimann & Gaetan Roussel",
-      "tracks": [
-        {
-          "key": "soon|mosimann and gaetan roussel",
-          "title": "Soon",
-          "credit": "Mosimann & Gaetan Roussel",
-          "firstKey": "2026-36",
-          "firstDate": "31/08/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 10,
-          "peak": 9,
-          "peakKey": "2026-43",
-          "peakDate": "19/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 10,
-      "bestPeak": 9,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-36",
-      "firstDate": "31/08/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
-    },
-    {
       "id": "new world sound and thomas newson",
       "name": "New World Sound And Thomas Newson",
       "tracks": [
@@ -166913,6 +166796,34 @@
       "lastDate": "22/01/2001"
     },
     {
+      "id": "bello and dallas",
+      "name": "Bello&Dallas",
+      "tracks": [
+        {
+          "key": "seminaire|bello and dallas",
+          "title": "Seminaire",
+          "credit": "Bello&Dallas",
+          "firstKey": "2026-30",
+          "firstDate": "20/07/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 10,
+          "peak": 46,
+          "peakKey": "2026-36",
+          "peakDate": "31/08/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 10,
+      "bestPeak": 46,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-30",
+      "firstDate": "20/07/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "edyta gorniak",
       "name": "Edyta Gorniak",
       "tracks": [
@@ -167723,6 +167634,34 @@
       "firstDate": "05/07/2004",
       "lastKey": "2004-42",
       "lastDate": "11/10/2004"
+    },
+    {
+      "id": "estl",
+      "name": "ESTL",
+      "tracks": [
+        {
+          "key": "te rencontrer encore|estl",
+          "title": "Te rencontrer encore",
+          "credit": "ESTL",
+          "firstKey": "2026-38",
+          "firstDate": "14/09/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 9,
+          "peak": 1,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 9,
+      "bestPeak": 1,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-38",
+      "firstDate": "14/09/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "freddie mercury and montserrat caballe",
@@ -169657,34 +169596,6 @@
       "lastDate": "02/11/1998"
     },
     {
-      "id": "bello and dallas",
-      "name": "Bello&Dallas",
-      "tracks": [
-        {
-          "key": "seminaire|bello and dallas",
-          "title": "Seminaire",
-          "credit": "Bello&Dallas",
-          "firstKey": "2026-30",
-          "firstDate": "20/07/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 9,
-          "peak": 46,
-          "peakKey": "2026-36",
-          "peakDate": "31/08/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 9,
-      "bestPeak": 46,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-30",
-      "firstDate": "20/07/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
-    },
-    {
       "id": "don omar",
       "name": "Don Omar",
       "tracks": [
@@ -170581,34 +170492,6 @@
       "lastDate": "10/09/2001"
     },
     {
-      "id": "estl",
-      "name": "ESTL",
-      "tracks": [
-        {
-          "key": "te rencontrer encore|estl",
-          "title": "Te rencontrer encore",
-          "credit": "ESTL",
-          "firstKey": "2026-38",
-          "firstDate": "14/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 8,
-          "peak": 2,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 8,
-      "bestPeak": 2,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-38",
-      "firstDate": "14/09/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
-    },
-    {
       "id": "alvin et les chipmunks and rene la taupe",
       "name": "Alvin et Les Chipmunks & René la Taupe",
       "tracks": [
@@ -170833,6 +170716,34 @@
       "lastDate": "26/09/1994"
     },
     {
+      "id": "miley",
+      "name": "Miley",
+      "tracks": [
+        {
+          "key": "bass persuades|miley",
+          "title": "Bass persuades",
+          "credit": "Miley",
+          "firstKey": "2026-39",
+          "firstDate": "21/09/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 8,
+          "peak": 16,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 8,
+      "bestPeak": 16,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-39",
+      "firstDate": "21/09/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "seeb",
       "name": "Seeb",
       "tracks": [
@@ -170887,6 +170798,34 @@
       "firstDate": "20/08/2012",
       "lastKey": "2012-41",
       "lastDate": "08/10/2012"
+    },
+    {
+      "id": "ben plg",
+      "name": "BEN plg",
+      "tracks": [
+        {
+          "key": "histoire sans fin|ben plg",
+          "title": "Histoire sans fin",
+          "credit": "BEN plg feat. MATHILDE",
+          "firstKey": "2026-39",
+          "firstDate": "21/09/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 8,
+          "peak": 18,
+          "peakKey": "2026-44",
+          "peakDate": "26/10/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 8,
+      "bestPeak": 18,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-39",
+      "firstDate": "21/09/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "blackpink",
@@ -174249,34 +174188,6 @@
       "lastDate": "11/12/2023"
     },
     {
-      "id": "ben plg",
-      "name": "BEN plg",
-      "tracks": [
-        {
-          "key": "histoire sans fin|ben plg",
-          "title": "Histoire sans fin",
-          "credit": "BEN plg feat. MATHILDE",
-          "firstKey": "2026-39",
-          "firstDate": "21/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 7,
-          "peak": 18,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 7,
-      "bestPeak": 18,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-39",
-      "firstDate": "21/09/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
-    },
-    {
       "id": "flavel and neto",
       "name": "Flavel & Neto",
       "tracks": [
@@ -174613,6 +174524,34 @@
       "lastDate": "20/10/2025"
     },
     {
+      "id": "vacra and la rvfleuze",
+      "name": "Vacra & La Rvfleuze",
+      "tracks": [
+        {
+          "key": "fille a papa|vacra and la rvfleuze",
+          "title": "Fille a papa",
+          "credit": "Vacra & La Rvfleuze",
+          "firstKey": "2026-40",
+          "firstDate": "28/09/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 7,
+          "peak": 28,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 7,
+      "bestPeak": 28,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-40",
+      "firstDate": "28/09/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "ownboss",
       "name": "Öwnboss",
       "tracks": [
@@ -174695,34 +174634,6 @@
       "firstDate": "18/10/1992",
       "lastKey": "1992-48",
       "lastDate": "29/11/1992"
-    },
-    {
-      "id": "miley",
-      "name": "Miley",
-      "tracks": [
-        {
-          "key": "bass persuades|miley",
-          "title": "Bass persuades",
-          "credit": "Miley",
-          "firstKey": "2026-39",
-          "firstDate": "21/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 7,
-          "peak": 29,
-          "peakKey": "2026-43",
-          "peakDate": "19/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 7,
-      "bestPeak": 29,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-39",
-      "firstDate": "21/09/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "clockclock",
@@ -177833,6 +177744,34 @@
       "lastDate": "29/10/2012"
     },
     {
+      "id": "jenn ayache",
+      "name": "Jenn Ayache",
+      "tracks": [
+        {
+          "key": "about us|jenn ayache",
+          "title": "About us (Toi & moi)",
+          "credit": "Jenn Ayache",
+          "firstKey": "2026-41",
+          "firstDate": "05/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 6,
+          "peak": 12,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 6,
+      "bestPeak": 12,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-41",
+      "firstDate": "05/10/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "anne laure",
       "name": "Anne-Laure",
       "tracks": [
@@ -177887,6 +177826,34 @@
       "firstDate": "05/01/2015",
       "lastKey": "2015-08",
       "lastDate": "16/02/2015"
+    },
+    {
+      "id": "ella langley",
+      "name": "Ella Langley",
+      "tracks": [
+        {
+          "key": "choosin texas|ella langley",
+          "title": "Choosin' Texas",
+          "credit": "Ella Langley",
+          "firstKey": "2026-41",
+          "firstDate": "05/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 6,
+          "peak": 14,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 6,
+      "bestPeak": 14,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-41",
+      "firstDate": "05/10/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "the blueboy",
@@ -178503,34 +178470,6 @@
       "firstDate": "05/06/1988",
       "lastKey": "1988-30",
       "lastDate": "24/07/1988"
-    },
-    {
-      "id": "vacra and la rvfleuze",
-      "name": "Vacra & La Rvfleuze",
-      "tracks": [
-        {
-          "key": "fille a papa|vacra and la rvfleuze",
-          "title": "Fille a papa",
-          "credit": "Vacra & La Rvfleuze",
-          "firstKey": "2026-40",
-          "firstDate": "28/09/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 6,
-          "peak": 35,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 6,
-      "bestPeak": 35,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-40",
-      "firstDate": "28/09/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "yellow claw",
@@ -180773,34 +180712,6 @@
       "lastDate": "17/06/2013"
     },
     {
-      "id": "jenn ayache",
-      "name": "Jenn Ayache",
-      "tracks": [
-        {
-          "key": "about us|jenn ayache",
-          "title": "About us (Toi & moi)",
-          "credit": "Jenn Ayache",
-          "firstKey": "2026-41",
-          "firstDate": "05/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 5,
-          "peak": 13,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 5,
-      "bestPeak": 13,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-41",
-      "firstDate": "05/10/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
-    },
-    {
       "id": "saule",
       "name": "Saule",
       "tracks": [
@@ -180855,34 +180766,6 @@
       "firstDate": "21/06/2021",
       "lastKey": "2021-29",
       "lastDate": "19/07/2021"
-    },
-    {
-      "id": "ella langley",
-      "name": "Ella Langley",
-      "tracks": [
-        {
-          "key": "choosin texas|ella langley",
-          "title": "Choosin' Texas",
-          "credit": "Ella Langley",
-          "firstKey": "2026-41",
-          "firstDate": "05/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 5,
-          "peak": 20,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 5,
-      "bestPeak": 20,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-41",
-      "firstDate": "05/10/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "evelyn thomas",
@@ -182731,6 +182614,34 @@
       "firstDate": "10/02/1997",
       "lastKey": "2011-14",
       "lastDate": "04/04/2011"
+    },
+    {
+      "id": "cherry pie",
+      "name": "Cherry Pie",
+      "tracks": [
+        {
+          "key": "bir hakeim|cherry pie",
+          "title": "Bir Hakeim",
+          "credit": "Cherry Pie (Rap)",
+          "firstKey": "2026-42",
+          "firstDate": "12/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 5,
+          "peak": 51,
+          "peakKey": "2026-43",
+          "peakDate": "19/10/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 5,
+      "bestPeak": 51,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-42",
+      "firstDate": "12/10/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "gradur and franglish",
@@ -185505,6 +185416,34 @@
       "lastDate": "30/10/1988"
     },
     {
+      "id": "teddybear",
+      "name": "TeddyBear",
+      "tracks": [
+        {
+          "key": "chaussures roses|teddybear",
+          "title": "Chaussures roses",
+          "credit": "TeddyBear",
+          "firstKey": "2026-41",
+          "firstDate": "05/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 4,
+          "peak": 47,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 4,
+      "bestPeak": 47,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-41",
+      "firstDate": "05/10/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "william pitt",
       "name": "William Pitt",
       "tracks": [
@@ -185727,34 +185666,6 @@
       "firstDate": "02/06/2003",
       "lastKey": "2003-26",
       "lastDate": "23/06/2003"
-    },
-    {
-      "id": "cherry pie",
-      "name": "Cherry Pie",
-      "tracks": [
-        {
-          "key": "bir hakeim|cherry pie",
-          "title": "Bir Hakeim",
-          "credit": "Cherry Pie (Rap)",
-          "firstKey": "2026-42",
-          "firstDate": "12/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 4,
-          "peak": 51,
-          "peakKey": "2026-43",
-          "peakDate": "19/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 4,
-      "bestPeak": 51,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-42",
-      "firstDate": "12/10/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "roya",
@@ -187829,6 +187740,34 @@
       "lastDate": "19/11/2012"
     },
     {
+      "id": "artbat and david guetta",
+      "name": "Artbat & David Guetta",
+      "tracks": [
+        {
+          "key": "somebody that i used to know|artbat and david guetta",
+          "title": "Somebody that I used to know (Artbat x David Guetta mix)",
+          "credit": "Artbat & David Guetta feat. Gotye & Kimbra",
+          "firstKey": "2026-44",
+          "firstDate": "26/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 3,
+          "peak": 19,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 3,
+      "bestPeak": 19,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-44",
+      "firstDate": "26/10/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
+    },
+    {
       "id": "altego",
       "name": "Altego",
       "tracks": [
@@ -187883,6 +187822,34 @@
       "firstDate": "17/09/2007",
       "lastKey": "2007-40",
       "lastDate": "01/10/2007"
+    },
+    {
+      "id": "adela",
+      "name": "Adéla",
+      "tracks": [
+        {
+          "key": "ain t in la|adela",
+          "title": "Ain't in LA",
+          "credit": "Adéla",
+          "firstKey": "2026-44",
+          "firstDate": "26/10/2026",
+          "lastKey": "2026-46",
+          "lastDate": "09/11/2026",
+          "weeks": 3,
+          "peak": 24,
+          "peakKey": "2026-46",
+          "peakDate": "09/11/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 3,
+      "bestPeak": 24,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-44",
+      "firstDate": "26/10/2026",
+      "lastKey": "2026-46",
+      "lastDate": "09/11/2026"
     },
     {
       "id": "diplo",
@@ -189507,34 +189474,6 @@
       "firstDate": "23/03/2020",
       "lastKey": "2020-15",
       "lastDate": "06/04/2020"
-    },
-    {
-      "id": "teddybear",
-      "name": "TeddyBear",
-      "tracks": [
-        {
-          "key": "chaussures roses|teddybear",
-          "title": "Chaussures roses",
-          "credit": "TeddyBear",
-          "firstKey": "2026-41",
-          "firstDate": "05/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 3,
-          "peak": 53,
-          "peakKey": "2026-41",
-          "peakDate": "05/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 3,
-      "bestPeak": 53,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-41",
-      "firstDate": "05/10/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "billy gillies",
@@ -192421,34 +192360,6 @@
       "lastDate": "30/06/2025"
     },
     {
-      "id": "artbat and david guetta",
-      "name": "Artbat & David Guetta",
-      "tracks": [
-        {
-          "key": "somebody that i used to know|artbat and david guetta",
-          "title": "Somebody that I used to know (Artbat x David Guetta mix)",
-          "credit": "Artbat & David Guetta feat. Gotye & Kimbra",
-          "firstKey": "2026-44",
-          "firstDate": "26/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 2,
-          "peak": 26,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 2,
-      "bestPeak": 26,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-44",
-      "firstDate": "26/10/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
-    },
-    {
       "id": "sepultura",
       "name": "Sepultura",
       "tracks": [
@@ -192615,34 +192526,6 @@
       "firstDate": "29/04/2024",
       "lastKey": "2024-19",
       "lastDate": "06/05/2024"
-    },
-    {
-      "id": "adela",
-      "name": "Adéla",
-      "tracks": [
-        {
-          "key": "ain t in la|adela",
-          "title": "Ain't in LA",
-          "credit": "Adéla",
-          "firstKey": "2026-44",
-          "firstDate": "26/10/2026",
-          "lastKey": "2026-45",
-          "lastDate": "02/11/2026",
-          "weeks": 2,
-          "peak": 38,
-          "peakKey": "2026-44",
-          "peakDate": "26/10/2026"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 2,
-      "bestPeak": 38,
-      "firstYear": 2026,
-      "lastYear": 2026,
-      "firstKey": "2026-44",
-      "firstDate": "26/10/2026",
-      "lastKey": "2026-45",
-      "lastDate": "02/11/2026"
     },
     {
       "id": "chumbawamba",
