@@ -1,0 +1,71 @@
+name: Fix Track Titles
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Mode d exécution'
+        required: true
+        default: 'dry-run'
+        type: choice
+        options:
+          - dry-run
+          - apply
+          - apply-force
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fix-track-titles
+  cancel-in-progress: false
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run correction (dry-run)
+        if: ${{ inputs.mode == 'dry-run' }}
+        run: python fix_track_titles.py --dry-run
+
+      - name: Run correction (apply)
+        if: ${{ inputs.mode == 'apply' }}
+        run: python fix_track_titles.py
+
+      - name: Run correction (apply force)
+        if: ${{ inputs.mode == 'apply-force' }}
+        run: python fix_track_titles.py --force
+
+      - name: Rebuild artist index
+        if: ${{ inputs.mode != 'dry-run' }}
+        run: python build_artist_index.py
+
+      - name: Commit and push
+        if: ${{ inputs.mode != 'dry-run' }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add data/cache/retro_archives.json data/cache/artist_index.json
+          git add data/archives/ 2>/dev/null || true
+
+          if git diff --staged --quiet; then
+            echo "Aucun changement à committer"
+            exit 0
+          fi
+
+          git commit -m "Fix titres erronés (overrides) + rebuild index artiste"
+          git pull --rebase origin main
+          git push origin main
