@@ -1843771,5 +1843771,794 @@
     ],
     "source": "snepmusique.com",
     "cached_at": "2026-11-07"
+  },
+  "2026-46": {
+    "week": 46,
+    "year": 2026,
+    "date": "09/11/2026",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Te rencontrer encore",
+          "artist": "ESTL"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 2,
+        "movement": "up",
+        "weeksOnChart": 17,
+        "peakPosition": 1,
+        "source": "snep"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Mr Know it all",
+          "artist": "Teddy Swims"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 3,
+        "movement": "up",
+        "weeksOnChart": 29,
+        "peakPosition": 2,
+        "source": "snep"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Bby wow",
+          "artist": "Karol G"
+        },
+        "label": "UNIVERSAL MUSIC",
+        "previousPosition": 4,
+        "movement": "up",
+        "weeksOnChart": 9,
+        "peakPosition": 3,
+        "source": "snep"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Eté avec toi",
+          "artist": "Adèle Castillon"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 1,
+        "movement": "down",
+        "weeksOnChart": 23,
+        "peakPosition": 4,
+        "source": "snep"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "D'or et d'étain",
+          "artist": "Vianney"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 5,
+        "movement": "same",
+        "weeksOnChart": 10,
+        "peakPosition": 5,
+        "source": "snep"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Jamais",
+          "artist": "Joseph Kamel feat. Vitaa"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 6,
+        "movement": "same",
+        "weeksOnChart": 10,
+        "peakPosition": 6,
+        "source": "snep"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Self aware",
+          "artist": "Temper City"
+        },
+        "label": "THIRTY KNOTS",
+        "previousPosition": 7,
+        "movement": "same",
+        "weeksOnChart": 27,
+        "peakPosition": 7,
+        "source": "snep"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Loser",
+          "artist": "Tame Impala"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 8,
+        "movement": "same",
+        "weeksOnChart": 11,
+        "peakPosition": 8,
+        "source": "snep"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Des fleurs (Quota fr)",
+          "artist": "Tove Lo x Stromae"
+        },
+        "label": "UNIVERSAL MUSIC",
+        "previousPosition": 10,
+        "movement": "up",
+        "weeksOnChart": 21,
+        "peakPosition": 9,
+        "source": "snep"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Soon",
+          "artist": "Mosimann & Gaëtan Roussel"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 11,
+        "movement": "up",
+        "weeksOnChart": 15,
+        "peakPosition": 10,
+        "source": "snep"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Pumped up kicks",
+          "artist": "Bormin'"
+        },
+        "label": "WAGRAM MUSIC",
+        "previousPosition": 9,
+        "movement": "down",
+        "weeksOnChart": 6,
+        "peakPosition": 11,
+        "source": "snep"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "About us (Toi & moi)",
+          "artist": "Jenn Ayache"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 13,
+        "movement": "up",
+        "weeksOnChart": 10,
+        "peakPosition": 12,
+        "source": "snep"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Animal",
+          "artist": "Katseye"
+        },
+        "label": "UNIVERSAL MUSIC",
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 15,
+        "peakPosition": 13,
+        "source": "snep"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Choosin' Texas",
+          "artist": "Ella Langley"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 20,
+        "movement": "up",
+        "weeksOnChart": 7,
+        "peakPosition": 14,
+        "source": "snep"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Wagyu",
+          "artist": "Mauvais Djo"
+        },
+        "label": "NOJOKE RECORDS",
+        "previousPosition": 27,
+        "movement": "up",
+        "weeksOnChart": 11,
+        "peakPosition": 15,
+        "source": "snep"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Bass persuades",
+          "artist": "Miley"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 30,
+        "movement": "up",
+        "weeksOnChart": 9,
+        "peakPosition": 16,
+        "source": "snep"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Nouméa",
+          "artist": "Jok'Air feat. Linema"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 15,
+        "movement": "down",
+        "weeksOnChart": 4,
+        "peakPosition": 17,
+        "source": "snep"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Dai dai",
+          "artist": "Shakira & Burna Boy"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 17,
+        "movement": "down",
+        "weeksOnChart": 25,
+        "peakPosition": 18,
+        "source": "snep"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Somebody that I used to know (Artbat x David Guetta mix)",
+          "artist": "Artbat & David Guetta feat. Gotye & Kimbra"
+        },
+        "label": "UNIVERSAL MUSIC",
+        "previousPosition": 26,
+        "movement": "up",
+        "weeksOnChart": 5,
+        "peakPosition": 19,
+        "source": "snep"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Pineapple",
+          "artist": "Leto"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 22,
+        "movement": "up",
+        "weeksOnChart": 29,
+        "peakPosition": 20,
+        "source": "snep"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Sicario",
+          "artist": "Timal"
+        },
+        "label": "ARGENTIC MUSIC",
+        "previousPosition": 25,
+        "movement": "up",
+        "weeksOnChart": 11,
+        "peakPosition": 21,
+        "source": "snep"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Sur la piste",
+          "artist": "Eva"
+        },
+        "label": "UNIVERSAL MUSIC",
+        "previousPosition": 29,
+        "movement": "up",
+        "weeksOnChart": 18,
+        "peakPosition": 22,
+        "source": "snep"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Four to the floor",
+          "artist": "Ofenbach, Starsailor"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 16,
+        "movement": "down",
+        "weeksOnChart": 23,
+        "peakPosition": 23,
+        "source": "snep"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Ain't in LA",
+          "artist": "Adéla"
+        },
+        "label": "UNIVERSAL MUSIC",
+        "previousPosition": 38,
+        "movement": "up",
+        "weeksOnChart": 7,
+        "peakPosition": 24,
+        "source": "snep"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Vive la monnaie",
+          "artist": "Gims, Mauvais Djo"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 33,
+        "movement": "up",
+        "weeksOnChart": 16,
+        "peakPosition": 25,
+        "source": "snep"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Mélo décalé",
+          "artist": "Tiakola"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 31,
+        "movement": "up",
+        "weeksOnChart": 20,
+        "peakPosition": 26,
+        "source": "snep"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Le petit pêcheur",
+          "artist": "Manon Lisa"
+        },
+        "label": "WAGRAM MUSIC",
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 26,
+        "peakPosition": 27,
+        "source": "snep"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Fille à papa",
+          "artist": "Vacra & La Rvfleuze"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 35,
+        "movement": "up",
+        "weeksOnChart": 7,
+        "peakPosition": 28,
+        "source": "snep"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Flower in a hurricane",
+          "artist": "Justice feat. Tame Impala, SZA, King Gizzard & the Lizard Wizard"
+        },
+        "label": "BECAUSE MUSIC",
+        "previousPosition": 34,
+        "movement": "up",
+        "weeksOnChart": 3,
+        "peakPosition": 29,
+        "source": "snep"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "Egaré",
+          "artist": "M. Pokora"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 59,
+        "movement": "up",
+        "weeksOnChart": 9,
+        "peakPosition": 30,
+        "source": "snep"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Maladie",
+          "artist": "Mauvais Djo"
+        },
+        "label": "NOJOKE RECORDS",
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 22,
+        "peakPosition": 31,
+        "source": "snep"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Histoire sans fin",
+          "artist": "BEN plg feat. MATHILDE"
+        },
+        "label": "IDOL",
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 8,
+        "peakPosition": 32,
+        "source": "snep"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "Hate that I made you love me",
+          "artist": "Ariana Grande"
+        },
+        "label": "UNIVERSAL MUSIC",
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 23,
+        "peakPosition": 33,
+        "source": "snep"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Sexy nana",
+          "artist": "Aya Nakamura & La Rvfleuze"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 26,
+        "peakPosition": 34,
+        "source": "snep"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "On my soul",
+          "artist": "Bruno Mars"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 19,
+        "peakPosition": 35,
+        "source": "snep"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Drop dead",
+          "artist": "Olivia Rodrigo"
+        },
+        "label": "UNIVERSAL MUSIC",
+        "previousPosition": 32,
+        "movement": "down",
+        "weeksOnChart": 29,
+        "peakPosition": 36,
+        "source": "snep"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "J'assume",
+          "artist": "RnBoi"
+        },
+        "label": "BECAUSE MUSIC",
+        "previousPosition": 43,
+        "movement": "up",
+        "weeksOnChart": 3,
+        "peakPosition": 37,
+        "source": "snep"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Tricheur",
+          "artist": "Marine"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 40,
+        "movement": "up",
+        "weeksOnChart": 9,
+        "peakPosition": 38,
+        "source": "snep"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "Housewife",
+          "artist": "Tate McRae"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 101,
+        "movement": "up",
+        "weeksOnChart": 3,
+        "peakPosition": 39,
+        "source": "snep"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "My oh my",
+          "artist": "Kris Kross Amsterdam x Luisa Sonza x Willy William"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 60,
+        "movement": "up",
+        "weeksOnChart": 11,
+        "peakPosition": 40,
+        "source": "snep"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "Repeat it",
+          "artist": "Martin Garrix & Ed Sheeran"
+        },
+        "label": "STMPD RCRDS",
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 25,
+        "peakPosition": 41,
+        "source": "snep"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Peu importe",
+          "artist": "Zazie"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 37,
+        "movement": "down",
+        "weeksOnChart": 24,
+        "peakPosition": 42,
+        "source": "snep"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Cuenta",
+          "artist": "Ronisia feat. Meryl & Shay"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 61,
+        "movement": "up",
+        "weeksOnChart": 4,
+        "peakPosition": 43,
+        "source": "snep"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Frerot",
+          "artist": "Jérémy Frérot"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 39,
+        "movement": "down",
+        "weeksOnChart": 33,
+        "peakPosition": 44,
+        "source": "snep"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Patient zero",
+          "artist": "Taylor Swift"
+        },
+        "label": "UNIVERSAL MUSIC",
+        "previousPosition": 41,
+        "movement": "down",
+        "weeksOnChart": 6,
+        "peakPosition": 45,
+        "source": "snep"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Pow pow / Allo doudou",
+          "artist": "Niska, litleboy lsbeats767 & Miimii KDS"
+        },
+        "label": "AWAL",
+        "previousPosition": 44,
+        "movement": "down",
+        "weeksOnChart": 10,
+        "peakPosition": 46,
+        "source": "snep"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "Chaussures roses",
+          "artist": "TeddyBear"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 53,
+        "movement": "up",
+        "weeksOnChart": 11,
+        "peakPosition": 47,
+        "source": "snep"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "La pétasse",
+          "artist": "Aya Nakamura"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 45,
+        "movement": "down",
+        "weeksOnChart": 14,
+        "peakPosition": 48,
+        "source": "snep"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "La nocturne",
+          "artist": "Tiakola feat. Theodora"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 62,
+        "movement": "up",
+        "weeksOnChart": 6,
+        "peakPosition": 49,
+        "source": "snep"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Soleil",
+          "artist": "Gims"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 54,
+        "movement": "up",
+        "weeksOnChart": 31,
+        "peakPosition": 50,
+        "source": "snep"
+      },
+      {
+        "position": 51,
+        "track": {
+          "title": "Une seule vie",
+          "artist": "Angèle"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 70,
+        "movement": "up",
+        "weeksOnChart": 10,
+        "peakPosition": 51,
+        "source": "snep"
+      },
+      {
+        "position": 52,
+        "track": {
+          "title": "Billie Jean",
+          "artist": "Michael Jackson"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 67,
+        "movement": "up",
+        "weeksOnChart": 112,
+        "peakPosition": 52,
+        "source": "snep"
+      },
+      {
+        "position": 53,
+        "track": {
+          "title": "Séminaire",
+          "artist": "Bello&Dallas"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 52,
+        "movement": "down",
+        "weeksOnChart": 18,
+        "peakPosition": 53,
+        "source": "snep"
+      },
+      {
+        "position": 54,
+        "track": {
+          "title": "Fever dream",
+          "artist": "Alex Warren"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 50,
+        "movement": "down",
+        "weeksOnChart": 36,
+        "peakPosition": 54,
+        "source": "snep"
+      },
+      {
+        "position": 55,
+        "track": {
+          "title": "Cote à la hausse",
+          "artist": "Bouss"
+        },
+        "label": "LEVEL UP MUSIC",
+        "previousPosition": 58,
+        "movement": "up",
+        "weeksOnChart": 10,
+        "peakPosition": 55,
+        "source": "snep"
+      },
+      {
+        "position": 56,
+        "track": {
+          "title": "You and I, me and you",
+          "artist": "David Guetta x Hypaton"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 68,
+        "movement": "up",
+        "weeksOnChart": 8,
+        "peakPosition": 56,
+        "source": "snep"
+      },
+      {
+        "position": 57,
+        "track": {
+          "title": "One track mind",
+          "artist": "Naïka"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 51,
+        "movement": "down",
+        "weeksOnChart": 35,
+        "peakPosition": 57,
+        "source": "snep"
+      },
+      {
+        "position": 58,
+        "track": {
+          "title": "Memories (Souvenirs)",
+          "artist": "Charlotte Cardin"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 65,
+        "movement": "up",
+        "weeksOnChart": 4,
+        "peakPosition": 58,
+        "source": "snep"
+      },
+      {
+        "position": 59,
+        "track": {
+          "title": "Première fois",
+          "artist": "Slimane"
+        },
+        "label": "UNIVERSAL MUSIC",
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 23,
+        "peakPosition": 59,
+        "source": "snep"
+      },
+      {
+        "position": 60,
+        "track": {
+          "title": "Bir Hakeim",
+          "artist": "Cherry Pie"
+        },
+        "label": null,
+        "previousPosition": 57,
+        "movement": "down",
+        "weeksOnChart": 6,
+        "peakPosition": 60,
+        "source": "snep"
+      }
+    ],
+    "source": "snepmusique.com",
+    "cached_at": "2026-11-11"
   }
 }
