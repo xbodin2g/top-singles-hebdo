@@ -3,20 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Top Singles — Version 2.1.2</title>
+  <title>Top Singles — Version 2.1.3</title>
   <!--
     ============================================
-    Top Singles - Version 2.1.2
+    Top Singles - Version 2.1.3
     ============================================
-    - 3 vues : 📊 Hebdo, 📼 Rétro, 🎤 Artistes
-    - En-tête allégé
+    - 3 vues : Hebdo, Retro, Artistes
     - Tiroir d'outils en bas de page
-    - Exports centralisés
     - Artiste cliquable depuis les tops
     - Recherche artiste par nom ou titre
-    - Infos rétro condensées
-    - V2.1.2 : correctif mouvements (nouvelles entrées,
-      variantes de codage multi-sources)
+    - Correctif mouvements multi-sources
+    - V2.1.3 : pont deep-link depuis TV Retro
+      (?retro=AAAA-SS ou ?date=AAAA-MM-JJ)
     ============================================
   -->
   <style>
@@ -1201,7 +1199,7 @@
       <div>
         <h1>Top Singles</h1>
         <p>
-          Classements officiels, archives rétro, fiches artistes et exports — Version 2.1.2.
+          Classements officiels, archives rétro, fiches artistes et exports — Version 2.1.3.
         </p>
       </div>
 
@@ -1582,86 +1580,86 @@
         .toUpperCase();
     }
 
-    // ===== V2.1.2 : NORMALISATION DES MOUVEMENTS =====
- function normalizeMovement(entry) {
-  const raw = String(entry?.movement ?? "").trim().toLowerCase();
-  const pos = Number(entry?.position ?? 0);
-  const prevRaw = entry?.previousPosition;
-  const hasPrev = prevRaw !== null && prevRaw !== undefined && prevRaw !== "";
-  const prev = hasPrev ? Number(prevRaw) : null;
-  const weeks = Number(entry?.weeksOnChart ?? 0);
+    // ===== NORMALISATION DES MOUVEMENTS =====
+    function normalizeMovement(entry) {
+      const raw = String(entry?.movement ?? "").trim().toLowerCase();
+      const pos = Number(entry?.position ?? 0);
+      const prevRaw = entry?.previousPosition;
+      const hasPrev = prevRaw !== null && prevRaw !== undefined && prevRaw !== "";
+      const prev = hasPrev ? Number(prevRaw) : null;
+      const weeks = Number(entry?.weeksOnChart ?? 0);
 
-  // Cas spécial : pas de previousPosition ET weeksOnChart <= 1
-  // => première archive ou nouvelle entrée non détectée par le parser
-  if (!hasPrev && weeks <= 1) {
-    return "new";
-  }
+      // Cas spécial : pas de previousPosition ET weeksOnChart <= 1
+      // => première archive ou nouvelle entrée non détectée par le parser
+      if (!hasPrev && weeks <= 1) {
+        return "new";
+      }
 
-  // Cas 1 : mouvement explicitement codé
-  if (raw) {
-    if (raw.includes("▲")) return "up";
-    if (raw.includes("▼")) return "down";
-    if (raw.includes("✦")) return "new";
+      // Cas 1 : mouvement explicitement codé
+      if (raw) {
+        if (raw.includes("▲")) return "up";
+        if (raw.includes("▼")) return "down";
+        if (raw.includes("✦")) return "new";
 
-    if (
-      raw === "new" ||
-      raw === "n" ||
-      raw === "nouveau" ||
-      raw === "entrée" ||
-      raw === "re" ||
-      raw === "re-entry" ||
-      raw === "reentry" ||
-      raw === "réentrée" ||
-      raw === "relance" ||
-      raw.includes("new entry")
-    ) {
-      return "new";
-    }
+        if (
+          raw === "new" ||
+          raw === "n" ||
+          raw === "nouveau" ||
+          raw === "entrée" ||
+          raw === "re" ||
+          raw === "re-entry" ||
+          raw === "reentry" ||
+          raw === "réentrée" ||
+          raw === "relance" ||
+          raw.includes("new entry")
+        ) {
+          return "new";
+        }
 
-    if (
-      raw === "up" ||
-      raw === "hausse" ||
-      raw === "monte" ||
-      raw === "progression" ||
-      raw === "+"
-    ) {
-      return "up";
-    }
+        if (
+          raw === "up" ||
+          raw === "hausse" ||
+          raw === "monte" ||
+          raw === "progression" ||
+          raw === "+"
+        ) {
+          return "up";
+        }
 
-    if (
-      raw === "down" ||
-      raw === "baisse" ||
-      raw === "descend" ||
-      raw === "recul" ||
-      raw === "-"
-    ) {
-      return "down";
-    }
+        if (
+          raw === "down" ||
+          raw === "baisse" ||
+          raw === "descend" ||
+          raw === "recul" ||
+          raw === "-"
+        ) {
+          return "down";
+        }
 
-    if (
-      raw === "same" ||
-      raw === "stable" ||
-      raw === "=" ||
-      raw === "●" ||
-      raw === "inchangé"
-    ) {
+        if (
+          raw === "same" ||
+          raw === "stable" ||
+          raw === "=" ||
+          raw === "●" ||
+          raw === "inchangé"
+        ) {
+          return "same";
+        }
+      }
+
+      // Cas 2 : pas de movement exploitable, on déduit
+      if (prev === null && weeks <= 1) {
+        return "new";
+      }
+
+      if (prev !== null && Number.isFinite(prev) && prev > 0 && pos > 0) {
+        if (prev > pos) return "up";
+        if (prev < pos) return "down";
+        return "same";
+      }
+
       return "same";
     }
-  }
-
-  // Cas 2 : pas de movement exploitable, on déduit à partir des données
-  if (prev === null && weeks <= 1) {
-    return "new";
-  }
-
-  if (prev !== null && Number.isFinite(prev) && prev > 0 && pos > 0) {
-    if (prev > pos) return "up";
-    if (prev < pos) return "down";
-    return "same";
-  }
-
-  return "same";
-}
 
     function movementLabel(entry) {
       const mv = normalizeMovement(entry);
@@ -3354,11 +3352,11 @@
       const q = String(filterQuery || "").trim().toLowerCase();
       const allTracks = artist.tracks || [];
       const tracks = q
-  ? allTracks.filter(t =>
-      String(t.title || "").toLowerCase().includes(q) ||
-      String(t.credit || "").toLowerCase().includes(q)
-    )
-  : allTracks;
+        ? allTracks.filter(t =>
+            String(t.title || "").toLowerCase().includes(q) ||
+            String(t.credit || "").toLowerCase().includes(q)
+          )
+        : allTracks;
 
       artistDetail.innerHTML = `
         <button class="button artist-back" type="button" data-action="back-artists">← Retour à la liste</button>
@@ -3420,55 +3418,6 @@
             : `<div class="empty">Aucun titre ne correspond à ce filtre.</div>`
         }
       `;
-    }
-
-    function copyArtistPlaylist(id) {
-      const artist = getArtistById(id || currentArtistId);
-      if (!artist) {
-        toast("Aucun artiste sélectionné.", "warning");
-        return;
-      }
-
-      const text = artistExportText(artist);
-      copyToClipboard(text);
-
-      setDrawerMessage(`
-        <strong>✅ Playlist de ${escapeHtml(artist.name)} copiée !</strong><br>
-        📊 ${artist.tracks.length} titre(s) dans le presse-papier.<br>
-        🔄 Ordre : <strong>${playlistReverse ? "inversé" : "normal"}</strong>
-      `);
-
-      toast("Playlist artiste copiée.", "success");
-    }
-
-    function tuneMyMusicArtist(id) {
-      const artist = getArtistById(id || currentArtistId);
-      if (!artist) {
-        toast("Aucun artiste sélectionné.", "warning");
-        return;
-      }
-
-      const text = artistExportText(artist);
-      copyToClipboard(text);
-
-      setDrawerMessage(`
-        <strong>✅ Playlist de ${escapeHtml(artist.name)} copiée !</strong><br>
-        📊 ${artist.tracks.length} titre(s) prêts à être transférés.<br>
-        🔄 Ordre : <strong>${playlistReverse ? "inversé" : "normal"}</strong><br><br>
-        <strong>Étapes sur TuneMyMusic :</strong>
-        <ol>
-          <li>Clique sur <strong>"Commençons"</strong></li>
-          <li>Choisis <strong>"N'importe quelle source"</strong> puis <strong>"Fichier texte"</strong></li>
-          <li><strong>Collez la liste</strong></li>
-          <li>Clique sur <strong>"Suivant"</strong></li>
-          <li>Sélectionne ta plateforme (Deezer, YouTube, Spotify...)</li>
-          <li>Connecte ton compte</li>
-          <li>Clique sur <strong>"Commencer le transfert"</strong></li>
-        </ol>
-      `);
-
-      window.open("https://www.tunemymusic.com/fr/", "_blank", "noopener");
-      toast("TuneMyMusic ouvert. Liste déjà copiée.", "success");
     }
 
     function exportArtistCSV(id) {
@@ -3800,6 +3749,101 @@
     loadApiKeyIntoDrawer();
     loadChartData();
     updateDrawerContext();
+
+    // ===== PONT DEPUIS TV RÉTRO (?retro=AAAA-SS&date=AAAA-MM-JJ) =====
+    function isoWeekMonday(year, week) {
+      const jan4 = new Date(Date.UTC(year, 0, 4));
+      const dow = jan4.getUTCDay() || 7;
+      const monday = new Date(jan4);
+      monday.setUTCDate(jan4.getUTCDate() - dow + 1 + (week - 1) * 7);
+      return monday;
+    }
+
+    function normalizeRetroKey(raw) {
+      if (!raw || !/^\d{4}-\d{1,2}$/.test(raw)) return null;
+      const [y, w] = raw.split("-").map(Number);
+      return `${y}-${String(w).padStart(2, "0")}`;
+    }
+
+    function findNearestRetroKey(targetDate) {
+      const keys = Object.keys(RETRO_CACHE || {});
+      if (!keys.length || !targetDate || isNaN(targetDate)) return null;
+
+      let best = null;
+      let bestDist = Infinity;
+
+      keys.forEach((key) => {
+        const [y, w] = key.split("-").map(Number);
+        if (!y || !w) return;
+        const dist = Math.abs(isoWeekMonday(y, w) - targetDate);
+        if (dist < bestDist) {
+          bestDist = dist;
+          best = key;
+        }
+      });
+
+      return {
+        key: best,
+        distanceDays: best === null ? null : Math.round(bestDist / 86400000)
+      };
+    }
+
+    async function handleTvRetroDeepLink() {
+      const params = new URLSearchParams(window.location.search);
+      const retroParam = params.get("retro");
+      const dateParam = params.get("date");
+
+      if (!retroParam && !dateParam) return;
+
+      let targetDate = null;
+      if (dateParam && /^\d{4}-\d{2}-\d{2}$/.test(dateParam)) {
+        targetDate = new Date(dateParam + "T00:00:00Z");
+      } else if (retroParam && /^\d{4}-\d{1,2}$/.test(retroParam)) {
+        const [y, w] = retroParam.split("-").map(Number);
+        targetDate = isoWeekMonday(y, w);
+      }
+
+      setActiveView("retro");
+      await initRetroView();
+
+      const keys = Object.keys(RETRO_CACHE || {});
+      if (!keys.length) {
+        toast("Aucune archive rétro disponible pour ce lien.", "warning");
+        return;
+      }
+
+      const normalizedKey = normalizeRetroKey(retroParam);
+      let chosen = normalizedKey && RETRO_CACHE[normalizedKey] ? normalizedKey : null;
+      let distanceDays = 0;
+
+      if (!chosen) {
+        const nearest = findNearestRetroKey(targetDate);
+        if (!nearest || !nearest.key) {
+          toast("Archive correspondante introuvable.", "warning");
+          return;
+        }
+        chosen = nearest.key;
+        distanceDays = nearest.distanceDays;
+      }
+
+      await goToRetroWeek(chosen);
+
+      if (distanceDays > 8) {
+        toast(`Semaine exacte absente — archive la plus proche : ${chosen}`, "warning");
+      } else {
+        toast(`Top de la semaine ${chosen} chargé depuis TV Rétro.`, "success");
+      }
+
+      history.replaceState(null, "", window.location.pathname);
+    }
+
+    // Correctif : chargement initial de la vue rétro au premier clic sur l'onglet
+    document.querySelector('[data-tab="retro"]')?.addEventListener("click", async () => {
+      await initRetroView();
+      if (!RETRO_ENTRIES.length) await loadRetroArchiveAuto();
+    });
+
+    handleTvRetroDeepLink();
   </script>
 </body>
 </html>
