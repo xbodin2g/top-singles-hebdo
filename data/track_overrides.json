@@ -1,0 +1,10 @@
+[
+  {
+    "artist_match": "Paul Hardcastle",
+    "new_artist": "Paul Hardcastle",
+    "new_title": "19 (version française)",
+    "years": [1985, 1986],
+    "only_if_numeric_title": true,
+    "comment": "Le titre '19' est confondu avec une colonne numerique par le parser top-archives.fr"
+  }
+]
