@@ -34,8 +34,19 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Find targets
+      - name: Detecter les paliers de la source
         run: |
+          echo "############################################################"
+          echo "# PALIERS DE TAILLE — CHARTSINFRANCE"
+          echo "############################################################"
+          python find_source_limits.py
+
+      - name: Trouver les cibles de re-scraping
+        run: |
+          echo ""
+          echo "############################################################"
+          echo "# CIBLES DE RE-SCRAPING"
+          echo "############################################################"
           python find_rescrape_targets.py --max-gaps "${{ inputs.max_gaps }}" --limit "${{ inputs.limit }}"
 
       - name: Commit target list
@@ -45,8 +56,6 @@ jobs:
 
           if [ -f data/rescrape_targets.json ]; then
             git add data/rescrape_targets.json
-          else
-            echo "Pas de fichier de cibles"
           fi
 
           if git diff --staged --quiet; then
@@ -54,6 +63,6 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Liste des semaines candidates au re-scraping"
+          git commit -m "Cibles de re-scraping + detection paliers source"
           git pull --rebase origin main
           git push origin main
