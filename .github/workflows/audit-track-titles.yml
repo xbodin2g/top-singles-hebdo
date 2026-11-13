@@ -8,9 +8,17 @@ on:
         required: false
         default: '1'
       limit:
-        description: 'Nombre de groupes affichés'
+        description: 'Nombre de groupes affiches'
         required: false
         default: '60'
+      completeness:
+        description: 'Lancer aussi l audit de completude'
+        required: false
+        default: 'oui'
+        type: choice
+        options:
+          - oui
+          - non
 
 permissions:
   contents: write
@@ -35,9 +43,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run audit
+      - name: Audit titres
         run: |
           python audit_track_titles.py --min-count "${{ inputs.min_count }}" --limit "${{ inputs.limit }}"
+
+      - name: Audit completude
+        if: ${{ inputs.completeness == 'oui' }}
+        run: |
+          echo ""
+          echo "############################################################"
+          echo "# AUDIT DE COMPLÉTUDE DES ARCHIVES"
+          echo "############################################################"
+          python audit_completeness.py
 
       - name: Commit suggestions
         run: |
@@ -47,11 +64,11 @@ jobs:
           if [ -f data/track_overrides_suggestions.json ]; then
             git add data/track_overrides_suggestions.json
           else
-            echo "Fichier de suggestions absent — rien à committer"
+            echo "Fichier de suggestions absent"
           fi
 
           if git diff --staged --quiet; then
-            echo "Aucun changement à committer"
+            echo "Aucun changement a committer"
             exit 0
           fi
 
