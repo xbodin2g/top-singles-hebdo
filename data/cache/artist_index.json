@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-13T22:29:59.416107+00:00",
+  "generatedAt": "2026-11-13T22:55:18.023160+00:00",
   "archiveCount": 2198,
   "artistCount": 4511,
-  "trackCount": 10565,
+  "trackCount": 10560,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -61145,99 +61145,6 @@
       "firstDate": "18/01/2021",
       "lastKey": "2025-38",
       "lastDate": "15/09/2025"
-    },
-    {
-      "id": "the gospel rap",
-      "name": "The Gospel Rap",
-      "tracks": [
-        {
-          "key": "37|the gospel rap",
-          "title": "37",
-          "credit": "The Gospel Rap",
-          "firstKey": "1992-17",
-          "firstDate": "26/04/1992",
-          "lastKey": "1992-17",
-          "lastDate": "26/04/1992",
-          "weeks": 1,
-          "peak": 27,
-          "peakKey": "1992-17",
-          "peakDate": "26/04/1992"
-        },
-        {
-          "key": "27|the gospel rap",
-          "title": "27",
-          "credit": "The Gospel Rap",
-          "firstKey": "1992-18",
-          "firstDate": "03/05/1992",
-          "lastKey": "1992-18",
-          "lastDate": "03/05/1992",
-          "weeks": 1,
-          "peak": 32,
-          "peakKey": "1992-18",
-          "peakDate": "03/05/1992"
-        },
-        {
-          "key": "32|the gospel rap",
-          "title": "32",
-          "credit": "The Gospel Rap",
-          "firstKey": "1992-19",
-          "firstDate": "10/05/1992",
-          "lastKey": "1992-19",
-          "lastDate": "10/05/1992",
-          "weeks": 1,
-          "peak": 37,
-          "peakKey": "1992-19",
-          "peakDate": "10/05/1992"
-        },
-        {
-          "key": "50|the gospel rap",
-          "title": "50",
-          "credit": "The Gospel Rap",
-          "firstKey": "1992-16",
-          "firstDate": "19/04/1992",
-          "lastKey": "1992-16",
-          "lastDate": "19/04/1992",
-          "weeks": 1,
-          "peak": 37,
-          "peakKey": "1992-16",
-          "peakDate": "19/04/1992"
-        },
-        {
-          "key": "45|the gospel rap",
-          "title": "45",
-          "credit": "The Gospel Rap",
-          "firstKey": "1992-14",
-          "firstDate": "05/04/1992",
-          "lastKey": "1992-14",
-          "lastDate": "05/04/1992",
-          "weeks": 1,
-          "peak": 48,
-          "peakKey": "1992-14",
-          "peakDate": "05/04/1992"
-        },
-        {
-          "key": "48|the gospel rap",
-          "title": "48",
-          "credit": "The Gospel Rap",
-          "firstKey": "1992-15",
-          "firstDate": "12/04/1992",
-          "lastKey": "1992-15",
-          "lastDate": "12/04/1992",
-          "weeks": 1,
-          "peak": 50,
-          "peakKey": "1992-15",
-          "peakDate": "12/04/1992"
-        }
-      ],
-      "trackCount": 6,
-      "totalWeeks": 6,
-      "bestPeak": 27,
-      "firstYear": 1992,
-      "lastYear": 1992,
-      "firstKey": "1992-14",
-      "firstDate": "05/04/1992",
-      "lastKey": "1992-19",
-      "lastDate": "10/05/1992"
     },
     {
       "id": "lewis capaldi",
@@ -173765,6 +173672,34 @@
       "firstDate": "04/09/1995",
       "lastKey": "1995-47",
       "lastDate": "20/11/1995"
+    },
+    {
+      "id": "no",
+      "name": "NO",
+      "tracks": [
+        {
+          "key": "the gospel rap|no",
+          "title": "The Gospel Rap",
+          "credit": "NO",
+          "firstKey": "1992-13",
+          "firstDate": "29/03/1992",
+          "lastKey": "1992-19",
+          "lastDate": "10/05/1992",
+          "weeks": 7,
+          "peak": 27,
+          "peakKey": "1992-17",
+          "peakDate": "26/04/1992"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 7,
+      "bestPeak": 27,
+      "firstYear": 1992,
+      "lastYear": 1992,
+      "firstKey": "1992-13",
+      "firstDate": "29/03/1992",
+      "lastKey": "1992-19",
+      "lastDate": "10/05/1992"
     },
     {
       "id": "disco lines",
