@@ -37,17 +37,21 @@ jobs:
 
       - name: Run audit
         run: |
-          python audit_track_titles.py --min-count ${{ inputs.min_count }} --limit ${{ inputs.limit }}
+          python audit_track_titles.py --min-count "${{ inputs.min_count }}" --limit "${{ inputs.limit }}"
 
       - name: Commit suggestions
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          git add data/track_overrides_suggestions.json
+          if [ -f data/track_overrides_suggestions.json ]; then
+            git add data/track_overrides_suggestions.json
+          else
+            echo "Fichier de suggestions absent — rien à committer"
+          fi
 
           if git diff --staged --quiet; then
-            echo "Aucune suggestion à committer"
+            echo "Aucun changement à committer"
             exit 0
           fi
 
