@@ -1,14 +1,21 @@
 #!/usr/bin/env python3
 """
-Audit v2 des archives rétro — détection précise, sans faux positifs.
+Audit v3 des archives rétro — détection précise, sans faux positifs.
 
-Signaux retenus :
-  CRITIQUE  champ vide / artiste purement numérique
-            / titre numérique VARIABLE selon les semaines  ← vrai bug
-  ELEVE     bruit d'interface (tokens exacts) / titre == position
-  INFO      titre numérique STABLE (ex. "22", "19") → probablement légitime
+CRITIQUE  champ vide
+          artiste numérique SANS répertoire (fantôme)
+          titre numérique VARIABLE selon les semaines   ← vrai bug
+ELEVE     bruit d'interface (tokens non ambigus) / titre == position
+INFO      titre numérique STABLE (19, 22, 1979…)  → légitime
+          artiste numérique AVEC répertoire (113, 666, 702, 911, 112…) → légitime
 
-Supprimés volontairement : titre == artiste (éponymes), titre court (19, 7, 22).
+Supprimés volontairement :
+  titre == artiste   (chansons éponymes légitimes)
+  titre court        (19, 7, 22 sont de vrais titres)
+  tokens ambigus     ("singles", "star", "menu", "search"…)
+
+Recoupement contraint par l'époque (±3 ans) pour éviter
+"One" → Swedish House Mafia au lieu de U2.
 
 Usage :
   python audit_track_titles.py
@@ -20,19 +27,21 @@ from datetime import datetime
 
 CACHE_PATH = "data/cache/retro_archives.json"
 SUGGEST_PATH = "data/track_overrides_suggestions.json"
+OVERRIDES_PATH = "data/track_overrides.json"
 
-# Tokens d'interface : comparés au champ ENTIER (pas en sous-chaîne)
+ERA_WINDOW = 3   # années de tolérance pour le recoupement
+
+# Tokens 100 % interface, sans ambiguïté possible
 UI_EXACT = {
-    "n", "n°", "singles", "single", "star", "timeline", "chevron", "menu",
-    "search", "close", "newsletter", "arrow right", "arrow top", "arrow bot",
-    "arrow", "top singles", "classement", "voir les stats", "peak position",
-    "total weeks", "la semaine derniere", "semaine dans le top", "current",
-    "previous", "title", "peak", "weeks",
+    "timeline", "voir les stats", "n", "n°",
+    "arrow right", "arrow top", "arrow bot", "arrow",
+    "chevron right", "chevron bot", "chevron left", "chevron",
 }
-# Phrases longues non ambiguës : sous-chaîne autorisée
-UI_PHRASES = ["voir les stats", "peak position", "total weeks",
-              "la semaine derniere", "semaine dans le top",
-              "copyright", "fonticons", "chevron_right", "chevron_bot"]
+UI_PHRASES = [
+    "voir les stats", "peak position", "total weeks",
+    "la semaine derniere", "semaine dans le top",
+    "copyright", "fonticons", "chevron_",
+]
 
 
 def norm(s):
@@ -70,6 +79,37 @@ def is_clean(title, artist):
     return True
 
 
+def year_of(key, arch):
+    m = re.match(r"^(\d{4})-", str(key))
+    if m:
+        return int(m.group(1))
+    try:
+        return int(arch.get("year"))
+    except (TypeError, ValueError):
+        return 0
+
+
+def load_existing_matches():
+    """Règles déjà en place : on ne re-suggère pas ce qui est déjà couvert."""
+    out = set()
+    if os.path.exists(OVERRIDES_PATH):
+        try:
+            with open(OVERRIDES_PATH, "r", encoding="utf-8") as f:
+                for r in json.load(f):
+                    am = (r.get("artist_match") or "").strip()
+                    if am:
+                        out.add(norm(am))
+        except Exception:
+            pass
+    return out
+
+
+def write_suggestions(items):
+    os.makedirs(os.path.dirname(SUGGEST_PATH), exist_ok=True)
+    with open(SUGGEST_PATH, "w", encoding="utf-8") as f:
+        json.dump(items, f, ensure_ascii=False, indent=2)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--min-count", type=int, default=1)
@@ -77,64 +117,78 @@ def main():
     ap.add_argument("--no-suggest", action="store_true")
     args = ap.parse_args()
 
-    print(f"🔍 Audit v2 — {datetime.now():%Y-%m-%d %H:%M:%S}")
+    print(f"🔍 Audit v3 — {datetime.now():%Y-%m-%d %H:%M:%S}")
 
     if not os.path.exists(CACHE_PATH):
         print(f"❌ Cache absent : {CACHE_PATH}")
+        if not args.no_suggest:
+            write_suggestions([])
         return
+
     with open(CACHE_PATH, "r", encoding="utf-8") as f:
         cache = json.load(f)
 
-    # ---- Passe 1 : référence propre + titres numériques par artiste ----
+    existing = load_existing_matches()
+
+    # ---------- Passe 1 : références ----------
     known_artists = set()
-    title_ref = defaultdict(Counter)          # titre_norm -> Counter(artiste)
-    numeric_by_artist = defaultdict(set)      # artiste_norm -> {titres numériques}
+    title_ref = defaultdict(Counter)        # titre_norm -> Counter((artiste, année))
+    numeric_by_artist = defaultdict(set)    # artiste_norm -> {titres numériques}
+    real_titles_by_artist = defaultdict(set)  # artiste_norm -> {titres NON numériques}
     total = 0
 
     for key, arch in cache.items():
         if not isinstance(arch, dict):
             continue
+        yr = year_of(key, arch)
         for e in arch.get("entries") or []:
             tr = e.get("track") or {}
             t, a = tr.get("title", ""), tr.get("artist", "")
             total += 1
+            na = norm(a)
             if is_clean(t, a):
-                known_artists.add(norm(a))
-                title_ref[norm(t)][str(a).strip()] += 1
+                known_artists.add(na)
+                title_ref[norm(t)][(str(a).strip(), yr)] += 1
+            if str(a or "").strip() and str(t or "").strip() and not is_numeric(t):
+                real_titles_by_artist[na].add(norm(t))
             if is_numeric(t) and str(a or "").strip():
-                numeric_by_artist[norm(a)].add(str(t).strip())
+                numeric_by_artist[na].add(str(t).strip())
 
     print(f"📚 {len(cache)} archives · {total} entrées")
     print(f"   référence : {len(known_artists)} artistes · {len(title_ref)} titres propres")
+    if existing:
+        print(f"   {len(existing)} règle(s) déjà en place dans track_overrides.json")
 
-    # ---- Passe 2 : classification ----
+    # ---------- Passe 2 : classification ----------
     groups = {}
     sev_count = Counter()
+    sig_count = Counter()
     order = {"CRITIQUE": 3, "ELEVE": 2, "INFO": 1}
 
     for key, arch in cache.items():
         if not isinstance(arch, dict):
             continue
-        m = re.match(r"^(\d{4})-(\d{1,2})$", str(key))
-        try:
-            year = int(m.group(1)) if m else int(arch.get("year"))
-        except (TypeError, ValueError):
-            year = None
+        yr = year_of(key, arch)
 
         for e in arch.get("entries") or []:
             tr = e.get("track") or {}
             t, a = str(tr.get("title", "")), str(tr.get("artist", ""))
             pos = e.get("position")
+            na = norm(a)
             sig = []
 
             if not t.strip() or not a.strip():
                 sig.append("champ_vide")
+
             if is_numeric(a):
-                sig.append("artiste_numerique")
+                if len(real_titles_by_artist.get(na, set())) >= 1:
+                    sig.append("artiste_numerique_legitime")
+                else:
+                    sig.append("artiste_numerique")
 
             variable = False
             if is_numeric(t):
-                variants = numeric_by_artist.get(norm(a), set())
+                variants = numeric_by_artist.get(na, set())
                 if len(variants) >= 2:
                     sig.append("titre_numerique_VARIABLE")
                     variable = True
@@ -143,6 +197,7 @@ def main():
 
             if t.strip() and t.strip() == str(pos):
                 sig.append("titre_egal_position")
+
             if has_noise(t) or has_noise(a):
                 sig.append("bruit_interface")
 
@@ -156,7 +211,7 @@ def main():
             else:
                 sev = "INFO"
 
-            gk = (norm(a), norm(t) if not variable else "__numeric__")
+            gk = (na, "__numeric__" if variable else norm(t))
             g = groups.get(gk)
             if g is None:
                 g = {"count": 0, "weeks": [], "years": set(), "signals": set(),
@@ -170,18 +225,20 @@ def main():
                 g["num_titles"].add(t.strip())
             if len(g["weeks"]) < 10:
                 g["weeks"].append(key)
-            if year:
-                g["years"].add(year)
+            if yr:
+                g["years"].add(yr)
             if order[sev] > order[g["sev"]]:
                 g["sev"] = sev
+
             sev_count[sev] += 1
+            for s in sig:
+                sig_count[s] += 1
 
     if not groups:
         print("\n✅ Aucune entrée suspecte.")
         if not args.no_suggest:
-            os.makedirs(os.path.dirname(SUGGEST_PATH), exist_ok=True)
-            with open(SUGGEST_PATH, "w", encoding="utf-8") as f:
-                json.dump([], f, ensure_ascii=False, indent=2)
+            write_suggestions([])
+            print(f"💾 fichier vide écrit : {SUGGEST_PATH}")
         return
 
     ranked = sorted(groups.values(), key=lambda g: (-order[g["sev"]], -g["count"]))
@@ -190,9 +247,13 @@ def main():
     print(f"\n{'='*72}")
     print(f"SUSPECTS : {sum(sev_count.values())} entrées · {len(groups)} groupes")
     print(f"  CRITIQUE {sev_count['CRITIQUE']} · ELEVE {sev_count['ELEVE']} · INFO {sev_count['INFO']}")
+    print("-"*72)
+    for s, n in sig_count.most_common():
+        print(f"  {s:32s} {n}")
     print("="*72)
 
     suggestions = []
+
     for g in ranked[:args.limit]:
         yrs = sorted(g["years"])
         print(f"\n[{g['sev']}] {g['count']}× — {', '.join(sorted(g['signals']))}")
@@ -214,8 +275,11 @@ def main():
             continue
 
         nf = norm(field)
+        if nf in existing:
+            print("   ✔ déjà couvert par une règle de track_overrides.json")
+            continue
+
         if nf in known_artists:
-            # le champ artiste est un VRAI artiste → titre à retrouver
             print(f"   → artiste reconnu : {field} (titre à renseigner)")
             suggestions.append({
                 "artist_match": field,
@@ -225,18 +289,35 @@ def main():
                 "only_if_numeric_title": True,
                 "comment": f"Titre numérique variable ({g['count']}×) — artiste OK, titre à retrouver"
             })
+
         elif nf in title_ref:
-            # le champ artiste contient en fait le TITRE → inversion
-            real_artist = title_ref[nf].most_common(1)[0][0]
-            print(f"   💡 inversion détectée → {real_artist} — {field}")
-            suggestions.append({
-                "artist_match": field,
-                "new_artist": real_artist,
-                "new_title": field,
-                "years": yrs,
-                "only_if_numeric_title": True,
-                "comment": f"Champs inversés ({g['count']}×) — artiste déduit par recoupement"
-            })
+            ref_year = min(yrs) if yrs else 0
+            cands = Counter()
+            for (cand_artist, cand_year), n in title_ref[nf].items():
+                if ref_year and cand_year and abs(cand_year - ref_year) <= ERA_WINDOW:
+                    cands[cand_artist] += n
+            if not cands:
+                print(f"   ⚠️ aucun artiste de la même époque (±{ERA_WINDOW} ans) → à vérifier")
+                suggestions.append({
+                    "artist_match": field,
+                    "new_artist": "A_RENSEIGNER",
+                    "new_title": field,
+                    "years": yrs,
+                    "only_if_numeric_title": True,
+                    "comment": f"Inversion ({g['count']}×) — artiste non déductible à cette époque"
+                })
+            else:
+                real_artist = cands.most_common(1)[0][0]
+                print(f"   💡 inversion détectée → {real_artist} — {field}  (époque {ref_year})")
+                suggestions.append({
+                    "artist_match": field,
+                    "new_artist": real_artist,
+                    "new_title": field,
+                    "years": yrs,
+                    "only_if_numeric_title": True,
+                    "comment": f"Champs inversés ({g['count']}×) — artiste déduit à ±{ERA_WINDOW} ans"
+                })
+
         else:
             print("   ⚠️ champ non reconnu → à vérifier manuellement")
             suggestions.append({
@@ -251,7 +332,7 @@ def main():
     if len(ranked) > args.limit:
         print(f"\n… {len(ranked)-args.limit} autre(s) groupe(s). Augmente --limit.")
 
-    # ---- Écriture : TOUOURS créer le fichier (même vide) ----
+    # ---------- Écriture (toujours, même vide) ----------
     if not args.no_suggest:
         seen, uniq = set(), []
         for s in suggestions:
@@ -260,9 +341,7 @@ def main():
                 continue
             seen.add(k)
             uniq.append(s)
-        os.makedirs(os.path.dirname(SUGGEST_PATH), exist_ok=True)
-        with open(SUGGEST_PATH, "w", encoding="utf-8") as f:
-            json.dump(uniq, f, ensure_ascii=False, indent=2)
+        write_suggestions(uniq)
         print(f"\n💾 {len(uniq)} suggestion(s) → {SUGGEST_PATH}")
         todo = sum(1 for s in uniq if "A_RENSEIGNER" in s["new_artist"] + s["new_title"])
         if todo:
@@ -270,8 +349,9 @@ def main():
         print("   ⚠️ Relire avant de recopier dans data/track_overrides.json")
 
     print(f"\n{'='*72}")
-    print("INFO = titres numériques stables, probablement légitimes (19, 22, 7…)")
-    print("Seuls les CRITIQUE génèrent des suggestions.")
+    print("INFO = titres numériques stables (19, 22, 1979…) et groupes à nom numérique")
+    print("       (113, 666, 702, 911, 112…) → légitimes, aucune action.")
+    print("Seuls les CRITIQUE non déjà couverts génèrent des suggestions.")
 
 
 if __name__ == "__main__":
