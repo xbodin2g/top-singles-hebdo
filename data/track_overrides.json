@@ -1,5 +1,17 @@
 [
   {
+    "action": "delete",
+    "artist_match": "Voir les stats",
+    "title_match": "timeline",
+    "comment": "Entree fantome : interface chartsinfrance parade en titre/artiste (812 occurrences)"
+  },
+  {
+    "action": "delete",
+    "artist_match": "timeline",
+    "title_match": "Voir les stats",
+    "comment": "Variante inversee de l'entree fantome"
+  },
+  {
     "artist_match": "Paul Hardcastle",
     "new_artist": "Paul Hardcastle",
     "new_title": "19 (version française)",
@@ -13,6 +25,54 @@
     "new_title": "With or Without You",
     "years": [1987, 1988],
     "only_if_numeric_title": true,
-    "comment": "Champs inverses : le titre se retrouve en artiste, la position en titre"
+    "comment": "U2 — champs inverses"
+  },
+  {
+    "artist_match": "I Still Haven't Found What I'm Looking",
+    "new_artist": "U2",
+    "new_title": "I Still Haven't Found What I'm Looking For",
+    "years": [1987, 1988],
+    "only_if_numeric_title": true,
+    "comment": "U2 — inversion + titre tronque par la source"
+  },
+  {
+    "artist_match": "Desire",
+    "new_artist": "U2",
+    "new_title": "Desire",
+    "years": [1988, 1989],
+    "only_if_numeric_title": true,
+    "comment": "U2 — PAS Calvin Harris ( suggestion auto erronee, epoque differente )"
+  },
+  {
+    "artist_match": "The Fly",
+    "new_artist": "U2",
+    "new_title": "The Fly",
+    "years": [1991, 1992],
+    "only_if_numeric_title": true,
+    "comment": "U2 — champs inverses"
+  },
+  {
+    "artist_match": "Mysterious Ways",
+    "new_artist": "U2",
+    "new_title": "Mysterious Ways",
+    "years": [1991, 1992, 1993],
+    "only_if_numeric_title": true,
+    "comment": "U2 — champs inverses"
+  },
+  {
+    "artist_match": "One",
+    "new_artist": "U2",
+    "new_title": "One",
+    "years": [1992, 1993],
+    "only_if_numeric_title": true,
+    "comment": "U2 — PAS Swedish House Mafia ( suggestion auto erronee, epoque differente )"
+  },
+  {
+    "artist_match": "Even Better Than The Real Thing",
+    "new_artist": "U2",
+    "new_title": "Even Better Than The Real Thing",
+    "years": [1992, 1993],
+    "only_if_numeric_title": true,
+    "comment": "U2 — champs inverses"
   }
 ]
