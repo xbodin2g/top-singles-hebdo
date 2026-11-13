@@ -5,6 +5,14 @@
     "new_title": "19 (version française)",
     "years": [1985, 1986],
     "only_if_numeric_title": true,
-    "comment": "Le titre '19' est confondu avec une colonne numerique par le parser top-archives.fr"
+    "comment": "Titre '19' confondu avec une colonne numerique"
+  },
+  {
+    "artist_match": "With or Without You",
+    "new_artist": "U2",
+    "new_title": "With or Without You",
+    "years": [1987, 1988],
+    "only_if_numeric_title": true,
+    "comment": "Champs inverses : le titre se retrouve en artiste, la position en titre"
   }
 ]
