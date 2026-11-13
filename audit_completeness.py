@@ -2,25 +2,32 @@
 """
 Mesure la complétude des archives rétro. Lecture seule, ne modifie rien.
 
-Tailles attendues :
-  top-archives.fr                     → 50
-  chartsinfrance.net < 1998-10        → 50   (Top 50 jusqu'au 26/02/1998)
-  chartsinfrance.net >= 1998-10       → 100  (Top 100 à partir du 05/03/1998)
-  snepmusique.com                     → non jugé (taille variable)
+Tailles réellement publiées par les sources :
+  top-archives.fr                    → 50
+  chartsinfrance.net <  1998-10      → 50   (Top 50 jusqu'au 26/02/1998)
+  chartsinfrance.net >= 1998-10      → 100  (Top 100 à partir du 05/03/1998)
+  chartsinfrance.net >= 2014-01      → 25   (la source réduit son classement)
+  snepmusique.com                    → non jugé (taille variable)
 """
 import json, os, re
 from collections import defaultdict
 
 CACHE = "data/cache/retro_archives.json"
-SWITCH_TOP100 = "1998-10"   # premier Top 100 chartsinfrance (05/03/1998)
+SWITCH_TOP100 = "1998-10"   # 05/03/1998 : passage au Top 100
+SWITCH_TOP25  = "2014-01"   # 2014 : chartsinfrance ne publie plus que 25 titres
 
 
 def expected_size(key, source):
     s = (source or "").lower()
+    k = str(key)
     if "top-archives" in s:
         return 50
     if "chartsinfrance" in s:
-        return 100 if str(key) >= SWITCH_TOP100 else 50
+        if k >= SWITCH_TOP25:
+            return 25
+        if k >= SWITCH_TOP100:
+            return 100
+        return 50
     return None      # SNEP / inconnu : pas de jugement
 
 
@@ -95,7 +102,8 @@ def main():
         print(f"  … et {len(thin) - 40} autres")
 
     print("\n" + "=" * 78)
-    print("Bascule Top 50 → Top 100 chartsinfrance : 1998-10 (05/03/1998)")
+    print("Paliers chartsinfrance : 50 → 100 en 1998-10 · 100 → 25 en 2014-01")
+    print("Ces paliers sont des limitations de la SOURCE, pas des bugs de parsing.")
     print("SNEP n'est pas jugé : taille de classement variable selon les semaines.")
     print("Ce script ne modifie aucune donnée.")
 
