@@ -3,7 +3,7 @@
     "action": "delete",
     "artist_match": "Voir les stats",
     "title_match": "timeline",
-    "comment": "Entree fantome : interface chartsinfrance parade en titre/artiste (812 occurrences)"
+    "comment": "Entree fantome : interface chartsinfrance parade en titre/artiste"
   },
   {
     "action": "delete",
@@ -41,7 +41,7 @@
     "new_title": "Desire",
     "years": [1988, 1989],
     "only_if_numeric_title": true,
-    "comment": "U2 — PAS Calvin Harris ( suggestion auto erronee, epoque differente )"
+    "comment": "U2 — PAS Calvin Harris (epoque differente)"
   },
   {
     "artist_match": "The Fly",
@@ -65,7 +65,7 @@
     "new_title": "One",
     "years": [1992, 1993],
     "only_if_numeric_title": true,
-    "comment": "U2 — PAS Swedish House Mafia ( suggestion auto erronee, epoque differente )"
+    "comment": "U2 — PAS Swedish House Mafia (epoque differente)"
   },
   {
     "artist_match": "Even Better Than The Real Thing",
@@ -74,5 +74,13 @@
     "years": [1992, 1993],
     "only_if_numeric_title": true,
     "comment": "U2 — champs inverses"
+  },
+  {
+    "artist_match": "The Gospel Rap",
+    "new_artist": "NO",
+    "new_title": "The Gospel Rap",
+    "years": [1992, 1993],
+    "only_if_numeric_title": true,
+    "comment": "NO — champs inverses, titre pris pour l'artiste"
   }
 ]
