@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 """
-Répare les titres erronés dans les archives rétro.
-Applique data/track_overrides.json sur :
-  - data/cache/retro_archives.json
-  - data/archives/top50-*.json (si présents)
+Répare les archives rétro via data/track_overrides.json.
+Actions : rename (défaut) | delete (entrées fantômes)
 
 Usage :
-  python fix_track_titles.py --dry-run     # aperçu sans écriture
-  python fix_track_titles.py               # applique
-  python fix_track_titles.py --force       # ignore only_if_numeric_title
+  python fix_track_titles.py --dry-run
+  python fix_track_titles.py
+  python fix_track_titles.py --force
 """
 import json, os, re, glob, argparse, unicodedata
 from datetime import datetime
@@ -27,171 +25,174 @@ def norm(s):
 
 
 def is_numeric_title(t):
-    """Signature du bug : titre vide ou composé uniquement de chiffres/ponctuation."""
     t = str(t or "").strip()
     if not t:
         return True
     return re.fullmatch(r"[\d\s\.\-–—#/°]+", t) is not None
 
 
-def load_overrides():
+def load_rules():
     if not os.path.exists(OVERRIDES):
-        print(f"❌ Table d'overrides absente : {OVERRIDES}")
+        print(f"❌ Table absente : {OVERRIDES}")
         return []
     with open(OVERRIDES, "r", encoding="utf-8") as f:
-        rules = json.load(f)
+        raw = json.load(f)
     out = []
-    for r in rules:
-        am = r.get("artist_match", "").strip()
-        nt = r.get("new_title", "").strip()
-        if not am or not nt:
+    for r in raw:
+        am = (r.get("artist_match") or "").strip()
+        if not am:
+            continue
+        action = (r.get("action") or "rename").lower()
+        if action == "rename" and not (r.get("new_title") or "").strip():
             continue
         out.append({
+            "action": action,
             "needle": am.lower(),
             "needle_norm": norm(am),
-            "new_title": nt,
-            "new_artist": (r.get("new_artist") or "").strip() or None,
+            "title_needle": (r.get("title_match") or "").strip().lower(),
+            "title_needle_norm": norm(r.get("title_match") or ""),
+            "new_title": (r.get("new_title") or "").strip(),
+            "new_artist": (r.get("new_artist") or am).strip(),
             "years": set(r.get("years") or []),
             "numeric_only": bool(r.get("only_if_numeric_title", True)),
         })
-    print(f"📋 {len(out)} règle(s) de correction chargée(s)")
+    n_del = sum(1 for r in out if r["action"] == "delete")
+    print(f"📋 {len(out)} règle(s) : {len(out)-n_del} renommage(s), {n_del} suppression(s)")
     return out
 
 
-def match_rule(rule, artist, title, year, force):
-    # filtre année
+def matches(rule, artist, title, year, force):
     if rule["years"] and year not in rule["years"]:
         return False
-    # pré-filtre rapide (substring brut) puis vérification normalisée
-    a_low = str(artist or "").lower()
-    t_low = str(title or "").lower()
-    hit_artist = rule["needle"] in a_low
-    hit_title  = rule["needle"] in t_low   # cas d'inversion artiste/titre
-    if not (hit_artist or hit_title):
+    a_low, t_low = str(artist or "").lower(), str(title or "").lower()
+    if rule["needle"] not in a_low and rule["needle"] not in t_low:
         return False
     if not (rule["needle_norm"] in norm(artist) or rule["needle_norm"] in norm(title)):
         return False
-    # garde-fou : ne toucher que les titres numériques, sauf --force
-    if rule["numeric_only"] and not force and not is_numeric_title(title):
-        return False
+    if rule["title_needle"]:
+        if rule["title_needle"] not in t_low and rule["title_needle"] not in a_low:
+            return False
+    if rule["action"] == "rename":
+        if rule["numeric_only"] and not force and not is_numeric_title(title):
+            return False
     return True
 
 
-def fix_archive(key, archive, rules, force, dry, report):
+def process(key, archive, rules, force, dry, report):
     if not isinstance(archive, dict):
-        return 0
+        return 0, 0
     m = re.match(r"^(\d{4})-(\d{1,2})$", str(key))
-    year = int(m.group(1)) if m else archive.get("year")
     try:
-        year = int(year)
+        year = int(m.group(1)) if m else int(archive.get("year"))
     except (TypeError, ValueError):
         year = None
 
-    changed = 0
-    for entry in archive.get("entries") or []:
-        track = entry.get("track")
-        if not isinstance(track, dict):
+    entries = archive.get("entries") or []
+    kept = []
+    renamed = deleted = 0
+
+    for entry in entries:
+        tr = entry.get("track")
+        if not isinstance(tr, dict):
+            kept.append(entry)
             continue
-        old_title  = track.get("title", "")
-        old_artist = track.get("artist", "")
+        old_t, old_a = tr.get("title", ""), tr.get("artist", "")
+        drop = False
         for rule in rules:
-            if not match_rule(rule, old_artist, old_title, year, force):
+            if not matches(rule, old_a, old_t, year, force):
                 continue
-            new_title  = rule["new_title"]
-            new_artist = rule["new_artist"] or (
-                old_artist if rule["needle_norm"] in norm(old_artist) else rule["new_title"] and old_title
-            )
-            # si l'artiste était dans le champ titre (inversion), on remet l'artiste propre
-            if rule["needle_norm"] in norm(old_title) and rule["needle_norm"] not in norm(old_artist):
-                new_artist = rule["new_artist"] or rule["needle"].title()
-            if new_title == old_title and new_artist == old_artist:
-                break
-            report.append({
-                "week": key, "position": entry.get("position"),
-                "before": f"{old_artist} — {old_title}",
-                "after":  f"{new_artist} — {new_title}",
-            })
-            if not dry:
-                track["title"]  = new_title
-                track["artist"] = new_artist
-            changed += 1
+            if rule["action"] == "delete":
+                report.append({"week": key, "pos": entry.get("position"), "kind": "SUPPRESSION",
+                               "before": f"{old_a} — {old_t}", "after": "(entrée fantôme supprimée)"})
+                deleted += 1
+                drop = True
+            else:
+                nt, na = rule["new_title"], rule["new_artist"]
+                if nt != old_t or na != old_a:
+                    report.append({"week": key, "pos": entry.get("position"), "kind": "RENOMMAGE",
+                                   "before": f"{old_a} — {old_t}", "after": f"{na} — {nt}"})
+                    if not dry:
+                        tr["title"], tr["artist"] = nt, na
+                    renamed += 1
             break
-    return changed
+        if not drop:
+            kept.append(entry)
+
+    if deleted and not dry:
+        archive["entries"] = kept
+    return renamed, deleted
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dry-run", action="store_true", help="n'écrit rien")
-    ap.add_argument("--force", action="store_true", help="corrige même si le titre n'est pas numérique")
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
 
-    print(f"🔧 Correction des titres — {datetime.now():%Y-%m-%d %H:%M:%S}")
-    if args.dry_run: print("   (mode aperçu)")
-    if args.force:   print("   (mode force)")
+    print(f"🔧 Correction des archives — {datetime.now():%Y-%m-%d %H:%M:%S}")
+    if args.dry_run: print("   (aperçu)")
+    if args.force:   print("   (force)")
 
-    rules = load_overrides()
+    rules = load_rules()
     if not rules:
         return
 
-    total = 0
     report = []
+    tot_r = tot_d = 0
 
-    # 1) Cache principal
     if os.path.exists(CACHE_PATH):
         with open(CACHE_PATH, "r", encoding="utf-8") as f:
             cache = json.load(f)
-        n = 0
+        r = d = 0
         for key, arch in cache.items():
-            n += fix_archive(key, arch, rules, args.force, args.dry_run, report)
-        print(f"📦 {CACHE_PATH} : {n} entrée(s) concernée(s) sur {len(cache)} archives")
-        if n and not args.dry_run:
+            a, b = process(key, arch, rules, args.force, args.dry_run, report)
+            r += a; d += b
+        print(f"📦 {CACHE_PATH} : {r} renommage(s), {d} suppression(s) / {len(cache)} archives")
+        if (r or d) and not args.dry_run:
             with open(CACHE_PATH, "w", encoding="utf-8") as f:
                 json.dump(cache, f, ensure_ascii=False, indent=2)
             print("   💾 écrit")
-        total += n
+        tot_r += r; tot_d += d
     else:
         print(f"⚠️ Absent : {CACHE_PATH}")
 
-    # 2) Fichiers individuels éventuels
     paths = sorted(glob.glob(ARCH_GLOB))
     if paths:
-        n_files = 0
+        nf = 0
         for p in paths:
-            key = None
             m = re.search(r"top50-(\d{4})-(\d{1,2})\.json$", os.path.basename(p))
-            if m:
-                key = f"{m.group(1)}-{int(m.group(2)):02d}"
+            key = f"{m.group(1)}-{int(m.group(2)):02d}" if m else ""
             try:
                 with open(p, "r", encoding="utf-8") as f:
                     arch = json.load(f)
             except Exception:
                 continue
-            n = fix_archive(key or "", arch, rules, args.force, args.dry_run, report)
-            if n:
-                n_files += 1
-                total += n
+            a, b = process(key, arch, rules, args.force, args.dry_run, report)
+            if a or b:
+                nf += 1; tot_r += a; tot_d += b
                 if not args.dry_run:
                     with open(p, "w", encoding="utf-8") as f:
                         json.dump(arch, f, ensure_ascii=False, indent=2)
-        print(f"📂 {len(paths)} fichier(s) analysé(s), {n_files} modifié(s)")
+        print(f"📂 {len(paths)} fichier(s) analysé(s), {nf} modifié(s)")
 
-    # Rapport
-    print(f"\n{'='*66}")
+    print(f"\n{'='*70}")
     if not report:
         print("✅ Aucune correction nécessaire.")
         return
-    print(f"{'APERÇU' if args.dry_run else 'CORRECTIONS'} : {len(report)} entrée(s)")
-    print("="*66)
-    for r in report[:60]:
-        print(f"  {r['week']} · #{r['position']}")
-        print(f"     avant : {r['before']}")
-        print(f"     après : {r['after']}")
-    if len(report) > 60:
-        print(f"  … et {len(report)-60} autre(s)")
-    print("="*66)
-    print(f"Total : {total} entrée(s) {'à corriger' if args.dry_run else 'corrigée(s)'}")
+    print(f"{'APERÇU' if args.dry_run else 'APPLIQUÉ'} : {tot_r} renommage(s), {tot_d} suppression(s)")
+    print("="*70)
+    for x in report[:50]:
+        print(f"  [{x['kind']}] {x['week']} · #{x['pos']}")
+        print(f"     avant : {x['before']}")
+        print(f"     après : {x['after']}")
+    if len(report) > 50:
+        print(f"  … et {len(report)-50} autre(s)")
+    print("="*70)
     if not args.dry_run:
-        print("\n⚠️ Pense à régénérer l'index artiste (Build Artist Index).")
+        print("\n⚠️ Régénère l'index artiste (Build Artist Index).")
+        if tot_d:
+            print(f"ℹ️ {tot_d} entrée(s) fantôme(s) supprimée(s). Les vrais titres écrasés")
+            print("   ne sont PAS restaurés : il faut re-scraper les semaines concernées.")
 
 
 if __name__ == "__main__":
