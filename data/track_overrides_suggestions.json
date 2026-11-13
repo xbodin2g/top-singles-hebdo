@@ -1,0 +1,73 @@
+[
+  {
+    "artist_match": "One",
+    "new_artist": "Swedish House Mafia",
+    "new_title": "One",
+    "years": [
+      1992
+    ],
+    "only_if_numeric_title": true,
+    "comment": "Champs inversés (13×) — artiste déduit par recoupement"
+  },
+  {
+    "artist_match": "Mysterious Ways",
+    "new_artist": "A_RENSEIGNER",
+    "new_title": "A_RENSEIGNER",
+    "years": [
+      1992
+    ],
+    "only_if_numeric_title": true,
+    "comment": "Titre numérique variable (10×) — champs à identifier"
+  },
+  {
+    "artist_match": "The Fly",
+    "new_artist": "A_RENSEIGNER",
+    "new_title": "A_RENSEIGNER",
+    "years": [
+      1991,
+      1992
+    ],
+    "only_if_numeric_title": true,
+    "comment": "Titre numérique variable (9×) — champs à identifier"
+  },
+  {
+    "artist_match": "Desire",
+    "new_artist": "Calvin Harris & Sam Smith",
+    "new_title": "Desire",
+    "years": [
+      1988
+    ],
+    "only_if_numeric_title": true,
+    "comment": "Champs inversés (8×) — artiste déduit par recoupement"
+  },
+  {
+    "artist_match": "The Gospel Rap",
+    "new_artist": "A_RENSEIGNER",
+    "new_title": "A_RENSEIGNER",
+    "years": [
+      1992
+    ],
+    "only_if_numeric_title": true,
+    "comment": "Titre numérique variable (7×) — champs à identifier"
+  },
+  {
+    "artist_match": "I Still Haven't Found What I'm Looking F",
+    "new_artist": "A_RENSEIGNER",
+    "new_title": "A_RENSEIGNER",
+    "years": [
+      1987
+    ],
+    "only_if_numeric_title": true,
+    "comment": "Titre numérique variable (6×) — champs à identifier"
+  },
+  {
+    "artist_match": "Even Better Than The Real Thing",
+    "new_artist": "A_RENSEIGNER",
+    "new_title": "A_RENSEIGNER",
+    "years": [
+      1992
+    ],
+    "only_if_numeric_title": true,
+    "comment": "Titre numérique variable (6×) — champs à identifier"
+  }
+]
