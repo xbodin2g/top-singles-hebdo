@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-13T08:44:11.075994+00:00",
+  "generatedAt": "2026-11-13T22:29:59.416107+00:00",
   "archiveCount": 2198,
-  "artistCount": 4518,
-  "trackCount": 10598,
+  "artistCount": 4511,
+  "trackCount": 10565,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -38540,151 +38540,6 @@
       "lastDate": "21/02/2005"
     },
     {
-      "id": "one",
-      "name": "One",
-      "tracks": [
-        {
-          "key": "27|one",
-          "title": "27",
-          "credit": "One",
-          "firstKey": "1992-23",
-          "firstDate": "07/06/1992",
-          "lastKey": "1992-23",
-          "lastDate": "07/06/1992",
-          "weeks": 1,
-          "peak": 13,
-          "peakKey": "1992-23",
-          "peakDate": "07/06/1992"
-        },
-        {
-          "key": "16|one",
-          "title": "16",
-          "credit": "One",
-          "firstKey": "1992-26",
-          "firstDate": "28/06/1992",
-          "lastKey": "1992-26",
-          "lastDate": "28/06/1992",
-          "weeks": 1,
-          "peak": 15,
-          "peakKey": "1992-26",
-          "peakDate": "28/06/1992"
-        },
-        {
-          "key": "22|one",
-          "title": "22",
-          "credit": "One",
-          "firstKey": "1992-25",
-          "firstDate": "21/06/1992",
-          "lastKey": "1992-25",
-          "lastDate": "21/06/1992",
-          "weeks": 1,
-          "peak": 16,
-          "peakKey": "1992-25",
-          "peakDate": "21/06/1992"
-        },
-        {
-          "key": "15|one",
-          "title": "15",
-          "credit": "One",
-          "firstKey": "1992-27",
-          "firstDate": "05/07/1992",
-          "lastKey": "1992-27",
-          "lastDate": "05/07/1992",
-          "weeks": 1,
-          "peak": 21,
-          "peakKey": "1992-27",
-          "peakDate": "05/07/1992"
-        },
-        {
-          "key": "13|one",
-          "title": "13",
-          "credit": "One",
-          "firstKey": "1992-24",
-          "firstDate": "14/06/1992",
-          "lastKey": "1992-24",
-          "lastDate": "14/06/1992",
-          "weeks": 1,
-          "peak": 22,
-          "peakKey": "1992-24",
-          "peakDate": "14/06/1992"
-        },
-        {
-          "key": "25|one",
-          "title": "25",
-          "credit": "One",
-          "firstKey": "1992-19",
-          "firstDate": "10/05/1992",
-          "lastKey": "1992-29",
-          "lastDate": "19/07/1992",
-          "weeks": 3,
-          "peak": 25,
-          "peakKey": "1992-19",
-          "peakDate": "10/05/1992"
-        },
-        {
-          "key": "21|one",
-          "title": "21",
-          "credit": "One",
-          "firstKey": "1992-28",
-          "firstDate": "12/07/1992",
-          "lastKey": "1992-28",
-          "lastDate": "12/07/1992",
-          "weeks": 1,
-          "peak": 25,
-          "peakKey": "1992-28",
-          "peakDate": "12/07/1992"
-        },
-        {
-          "key": "42|one",
-          "title": "42",
-          "credit": "One",
-          "firstKey": "1992-18",
-          "firstDate": "03/05/1992",
-          "lastKey": "1992-18",
-          "lastDate": "03/05/1992",
-          "weeks": 1,
-          "peak": 25,
-          "peakKey": "1992-18",
-          "peakDate": "03/05/1992"
-        },
-        {
-          "key": "29|one",
-          "title": "29",
-          "credit": "One",
-          "firstKey": "1992-22",
-          "firstDate": "31/05/1992",
-          "lastKey": "1992-22",
-          "lastDate": "31/05/1992",
-          "weeks": 1,
-          "peak": 27,
-          "peakKey": "1992-22",
-          "peakDate": "31/05/1992"
-        },
-        {
-          "key": "35|one",
-          "title": "35",
-          "credit": "One",
-          "firstKey": "1992-21",
-          "firstDate": "24/05/1992",
-          "lastKey": "1992-21",
-          "lastDate": "24/05/1992",
-          "weeks": 1,
-          "peak": 29,
-          "peakKey": "1992-21",
-          "peakDate": "24/05/1992"
-        }
-      ],
-      "trackCount": 10,
-      "totalWeeks": 12,
-      "bestPeak": 13,
-      "firstYear": 1992,
-      "lastYear": 1992,
-      "firstKey": "1992-18",
-      "firstDate": "03/05/1992",
-      "lastKey": "1992-29",
-      "lastDate": "19/07/1992"
-    },
-    {
       "id": "kyo",
       "name": "Kyo",
       "tracks": [
@@ -48130,125 +47985,6 @@
       "lastDate": "08/12/2014"
     },
     {
-      "id": "mysterious ways",
-      "name": "Mysterious Ways",
-      "tracks": [
-        {
-          "key": "31|mysterious ways",
-          "title": "31",
-          "credit": "Mysterious Ways",
-          "firstKey": "1992-13",
-          "firstDate": "29/03/1992",
-          "lastKey": "1992-13",
-          "lastDate": "29/03/1992",
-          "weeks": 1,
-          "peak": 19,
-          "peakKey": "1992-13",
-          "peakDate": "29/03/1992"
-        },
-        {
-          "key": "28|mysterious ways",
-          "title": "28",
-          "credit": "Mysterious Ways",
-          "firstKey": "1992-07",
-          "firstDate": "16/02/1992",
-          "lastKey": "1992-15",
-          "lastDate": "12/04/1992",
-          "weeks": 2,
-          "peak": 27,
-          "peakKey": "1992-07",
-          "peakDate": "16/02/1992"
-        },
-        {
-          "key": "19|mysterious ways",
-          "title": "19",
-          "credit": "Mysterious Ways",
-          "firstKey": "1992-14",
-          "firstDate": "05/04/1992",
-          "lastKey": "1992-14",
-          "lastDate": "05/04/1992",
-          "weeks": 1,
-          "peak": 28,
-          "peakKey": "1992-14",
-          "peakDate": "05/04/1992"
-        },
-        {
-          "key": "33|mysterious ways",
-          "title": "33",
-          "credit": "Mysterious Ways",
-          "firstKey": "1992-10",
-          "firstDate": "08/03/1992",
-          "lastKey": "1992-10",
-          "lastDate": "08/03/1992",
-          "weeks": 1,
-          "peak": 30,
-          "peakKey": "1992-10",
-          "peakDate": "08/03/1992"
-        },
-        {
-          "key": "36|mysterious ways",
-          "title": "36",
-          "credit": "Mysterious Ways",
-          "firstKey": "1992-12",
-          "firstDate": "22/03/1992",
-          "lastKey": "1992-12",
-          "lastDate": "22/03/1992",
-          "weeks": 1,
-          "peak": 31,
-          "peakKey": "1992-12",
-          "peakDate": "22/03/1992"
-        },
-        {
-          "key": "34|mysterious ways",
-          "title": "34",
-          "credit": "Mysterious Ways",
-          "firstKey": "1992-09",
-          "firstDate": "01/03/1992",
-          "lastKey": "1992-09",
-          "lastDate": "01/03/1992",
-          "weeks": 1,
-          "peak": 33,
-          "peakKey": "1992-09",
-          "peakDate": "01/03/1992"
-        },
-        {
-          "key": "27|mysterious ways",
-          "title": "27",
-          "credit": "Mysterious Ways",
-          "firstKey": "1992-08",
-          "firstDate": "23/02/1992",
-          "lastKey": "1992-08",
-          "lastDate": "23/02/1992",
-          "weeks": 1,
-          "peak": 34,
-          "peakKey": "1992-08",
-          "peakDate": "23/02/1992"
-        },
-        {
-          "key": "30|mysterious ways",
-          "title": "30",
-          "credit": "Mysterious Ways",
-          "firstKey": "1992-11",
-          "firstDate": "15/03/1992",
-          "lastKey": "1992-11",
-          "lastDate": "15/03/1992",
-          "weeks": 1,
-          "peak": 36,
-          "peakKey": "1992-11",
-          "peakDate": "15/03/1992"
-        }
-      ],
-      "trackCount": 8,
-      "totalWeeks": 9,
-      "bestPeak": 19,
-      "firstYear": 1992,
-      "lastYear": 1992,
-      "firstKey": "1992-07",
-      "firstDate": "16/02/1992",
-      "lastKey": "1992-15",
-      "lastDate": "12/04/1992"
-    },
-    {
       "id": "collectif metisse",
       "name": "Collectif Métissé",
       "tracks": [
@@ -53549,6 +53285,112 @@
       "lastDate": "27/09/1992"
     },
     {
+      "id": "u2",
+      "name": "U2",
+      "tracks": [
+        {
+          "key": "the fly|u2",
+          "title": "The Fly",
+          "credit": "U2",
+          "firstKey": "1991-45",
+          "firstDate": "10/11/1991",
+          "lastKey": "1992-01",
+          "lastDate": "05/01/1992",
+          "weeks": 9,
+          "peak": 6,
+          "peakKey": "1991-45",
+          "peakDate": "10/11/1991"
+        },
+        {
+          "key": "with or without you|u2",
+          "title": "With or Without You",
+          "credit": "U2",
+          "firstKey": "1987-20",
+          "firstDate": "17/05/1987",
+          "lastKey": "1987-42",
+          "lastDate": "18/10/1987",
+          "weeks": 23,
+          "peak": 10,
+          "peakKey": "1987-28",
+          "peakDate": "12/07/1987"
+        },
+        {
+          "key": "one|u2",
+          "title": "One",
+          "credit": "U2",
+          "firstKey": "1992-17",
+          "firstDate": "26/04/1992",
+          "lastKey": "1992-29",
+          "lastDate": "19/07/1992",
+          "weeks": 13,
+          "peak": 13,
+          "peakKey": "1992-23",
+          "peakDate": "07/06/1992"
+        },
+        {
+          "key": "mysterious ways|u2",
+          "title": "Mysterious Ways",
+          "credit": "U2",
+          "firstKey": "1992-06",
+          "firstDate": "09/02/1992",
+          "lastKey": "1992-15",
+          "lastDate": "12/04/1992",
+          "weeks": 10,
+          "peak": 19,
+          "peakKey": "1992-13",
+          "peakDate": "29/03/1992"
+        },
+        {
+          "key": "even better than the real thing|u2",
+          "title": "Even Better Than The Real Thing",
+          "credit": "U2",
+          "firstKey": "1992-38",
+          "firstDate": "20/09/1992",
+          "lastKey": "1992-43",
+          "lastDate": "25/10/1992",
+          "weeks": 6,
+          "peak": 34,
+          "peakKey": "1992-39",
+          "peakDate": "27/09/1992"
+        },
+        {
+          "key": "desire|u2",
+          "title": "Desire",
+          "credit": "U2",
+          "firstKey": "1988-42",
+          "firstDate": "16/10/1988",
+          "lastKey": "1988-49",
+          "lastDate": "04/12/1988",
+          "weeks": 8,
+          "peak": 37,
+          "peakKey": "1988-42",
+          "peakDate": "16/10/1988"
+        },
+        {
+          "key": "i still haven t found what i m looking for|u2",
+          "title": "I Still Haven't Found What I'm Looking For",
+          "credit": "U2",
+          "firstKey": "1987-41",
+          "firstDate": "11/10/1987",
+          "lastKey": "1987-46",
+          "lastDate": "15/11/1987",
+          "weeks": 6,
+          "peak": 37,
+          "peakKey": "1987-44",
+          "peakDate": "01/11/1987"
+        }
+      ],
+      "trackCount": 7,
+      "totalWeeks": 75,
+      "bestPeak": 6,
+      "firstYear": 1987,
+      "lastYear": 1992,
+      "firstKey": "1987-20",
+      "firstDate": "17/05/1987",
+      "lastKey": "1992-43",
+      "lastDate": "25/10/1992"
+    },
+    {
       "id": "psy 4 de la rime",
       "name": "Psy 4 De La Rime",
       "tracks": [
@@ -54607,112 +54449,6 @@
       "firstDate": "18/04/2016",
       "lastKey": "2025-01",
       "lastDate": "30/12/2024"
-    },
-    {
-      "id": "the fly",
-      "name": "The Fly",
-      "tracks": [
-        {
-          "key": "7|the fly",
-          "title": "7",
-          "credit": "The Fly",
-          "firstKey": "1991-47",
-          "firstDate": "24/11/1991",
-          "lastKey": "1991-47",
-          "lastDate": "24/11/1991",
-          "weeks": 1,
-          "peak": 6,
-          "peakKey": "1991-47",
-          "peakDate": "24/11/1991"
-        },
-        {
-          "key": "6|the fly",
-          "title": "6",
-          "credit": "The Fly",
-          "firstKey": "1991-46",
-          "firstDate": "17/11/1991",
-          "lastKey": "1991-48",
-          "lastDate": "01/12/1991",
-          "weeks": 2,
-          "peak": 7,
-          "peakKey": "1991-46",
-          "peakDate": "17/11/1991"
-        },
-        {
-          "key": "8|the fly",
-          "title": "8",
-          "credit": "The Fly",
-          "firstKey": "1991-49",
-          "firstDate": "08/12/1991",
-          "lastKey": "1991-49",
-          "lastDate": "08/12/1991",
-          "weeks": 1,
-          "peak": 10,
-          "peakKey": "1991-49",
-          "peakDate": "08/12/1991"
-        },
-        {
-          "key": "10|the fly",
-          "title": "10",
-          "credit": "The Fly",
-          "firstKey": "1991-50",
-          "firstDate": "15/12/1991",
-          "lastKey": "1991-50",
-          "lastDate": "15/12/1991",
-          "weeks": 1,
-          "peak": 11,
-          "peakKey": "1991-50",
-          "peakDate": "15/12/1991"
-        },
-        {
-          "key": "11|the fly",
-          "title": "11",
-          "credit": "The Fly",
-          "firstKey": "1991-51",
-          "firstDate": "22/12/1991",
-          "lastKey": "1991-51",
-          "lastDate": "22/12/1991",
-          "weeks": 1,
-          "peak": 21,
-          "peakKey": "1991-51",
-          "peakDate": "22/12/1991"
-        },
-        {
-          "key": "21|the fly",
-          "title": "21",
-          "credit": "The Fly",
-          "firstKey": "1991-52",
-          "firstDate": "29/12/1991",
-          "lastKey": "1991-52",
-          "lastDate": "29/12/1991",
-          "weeks": 1,
-          "peak": 28,
-          "peakKey": "1991-52",
-          "peakDate": "29/12/1991"
-        },
-        {
-          "key": "28|the fly",
-          "title": "28",
-          "credit": "The Fly",
-          "firstKey": "1992-01",
-          "firstDate": "05/01/1992",
-          "lastKey": "1992-01",
-          "lastDate": "05/01/1992",
-          "weeks": 1,
-          "peak": 32,
-          "peakKey": "1992-01",
-          "peakDate": "05/01/1992"
-        }
-      ],
-      "trackCount": 7,
-      "totalWeeks": 8,
-      "bestPeak": 6,
-      "firstYear": 1991,
-      "lastYear": 1992,
-      "firstKey": "1991-46",
-      "firstDate": "17/11/1991",
-      "lastKey": "1992-01",
-      "lastDate": "05/01/1992"
     },
     {
       "id": "jessy matador",
@@ -69904,86 +69640,6 @@
       "lastDate": "06/07/1998"
     },
     {
-      "id": "desire",
-      "name": "Desire",
-      "tracks": [
-        {
-          "key": "39|desire",
-          "title": "39",
-          "credit": "Desire",
-          "firstKey": "1988-46",
-          "firstDate": "13/11/1988",
-          "lastKey": "1988-47",
-          "lastDate": "20/11/1988",
-          "weeks": 2,
-          "peak": 37,
-          "peakKey": "1988-47",
-          "peakDate": "20/11/1988"
-        },
-        {
-          "key": "41|desire",
-          "title": "41",
-          "credit": "Desire",
-          "firstKey": "1988-44",
-          "firstDate": "30/10/1988",
-          "lastKey": "1988-44",
-          "lastDate": "30/10/1988",
-          "weeks": 1,
-          "peak": 38,
-          "peakKey": "1988-44",
-          "peakDate": "30/10/1988"
-        },
-        {
-          "key": "38|desire",
-          "title": "38",
-          "credit": "Desire",
-          "firstKey": "1988-45",
-          "firstDate": "06/11/1988",
-          "lastKey": "1988-45",
-          "lastDate": "06/11/1988",
-          "weeks": 1,
-          "peak": 39,
-          "peakKey": "1988-45",
-          "peakDate": "06/11/1988"
-        },
-        {
-          "key": "37|desire",
-          "title": "37",
-          "credit": "Desire",
-          "firstKey": "1988-43",
-          "firstDate": "23/10/1988",
-          "lastKey": "1988-48",
-          "lastDate": "27/11/1988",
-          "weeks": 2,
-          "peak": 41,
-          "peakKey": "1988-43",
-          "peakDate": "23/10/1988"
-        },
-        {
-          "key": "48|desire",
-          "title": "48",
-          "credit": "Desire",
-          "firstKey": "1988-49",
-          "firstDate": "04/12/1988",
-          "lastKey": "1988-49",
-          "lastDate": "04/12/1988",
-          "weeks": 1,
-          "peak": 50,
-          "peakKey": "1988-49",
-          "peakDate": "04/12/1988"
-        }
-      ],
-      "trackCount": 5,
-      "totalWeeks": 7,
-      "bestPeak": 37,
-      "firstYear": 1988,
-      "lastYear": 1988,
-      "firstKey": "1988-43",
-      "firstDate": "23/10/1988",
-      "lastKey": "1988-49",
-      "lastDate": "04/12/1988"
-    },
-    {
       "id": "djadja and dinaz",
       "name": "Djadja & Dinaz",
       "tracks": [
@@ -81854,140 +81510,6 @@
       "firstDate": "30/05/2005",
       "lastKey": "2008-04",
       "lastDate": "21/01/2008"
-    },
-    {
-      "id": "even better than the real thing",
-      "name": "Even Better Than The Real Thing",
-      "tracks": [
-        {
-          "key": "37|even better than the real thing",
-          "title": "37",
-          "credit": "Even Better Than The Real Thing",
-          "firstKey": "1992-39",
-          "firstDate": "27/09/1992",
-          "lastKey": "1992-39",
-          "lastDate": "27/09/1992",
-          "weeks": 1,
-          "peak": 34,
-          "peakKey": "1992-39",
-          "peakDate": "27/09/1992"
-        },
-        {
-          "key": "44|even better than the real thing",
-          "title": "44",
-          "credit": "Even Better Than The Real Thing",
-          "firstKey": "1992-41",
-          "firstDate": "11/10/1992",
-          "lastKey": "1992-41",
-          "lastDate": "11/10/1992",
-          "weeks": 1,
-          "peak": 34,
-          "peakKey": "1992-41",
-          "peakDate": "11/10/1992"
-        },
-        {
-          "key": "34|even better than the real thing",
-          "title": "34",
-          "credit": "Even Better Than The Real Thing",
-          "firstKey": "1992-40",
-          "firstDate": "04/10/1992",
-          "lastKey": "1992-42",
-          "lastDate": "18/10/1992",
-          "weeks": 2,
-          "peak": 35,
-          "peakKey": "1992-42",
-          "peakDate": "18/10/1992"
-        },
-        {
-          "key": "35|even better than the real thing",
-          "title": "35",
-          "credit": "Even Better Than The Real Thing",
-          "firstKey": "1992-43",
-          "firstDate": "25/10/1992",
-          "lastKey": "1992-43",
-          "lastDate": "25/10/1992",
-          "weeks": 1,
-          "peak": 49,
-          "peakKey": "1992-43",
-          "peakDate": "25/10/1992"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 5,
-      "bestPeak": 34,
-      "firstYear": 1992,
-      "lastYear": 1992,
-      "firstKey": "1992-39",
-      "firstDate": "27/09/1992",
-      "lastKey": "1992-43",
-      "lastDate": "25/10/1992"
-    },
-    {
-      "id": "i still haven t found what i m looking f",
-      "name": "I Still Haven't Found What I'm Looking F",
-      "tracks": [
-        {
-          "key": "43|i still haven t found what i m looking f",
-          "title": "43",
-          "credit": "I Still Haven't Found What I'm Looking F",
-          "firstKey": "1987-42",
-          "firstDate": "18/10/1987",
-          "lastKey": "1987-44",
-          "lastDate": "01/11/1987",
-          "weeks": 2,
-          "peak": 37,
-          "peakKey": "1987-44",
-          "peakDate": "01/11/1987"
-        },
-        {
-          "key": "37|i still haven t found what i m looking f",
-          "title": "37",
-          "credit": "I Still Haven't Found What I'm Looking F",
-          "firstKey": "1987-45",
-          "firstDate": "08/11/1987",
-          "lastKey": "1987-45",
-          "lastDate": "08/11/1987",
-          "weeks": 1,
-          "peak": 42,
-          "peakKey": "1987-45",
-          "peakDate": "08/11/1987"
-        },
-        {
-          "key": "38|i still haven t found what i m looking f",
-          "title": "38",
-          "credit": "I Still Haven't Found What I'm Looking F",
-          "firstKey": "1987-43",
-          "firstDate": "25/10/1987",
-          "lastKey": "1987-43",
-          "lastDate": "25/10/1987",
-          "weeks": 1,
-          "peak": 43,
-          "peakKey": "1987-43",
-          "peakDate": "25/10/1987"
-        },
-        {
-          "key": "42|i still haven t found what i m looking f",
-          "title": "42",
-          "credit": "I Still Haven't Found What I'm Looking F",
-          "firstKey": "1987-46",
-          "firstDate": "15/11/1987",
-          "lastKey": "1987-46",
-          "lastDate": "15/11/1987",
-          "weeks": 1,
-          "peak": 44,
-          "peakKey": "1987-46",
-          "peakDate": "15/11/1987"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 5,
-      "bestPeak": 37,
-      "firstYear": 1987,
-      "lastYear": 1987,
-      "firstKey": "1987-42",
-      "firstDate": "18/10/1987",
-      "lastKey": "1987-46",
-      "lastDate": "15/11/1987"
     },
     {
       "id": "tino rossi",
@@ -122809,34 +122331,6 @@
       "lastDate": "25/02/2002"
     },
     {
-      "id": "voir les stats",
-      "name": "Voir les stats",
-      "tracks": [
-        {
-          "key": "timeline|voir les stats",
-          "title": "timeline",
-          "credit": "Voir les stats",
-          "firstKey": "1993-37",
-          "firstDate": "13/09/1993",
-          "lastKey": "2019-42",
-          "lastDate": "14/10/2019",
-          "weeks": 536,
-          "peak": 1,
-          "peakKey": "2001-48",
-          "peakDate": "26/11/2001"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 536,
-      "bestPeak": 1,
-      "firstYear": 1993,
-      "lastYear": 2019,
-      "firstKey": "1993-37",
-      "firstDate": "13/09/1993",
-      "lastKey": "2019-42",
-      "lastDate": "14/10/2019"
-    },
-    {
       "id": "grand galop",
       "name": "Grand Galop",
       "tracks": [
@@ -134035,34 +133529,6 @@
       "firstDate": "18/07/1994",
       "lastKey": "1994-51",
       "lastDate": "19/12/1994"
-    },
-    {
-      "id": "u2",
-      "name": "U2",
-      "tracks": [
-        {
-          "key": "with or without you|u2",
-          "title": "With or Without You",
-          "credit": "U2",
-          "firstKey": "1987-20",
-          "firstDate": "17/05/1987",
-          "lastKey": "1987-42",
-          "lastDate": "18/10/1987",
-          "weeks": 23,
-          "peak": 10,
-          "peakKey": "1987-28",
-          "peakDate": "12/07/1987"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 23,
-      "bestPeak": 10,
-      "firstYear": 1987,
-      "lastYear": 1987,
-      "firstKey": "1987-20",
-      "firstDate": "17/05/1987",
-      "lastKey": "1987-42",
-      "lastDate": "18/10/1987"
     },
     {
       "id": "mary mary",
