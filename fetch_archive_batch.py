@@ -6,14 +6,16 @@ Archives Top singles français — 3 sources :
   3. snepmusique.com    (2014 S16 → aujourd'hui, officiel)
 
 Stratégie :
-  < 1993        : top-archives.fr
-  == 1993       : S01-S35 top-archives, S36+ chartsinfrance
-  1994-2013     : chartsinfrance.net
-  == 2014       : S01-S15 chartsinfrance, S16+ SNEP
-  >= 2015       : SNEP prioritaire, chartsinfrance en fallback
+  < 1993   : top-archives.fr
+  == 1993  : S01-S35 top-archives, S36+ chartsinfrance
+  1994-2013: chartsinfrance.net
+  == 2014  : S01-S15 chartsinfrance, S16+ SNEP
+  >= 2015  : SNEP prioritaire, chartsinfrance en fallback
 
-V2.2.1 : application automatique de data/track_overrides.json à chaque
-         sauvegarde → les corrections de titres survivent aux re-scrapings.
+Corrections permanentes :
+  - data/track_overrides.json appliqué à chaque sauvegarde
+    (actions : rename / delete)
+  - garde anti-entrées-fantômes dans le parser chartsinfrance
 """
 
 import json
@@ -42,14 +44,21 @@ SNEP_START_WEEK = 16
 TOP_ARCHIVES_END_YEAR = 1993
 TOP_ARCHIVES_END_WEEK = 35
 
+# Tokens d'interface chartsinfrance qui ne doivent JAMAIS devenir un titre/artiste.
+# Sans ce garde-fou, un fantôme prend la place d'un vrai titre lors de la déduplication.
+UI_JUNK_TOKENS = {
+    'timeline', 'voir les stats', 'star', 'n°', 'singles',
+    'arrow_right', 'arrow_top', 'arrow_bot', 'arrow',
+    'chevron_right', 'chevron_bot', 'chevron_left', 'chevron',
+}
 
-# ===== OVERRIDES DE TITRES (corrections permanentes) =====
+
+# ===== OVERRIDES DE TITRES =====
 
 _overrides_cache = None
 
 
 def _norm_override(s):
-    """Normalisation : sans accents, minuscules, ponctuation retirée."""
     s = unicodedata.normalize("NFD", str(s or ""))
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
     s = s.lower().replace("&", " and ")
@@ -58,7 +67,6 @@ def _norm_override(s):
 
 
 def _is_numeric_title(t):
-    """Signature du bug : titre vide ou uniquement chiffres/ponctuation."""
     t = str(t or "").strip()
     if not t:
         return True
@@ -66,7 +74,7 @@ def _is_numeric_title(t):
 
 
 def _load_overrides():
-    """Charge une seule fois la table de corrections."""
+    """Charge une seule fois la table de corrections (rename / delete)."""
     global _overrides_cache
     if _overrides_cache is not None:
         return _overrides_cache
@@ -79,18 +87,25 @@ def _load_overrides():
             for r in rules:
                 am = (r.get("artist_match") or "").strip()
                 nt = (r.get("new_title") or "").strip()
-                if not am or not nt:
+                action = (r.get("action") or "rename").lower()
+                if not am:
+                    continue
+                if action == "rename" and not nt:
                     continue
                 _overrides_cache.append({
+                    "action": action,
                     "needle": am.lower(),
                     "needle_norm": _norm_override(am),
+                    "title_needle": (r.get("title_match") or "").strip().lower(),
                     "new_title": nt,
                     "new_artist": (r.get("new_artist") or am).strip(),
                     "years": set(r.get("years") or []),
                     "numeric_only": bool(r.get("only_if_numeric_title", True)),
                 })
             if _overrides_cache:
-                print(f"🔧 {len(_overrides_cache)} règle(s) de correction chargée(s)")
+                n_del = sum(1 for r in _overrides_cache if r["action"] == "delete")
+                print(f"🔧 {len(_overrides_cache)} règle(s) : "
+                      f"{len(_overrides_cache)-n_del} renommage(s), {n_del} suppression(s)")
         except Exception as e:
             print(f"⚠️ Overrides illisibles ({TRACK_OVERRIDES_FILE}) : {e}")
     return _overrides_cache
@@ -98,9 +113,8 @@ def _load_overrides():
 
 def apply_track_overrides(cache):
     """
-    Applique les corrections de titres à tout le cache.
-    Idempotent : sans effet si les titres sont déjà corrects.
-    Retourne le nombre d'entrées modifiées.
+    Applique rename / delete à tout le cache. Idempotent.
+    Retourne le nombre d'entrées modifiées ou supprimées.
     """
     rules = _load_overrides()
     if not rules:
@@ -117,29 +131,49 @@ def apply_track_overrides(cache):
         except (TypeError, ValueError):
             year = None
 
-        for entry in arch.get("entries") or []:
+        entries = arch.get("entries") or []
+        kept = []
+
+        for entry in entries:
             tr = entry.get("track")
             if not isinstance(tr, dict):
+                kept.append(entry)
                 continue
 
             title = tr.get("title", "")
             artist = tr.get("artist", "")
             a_low = str(artist).lower()
             t_low = str(title).lower()
+            drop = False
 
             for r in rules:
                 if r["years"] and year not in r["years"]:
                     continue
-                # pré-filtre rapide avant normalisation complète
                 if r["needle"] not in a_low and r["needle"] not in t_low:
                     continue
+                tn = r.get("title_needle")
+                if tn and tn not in t_low and tn not in a_low:
+                    continue
+
+                if r.get("action") == "delete":
+                    fixed += 1
+                    drop = True
+                    break
+
                 if r["numeric_only"] and not _is_numeric_title(title):
                     continue
+
                 if tr.get("title") != r["new_title"] or tr.get("artist") != r["new_artist"]:
                     tr["title"] = r["new_title"]
                     tr["artist"] = r["new_artist"]
                     fixed += 1
                 break
+
+            if not drop:
+                kept.append(entry)
+
+        if len(kept) != len(entries):
+            arch["entries"] = kept
 
     return fixed
 
@@ -160,7 +194,7 @@ def save_retro_cache(cache):
     try:
         n = apply_track_overrides(cache)
         if n:
-            print(f"🔧 {n} titre(s) corrigé(s) via track_overrides.json")
+            print(f"🔧 {n} entrée(s) corrigée(s)/supprimée(s) via track_overrides.json")
         os.makedirs(CACHE_DIR, exist_ok=True)
         with open(CACHE_RETRO_FILE, 'w', encoding='utf-8') as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
@@ -170,18 +204,16 @@ def save_retro_cache(cache):
 
 
 def year_to_yy(year):
-    """Année complète → 2 chiffres."""
     return str(year)[2:]
 
 
 def get_date_from_year_week(year, week):
-    """Date approximative (lundi) d'une semaine ISO."""
     jan4 = datetime(year, 1, 4)
     start_of_week1 = jan4 - timedelta(days=jan4.weekday())
     return start_of_week1 + timedelta(weeks=week - 1)
 
 
-# ===== SOURCE 1 : top-archives.fr (1984 → 1993 S35) =====
+# ===== SOURCE 1 : top-archives.fr =====
 
 def fetch_toparchives_week(year, week, cache):
     cache_key = f"{year}-{week:02d}"
@@ -276,7 +308,7 @@ def parse_toparchives_html(soup):
     return entries
 
 
-# ===== SOURCE 2 : chartsinfrance.net (1993 S36 → 2026 avril) =====
+# ===== SOURCE 2 : chartsinfrance.net =====
 
 def fetch_chartsinfrance_week(year, week, cache):
     """Format URL : /charts/YYNN/singles.php?page=X"""
@@ -339,6 +371,8 @@ def fetch_chartsinfrance_week(year, week, cache):
 
     all_entries.sort(key=lambda x: x["position"])
 
+    # Déduplication : la première entrée valide par position gagne.
+    # Les fantômes sont déjà filtrés en amont par le parser.
     seen = set()
     unique_entries = []
     for entry in all_entries:
@@ -368,8 +402,9 @@ def fetch_chartsinfrance_week(year, week, cache):
 
 def parse_chartsinfrance_html(html_text):
     """
-    Structure réelle : Position → Titre → Artiste → arrow_XXX → Valeur → timeline
-    Le mouvement est APRÈS l'artiste : il ne faut pas casser la boucle trop tôt.
+    Structure : Position → Titre → Artiste → arrow_XXX → Valeur → timeline → Voir les stats
+    Le mouvement est APRÈS l'artiste : ne pas casser la boucle trop tôt.
+    Garde anti-fantômes : un token d'interface ne peut pas être titre ni artiste.
     """
     entries = []
     soup = BeautifulSoup(html_text, 'html.parser')
@@ -423,8 +458,14 @@ def parse_chartsinfrance_html(html_text):
                             previous_pos = None
                             break
 
-                    if title and artist and len(title) > 2 and len(artist) > 2:
-                        if not any(kw in title.lower() for kw in ['semaine', 'top singles', 'charts', 'classement']):
+                    # --- Garde anti-entrées-fantômes ---
+                    t_junk = title.strip().lower() in UI_JUNK_TOKENS
+                    a_junk = artist.strip().lower() in UI_JUNK_TOKENS
+
+                    if (title and artist and len(title) > 2 and len(artist) > 2
+                            and not t_junk and not a_junk):
+                        if not any(kw in title.lower() for kw in
+                                   ['semaine', 'top singles', 'charts', 'classement']):
                             entries.append({
                                 "position": position,
                                 "track": {"title": title, "artist": artist},
@@ -447,10 +488,9 @@ def has_next_page(html_text):
     return False
 
 
-# ===== SOURCE 3 : snepmusique.com (2014 S16 → aujourd'hui) =====
+# ===== SOURCE 3 : snepmusique.com =====
 
 def fetch_snep_week(year, week, cache):
-    """Format URL : /classement-radio/?annee=YYYY&semaine=WW"""
     cache_key = f"{year}-{week:02d}"
     if cache_key in cache:
         return True
@@ -521,9 +561,9 @@ def fetch_snep_week(year, week, cache):
 
 def parse_snep_html(html_text):
     """
-    Structure réelle : Position → Titre → Artiste → LABEL
-                       → [nombre] → [e] → La Semaine Dernière
-                       → [nombre] → [e] → Semaine dans le Top
+    Structure : Position → Titre → Artiste → LABEL
+                → [nombre] → [e] → La Semaine Dernière
+                → [nombre] → [e] → Semaine dans le Top
     Le nombre et son suffixe sont sur des lignes SÉPARÉES.
     """
     entries = []
@@ -590,7 +630,8 @@ def parse_snep_html(html_text):
                                     previous_pos = None
 
                     if title and artist and len(title) > 2 and len(artist) > 2:
-                        if not any(kw in title.lower() for kw in ['semaine', 'top radio', 'actualités', 'les tops', 'news', 'newsletter']):
+                        if not any(kw in title.lower() for kw in
+                                   ['semaine', 'top radio', 'actualités', 'les tops', 'news', 'newsletter']):
                             entries.append({
                                 "position": position,
                                 "track": {"title": title, "artist": artist},
@@ -625,15 +666,16 @@ def main():
     print(f"📅 Archives Top singles France — Année {year}")
 
     if year < TOP_ARCHIVES_END_YEAR:
-        print(f"   Source : top-archives.fr")
+        print("   Source : top-archives.fr")
     elif year == TOP_ARCHIVES_END_YEAR:
-        print(f"   Source : top-archives.fr (S01-S{TOP_ARCHIVES_END_WEEK}) + chartsinfrance.net (S{TOP_ARCHIVES_END_WEEK+1}+)")
+        print(f"   Source : top-archives.fr (S01-S{TOP_ARCHIVES_END_WEEK}) + "
+              f"chartsinfrance.net (S{TOP_ARCHIVES_END_WEEK+1}+)")
     elif year < SNEP_START_YEAR:
-        print(f"   Source : chartsinfrance.net")
+        print("   Source : chartsinfrance.net")
     elif year == SNEP_START_YEAR:
         print(f"   Source : chartsinfrance.net (S01-S{SNEP_START_WEEK-1}) + SNEP (S{SNEP_START_WEEK}+)")
     else:
-        print(f"   Source : SNEP (officiel) + chartsinfrance (fallback)")
+        print("   Source : SNEP (officiel) + chartsinfrance (fallback)")
 
     print(f"{'='*60}\n")
 
@@ -681,7 +723,7 @@ def main():
         else:
             result = fetch_snep_week(year, week, cache)
             if not result:
-                print(f"  🔄 Fallback sur chartsinfrance.net...")
+                print("  🔄 Fallback sur chartsinfrance.net...")
                 result = fetch_chartsinfrance_week(year, week, cache)
 
         if result:
