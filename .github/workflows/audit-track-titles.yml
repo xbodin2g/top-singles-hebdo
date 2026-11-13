@@ -1,0 +1,56 @@
+name: Audit Track Titles
+
+on:
+  workflow_dispatch:
+    inputs:
+      min_count:
+        description: 'Occurrences minimum par groupe'
+        required: false
+        default: '1'
+      limit:
+        description: 'Nombre de groupes affichés'
+        required: false
+        default: '60'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-track-titles
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run audit
+        run: |
+          python audit_track_titles.py --min-count ${{ inputs.min_count }} --limit ${{ inputs.limit }}
+
+      - name: Commit suggestions
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add data/track_overrides_suggestions.json
+
+          if git diff --staged --quiet; then
+            echo "Aucune suggestion à committer"
+            exit 0
+          fi
+
+          git commit -m "Audit titres : suggestions de correction"
+          git pull --rebase origin main
+          git push origin main
