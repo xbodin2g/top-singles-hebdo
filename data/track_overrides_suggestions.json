@@ -1,12 +1,1 @@
-[
-  {
-    "artist_match": "The Gospel Rap",
-    "new_artist": "A_RENSEIGNER",
-    "new_title": "A_RENSEIGNER",
-    "years": [
-      1992
-    ],
-    "only_if_numeric_title": true,
-    "comment": "Titre numérique variable (7×) — champs à identifier"
-  }
-]
+[]
