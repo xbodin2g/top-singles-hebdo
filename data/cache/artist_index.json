@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T21:45:56.132011+00:00",
+  "generatedAt": "2026-11-14T21:49:45.889659+00:00",
   "archiveCount": 2198,
-  "artistCount": 4669,
-  "trackCount": 10800,
+  "artistCount": 4670,
+  "trackCount": 10802,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -5433,6 +5433,19 @@
           "peakDate": "06/10/2008"
         },
         {
+          "key": "dj|soprano",
+          "title": "DJ",
+          "credit": "Soprano",
+          "firstKey": "2026-29",
+          "firstDate": "13/07/2026",
+          "lastKey": "2026-36",
+          "lastDate": "31/08/2026",
+          "weeks": 8,
+          "peak": 26,
+          "peakKey": "2026-33",
+          "peakDate": "10/08/2026"
+        },
+        {
           "key": "facile a danser|soprano",
           "title": "Facile à danser",
           "credit": "Soprano",
@@ -5524,15 +5537,15 @@
           "peakDate": "22/01/2018"
         }
       ],
-      "trackCount": 32,
-      "totalWeeks": 557,
+      "trackCount": 33,
+      "totalWeeks": 565,
       "bestPeak": 2,
       "firstYear": 2006,
-      "lastYear": 2024,
+      "lastYear": 2026,
       "firstKey": "2006-28",
       "firstDate": "10/07/2006",
-      "lastKey": "2024-44",
-      "lastDate": "28/10/2024"
+      "lastKey": "2026-36",
+      "lastDate": "31/08/2026"
     },
     {
       "id": "indochine",
@@ -124480,6 +124493,34 @@
       "lastDate": "03/01/2000"
     },
     {
+      "id": "r2",
+      "name": "R2",
+      "tracks": [
+        {
+          "key": "ruinart|r2",
+          "title": "Ruinart",
+          "credit": "R2",
+          "firstKey": "2025-28",
+          "firstDate": "07/07/2025",
+          "lastKey": "2026-20",
+          "lastDate": "11/05/2026",
+          "weeks": 46,
+          "peak": 28,
+          "peakKey": "2026-10",
+          "peakDate": "02/03/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 46,
+      "bestPeak": 28,
+      "firstYear": 2025,
+      "lastYear": 2026,
+      "firstKey": "2025-28",
+      "firstDate": "07/07/2025",
+      "lastKey": "2026-20",
+      "lastDate": "11/05/2026"
+    },
+    {
       "id": "guillaume grand",
       "name": "Guillaume Grand",
       "tracks": [
@@ -131478,34 +131519,6 @@
       "firstDate": "17/01/2000",
       "lastKey": "2000-28",
       "lastDate": "10/07/2000"
-    },
-    {
-      "id": "r2",
-      "name": "R2",
-      "tracks": [
-        {
-          "key": "ruinart|r2",
-          "title": "Ruinart",
-          "credit": "R2",
-          "firstKey": "2025-28",
-          "firstDate": "07/07/2025",
-          "lastKey": "2025-53",
-          "lastDate": "29/12/2025",
-          "weeks": 26,
-          "peak": 30,
-          "peakKey": "2025-50",
-          "peakDate": "08/12/2025"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 26,
-      "bestPeak": 30,
-      "firstYear": 2025,
-      "lastYear": 2025,
-      "firstKey": "2025-28",
-      "firstDate": "07/07/2025",
-      "lastKey": "2025-53",
-      "lastDate": "29/12/2025"
     },
     {
       "id": "mauss charlie",
@@ -158218,6 +158231,34 @@
       "firstDate": "25/11/1990",
       "lastKey": "1991-07",
       "lastDate": "17/02/1991"
+    },
+    {
+      "id": "genezio",
+      "name": "Genezio",
+      "tracks": [
+        {
+          "key": "og|genezio",
+          "title": "OG",
+          "credit": "Genezio feat. Niska",
+          "firstKey": "2026-03",
+          "firstDate": "12/01/2026",
+          "lastKey": "2026-15",
+          "lastDate": "06/04/2026",
+          "weeks": 13,
+          "peak": 31,
+          "peakKey": "2026-06",
+          "peakDate": "02/02/2026"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 13,
+      "bestPeak": 31,
+      "firstYear": 2026,
+      "lastYear": 2026,
+      "firstKey": "2026-03",
+      "firstDate": "12/01/2026",
+      "lastKey": "2026-15",
+      "lastDate": "06/04/2026"
     },
     {
       "id": "krys",

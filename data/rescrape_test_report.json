@@ -1,111 +1,6 @@
 [
   {
-    "key": "2025-28",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      53
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "53": "R2 — Ruinart"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2025-29",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      41
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "41": "R2 — Ruinart"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2025-30",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      41
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "41": "R2 — Ruinart"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2025-31",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      49
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "49": "R2 — Ruinart"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2025-32",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      47
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "47": "R2 — Ruinart"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2025-33",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      43
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "43": "R2 — Ruinart"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2025-34",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      39
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "39": "R2 — Ruinart"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2025-35",
+    "key": "2026-01",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
@@ -120,172 +15,243 @@
     "still_missing": []
   },
   {
-    "key": "2025-36",
+    "key": "2026-02",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      32
+      41
     ],
     "gaps_after": [],
     "recovered": {
-      "32": "R2 — Ruinart"
+      "41": "R2 — Ruinart"
     },
     "still_missing": []
   },
   {
-    "key": "2025-37",
+    "key": "2026-03",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      34
+      38,
+      45
     ],
     "gaps_after": [],
     "recovered": {
-      "34": "R2 — Ruinart"
+      "38": "Genezio feat. Niska — OG",
+      "45": "R2 — Ruinart"
     },
     "still_missing": []
   },
   {
-    "key": "2025-38",
+    "key": "2026-04",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      33
+      39,
+      43
     ],
     "gaps_after": [],
     "recovered": {
-      "33": "R2 — Ruinart"
+      "39": "Genezio feat. Niska — OG",
+      "43": "R2 — Ruinart"
     },
     "still_missing": []
   },
   {
-    "key": "2025-39",
+    "key": "2026-05",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      34
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "34": "R2 — Ruinart"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2025-40",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
+      34,
       42
     ],
     "gaps_after": [],
     "recovered": {
+      "34": "Genezio feat. Niska — OG",
       "42": "R2 — Ruinart"
     },
     "still_missing": []
   },
   {
-    "key": "2025-41",
+    "key": "2026-06",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      46
+      31,
+      35
     ],
     "gaps_after": [],
     "recovered": {
-      "46": "R2 — Ruinart"
+      "31": "Genezio feat. Niska — OG",
+      "35": "R2 — Ruinart"
     },
     "still_missing": []
   },
   {
-    "key": "2025-42",
+    "key": "2026-07",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      49
+      32,
+      36
     ],
     "gaps_after": [],
     "recovered": {
-      "49": "R2 — Ruinart"
+      "32": "R2 — Ruinart",
+      "36": "Genezio feat. Niska — OG"
     },
     "still_missing": []
   },
   {
-    "key": "2025-43",
+    "key": "2026-08",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      48
+      33,
+      36
     ],
     "gaps_after": [],
     "recovered": {
-      "48": "R2 — Ruinart"
+      "33": "R2 — Ruinart",
+      "36": "Genezio feat. Niska — OG"
     },
     "still_missing": []
   },
   {
-    "key": "2025-44",
+    "key": "2026-09",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      40
+      29,
+      43
     ],
     "gaps_after": [],
     "recovered": {
-      "40": "R2 — Ruinart"
+      "29": "R2 — Ruinart",
+      "43": "Genezio feat. Niska — OG"
     },
     "still_missing": []
   },
   {
-    "key": "2025-45",
+    "key": "2026-10",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
+      28,
       34
     ],
     "gaps_after": [],
     "recovered": {
-      "34": "R2 — Ruinart"
+      "28": "R2 — Ruinart",
+      "34": "Genezio feat. Niska — OG"
     },
     "still_missing": []
   },
   {
-    "key": "2025-47",
+    "key": "2026-11",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      33
+      33,
+      38
     ],
     "gaps_after": [],
     "recovered": {
-      "33": "R2 — Ruinart"
+      "33": "R2 — Ruinart",
+      "38": "Genezio feat. Niska — OG"
     },
     "still_missing": []
   },
   {
-    "key": "2025-48",
+    "key": "2026-12",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      29,
+      43
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "29": "R2 — Ruinart",
+      "43": "Genezio feat. Niska — OG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2026-13",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      34,
+      44
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "34": "R2 — Ruinart",
+      "44": "Genezio feat. Niska — OG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2026-14",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      34,
+      43
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "34": "R2 — Ruinart",
+      "43": "Genezio feat. Niska — OG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2026-15",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      35,
+      60
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "35": "R2 — Ruinart",
+      "60": "Genezio feat. Niska — OG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2026-16",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
@@ -300,7 +266,37 @@
     "still_missing": []
   },
   {
-    "key": "2025-49",
+    "key": "2026-17",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      28
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "28": "R2 — Ruinart"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2026-18",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      28
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "28": "R2 — Ruinart"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2026-19",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
@@ -315,22 +311,67 @@
     "still_missing": []
   },
   {
-    "key": "2025-50",
+    "key": "2026-20",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      30
+      52
     ],
     "gaps_after": [],
     "recovered": {
-      "30": "R2 — Ruinart"
+      "52": "R2 — Ruinart"
     },
     "still_missing": []
   },
   {
-    "key": "2025-51",
+    "key": "2026-29",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      55
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "55": "Soprano — DJ"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2026-30",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      39
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "39": "Soprano — DJ"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2026-31",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      45
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "45": "Soprano — DJ"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2026-32",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
@@ -340,37 +381,67 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "31": "R2 — Ruinart"
+      "31": "Soprano — DJ"
     },
     "still_missing": []
   },
   {
-    "key": "2025-52",
+    "key": "2026-33",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      35
+      26
     ],
     "gaps_after": [],
     "recovered": {
-      "35": "R2 — Ruinart"
+      "26": "Soprano — DJ"
     },
     "still_missing": []
   },
   {
-    "key": "2025-53",
+    "key": "2026-34",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      36
+      30
     ],
     "gaps_after": [],
     "recovered": {
-      "36": "R2 — Ruinart"
+      "30": "Soprano — DJ"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2026-35",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      45
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "45": "Soprano — DJ"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2026-36",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      38
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "38": "Soprano — DJ"
     },
     "still_missing": []
   }
