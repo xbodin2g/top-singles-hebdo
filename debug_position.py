@@ -3,8 +3,14 @@
 Diagnostique pourquoi une position est ignorée. Lecture seule.
 Sources : chartsinfrance.net, snepmusique.com.
 
-Pour SNEP, affiche l'index de "La Semaine Dernière" dans le bloc :
-c'est le critère de validation structurelle (attendu 4 ou 5).
+Pour SNEP, affiche l'index de "La Semaine Dernière" ET "Semaine dans le Top"
+dans le bloc, avec verdict distinguant les deux cas d'ancrage :
+  - historique (La Semaine Dernière aux index 4 ou 5)
+  - nouvelle entrée (pas de La Semaine Dernière, Semaine dans le Top à 4 ou 5)
+
+Usage :
+  python debug_position.py --key 2016-38 --position 55
+  python debug_position.py --key 2005-15 --position 33
 """
 import re, argparse, requests
 from bs4 import BeautifulSoup
@@ -109,15 +115,27 @@ def main():
                 print(f"    longueur ok  : {len(t) >= 1 and len(a) >= 1}")
 
             if kind == "snep":
+                # Recherche des deux ancres, indépendamment
                 lsd = next((k for k in range(2, min(7, len(block))) if block[k] == LSD), None)
-                sdt = None
-                if lsd is not None:
-                    sdt = next((k for k in range(lsd + 1, min(lsd + 5, len(block))) if block[k] == SDT), None)
+                sdt_start = (lsd + 1) if lsd is not None else 2
+                sdt_end = (lsd + 5) if lsd is not None else 7
+                sdt = next((k for k in range(sdt_start, min(sdt_end, len(block))) if block[k] == SDT), None)
+
+                # Diagnostic des deux cas d'ancrage valides
+                is_historical = lsd in (4, 5)
+                is_new_entry = (lsd is None and sdt in (4, 5))
+                if is_historical:
+                    verdict = "ACCEPTÉ (historique — La Semaine Dernière présent)"
+                elif is_new_entry:
+                    verdict = "ACCEPTÉ (nouvelle entrée — pas de La Semaine Dernière)"
+                else:
+                    verdict = "REJETÉ (aucun ancrage valide)"
+
                 print(f"\n  validation structurelle SNEP :")
                 print(f"    longueur du bloc : {len(block)}  (minimum 6)")
-                print(f"    index de '{LSD}' : {lsd}   → attendu 4 ou 5")
-                print(f"    index de '{SDT}' : {sdt}")
-                print(f"    verdict : {'ACCEPTÉ' if lsd in (4, 5) else 'REJETÉ (ancrage)'}")
+                print(f"    index de '{LSD}' : {lsd}   → attendu 4 ou 5 (historique)")
+                print(f"    index de '{SDT}' : {sdt}   → attendu 4 ou 5 (nouvelle entrée)")
+                print(f"    verdict : {verdict}")
                 print(f"    bloc[0..8] : {block[:9]}")
 
         near = [e for e in parsed if abs(e.get("position", 0) - target) <= 2]
