@@ -1,201 +1,163 @@
 [
   {
-    "key": "2007-02",
+    "key": "2008-02",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      50
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "50": "Superbus — Travel The World"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2008-04",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      51
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "51": "Rayman Contre Les Lapins Encore + Crétins — Making Fun (Of Every Day Life)"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2008-07",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      3
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Mondotek — Alive !"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2008-10",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      24
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "24": "Lorie — Je vais vite"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2008-15",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      72,
-      90
+      8,
+      62
     ],
     "gaps_after": [],
     "recovered": {
-      "72": "Dirty South vs. Evermore — It's Too Late (Ride On)",
-      "90": "Stinky — Oops"
+      "8": "Leona Lewis — Bleeding Love",
+      "62": "Lorie — Je vais vite"
     },
     "still_missing": []
   },
   {
-    "key": "2007-03",
+    "key": "2008-23",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      2
+      3
     ],
     "gaps_after": [],
     "recovered": {
-      "2": "Fatal Bazooka — Fous ta cagoule"
+      "3": "Laurent Wolf — No Stress"
     },
     "still_missing": []
   },
   {
-    "key": "2007-12",
+    "key": "2008-29",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      29
+      34
     ],
     "gaps_after": [],
     "recovered": {
-      "29": "David Kane — Club Sound"
+      "34": "Chris Brown — With You"
     },
     "still_missing": []
   },
   {
-    "key": "2007-20",
+    "key": "2008-33",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      8
+      65
     ],
     "gaps_after": [],
     "recovered": {
-      "8": "Gwen Stefani feat. Akon — The Sweet Escape"
+      "65": "Demon One feat. Soprano — J'étais comme eux"
     },
     "still_missing": []
   },
   {
-    "key": "2007-21",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      35
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "35": "Lilly Fleur Pointeaux & Josephine Jobert — Nos années pension : Pour l..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2007-23",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      63
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "63": "Star Tattooed feat. Ava — Make Me High"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2007-27",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      69
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "69": "Faf Larage — Ta meuf (la caille)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2007-30",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      16
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "16": "Silly Le Petit Phoque — Boum Boum"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2007-35",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      61
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "61": "Mims — This Is Why I'm Hot"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2007-37",
+    "key": "2008-49",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
       3,
-      15
+      20
     ],
     "gaps_after": [],
     "recovered": {
-      "3": "Timbaland feat. Tyssem — The Way I Are",
-      "15": "Magic System — Ki dit mié"
+      "3": "Amy Macdonald — This Is The Life",
+      "20": "Star Academy 8 — Chante"
     },
     "still_missing": []
   },
   {
-    "key": "2007-39",
+    "key": "2008-50",
     "status": "ok",
-    "entries_before": 99,
+    "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      54
+      3,
+      20
     ],
     "gaps_after": [],
     "recovered": {
-      "54": "Pigloo — Bizoo d'eskimo"
+      "3": "Patrick Sébastien — Ah... si tu pouvais fermer...",
+      "20": "Olivier Miller — Génération virtuelle"
     },
     "still_missing": []
   },
   {
-    "key": "2007-41",
+    "key": "2008-52",
     "status": "ok",
-    "entries_before": 99,
+    "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      2
+      32,
+      42
     ],
     "gaps_after": [],
     "recovered": {
-      "2": "Koxie — Garçon"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2007-51",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      71
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "71": "Victoria — Le héros d'un autre"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2007-52",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      10
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "10": "Christophe Willem — Jacques a dit"
+      "32": "T.I. feat. Rihanna — Live Your Life",
+      "42": "Lââm & Jennifer Paige — Ta voix (The Calling)"
     },
     "still_missing": []
   }

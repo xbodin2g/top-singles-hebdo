@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T15:35:36.002403+00:00",
+  "generatedAt": "2026-11-14T15:41:52.479053+00:00",
   "archiveCount": 2198,
-  "artistCount": 4649,
-  "trackCount": 10753,
+  "artistCount": 4650,
+  "trackCount": 10754,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -16837,7 +16837,7 @@
           "firstDate": "03/12/2007",
           "lastKey": "2008-26",
           "lastDate": "23/06/2008",
-          "weeks": 24,
+          "weeks": 26,
           "peak": 3,
           "peakKey": "2007-49",
           "peakDate": "03/12/2007"
@@ -17026,7 +17026,7 @@
         }
       ],
       "trackCount": 18,
-      "totalWeeks": 395,
+      "totalWeeks": 397,
       "bestPeak": 1,
       "firstYear": 2001,
       "lastYear": 2009,
@@ -18292,7 +18292,7 @@
           "firstDate": "24/11/2008",
           "lastKey": "2011-04",
           "lastDate": "24/01/2011",
-          "weeks": 31,
+          "weeks": 32,
           "peak": 1,
           "peakKey": "2008-49",
           "peakDate": "01/12/2008"
@@ -18520,7 +18520,7 @@
         }
       ],
       "trackCount": 18,
-      "totalWeeks": 300,
+      "totalWeeks": 301,
       "bestPeak": 1,
       "firstYear": 1985,
       "lastYear": 2011,
@@ -18881,7 +18881,7 @@
           "firstDate": "17/12/2007",
           "lastKey": "2008-25",
           "lastDate": "16/06/2008",
-          "weeks": 24,
+          "weeks": 23,
           "peak": 9,
           "peakKey": "2007-52",
           "peakDate": "24/12/2007"
@@ -19005,7 +19005,7 @@
         }
       ],
       "trackCount": 17,
-      "totalWeeks": 434,
+      "totalWeeks": 433,
       "bestPeak": 1,
       "firstYear": 1996,
       "lastYear": 2025,
@@ -42178,7 +42178,7 @@
           "firstDate": "05/05/2008",
           "lastKey": "2008-42",
           "lastDate": "13/10/2008",
-          "weeks": 22,
+          "weeks": 23,
           "peak": 11,
           "peakKey": "2008-20",
           "peakDate": "12/05/2008"
@@ -42263,7 +42263,7 @@
         }
       ],
       "trackCount": 9,
-      "totalWeeks": 121,
+      "totalWeeks": 122,
       "bestPeak": 7,
       "firstYear": 2006,
       "lastYear": 2015,
@@ -45919,6 +45919,125 @@
       "lastDate": "24/11/2008"
     },
     {
+      "id": "superbus",
+      "name": "Superbus",
+      "tracks": [
+        {
+          "key": "addictions|superbus",
+          "title": "Addictions",
+          "credit": "Superbus",
+          "firstKey": "2009-10",
+          "firstDate": "02/03/2009",
+          "lastKey": "2009-40",
+          "lastDate": "28/09/2009",
+          "weeks": 26,
+          "peak": 7,
+          "peakKey": "2009-10",
+          "peakDate": "02/03/2009"
+        },
+        {
+          "key": "lola|superbus",
+          "title": "Lola",
+          "credit": "Superbus",
+          "firstKey": "2007-27",
+          "firstDate": "02/07/2007",
+          "lastKey": "2007-46",
+          "lastDate": "12/11/2007",
+          "weeks": 20,
+          "peak": 7,
+          "peakKey": "2007-28",
+          "peakDate": "09/07/2007"
+        },
+        {
+          "key": "butterfly|superbus",
+          "title": "Butterfly",
+          "credit": "Superbus",
+          "firstKey": "2007-11",
+          "firstDate": "12/03/2007",
+          "lastKey": "2007-32",
+          "lastDate": "06/08/2007",
+          "weeks": 22,
+          "peak": 11,
+          "peakKey": "2007-11",
+          "peakDate": "12/03/2007"
+        },
+        {
+          "key": "apprends moi|superbus",
+          "title": "Apprends-moi",
+          "credit": "Superbus",
+          "firstKey": "2009-49",
+          "firstDate": "30/11/2009",
+          "lastKey": "2010-16",
+          "lastDate": "19/04/2010",
+          "weeks": 20,
+          "peak": 19,
+          "peakKey": "2009-52",
+          "peakDate": "21/12/2009"
+        },
+        {
+          "key": "travel the world|superbus",
+          "title": "Travel The World",
+          "credit": "Superbus",
+          "firstKey": "2007-45",
+          "firstDate": "05/11/2007",
+          "lastKey": "2008-14",
+          "lastDate": "31/03/2008",
+          "weeks": 22,
+          "peak": 30,
+          "peakKey": "2007-45",
+          "peakDate": "05/11/2007"
+        },
+        {
+          "key": "pop n gum|superbus",
+          "title": "Pop'n'Gum",
+          "credit": "Superbus",
+          "firstKey": "2005-29",
+          "firstDate": "18/07/2005",
+          "lastKey": "2005-41",
+          "lastDate": "10/10/2005",
+          "weeks": 13,
+          "peak": 39,
+          "peakKey": "2005-32",
+          "peakDate": "08/08/2005"
+        },
+        {
+          "key": "ok ko|superbus",
+          "title": "OK KO",
+          "credit": "Superbus feat. Kyo",
+          "firstKey": "2026-17",
+          "firstDate": "20/04/2026",
+          "lastKey": "2026-21",
+          "lastDate": "18/05/2026",
+          "weeks": 3,
+          "peak": 53,
+          "peakKey": "2026-21",
+          "peakDate": "18/05/2026"
+        },
+        {
+          "key": "tchi cum bah|superbus",
+          "title": "Tchi-cum-bah",
+          "credit": "Superbus",
+          "firstKey": "2002-43",
+          "firstDate": "21/10/2002",
+          "lastKey": "2002-48",
+          "lastDate": "25/11/2002",
+          "weeks": 6,
+          "peak": 59,
+          "peakKey": "2002-43",
+          "peakDate": "21/10/2002"
+        }
+      ],
+      "trackCount": 8,
+      "totalWeeks": 132,
+      "bestPeak": 7,
+      "firstYear": 2002,
+      "lastYear": 2026,
+      "firstKey": "2002-43",
+      "firstDate": "21/10/2002",
+      "lastKey": "2026-21",
+      "lastDate": "18/05/2026"
+    },
+    {
       "id": "birdy nam nam",
       "name": "Birdy Nam Nam",
       "tracks": [
@@ -46155,125 +46274,6 @@
       "firstDate": "19/02/2001",
       "lastKey": "2012-17",
       "lastDate": "23/04/2012"
-    },
-    {
-      "id": "superbus",
-      "name": "Superbus",
-      "tracks": [
-        {
-          "key": "addictions|superbus",
-          "title": "Addictions",
-          "credit": "Superbus",
-          "firstKey": "2009-10",
-          "firstDate": "02/03/2009",
-          "lastKey": "2009-40",
-          "lastDate": "28/09/2009",
-          "weeks": 26,
-          "peak": 7,
-          "peakKey": "2009-10",
-          "peakDate": "02/03/2009"
-        },
-        {
-          "key": "lola|superbus",
-          "title": "Lola",
-          "credit": "Superbus",
-          "firstKey": "2007-27",
-          "firstDate": "02/07/2007",
-          "lastKey": "2007-46",
-          "lastDate": "12/11/2007",
-          "weeks": 20,
-          "peak": 7,
-          "peakKey": "2007-28",
-          "peakDate": "09/07/2007"
-        },
-        {
-          "key": "butterfly|superbus",
-          "title": "Butterfly",
-          "credit": "Superbus",
-          "firstKey": "2007-11",
-          "firstDate": "12/03/2007",
-          "lastKey": "2007-32",
-          "lastDate": "06/08/2007",
-          "weeks": 22,
-          "peak": 11,
-          "peakKey": "2007-11",
-          "peakDate": "12/03/2007"
-        },
-        {
-          "key": "apprends moi|superbus",
-          "title": "Apprends-moi",
-          "credit": "Superbus",
-          "firstKey": "2009-49",
-          "firstDate": "30/11/2009",
-          "lastKey": "2010-16",
-          "lastDate": "19/04/2010",
-          "weeks": 20,
-          "peak": 19,
-          "peakKey": "2009-52",
-          "peakDate": "21/12/2009"
-        },
-        {
-          "key": "travel the world|superbus",
-          "title": "Travel The World",
-          "credit": "Superbus",
-          "firstKey": "2007-45",
-          "firstDate": "05/11/2007",
-          "lastKey": "2008-14",
-          "lastDate": "31/03/2008",
-          "weeks": 21,
-          "peak": 30,
-          "peakKey": "2007-45",
-          "peakDate": "05/11/2007"
-        },
-        {
-          "key": "pop n gum|superbus",
-          "title": "Pop'n'Gum",
-          "credit": "Superbus",
-          "firstKey": "2005-29",
-          "firstDate": "18/07/2005",
-          "lastKey": "2005-41",
-          "lastDate": "10/10/2005",
-          "weeks": 13,
-          "peak": 39,
-          "peakKey": "2005-32",
-          "peakDate": "08/08/2005"
-        },
-        {
-          "key": "ok ko|superbus",
-          "title": "OK KO",
-          "credit": "Superbus feat. Kyo",
-          "firstKey": "2026-17",
-          "firstDate": "20/04/2026",
-          "lastKey": "2026-21",
-          "lastDate": "18/05/2026",
-          "weeks": 3,
-          "peak": 53,
-          "peakKey": "2026-21",
-          "peakDate": "18/05/2026"
-        },
-        {
-          "key": "tchi cum bah|superbus",
-          "title": "Tchi-cum-bah",
-          "credit": "Superbus",
-          "firstKey": "2002-43",
-          "firstDate": "21/10/2002",
-          "lastKey": "2002-48",
-          "lastDate": "25/11/2002",
-          "weeks": 6,
-          "peak": 59,
-          "peakKey": "2002-43",
-          "peakDate": "21/10/2002"
-        }
-      ],
-      "trackCount": 8,
-      "totalWeeks": 131,
-      "bestPeak": 7,
-      "firstYear": 2002,
-      "lastYear": 2026,
-      "firstKey": "2002-43",
-      "firstDate": "21/10/2002",
-      "lastKey": "2026-21",
-      "lastDate": "18/05/2026"
     },
     {
       "id": "ub40",
@@ -49078,7 +49078,7 @@
           "firstDate": "24/03/2008",
           "lastKey": "2008-51",
           "lastDate": "15/12/2008",
-          "weeks": 36,
+          "weeks": 37,
           "peak": 1,
           "peakKey": "2008-14",
           "peakDate": "31/03/2008"
@@ -49163,7 +49163,7 @@
         }
       ],
       "trackCount": 7,
-      "totalWeeks": 182,
+      "totalWeeks": 183,
       "bestPeak": 1,
       "firstYear": 2003,
       "lastYear": 2023,
@@ -98639,6 +98639,47 @@
       "lastDate": "10/06/2024"
     },
     {
+      "id": "mondotek",
+      "name": "Mondotek",
+      "tracks": [
+        {
+          "key": "alive|mondotek",
+          "title": "Alive !",
+          "credit": "Mondotek",
+          "firstKey": "2007-47",
+          "firstDate": "19/11/2007",
+          "lastKey": "2008-30",
+          "lastDate": "21/07/2008",
+          "weeks": 36,
+          "peak": 2,
+          "peakKey": "2007-52",
+          "peakDate": "24/12/2007"
+        },
+        {
+          "key": "d generation|mondotek",
+          "title": "D-Generation",
+          "credit": "Mondotek",
+          "firstKey": "2008-49",
+          "firstDate": "01/12/2008",
+          "lastKey": "2009-24",
+          "lastDate": "08/06/2009",
+          "weeks": 23,
+          "peak": 36,
+          "peakKey": "2008-49",
+          "peakDate": "01/12/2008"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 59,
+      "bestPeak": 2,
+      "firstYear": 2007,
+      "lastYear": 2009,
+      "firstKey": "2007-47",
+      "firstDate": "19/11/2007",
+      "lastKey": "2009-24",
+      "lastDate": "08/06/2009"
+    },
+    {
       "id": "tones and i",
       "name": "Tones and I",
       "tracks": [
@@ -98678,47 +98719,6 @@
       "firstDate": "02/09/2019",
       "lastKey": "2020-27",
       "lastDate": "29/06/2020"
-    },
-    {
-      "id": "mondotek",
-      "name": "Mondotek",
-      "tracks": [
-        {
-          "key": "alive|mondotek",
-          "title": "Alive !",
-          "credit": "Mondotek",
-          "firstKey": "2007-47",
-          "firstDate": "19/11/2007",
-          "lastKey": "2008-30",
-          "lastDate": "21/07/2008",
-          "weeks": 35,
-          "peak": 2,
-          "peakKey": "2007-52",
-          "peakDate": "24/12/2007"
-        },
-        {
-          "key": "d generation|mondotek",
-          "title": "D-Generation",
-          "credit": "Mondotek",
-          "firstKey": "2008-49",
-          "firstDate": "01/12/2008",
-          "lastKey": "2009-24",
-          "lastDate": "08/06/2009",
-          "weeks": 23,
-          "peak": 36,
-          "peakKey": "2008-49",
-          "peakDate": "01/12/2008"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 58,
-      "bestPeak": 2,
-      "firstYear": 2007,
-      "lastYear": 2009,
-      "firstKey": "2007-47",
-      "firstDate": "19/11/2007",
-      "lastKey": "2009-24",
-      "lastDate": "08/06/2009"
     },
     {
       "id": "tlf",
@@ -107700,6 +107700,47 @@
       "lastDate": "17/04/2006"
     },
     {
+      "id": "t i",
+      "name": "T.I.",
+      "tracks": [
+        {
+          "key": "your life|t i",
+          "title": "Live Your Life",
+          "credit": "T.I. feat. Rihanna",
+          "firstKey": "2008-46",
+          "firstDate": "10/11/2008",
+          "lastKey": "2009-19",
+          "lastDate": "04/05/2009",
+          "weeks": 23,
+          "peak": 17,
+          "peakKey": "2008-46",
+          "peakDate": "10/11/2008"
+        },
+        {
+          "key": "no mediocre|t i",
+          "title": "No mediocre",
+          "credit": "T.I.",
+          "firstKey": "2014-31",
+          "firstDate": "28/07/2014",
+          "lastKey": "2014-38",
+          "lastDate": "15/09/2014",
+          "weeks": 7,
+          "peak": 37,
+          "peakKey": "2014-34",
+          "peakDate": "18/08/2014"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 30,
+      "bestPeak": 17,
+      "firstYear": 2008,
+      "lastYear": 2014,
+      "firstKey": "2008-46",
+      "firstDate": "10/11/2008",
+      "lastKey": "2014-38",
+      "lastDate": "15/09/2014"
+    },
+    {
       "id": "beatfreakz",
       "name": "Beatfreakz",
       "tracks": [
@@ -108641,47 +108682,6 @@
       "firstDate": "25/10/1999",
       "lastKey": "2000-52",
       "lastDate": "25/12/2000"
-    },
-    {
-      "id": "t i",
-      "name": "T.I.",
-      "tracks": [
-        {
-          "key": "your life|t i",
-          "title": "Live Your Life",
-          "credit": "T.I. feat. Rihanna",
-          "firstKey": "2008-46",
-          "firstDate": "10/11/2008",
-          "lastKey": "2009-19",
-          "lastDate": "04/05/2009",
-          "weeks": 22,
-          "peak": 17,
-          "peakKey": "2008-46",
-          "peakDate": "10/11/2008"
-        },
-        {
-          "key": "no mediocre|t i",
-          "title": "No mediocre",
-          "credit": "T.I.",
-          "firstKey": "2014-31",
-          "firstDate": "28/07/2014",
-          "lastKey": "2014-38",
-          "lastDate": "15/09/2014",
-          "weeks": 7,
-          "peak": 37,
-          "peakKey": "2014-34",
-          "peakDate": "18/08/2014"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 29,
-      "bestPeak": 17,
-      "firstYear": 2008,
-      "lastYear": 2014,
-      "firstKey": "2008-46",
-      "firstDate": "10/11/2008",
-      "lastKey": "2014-38",
-      "lastDate": "15/09/2014"
     },
     {
       "id": "daniel bedingfield",
@@ -126761,6 +126761,34 @@
       "lastDate": "18/07/2022"
     },
     {
+      "id": "leona lewis",
+      "name": "Leona Lewis",
+      "tracks": [
+        {
+          "key": "bleeding love|leona lewis",
+          "title": "Bleeding Love",
+          "credit": "Leona Lewis",
+          "firstKey": "2008-12",
+          "firstDate": "17/03/2008",
+          "lastKey": "2009-25",
+          "lastDate": "15/06/2009",
+          "weeks": 31,
+          "peak": 1,
+          "peakKey": "2008-12",
+          "peakDate": "17/03/2008"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 31,
+      "bestPeak": 1,
+      "firstYear": 2008,
+      "lastYear": 2009,
+      "firstKey": "2008-12",
+      "firstDate": "17/03/2008",
+      "lastKey": "2009-25",
+      "lastDate": "15/06/2009"
+    },
+    {
       "id": "maitre gims en duo avec vianney",
       "name": "Maitre Gims en duo avec Vianney",
       "tracks": [
@@ -127459,34 +127487,6 @@
       "firstDate": "22/10/2018",
       "lastKey": "2019-19",
       "lastDate": "06/05/2019"
-    },
-    {
-      "id": "leona lewis",
-      "name": "Leona Lewis",
-      "tracks": [
-        {
-          "key": "bleeding love|leona lewis",
-          "title": "Bleeding Love",
-          "credit": "Leona Lewis",
-          "firstKey": "2008-12",
-          "firstDate": "17/03/2008",
-          "lastKey": "2009-25",
-          "lastDate": "15/06/2009",
-          "weeks": 30,
-          "peak": 1,
-          "peakKey": "2008-12",
-          "peakDate": "17/03/2008"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 30,
-      "bestPeak": 1,
-      "firstYear": 2008,
-      "lastYear": 2009,
-      "firstKey": "2008-12",
-      "firstDate": "17/03/2008",
-      "lastKey": "2009-25",
-      "lastDate": "15/06/2009"
     },
     {
       "id": "marc lavoine and cristina marocco",
@@ -133761,6 +133761,34 @@
       "lastDate": "09/07/2007"
     },
     {
+      "id": "laam and jennifer paige",
+      "name": "Lââm & Jennifer Paige",
+      "tracks": [
+        {
+          "key": "ta voix|laam and jennifer paige",
+          "title": "Ta voix (The Calling)",
+          "credit": "Lââm & Jennifer Paige",
+          "firstKey": "2008-51",
+          "firstDate": "15/12/2008",
+          "lastKey": "2009-24",
+          "lastDate": "08/06/2009",
+          "weeks": 24,
+          "peak": 37,
+          "peakKey": "2008-51",
+          "peakDate": "15/12/2008"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 24,
+      "bestPeak": 37,
+      "firstYear": 2008,
+      "lastYear": 2009,
+      "firstKey": "2008-51",
+      "firstDate": "15/12/2008",
+      "lastKey": "2009-24",
+      "lastDate": "08/06/2009"
+    },
+    {
       "id": "opus",
       "name": "Opus",
       "tracks": [
@@ -134853,6 +134881,34 @@
       "lastDate": "10/11/2025"
     },
     {
+      "id": "demon one",
+      "name": "Demon One",
+      "tracks": [
+        {
+          "key": "j etais comme eux|demon one",
+          "title": "J'étais comme eux",
+          "credit": "Demon One feat. Soprano",
+          "firstKey": "2008-13",
+          "firstDate": "24/03/2008",
+          "lastKey": "2008-35",
+          "lastDate": "25/08/2008",
+          "weeks": 23,
+          "peak": 16,
+          "peakKey": "2008-19",
+          "peakDate": "05/05/2008"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 23,
+      "bestPeak": 16,
+      "firstYear": 2008,
+      "lastYear": 2008,
+      "firstKey": "2008-13",
+      "firstDate": "24/03/2008",
+      "lastKey": "2008-35",
+      "lastDate": "25/08/2008"
+    },
+    {
       "id": "david vendetta vs keith thompson",
       "name": "David Vendetta vs. Keith Thompson",
       "tracks": [
@@ -135187,34 +135243,6 @@
       "firstDate": "25/09/2000",
       "lastKey": "2001-10",
       "lastDate": "05/03/2001"
-    },
-    {
-      "id": "laam and jennifer paige",
-      "name": "Lââm & Jennifer Paige",
-      "tracks": [
-        {
-          "key": "ta voix|laam and jennifer paige",
-          "title": "Ta voix (The Calling)",
-          "credit": "Lââm & Jennifer Paige",
-          "firstKey": "2008-51",
-          "firstDate": "15/12/2008",
-          "lastKey": "2009-24",
-          "lastDate": "08/06/2009",
-          "weeks": 23,
-          "peak": 37,
-          "peakKey": "2008-51",
-          "peakDate": "15/12/2008"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 23,
-      "bestPeak": 37,
-      "firstYear": 2008,
-      "lastYear": 2009,
-      "firstKey": "2008-51",
-      "firstDate": "15/12/2008",
-      "lastKey": "2009-24",
-      "lastDate": "08/06/2009"
     },
     {
       "id": "manu chao avec anouk",
@@ -136559,34 +136587,6 @@
       "firstDate": "23/01/2023",
       "lastKey": "2023-25",
       "lastDate": "19/06/2023"
-    },
-    {
-      "id": "demon one",
-      "name": "Demon One",
-      "tracks": [
-        {
-          "key": "j etais comme eux|demon one",
-          "title": "J'étais comme eux",
-          "credit": "Demon One feat. Soprano",
-          "firstKey": "2008-13",
-          "firstDate": "24/03/2008",
-          "lastKey": "2008-35",
-          "lastDate": "25/08/2008",
-          "weeks": 22,
-          "peak": 16,
-          "peakKey": "2008-19",
-          "peakDate": "05/05/2008"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 22,
-      "bestPeak": 16,
-      "firstYear": 2008,
-      "lastYear": 2008,
-      "firstKey": "2008-13",
-      "firstDate": "24/03/2008",
-      "lastKey": "2008-35",
-      "lastDate": "25/08/2008"
     },
     {
       "id": "pascale picard",
@@ -142273,6 +142273,34 @@
       "lastDate": "03/01/1994"
     },
     {
+      "id": "olivier miller",
+      "name": "Olivier Miller",
+      "tracks": [
+        {
+          "key": "generation virtuelle|olivier miller",
+          "title": "Génération virtuelle",
+          "credit": "Olivier Miller",
+          "firstKey": "2008-50",
+          "firstDate": "08/12/2008",
+          "lastKey": "2010-25",
+          "lastDate": "21/06/2010",
+          "weeks": 19,
+          "peak": 20,
+          "peakKey": "2008-50",
+          "peakDate": "08/12/2008"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 19,
+      "bestPeak": 20,
+      "firstYear": 2008,
+      "lastYear": 2010,
+      "firstKey": "2008-50",
+      "firstDate": "08/12/2008",
+      "lastKey": "2010-25",
+      "lastDate": "21/06/2010"
+    },
+    {
       "id": "vivien savage",
       "name": "Vivien Savage",
       "tracks": [
@@ -144821,34 +144849,6 @@
       "lastDate": "14/09/2009"
     },
     {
-      "id": "olivier miller",
-      "name": "Olivier Miller",
-      "tracks": [
-        {
-          "key": "generation virtuelle|olivier miller",
-          "title": "Génération virtuelle",
-          "credit": "Olivier Miller",
-          "firstKey": "2008-51",
-          "firstDate": "15/12/2008",
-          "lastKey": "2010-25",
-          "lastDate": "21/06/2010",
-          "weeks": 18,
-          "peak": 23,
-          "peakKey": "2008-51",
-          "peakDate": "15/12/2008"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 18,
-      "bestPeak": 23,
-      "firstYear": 2008,
-      "lastYear": 2010,
-      "firstKey": "2008-51",
-      "firstDate": "15/12/2008",
-      "lastKey": "2010-25",
-      "lastDate": "21/06/2010"
-    },
-    {
       "id": "caesars",
       "name": "Caesars",
       "tracks": [
@@ -146023,6 +146023,34 @@
       "firstDate": "01/03/1987",
       "lastKey": "1987-25",
       "lastDate": "21/06/1987"
+    },
+    {
+      "id": "star academy 8",
+      "name": "Star Academy 8",
+      "tracks": [
+        {
+          "key": "chante|star academy 8",
+          "title": "Chante",
+          "credit": "Star Academy 8",
+          "firstKey": "2008-43",
+          "firstDate": "20/10/2008",
+          "lastKey": "2009-09",
+          "lastDate": "23/02/2009",
+          "weeks": 17,
+          "peak": 8,
+          "peakKey": "2008-43",
+          "peakDate": "20/10/2008"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 17,
+      "bestPeak": 8,
+      "firstYear": 2008,
+      "lastYear": 2009,
+      "firstKey": "2008-43",
+      "firstDate": "20/10/2008",
+      "lastKey": "2009-09",
+      "lastDate": "23/02/2009"
     },
     {
       "id": "double",
@@ -148265,34 +148293,6 @@
       "lastDate": "13/03/2017"
     },
     {
-      "id": "star academy 8",
-      "name": "Star Academy 8",
-      "tracks": [
-        {
-          "key": "chante|star academy 8",
-          "title": "Chante",
-          "credit": "Star Academy 8",
-          "firstKey": "2008-43",
-          "firstDate": "20/10/2008",
-          "lastKey": "2009-09",
-          "lastDate": "23/02/2009",
-          "weeks": 16,
-          "peak": 8,
-          "peakKey": "2008-43",
-          "peakDate": "20/10/2008"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 16,
-      "bestPeak": 8,
-      "firstYear": 2008,
-      "lastYear": 2009,
-      "firstKey": "2008-43",
-      "firstDate": "20/10/2008",
-      "lastKey": "2009-09",
-      "lastDate": "23/02/2009"
-    },
-    {
       "id": "the rembrandts",
       "name": "The Rembrandts",
       "tracks": [
@@ -149887,6 +149887,34 @@
       "firstDate": "28/06/2004",
       "lastKey": "2004-42",
       "lastDate": "11/10/2004"
+    },
+    {
+      "id": "rayman contre les lapins encore cretins",
+      "name": "Rayman Contre Les Lapins Encore + Crétins",
+      "tracks": [
+        {
+          "key": "making fun|rayman contre les lapins encore cretins",
+          "title": "Making Fun (Of Every Day Life)",
+          "credit": "Rayman Contre Les Lapins Encore + Crétins",
+          "firstKey": "2007-51",
+          "firstDate": "17/12/2007",
+          "lastKey": "2008-15",
+          "lastDate": "07/04/2008",
+          "weeks": 16,
+          "peak": 49,
+          "peakKey": "2008-02",
+          "peakDate": "07/01/2008"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 16,
+      "bestPeak": 49,
+      "firstYear": 2007,
+      "lastYear": 2008,
+      "firstKey": "2007-51",
+      "firstDate": "17/12/2007",
+      "lastKey": "2008-15",
+      "lastDate": "07/04/2008"
     },
     {
       "id": "davina",
@@ -152381,34 +152409,6 @@
       "lastDate": "14/01/2002"
     },
     {
-      "id": "rayman contre les lapins encore cretins",
-      "name": "Rayman Contre Les Lapins Encore + Crétins",
-      "tracks": [
-        {
-          "key": "making fun|rayman contre les lapins encore cretins",
-          "title": "Making Fun (Of Every Day Life)",
-          "credit": "Rayman Contre Les Lapins Encore + Crétins",
-          "firstKey": "2007-51",
-          "firstDate": "17/12/2007",
-          "lastKey": "2008-15",
-          "lastDate": "07/04/2008",
-          "weeks": 15,
-          "peak": 49,
-          "peakKey": "2008-02",
-          "peakDate": "07/01/2008"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 15,
-      "bestPeak": 49,
-      "firstYear": 2007,
-      "lastYear": 2008,
-      "firstKey": "2007-51",
-      "firstDate": "17/12/2007",
-      "lastKey": "2008-15",
-      "lastDate": "07/04/2008"
-    },
-    {
       "id": "iio",
       "name": "iiO",
       "tracks": [
@@ -152519,6 +152519,34 @@
       "firstDate": "16/04/2007",
       "lastKey": "2007-40",
       "lastDate": "01/10/2007"
+    },
+    {
+      "id": "amy macdonald",
+      "name": "Amy Macdonald",
+      "tracks": [
+        {
+          "key": "this is the life|amy macdonald",
+          "title": "This Is The Life",
+          "credit": "Amy Macdonald",
+          "firstKey": "2008-43",
+          "firstDate": "20/10/2008",
+          "lastKey": "2009-04",
+          "lastDate": "19/01/2009",
+          "weeks": 14,
+          "peak": 2,
+          "peakKey": "2008-43",
+          "peakDate": "20/10/2008"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 14,
+      "bestPeak": 2,
+      "firstYear": 2008,
+      "lastYear": 2009,
+      "firstKey": "2008-43",
+      "firstDate": "20/10/2008",
+      "lastKey": "2009-04",
+      "lastDate": "19/01/2009"
     },
     {
       "id": "dora l exploratrice",
@@ -155795,34 +155823,6 @@
       "firstDate": "30/07/2012",
       "lastKey": "2012-43",
       "lastDate": "22/10/2012"
-    },
-    {
-      "id": "amy macdonald",
-      "name": "Amy Macdonald",
-      "tracks": [
-        {
-          "key": "this is the life|amy macdonald",
-          "title": "This Is The Life",
-          "credit": "Amy Macdonald",
-          "firstKey": "2008-43",
-          "firstDate": "20/10/2008",
-          "lastKey": "2009-04",
-          "lastDate": "19/01/2009",
-          "weeks": 13,
-          "peak": 2,
-          "peakKey": "2008-43",
-          "peakDate": "20/10/2008"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 13,
-      "bestPeak": 2,
-      "firstYear": 2008,
-      "lastYear": 2009,
-      "firstKey": "2008-43",
-      "firstDate": "20/10/2008",
-      "lastKey": "2009-04",
-      "lastDate": "19/01/2009"
     },
     {
       "id": "love united",
@@ -202135,6 +202135,34 @@
       "firstDate": "03/10/1994",
       "lastKey": "1994-40",
       "lastDate": "03/10/1994"
+    },
+    {
+      "id": "il avait les mots",
+      "name": "Il avait les mots",
+      "tracks": [
+        {
+          "key": "11|il avait les mots",
+          "title": "11",
+          "credit": "Il avait les mots",
+          "firstKey": "2008-15",
+          "firstDate": "07/04/2008",
+          "lastKey": "2008-15",
+          "lastDate": "07/04/2008",
+          "weeks": 1,
+          "peak": 46,
+          "peakKey": "2008-15",
+          "peakDate": "07/04/2008"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 46,
+      "firstYear": 2008,
+      "lastYear": 2008,
+      "firstKey": "2008-15",
+      "firstDate": "07/04/2008",
+      "lastKey": "2008-15",
+      "lastDate": "07/04/2008"
     },
     {
       "id": "los portos",
