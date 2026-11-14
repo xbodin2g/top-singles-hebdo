@@ -1,521 +1,86 @@
 [
   {
-    "key": "1995-02",
+    "key": "1993-47",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      10
+      43
     ],
     "gaps_after": [],
     "recovered": {
-      "10": "Debbie Davis — L'histoire de la vie"
+      "43": "U2 — Stay (Faraway, So Close!)"
     },
     "still_missing": []
   },
   {
-    "key": "1995-03",
+    "key": "1993-48",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      5
+      34
     ],
     "gaps_after": [],
     "recovered": {
-      "5": "Whigfield — Saturday Night"
+      "34": "U2 — Stay (Faraway, So Close!)"
     },
     "still_missing": []
   },
   {
-    "key": "1995-05",
+    "key": "1993-49",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      9
+      33
     ],
     "gaps_after": [],
     "recovered": {
-      "9": "Ini Kamoze — Here Comes The Hotstepper"
+      "33": "U2 — Stay (Faraway, So Close!)"
     },
     "still_missing": []
   },
   {
-    "key": "1995-06",
+    "key": "1993-50",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      11
+      32
     ],
     "gaps_after": [],
     "recovered": {
-      "11": "Warren G & Nate Dogg — Regulate"
+      "32": "U2 — Stay (Faraway, So Close!)"
     },
     "still_missing": []
   },
   {
-    "key": "1995-07",
+    "key": "1993-51",
     "status": "ok",
-    "entries_before": 48,
+    "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      17,
       26
     ],
     "gaps_after": [],
     "recovered": {
-      "17": "Masterboy — Is This The Love",
-      "26": "Magic Affair — In The Middle Of The Night"
+      "26": "U2 — Stay (Faraway, So Close!)"
     },
     "still_missing": []
   },
   {
-    "key": "1995-09",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      3,
-      22
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "20 Fingers feat. Gillette — Short Dick Man",
-      "22": "U 96 — Love Religion"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1995-12",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      10,
-      18
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "10": "Janet Jackson — Whoops Now",
-      "18": "Urge Overkill — Girl, You'll Be A Woman Soon"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1995-13",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      5,
-      23
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "5": "Edwyn Collins — A Girl Like You",
-      "23": "Debbie Davis — L'histoire de la vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1995-17",
+    "key": "1993-52",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      13
+      30
     ],
     "gaps_after": [],
     "recovered": {
-      "13": "Axelle Red — Je t'attends"
+      "30": "U2 — Stay (Faraway, So Close!)"
     },
     "still_missing": []
-  },
-  {
-    "key": "1995-24",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      41
-    ],
-    "gaps_after": [
-      41
-    ],
-    "recovered": {},
-    "still_missing": [
-      41
-    ]
-  },
-  {
-    "key": "1995-25",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 49,
-    "gaps_before": [
-      17,
-      24
-    ],
-    "gaps_after": [
-      17
-    ],
-    "recovered": {
-      "24": "Winx — Don't Laugh"
-    },
-    "still_missing": [
-      17
-    ]
-  },
-  {
-    "key": "1995-26",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 49,
-    "gaps_before": [
-      11,
-      16
-    ],
-    "gaps_after": [
-      16
-    ],
-    "recovered": {
-      "11": "Masterboy — Megamix"
-    },
-    "still_missing": [
-      16
-    ]
-  },
-  {
-    "key": "1995-27",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      16
-    ],
-    "gaps_after": [
-      16
-    ],
-    "recovered": {},
-    "still_missing": [
-      16
-    ]
-  },
-  {
-    "key": "1995-28",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 49,
-    "gaps_before": [
-      14,
-      23
-    ],
-    "gaps_after": [
-      14
-    ],
-    "recovered": {
-      "23": "No Sé feat. Ménélik — Quelle aventure !"
-    },
-    "still_missing": [
-      14
-    ]
-  },
-  {
-    "key": "1995-29",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 49,
-    "gaps_before": [
-      12,
-      13
-    ],
-    "gaps_after": [
-      12
-    ],
-    "recovered": {
-      "13": "Bon Jovi — This Ain't A Love Song"
-    },
-    "still_missing": [
-      12
-    ]
-  },
-  {
-    "key": "1995-30",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      10
-    ],
-    "gaps_after": [
-      10
-    ],
-    "recovered": {},
-    "still_missing": [
-      10
-    ]
-  },
-  {
-    "key": "1995-31",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      13
-    ],
-    "gaps_after": [
-      13
-    ],
-    "recovered": {},
-    "still_missing": [
-      13
-    ]
-  },
-  {
-    "key": "1995-32",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      14
-    ],
-    "gaps_after": [
-      14
-    ],
-    "recovered": {},
-    "still_missing": [
-      14
-    ]
-  },
-  {
-    "key": "1995-33",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      12
-    ],
-    "gaps_after": [
-      12
-    ],
-    "recovered": {},
-    "still_missing": [
-      12
-    ]
-  },
-  {
-    "key": "1995-34",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      17
-    ],
-    "gaps_after": [
-      17
-    ],
-    "recovered": {},
-    "still_missing": [
-      17
-    ]
-  },
-  {
-    "key": "1995-35",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      15
-    ],
-    "gaps_after": [
-      15
-    ],
-    "recovered": {},
-    "still_missing": [
-      15
-    ]
-  },
-  {
-    "key": "1995-36",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      17
-    ],
-    "gaps_after": [
-      17
-    ],
-    "recovered": {},
-    "still_missing": [
-      17
-    ]
-  },
-  {
-    "key": "1995-37",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      22
-    ],
-    "gaps_after": [
-      22
-    ],
-    "recovered": {},
-    "still_missing": [
-      22
-    ]
-  },
-  {
-    "key": "1995-38",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      24
-    ],
-    "gaps_after": [
-      24
-    ],
-    "recovered": {},
-    "still_missing": [
-      24
-    ]
-  },
-  {
-    "key": "1995-39",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 49,
-    "gaps_before": [
-      4,
-      26
-    ],
-    "gaps_after": [
-      26
-    ],
-    "recovered": {
-      "4": "Sacred Spirit — Yeha-noha (Wishes Of Happin..."
-    },
-    "still_missing": [
-      26
-    ]
-  },
-  {
-    "key": "1995-40",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      43
-    ],
-    "gaps_after": [
-      43
-    ],
-    "recovered": {},
-    "still_missing": [
-      43
-    ]
-  },
-  {
-    "key": "1995-41",
-    "status": "ok",
-    "entries_before": 47,
-    "entries_after": 49,
-    "gaps_before": [
-      8,
-      14,
-      43
-    ],
-    "gaps_after": [
-      43
-    ],
-    "recovered": {
-      "8": "Mylène Farmer — XXL",
-      "14": "Masterboy — Generation Of Love"
-    },
-    "still_missing": [
-      43
-    ]
-  },
-  {
-    "key": "1995-42",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 49,
-    "gaps_before": [
-      18,
-      50
-    ],
-    "gaps_after": [
-      50
-    ],
-    "recovered": {
-      "18": "Sister Queen — Let Me Be A Drag Queen"
-    },
-    "still_missing": [
-      50
-    ]
-  },
-  {
-    "key": "1995-43",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      12,
-      24
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "12": "The Connells — '74-'75",
-      "24": "The Presidents Of The United States Of America — Lump"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1995-44",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      42
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "42": "Elton John — Blessed"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1995-48",
-    "status": "rejetee",
-    "lost": {
-      "20": "Nirvana — Singles"
-    }
-  },
-  {
-    "key": "1995-49",
-    "status": "rejetee",
-    "lost": {
-      "26": "Nirvana — Singles"
-    }
-  },
-  {
-    "key": "1995-51",
-    "status": "rejetee",
-    "lost": {
-      "24": "Nirvana — Singles"
-    }
-  },
-  {
-    "key": "1995-52",
-    "status": "rejetee",
-    "lost": {
-      "32": "Nirvana — Singles"
-    }
   }
 ]
