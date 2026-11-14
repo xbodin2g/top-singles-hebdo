@@ -2,20 +2,16 @@
 """
 Archives Top singles français — 3 sources :
   1. top-archives.fr    (1984 → 1993 S35)
-  2. chartsinfrance.net (1993 S36 → 2026 avril)
+  2. chartsinfrance.net (1993 S36 → 2014 S15)
   3. snepmusique.com    (2014 S16 → aujourd'hui, officiel)
 
-Stratégie :
-  < 1993   : top-archives.fr
-  == 1993  : S01-S35 top-archives, S36+ chartsinfrance
-  1994-2013: chartsinfrance.net
-  == 2014  : S01-S15 chartsinfrance, S16+ SNEP
-  >= 2015  : SNEP prioritaire, chartsinfrance en fallback
+Paliers de taille publiés par chartsinfrance (mesurés) :
+  < 1998-10 : 50   |  1998-10 → 2012-05 : 100  |  >= 2012-06 : 25
 
-Corrections permanentes :
-  - data/track_overrides.json appliqué à chaque sauvegarde
-    (actions : rename / delete)
-  - garde anti-entrées-fantômes dans le parser chartsinfrance
+Corrections :
+  - data/track_overrides.json appliqué à chaque sauvegarde (rename / delete)
+  - garde-fou anti-fantômes à deux niveaux (dur / souple)
+  - artistes et titres courts acceptés (U2, M, 19, 7…)
 """
 
 import json
@@ -44,13 +40,38 @@ SNEP_START_WEEK = 16
 TOP_ARCHIVES_END_YEAR = 1993
 TOP_ARCHIVES_END_WEEK = 35
 
-# Tokens d'interface chartsinfrance qui ne doivent JAMAIS devenir un titre/artiste.
-# Sans ce garde-fou, un fantôme prend la place d'un vrai titre lors de la déduplication.
-UI_JUNK_TOKENS = {
-    'timeline', 'voir les stats', 'star', 'n°', 'singles',
+# Tokens qui ne sont JAMAIS un titre ni un artiste réel.
+# Rejet si l'UN des deux champs correspond.
+UI_HARD_JUNK = {
+    'timeline', 'voir les stats', 'n°',
     'arrow_right', 'arrow_top', 'arrow_bot', 'arrow',
     'chevron_right', 'chevron_bot', 'chevron_left', 'chevron',
 }
+
+# Tokens ambigus : ce sont aussi de vrais titres ("Singles" de Nirvana,
+# "Star" de La Clinique / Teri Moïse). Rejet seulement si les DEUX
+# champs sont des tokens d'interface.
+UI_SOFT_JUNK = {'singles', 'star'}
+
+
+def _junk_kind(value):
+    v = str(value or "").strip().lower()
+    if v in UI_HARD_JUNK:
+        return "hard"
+    if v in UI_SOFT_JUNK:
+        return "soft"
+    return None
+
+
+def is_phantom(title, artist):
+    """True si l'entrée est un artefact d'interface, pas un vrai titre."""
+    kt = _junk_kind(title)
+    ka = _junk_kind(artist)
+    if kt == "hard" or ka == "hard":
+        return True
+    if kt == "soft" and ka == "soft":
+        return True
+    return False
 
 
 # ===== OVERRIDES DE TITRES =====
@@ -74,7 +95,6 @@ def _is_numeric_title(t):
 
 
 def _load_overrides():
-    """Charge une seule fois la table de corrections (rename / delete)."""
     global _overrides_cache
     if _overrides_cache is not None:
         return _overrides_cache
@@ -112,10 +132,6 @@ def _load_overrides():
 
 
 def apply_track_overrides(cache):
-    """
-    Applique rename / delete à tout le cache. Idempotent.
-    Retourne le nombre d'entrées modifiées ou supprimées.
-    """
     rules = _load_overrides()
     if not rules:
         return 0
@@ -296,7 +312,7 @@ def parse_toparchives_html(soup):
                 artist = parts[0] if parts else ""
                 title = parts[1] if len(parts) > 1 else ""
 
-            if artist and title:
+            if artist and title and not is_phantom(title, artist):
                 entries.append({
                     "position": rank,
                     "track": {"title": title, "artist": artist},
@@ -311,7 +327,6 @@ def parse_toparchives_html(soup):
 # ===== SOURCE 2 : chartsinfrance.net =====
 
 def fetch_chartsinfrance_week(year, week, cache):
-    """Format URL : /charts/YYNN/singles.php?page=X"""
     cache_key = f"{year}-{week:02d}"
     if cache_key in cache:
         return True
@@ -371,8 +386,6 @@ def fetch_chartsinfrance_week(year, week, cache):
 
     all_entries.sort(key=lambda x: x["position"])
 
-    # Déduplication : la première entrée valide par position gagne.
-    # Les fantômes sont déjà filtrés en amont par le parser.
     seen = set()
     unique_entries = []
     for entry in all_entries:
@@ -403,8 +416,12 @@ def fetch_chartsinfrance_week(year, week, cache):
 def parse_chartsinfrance_html(html_text):
     """
     Structure : Position → Titre → Artiste → arrow_XXX → Valeur → timeline → Voir les stats
-    Le mouvement est APRÈS l'artiste : ne pas casser la boucle trop tôt.
-    Garde anti-fantômes : un token d'interface ne peut pas être titre ni artiste.
+
+    Corrections V2 :
+      - longueurs minimales ramenées à 1 : "U2" (2 car.) était rejeté,
+        ainsi que les titres courts comme "19" ou "7"
+      - garde-fou à deux niveaux : "Singles" (Nirvana) et "Star"
+        (La Clinique, Teri Moïse) sont de vrais titres, pas des fantômes
     """
     entries = []
     soup = BeautifulSoup(html_text, 'html.parser')
@@ -458,12 +475,9 @@ def parse_chartsinfrance_html(html_text):
                             previous_pos = None
                             break
 
-                    # --- Garde anti-entrées-fantômes ---
-                    t_junk = title.strip().lower() in UI_JUNK_TOKENS
-                    a_junk = artist.strip().lower() in UI_JUNK_TOKENS
-
-                    if (title and artist and len(title) > 2 and len(artist) > 2
-                            and not t_junk and not a_junk):
+                    if (title and artist
+                            and len(title) >= 1 and len(artist) >= 1
+                            and not is_phantom(title, artist)):
                         if not any(kw in title.lower() for kw in
                                    ['semaine', 'top singles', 'charts', 'classement']):
                             entries.append({
@@ -564,7 +578,8 @@ def parse_snep_html(html_text):
     Structure : Position → Titre → Artiste → LABEL
                 → [nombre] → [e] → La Semaine Dernière
                 → [nombre] → [e] → Semaine dans le Top
-    Le nombre et son suffixe sont sur des lignes SÉPARÉES.
+
+    Même correction de longueur que chartsinfrance : "U2" était rejeté.
     """
     entries = []
     soup = BeautifulSoup(html_text, 'html.parser')
@@ -629,7 +644,9 @@ def parse_snep_html(html_text):
                                     movement = "new"
                                     previous_pos = None
 
-                    if title and artist and len(title) > 2 and len(artist) > 2:
+                    if (title and artist
+                            and len(title) >= 1 and len(artist) >= 1
+                            and not is_phantom(title, artist)):
                         if not any(kw in title.lower() for kw in
                                    ['semaine', 'top radio', 'actualités', 'les tops', 'news', 'newsletter']):
                             entries.append({
