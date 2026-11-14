@@ -7,16 +7,20 @@ Archives Top singles français — 3 sources :
 
 Paliers de taille publiés par chartsinfrance (mesurés) :
   < 1998-10 : 50   |  1998-10 → 2012-05 : 100  |  >= 2012-06 : 25
-Attention : ce sont des plafonds. Certaines semaines publient moins
+Ce sont des plafonds : certaines semaines publient moins
 (ex. 2000-44 s'arrête à 98, 2011-47 à 25).
 
 Corrections cumulées :
   - data/track_overrides.json appliqué à chaque sauvegarde (rename / delete)
   - garde-fou anti-fantômes à deux niveaux (dur / souple) :
     "Singles" (Nirvana) et "Star" (La Clinique, Teri Moïse) sont de vrais titres
-  - longueurs minimales ramenées à 1 : "U2" (2 car.) était rejeté
+  - longueurs minimales ramenées à 1 : "U2" et "LP" (2 car.) étaient rejetés
   - filtre d'en-têtes par correspondance EXACTE / préfixe :
     "3 nuits par semaine" (Brett) était rejeté car il contient "semaine"
+  - SNEP : validation structurelle par ancrage sur "La Semaine Dernière".
+    Sans elle, les nombres de métadonnée (position précédente, nombre de
+    semaines) étaient pris pour des positions et engendraient des fantômes
+    "La Semaine Dernière — e" qui écrasaient les vrais titres.
 """
 
 import json
@@ -622,12 +626,17 @@ def fetch_snep_week(year, week, cache):
 
 def parse_snep_html(html_text):
     """
-    Structure : Position → Titre → Artiste → LABEL
-                → [nombre] → [e] → La Semaine Dernière
-                → [nombre] → [e] → Semaine dans le Top
-    Le nombre et son suffixe sont sur des lignes SÉPARÉES.
+    Structure SNEP, après la ligne de position :
+      [titre, artiste, (label), valeur_préc, e, "La Semaine Dernière",
+       semaines, e, "Semaine dans le Top"]
 
-    Mêmes filtres que chartsinfrance : longueurs >= 1, is_phantom, is_ui_title.
+    Validation structurelle : "La Semaine Dernière" doit être à l'index 4
+    (sans label) ou 5 (avec label) du bloc. Sans ce contrôle, les nombres
+    de métadonnée (position précédente, nombre de semaines) sont pris pour
+    des positions et engendrent des fantômes "La Semaine Dernière — e"
+    qui écrasent les vrais titres par déduplication.
+
+    Après une entrée validée, on saute ses métadonnées.
     """
     entries = []
     soup = BeautifulSoup(html_text, 'html.parser')
@@ -635,79 +644,84 @@ def parse_snep_html(html_text):
     text = soup.get_text(separator='\n', strip=True)
     lines = [line.strip() for line in text.split('\n') if line.strip()]
 
-    known_labels = [
-        'SONY MUSIC', 'UNIVERSAL', 'WARNER MUSIC', 'BELIEVE',
-        'WAGRAM', 'WAGRAM MUSIC', 'IDOL', 'SCORPIO', 'HAPPY MUSIC',
-        'THIRTY KNOTS', 'NOJOKE RECORDS', 'AWAL', 'EMPIRE',
-        'BECAUSE MUSIC', 'LEVEL UP MUSIC', 'YPDP', 'ARGENTIC MUSIC',
-        'STMPD RCRDS', 'FIDEL', 'TRINITY', 'LORE', 'THE ORCHARD',
-        'UNIVERSAL MUSIC', 'POLYDOR', 'VIRGIN', 'PARLOPHONE',
-        'EPIC', 'COLUMBIA', 'RCA', 'ATLANTIC', 'ELEKTRA', 'DEF JAM',
-        'PLAY TWO', 'EARLY BIRD', 'TÔT OU TARD', 'NAÏVE', 'PIAS',
-        'WARNER', 'SONY', 'BECAUSE', '3EME OEIL'
-    ]
-    known_labels_upper = [lbl.upper().strip() for lbl in known_labels]
+    LSD = "La Semaine Dernière"
+    SDT = "Semaine dans le Top"
 
+    n = len(lines)
     i = 0
-    while i < len(lines):
-        pos_match = re.match(r'^(\d{1,3})$', lines[i])
+    while i < n:
+        if not re.fullmatch(r"\d{1,3}", lines[i]):
+            i += 1
+            continue
 
-        if pos_match:
-            position = int(pos_match.group(1))
+        position = int(lines[i])
+        if not 1 <= position <= 200:
+            i += 1
+            continue
 
-            if 1 <= position <= 200:
-                block = []
-                for j in range(i + 1, min(i + 13, len(lines))):
-                    block.append(lines[j])
+        block = lines[i + 1:min(i + 14, n)]
+        if len(block) < 6:
+            i += 1
+            continue
 
-                if len(block) >= 5:
-                    title = block[0]
-                    artist = block[1]
-                    label = ""
+        # --- ancrage structurel ---
+        lsd = None
+        for k in range(2, min(7, len(block))):
+            if block[k] == LSD:
+                lsd = k
+                break
+        if lsd not in (4, 5):
+            i += 1
+            continue
+
+        title = block[0]
+        artist = block[1]
+        label = block[2] if lsd == 5 else None
+
+        previous_pos = None
+        movement = "same"
+        weeks_on_chart = 1
+
+        # valeur de position précédente : 2 lignes avant LSD
+        pv = block[lsd - 2]
+        if re.fullmatch(r"\d{1,3}", pv):
+            previous_pos = int(pv)
+            if previous_pos > position:
+                movement = "up"
+            elif previous_pos < position:
+                movement = "down"
+
+        # nombre de semaines : 2 lignes avant SDT
+        sdt = None
+        for k in range(lsd + 1, min(lsd + 5, len(block))):
+            if block[k] == SDT:
+                sdt = k
+                break
+        if sdt is not None and sdt >= 2:
+            wv = block[sdt - 2]
+            if re.fullmatch(r"\d{1,3}", wv):
+                weeks_on_chart = int(wv)
+                if weeks_on_chart == 1:
+                    movement = "new"
                     previous_pos = None
-                    movement = "same"
-                    weeks_on_chart = 1
 
-                    if len(block) > 2 and block[2].upper() in known_labels_upper:
-                        label = block[2]
-                        data_start = 3
-                    else:
-                        data_start = 2
+        if (title and artist
+                and len(title) >= 1 and len(artist) >= 1
+                and not is_phantom(title, artist)
+                and not is_ui_title(title)):
+            entries.append({
+                "position": position,
+                "track": {"title": title, "artist": artist},
+                "label": label if label else None,
+                "previousPosition": previous_pos,
+                "movement": movement,
+                "weeksOnChart": weeks_on_chart,
+                "peakPosition": position,
+                "source": "snep"
+            })
 
-                    for k, bline in enumerate(block[data_start:], start=data_start):
-                        if 'La Semaine Dernière' in bline:
-                            if k >= 2 and block[k - 2].isdigit():
-                                previous_pos = int(block[k - 2])
-                                if previous_pos > position:
-                                    movement = "up"
-                                elif previous_pos < position:
-                                    movement = "down"
-                                else:
-                                    movement = "same"
-
-                        elif 'Semaine dans le Top' in bline:
-                            if k >= 2 and block[k - 2].isdigit():
-                                weeks_on_chart = int(block[k - 2])
-                                if weeks_on_chart == 1:
-                                    movement = "new"
-                                    previous_pos = None
-
-                    if (title and artist
-                            and len(title) >= 1 and len(artist) >= 1
-                            and not is_phantom(title, artist)):
-                        if not is_ui_title(title):
-                            entries.append({
-                                "position": position,
-                                "track": {"title": title, "artist": artist},
-                                "label": label if label else None,
-                                "previousPosition": previous_pos,
-                                "movement": movement,
-                                "weeksOnChart": weeks_on_chart,
-                                "peakPosition": position,
-                                "source": "snep"
-                            })
-
-        i += 1
+        # sauter au-delà des métadonnées de cette entrée
+        i = i + 1 + ((sdt + 1) if sdt is not None else (lsd + 1))
 
     return entries
 
