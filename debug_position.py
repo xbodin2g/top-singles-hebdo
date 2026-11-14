@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """
 Diagnostique pourquoi une position est ignorée. Lecture seule.
-Sources supportées : chartsinfrance.net, snepmusique.com.
+Sources : chartsinfrance.net, snepmusique.com.
 
-Usage :
-  python debug_position.py --key 2016-38 --position 5
-  python debug_position.py --key 2005-15 --position 33
+Pour SNEP, affiche l'index de "La Semaine Dernière" dans le bloc :
+c'est le critère de validation structurelle (attendu 4 ou 5).
 """
 import re, argparse, requests
 from bs4 import BeautifulSoup
 import fetch_archive_batch as fab
+
+LSD = "La Semaine Dernière"
+SDT = "Semaine dans le Top"
 
 
 def build_urls(key, source):
@@ -32,8 +34,7 @@ def main():
     ap.add_argument("--context", type=int, default=14)
     args = ap.parse_args()
 
-    key = args.key.strip()
-    m = re.match(r"^(\d{4})-(\d{1,2})$", key)
+    m = re.match(r"^(\d{4})-(\d{1,2})$", args.key.strip())
     if not m:
         print("❌ format attendu AAAA-SS")
         return
@@ -41,12 +42,10 @@ def main():
     target = args.position
 
     cache = fab.load_retro_cache()
-    arch = cache.get(key) or {}
-    source = arch.get("source", "chartsinfrance.net")
-
+    source = (cache.get(key) or {}).get("source", "chartsinfrance.net")
     urls, kind = build_urls(key, source)
     if not urls:
-        print(f"❌ source non supportée pour le diagnostic : {source}")
+        print(f"❌ source non supportée : {source}")
         return
 
     print(f"🔬 {key} — position #{target}  (source : {source})")
@@ -83,9 +82,11 @@ def main():
         else:
             print(f"  ⚪ rien de parsé pour #{target}")
 
-        hits = [i for i, l in enumerate(lines)
-                if (re.match(r"^(?:_star_\s*|star\s*)?(\d{1,3})$", l)
-                    and int(re.match(r"^(?:_star_\s*|star\s*)?(\d{1,3})$", l).group(1)) == target)]
+        hits = []
+        for i, l in enumerate(lines):
+            mm = re.match(r"^(?:_star_\s*|star\s*)?(\d{1,3})$", l)
+            if mm and int(mm.group(1)) == target:
+                hits.append(i)
 
         if not hits:
             print(f"  (aucune ligne ne ressemble à la position {target})")
@@ -99,13 +100,25 @@ def main():
                 mark = ">>>" if j == i else "   "
                 print(f"  {mark} [{j:5d}] {lines[j][:90]}")
 
-            # verdict des filtres sur le bloc trouvé
+            block = lines[i + 1:min(i + 14, len(lines))]
             if i + 2 < len(lines):
                 t, a = lines[i + 1], lines[i + 2]
                 print(f"\n  filtres sur title={t!r} / artist={a!r} :")
                 print(f"    is_phantom   : {fab.is_phantom(t, a)}")
                 print(f"    is_ui_title  : {fab.is_ui_title(t)}")
                 print(f"    longueur ok  : {len(t) >= 1 and len(a) >= 1}")
+
+            if kind == "snep":
+                lsd = next((k for k in range(2, min(7, len(block))) if block[k] == LSD), None)
+                sdt = None
+                if lsd is not None:
+                    sdt = next((k for k in range(lsd + 1, min(lsd + 5, len(block))) if block[k] == SDT), None)
+                print(f"\n  validation structurelle SNEP :")
+                print(f"    longueur du bloc : {len(block)}  (minimum 6)")
+                print(f"    index de '{LSD}' : {lsd}   → attendu 4 ou 5")
+                print(f"    index de '{SDT}' : {sdt}")
+                print(f"    verdict : {'ACCEPTÉ' if lsd in (4, 5) else 'REJETÉ (ancrage)'}")
+                print(f"    bloc[0..8] : {block[:9]}")
 
         near = [e for e in parsed if abs(e.get("position", 0) - target) <= 2]
         if near:
@@ -116,7 +129,7 @@ def main():
 
     print("\n" + "=" * 74)
     if not found:
-        print(f"Aucune ligne #{target} trouvée. La position n'est peut-être pas publiée.")
+        print(f"Aucune ligne #{target} trouvée. Position peut-être non publiée.")
     print("Ce script n'a rien modifié.")
 
 
