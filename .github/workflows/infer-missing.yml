@@ -1,0 +1,70 @@
+name: Infer Missing Positions
+
+on:
+  workflow_dispatch:
+    inputs:
+      keys:
+        description: 'Semaines (séparées par virgules, vide = toutes)'
+        required: false
+        default: ''
+      mode:
+        description: 'dry-run = aperçu / apply = enregistrer'
+        required: true
+        default: 'dry-run'
+        type: choice
+        options:
+          - dry-run
+          - apply
+
+permissions:
+  contents: write
+
+concurrency:
+  group: infer-missing
+  cancel-in-progress: false
+
+jobs:
+  infer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build arguments
+        id: args
+        run: |
+          A=""
+          if [ -n "${{ inputs.keys }}" ]; then
+            A="--keys ${{ inputs.keys }}"
+          fi
+          if [ "${{ inputs.mode }}" = "apply" ]; then
+            A="$A --apply"
+          fi
+          echo "flags=$A" >> "$GITHUB_OUTPUT"
+
+      - name: Run inference
+        run: python infer_missing_positions.py ${{ steps.args.outputs.flags }}
+
+      - name: Commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/missing_inferred_report.json
+          if [ "${{ inputs.mode }}" = "apply" ]; then
+            git add data/cache/retro_archives.json
+          fi
+          if git diff --staged --quiet; then
+            echo "Aucun changement"
+            exit 0
+          fi
+          git commit -m "Inference positions manquantes (${{ inputs.mode }})"
+          git pull --rebase origin main
+          git push origin main
