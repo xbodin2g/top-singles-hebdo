@@ -45,6 +45,10 @@ jobs:
         run: |
           python sync_current_week_to_retro.py
 
+      - name: Rebuild artist index
+        run: |
+          python build_artist_index.py
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
@@ -57,6 +61,6 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update weekly charts + sync retro - $(date +%Y-%m-%d)"
+          git commit -m "Update weekly charts + sync retro + rebuild artist index - $(date +%Y-%m-%d)"
           git pull --rebase origin main
           git push origin main
