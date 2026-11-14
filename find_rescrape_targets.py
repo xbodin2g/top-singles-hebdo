@@ -26,7 +26,7 @@ def expected_size(key, source):
     if "top-archives" in s:
         return 50
     if "chartsinfrance" in s:
-        if k >= "2014-01":
+        if k >= "2012-06":
             return 25
         if k >= "1998-10":
             return 100
