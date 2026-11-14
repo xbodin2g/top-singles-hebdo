@@ -14,7 +14,7 @@ from collections import defaultdict
 
 CACHE = "data/cache/retro_archives.json"
 SWITCH_TOP100 = "1998-10"   # 05/03/1998 : passage au Top 100
-SWITCH_TOP25  = "2014-01"   # 2014 : chartsinfrance ne publie plus que 25 titres
+SWITCH_TOP25  = "2012-06"   # ~06/02/2012 : passage au Top 25 (mesuré)
 
 
 def expected_size(key, source):
