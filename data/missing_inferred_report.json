@@ -1,0 +1,19 @@
+[
+  {
+    "key": "2010-17",
+    "inferred": [
+      {
+        "hole": 11,
+        "status": "inferable",
+        "next_key": "2010-18",
+        "next_position": 19,
+        "artist": "Ke$ha",
+        "title": "TiK ToK",
+        "label": null,
+        "movement": "down"
+      }
+    ],
+    "non_inferable": [],
+    "no_next": []
+  }
+]
