@@ -1,500 +1,701 @@
 [
   {
-    "key": "2004-01",
+    "key": "2005-01",
     "status": "ok",
-    "entries_before": 96,
+    "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      7,
-      42,
-      49,
-      82
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "7": "The Rasmus — In The Shadows",
-      "42": "Diam's — DJ",
-      "49": "Les Filles — J'attendrai",
-      "82": "3T — Stuck On You"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-02",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      49,
       51,
-      56
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "49": "M — Qui de nous deux",
-      "51": "Diam's — DJ",
-      "56": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-03",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      40,
-      53,
-      54
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "40": "M — Qui de nous deux",
-      "53": "L5 — Toutes les femmes de ta vie",
-      "54": "Diam's — DJ"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-04",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      46,
-      55,
-      85
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "46": "M — Qui de nous deux",
-      "55": "Diam's — DJ",
-      "85": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-05",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      53,
-      63
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "53": "M — Qui de nous deux",
-      "63": "Diam's — DJ"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-06",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      52,
-      69
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "52": "M — Qui de nous deux",
-      "69": "Diam's — DJ"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-07",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      59,
-      74
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "59": "M — Qui de nous deux",
-      "74": "Diam's — DJ"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-08",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      64,
-      80
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "64": "M — Qui de nous deux",
-      "80": "Diam's — DJ"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-09",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      53,
-      62,
-      66
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "53": "M — Qui de nous deux",
-      "62": "Beyoncé feat. Sean Paul — Baby Boy",
-      "66": "Diam's — DJ"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-10",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      61,
-      87
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "61": "M — Qui de nous deux",
-      "87": "Diam's — DJ"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-11",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      68,
-      72
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "68": "Syndicate Of Law — Right On Time",
-      "72": "M — Qui de nous deux"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-12",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      4,
-      59,
-      71
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Emma Daumas — Tu seras",
-      "59": "3T — Sex Appeal",
-      "71": "M — Qui de nous deux"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-13",
-    "status": "ok",
-    "entries_before": 95,
-    "entries_after": 100,
-    "gaps_before": [
-      42,
-      46,
-      76,
-      77,
-      85
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "42": "Daho & Gainsbourg — If",
-      "46": "3T — Sex Appeal",
-      "76": "Douty — Tout le monde dit",
-      "77": "Alicia Keys — You Don't Know My Name",
-      "85": "M — Qui de nous deux"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-14",
-    "status": "ok",
-    "entries_before": 96,
-    "entries_after": 100,
-    "gaps_before": [
-      34,
-      43,
-      54,
-      90
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "34": "3T — Sex Appeal",
-      "43": "Daho & Gainsbourg — If",
-      "54": "Star Academy 3 — L'orange / Wot",
-      "90": "M — Qui de nous deux"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-15",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      46,
-      52,
       95
     ],
     "gaps_after": [],
     "recovered": {
-      "46": "3T — Sex Appeal",
-      "52": "Daho & Gainsbourg — If",
-      "95": "M — Qui de nous deux"
+      "51": "U2 — Vertigo",
+      "95": "M — Ma mélodie"
     },
     "still_missing": []
   },
   {
-    "key": "2004-17",
+    "key": "2005-02",
     "status": "ok",
     "entries_before": 97,
     "entries_after": 100,
     "gaps_before": [
-      53,
-      63,
-      68
+      3,
+      52,
+      79
     ],
     "gaps_after": [],
     "recovered": {
-      "53": "Daho & Gainsbourg — If",
-      "63": "3T — Sex Appeal",
-      "68": "Rohff — 94"
+      "3": "Lynnsha feat. D. Dy — Hommes... femmes",
+      "52": "U2 — Vertigo",
+      "79": "The Pirates feat. Enya, Shola Ama, Naila Boss & Ishani — You Should Really Know"
     },
     "still_missing": []
   },
   {
-    "key": "2004-18",
+    "key": "2005-03",
+    "status": "ok",
+    "entries_before": 96,
+    "entries_after": 100,
+    "gaps_before": [
+      54,
+      56,
+      58,
+      98
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "54": "Élodie Frégé — Je te dis non",
+      "56": "U2 — Vertigo",
+      "58": "Stop / Superstar — 31",
+      "98": "M — Ma mélodie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-04",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      53,
+      65
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "53": "Indra & Frédéric Lerner — Besoin de vous",
+      "65": "U2 — Vertigo"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-05",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      51,
+      61,
+      65
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "51": "Indra & Frédéric Lerner — Besoin de vous",
+      "61": "Élodie Frégé — Je te dis non",
+      "65": "U2 — Vertigo"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-06",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      65,
+      67
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "65": "U2 — Sometimes You Can't Make It...",
+      "67": "U2 — Vertigo"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-07",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      70,
+      78
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "70": "U2 — Vertigo",
+      "78": "U2 — Sometimes You Can't Make It..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-08",
+    "status": "ok",
+    "entries_before": 96,
+    "entries_after": 100,
+    "gaps_before": [
+      69,
+      73,
+      79,
+      91
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "69": "Indra & Frédéric Lerner — Besoin de vous",
+      "73": "Roch Voisine — Je l'ai vu",
+      "79": "U2 — Vertigo",
+      "91": "U2 — Sometimes You Can't Make It..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-10",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      84
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "84": "U2 — Vertigo"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-11",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      74,
+      96
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "74": "Matt Pokora — Showbiz (The Battle)",
+      "96": "U2 — Vertigo"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-12",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      80,
+      96
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "80": "Caesars — Jerk It Out",
+      "96": "U2 — Vertigo"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-13",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      41,
+      58
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "41": "Garou & Michel Sardou — La rivière de notre enfance",
+      "58": "Kyo — Contact"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-14",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      27
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "27": "Ultra Lights feat. Steph B. — 18"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-15",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 99,
+    "gaps_before": [
+      33,
+      35
+    ],
+    "gaps_after": [
+      33
+    ],
+    "recovered": {
+      "35": "Ultra Lights feat. Steph B. — 18"
+    },
+    "still_missing": [
+      33
+    ]
+  },
+  {
+    "key": "2005-16",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 99,
+    "gaps_before": [
+      18,
+      40,
+      42
+    ],
+    "gaps_after": [
+      42
+    ],
+    "recovered": {
+      "18": "Blue — Curtain Falls",
+      "40": "Ultra Lights feat. Steph B. — 18"
+    },
+    "still_missing": [
+      42
+    ]
+  },
+  {
+    "key": "2005-17",
+    "status": "ok",
+    "entries_before": 96,
+    "entries_after": 99,
+    "gaps_before": [
+      33,
+      48,
+      60,
+      74
+    ],
+    "gaps_after": [
+      48
+    ],
+    "recovered": {
+      "33": "Ultra Lights feat. Steph B. — 18",
+      "60": "U2 — Sometimes You Can't Make It...",
+      "74": "Patrick Sébastien — Le grand cabaret"
+    },
+    "still_missing": [
+      48
+    ]
+  },
+  {
+    "key": "2005-18",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 99,
+    "gaps_before": [
+      17,
+      52,
+      61
+    ],
+    "gaps_after": [
+      52
+    ],
+    "recovered": {
+      "17": "Ultra Lights feat. Steph B. — 18",
+      "61": "U2 — Sometimes You Can't Make It..."
+    },
+    "still_missing": [
+      52
+    ]
+  },
+  {
+    "key": "2005-19",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 99,
+    "gaps_before": [
+      19,
+      55,
+      64
+    ],
+    "gaps_after": [
+      55
+    ],
+    "recovered": {
+      "19": "Ultra Lights feat. Steph B. — 18",
+      "64": "U2 — Sometimes You Can't Make It..."
+    },
+    "still_missing": [
+      55
+    ]
+  },
+  {
+    "key": "2005-20",
+    "status": "ok",
+    "entries_before": 96,
+    "entries_after": 99,
+    "gaps_before": [
+      26,
+      50,
+      62,
+      71
+    ],
+    "gaps_after": [
+      62
+    ],
+    "recovered": {
+      "26": "Ultra Lights feat. Steph B. — 18",
+      "50": "Eric Prydz & Steve Angello — Woz Not Woz",
+      "71": "U2 — Sometimes You Can't Make It..."
+    },
+    "still_missing": [
+      62
+    ]
+  },
+  {
+    "key": "2005-21",
+    "status": "ok",
+    "entries_before": 95,
+    "entries_after": 99,
+    "gaps_before": [
+      29,
+      50,
+      69,
+      70,
+      71
+    ],
+    "gaps_after": [
+      70
+    ],
+    "recovered": {
+      "29": "Ultra Lights feat. Steph B. — 18",
+      "50": "M — La bonne étoile",
+      "69": "Mathieu Johann — J'te reconnais pas",
+      "71": "U2 — Sometimes You Can't Make It..."
+    },
+    "still_missing": [
+      70
+    ]
+  },
+  {
+    "key": "2005-22",
+    "status": "ok",
+    "entries_before": 95,
+    "entries_after": 99,
+    "gaps_before": [
+      32,
+      51,
+      62,
+      70,
+      74
+    ],
+    "gaps_after": [
+      70
+    ],
+    "recovered": {
+      "32": "Ultra Lights feat. Steph B. — 18",
+      "51": "Lara Fabian — La lettre",
+      "62": "M — La bonne étoile",
+      "74": "U2 — Sometimes You Can't Make It..."
+    },
+    "still_missing": [
+      70
+    ]
+  },
+  {
+    "key": "2005-24",
+    "status": "ok",
+    "entries_before": 95,
+    "entries_after": 99,
+    "gaps_before": [
+      32,
+      46,
+      63,
+      77,
+      84
+    ],
+    "gaps_after": [
+      84
+    ],
+    "recovered": {
+      "32": "L5 — À ta liberté",
+      "46": "Ultra Lights feat. Steph B. — 18",
+      "63": "M — La bonne étoile",
+      "77": "U2 — Sometimes You Can't Make It..."
+    },
+    "still_missing": [
+      84
+    ]
+  },
+  {
+    "key": "2005-26",
+    "status": "ok",
+    "entries_before": 95,
+    "entries_after": 100,
+    "gaps_before": [
+      47,
+      60,
+      82,
+      89,
+      91
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "47": "L5 — À ta liberté",
+      "60": "Ultra Lights feat. Steph B. — 18",
+      "82": "M — La bonne étoile",
+      "89": "U2 — City Of Blinding Lights",
+      "91": "U2 — Sometimes You Can't Make It..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-27",
     "status": "ok",
     "entries_before": 95,
     "entries_after": 100,
     "gaps_before": [
       48,
-      67,
-      76,
+      68,
+      70,
       77,
-      95
+      96
     ],
     "gaps_after": [],
     "recovered": {
-      "48": "Daho & Gainsbourg — If",
-      "67": "3T — Sex Appeal",
-      "76": "Rohff — 94",
-      "77": "Andreas Johnson — Glorious",
-      "95": "M — Qui de nous deux"
+      "48": "L5 — À ta liberté",
+      "68": "Ultra Lights feat. Steph B. — 18",
+      "70": "Marc Lavoine — Je me sens si seul",
+      "77": "Mylène Farmer — Fuck Them All",
+      "96": "M — La bonne étoile"
     },
     "still_missing": []
   },
   {
-    "key": "2004-19",
+    "key": "2005-28",
     "status": "ok",
-    "entries_before": 97,
+    "entries_before": 95,
     "entries_after": 100,
     "gaps_before": [
-      47,
-      70,
+      12,
+      54,
+      57,
+      63,
       77
     ],
     "gaps_after": [],
     "recovered": {
-      "47": "Daho & Gainsbourg — If",
-      "70": "3T — Sex Appeal",
-      "77": "Rohff — 94"
+      "12": "Triim — Pop The Music",
+      "54": "David Guetta feat. JD Davis — The World Is Mine",
+      "57": "Moby — Lift Me Up",
+      "63": "L5 — À ta liberté",
+      "77": "Ultra Lights feat. Steph B. — 18"
     },
     "still_missing": []
   },
   {
-    "key": "2004-20",
+    "key": "2005-29",
     "status": "ok",
     "entries_before": 96,
     "entries_after": 100,
     "gaps_before": [
-      49,
-      56,
-      87,
+      74,
+      76,
+      79,
+      96
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "74": "Natalie Imbruglia — Shiver",
+      "76": "L5 — À ta liberté",
+      "79": "Eddy Wata — La Bomba",
+      "96": "Ultra Lights feat. Steph B. — 18"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-30",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      79,
+      95
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "79": "L5 — À ta liberté",
+      "95": "Ultra Lights feat. Steph B. — 18"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-31",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      86,
       93
     ],
     "gaps_after": [],
     "recovered": {
-      "49": "Daho & Gainsbourg — If",
-      "56": "Yannick Noah — Ose",
-      "87": "3T — Sex Appeal",
-      "93": "Rohff — 94"
+      "86": "L5 — À ta liberté",
+      "93": "Ultra Lights feat. Steph B. — 18"
     },
     "still_missing": []
   },
   {
-    "key": "2004-21",
+    "key": "2005-32",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      89,
+      92
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "89": "L5 — À ta liberté",
+      "92": "M — La bonne étoile"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-33",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      96
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "96": "L5 — À ta liberté"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-34",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      70,
+      73,
+      97
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "70": "Freemasons feat. Amanda Wilson — Love On My Mind",
+      "73": "Rob Thomas — Lonely No More",
+      "97": "L5 — À ta liberté"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-35",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      69,
+      94
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "69": "Carlos — RTT",
+      "94": "L5 — À ta liberté"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-36",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      67
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "67": "Superbus — Pop'n'Gum"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-37",
     "status": "ok",
     "entries_before": 96,
     "entries_after": 100,
     "gaps_before": [
-      20,
-      52,
-      70,
-      94
+      60,
+      66,
+      79,
+      100
     ],
     "gaps_after": [],
     "recovered": {
-      "20": "Relic — Banana Style",
-      "52": "Daho & Gainsbourg — If",
-      "70": "Sofia Essaïdi — Roxanne",
-      "94": "3T — Sex Appeal"
+      "60": "D.R.E.A.M. — Say It's Alright",
+      "66": "Superbus — Pop'n'Gum",
+      "79": "The Killers — Somebody Told Me",
+      "100": "L5 — À ta liberté"
     },
     "still_missing": []
   },
   {
-    "key": "2004-22",
+    "key": "2005-38",
     "status": "ok",
-    "entries_before": 98,
+    "entries_before": 97,
     "entries_after": 100,
     "gaps_before": [
-      55,
-      66
+      76,
+      79,
+      98
     ],
     "gaps_after": [],
     "recovered": {
-      "55": "Chingy feat. J. Weav — One Call Away",
-      "66": "Daho & Gainsbourg — If"
+      "76": "Star Academy 5 — Je ne suis pas un héros",
+      "79": "Eskobar & Emma Daumas — You Got Me",
+      "98": "L5 — À ta liberté"
     },
     "still_missing": []
   },
   {
-    "key": "2004-23",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      70
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "70": "Daho & Gainsbourg — If"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-24",
+    "key": "2005-39",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      70
+      73
     ],
     "gaps_after": [],
     "recovered": {
-      "70": "Daho & Gainsbourg — If"
+      "73": "Bobby Valentino — Slow Down"
     },
     "still_missing": []
   },
   {
-    "key": "2004-25",
+    "key": "2005-41",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      94
+      3
     ],
     "gaps_after": [],
     "recovered": {
-      "94": "Daho & Gainsbourg — If"
+      "3": "Star Academy 5 — Je ne suis pas un héros"
     },
     "still_missing": []
   },
   {
-    "key": "2004-28",
+    "key": "2005-42",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      10
+      74
     ],
     "gaps_after": [],
     "recovered": {
-      "10": "Nâdiya feat. Smartzee — Et c'est parti..."
+      "74": "Akon — Lonely"
     },
     "still_missing": []
   },
   {
-    "key": "2004-29",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      71
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "71": "Ceansay — Bouge ton bool"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-30",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      7
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "7": "Nâdiya feat. Smartzee — Et c'est parti..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-32",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      3,
-      56
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "K-Maro — Femme Like U (Donne-moi ton...",
-      "56": "Jean-François Breau — Du plaisir"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-34",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      79
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "79": "M — À tes souhaits"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-35",
+    "key": "2005-43",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
@@ -503,257 +704,131 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "78": "M — À tes souhaits"
+      "78": "Amadou & Mariam — Sénégal Fast Food"
     },
     "still_missing": []
   },
   {
-    "key": "2004-36",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      83
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "83": "M — À tes souhaits"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-37",
+    "key": "2005-44",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      56,
-      87
+      7,
+      76
     ],
     "gaps_after": [],
     "recovered": {
-      "56": "DJ Casper — Cha Cha Slide",
-      "87": "M — À tes souhaits"
+      "7": "Ilona Mitrecey — Dans ma fusée",
+      "76": "Culture Club — Do You Really Want To Hurt Me"
     },
     "still_missing": []
   },
   {
-    "key": "2004-38",
+    "key": "2005-45",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      66
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "66": "Amine — Ma vie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-47",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      56
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "56": "The Boy Rackers — Bla bla bla"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-48",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      26
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "26": "The Pussycat Dolls feat. Busta Rhymes — Don't Cha"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-49",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      12,
-      99
+      5,
+      75
     ],
     "gaps_after": [],
     "recovered": {
-      "12": "Billy Crawford — Bright Lights",
-      "99": "M — À tes souhaits"
+      "5": "Ilona Mitrecey — Noël, que du bonheur",
+      "75": "Martin Solveig — Everybody"
     },
     "still_missing": []
   },
   {
-    "key": "2004-40",
+    "key": "2005-50",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      49
+      4
     ],
     "gaps_after": [],
     "recovered": {
-      "49": "Linkin Park — Breaking The Habit"
+      "4": "Tina Arena — Aimer jusqu'à l'impossible"
     },
     "still_missing": []
   },
   {
-    "key": "2004-41",
+    "key": "2005-52",
     "status": "ok",
-    "entries_before": 99,
+    "entries_before": 97,
     "entries_after": 100,
     "gaps_before": [
-      93
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "93": "M — À tes souhaits"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-42",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      70
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "70": "Yannick Noah — Mon Eldorado (du soleil...)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-44",
-    "status": "ok",
-    "entries_before": 96,
-    "entries_after": 100,
-    "gaps_before": [
-      56,
+      15,
       72,
-      77,
+      90
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "15": "Crazy Frog — Popcorn",
+      "72": "Ginie Line — Jusqu'à la tolérance",
+      "90": "Attention mesdames et messieurs — Attention mesdames et messi..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2005-53",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      6,
+      52,
       94
     ],
     "gaps_after": [],
     "recovered": {
-      "56": "Ludovic Delamoga — C'est toi",
-      "72": "Admiral T feat. Pearl — Dancehall X-plosion",
-      "77": "Mag — Oooh la !!!",
-      "94": "U2 — Vertigo"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-45",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      12,
-      82,
-      88
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "12": "U2 — Vertigo",
-      "82": "Shifty — Slide Along Side",
-      "88": "Lorie — Ensorcelée"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-46",
-    "status": "ok",
-    "entries_before": 95,
-    "entries_after": 100,
-    "gaps_before": [
-      2,
-      31,
-      36,
-      40,
-      88
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "2": "Garou & Michel Sardou — La rivière de notre enfance",
-      "31": "Mickey 3D — Les mots d'amour",
-      "36": "U2 — Vertigo",
-      "40": "Cool-T — Kamasutra",
-      "88": "Dis L'heure 2 Ragga — Elle veut"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-47",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      46,
-      82,
-      86
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "46": "U2 — Vertigo",
-      "82": "Björk — Who Is It (Carry My Joy On...",
-      "86": "M — Ma mélodie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-48",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      52,
-      67
-    ],
-    "gaps_after": [],
-    "recovered": {
+      "6": "Starsailor — Four To The Floor",
       "52": "U2 — Vertigo",
-      "67": "M — Ma mélodie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-49",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      54,
-      80
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "54": "U2 — Vertigo",
-      "80": "M — Ma mélodie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-50",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      48,
-      82,
-      86
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "48": "U2 — Vertigo",
-      "82": "Yu-Gi-Oh ! — À toi de jouer !",
-      "86": "M — Ma mélodie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-51",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      4,
-      52,
-      86
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Star Academy 4 — Laissez-moi danser",
-      "52": "U2 — Vertigo",
-      "86": "M — Ma mélodie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2004-52",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      53,
-      88
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "53": "U2 — Vertigo",
-      "88": "M — Ma mélodie"
+      "94": "M — Ma mélodie"
     },
     "still_missing": []
   }
