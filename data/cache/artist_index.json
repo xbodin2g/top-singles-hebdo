@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:52:11.785828+00:00",
+  "generatedAt": "2026-11-14T20:00:52.706947+00:00",
   "archiveCount": 2198,
   "artistCount": 4665,
   "trackCount": 10776,
@@ -8104,9 +8104,9 @@
           "credit": "U2",
           "firstKey": "2014-06",
           "firstDate": "03/02/2014",
-          "lastKey": "2014-06",
-          "lastDate": "03/02/2014",
-          "weeks": 1,
+          "lastKey": "2014-25",
+          "lastDate": "16/06/2014",
+          "weeks": 10,
           "peak": 21,
           "peakKey": "2014-06",
           "peakDate": "03/02/2014"
@@ -8243,14 +8243,14 @@
         }
       ],
       "trackCount": 26,
-      "totalWeeks": 347,
+      "totalWeeks": 356,
       "bestPeak": 6,
       "firstYear": 1987,
       "lastYear": 2014,
       "firstKey": "1987-20",
       "firstDate": "17/05/1987",
-      "lastKey": "2014-06",
-      "lastDate": "03/02/2014"
+      "lastKey": "2014-25",
+      "lastDate": "16/06/2014"
     },
     {
       "id": "maitre gims",
