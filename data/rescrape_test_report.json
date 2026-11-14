@@ -1,183 +1,43 @@
 [
   {
-    "key": "2014-02",
+    "key": "2005-15",
     "status": "ok",
-    "entries_before": 22,
-    "entries_after": 25,
+    "entries_before": 99,
+    "entries_after": 100,
     "gaps_before": [
-      4,
-      5,
-      13
+      33
     ],
     "gaps_after": [],
     "recovered": {
-      "4": "Stromae — tous les mêmes",
-      "5": "Stromae — Formidable",
-      "13": "Eminem — The Monster feat. Rihanna"
+      "33": "Brett — 3 nuits par semaine"
     },
     "still_missing": []
   },
   {
-    "key": "2014-03",
+    "key": "2005-16",
     "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
+    "entries_before": 99,
+    "entries_after": 100,
     "gaps_before": [
-      14
+      42
     ],
     "gaps_after": [],
     "recovered": {
-      "14": "Cats On Trees — Sirens Call"
+      "42": "Brett — 3 nuits par semaine"
     },
     "still_missing": []
   },
   {
-    "key": "2014-04",
+    "key": "2005-17",
     "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
+    "entries_before": 99,
+    "entries_after": 100,
     "gaps_before": [
-      11
+      48
     ],
     "gaps_after": [],
     "recovered": {
-      "11": "Cats On Trees — Sirens Call"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2014-05",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      22
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "22": "Julien Doré — Paris-Seychelles"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2014-06",
-    "status": "ok",
-    "entries_before": 22,
-    "entries_after": 25,
-    "gaps_before": [
-      10,
-      11,
-      21
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "10": "Lorde — Royals",
-      "11": "U2 — Invisible",
-      "21": "U2 — Ordinary Love"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2014-07",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      5
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "5": "Daft Punk — Instant Crush"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2014-09",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 26,
-    "gaps_before": [
-      9
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "9": "Katy Perry — Dark Horse"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2014-10",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      17
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "17": "Tom Odell — Another Love"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2014-11",
-    "status": "ok",
-    "entries_before": 23,
-    "entries_after": 25,
-    "gaps_before": [
-      9,
-      12
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "9": "Faul & Wad Ad & Pnau — Changes",
-      "12": "Cats On Trees — Sirens Call"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2014-13",
-    "status": "ok",
-    "entries_before": 23,
-    "entries_after": 25,
-    "gaps_before": [
-      5,
-      16
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "5": "Indila — Dernière danse",
-      "16": "Shakira & Rihanna — Can't Remember To Forget You"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2014-14",
-    "status": "ok",
-    "entries_before": 23,
-    "entries_after": 25,
-    "gaps_before": [
-      9,
-      22
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "9": "Faul & Wad Ad & Pnau — Changes",
-      "22": "Mr. Probz — Waves (Robin Schulz Remix)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2014-15",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      3
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Milky Chance — Stolen Dance"
+      "48": "Brett — 3 nuits par semaine"
     },
     "still_missing": []
   }
