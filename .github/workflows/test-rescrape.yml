@@ -4,9 +4,17 @@ on:
   workflow_dispatch:
     inputs:
       keys:
-        description: 'Cles a tester (ex: 1993-37,1994-07,2003-15)'
-        required: true
-        default: '1993-37,1994-07,2003-15'
+        description: 'Cles manuelles (vide = utiliser la liste de cibles)'
+        required: false
+        default: ''
+      year:
+        description: 'Filtrer sur une anne (vide = toutes)'
+        required: false
+        default: ''
+      limit:
+        description: 'Nombre max de semaines (0 = toutes)'
+        required: false
+        default: '20'
       mode:
         description: 'dry-run = aucune ecriture / apply = enregistrer'
         required: true
@@ -24,7 +32,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  test:
+  rescrape:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -41,13 +49,27 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
-      - name: Test rescrape (dry-run)
-        if: ${{ inputs.mode == 'dry-run' }}
-        run: python test_rescrape.py --keys "${{ inputs.keys }}"
+      - name: Build arguments
+        id: args
+        run: |
+          A=""
+          if [ -n "${{ inputs.keys }}" ]; then
+            A="--keys ${{ inputs.keys }}"
+          else
+            A="--list data/rescrape_targets.json"
+          fi
+          if [ -n "${{ inputs.year }}" ]; then
+            A="$A --year ${{ inputs.year }}"
+          fi
+          A="$A --limit ${{ inputs.limit }}"
+          if [ "${{ inputs.mode }}" = "apply" ]; then
+            A="$A --apply"
+          fi
+          echo "flags=$A" >> "$GITHUB_OUTPUT"
+          echo "Arguments : $A"
 
-      - name: Test rescrape (apply)
-        if: ${{ inputs.mode == 'apply' }}
-        run: python test_rescrape.py --keys "${{ inputs.keys }}" --apply
+      - name: Run rescrape
+        run: python test_rescrape.py ${{ steps.args.outputs.flags }}
 
       - name: Rebuild artist index
         if: ${{ inputs.mode == 'apply' }}
@@ -68,6 +90,6 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Test re-scraping cible (${{ inputs.mode }})"
+          git commit -m "Re-scraping cible (${{ inputs.mode }}) anne=${{ inputs.year }} limite=${{ inputs.limit }}"
           git pull --rebase origin main
           git push origin main
