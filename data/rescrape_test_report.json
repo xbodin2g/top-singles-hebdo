@@ -1,667 +1,474 @@
 [
   {
-    "key": "2001-01",
+    "key": "2002-01",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      2
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "2": "L5 — Toutes les femmes de ta vie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-02",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      63,
-      84
+      2,
+      53
     ],
     "gaps_after": [],
     "recovered": {
-      "63": "Toni Braxton — Spanish Guitar",
-      "84": "U2 — Beautiful Day"
+      "2": "L5 — Toutes les femmes de ta vie",
+      "53": "Alizée — Gourmandises"
     },
     "still_missing": []
   },
   {
-    "key": "2001-02",
+    "key": "2002-03",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      94
+      7
     ],
     "gaps_after": [],
     "recovered": {
-      "94": "U2 — Beautiful Day"
+      "7": "L5 — Toutes les femmes de ta vie"
     },
     "still_missing": []
   },
   {
-    "key": "2001-03",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      56
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "56": "Shania Twain — From This Moment On"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-04",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      31
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "31": "Sonique — Sky"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-06",
+    "key": "2002-04",
     "status": "ok",
     "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      16,
-      17
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "16": "Matt — R&B 2 rue",
-      "17": "Daniel Lévi — L'envie d'aimer"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-07",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      9
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "9": "Gérald De Palmas — J'en rêve encore"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-10",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      70
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "70": "M1 — Electronic Funk"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-11",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      63
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "63": "M1 — Electronic Funk"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-12",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      49
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "49": "M1 — Electronic Funk"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-13",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      46
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "46": "M1 — Electronic Funk"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-14",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      58
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "58": "M1 — Electronic Funk"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-15",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      72,
-      81
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "72": "M1 — Electronic Funk",
-      "81": "Xzibit — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-16",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      31,
-      73,
-      75
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "31": "U2 — Stuck In A Moment You Can't...",
-      "73": "Xzibit — X",
-      "75": "M1 — Electronic Funk"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-17",
-    "status": "ok",
-    "entries_before": 96,
     "entries_after": 100,
     "gaps_before": [
       8,
-      39,
-      80,
-      84
+      37
     ],
     "gaps_after": [],
     "recovered": {
-      "8": "Eve Angeli — Elle",
-      "39": "U2 — Stuck In A Moment You Can't...",
-      "80": "M1 — Electronic Funk",
-      "84": "Xzibit — X"
+      "8": "L5 — Toutes les femmes de ta vie",
+      "37": "Sébastien Chato — Avoir une fille"
     },
     "still_missing": []
   },
   {
-    "key": "2001-18",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      65,
-      83,
-      92
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "65": "U2 — Stuck In A Moment You Can't...",
-      "83": "Xzibit — X",
-      "92": "M1 — Electronic Funk"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-19",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      71,
-      81,
-      88
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "71": "U2 — Stuck In A Moment You Can't...",
-      "81": "M1 — Electronic Funk",
-      "88": "Xzibit — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-20",
+    "key": "2002-05",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      83,
-      92
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "83": "Xzibit — X",
-      "92": "U2 — Stuck In A Moment You Can't..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-21",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      88,
-      90
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "88": "U2 — Stuck In A Moment You Can't...",
-      "90": "M1 — Electronic Funk"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-22",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      97
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "97": "U2 — Stuck In A Moment You Can't..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-23",
-    "status": "ok",
-    "entries_before": 96,
-    "entries_after": 100,
-    "gaps_before": [
-      4,
-      6,
       8,
-      11
+      12
     ],
     "gaps_after": [],
     "recovered": {
-      "4": "Shaggy feat. Rikrok — It Wasn't Me",
-      "6": "Disconnection Loftmusic — My Only Love",
-      "8": "LeAnn Rimes — Can't Fight The Moonlight",
-      "11": "Dido — Here With Me"
+      "8": "L5 — Une étincelle",
+      "12": "L5 — Toutes les femmes de ta vie"
     },
     "still_missing": []
   },
   {
-    "key": "2001-24",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      87
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "87": "U2 — Stuck In A Moment You Can't..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-25",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      16,
-      52
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "16": "Sully Sefil — J'voulais",
-      "52": "Eros Ramazzotti — Fuoco nel fuoco"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-26",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      4,
-      10
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "The Supermen Lovers feat. Mani Hoffman — Starlight",
-      "10": "Axel Bauer & Zazie — À ma place"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-27",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      56
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "56": "Hélène Segara — Au nom d'une femme"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-29",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 99,
-    "gaps_before": [
-      34,
-      100
-    ],
-    "gaps_after": [
-      100
-    ],
-    "recovered": {
-      "34": "U2 — Elevation"
-    },
-    "still_missing": [
-      100
-    ]
-  },
-  {
-    "key": "2001-30",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      35,
-      47
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "35": "U2 — Elevation",
-      "47": "Missy \"Misdemeanor\" Elliott — Get Ur Freak On"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-31",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      34
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "34": "U2 — Elevation"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-32",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      5,
-      41
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "5": "Nuttea — Trop peu de temps",
-      "41": "U2 — Elevation"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-33",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      45
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "45": "U2 — Elevation"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-34",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      31,
-      49
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "31": "2Sweet — Bomba latina",
-      "49": "U2 — Elevation"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-35",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      52,
-      73
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "52": "U2 — Elevation",
-      "73": "Roger Sanchez — Another Chance"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-36",
+    "key": "2002-06",
     "status": "ok",
     "entries_before": 96,
-    "entries_after": 100,
-    "gaps_before": [
-      3,
-      6,
-      15,
-      58
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Usher — U Remind Me",
-      "6": "Axel Bauer & Zazie — À ma place",
-      "15": "Alizée — Gourmandises",
-      "58": "U2 — Elevation"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-37",
-    "status": "ok",
-    "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
       7,
-      54
+      8,
+      17,
+      84
     ],
     "gaps_after": [],
     "recovered": {
-      "7": "Mary J Blige — Family Affair",
-      "54": "U2 — Elevation"
+      "7": "L5 — Une étincelle",
+      "8": "Jennifer Lopez — I'm Real",
+      "17": "L5 — Toutes les femmes de ta vie",
+      "84": "Daddy DJ — Over You"
     },
     "still_missing": []
   },
   {
-    "key": "2001-38",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      50
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "50": "U2 — Elevation"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-39",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      70
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "70": "U2 — Elevation"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-40",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      19,
-      46,
-      78
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "19": "Gorillaz — Clint Eastwood",
-      "46": "Frederik — La follia",
-      "78": "U2 — Elevation"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-41",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      87
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "87": "U2 — Elevation"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-42",
+    "key": "2002-07",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
       10,
-      89
+      19
     ],
     "gaps_after": [],
     "recovered": {
-      "10": "Usher — U Remind Me",
-      "89": "U2 — Elevation"
+      "10": "L5 — Une étincelle",
+      "19": "L5 — Toutes les femmes de ta vie"
     },
     "still_missing": []
   },
   {
-    "key": "2001-43",
+    "key": "2002-08",
     "status": "ok",
-    "entries_before": 98,
+    "entries_before": 95,
     "entries_after": 100,
     "gaps_before": [
-      39,
-      46
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "39": "Eve Angeli — Je sais",
-      "46": "Jamiroquai — Little L"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2001-45",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
+      3,
       7,
-      22
+      10,
+      13,
+      29
     ],
     "gaps_after": [],
     "recovered": {
-      "7": "Geri Halliwell — It's Raining Men",
-      "22": "Travis — Sing"
+      "3": "Olivia Ruiz, Jenifer & Carine Haddadou — Gimme! Gimme! Gimme! (A Man...",
+      "7": "Pascal Obispo — Millésime",
+      "10": "Alicia Keys — Fallin'",
+      "13": "L5 — Une étincelle",
+      "29": "L5 — Toutes les femmes de ta vie"
     },
     "still_missing": []
   },
   {
-    "key": "2001-47",
+    "key": "2002-09",
     "status": "ok",
-    "entries_before": 99,
+    "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      81
+      14,
+      32
     ],
     "gaps_after": [],
     "recovered": {
-      "81": "U2 — Walk On"
+      "14": "L5 — Une étincelle",
+      "32": "L5 — Toutes les femmes de ta vie"
     },
     "still_missing": []
   },
   {
-    "key": "2001-48",
+    "key": "2002-10",
     "status": "ok",
     "entries_before": 97,
     "entries_after": 100,
     "gaps_before": [
-      1,
-      57,
+      3,
+      9,
+      34
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Marc Lavoine & Cristina Marocco — J'ai tout oublié",
+      "9": "L5 — Une étincelle",
+      "34": "L5 — Toutes les femmes de ta vie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-11",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      12,
+      17,
+      40
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "12": "L5 — Une étincelle",
+      "17": "Weezer — Island In The Sun",
+      "40": "L5 — Toutes les femmes de ta vie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-12",
+    "status": "ok",
+    "entries_before": 95,
+    "entries_after": 100,
+    "gaps_before": [
+      15,
+      16,
+      21,
+      35,
+      43
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "15": "R. Kelly — The World's Greatest",
+      "16": "Anastacia — Paid My Dues",
+      "21": "L5 — Une étincelle",
+      "35": "Kylie Minogue — In Your Eyes",
+      "43": "L5 — Toutes les femmes de ta vie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-13",
+    "status": "ok",
+    "entries_before": 95,
+    "entries_after": 100,
+    "gaps_before": [
+      9,
+      18,
+      28,
+      49,
+      69
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "9": "Priscilla — Cette vie nouvelle",
+      "18": "Olivia Ruiz, Jenifer & Carine Haddadou — Gimme! Gimme! Gimme! (A Man...",
+      "28": "L5 — Une étincelle",
+      "49": "L5 — Toutes les femmes de ta vie",
+      "69": "Djalil — Au pays de mes rêves"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-14",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      40,
+      58
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "40": "L5 — Une étincelle",
+      "58": "L5 — Toutes les femmes de ta vie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-15",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      8,
+      48,
+      68
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "8": "Lorie — Toute seule",
+      "48": "L5 — Une étincelle",
+      "68": "L5 — Toutes les femmes de ta vie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-16",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      63,
+      81
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "63": "L5 — Une étincelle",
+      "81": "L5 — Toutes les femmes de ta vie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-17",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      34,
+      76
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "34": "L5 — Question de survie (de l'air!)",
+      "76": "L5 — Une étincelle"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-18",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      33,
+      36,
+      91
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "33": "Grégori Baquet — Comment lui dire",
+      "36": "L5 — Question de survie (de l'air!)",
+      "91": "L5 — Une étincelle"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-19",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      37,
+      95
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "37": "L5 — Question de survie (de l'air!)",
+      "95": "L5 — Une étincelle"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-20",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      37
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "37": "L5 — Question de survie (de l'air!)"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-21",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      5,
+      53
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "5": "Mad'House — Like A Prayer",
+      "53": "L5 — Question de survie (de l'air!)"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-22",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      56
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "56": "L5 — Question de survie (de l'air!)"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-23",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      62
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "62": "L5 — Question de survie (de l'air!)"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-24",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      35,
+      65,
+      81
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "35": "Stomy Bugsy — Motivation",
+      "65": "L5 — Question de survie (de l'air!)",
+      "81": "L5 — Une étincelle"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-25",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      43,
+      45,
       82
     ],
     "gaps_after": [],
     "recovered": {
-      "1": "L5 — Toutes les femmes de ta vie",
-      "57": "Nuttea — Trop peu de temps",
-      "82": "U2 — Walk On"
+      "43": "Pink — Get The Party Started",
+      "45": "Laurent Voulzy — La fille d'Avril",
+      "82": "L5 — Question de survie (de l'air!)"
     },
     "still_missing": []
   },
   {
-    "key": "2001-49",
+    "key": "2002-26",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      48,
+      78
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "48": "Sum 41 — In Too Deep",
+      "78": "L5 — Question de survie (de l'air!)"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-27",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      93
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "93": "L5 — Question de survie (de l'air!)"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-28",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      25
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "25": "Sman — J'ai tout imaginé"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-29",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
@@ -670,49 +477,305 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "2": "L5 — Toutes les femmes de ta vie"
+      "2": "Bratisla Boys — Stach Stach"
     },
     "still_missing": []
   },
   {
-    "key": "2001-50",
+    "key": "2002-33",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      2
+      4
     ],
     "gaps_after": [],
     "recovered": {
-      "2": "L5 — Toutes les femmes de ta vie"
+      "4": "Bratisla Boys — Stach Stach"
     },
     "still_missing": []
   },
   {
-    "key": "2001-51",
+    "key": "2002-35",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      2
+      18
     ],
     "gaps_after": [],
     "recovered": {
-      "2": "L5 — Toutes les femmes de ta vie"
+      "18": "Elvis Presley vs. JXL — A Little Less Conversation"
     },
     "still_missing": []
   },
   {
-    "key": "2001-52",
+    "key": "2002-37",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      48,
+      66
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "48": "Mad'House — Holiday",
+      "66": "Le 6-9 — Faut passer ton bac"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-38",
+    "status": "ok",
+    "entries_before": 96,
+    "entries_after": 100,
+    "gaps_before": [
+      4,
+      54,
+      76,
+      86
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Renaud & Axelle Red — Manhattan-Kaboul",
+      "54": "Sum 41 — In Too Deep",
+      "76": "Natasha St-Pier — Tu trouveras",
+      "86": "Snoop Dogg & Jamel Debbouze — Mission Cleopatra"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-39",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      2
+      32
     ],
     "gaps_after": [],
     "recovered": {
-      "2": "L5 — Toutes les femmes de ta vie"
+      "32": "The Calling — Wherever You Will Go"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-40",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      60,
+      84
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "60": "Tim Deluxe feat. Sam Obernik — It Just Won't Do",
+      "84": "Tiziano Ferro — Perdono"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-41",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      6
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "6": "King Africa — La bomba"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-42",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      13
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "13": "L5 — Aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-43",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      14,
+      18,
+      20
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "14": "Lorie — J'ai besoin d'amour",
+      "18": "U2 — Electrical Storm",
+      "20": "L5 — Aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-44",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      18,
+      38
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "18": "L5 — Aime",
+      "38": "U2 — Electrical Storm"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-45",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      26,
+      42
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "26": "L5 — Aime",
+      "42": "U2 — Electrical Storm"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-46",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      11,
+      28,
+      70
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "11": "Renaud & Axelle Red — Manhattan-Kaboul",
+      "28": "L5 — Aime",
+      "70": "U2 — Electrical Storm"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-47",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      29,
+      71,
+      72
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "29": "L5 — Aime",
+      "71": "Dany Brillant — Tu vuo' fa l'americano",
+      "72": "U2 — Electrical Storm"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-48",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      32,
+      77,
+      78
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "32": "L5 — Aime",
+      "77": "Youssou N'Dour & Pascal Obispo — So Many Men",
+      "78": "U2 — Electrical Storm"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-49",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      36,
+      91
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "36": "L5 — Aime",
+      "91": "U2 — Electrical Storm"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-50",
+    "status": "ok",
+    "entries_before": 96,
+    "entries_after": 100,
+    "gaps_before": [
+      2,
+      42,
+      52,
+      98
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "2": "Las Ketchup — The Ketchup Song (Aserejé)",
+      "42": "L5 — Aime",
+      "52": "L5 — Retiens-moi",
+      "98": "U2 — Electrical Storm"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-51",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      46,
+      47,
+      90
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "46": "L5 — Retiens-moi",
+      "47": "L5 — Aime",
+      "90": "U2 — Electrical Storm"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2002-52",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      43,
+      52,
+      94
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "43": "L5 — Retiens-moi",
+      "52": "L5 — Aime",
+      "94": "U2 — Electrical Storm"
     },
     "still_missing": []
   }
