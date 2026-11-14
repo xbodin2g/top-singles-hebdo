@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Identifie les semaines candidates à un re-scraping ciblé. Lecture seule.
+Cibles de re-scraping. Lecture seule.
 
-Deux modes de référence :
-  - taille attendue connue (top-archives, chartsinfrance) → trous sur 1..attendu
-  - taille inconnue (SNEP) → trous INTERNES sur 1..max(position présente)
-    (activé par --include-snep)
+Distinction fondamentale :
+  trou INTERNE  = position absente SOUS la dernière position présente
+                  → vraie anomalie, candidat au re-scraping
+  trou de QUEUE = positions au-delà de la dernière présente
+                  → la source a publié moins de titres, pas un bug
 
-Limite du mode interne : un trou en toute dernière position est indétectable,
-puisque la référence est la plus grande position présente.
+SNEP : taille attendue inconnue → seuls les trous internes sont évalués.
 """
 import json, os, re, argparse
 from collections import defaultdict
@@ -17,7 +17,8 @@ CACHE = "data/cache/retro_archives.json"
 TARGETS = "data/rescrape_targets.json"
 
 
-def expected_size(key, source):
+def cap_size(key, source):
+    """Plafond théorique, ou None si inconnu."""
     s = (source or "").lower()
     k = str(key)
     if "top-archives" in s:
@@ -35,8 +36,6 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--max-gaps", type=int, default=5)
     ap.add_argument("--limit", type=int, default=50)
-    ap.add_argument("--include-snep", action="store_true",
-                    help="inclure SNEP via détection de trous internes")
     args = ap.parse_args()
 
     if not os.path.exists(CACHE):
@@ -45,41 +44,39 @@ def main():
     with open(CACHE, "r", encoding="utf-8") as f:
         cache = json.load(f)
 
-    sparse, massive, clean = [], [], 0
-    per_year = defaultdict(lambda: {"weeks": 0, "sparse": 0, "massive": 0})
-    mode_count = defaultdict(int)
+    sparse, massive, short_tail = [], [], []
+    clean = 0
+    per_year = defaultdict(lambda: {"sparse": 0, "massive": 0, "tail": 0})
 
     for key, a in cache.items():
         if not isinstance(a, dict):
             continue
         src = a.get("source", "")
-        entries = a.get("entries") or []
-        pos = {e.get("position") for e in entries if isinstance(e.get("position"), int)}
+        pos = {e.get("position") for e in (a.get("entries") or [])
+               if isinstance(e.get("position"), int)}
         if not pos:
             continue
 
-        exp = expected_size(key, src)
-        mode = "attendu"
-        if exp is None:
-            if not args.include_snep:
-                continue
-            exp = max(pos)          # référence interne
-            mode = "interne"
-
-        gaps = sorted(set(range(1, exp + 1)) - pos)
-        if not gaps:
-            clean += 1
-            continue
+        maxpos = max(pos)
+        cap = cap_size(key, src)
+        internal = sorted(set(range(1, maxpos + 1)) - pos)
+        tail = sorted(set(range(maxpos + 1, cap + 1)) - pos) if cap else []
 
         m = re.match(r"^(\d{4})-", str(key))
         yr = int(m.group(1)) if m else 0
         y = per_year[(yr, src)]
-        y["weeks"] += 1
-        mode_count[mode] += 1
 
-        rec = {"key": key, "source": src, "entries": len(entries),
-               "expected": exp, "gaps": gaps, "mode": mode}
-        if len(gaps) <= args.max_gaps:
+        if not internal:
+            clean += 1
+            if tail:
+                short_tail.append({"key": key, "source": src, "entries": len(pos),
+                                   "cap": cap, "tail": tail})
+                y["tail"] += 1
+            continue
+
+        rec = {"key": key, "source": src, "entries": len(pos),
+               "maxpos": maxpos, "cap": cap, "gaps": internal, "tail": tail}
+        if len(internal) <= args.max_gaps:
             sparse.append(rec)
             y["sparse"] += 1
         else:
@@ -89,46 +86,53 @@ def main():
     print("=" * 78)
     print("RÉSUMÉ")
     print("=" * 78)
-    print(f"  archives sans trou                  : {clean}")
-    print(f"  trous épars  (≤ {args.max_gaps}) → candidats : {len(sparse)}")
-    print(f"  trous massifs (> {args.max_gaps}) → à part  : {len(massive)}")
-    print(f"  référence attendue : {mode_count['attendu']}   interne : {mode_count['interne']}")
-    if not args.include_snep:
-        print("  (SNEP ignoré — ajouter --include-snep pour les trous internes)")
+    print(f"  sans trou interne                    : {clean}")
+    print(f"  trous internes épars (≤ {args.max_gaps}) → candidats : {len(sparse)}")
+    print(f"  trous internes massifs (> {args.max_gaps})         : {len(massive)}")
+    print(f"  queues courtes (source, non bug)     : {len(short_tail)}")
 
     print("\n" + "=" * 78)
     print("PAR ANNÉE / SOURCE")
     print("=" * 78)
     for (yr, src), y in sorted(per_year.items()):
-        print(f"{yr}  {src:22s} épars {y['sparse']:3d}   massifs {y['massive']:3d}")
+        if not (y["sparse"] or y["massive"] or y["tail"]):
+            continue
+        print(f"{yr}  {src:22s} épars {y['sparse']:3d}  massifs {y['massive']:3d}  queue {y['tail']:3d}")
 
     print("\n" + "=" * 78)
-    print(f"CANDIDATS (trous épars) — {len(sparse)}")
+    print(f"CANDIDATS — trous internes épars : {len(sparse)}")
     print("=" * 78)
     for r in sorted(sparse, key=lambda x: x["key"])[:args.limit]:
         g = ", ".join(str(x) for x in r["gaps"])
-        tag = " [interne]" if r["mode"] == "interne" else ""
-        print(f"  {r['key']}  {r['entries']:3d}/{r['expected']:3d}  trous : {g}{tag}")
+        print(f"  {r['key']}  {r['entries']:3d} titres, max #{r['maxpos']:3d}  trous : {g}")
     if len(sparse) > args.limit:
         print(f"  … et {len(sparse) - args.limit} autres")
 
     if massive:
         print("\n" + "=" * 78)
-        print(f"TROUS MASSIFS — {len(massive)}")
+        print(f"TROUS INTERNES MASSIFS : {len(massive)}")
         print("=" * 78)
         for r in sorted(massive, key=lambda x: -len(x["gaps"]))[:20]:
             g = ", ".join(str(x) for x in r["gaps"][:20])
-            tag = " [interne]" if r["mode"] == "interne" else ""
-            print(f"  {r['key']}  {r['entries']:3d}/{r['expected']:3d}  {len(r['gaps'])} trous : {g}{tag}")
+            print(f"  {r['key']}  {r['entries']:3d} titres  {len(r['gaps'])} trous : {g}")
         if len(massive) > 20:
             print(f"  … et {len(massive) - 20} autres")
+
+    if short_tail:
+        print("\n" + "=" * 78)
+        print(f"QUEUES COURTES — la source a publié moins, aucune action : {len(short_tail)}")
+        print("=" * 78)
+        for r in sorted(short_tail, key=lambda x: x["key"])[:15]:
+            print(f"  {r['key']}  {r['entries']:3d}/{r['cap']:3d}  absent au-delà de #{r['entries']}")
+        if len(short_tail) > 15:
+            print(f"  … et {len(short_tail) - 15} autres")
 
     os.makedirs(os.path.dirname(TARGETS), exist_ok=True)
     with open(TARGETS, "w", encoding="utf-8") as f:
         json.dump([r["key"] for r in sorted(sparse, key=lambda x: x["key"])],
                   f, ensure_ascii=False, indent=2)
     print(f"\n💾 {len(sparse)} clé(s) : {TARGETS}")
-    print("   ⚠️ Candidats, pas certitudes. Ce script n'a rien modifié.")
+    print("   Seuls les trous INTERNES sont retenus. Ce script n'a rien modifié.")
 
 
 if __name__ == "__main__":
