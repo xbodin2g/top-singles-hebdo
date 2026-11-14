@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T11:41:34.007409+00:00",
+  "generatedAt": "2026-11-14T12:19:26.403005+00:00",
   "archiveCount": 2198,
-  "artistCount": 4515,
-  "trackCount": 10565,
+  "artistCount": 4521,
+  "trackCount": 10573,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -4227,7 +4227,7 @@
           "firstDate": "02/10/1995",
           "lastKey": "1996-08",
           "lastDate": "19/02/1996",
-          "weeks": 21,
+          "weeks": 20,
           "peak": 1,
           "peakKey": "1995-41",
           "peakDate": "09/10/1995"
@@ -4624,7 +4624,7 @@
         }
       ],
       "trackCount": 34,
-      "totalWeeks": 536,
+      "totalWeeks": 535,
       "bestPeak": 1,
       "firstYear": 1988,
       "lastYear": 2026,
@@ -8303,7 +8303,7 @@
           "firstDate": "18/09/1995",
           "lastKey": "1995-52",
           "lastDate": "25/12/1995",
-          "weeks": 15,
+          "weeks": 14,
           "peak": 5,
           "peakKey": "1995-44",
           "peakDate": "30/10/1995"
@@ -8583,7 +8583,7 @@
         }
       ],
       "trackCount": 25,
-      "totalWeeks": 360,
+      "totalWeeks": 359,
       "bestPeak": 2,
       "firstYear": 1990,
       "lastYear": 2025,
@@ -14191,7 +14191,7 @@
           "firstDate": "11/09/1995",
           "lastKey": "1998-45",
           "lastDate": "02/11/1998",
-          "weeks": 24,
+          "weeks": 25,
           "peak": 12,
           "peakKey": "1995-44",
           "peakDate": "30/10/1995"
@@ -14367,7 +14367,7 @@
         }
       ],
       "trackCount": 20,
-      "totalWeeks": 298,
+      "totalWeeks": 299,
       "bestPeak": 1,
       "firstYear": 1992,
       "lastYear": 2022,
@@ -39860,6 +39860,138 @@
       "lastDate": "11/07/2022"
     },
     {
+      "id": "shaggy",
+      "name": "Shaggy",
+      "tracks": [
+        {
+          "key": "it wasn t me|shaggy",
+          "title": "It Wasn't Me",
+          "credit": "Shaggy feat. Rikrok",
+          "firstKey": "2001-11",
+          "firstDate": "12/03/2001",
+          "lastKey": "2001-38",
+          "lastDate": "17/09/2001",
+          "weeks": 27,
+          "peak": 1,
+          "peakKey": "2001-13",
+          "peakDate": "26/03/2001"
+        },
+        {
+          "key": "hey sexy lady|shaggy",
+          "title": "Hey Sexy Lady",
+          "credit": "Shaggy feat. Brian & Tony Gold",
+          "firstKey": "2003-18",
+          "firstDate": "28/04/2003",
+          "lastKey": "2003-38",
+          "lastDate": "15/09/2003",
+          "weeks": 21,
+          "peak": 5,
+          "peakKey": "2003-19",
+          "peakDate": "05/05/2003"
+        },
+        {
+          "key": "boombastic|shaggy",
+          "title": "Boombastic",
+          "credit": "Shaggy",
+          "firstKey": "1995-41",
+          "firstDate": "09/10/1995",
+          "lastKey": "1996-06",
+          "lastDate": "05/02/1996",
+          "weeks": 18,
+          "peak": 7,
+          "peakKey": "1995-50",
+          "peakDate": "11/12/1995"
+        },
+        {
+          "key": "angel|shaggy",
+          "title": "Angel",
+          "credit": "Shaggy feat. Rayvon",
+          "firstKey": "2001-25",
+          "firstDate": "18/06/2001",
+          "lastKey": "2001-46",
+          "lastDate": "12/11/2001",
+          "weeks": 22,
+          "peak": 8,
+          "peakKey": "2001-26",
+          "peakDate": "25/06/2001"
+        },
+        {
+          "key": "feel the rush|shaggy",
+          "title": "Feel The Rush (Mascots Song)",
+          "credit": "Shaggy feat. Trix & Flix",
+          "firstKey": "2008-28",
+          "firstDate": "07/07/2008",
+          "lastKey": "2008-47",
+          "lastDate": "17/11/2008",
+          "weeks": 19,
+          "peak": 24,
+          "peakKey": "2008-28",
+          "peakDate": "07/07/2008"
+        },
+        {
+          "key": "get my party on|shaggy",
+          "title": "Get My Party On",
+          "credit": "Shaggy",
+          "firstKey": "2003-45",
+          "firstDate": "03/11/2003",
+          "lastKey": "2004-09",
+          "lastDate": "23/02/2004",
+          "weeks": 17,
+          "peak": 26,
+          "peakKey": "2003-47",
+          "peakDate": "17/11/2003"
+        },
+        {
+          "key": "fly high|shaggy",
+          "title": "Fly High",
+          "credit": "Shaggy feat. Gary \"Nesta\" Pine",
+          "firstKey": "2009-31",
+          "firstDate": "27/07/2009",
+          "lastKey": "2010-26",
+          "lastDate": "28/06/2010",
+          "weeks": 19,
+          "peak": 31,
+          "peakKey": "2009-31",
+          "peakDate": "27/07/2009"
+        },
+        {
+          "key": "oh carolina|shaggy",
+          "title": "Oh Carolina",
+          "credit": "Shaggy",
+          "firstKey": "1993-29",
+          "firstDate": "18/07/1993",
+          "lastKey": "1993-39",
+          "lastDate": "27/09/1993",
+          "weeks": 10,
+          "peak": 33,
+          "peakKey": "1993-32",
+          "peakDate": "08/08/1993"
+        },
+        {
+          "key": "luv me luv me|shaggy",
+          "title": "Luv Me, Luv Me",
+          "credit": "Shaggy",
+          "firstKey": "2001-50",
+          "firstDate": "10/12/2001",
+          "lastKey": "2002-03",
+          "lastDate": "14/01/2002",
+          "weeks": 6,
+          "peak": 60,
+          "peakKey": "2001-52",
+          "peakDate": "24/12/2001"
+        }
+      ],
+      "trackCount": 9,
+      "totalWeeks": 159,
+      "bestPeak": 1,
+      "firstYear": 1993,
+      "lastYear": 2010,
+      "firstKey": "1993-29",
+      "firstDate": "18/07/1993",
+      "lastKey": "2010-26",
+      "lastDate": "28/06/2010"
+    },
+    {
       "id": "weeknd",
       "name": "Weeknd",
       "tracks": [
@@ -39990,138 +40122,6 @@
       "firstDate": "02/02/2015",
       "lastKey": "2020-04",
       "lastDate": "20/01/2020"
-    },
-    {
-      "id": "shaggy",
-      "name": "Shaggy",
-      "tracks": [
-        {
-          "key": "it wasn t me|shaggy",
-          "title": "It Wasn't Me",
-          "credit": "Shaggy feat. Rikrok",
-          "firstKey": "2001-11",
-          "firstDate": "12/03/2001",
-          "lastKey": "2001-38",
-          "lastDate": "17/09/2001",
-          "weeks": 27,
-          "peak": 1,
-          "peakKey": "2001-13",
-          "peakDate": "26/03/2001"
-        },
-        {
-          "key": "hey sexy lady|shaggy",
-          "title": "Hey Sexy Lady",
-          "credit": "Shaggy feat. Brian & Tony Gold",
-          "firstKey": "2003-18",
-          "firstDate": "28/04/2003",
-          "lastKey": "2003-38",
-          "lastDate": "15/09/2003",
-          "weeks": 21,
-          "peak": 5,
-          "peakKey": "2003-19",
-          "peakDate": "05/05/2003"
-        },
-        {
-          "key": "boombastic|shaggy",
-          "title": "Boombastic",
-          "credit": "Shaggy",
-          "firstKey": "1995-41",
-          "firstDate": "09/10/1995",
-          "lastKey": "1996-06",
-          "lastDate": "05/02/1996",
-          "weeks": 16,
-          "peak": 7,
-          "peakKey": "1995-50",
-          "peakDate": "11/12/1995"
-        },
-        {
-          "key": "angel|shaggy",
-          "title": "Angel",
-          "credit": "Shaggy feat. Rayvon",
-          "firstKey": "2001-25",
-          "firstDate": "18/06/2001",
-          "lastKey": "2001-46",
-          "lastDate": "12/11/2001",
-          "weeks": 22,
-          "peak": 8,
-          "peakKey": "2001-26",
-          "peakDate": "25/06/2001"
-        },
-        {
-          "key": "feel the rush|shaggy",
-          "title": "Feel The Rush (Mascots Song)",
-          "credit": "Shaggy feat. Trix & Flix",
-          "firstKey": "2008-28",
-          "firstDate": "07/07/2008",
-          "lastKey": "2008-47",
-          "lastDate": "17/11/2008",
-          "weeks": 19,
-          "peak": 24,
-          "peakKey": "2008-28",
-          "peakDate": "07/07/2008"
-        },
-        {
-          "key": "get my party on|shaggy",
-          "title": "Get My Party On",
-          "credit": "Shaggy",
-          "firstKey": "2003-45",
-          "firstDate": "03/11/2003",
-          "lastKey": "2004-09",
-          "lastDate": "23/02/2004",
-          "weeks": 17,
-          "peak": 26,
-          "peakKey": "2003-47",
-          "peakDate": "17/11/2003"
-        },
-        {
-          "key": "fly high|shaggy",
-          "title": "Fly High",
-          "credit": "Shaggy feat. Gary \"Nesta\" Pine",
-          "firstKey": "2009-31",
-          "firstDate": "27/07/2009",
-          "lastKey": "2010-26",
-          "lastDate": "28/06/2010",
-          "weeks": 19,
-          "peak": 31,
-          "peakKey": "2009-31",
-          "peakDate": "27/07/2009"
-        },
-        {
-          "key": "oh carolina|shaggy",
-          "title": "Oh Carolina",
-          "credit": "Shaggy",
-          "firstKey": "1993-29",
-          "firstDate": "18/07/1993",
-          "lastKey": "1993-39",
-          "lastDate": "27/09/1993",
-          "weeks": 10,
-          "peak": 33,
-          "peakKey": "1993-32",
-          "peakDate": "08/08/1993"
-        },
-        {
-          "key": "luv me luv me|shaggy",
-          "title": "Luv Me, Luv Me",
-          "credit": "Shaggy",
-          "firstKey": "2001-50",
-          "firstDate": "10/12/2001",
-          "lastKey": "2002-03",
-          "lastDate": "14/01/2002",
-          "weeks": 6,
-          "peak": 60,
-          "peakKey": "2001-52",
-          "peakDate": "24/12/2001"
-        }
-      ],
-      "trackCount": 9,
-      "totalWeeks": 157,
-      "bestPeak": 1,
-      "firstYear": 1993,
-      "lastYear": 2010,
-      "firstKey": "1993-29",
-      "firstDate": "18/07/1993",
-      "lastKey": "2010-26",
-      "lastDate": "28/06/2010"
     },
     {
       "id": "slimane",
@@ -42366,6 +42366,138 @@
       "firstDate": "11/07/2016",
       "lastKey": "2024-09",
       "lastDate": "26/02/2024"
+    },
+    {
+      "id": "u2",
+      "name": "U2",
+      "tracks": [
+        {
+          "key": "the fly|u2",
+          "title": "The Fly",
+          "credit": "U2",
+          "firstKey": "1991-45",
+          "firstDate": "10/11/1991",
+          "lastKey": "1992-01",
+          "lastDate": "05/01/1992",
+          "weeks": 9,
+          "peak": 6,
+          "peakKey": "1991-45",
+          "peakDate": "10/11/1991"
+        },
+        {
+          "key": "with or without you|u2",
+          "title": "With or Without You",
+          "credit": "U2",
+          "firstKey": "1987-20",
+          "firstDate": "17/05/1987",
+          "lastKey": "1987-42",
+          "lastDate": "18/10/1987",
+          "weeks": 23,
+          "peak": 10,
+          "peakKey": "1987-28",
+          "peakDate": "12/07/1987"
+        },
+        {
+          "key": "hold me thrill me kiss me|u2",
+          "title": "Hold Me, Thrill Me, Kiss Me...",
+          "credit": "U2",
+          "firstKey": "1995-24",
+          "firstDate": "12/06/1995",
+          "lastKey": "1995-42",
+          "lastDate": "16/10/1995",
+          "weeks": 19,
+          "peak": 10,
+          "peakKey": "1995-30",
+          "peakDate": "24/07/1995"
+        },
+        {
+          "key": "one|u2",
+          "title": "One",
+          "credit": "U2",
+          "firstKey": "1992-17",
+          "firstDate": "26/04/1992",
+          "lastKey": "1992-29",
+          "lastDate": "19/07/1992",
+          "weeks": 13,
+          "peak": 13,
+          "peakKey": "1992-23",
+          "peakDate": "07/06/1992"
+        },
+        {
+          "key": "stay|u2",
+          "title": "Stay (Faraway, So Close!)",
+          "credit": "U2",
+          "firstKey": "1993-47",
+          "firstDate": "22/11/1993",
+          "lastKey": "1994-10",
+          "lastDate": "07/03/1994",
+          "weeks": 16,
+          "peak": 18,
+          "peakKey": "1994-01",
+          "peakDate": "03/01/1994"
+        },
+        {
+          "key": "mysterious ways|u2",
+          "title": "Mysterious Ways",
+          "credit": "U2",
+          "firstKey": "1992-06",
+          "firstDate": "09/02/1992",
+          "lastKey": "1992-15",
+          "lastDate": "12/04/1992",
+          "weeks": 10,
+          "peak": 19,
+          "peakKey": "1992-13",
+          "peakDate": "29/03/1992"
+        },
+        {
+          "key": "even better than the real thing|u2",
+          "title": "Even Better Than The Real Thing",
+          "credit": "U2",
+          "firstKey": "1992-38",
+          "firstDate": "20/09/1992",
+          "lastKey": "1992-43",
+          "lastDate": "25/10/1992",
+          "weeks": 6,
+          "peak": 34,
+          "peakKey": "1992-39",
+          "peakDate": "27/09/1992"
+        },
+        {
+          "key": "desire|u2",
+          "title": "Desire",
+          "credit": "U2",
+          "firstKey": "1988-42",
+          "firstDate": "16/10/1988",
+          "lastKey": "1988-49",
+          "lastDate": "04/12/1988",
+          "weeks": 8,
+          "peak": 37,
+          "peakKey": "1988-42",
+          "peakDate": "16/10/1988"
+        },
+        {
+          "key": "i still haven t found what i m looking for|u2",
+          "title": "I Still Haven't Found What I'm Looking For",
+          "credit": "U2",
+          "firstKey": "1987-41",
+          "firstDate": "11/10/1987",
+          "lastKey": "1987-46",
+          "lastDate": "15/11/1987",
+          "weeks": 6,
+          "peak": 37,
+          "peakKey": "1987-44",
+          "peakDate": "01/11/1987"
+        }
+      ],
+      "trackCount": 9,
+      "totalWeeks": 110,
+      "bestPeak": 6,
+      "firstYear": 1987,
+      "lastYear": 1995,
+      "firstKey": "1987-20",
+      "firstDate": "17/05/1987",
+      "lastKey": "1995-42",
+      "lastDate": "16/10/1995"
     },
     {
       "id": "liane foly",
@@ -46793,125 +46925,6 @@
       "firstDate": "25/09/2006",
       "lastKey": "2014-48",
       "lastDate": "24/11/2014"
-    },
-    {
-      "id": "u2",
-      "name": "U2",
-      "tracks": [
-        {
-          "key": "the fly|u2",
-          "title": "The Fly",
-          "credit": "U2",
-          "firstKey": "1991-45",
-          "firstDate": "10/11/1991",
-          "lastKey": "1992-01",
-          "lastDate": "05/01/1992",
-          "weeks": 9,
-          "peak": 6,
-          "peakKey": "1991-45",
-          "peakDate": "10/11/1991"
-        },
-        {
-          "key": "with or without you|u2",
-          "title": "With or Without You",
-          "credit": "U2",
-          "firstKey": "1987-20",
-          "firstDate": "17/05/1987",
-          "lastKey": "1987-42",
-          "lastDate": "18/10/1987",
-          "weeks": 23,
-          "peak": 10,
-          "peakKey": "1987-28",
-          "peakDate": "12/07/1987"
-        },
-        {
-          "key": "one|u2",
-          "title": "One",
-          "credit": "U2",
-          "firstKey": "1992-17",
-          "firstDate": "26/04/1992",
-          "lastKey": "1992-29",
-          "lastDate": "19/07/1992",
-          "weeks": 13,
-          "peak": 13,
-          "peakKey": "1992-23",
-          "peakDate": "07/06/1992"
-        },
-        {
-          "key": "stay|u2",
-          "title": "Stay (Faraway, So Close!)",
-          "credit": "U2",
-          "firstKey": "1993-47",
-          "firstDate": "22/11/1993",
-          "lastKey": "1994-10",
-          "lastDate": "07/03/1994",
-          "weeks": 16,
-          "peak": 18,
-          "peakKey": "1994-01",
-          "peakDate": "03/01/1994"
-        },
-        {
-          "key": "mysterious ways|u2",
-          "title": "Mysterious Ways",
-          "credit": "U2",
-          "firstKey": "1992-06",
-          "firstDate": "09/02/1992",
-          "lastKey": "1992-15",
-          "lastDate": "12/04/1992",
-          "weeks": 10,
-          "peak": 19,
-          "peakKey": "1992-13",
-          "peakDate": "29/03/1992"
-        },
-        {
-          "key": "even better than the real thing|u2",
-          "title": "Even Better Than The Real Thing",
-          "credit": "U2",
-          "firstKey": "1992-38",
-          "firstDate": "20/09/1992",
-          "lastKey": "1992-43",
-          "lastDate": "25/10/1992",
-          "weeks": 6,
-          "peak": 34,
-          "peakKey": "1992-39",
-          "peakDate": "27/09/1992"
-        },
-        {
-          "key": "desire|u2",
-          "title": "Desire",
-          "credit": "U2",
-          "firstKey": "1988-42",
-          "firstDate": "16/10/1988",
-          "lastKey": "1988-49",
-          "lastDate": "04/12/1988",
-          "weeks": 8,
-          "peak": 37,
-          "peakKey": "1988-42",
-          "peakDate": "16/10/1988"
-        },
-        {
-          "key": "i still haven t found what i m looking for|u2",
-          "title": "I Still Haven't Found What I'm Looking For",
-          "credit": "U2",
-          "firstKey": "1987-41",
-          "firstDate": "11/10/1987",
-          "lastKey": "1987-46",
-          "lastDate": "15/11/1987",
-          "weeks": 6,
-          "peak": 37,
-          "peakKey": "1987-44",
-          "peakDate": "01/11/1987"
-        }
-      ],
-      "trackCount": 8,
-      "totalWeeks": 91,
-      "bestPeak": 6,
-      "firstYear": 1987,
-      "lastYear": 1994,
-      "firstKey": "1987-20",
-      "firstDate": "17/05/1987",
-      "lastKey": "1994-10",
-      "lastDate": "07/03/1994"
     },
     {
       "id": "khaled",
@@ -59672,99 +59685,6 @@
       "lastDate": "30/12/2002"
     },
     {
-      "id": "e type",
-      "name": "E-Type",
-      "tracks": [
-        {
-          "key": "set the world on fire|e type",
-          "title": "Set The World On Fire",
-          "credit": "E-Type",
-          "firstKey": "1996-02",
-          "firstDate": "08/01/1996",
-          "lastKey": "1996-13",
-          "lastDate": "25/03/1996",
-          "weeks": 12,
-          "peak": 13,
-          "peakKey": "1996-05",
-          "peakDate": "29/01/1996"
-        },
-        {
-          "key": "this is the way|e type",
-          "title": "This Is The Way",
-          "credit": "E-Type",
-          "firstKey": "1995-25",
-          "firstDate": "19/06/1995",
-          "lastKey": "1995-44",
-          "lastDate": "30/10/1995",
-          "weeks": 20,
-          "peak": 14,
-          "peakKey": "1995-30",
-          "peakDate": "24/07/1995"
-        },
-        {
-          "key": "megamix|e type",
-          "title": "Megamix",
-          "credit": "E-Type",
-          "firstKey": "1996-11",
-          "firstDate": "11/03/1996",
-          "lastKey": "1996-23",
-          "lastDate": "03/06/1996",
-          "weeks": 13,
-          "peak": 15,
-          "peakKey": "1996-14",
-          "peakDate": "01/04/1996"
-        },
-        {
-          "key": "here i go again|e type",
-          "title": "Here I Go Again",
-          "credit": "E-Type",
-          "firstKey": "1999-12",
-          "firstDate": "22/03/1999",
-          "lastKey": "1999-22",
-          "lastDate": "31/05/1999",
-          "weeks": 10,
-          "peak": 25,
-          "peakKey": "1999-12",
-          "peakDate": "22/03/1999"
-        },
-        {
-          "key": "russian lullaby|e type",
-          "title": "Russian Lullaby",
-          "credit": "E-Type",
-          "firstKey": "1995-42",
-          "firstDate": "16/10/1995",
-          "lastKey": "1996-02",
-          "lastDate": "08/01/1996",
-          "weeks": 9,
-          "peak": 35,
-          "peakKey": "1995-47",
-          "peakDate": "20/11/1995"
-        },
-        {
-          "key": "campione 2000|e type",
-          "title": "Campione 2000",
-          "credit": "E-Type",
-          "firstKey": "2000-25",
-          "firstDate": "19/06/2000",
-          "lastKey": "2000-28",
-          "lastDate": "10/07/2000",
-          "weeks": 4,
-          "peak": 66,
-          "peakKey": "2000-25",
-          "peakDate": "19/06/2000"
-        }
-      ],
-      "trackCount": 6,
-      "totalWeeks": 68,
-      "bestPeak": 13,
-      "firstYear": 1995,
-      "lastYear": 2000,
-      "firstKey": "1995-25",
-      "firstDate": "19/06/1995",
-      "lastKey": "2000-28",
-      "lastDate": "10/07/2000"
-    },
-    {
       "id": "jax jones",
       "name": "Jax Jones",
       "tracks": [
@@ -59856,6 +59776,99 @@
       "firstDate": "06/02/2017",
       "lastKey": "2023-13",
       "lastDate": "27/03/2023"
+    },
+    {
+      "id": "e type",
+      "name": "E-Type",
+      "tracks": [
+        {
+          "key": "set the world on fire|e type",
+          "title": "Set The World On Fire",
+          "credit": "E-Type",
+          "firstKey": "1996-02",
+          "firstDate": "08/01/1996",
+          "lastKey": "1996-13",
+          "lastDate": "25/03/1996",
+          "weeks": 12,
+          "peak": 13,
+          "peakKey": "1996-05",
+          "peakDate": "29/01/1996"
+        },
+        {
+          "key": "this is the way|e type",
+          "title": "This Is The Way",
+          "credit": "E-Type",
+          "firstKey": "1995-25",
+          "firstDate": "19/06/1995",
+          "lastKey": "1995-44",
+          "lastDate": "30/10/1995",
+          "weeks": 19,
+          "peak": 14,
+          "peakKey": "1995-30",
+          "peakDate": "24/07/1995"
+        },
+        {
+          "key": "megamix|e type",
+          "title": "Megamix",
+          "credit": "E-Type",
+          "firstKey": "1996-11",
+          "firstDate": "11/03/1996",
+          "lastKey": "1996-23",
+          "lastDate": "03/06/1996",
+          "weeks": 13,
+          "peak": 15,
+          "peakKey": "1996-14",
+          "peakDate": "01/04/1996"
+        },
+        {
+          "key": "here i go again|e type",
+          "title": "Here I Go Again",
+          "credit": "E-Type",
+          "firstKey": "1999-12",
+          "firstDate": "22/03/1999",
+          "lastKey": "1999-22",
+          "lastDate": "31/05/1999",
+          "weeks": 10,
+          "peak": 25,
+          "peakKey": "1999-12",
+          "peakDate": "22/03/1999"
+        },
+        {
+          "key": "russian lullaby|e type",
+          "title": "Russian Lullaby",
+          "credit": "E-Type",
+          "firstKey": "1995-42",
+          "firstDate": "16/10/1995",
+          "lastKey": "1996-02",
+          "lastDate": "08/01/1996",
+          "weeks": 9,
+          "peak": 35,
+          "peakKey": "1995-47",
+          "peakDate": "20/11/1995"
+        },
+        {
+          "key": "campione 2000|e type",
+          "title": "Campione 2000",
+          "credit": "E-Type",
+          "firstKey": "2000-25",
+          "firstDate": "19/06/2000",
+          "lastKey": "2000-28",
+          "lastDate": "10/07/2000",
+          "weeks": 4,
+          "peak": 66,
+          "peakKey": "2000-25",
+          "peakDate": "19/06/2000"
+        }
+      ],
+      "trackCount": 6,
+      "totalWeeks": 67,
+      "bestPeak": 13,
+      "firstYear": 1995,
+      "lastYear": 2000,
+      "firstKey": "1995-25",
+      "firstDate": "19/06/1995",
+      "lastKey": "2000-28",
+      "lastDate": "10/07/2000"
     },
     {
       "id": "dj fred and arnold t",
@@ -66840,86 +66853,6 @@
       "lastDate": "22/09/1991"
     },
     {
-      "id": "diana king",
-      "name": "Diana King",
-      "tracks": [
-        {
-          "key": "shy guy|diana king",
-          "title": "Shy Guy",
-          "credit": "Diana King",
-          "firstKey": "1995-25",
-          "firstDate": "19/06/1995",
-          "lastKey": "1995-45",
-          "lastDate": "06/11/1995",
-          "weeks": 21,
-          "peak": 4,
-          "peakKey": "1995-36",
-          "peakDate": "04/09/1995"
-        },
-        {
-          "key": "i say a little prayer|diana king",
-          "title": "I Say A Little Prayer",
-          "credit": "Diana King",
-          "firstKey": "1997-40",
-          "firstDate": "29/09/1997",
-          "lastKey": "1997-47",
-          "lastDate": "17/11/1997",
-          "weeks": 8,
-          "peak": 34,
-          "peakKey": "1997-45",
-          "peakDate": "03/11/1997"
-        },
-        {
-          "key": "l l lies|diana king",
-          "title": "L-L-Lies",
-          "credit": "Diana King",
-          "firstKey": "1998-09",
-          "firstDate": "23/02/1998",
-          "lastKey": "1998-31",
-          "lastDate": "27/07/1998",
-          "weeks": 23,
-          "peak": 35,
-          "peakKey": "1998-10",
-          "peakDate": "02/03/1998"
-        },
-        {
-          "key": "ain t nobody|diana king",
-          "title": "Ain't Nobody",
-          "credit": "Diana King",
-          "firstKey": "1995-45",
-          "firstDate": "06/11/1995",
-          "lastKey": "1996-03",
-          "lastDate": "15/01/1996",
-          "weeks": 3,
-          "peak": 41,
-          "peakKey": "1996-02",
-          "peakDate": "08/01/1996"
-        },
-        {
-          "key": "summer breezin|diana king",
-          "title": "Summer Breezin'",
-          "credit": "Diana King",
-          "firstKey": "2002-38",
-          "firstDate": "16/09/2002",
-          "lastKey": "2002-39",
-          "lastDate": "23/09/2002",
-          "weeks": 2,
-          "peak": 85,
-          "peakKey": "2002-38",
-          "peakDate": "16/09/2002"
-        }
-      ],
-      "trackCount": 5,
-      "totalWeeks": 57,
-      "bestPeak": 4,
-      "firstYear": 1995,
-      "lastYear": 2002,
-      "firstKey": "1995-25",
-      "firstDate": "19/06/1995",
-      "lastKey": "2002-39",
-      "lastDate": "23/09/2002"
-    },
-    {
       "id": "bros",
       "name": "Bros",
       "tracks": [
@@ -67078,6 +67011,86 @@
       "firstDate": "16/07/1989",
       "lastKey": "1991-40",
       "lastDate": "06/10/1991"
+    },
+    {
+      "id": "diana king",
+      "name": "Diana King",
+      "tracks": [
+        {
+          "key": "shy guy|diana king",
+          "title": "Shy Guy",
+          "credit": "Diana King",
+          "firstKey": "1995-25",
+          "firstDate": "19/06/1995",
+          "lastKey": "1995-45",
+          "lastDate": "06/11/1995",
+          "weeks": 20,
+          "peak": 4,
+          "peakKey": "1995-36",
+          "peakDate": "04/09/1995"
+        },
+        {
+          "key": "i say a little prayer|diana king",
+          "title": "I Say A Little Prayer",
+          "credit": "Diana King",
+          "firstKey": "1997-40",
+          "firstDate": "29/09/1997",
+          "lastKey": "1997-47",
+          "lastDate": "17/11/1997",
+          "weeks": 8,
+          "peak": 34,
+          "peakKey": "1997-45",
+          "peakDate": "03/11/1997"
+        },
+        {
+          "key": "l l lies|diana king",
+          "title": "L-L-Lies",
+          "credit": "Diana King",
+          "firstKey": "1998-09",
+          "firstDate": "23/02/1998",
+          "lastKey": "1998-31",
+          "lastDate": "27/07/1998",
+          "weeks": 23,
+          "peak": 35,
+          "peakKey": "1998-10",
+          "peakDate": "02/03/1998"
+        },
+        {
+          "key": "ain t nobody|diana king",
+          "title": "Ain't Nobody",
+          "credit": "Diana King",
+          "firstKey": "1995-45",
+          "firstDate": "06/11/1995",
+          "lastKey": "1996-03",
+          "lastDate": "15/01/1996",
+          "weeks": 3,
+          "peak": 41,
+          "peakKey": "1996-02",
+          "peakDate": "08/01/1996"
+        },
+        {
+          "key": "summer breezin|diana king",
+          "title": "Summer Breezin'",
+          "credit": "Diana King",
+          "firstKey": "2002-38",
+          "firstDate": "16/09/2002",
+          "lastKey": "2002-39",
+          "lastDate": "23/09/2002",
+          "weeks": 2,
+          "peak": 85,
+          "peakKey": "2002-38",
+          "peakDate": "16/09/2002"
+        }
+      ],
+      "trackCount": 5,
+      "totalWeeks": 56,
+      "bestPeak": 4,
+      "firstYear": 1995,
+      "lastYear": 2002,
+      "firstKey": "1995-25",
+      "firstDate": "19/06/1995",
+      "lastKey": "2002-39",
+      "lastDate": "23/09/2002"
     },
     {
       "id": "olivia ruiz",
@@ -78752,73 +78765,6 @@
       "lastDate": "20/06/2022"
     },
     {
-      "id": "les schtroumpfs",
-      "name": "Les Schtroumpfs",
-      "tracks": [
-        {
-          "key": "no no no no limit|les schtroumpfs",
-          "title": "No No No No Limit",
-          "credit": "Les Schtroumpfs",
-          "firstKey": "1995-26",
-          "firstDate": "26/06/1995",
-          "lastKey": "1995-40",
-          "lastDate": "02/10/1995",
-          "weeks": 15,
-          "peak": 9,
-          "peakKey": "1995-34",
-          "peakDate": "21/08/1995"
-        },
-        {
-          "key": "moi j aime danser|les schtroumpfs",
-          "title": "Moi j'aime danser",
-          "credit": "Les Schtroumpfs",
-          "firstKey": "1996-26",
-          "firstDate": "24/06/1996",
-          "lastKey": "1996-41",
-          "lastDate": "07/10/1996",
-          "weeks": 16,
-          "peak": 16,
-          "peakKey": "1996-34",
-          "peakDate": "19/08/1996"
-        },
-        {
-          "key": "la schtroumpf party|les schtroumpfs",
-          "title": "La Schtroumpf Party",
-          "credit": "Les Schtroumpfs",
-          "firstKey": "1995-42",
-          "firstDate": "16/10/1995",
-          "lastKey": "1995-45",
-          "lastDate": "06/11/1995",
-          "weeks": 2,
-          "peak": 47,
-          "peakKey": "1995-45",
-          "peakDate": "06/11/1995"
-        },
-        {
-          "key": "aimer etre aime|les schtroumpfs",
-          "title": "Aimer être aimé",
-          "credit": "Les Schtroumpfs",
-          "firstKey": "1998-48",
-          "firstDate": "23/11/1998",
-          "lastKey": "1999-53",
-          "lastDate": "03/01/2000",
-          "weeks": 6,
-          "peak": 89,
-          "peakKey": "1999-53",
-          "peakDate": "03/01/2000"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 39,
-      "bestPeak": 9,
-      "firstYear": 1995,
-      "lastYear": 1999,
-      "firstKey": "1995-26",
-      "firstDate": "26/06/1995",
-      "lastKey": "1999-53",
-      "lastDate": "03/01/2000"
-    },
-    {
       "id": "ac",
       "name": "AC",
       "tracks": [
@@ -79085,6 +79031,73 @@
       "firstDate": "26/05/2014",
       "lastKey": "2025-23",
       "lastDate": "02/06/2025"
+    },
+    {
+      "id": "les schtroumpfs",
+      "name": "Les Schtroumpfs",
+      "tracks": [
+        {
+          "key": "no no no no limit|les schtroumpfs",
+          "title": "No No No No Limit",
+          "credit": "Les Schtroumpfs",
+          "firstKey": "1995-26",
+          "firstDate": "26/06/1995",
+          "lastKey": "1995-40",
+          "lastDate": "02/10/1995",
+          "weeks": 14,
+          "peak": 10,
+          "peakKey": "1995-32",
+          "peakDate": "07/08/1995"
+        },
+        {
+          "key": "moi j aime danser|les schtroumpfs",
+          "title": "Moi j'aime danser",
+          "credit": "Les Schtroumpfs",
+          "firstKey": "1996-26",
+          "firstDate": "24/06/1996",
+          "lastKey": "1996-41",
+          "lastDate": "07/10/1996",
+          "weeks": 16,
+          "peak": 16,
+          "peakKey": "1996-34",
+          "peakDate": "19/08/1996"
+        },
+        {
+          "key": "la schtroumpf party|les schtroumpfs",
+          "title": "La Schtroumpf Party",
+          "credit": "Les Schtroumpfs",
+          "firstKey": "1995-42",
+          "firstDate": "16/10/1995",
+          "lastKey": "1995-45",
+          "lastDate": "06/11/1995",
+          "weeks": 2,
+          "peak": 47,
+          "peakKey": "1995-45",
+          "peakDate": "06/11/1995"
+        },
+        {
+          "key": "aimer etre aime|les schtroumpfs",
+          "title": "Aimer être aimé",
+          "credit": "Les Schtroumpfs",
+          "firstKey": "1998-48",
+          "firstDate": "23/11/1998",
+          "lastKey": "1999-53",
+          "lastDate": "03/01/2000",
+          "weeks": 6,
+          "peak": 89,
+          "peakKey": "1999-53",
+          "peakDate": "03/01/2000"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 38,
+      "bestPeak": 10,
+      "firstYear": 1995,
+      "lastYear": 1999,
+      "firstKey": "1995-26",
+      "firstDate": "26/06/1995",
+      "lastKey": "1999-53",
+      "lastDate": "03/01/2000"
     },
     {
       "id": "embargo",
@@ -96390,6 +96403,60 @@
       "lastDate": "17/11/2003"
     },
     {
+      "id": "the beatles",
+      "name": "The Beatles",
+      "tracks": [
+        {
+          "key": "free as a bird|the beatles",
+          "title": "Free As A Bird",
+          "credit": "The Beatles",
+          "firstKey": "1995-49",
+          "firstDate": "04/12/1995",
+          "lastKey": "1996-01",
+          "lastDate": "01/01/1996",
+          "weeks": 5,
+          "peak": 23,
+          "peakKey": "1995-49",
+          "peakDate": "04/12/1995"
+        },
+        {
+          "key": "real love|the beatles",
+          "title": "Real Love",
+          "credit": "The Beatles",
+          "firstKey": "1996-10",
+          "firstDate": "04/03/1996",
+          "lastKey": "1996-10",
+          "lastDate": "04/03/1996",
+          "weeks": 1,
+          "peak": 36,
+          "peakKey": "1996-10",
+          "peakDate": "04/03/1996"
+        },
+        {
+          "key": "love me do|the beatles",
+          "title": "Love Me Do",
+          "credit": "The Beatles",
+          "firstKey": "1992-44",
+          "firstDate": "01/11/1992",
+          "lastKey": "1992-48",
+          "lastDate": "29/11/1992",
+          "weeks": 5,
+          "peak": 39,
+          "peakKey": "1992-47",
+          "peakDate": "22/11/1992"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 11,
+      "bestPeak": 23,
+      "firstYear": 1992,
+      "lastYear": 1996,
+      "firstKey": "1992-44",
+      "firstDate": "01/11/1992",
+      "lastKey": "1996-10",
+      "lastDate": "04/03/1996"
+    },
+    {
       "id": "agoria",
       "name": "Agoria",
       "tracks": [
@@ -96496,60 +96563,6 @@
       "firstDate": "02/03/1998",
       "lastKey": "2000-32",
       "lastDate": "07/08/2000"
-    },
-    {
-      "id": "the beatles",
-      "name": "The Beatles",
-      "tracks": [
-        {
-          "key": "free as a bird|the beatles",
-          "title": "Free As A Bird",
-          "credit": "The Beatles",
-          "firstKey": "1995-49",
-          "firstDate": "04/12/1995",
-          "lastKey": "1996-01",
-          "lastDate": "01/01/1996",
-          "weeks": 4,
-          "peak": 23,
-          "peakKey": "1995-49",
-          "peakDate": "04/12/1995"
-        },
-        {
-          "key": "real love|the beatles",
-          "title": "Real Love",
-          "credit": "The Beatles",
-          "firstKey": "1996-10",
-          "firstDate": "04/03/1996",
-          "lastKey": "1996-10",
-          "lastDate": "04/03/1996",
-          "weeks": 1,
-          "peak": 36,
-          "peakKey": "1996-10",
-          "peakDate": "04/03/1996"
-        },
-        {
-          "key": "love me do|the beatles",
-          "title": "Love Me Do",
-          "credit": "The Beatles",
-          "firstKey": "1992-44",
-          "firstDate": "01/11/1992",
-          "lastKey": "1992-48",
-          "lastDate": "29/11/1992",
-          "weeks": 5,
-          "peak": 39,
-          "peakKey": "1992-47",
-          "peakDate": "22/11/1992"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 10,
-      "bestPeak": 23,
-      "firstYear": 1992,
-      "lastYear": 1996,
-      "firstKey": "1992-44",
-      "firstDate": "01/11/1992",
-      "lastKey": "1996-10",
-      "lastDate": "04/03/1996"
     },
     {
       "id": "yves duteil",
@@ -121882,6 +121895,47 @@
       "lastDate": "03/01/2011"
     },
     {
+      "id": "fantasy",
+      "name": "Fantasy",
+      "tracks": [
+        {
+          "key": "6|fantasy",
+          "title": "6",
+          "credit": "Fantasy",
+          "firstKey": "1995-41",
+          "firstDate": "09/10/1995",
+          "lastKey": "1995-41",
+          "lastDate": "09/10/1995",
+          "weeks": 1,
+          "peak": 6,
+          "peakKey": "1995-41",
+          "peakDate": "09/10/1995"
+        },
+        {
+          "key": "14|fantasy",
+          "title": "14",
+          "credit": "Fantasy",
+          "firstKey": "1995-39",
+          "firstDate": "25/09/1995",
+          "lastKey": "1995-39",
+          "lastDate": "25/09/1995",
+          "weeks": 1,
+          "peak": 19,
+          "peakKey": "1995-39",
+          "peakDate": "25/09/1995"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 2,
+      "bestPeak": 6,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-39",
+      "firstDate": "25/09/1995",
+      "lastKey": "1995-41",
+      "lastDate": "09/10/1995"
+    },
+    {
       "id": "arrow_top",
       "name": "arrow_top",
       "tracks": [
@@ -131379,34 +131433,6 @@
       "lastDate": "25/06/2001"
     },
     {
-      "id": "ini kamoze",
-      "name": "Ini Kamoze",
-      "tracks": [
-        {
-          "key": "here comes the hotstepper|ini kamoze",
-          "title": "Here Comes The Hotstepper",
-          "credit": "Ini Kamoze",
-          "firstKey": "1995-03",
-          "firstDate": "16/01/1995",
-          "lastKey": "1995-26",
-          "lastDate": "26/06/1995",
-          "weeks": 24,
-          "peak": 2,
-          "peakKey": "1995-09",
-          "peakDate": "27/02/1995"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 24,
-      "bestPeak": 2,
-      "firstYear": 1995,
-      "lastYear": 1995,
-      "firstKey": "1995-03",
-      "firstDate": "16/01/1995",
-      "lastKey": "1995-26",
-      "lastDate": "26/06/1995"
-    },
-    {
       "id": "leopold nord and vous",
       "name": "Léopold Nord & Vous",
       "tracks": [
@@ -132665,6 +132691,34 @@
       "firstDate": "04/04/1993",
       "lastKey": "1993-37",
       "lastDate": "13/09/1993"
+    },
+    {
+      "id": "ini kamoze",
+      "name": "Ini Kamoze",
+      "tracks": [
+        {
+          "key": "here comes the hotstepper|ini kamoze",
+          "title": "Here Comes The Hotstepper",
+          "credit": "Ini Kamoze",
+          "firstKey": "1995-03",
+          "firstDate": "16/01/1995",
+          "lastKey": "1995-26",
+          "lastDate": "26/06/1995",
+          "weeks": 23,
+          "peak": 2,
+          "peakKey": "1995-09",
+          "peakDate": "27/02/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 23,
+      "bestPeak": 2,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-03",
+      "firstDate": "16/01/1995",
+      "lastKey": "1995-26",
+      "lastDate": "26/06/1995"
     },
     {
       "id": "peter kingsbery",
@@ -151175,34 +151229,6 @@
       "lastDate": "06/01/2014"
     },
     {
-      "id": "michael jackson and janet jackson",
-      "name": "Michael Jackson & Janet Jackson",
-      "tracks": [
-        {
-          "key": "scream|michael jackson and janet jackson",
-          "title": "Scream",
-          "credit": "Michael Jackson & Janet Jackson",
-          "firstKey": "1995-22",
-          "firstDate": "29/05/1995",
-          "lastKey": "1995-35",
-          "lastDate": "28/08/1995",
-          "weeks": 14,
-          "peak": 4,
-          "peakKey": "1995-22",
-          "peakDate": "29/05/1995"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 14,
-      "bestPeak": 4,
-      "firstYear": 1995,
-      "lastYear": 1995,
-      "firstKey": "1995-22",
-      "firstDate": "29/05/1995",
-      "lastKey": "1995-35",
-      "lastDate": "28/08/1995"
-    },
-    {
       "id": "lil louis",
       "name": "Lil Louis",
       "tracks": [
@@ -154365,6 +154391,34 @@
       "firstDate": "06/05/2002",
       "lastKey": "2002-31",
       "lastDate": "29/07/2002"
+    },
+    {
+      "id": "michael jackson and janet jackson",
+      "name": "Michael Jackson & Janet Jackson",
+      "tracks": [
+        {
+          "key": "scream|michael jackson and janet jackson",
+          "title": "Scream",
+          "credit": "Michael Jackson & Janet Jackson",
+          "firstKey": "1995-22",
+          "firstDate": "29/05/1995",
+          "lastKey": "1995-35",
+          "lastDate": "28/08/1995",
+          "weeks": 13,
+          "peak": 4,
+          "peakKey": "1995-22",
+          "peakDate": "29/05/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 13,
+      "bestPeak": 4,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-22",
+      "firstDate": "29/05/1995",
+      "lastKey": "1995-35",
+      "lastDate": "28/08/1995"
     },
     {
       "id": "trinidad cardona",
@@ -196815,6 +196869,34 @@
       "lastDate": "09/08/1999"
     },
     {
+      "id": "je sais pas",
+      "name": "Je sais pas",
+      "tracks": [
+        {
+          "key": "3|je sais pas",
+          "title": "3",
+          "credit": "Je sais pas",
+          "firstKey": "1995-49",
+          "firstDate": "04/12/1995",
+          "lastKey": "1995-49",
+          "lastDate": "04/12/1995",
+          "weeks": 1,
+          "peak": 3,
+          "peakKey": "1995-49",
+          "peakDate": "04/12/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 3,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-49",
+      "firstDate": "04/12/1995",
+      "lastKey": "1995-49",
+      "lastDate": "04/12/1995"
+    },
+    {
       "id": "ziggy",
       "name": "Ziggy",
       "tracks": [
@@ -196983,6 +197065,34 @@
       "lastDate": "27/12/1993"
     },
     {
+      "id": "xxl",
+      "name": "XXL",
+      "tracks": [
+        {
+          "key": "6|xxl",
+          "title": "6",
+          "credit": "XXL",
+          "firstKey": "1995-40",
+          "firstDate": "02/10/1995",
+          "lastKey": "1995-40",
+          "lastDate": "02/10/1995",
+          "weeks": 1,
+          "peak": 8,
+          "peakKey": "1995-40",
+          "peakDate": "02/10/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 8,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-40",
+      "firstDate": "02/10/1995",
+      "lastKey": "1995-40",
+      "lastDate": "02/10/1995"
+    },
+    {
       "id": "detroit",
       "name": "Détroit",
       "tracks": [
@@ -197009,6 +197119,34 @@
       "firstDate": "30/09/2013",
       "lastKey": "2013-40",
       "lastDate": "30/09/2013"
+    },
+    {
+      "id": "no no no no limit",
+      "name": "No No No No Limit",
+      "tracks": [
+        {
+          "key": "9|no no no no limit",
+          "title": "9",
+          "credit": "No No No No Limit",
+          "firstKey": "1995-34",
+          "firstDate": "21/08/1995",
+          "lastKey": "1995-34",
+          "lastDate": "21/08/1995",
+          "weeks": 1,
+          "peak": 9,
+          "peakKey": "1995-34",
+          "peakDate": "21/08/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 9,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-34",
+      "firstDate": "21/08/1995",
+      "lastKey": "1995-34",
+      "lastDate": "21/08/1995"
     },
     {
       "id": "fly by",
@@ -197599,6 +197737,34 @@
       "lastDate": "15/10/2018"
     },
     {
+      "id": "quelle aventure",
+      "name": "Quelle aventure !",
+      "tracks": [
+        {
+          "key": "15|quelle aventure",
+          "title": "15",
+          "credit": "Quelle aventure !",
+          "firstKey": "1995-25",
+          "firstDate": "19/06/1995",
+          "lastKey": "1995-25",
+          "lastDate": "19/06/1995",
+          "weeks": 1,
+          "peak": 36,
+          "peakKey": "1995-25",
+          "peakDate": "19/06/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 36,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-25",
+      "firstDate": "19/06/1995",
+      "lastKey": "1995-25",
+      "lastDate": "19/06/1995"
+    },
+    {
       "id": "tr3nacria and stereokilla",
       "name": "TR3NACRIA & StereoKilla",
       "tracks": [
@@ -197681,6 +197847,34 @@
       "firstDate": "06/01/1997",
       "lastKey": "1997-02",
       "lastDate": "06/01/1997"
+    },
+    {
+      "id": "simple and funky",
+      "name": "Simple & funky",
+      "tracks": [
+        {
+          "key": "4|simple and funky",
+          "title": "4",
+          "credit": "Simple & funky",
+          "firstKey": "1995-33",
+          "firstDate": "14/08/1995",
+          "lastKey": "1995-33",
+          "lastDate": "14/08/1995",
+          "weeks": 1,
+          "peak": 40,
+          "peakKey": "1995-33",
+          "peakDate": "14/08/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 40,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-33",
+      "firstDate": "14/08/1995",
+      "lastKey": "1995-33",
+      "lastDate": "14/08/1995"
     },
     {
       "id": "mamido and francois feldman",

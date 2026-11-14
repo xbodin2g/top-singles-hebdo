@@ -1,34 +1,6 @@
 [
   {
-    "key": "1994-01",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      18
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "18": "U2 — Stay (Faraway, So Close!)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1994-02",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      39
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "39": "U2 — Stay (Faraway, So Close!)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1994-03",
+    "key": "1995-24",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
@@ -37,105 +9,315 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "41": "U2 — Stay (Faraway, So Close!)"
+      "41": "U2 — Hold Me, Thrill Me, Kiss Me..."
     },
     "still_missing": []
   },
   {
-    "key": "1994-04",
+    "key": "1995-25",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      38
+      17
     ],
     "gaps_after": [],
     "recovered": {
-      "38": "U2 — Stay (Faraway, So Close!)"
+      "17": "U2 — Hold Me, Thrill Me, Kiss Me..."
     },
     "still_missing": []
   },
   {
-    "key": "1994-05",
+    "key": "1995-26",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      46
+      16
     ],
     "gaps_after": [],
     "recovered": {
-      "46": "U2 — Stay (Faraway, So Close!)"
+      "16": "U2 — Hold Me, Thrill Me, Kiss Me..."
     },
     "still_missing": []
   },
   {
-    "key": "1994-06",
+    "key": "1995-27",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      41
+      16
     ],
     "gaps_after": [],
     "recovered": {
-      "41": "U2 — Stay (Faraway, So Close!)"
+      "16": "U2 — Hold Me, Thrill Me, Kiss Me..."
     },
     "still_missing": []
   },
   {
-    "key": "1994-07",
+    "key": "1995-28",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      47
+      14
     ],
     "gaps_after": [],
     "recovered": {
-      "47": "U2 — Stay (Faraway, So Close!)"
+      "14": "U2 — Hold Me, Thrill Me, Kiss Me..."
     },
     "still_missing": []
   },
   {
-    "key": "1994-08",
+    "key": "1995-29",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      37
+      12
     ],
     "gaps_after": [],
     "recovered": {
-      "37": "U2 — Stay (Faraway, So Close!)"
+      "12": "U2 — Hold Me, Thrill Me, Kiss Me..."
     },
     "still_missing": []
   },
   {
-    "key": "1994-09",
+    "key": "1995-30",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      46
+      10
     ],
     "gaps_after": [],
     "recovered": {
-      "46": "U2 — Stay (Faraway, So Close!)"
+      "10": "U2 — Hold Me, Thrill Me, Kiss Me..."
     },
     "still_missing": []
   },
   {
-    "key": "1994-10",
+    "key": "1995-31",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      48
+      13
     ],
     "gaps_after": [],
     "recovered": {
-      "48": "U2 — Stay (Faraway, So Close!)"
+      "13": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-32",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      14
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "14": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-33",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      12
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "12": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-34",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      17
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "17": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-35",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      15
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "15": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-36",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      17
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "17": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-37",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      22
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "22": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-38",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      24
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "24": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-39",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      26
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "26": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-40",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      43
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "43": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-41",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      43
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "43": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-42",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      50
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "50": "U2 — Hold Me, Thrill Me, Kiss Me..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-48",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      16
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "16": "Pascal Obispo — Tombé pour elle"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-49",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      11
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "11": "Shaggy — Boombastic"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-51",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      28
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "28": "The Beatles — Free As A Bird"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-52",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      12
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "12": "Shaggy — Boombastic"
     },
     "still_missing": []
   }
