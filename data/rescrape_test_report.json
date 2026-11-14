@@ -1,526 +1,717 @@
 [
   {
-    "key": "2010-01",
+    "key": "2011-03",
     "status": "ok",
-    "entries_before": 98,
+    "entries_before": 97,
     "entries_after": 100,
     "gaps_before": [
-      21,
-      57
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "21": "Coeur de Pirate — Comme des enfants",
-      "57": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-02",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      64
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "64": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-03",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      57
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "57": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-04",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      25,
-      52
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "25": "Pete Yorn & Scarlett Johansson — Relator",
-      "52": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-05",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
+      31,
       53,
-      98
+      78
     ],
     "gaps_after": [],
     "recovered": {
-      "53": "U2 — I'll Go Crazy If I Don't Go...",
-      "98": "U2 — Magnificent"
+      "31": "U2 — Get On Your Boots",
+      "53": "U2 — Magnificent",
+      "78": "U2 — I'll Go Crazy If I Don't Go..."
     },
     "still_missing": []
   },
   {
-    "key": "2010-06",
+    "key": "2011-04",
     "status": "ok",
-    "entries_before": 99,
+    "entries_before": 97,
     "entries_after": 100,
     "gaps_before": [
-      58
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "58": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-07",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      77
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "77": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-08",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      77
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "77": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-09",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      72
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "72": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-10",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      87
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "87": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-12",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      80
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "80": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-13",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      88,
-      95
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "88": "U2 — I'll Go Crazy If I Don't Go...",
-      "95": "U2 — Magnificent"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-14",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      97
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "97": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-15",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      79
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "79": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-16",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      82
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "82": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-17",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 99,
-    "gaps_before": [
-      11,
-      94
-    ],
-    "gaps_after": [
-      11
-    ],
-    "recovered": {
-      "94": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": [
-      11
-    ]
-  },
-  {
-    "key": "2010-18",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      84
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "84": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-19",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      87
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "87": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-20",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 99,
-    "gaps_before": [
-      53
-    ],
-    "gaps_after": [
-      53
-    ],
-    "recovered": {},
-    "still_missing": [
-      53
-    ]
-  },
-  {
-    "key": "2010-22",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      2,
-      86
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "2": "Stromae — Alors on danse",
-      "86": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-23",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      10
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "10": "Jena Lee — Du style"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-24",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      4,
-      91
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Lucenzo — Vem Dancar Kuduro",
-      "91": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-26",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      96
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "96": "U2 — Get On Your Boots"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-30",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      64
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "64": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-31",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      87
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "87": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-37",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      93
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "93": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-38",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      71
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "71": "U2 — Get On Your Boots"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-39",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      77,
-      84
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "77": "U2 — I'll Go Crazy If I Don't Go...",
-      "84": "U2 — Get On Your Boots"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-42",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      92
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "92": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-43",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      85
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "85": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-46",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      90
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "90": "U2 — Magnificent"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-47",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      76
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "76": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2010-48",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
+      50,
+      67,
       70
     ],
     "gaps_after": [],
     "recovered": {
+      "50": "Paolo Nutini — Last Request",
+      "67": "U2 — Get On Your Boots",
       "70": "U2 — I'll Go Crazy If I Don't Go..."
     },
     "still_missing": []
   },
   {
-    "key": "2010-49",
+    "key": "2011-05",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      87
+      54
     ],
     "gaps_after": [],
     "recovered": {
-      "87": "U2 — I'll Go Crazy If I Don't Go..."
+      "54": "Kylie Minogue — Better Than Today"
     },
     "still_missing": []
   },
   {
-    "key": "2010-52",
+    "key": "2011-06",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      82
+      91
     ],
     "gaps_after": [],
     "recovered": {
-      "82": "U2 — I'll Go Crazy If I Don't Go..."
+      "91": "U2 — I'll Go Crazy If I Don't Go..."
     },
     "still_missing": []
   },
   {
-    "key": "2010-53",
+    "key": "2011-07",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      77,
+      83
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "77": "U2 — Magnificent",
+      "83": "U2 — Get On Your Boots"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-08",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      72,
+      75,
+      78
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "72": "U2 — Get On Your Boots",
+      "75": "U2 — Vertigo",
+      "78": "U2 — I'll Go Crazy If I Don't Go..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-09",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      73
+      48
     ],
     "gaps_after": [],
     "recovered": {
-      "73": "U2 — I'll Go Crazy If I Don't Go..."
+      "48": "Collectif Métissé — Laisse-toi aller bébé"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-12",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      8
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "8": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-13",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      12,
+      72
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "12": "Beth Ditto — EP",
+      "72": "U2 — I'll Go Crazy If I Don't Go..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-14",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      13
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "13": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-15",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      16
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "16": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-16",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      15
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "15": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-17",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      20,
+      44
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "20": "Beth Ditto — EP",
+      "44": "Bruce Springsteen — Gotta Get That Feeling / Ra..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-18",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      22
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "22": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-19",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      2,
+      26
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "2": "Magic System — Chérie Coco (feat. Soprano)",
+      "26": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-20",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      29
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "29": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-21",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      28
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "28": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-22",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      32,
+      70
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "32": "Beth Ditto — EP",
+      "70": "U2 — I'll Go Crazy If I Don't Go..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-23",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      34
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "34": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-24",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      34
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "34": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-25",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      34,
+      36
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "34": "Arctic Monkeys — Don't Sit Down 'Cause I've...",
+      "36": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-26",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      31,
+      76
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "31": "Beth Ditto — EP",
+      "76": "U2 — Magnificent"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-27",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      33
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "33": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-28",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      9,
+      40,
+      74
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "9": "Snoop Dogg — Sweat (David Guetta Remix)",
+      "40": "Beth Ditto — EP",
+      "74": "U2 — Magnificent"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-29",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      44,
+      70
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "44": "Beth Ditto — EP",
+      "70": "U2 — I'll Go Crazy If I Don't Go..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-30",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      43,
+      81
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "43": "Beth Ditto — EP",
+      "81": "U2 — Magnificent"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-31",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      39
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "39": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-32",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      41
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "41": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-33",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      8,
+      40
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "8": "David Guetta — Where Them Girls At (feat....",
+      "40": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-34",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      40
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "40": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-35",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      37
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "37": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-36",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      43
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "43": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-37",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      31,
+      43
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "31": "TLF — Le meilleur du monde (feat....",
+      "43": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-38",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      40
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "40": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-39",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      48
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "48": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-40",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      48
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "48": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-41",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      46
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "46": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-42",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      52
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "52": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-43",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      50
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "50": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-44",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      40
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "40": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-45",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      48
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "48": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-46",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      29,
+      54
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "29": "Dirty Projectors And Björk — Mount Wittenburg Orca",
+      "54": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-48",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      12,
+      66
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "12": "Alexandra Crush — I Need You More",
+      "66": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-49",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      62
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "62": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-50",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      56
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "56": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-51",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      29,
+      55
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "29": "Pitbull feat. Ne-Yo, Afrojack & Nayer — Give Me Everything",
+      "55": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-52",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      43
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "43": "Beth Ditto — EP"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2011-53",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      47
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "47": "Beth Ditto — EP"
     },
     "still_missing": []
   }

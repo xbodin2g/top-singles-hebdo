@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T15:57:19.990141+00:00",
+  "generatedAt": "2026-11-14T16:07:20.802313+00:00",
   "archiveCount": 2198,
-  "artistCount": 4656,
-  "trackCount": 10763,
+  "artistCount": 4658,
+  "trackCount": 10765,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -3170,7 +3170,7 @@
           "firstDate": "04/07/2011",
           "lastKey": "2012-05",
           "lastDate": "30/01/2012",
-          "weeks": 30,
+          "weeks": 31,
           "peak": 3,
           "peakKey": "2011-27",
           "peakDate": "04/07/2011"
@@ -3671,7 +3671,7 @@
         }
       ],
       "trackCount": 48,
-      "totalWeeks": 991,
+      "totalWeeks": 992,
       "bestPeak": 1,
       "firstYear": 2001,
       "lastYear": 2026,
@@ -7831,7 +7831,7 @@
           "firstDate": "20/12/2010",
           "lastKey": "2011-33",
           "lastDate": "15/08/2011",
-          "weeks": 16,
+          "weeks": 17,
           "peak": 47,
           "peakKey": "2011-06",
           "peakDate": "07/02/2011"
@@ -7890,7 +7890,7 @@
         }
       ],
       "trackCount": 28,
-      "totalWeeks": 470,
+      "totalWeeks": 471,
       "bestPeak": 1,
       "firstYear": 1988,
       "lastYear": 2021,
@@ -9596,9 +9596,9 @@
           "credit": "U2",
           "firstKey": "2009-09",
           "firstDate": "23/02/2009",
-          "lastKey": "2010-39",
-          "lastDate": "27/09/2010",
-          "weeks": 34,
+          "lastKey": "2011-08",
+          "lastDate": "21/02/2011",
+          "weeks": 38,
           "peak": 6,
           "peakKey": "2009-09",
           "peakDate": "23/02/2009"
@@ -9648,9 +9648,9 @@
           "credit": "U2",
           "firstKey": "2004-44",
           "firstDate": "25/10/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 21,
+          "lastKey": "2011-08",
+          "lastDate": "21/02/2011",
+          "weeks": 22,
           "peak": 12,
           "peakKey": "2004-45",
           "peakDate": "01/11/2004"
@@ -9687,9 +9687,9 @@
           "credit": "U2",
           "firstKey": "2009-19",
           "firstDate": "04/05/2009",
-          "lastKey": "2010-46",
-          "lastDate": "15/11/2010",
-          "weeks": 35,
+          "lastKey": "2011-30",
+          "lastDate": "25/07/2011",
+          "weeks": 40,
           "peak": 15,
           "peakKey": "2009-25",
           "peakDate": "15/06/2009"
@@ -9765,9 +9765,9 @@
           "credit": "U2",
           "firstKey": "2009-37",
           "firstDate": "07/09/2009",
-          "lastKey": "2010-53",
-          "lastDate": "03/01/2011",
-          "weeks": 47,
+          "lastKey": "2011-29",
+          "lastDate": "18/07/2011",
+          "weeks": 54,
           "peak": 21,
           "peakKey": "2009-44",
           "peakDate": "26/10/2009"
@@ -9904,14 +9904,14 @@
         }
       ],
       "trackCount": 24,
-      "totalWeeks": 327,
+      "totalWeeks": 344,
       "bestPeak": 6,
       "firstYear": 1987,
-      "lastYear": 2010,
+      "lastYear": 2011,
       "firstKey": "1987-20",
       "firstDate": "17/05/1987",
-      "lastKey": "2010-53",
-      "lastDate": "03/01/2011"
+      "lastKey": "2011-30",
+      "lastDate": "25/07/2011"
     },
     {
       "id": "les enfoires",
@@ -26913,7 +26913,7 @@
           "firstDate": "02/05/2011",
           "lastKey": "2012-04",
           "lastDate": "23/01/2012",
-          "weeks": 38,
+          "weeks": 39,
           "peak": 1,
           "peakKey": "2011-18",
           "peakDate": "02/05/2011"
@@ -27076,7 +27076,7 @@
         }
       ],
       "trackCount": 13,
-      "totalWeeks": 285,
+      "totalWeeks": 286,
       "bestPeak": 1,
       "firstYear": 2002,
       "lastYear": 2015,
@@ -29870,7 +29870,7 @@
           "firstDate": "18/04/2011",
           "lastKey": "2012-04",
           "lastDate": "23/01/2012",
-          "weeks": 32,
+          "weeks": 33,
           "peak": 25,
           "peakKey": "2011-23",
           "peakDate": "06/06/2011"
@@ -30007,7 +30007,7 @@
         }
       ],
       "trackCount": 12,
-      "totalWeeks": 304,
+      "totalWeeks": 305,
       "bestPeak": 23,
       "firstYear": 2005,
       "lastYear": 2012,
@@ -37164,7 +37164,7 @@
           "firstDate": "04/07/2011",
           "lastKey": "2012-05",
           "lastDate": "30/01/2012",
-          "weeks": 30,
+          "weeks": 31,
           "peak": 3,
           "peakKey": "2011-31",
           "peakDate": "01/08/2011"
@@ -37262,7 +37262,7 @@
         }
       ],
       "trackCount": 10,
-      "totalWeeks": 150,
+      "totalWeeks": 151,
       "bestPeak": 1,
       "firstYear": 2009,
       "lastYear": 2016,
@@ -45839,6 +45839,125 @@
       "lastDate": "19/06/2000"
     },
     {
+      "id": "snoop dogg",
+      "name": "Snoop Dogg",
+      "tracks": [
+        {
+          "key": "sweat|snoop dogg",
+          "title": "Sweat (David Guetta Remix)",
+          "credit": "Snoop Dogg",
+          "firstKey": "2011-21",
+          "firstDate": "23/05/2011",
+          "lastKey": "2012-05",
+          "lastDate": "30/01/2012",
+          "weeks": 37,
+          "peak": 1,
+          "peakKey": "2011-21",
+          "peakDate": "23/05/2011"
+        },
+        {
+          "key": "signs|snoop dogg",
+          "title": "Signs",
+          "credit": "Snoop Dogg feat. Charlie Wilson and Justin Timberlake",
+          "firstKey": "2005-21",
+          "firstDate": "23/05/2005",
+          "lastKey": "2005-40",
+          "lastDate": "03/10/2005",
+          "weeks": 20,
+          "peak": 13,
+          "peakKey": "2005-22",
+          "peakDate": "30/05/2005"
+        },
+        {
+          "key": "young wild free|snoop dogg",
+          "title": "Young Wild Free",
+          "credit": "Snoop Dogg",
+          "firstKey": "2011-47",
+          "firstDate": "21/11/2011",
+          "lastKey": "2012-17",
+          "lastDate": "23/04/2012",
+          "weeks": 5,
+          "peak": 13,
+          "peakKey": "2012-06",
+          "peakDate": "06/02/2012"
+        },
+        {
+          "key": "drop it like it s hot|snoop dogg",
+          "title": "Drop It Like It's Hot",
+          "credit": "Snoop Dogg feat. Pharrell",
+          "firstKey": "2005-01",
+          "firstDate": "03/01/2005",
+          "lastKey": "2005-20",
+          "lastDate": "16/05/2005",
+          "weeks": 19,
+          "peak": 21,
+          "peakKey": "2005-02",
+          "peakDate": "10/01/2005"
+        },
+        {
+          "key": "that s that|snoop dogg",
+          "title": "That's That",
+          "credit": "Snoop Dogg feat. R. Kelly",
+          "firstKey": "2007-07",
+          "firstDate": "12/02/2007",
+          "lastKey": "2007-31",
+          "lastDate": "30/07/2007",
+          "weeks": 19,
+          "peak": 30,
+          "peakKey": "2007-07",
+          "peakDate": "12/02/2007"
+        },
+        {
+          "key": "beautiful|snoop dogg",
+          "title": "Beautiful",
+          "credit": "Snoop Dogg feat. Pharrell, Uncle Charlie Wilson",
+          "firstKey": "2003-18",
+          "firstDate": "28/04/2003",
+          "lastKey": "2003-31",
+          "lastDate": "28/07/2003",
+          "weeks": 14,
+          "peak": 39,
+          "peakKey": "2003-19",
+          "peakDate": "05/05/2003"
+        },
+        {
+          "key": "hennesey n buddah|snoop dogg",
+          "title": "Hennesey'n Buddah",
+          "credit": "Snoop Dogg feat. Rokane",
+          "firstKey": "2001-08",
+          "firstDate": "19/02/2001",
+          "lastKey": "2001-16",
+          "lastDate": "16/04/2001",
+          "weeks": 9,
+          "peak": 41,
+          "peakKey": "2001-10",
+          "peakDate": "05/03/2001"
+        },
+        {
+          "key": "lay low|snoop dogg",
+          "title": "Lay Low",
+          "credit": "Snoop Dogg feat. Master P, Nate Dogg, Butch Cassidy and The Eastsidaz",
+          "firstKey": "2001-27",
+          "firstDate": "02/07/2001",
+          "lastKey": "2001-37",
+          "lastDate": "10/09/2001",
+          "weeks": 9,
+          "peak": 81,
+          "peakKey": "2001-28",
+          "peakDate": "09/07/2001"
+        }
+      ],
+      "trackCount": 8,
+      "totalWeeks": 132,
+      "bestPeak": 1,
+      "firstYear": 2001,
+      "lastYear": 2012,
+      "firstKey": "2001-08",
+      "firstDate": "19/02/2001",
+      "lastKey": "2012-17",
+      "lastDate": "23/04/2012"
+    },
+    {
       "id": "raphael",
       "name": "Raphaël",
       "tracks": [
@@ -46194,125 +46313,6 @@
       "firstDate": "08/12/2008",
       "lastKey": "2012-05",
       "lastDate": "30/01/2012"
-    },
-    {
-      "id": "snoop dogg",
-      "name": "Snoop Dogg",
-      "tracks": [
-        {
-          "key": "sweat|snoop dogg",
-          "title": "Sweat (David Guetta Remix)",
-          "credit": "Snoop Dogg",
-          "firstKey": "2011-21",
-          "firstDate": "23/05/2011",
-          "lastKey": "2012-05",
-          "lastDate": "30/01/2012",
-          "weeks": 36,
-          "peak": 1,
-          "peakKey": "2011-21",
-          "peakDate": "23/05/2011"
-        },
-        {
-          "key": "signs|snoop dogg",
-          "title": "Signs",
-          "credit": "Snoop Dogg feat. Charlie Wilson and Justin Timberlake",
-          "firstKey": "2005-21",
-          "firstDate": "23/05/2005",
-          "lastKey": "2005-40",
-          "lastDate": "03/10/2005",
-          "weeks": 20,
-          "peak": 13,
-          "peakKey": "2005-22",
-          "peakDate": "30/05/2005"
-        },
-        {
-          "key": "young wild free|snoop dogg",
-          "title": "Young Wild Free",
-          "credit": "Snoop Dogg",
-          "firstKey": "2011-47",
-          "firstDate": "21/11/2011",
-          "lastKey": "2012-17",
-          "lastDate": "23/04/2012",
-          "weeks": 5,
-          "peak": 13,
-          "peakKey": "2012-06",
-          "peakDate": "06/02/2012"
-        },
-        {
-          "key": "drop it like it s hot|snoop dogg",
-          "title": "Drop It Like It's Hot",
-          "credit": "Snoop Dogg feat. Pharrell",
-          "firstKey": "2005-01",
-          "firstDate": "03/01/2005",
-          "lastKey": "2005-20",
-          "lastDate": "16/05/2005",
-          "weeks": 19,
-          "peak": 21,
-          "peakKey": "2005-02",
-          "peakDate": "10/01/2005"
-        },
-        {
-          "key": "that s that|snoop dogg",
-          "title": "That's That",
-          "credit": "Snoop Dogg feat. R. Kelly",
-          "firstKey": "2007-07",
-          "firstDate": "12/02/2007",
-          "lastKey": "2007-31",
-          "lastDate": "30/07/2007",
-          "weeks": 19,
-          "peak": 30,
-          "peakKey": "2007-07",
-          "peakDate": "12/02/2007"
-        },
-        {
-          "key": "beautiful|snoop dogg",
-          "title": "Beautiful",
-          "credit": "Snoop Dogg feat. Pharrell, Uncle Charlie Wilson",
-          "firstKey": "2003-18",
-          "firstDate": "28/04/2003",
-          "lastKey": "2003-31",
-          "lastDate": "28/07/2003",
-          "weeks": 14,
-          "peak": 39,
-          "peakKey": "2003-19",
-          "peakDate": "05/05/2003"
-        },
-        {
-          "key": "hennesey n buddah|snoop dogg",
-          "title": "Hennesey'n Buddah",
-          "credit": "Snoop Dogg feat. Rokane",
-          "firstKey": "2001-08",
-          "firstDate": "19/02/2001",
-          "lastKey": "2001-16",
-          "lastDate": "16/04/2001",
-          "weeks": 9,
-          "peak": 41,
-          "peakKey": "2001-10",
-          "peakDate": "05/03/2001"
-        },
-        {
-          "key": "lay low|snoop dogg",
-          "title": "Lay Low",
-          "credit": "Snoop Dogg feat. Master P, Nate Dogg, Butch Cassidy and The Eastsidaz",
-          "firstKey": "2001-27",
-          "firstDate": "02/07/2001",
-          "lastKey": "2001-37",
-          "lastDate": "10/09/2001",
-          "weeks": 9,
-          "peak": 81,
-          "peakKey": "2001-28",
-          "peakDate": "09/07/2001"
-        }
-      ],
-      "trackCount": 8,
-      "totalWeeks": 131,
-      "bestPeak": 1,
-      "firstYear": 2001,
-      "lastYear": 2012,
-      "firstKey": "2001-08",
-      "firstDate": "19/02/2001",
-      "lastKey": "2012-17",
-      "lastDate": "23/04/2012"
     },
     {
       "id": "ub40",
@@ -48611,9 +48611,9 @@
           "credit": "Collectif Métissé",
           "firstKey": "2009-28",
           "firstDate": "06/07/2009",
-          "lastKey": "2011-07",
-          "lastDate": "14/02/2011",
-          "weeks": 34,
+          "lastKey": "2011-09",
+          "lastDate": "28/02/2011",
+          "weeks": 35,
           "peak": 2,
           "peakKey": "2009-32",
           "peakDate": "03/08/2009"
@@ -48672,7 +48672,7 @@
         }
       ],
       "trackCount": 7,
-      "totalWeeks": 239,
+      "totalWeeks": 240,
       "bestPeak": 1,
       "firstYear": 2009,
       "lastYear": 2012,
@@ -48745,7 +48745,7 @@
           "firstDate": "13/09/2010",
           "lastKey": "2011-34",
           "lastDate": "22/08/2011",
-          "weeks": 37,
+          "weeks": 36,
           "peak": 6,
           "peakKey": "2010-37",
           "peakDate": "13/09/2010"
@@ -48778,7 +48778,7 @@
         }
       ],
       "trackCount": 7,
-      "totalWeeks": 217,
+      "totalWeeks": 216,
       "bestPeak": 2,
       "firstYear": 2010,
       "lastYear": 2012,
@@ -90473,6 +90473,60 @@
       "lastDate": "06/06/2005"
     },
     {
+      "id": "bruce springsteen",
+      "name": "Bruce Springsteen",
+      "tracks": [
+        {
+          "key": "streets of philadelphia|bruce springsteen",
+          "title": "Streets Of Philadelphia",
+          "credit": "Bruce Springsteen",
+          "firstKey": "1994-10",
+          "firstDate": "07/03/1994",
+          "lastKey": "1994-37",
+          "lastDate": "12/09/1994",
+          "weeks": 28,
+          "peak": 1,
+          "peakKey": "1994-15",
+          "peakDate": "11/04/1994"
+        },
+        {
+          "key": "human touch|bruce springsteen",
+          "title": "Human Touch",
+          "credit": "Bruce Springsteen",
+          "firstKey": "1992-18",
+          "firstDate": "03/05/1992",
+          "lastKey": "1992-24",
+          "lastDate": "14/06/1992",
+          "weeks": 7,
+          "peak": 20,
+          "peakKey": "1992-23",
+          "peakDate": "07/06/1992"
+        },
+        {
+          "key": "gotta get that feeling ra|bruce springsteen",
+          "title": "Gotta Get That Feeling / Ra...",
+          "credit": "Bruce Springsteen",
+          "firstKey": "2011-16",
+          "firstDate": "18/04/2011",
+          "lastKey": "2011-18",
+          "lastDate": "02/05/2011",
+          "weeks": 3,
+          "peak": 29,
+          "peakKey": "2011-16",
+          "peakDate": "18/04/2011"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 38,
+      "bestPeak": 1,
+      "firstYear": 1992,
+      "lastYear": 2011,
+      "firstKey": "1992-18",
+      "firstDate": "03/05/1992",
+      "lastKey": "2011-18",
+      "lastDate": "02/05/2011"
+    },
+    {
       "id": "fugees",
       "name": "Fugees",
       "tracks": [
@@ -90687,60 +90741,6 @@
       "firstDate": "12/05/1985",
       "lastKey": "1994-12",
       "lastDate": "21/03/1994"
-    },
-    {
-      "id": "bruce springsteen",
-      "name": "Bruce Springsteen",
-      "tracks": [
-        {
-          "key": "streets of philadelphia|bruce springsteen",
-          "title": "Streets Of Philadelphia",
-          "credit": "Bruce Springsteen",
-          "firstKey": "1994-10",
-          "firstDate": "07/03/1994",
-          "lastKey": "1994-37",
-          "lastDate": "12/09/1994",
-          "weeks": 28,
-          "peak": 1,
-          "peakKey": "1994-15",
-          "peakDate": "11/04/1994"
-        },
-        {
-          "key": "human touch|bruce springsteen",
-          "title": "Human Touch",
-          "credit": "Bruce Springsteen",
-          "firstKey": "1992-18",
-          "firstDate": "03/05/1992",
-          "lastKey": "1992-24",
-          "lastDate": "14/06/1992",
-          "weeks": 7,
-          "peak": 20,
-          "peakKey": "1992-23",
-          "peakDate": "07/06/1992"
-        },
-        {
-          "key": "gotta get that feeling ra|bruce springsteen",
-          "title": "Gotta Get That Feeling / Ra...",
-          "credit": "Bruce Springsteen",
-          "firstKey": "2011-16",
-          "firstDate": "18/04/2011",
-          "lastKey": "2011-18",
-          "lastDate": "02/05/2011",
-          "weeks": 2,
-          "peak": 29,
-          "peakKey": "2011-16",
-          "peakDate": "18/04/2011"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 37,
-      "bestPeak": 1,
-      "firstYear": 1992,
-      "lastYear": 2011,
-      "firstKey": "1992-18",
-      "firstDate": "03/05/1992",
-      "lastKey": "2011-18",
-      "lastDate": "02/05/2011"
     },
     {
       "id": "eva simons",
@@ -98719,6 +98719,47 @@
       "lastDate": "08/06/2009"
     },
     {
+      "id": "tlf",
+      "name": "TLF",
+      "tracks": [
+        {
+          "key": "le meilleur du monde feat|tlf",
+          "title": "Le meilleur du monde (feat....",
+          "credit": "TLF",
+          "firstKey": "2011-16",
+          "firstDate": "18/04/2011",
+          "lastKey": "2012-04",
+          "lastDate": "23/01/2012",
+          "weeks": 39,
+          "peak": 10,
+          "peakKey": "2011-16",
+          "peakDate": "18/04/2011"
+        },
+        {
+          "key": "pimp ma life|tlf",
+          "title": "Pimp ma Life",
+          "credit": "TLF feat. Rohff",
+          "firstKey": "2008-09",
+          "firstDate": "25/02/2008",
+          "lastKey": "2008-28",
+          "lastDate": "07/07/2008",
+          "weeks": 20,
+          "peak": 37,
+          "peakKey": "2008-10",
+          "peakDate": "03/03/2008"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 59,
+      "bestPeak": 10,
+      "firstYear": 2008,
+      "lastYear": 2012,
+      "firstKey": "2008-09",
+      "firstDate": "25/02/2008",
+      "lastKey": "2012-04",
+      "lastDate": "23/01/2012"
+    },
+    {
       "id": "tones and i",
       "name": "Tones and I",
       "tracks": [
@@ -98758,47 +98799,6 @@
       "firstDate": "02/09/2019",
       "lastKey": "2020-27",
       "lastDate": "29/06/2020"
-    },
-    {
-      "id": "tlf",
-      "name": "TLF",
-      "tracks": [
-        {
-          "key": "le meilleur du monde feat|tlf",
-          "title": "Le meilleur du monde (feat....",
-          "credit": "TLF",
-          "firstKey": "2011-16",
-          "firstDate": "18/04/2011",
-          "lastKey": "2012-04",
-          "lastDate": "23/01/2012",
-          "weeks": 38,
-          "peak": 10,
-          "peakKey": "2011-16",
-          "peakDate": "18/04/2011"
-        },
-        {
-          "key": "pimp ma life|tlf",
-          "title": "Pimp ma Life",
-          "credit": "TLF feat. Rohff",
-          "firstKey": "2008-09",
-          "firstDate": "25/02/2008",
-          "lastKey": "2008-28",
-          "lastDate": "07/07/2008",
-          "weeks": 20,
-          "peak": 37,
-          "peakKey": "2008-10",
-          "peakDate": "03/03/2008"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 58,
-      "bestPeak": 10,
-      "firstYear": 2008,
-      "lastYear": 2012,
-      "firstKey": "2008-09",
-      "firstDate": "25/02/2008",
-      "lastKey": "2012-04",
-      "lastDate": "23/01/2012"
     },
     {
       "id": "selah sue",
@@ -124336,6 +124336,34 @@
       "lastDate": "27/06/2011"
     },
     {
+      "id": "beth ditto",
+      "name": "Beth Ditto",
+      "tracks": [
+        {
+          "key": "ep|beth ditto",
+          "title": "EP",
+          "credit": "Beth Ditto",
+          "firstKey": "2011-12",
+          "firstDate": "21/03/2011",
+          "lastKey": "2011-53",
+          "lastDate": "02/01/2012",
+          "weeks": 41,
+          "peak": 8,
+          "peakKey": "2011-12",
+          "peakDate": "21/03/2011"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 41,
+      "bestPeak": 8,
+      "firstYear": 2011,
+      "lastYear": 2011,
+      "firstKey": "2011-12",
+      "firstDate": "21/03/2011",
+      "lastKey": "2011-53",
+      "lastDate": "02/01/2012"
+    },
+    {
       "id": "renaud and axelle red",
       "name": "Renaud & Axelle Red",
       "tracks": [
@@ -128116,6 +128144,34 @@
       "lastDate": "18/04/2011"
     },
     {
+      "id": "paolo nutini",
+      "name": "Paolo Nutini",
+      "tracks": [
+        {
+          "key": "last request|paolo nutini",
+          "title": "Last Request",
+          "credit": "Paolo Nutini",
+          "firstKey": "2007-05",
+          "firstDate": "29/01/2007",
+          "lastKey": "2011-43",
+          "lastDate": "24/10/2011",
+          "weeks": 30,
+          "peak": 20,
+          "peakKey": "2007-05",
+          "peakDate": "29/01/2007"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 30,
+      "bestPeak": 20,
+      "firstYear": 2007,
+      "lastYear": 2011,
+      "firstKey": "2007-05",
+      "firstDate": "29/01/2007",
+      "lastKey": "2011-43",
+      "lastDate": "24/10/2011"
+    },
+    {
       "id": "lily allen and ours",
       "name": "Lily Allen & Ours",
       "tracks": [
@@ -128674,34 +128730,6 @@
       "firstDate": "09/05/1994",
       "lastKey": "1994-47",
       "lastDate": "21/11/1994"
-    },
-    {
-      "id": "paolo nutini",
-      "name": "Paolo Nutini",
-      "tracks": [
-        {
-          "key": "last request|paolo nutini",
-          "title": "Last Request",
-          "credit": "Paolo Nutini",
-          "firstKey": "2007-05",
-          "firstDate": "29/01/2007",
-          "lastKey": "2011-43",
-          "lastDate": "24/10/2011",
-          "weeks": 29,
-          "peak": 20,
-          "peakKey": "2007-05",
-          "peakDate": "29/01/2007"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 29,
-      "bestPeak": 20,
-      "firstYear": 2007,
-      "lastYear": 2011,
-      "firstKey": "2007-05",
-      "firstDate": "29/01/2007",
-      "lastKey": "2011-43",
-      "lastDate": "24/10/2011"
     },
     {
       "id": "melanie cohl and frederica sorel",
@@ -155976,6 +156004,34 @@
       "lastDate": "13/08/1989"
     },
     {
+      "id": "alexandra crush",
+      "name": "Alexandra Crush",
+      "tracks": [
+        {
+          "key": "i need you more|alexandra crush",
+          "title": "I Need You More",
+          "credit": "Alexandra Crush",
+          "firstKey": "2011-45",
+          "firstDate": "07/11/2011",
+          "lastKey": "2012-05",
+          "lastDate": "30/01/2012",
+          "weeks": 13,
+          "peak": 5,
+          "peakKey": "2011-45",
+          "peakDate": "07/11/2011"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 13,
+      "bestPeak": 5,
+      "firstYear": 2011,
+      "lastYear": 2012,
+      "firstKey": "2011-45",
+      "firstDate": "07/11/2011",
+      "lastKey": "2012-05",
+      "lastDate": "30/01/2012"
+    },
+    {
       "id": "chris de burgh",
       "name": "Chris De Burgh",
       "tracks": [
@@ -157460,6 +157516,34 @@
       "lastDate": "26/06/2006"
     },
     {
+      "id": "dirty projectors and bjork",
+      "name": "Dirty Projectors And Björk",
+      "tracks": [
+        {
+          "key": "mount wittenburg orca|dirty projectors and bjork",
+          "title": "Mount Wittenburg Orca",
+          "credit": "Dirty Projectors And Björk",
+          "firstKey": "2011-45",
+          "firstDate": "07/11/2011",
+          "lastKey": "2012-05",
+          "lastDate": "30/01/2012",
+          "weeks": 13,
+          "peak": 28,
+          "peakKey": "2011-45",
+          "peakDate": "07/11/2011"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 13,
+      "bestPeak": 28,
+      "firstYear": 2011,
+      "lastYear": 2012,
+      "firstKey": "2011-45",
+      "firstDate": "07/11/2011",
+      "lastKey": "2012-05",
+      "lastDate": "30/01/2012"
+    },
+    {
       "id": "forever young",
       "name": "Forever Young",
       "tracks": [
@@ -158858,34 +158942,6 @@
       "firstDate": "11/12/2000",
       "lastKey": "2001-52",
       "lastDate": "24/12/2001"
-    },
-    {
-      "id": "alexandra crush",
-      "name": "Alexandra Crush",
-      "tracks": [
-        {
-          "key": "i need you more|alexandra crush",
-          "title": "I Need You More",
-          "credit": "Alexandra Crush",
-          "firstKey": "2011-45",
-          "firstDate": "07/11/2011",
-          "lastKey": "2012-05",
-          "lastDate": "30/01/2012",
-          "weeks": 12,
-          "peak": 5,
-          "peakKey": "2011-45",
-          "peakDate": "07/11/2011"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 12,
-      "bestPeak": 5,
-      "firstYear": 2011,
-      "lastYear": 2012,
-      "firstKey": "2011-45",
-      "firstDate": "07/11/2011",
-      "lastKey": "2012-05",
-      "lastDate": "30/01/2012"
     },
     {
       "id": "laroche valmont",
@@ -160342,34 +160398,6 @@
       "firstDate": "29/07/2002",
       "lastKey": "2002-42",
       "lastDate": "14/10/2002"
-    },
-    {
-      "id": "dirty projectors and bjork",
-      "name": "Dirty Projectors And Björk",
-      "tracks": [
-        {
-          "key": "mount wittenburg orca|dirty projectors and bjork",
-          "title": "Mount Wittenburg Orca",
-          "credit": "Dirty Projectors And Björk",
-          "firstKey": "2011-45",
-          "firstDate": "07/11/2011",
-          "lastKey": "2012-05",
-          "lastDate": "30/01/2012",
-          "weeks": 12,
-          "peak": 28,
-          "peakKey": "2011-45",
-          "peakDate": "07/11/2011"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 12,
-      "bestPeak": 28,
-      "firstYear": 2011,
-      "lastYear": 2012,
-      "firstKey": "2011-45",
-      "firstDate": "07/11/2011",
-      "lastKey": "2012-05",
-      "lastDate": "30/01/2012"
     },
     {
       "id": "mr president",
@@ -202930,6 +202958,34 @@
       "firstDate": "16/01/1995",
       "lastKey": "1995-03",
       "lastDate": "16/01/1995"
+    },
+    {
+      "id": "cooler than me",
+      "name": "Cooler Than Me",
+      "tracks": [
+        {
+          "key": "44|cooler than me",
+          "title": "44",
+          "credit": "Cooler Than Me",
+          "firstKey": "2011-13",
+          "firstDate": "28/03/2011",
+          "lastKey": "2011-13",
+          "lastDate": "28/03/2011",
+          "weeks": 1,
+          "peak": 50,
+          "peakKey": "2011-13",
+          "peakDate": "28/03/2011"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 50,
+      "firstYear": 2011,
+      "lastYear": 2011,
+      "firstKey": "2011-13",
+      "firstDate": "28/03/2011",
+      "lastKey": "2011-13",
+      "lastDate": "28/03/2011"
     },
     {
       "id": "dance 2 trance",
