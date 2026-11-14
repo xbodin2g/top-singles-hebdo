@@ -1,6 +1,22 @@
 [
   {
-    "key": "2006-01",
+    "key": "2007-02",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      72,
+      90
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "72": "Dirty South vs. Evermore — It's Too Late (Ride On)",
+      "90": "Stinky — Oops"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2007-03",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
@@ -9,122 +25,126 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "2": "Madonna — Hung Up"
+      "2": "Fatal Bazooka — Fous ta cagoule"
     },
     "still_missing": []
   },
   {
-    "key": "2006-02",
+    "key": "2007-12",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      90
+      29
     ],
     "gaps_after": [],
     "recovered": {
-      "90": "LS — Nos différences"
+      "29": "David Kane — Club Sound"
     },
     "still_missing": []
   },
   {
-    "key": "2006-03",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      75,
-      82
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "75": "LS — Nos différences",
-      "82": "Star Academy 5 — Je ne suis pas un héros"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-04",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      46,
-      81
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "46": "Johnny Hallyday — Ma religion dans son regard",
-      "81": "LS — Nos différences"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-05",
+    "key": "2007-20",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      94
+      8
     ],
     "gaps_after": [],
     "recovered": {
-      "94": "LS — Nos différences"
+      "8": "Gwen Stefani feat. Akon — The Sweet Escape"
     },
     "still_missing": []
   },
   {
-    "key": "2006-06",
+    "key": "2007-21",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      35
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "35": "Lilly Fleur Pointeaux & Josephine Jobert — Nos années pension : Pour l..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2007-23",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      63
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "63": "Star Tattooed feat. Ava — Make Me High"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2007-27",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      69
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "69": "Faf Larage — Ta meuf (la caille)"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2007-30",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      16
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "16": "Silly Le Petit Phoque — Boum Boum"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2007-35",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      61
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "61": "Mims — This Is Why I'm Hot"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2007-37",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      79,
-      87
+      3,
+      15
     ],
     "gaps_after": [],
     "recovered": {
-      "79": "LS — Nos différences",
-      "87": "Ze Pequeño — Le centre du monde"
+      "3": "Timbaland feat. Tyssem — The Way I Are",
+      "15": "Magic System — Ki dit mié"
     },
     "still_missing": []
   },
   {
-    "key": "2006-07",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      4,
-      94
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Juanes — La camisa negra",
-      "94": "LS — Nos différences"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-08",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      48,
-      61,
-      74
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "48": "Ciara feat. Ludacris — Oh",
-      "61": "Tryo — L'hymne de nos campagnes",
-      "74": "Nada Surf — Always Love"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-09",
+    "key": "2007-39",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
@@ -133,28 +153,26 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "54": "Ciara feat. Ludacris — Oh"
+      "54": "Pigloo — Bizoo d'eskimo"
     },
     "still_missing": []
   },
   {
-    "key": "2006-10",
+    "key": "2007-41",
     "status": "ok",
-    "entries_before": 98,
+    "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      60,
-      80
+      2
     ],
     "gaps_after": [],
     "recovered": {
-      "60": "Ciara feat. Ludacris — Oh",
-      "80": "Apollo J — Ma tête & mon son"
+      "2": "Koxie — Garçon"
     },
     "still_missing": []
   },
   {
-    "key": "2006-11",
+    "key": "2007-51",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
@@ -163,225 +181,21 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "71": "Tous ces mots — 5"
+      "71": "Victoria — Le héros d'un autre"
     },
     "still_missing": []
   },
   {
-    "key": "2006-12",
+    "key": "2007-52",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      76
+      10
     ],
     "gaps_after": [],
     "recovered": {
-      "76": "Ciara feat. Ludacris — Oh"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-13",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      87
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "87": "Ciara feat. Ludacris — Oh"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-14",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      17,
-      92
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "17": "Juanes — A Dios le pido",
-      "92": "Ciara feat. Ludacris — Oh"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-15",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      31,
-      87,
-      94
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "31": "Y-Zit — Ola",
-      "87": "Roch Voisine — Une femme",
-      "94": "Ciara feat. Ludacris — Oh"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-18",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      23
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "23": "Ne-Yo — So Sick"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-22",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      82
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "82": "Starstylers feat. Michy — Keep On Moving"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-23",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      58,
-      68
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "58": "Indra — Sois beau et tais toi",
-      "68": "Alex King — Soirée V.I.P."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-25",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      57
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "57": "Rohff — Starfuckeuz'"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-26",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      94
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "94": "Natasha St-Pier — Un ange frappe à ma porte"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-27",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      80
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "80": "Jean-Louis Aubert — Ailleurs"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-28",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      59
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "59": "Bébé Lilly — Allo papy"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-32",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      11
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "11": "Crazy Frog — We Are The Champions (Ding..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-37",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      70
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "70": "Filterfunk — S.O.S. (Message In A Bottle)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-38",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      56
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "56": "Bébé Lilly — Les bêtises"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2006-52",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      42
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "42": "Mylène Farmer — Avant que l'ombre... (Live)"
+      "10": "Christophe Willem — Jacques a dit"
     },
     "still_missing": []
   }

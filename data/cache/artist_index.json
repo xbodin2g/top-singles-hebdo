@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T15:26:16.419011+00:00",
+  "generatedAt": "2026-11-14T15:35:36.002403+00:00",
   "archiveCount": 2198,
   "artistCount": 4649,
   "trackCount": 10753,
@@ -26965,7 +26965,7 @@
           "firstDate": "30/07/2007",
           "lastKey": "2008-09",
           "lastDate": "25/02/2008",
-          "weeks": 27,
+          "weeks": 28,
           "peak": 8,
           "peakKey": "2007-33",
           "peakDate": "13/08/2007"
@@ -27037,7 +27037,7 @@
         }
       ],
       "trackCount": 13,
-      "totalWeeks": 284,
+      "totalWeeks": 285,
       "bestPeak": 1,
       "firstYear": 2002,
       "lastYear": 2015,
@@ -45205,6 +45205,125 @@
       "lastDate": "30/06/2008"
     },
     {
+      "id": "christophe willem",
+      "name": "Christophe Willem",
+      "tracks": [
+        {
+          "key": "double je|christophe willem",
+          "title": "Double je",
+          "credit": "Christophe Willem",
+          "firstKey": "2007-22",
+          "firstDate": "28/05/2007",
+          "lastKey": "2008-08",
+          "lastDate": "18/02/2008",
+          "weeks": 35,
+          "peak": 1,
+          "peakKey": "2007-22",
+          "peakDate": "28/05/2007"
+        },
+        {
+          "key": "sunny|christophe willem",
+          "title": "Sunny",
+          "credit": "Christophe Willem",
+          "firstKey": "2006-28",
+          "firstDate": "10/07/2006",
+          "lastKey": "2006-45",
+          "lastDate": "06/11/2006",
+          "weeks": 18,
+          "peak": 3,
+          "peakKey": "2006-30",
+          "peakDate": "24/07/2006"
+        },
+        {
+          "key": "jacques a dit|christophe willem",
+          "title": "Jacques a dit",
+          "credit": "Christophe Willem",
+          "firstKey": "2007-41",
+          "firstDate": "08/10/2007",
+          "lastKey": "2009-26",
+          "lastDate": "22/06/2009",
+          "weeks": 26,
+          "peak": 4,
+          "peakKey": "2007-41",
+          "peakDate": "08/10/2007"
+        },
+        {
+          "key": "quelle chance september|christophe willem",
+          "title": "Quelle chance / September",
+          "credit": "Christophe Willem",
+          "firstKey": "2008-15",
+          "firstDate": "07/04/2008",
+          "lastKey": "2009-27",
+          "lastDate": "29/06/2009",
+          "weeks": 20,
+          "peak": 9,
+          "peakKey": "2008-15",
+          "peakDate": "07/04/2008"
+        },
+        {
+          "key": "ps je t aime|christophe willem",
+          "title": "PS : Je t'aime",
+          "credit": "Christophe Willem",
+          "firstKey": "2022-15",
+          "firstDate": "11/04/2022",
+          "lastKey": "2022-50",
+          "lastDate": "12/12/2022",
+          "weeks": 34,
+          "peak": 20,
+          "peakKey": "2022-36",
+          "peakDate": "05/09/2022"
+        },
+        {
+          "key": "j tomberai pas|christophe willem",
+          "title": "J'tomberai pas",
+          "credit": "Christophe Willem",
+          "firstKey": "2022-48",
+          "firstDate": "28/11/2022",
+          "lastKey": "2023-11",
+          "lastDate": "13/03/2023",
+          "weeks": 8,
+          "peak": 47,
+          "peakKey": "2022-51",
+          "peakDate": "19/12/2022"
+        },
+        {
+          "key": "marlon brando|christophe willem",
+          "title": "Marlon Brando",
+          "credit": "Christophe Willem",
+          "firstKey": "2017-25",
+          "firstDate": "19/06/2017",
+          "lastKey": "2017-39",
+          "lastDate": "25/09/2017",
+          "weeks": 5,
+          "peak": 49,
+          "peakKey": "2017-25",
+          "peakDate": "19/06/2017"
+        },
+        {
+          "key": "l ete en hiver|christophe willem",
+          "title": "L'été en hiver",
+          "credit": "Christophe Willem",
+          "firstKey": "2015-05",
+          "firstDate": "26/01/2015",
+          "lastKey": "2015-05",
+          "lastDate": "26/01/2015",
+          "weeks": 1,
+          "peak": 54,
+          "peakKey": "2015-05",
+          "peakDate": "26/01/2015"
+        }
+      ],
+      "trackCount": 8,
+      "totalWeeks": 147,
+      "bestPeak": 1,
+      "firstYear": 2006,
+      "lastYear": 2023,
+      "firstKey": "2006-28",
+      "firstDate": "10/07/2006",
+      "lastKey": "2023-11",
+      "lastDate": "13/03/2023"
+    },
+    {
       "id": "elsa",
       "name": "Elsa",
       "tracks": [
@@ -45322,125 +45441,6 @@
       "firstDate": "07/12/1986",
       "lastKey": "1993-53",
       "lastDate": "03/01/1994"
-    },
-    {
-      "id": "christophe willem",
-      "name": "Christophe Willem",
-      "tracks": [
-        {
-          "key": "double je|christophe willem",
-          "title": "Double je",
-          "credit": "Christophe Willem",
-          "firstKey": "2007-22",
-          "firstDate": "28/05/2007",
-          "lastKey": "2008-08",
-          "lastDate": "18/02/2008",
-          "weeks": 35,
-          "peak": 1,
-          "peakKey": "2007-22",
-          "peakDate": "28/05/2007"
-        },
-        {
-          "key": "sunny|christophe willem",
-          "title": "Sunny",
-          "credit": "Christophe Willem",
-          "firstKey": "2006-28",
-          "firstDate": "10/07/2006",
-          "lastKey": "2006-45",
-          "lastDate": "06/11/2006",
-          "weeks": 18,
-          "peak": 3,
-          "peakKey": "2006-30",
-          "peakDate": "24/07/2006"
-        },
-        {
-          "key": "jacques a dit|christophe willem",
-          "title": "Jacques a dit",
-          "credit": "Christophe Willem",
-          "firstKey": "2007-41",
-          "firstDate": "08/10/2007",
-          "lastKey": "2009-26",
-          "lastDate": "22/06/2009",
-          "weeks": 25,
-          "peak": 4,
-          "peakKey": "2007-41",
-          "peakDate": "08/10/2007"
-        },
-        {
-          "key": "quelle chance september|christophe willem",
-          "title": "Quelle chance / September",
-          "credit": "Christophe Willem",
-          "firstKey": "2008-15",
-          "firstDate": "07/04/2008",
-          "lastKey": "2009-27",
-          "lastDate": "29/06/2009",
-          "weeks": 20,
-          "peak": 9,
-          "peakKey": "2008-15",
-          "peakDate": "07/04/2008"
-        },
-        {
-          "key": "ps je t aime|christophe willem",
-          "title": "PS : Je t'aime",
-          "credit": "Christophe Willem",
-          "firstKey": "2022-15",
-          "firstDate": "11/04/2022",
-          "lastKey": "2022-50",
-          "lastDate": "12/12/2022",
-          "weeks": 34,
-          "peak": 20,
-          "peakKey": "2022-36",
-          "peakDate": "05/09/2022"
-        },
-        {
-          "key": "j tomberai pas|christophe willem",
-          "title": "J'tomberai pas",
-          "credit": "Christophe Willem",
-          "firstKey": "2022-48",
-          "firstDate": "28/11/2022",
-          "lastKey": "2023-11",
-          "lastDate": "13/03/2023",
-          "weeks": 8,
-          "peak": 47,
-          "peakKey": "2022-51",
-          "peakDate": "19/12/2022"
-        },
-        {
-          "key": "marlon brando|christophe willem",
-          "title": "Marlon Brando",
-          "credit": "Christophe Willem",
-          "firstKey": "2017-25",
-          "firstDate": "19/06/2017",
-          "lastKey": "2017-39",
-          "lastDate": "25/09/2017",
-          "weeks": 5,
-          "peak": 49,
-          "peakKey": "2017-25",
-          "peakDate": "19/06/2017"
-        },
-        {
-          "key": "l ete en hiver|christophe willem",
-          "title": "L'été en hiver",
-          "credit": "Christophe Willem",
-          "firstKey": "2015-05",
-          "firstDate": "26/01/2015",
-          "lastKey": "2015-05",
-          "lastDate": "26/01/2015",
-          "weeks": 1,
-          "peak": 54,
-          "peakKey": "2015-05",
-          "peakDate": "26/01/2015"
-        }
-      ],
-      "trackCount": 8,
-      "totalWeeks": 146,
-      "bestPeak": 1,
-      "firstYear": 2006,
-      "lastYear": 2023,
-      "firstKey": "2006-28",
-      "firstDate": "10/07/2006",
-      "lastKey": "2023-11",
-      "lastDate": "13/03/2023"
     },
     {
       "id": "gold",
@@ -50668,7 +50668,7 @@
           "firstDate": "16/04/2007",
           "lastKey": "2007-42",
           "lastDate": "15/10/2007",
-          "weeks": 22,
+          "weeks": 23,
           "peak": 4,
           "peakKey": "2007-16",
           "peakDate": "16/04/2007"
@@ -50753,7 +50753,7 @@
         }
       ],
       "trackCount": 7,
-      "totalWeeks": 129,
+      "totalWeeks": 130,
       "bestPeak": 4,
       "firstYear": 2004,
       "lastYear": 2008,
@@ -62389,7 +62389,7 @@
           "firstDate": "16/07/2007",
           "lastKey": "2007-47",
           "lastDate": "19/11/2007",
-          "weeks": 18,
+          "weeks": 19,
           "peak": 14,
           "peakKey": "2007-31",
           "peakDate": "30/07/2007"
@@ -62409,7 +62409,7 @@
         }
       ],
       "trackCount": 5,
-      "totalWeeks": 112,
+      "totalWeeks": 113,
       "bestPeak": 1,
       "firstYear": 2006,
       "lastYear": 2007,
@@ -70551,7 +70551,7 @@
           "firstDate": "20/08/2007",
           "lastKey": "2008-17",
           "lastDate": "21/04/2008",
-          "weeks": 35,
+          "weeks": 36,
           "peak": 2,
           "peakKey": "2007-36",
           "peakDate": "03/09/2007"
@@ -70597,7 +70597,7 @@
         }
       ],
       "trackCount": 4,
-      "totalWeeks": 116,
+      "totalWeeks": 117,
       "bestPeak": 2,
       "firstYear": 2007,
       "lastYear": 2010,
@@ -77642,6 +77642,73 @@
       "lastDate": "02/06/1997"
     },
     {
+      "id": "victoria",
+      "name": "Victoria",
+      "tracks": [
+        {
+          "key": "le heros d un autre|victoria",
+          "title": "Le héros d'un autre",
+          "credit": "Victoria",
+          "firstKey": "2007-35",
+          "firstDate": "27/08/2007",
+          "lastKey": "2008-03",
+          "lastDate": "14/01/2008",
+          "weeks": 21,
+          "peak": 6,
+          "peakKey": "2007-35",
+          "peakDate": "27/08/2007"
+        },
+        {
+          "key": "le desir de chanter|victoria",
+          "title": "Le désir de chanter",
+          "credit": "Victoria",
+          "firstKey": "1999-42",
+          "firstDate": "18/10/1999",
+          "lastKey": "2000-52",
+          "lastDate": "25/12/2000",
+          "weeks": 17,
+          "peak": 29,
+          "peakKey": "2000-52",
+          "peakDate": "25/12/2000"
+        },
+        {
+          "key": "je veux tout|victoria",
+          "title": "Je veux tout",
+          "credit": "Victoria",
+          "firstKey": "2001-08",
+          "firstDate": "19/02/2001",
+          "lastKey": "2001-12",
+          "lastDate": "19/03/2001",
+          "weeks": 5,
+          "peak": 61,
+          "peakKey": "2001-09",
+          "peakDate": "26/02/2001"
+        },
+        {
+          "key": "les amants sont eternels s|victoria",
+          "title": "Les amants sont éternels (S...",
+          "credit": "Victoria",
+          "firstKey": "2004-07",
+          "firstDate": "09/02/2004",
+          "lastKey": "2004-10",
+          "lastDate": "01/03/2004",
+          "weeks": 4,
+          "peak": 61,
+          "peakKey": "2004-07",
+          "peakDate": "09/02/2004"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 47,
+      "bestPeak": 6,
+      "firstYear": 1999,
+      "lastYear": 2008,
+      "firstKey": "1999-42",
+      "firstDate": "18/10/1999",
+      "lastKey": "2008-03",
+      "lastDate": "14/01/2008"
+    },
+    {
       "id": "melgroove",
       "name": "Melgroove",
       "tracks": [
@@ -77774,73 +77841,6 @@
       "firstDate": "13/01/2003",
       "lastKey": "2008-25",
       "lastDate": "16/06/2008"
-    },
-    {
-      "id": "victoria",
-      "name": "Victoria",
-      "tracks": [
-        {
-          "key": "le heros d un autre|victoria",
-          "title": "Le héros d'un autre",
-          "credit": "Victoria",
-          "firstKey": "2007-35",
-          "firstDate": "27/08/2007",
-          "lastKey": "2008-03",
-          "lastDate": "14/01/2008",
-          "weeks": 20,
-          "peak": 6,
-          "peakKey": "2007-35",
-          "peakDate": "27/08/2007"
-        },
-        {
-          "key": "le desir de chanter|victoria",
-          "title": "Le désir de chanter",
-          "credit": "Victoria",
-          "firstKey": "1999-42",
-          "firstDate": "18/10/1999",
-          "lastKey": "2000-52",
-          "lastDate": "25/12/2000",
-          "weeks": 17,
-          "peak": 29,
-          "peakKey": "2000-52",
-          "peakDate": "25/12/2000"
-        },
-        {
-          "key": "je veux tout|victoria",
-          "title": "Je veux tout",
-          "credit": "Victoria",
-          "firstKey": "2001-08",
-          "firstDate": "19/02/2001",
-          "lastKey": "2001-12",
-          "lastDate": "19/03/2001",
-          "weeks": 5,
-          "peak": 61,
-          "peakKey": "2001-09",
-          "peakDate": "26/02/2001"
-        },
-        {
-          "key": "les amants sont eternels s|victoria",
-          "title": "Les amants sont éternels (S...",
-          "credit": "Victoria",
-          "firstKey": "2004-07",
-          "firstDate": "09/02/2004",
-          "lastKey": "2004-10",
-          "lastDate": "01/03/2004",
-          "weeks": 4,
-          "peak": 61,
-          "peakKey": "2004-07",
-          "peakDate": "09/02/2004"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 46,
-      "bestPeak": 6,
-      "firstYear": 1999,
-      "lastYear": 2008,
-      "firstKey": "1999-42",
-      "firstDate": "18/10/1999",
-      "lastKey": "2008-03",
-      "lastDate": "14/01/2008"
     },
     {
       "id": "charly and lulu",
@@ -82513,6 +82513,19 @@
           "peakDate": "05/03/2007"
         },
         {
+          "key": "fous ta cagoule|fatal bazooka",
+          "title": "Fous ta cagoule",
+          "credit": "Fatal Bazooka",
+          "firstKey": "2006-46",
+          "firstDate": "13/11/2006",
+          "lastKey": "2009-32",
+          "lastDate": "03/08/2009",
+          "weeks": 27,
+          "peak": 1,
+          "peakKey": "2006-47",
+          "peakDate": "20/11/2006"
+        },
+        {
           "key": "parle a ma main|fatal bazooka",
           "title": "Parle à ma main",
           "credit": "Fatal Bazooka feat. Yelle",
@@ -82524,23 +82537,10 @@
           "peak": 1,
           "peakKey": "2007-49",
           "peakDate": "03/12/2007"
-        },
-        {
-          "key": "fous ta cagoule|fatal bazooka",
-          "title": "Fous ta cagoule",
-          "credit": "Fatal Bazooka",
-          "firstKey": "2006-46",
-          "firstDate": "13/11/2006",
-          "lastKey": "2009-32",
-          "lastDate": "03/08/2009",
-          "weeks": 26,
-          "peak": 1,
-          "peakKey": "2006-47",
-          "peakDate": "20/11/2006"
         }
       ],
       "trackCount": 3,
-      "totalWeeks": 84,
+      "totalWeeks": 85,
       "bestPeak": 1,
       "firstYear": 2006,
       "lastYear": 2010,
@@ -82682,7 +82682,7 @@
           "firstDate": "19/02/2007",
           "lastKey": "2007-33",
           "lastDate": "13/08/2007",
-          "weeks": 23,
+          "weeks": 24,
           "peak": 2,
           "peakKey": "2007-08",
           "peakDate": "19/02/2007"
@@ -82702,7 +82702,7 @@
         }
       ],
       "trackCount": 3,
-      "totalWeeks": 81,
+      "totalWeeks": 82,
       "bestPeak": 1,
       "firstYear": 2006,
       "lastYear": 2008,
@@ -101304,6 +101304,47 @@
       "lastDate": "27/09/2004"
     },
     {
+      "id": "koxie",
+      "name": "Koxie",
+      "tracks": [
+        {
+          "key": "garcon|koxie",
+          "title": "Garçon",
+          "credit": "Koxie",
+          "firstKey": "2007-26",
+          "firstDate": "25/06/2007",
+          "lastKey": "2008-04",
+          "lastDate": "21/01/2008",
+          "weeks": 31,
+          "peak": 1,
+          "peakKey": "2007-34",
+          "peakDate": "20/08/2007"
+        },
+        {
+          "key": "ma meilleure amie|koxie",
+          "title": "Ma meilleure amie",
+          "credit": "Koxie",
+          "firstKey": "2008-11",
+          "firstDate": "10/03/2008",
+          "lastKey": "2008-21",
+          "lastDate": "19/05/2008",
+          "weeks": 11,
+          "peak": 45,
+          "peakKey": "2008-11",
+          "peakDate": "10/03/2008"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 42,
+      "bestPeak": 1,
+      "firstYear": 2007,
+      "lastYear": 2008,
+      "firstKey": "2007-26",
+      "firstDate": "25/06/2007",
+      "lastKey": "2008-21",
+      "lastDate": "19/05/2008"
+    },
+    {
       "id": "tony parker",
       "name": "Tony Parker",
       "tracks": [
@@ -101671,47 +101712,6 @@
       "firstDate": "06/10/2025",
       "lastKey": "2026-46",
       "lastDate": "09/11/2026"
-    },
-    {
-      "id": "koxie",
-      "name": "Koxie",
-      "tracks": [
-        {
-          "key": "garcon|koxie",
-          "title": "Garçon",
-          "credit": "Koxie",
-          "firstKey": "2007-26",
-          "firstDate": "25/06/2007",
-          "lastKey": "2008-04",
-          "lastDate": "21/01/2008",
-          "weeks": 30,
-          "peak": 1,
-          "peakKey": "2007-34",
-          "peakDate": "20/08/2007"
-        },
-        {
-          "key": "ma meilleure amie|koxie",
-          "title": "Ma meilleure amie",
-          "credit": "Koxie",
-          "firstKey": "2008-11",
-          "firstDate": "10/03/2008",
-          "lastKey": "2008-21",
-          "lastDate": "19/05/2008",
-          "weeks": 11,
-          "peak": 45,
-          "peakKey": "2008-11",
-          "peakDate": "10/03/2008"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 41,
-      "bestPeak": 1,
-      "firstYear": 2007,
-      "lastYear": 2008,
-      "firstKey": "2007-26",
-      "firstDate": "25/06/2007",
-      "lastKey": "2008-21",
-      "lastDate": "19/05/2008"
     },
     {
       "id": "francois feldman et joniece jamison",
@@ -108766,6 +108766,47 @@
       "lastDate": "22/09/1985"
     },
     {
+      "id": "stinky",
+      "name": "Stinky",
+      "tracks": [
+        {
+          "key": "oops|stinky",
+          "title": "Oops",
+          "credit": "Stinky",
+          "firstKey": "2006-43",
+          "firstDate": "23/10/2006",
+          "lastKey": "2007-13",
+          "lastDate": "26/03/2007",
+          "weeks": 14,
+          "peak": 29,
+          "peakKey": "2006-44",
+          "peakDate": "30/10/2006"
+        },
+        {
+          "key": "magic flute|stinky",
+          "title": "Magic Flute",
+          "credit": "Stinky",
+          "firstKey": "2007-12",
+          "firstDate": "19/03/2007",
+          "lastKey": "2007-29",
+          "lastDate": "16/07/2007",
+          "weeks": 15,
+          "peak": 34,
+          "peakKey": "2007-13",
+          "peakDate": "26/03/2007"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 29,
+      "bestPeak": 29,
+      "firstYear": 2006,
+      "lastYear": 2007,
+      "firstKey": "2006-43",
+      "firstDate": "23/10/2006",
+      "lastKey": "2007-29",
+      "lastDate": "16/07/2007"
+    },
+    {
       "id": "kendrick lamar",
       "name": "Kendrick Lamar",
       "tracks": [
@@ -109051,47 +109092,6 @@
       "firstDate": "19/01/1998",
       "lastKey": "1998-31",
       "lastDate": "27/07/1998"
-    },
-    {
-      "id": "stinky",
-      "name": "Stinky",
-      "tracks": [
-        {
-          "key": "oops|stinky",
-          "title": "Oops",
-          "credit": "Stinky",
-          "firstKey": "2006-43",
-          "firstDate": "23/10/2006",
-          "lastKey": "2007-13",
-          "lastDate": "26/03/2007",
-          "weeks": 13,
-          "peak": 29,
-          "peakKey": "2006-44",
-          "peakDate": "30/10/2006"
-        },
-        {
-          "key": "magic flute|stinky",
-          "title": "Magic Flute",
-          "credit": "Stinky",
-          "firstKey": "2007-12",
-          "firstDate": "19/03/2007",
-          "lastKey": "2007-29",
-          "lastDate": "16/07/2007",
-          "weeks": 15,
-          "peak": 34,
-          "peakKey": "2007-13",
-          "peakDate": "26/03/2007"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 28,
-      "bestPeak": 29,
-      "firstYear": 2006,
-      "lastYear": 2007,
-      "firstKey": "2006-43",
-      "firstDate": "23/10/2006",
-      "lastKey": "2007-29",
-      "lastDate": "16/07/2007"
     },
     {
       "id": "lady violet",
@@ -136645,6 +136645,34 @@
       "lastDate": "18/09/2006"
     },
     {
+      "id": "david kane",
+      "name": "David Kane",
+      "tracks": [
+        {
+          "key": "club sound|david kane",
+          "title": "Club Sound",
+          "credit": "David Kane",
+          "firstKey": "2007-07",
+          "firstDate": "12/02/2007",
+          "lastKey": "2007-28",
+          "lastDate": "09/07/2007",
+          "weeks": 22,
+          "peak": 17,
+          "peakKey": "2007-07",
+          "peakDate": "12/02/2007"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 22,
+      "bestPeak": 17,
+      "firstYear": 2007,
+      "lastYear": 2007,
+      "firstKey": "2007-07",
+      "firstDate": "12/02/2007",
+      "lastKey": "2007-28",
+      "lastDate": "09/07/2007"
+    },
+    {
       "id": "elodie",
       "name": "Elodie",
       "tracks": [
@@ -138325,34 +138353,6 @@
       "lastDate": "24/11/2008"
     },
     {
-      "id": "david kane",
-      "name": "David Kane",
-      "tracks": [
-        {
-          "key": "club sound|david kane",
-          "title": "Club Sound",
-          "credit": "David Kane",
-          "firstKey": "2007-07",
-          "firstDate": "12/02/2007",
-          "lastKey": "2007-28",
-          "lastDate": "09/07/2007",
-          "weeks": 21,
-          "peak": 17,
-          "peakKey": "2007-07",
-          "peakDate": "12/02/2007"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 21,
-      "bestPeak": 17,
-      "firstYear": 2007,
-      "lastYear": 2007,
-      "firstKey": "2007-07",
-      "firstDate": "12/02/2007",
-      "lastKey": "2007-28",
-      "lastDate": "09/07/2007"
-    },
-    {
       "id": "fleur de vanille",
       "name": "Fleur De Vanille",
       "tracks": [
@@ -139723,6 +139723,34 @@
       "firstDate": "24/11/1991",
       "lastKey": "1992-14",
       "lastDate": "05/04/1992"
+    },
+    {
+      "id": "silly le petit phoque",
+      "name": "Silly Le Petit Phoque",
+      "tracks": [
+        {
+          "key": "boum boum|silly le petit phoque",
+          "title": "Boum Boum",
+          "credit": "Silly Le Petit Phoque",
+          "firstKey": "2007-27",
+          "firstDate": "02/07/2007",
+          "lastKey": "2007-46",
+          "lastDate": "12/11/2007",
+          "weeks": 20,
+          "peak": 11,
+          "peakKey": "2007-33",
+          "peakDate": "13/08/2007"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 20,
+      "bestPeak": 11,
+      "firstYear": 2007,
+      "lastYear": 2007,
+      "firstKey": "2007-27",
+      "firstDate": "02/07/2007",
+      "lastKey": "2007-46",
+      "lastDate": "12/11/2007"
     },
     {
       "id": "taylor dayne",
@@ -141711,34 +141739,6 @@
       "firstDate": "17/02/1985",
       "lastKey": "1985-25",
       "lastDate": "23/06/1985"
-    },
-    {
-      "id": "silly le petit phoque",
-      "name": "Silly Le Petit Phoque",
-      "tracks": [
-        {
-          "key": "boum boum|silly le petit phoque",
-          "title": "Boum Boum",
-          "credit": "Silly Le Petit Phoque",
-          "firstKey": "2007-27",
-          "firstDate": "02/07/2007",
-          "lastKey": "2007-46",
-          "lastDate": "12/11/2007",
-          "weeks": 19,
-          "peak": 11,
-          "peakKey": "2007-33",
-          "peakDate": "13/08/2007"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 19,
-      "bestPeak": 11,
-      "firstYear": 2007,
-      "lastYear": 2007,
-      "firstKey": "2007-27",
-      "firstDate": "02/07/2007",
-      "lastKey": "2007-46",
-      "lastDate": "12/11/2007"
     },
     {
       "id": "ting tang tong",
@@ -147481,6 +147481,34 @@
       "lastDate": "26/02/2007"
     },
     {
+      "id": "mims",
+      "name": "Mims",
+      "tracks": [
+        {
+          "key": "this is why i m hot|mims",
+          "title": "This Is Why I'm Hot",
+          "credit": "Mims",
+          "firstKey": "2007-30",
+          "firstDate": "23/07/2007",
+          "lastKey": "2007-46",
+          "lastDate": "12/11/2007",
+          "weeks": 17,
+          "peak": 45,
+          "peakKey": "2007-31",
+          "peakDate": "30/07/2007"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 17,
+      "bestPeak": 45,
+      "firstYear": 2007,
+      "lastYear": 2007,
+      "firstKey": "2007-30",
+      "firstDate": "23/07/2007",
+      "lastKey": "2007-46",
+      "lastDate": "12/11/2007"
+    },
+    {
       "id": "laurent konrad",
       "name": "Laurent Konrad",
       "tracks": [
@@ -149777,34 +149805,6 @@
       "lastDate": "06/10/2008"
     },
     {
-      "id": "mims",
-      "name": "Mims",
-      "tracks": [
-        {
-          "key": "this is why i m hot|mims",
-          "title": "This Is Why I'm Hot",
-          "credit": "Mims",
-          "firstKey": "2007-30",
-          "firstDate": "23/07/2007",
-          "lastKey": "2007-46",
-          "lastDate": "12/11/2007",
-          "weeks": 16,
-          "peak": 45,
-          "peakKey": "2007-31",
-          "peakDate": "30/07/2007"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 16,
-      "bestPeak": 45,
-      "firstYear": 2007,
-      "lastYear": 2007,
-      "firstKey": "2007-30",
-      "firstDate": "23/07/2007",
-      "lastKey": "2007-46",
-      "lastDate": "12/11/2007"
-    },
-    {
       "id": "gigi d agostino and albertino",
       "name": "Gigi D'Agostino & Albertino",
       "tracks": [
@@ -150867,6 +150867,34 @@
       "firstDate": "29/08/2022",
       "lastKey": "2023-02",
       "lastDate": "09/01/2023"
+    },
+    {
+      "id": "lilly fleur pointeaux and josephine jobert",
+      "name": "Lilly Fleur Pointeaux & Josephine Jobert",
+      "tracks": [
+        {
+          "key": "nos annees pension pour l|lilly fleur pointeaux and josephine jobert",
+          "title": "Nos années pension : Pour l...",
+          "credit": "Lilly Fleur Pointeaux & Josephine Jobert",
+          "firstKey": "2007-17",
+          "firstDate": "23/04/2007",
+          "lastKey": "2007-31",
+          "lastDate": "30/07/2007",
+          "weeks": 15,
+          "peak": 16,
+          "peakKey": "2007-17",
+          "peakDate": "23/04/2007"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 15,
+      "bestPeak": 16,
+      "firstYear": 2007,
+      "lastYear": 2007,
+      "firstKey": "2007-17",
+      "firstDate": "23/04/2007",
+      "lastKey": "2007-31",
+      "lastDate": "30/07/2007"
     },
     {
       "id": "omc",
@@ -153135,34 +153163,6 @@
       "firstDate": "24/08/2015",
       "lastKey": "2015-48",
       "lastDate": "23/11/2015"
-    },
-    {
-      "id": "lilly fleur pointeaux and josephine jobert",
-      "name": "Lilly Fleur Pointeaux & Josephine Jobert",
-      "tracks": [
-        {
-          "key": "nos annees pension pour l|lilly fleur pointeaux and josephine jobert",
-          "title": "Nos années pension : Pour l...",
-          "credit": "Lilly Fleur Pointeaux & Josephine Jobert",
-          "firstKey": "2007-17",
-          "firstDate": "23/04/2007",
-          "lastKey": "2007-31",
-          "lastDate": "30/07/2007",
-          "weeks": 14,
-          "peak": 16,
-          "peakKey": "2007-17",
-          "peakDate": "23/04/2007"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 14,
-      "bestPeak": 16,
-      "firstYear": 2007,
-      "lastYear": 2007,
-      "firstKey": "2007-17",
-      "firstDate": "23/04/2007",
-      "lastKey": "2007-31",
-      "lastDate": "30/07/2007"
     },
     {
       "id": "one t and cool t",
@@ -155685,6 +155685,34 @@
       "lastDate": "04/09/2000"
     },
     {
+      "id": "dirty south vs evermore",
+      "name": "Dirty South vs. Evermore",
+      "tracks": [
+        {
+          "key": "it s too late|dirty south vs evermore",
+          "title": "It's Too Late (Ride On)",
+          "credit": "Dirty South vs. Evermore",
+          "firstKey": "2006-48",
+          "firstDate": "27/11/2006",
+          "lastKey": "2007-21",
+          "lastDate": "21/05/2007",
+          "weeks": 14,
+          "peak": 69,
+          "peakKey": "2006-48",
+          "peakDate": "27/11/2006"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 14,
+      "bestPeak": 69,
+      "firstYear": 2006,
+      "lastYear": 2007,
+      "firstKey": "2006-48",
+      "firstDate": "27/11/2006",
+      "lastKey": "2007-21",
+      "lastDate": "21/05/2007"
+    },
+    {
       "id": "nu generation",
       "name": "Nu Generation",
       "tracks": [
@@ -157645,6 +157673,34 @@
       "lastDate": "01/03/2004"
     },
     {
+      "id": "star tattooed",
+      "name": "Star Tattooed",
+      "tracks": [
+        {
+          "key": "make me high|star tattooed",
+          "title": "Make Me High",
+          "credit": "Star Tattooed feat. Ava",
+          "firstKey": "2007-18",
+          "firstDate": "30/04/2007",
+          "lastKey": "2007-31",
+          "lastDate": "30/07/2007",
+          "weeks": 13,
+          "peak": 31,
+          "peakKey": "2007-18",
+          "peakDate": "30/04/2007"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 13,
+      "bestPeak": 31,
+      "firstYear": 2007,
+      "lastYear": 2007,
+      "firstKey": "2007-18",
+      "firstDate": "30/04/2007",
+      "lastKey": "2007-31",
+      "lastDate": "30/07/2007"
+    },
+    {
       "id": "the drill",
       "name": "The Drill",
       "tracks": [
@@ -158707,34 +158763,6 @@
       "firstDate": "13/11/2000",
       "lastKey": "2001-07",
       "lastDate": "12/02/2001"
-    },
-    {
-      "id": "dirty south vs evermore",
-      "name": "Dirty South vs. Evermore",
-      "tracks": [
-        {
-          "key": "it s too late|dirty south vs evermore",
-          "title": "It's Too Late (Ride On)",
-          "credit": "Dirty South vs. Evermore",
-          "firstKey": "2006-48",
-          "firstDate": "27/11/2006",
-          "lastKey": "2007-21",
-          "lastDate": "21/05/2007",
-          "weeks": 13,
-          "peak": 69,
-          "peakKey": "2006-48",
-          "peakDate": "27/11/2006"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 13,
-      "bestPeak": 69,
-      "firstYear": 2006,
-      "lastYear": 2007,
-      "firstKey": "2006-48",
-      "firstDate": "27/11/2006",
-      "lastKey": "2007-21",
-      "lastDate": "21/05/2007"
     },
     {
       "id": "sky spirit",
@@ -160527,34 +160555,6 @@
       "firstDate": "29/08/2005",
       "lastKey": "2005-46",
       "lastDate": "14/11/2005"
-    },
-    {
-      "id": "star tattooed",
-      "name": "Star Tattooed",
-      "tracks": [
-        {
-          "key": "make me high|star tattooed",
-          "title": "Make Me High",
-          "credit": "Star Tattooed feat. Ava",
-          "firstKey": "2007-18",
-          "firstDate": "30/04/2007",
-          "lastKey": "2007-31",
-          "lastDate": "30/07/2007",
-          "weeks": 12,
-          "peak": 31,
-          "peakKey": "2007-18",
-          "peakDate": "30/04/2007"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 12,
-      "bestPeak": 31,
-      "firstYear": 2007,
-      "lastYear": 2007,
-      "firstKey": "2007-18",
-      "firstDate": "30/04/2007",
-      "lastKey": "2007-31",
-      "lastDate": "30/07/2007"
     },
     {
       "id": "electro cypher",
