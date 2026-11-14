@@ -1,19 +1,25 @@
 #!/usr/bin/env python3
 """
-Test de re-scraping ciblé sur quelques semaines.
+Re-scraping ciblé, à l'unité ou en lot.
 Par défaut : dry-run, aucune écriture. --apply pour enregistrer.
-Si le scraping échoue, l'archive d'origine est restaurée.
-Si une position régresse, rien n'est écrit.
+
+Sécurités :
+  - échec du scraping        → archive d'origine restaurée
+  - position(s) perdue(s)    → semaine rejetée, archive d'origine restaurée
+  - sauvegarde périodique en mode lot
 
 Usage :
-  python test_rescrape.py --keys 1993-37,1994-07,2003-15
-  python test_rescrape.py --keys 1993-37 --apply
+  python test_rescrape.py --keys 1993-37,1994-07
+  python test_rescrape.py --list data/rescrape_targets.json --year 1993 --limit 20 --apply
+  python test_rescrape.py --list data/rescrape_targets.json --apply
 """
 import json, os, re, argparse, copy
 from datetime import datetime
 import fetch_archive_batch as fab
 
 REPORT = "data/rescrape_test_report.json"
+TARGETS = "data/rescrape_targets.json"
+SAVE_EVERY = 25
 
 
 def expected_size(key, source):
@@ -40,23 +46,53 @@ def positions(arch):
     return out
 
 
+def resolve_keys(args):
+    if args.keys:
+        return [k.strip() for k in args.keys.split(",") if k.strip()]
+    path = args.list or TARGETS
+    if not os.path.exists(path):
+        print(f"❌ liste absente : {path}")
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        keys = json.load(f)
+    keys = [str(k) for k in keys]
+    if args.year:
+        keys = [k for k in keys if k.startswith(str(args.year) + "-")]
+    keys.sort()
+    if args.limit and args.limit > 0:
+        keys = keys[:args.limit]
+    return keys
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--keys", required=True, help="clés séparées par des virgules")
-    ap.add_argument("--apply", action="store_true", help="écrire dans le cache")
+    ap.add_argument("--keys", help="clés séparées par des virgules")
+    ap.add_argument("--list", help="fichier JSON de clés (défaut: data/rescrape_targets.json)")
+    ap.add_argument("--year", help="filtrer la liste sur une année")
+    ap.add_argument("--limit", type=int, default=0, help="0 = pas de limite")
+    ap.add_argument("--apply", action="store_true")
     args = ap.parse_args()
 
-    print(f"🧪 Test de re-scraping — {datetime.now():%Y-%m-%d %H:%M:%S}")
+    keys = resolve_keys(args)
+    if not keys:
+        print("Aucune clé à traiter.")
+        return
+
+    print(f"🧪 Re-scraping ciblé — {datetime.now():%Y-%m-%d %H:%M:%S}")
     print("   mode : " + ("APPLY (écriture)" if args.apply else "DRY-RUN (aucune écriture)"))
+    print(f"   {len(keys)} semaine(s) à traiter")
+    if args.year:
+        print(f"   filtre année : {args.year}")
 
     cache = fab.load_retro_cache()
     fab._load_overrides()
 
     report = []
-    recovered_total = 0
+    n_ok = n_fail = n_reject = 0
+    rec_total = lost_total = 0
+    done = 0
 
-    for raw in args.keys.split(","):
-        raw = raw.strip()
+    for raw in keys:
         m = re.match(r"^(\d{4})-(\d{1,2})$", raw)
         if not m:
             print(f"\n⚠️ clé invalide ignorée : {raw}")
@@ -76,7 +112,6 @@ def main():
 
         print(f"\n{'='*70}")
         print(f"{key}  source={src}  attendu={exp}")
-        print(f"{'='*70}")
         print(f"  avant : {len(pb)} entrées, trous = {gaps_before}")
 
         del cache[key]
@@ -95,44 +130,61 @@ def main():
 
         if not ok or key not in cache:
             cache[key] = before
-            print("  ❌ re-scraping échoué → archive d'origine restaurée")
+            n_fail += 1
+            print("  ❌ échec → archive d'origine restaurée")
             report.append({"key": key, "status": "echec", "gaps_before": gaps_before})
             continue
 
-        fab.apply_track_overrides(cache)
-        after = cache[key]
-        pa = positions(after)
+        # overrides appliqués seulement à la semaine re-scrapée
+        fab.apply_track_overrides({key: cache[key]})
+        pa = positions(cache[key])
         gaps_after = sorted(set(range(1, exp + 1)) - set(pa))
-
-        print(f"  après : {len(pa)} entrées, trous = {gaps_after}")
 
         recovered = [p for p in gaps_before if p in pa]
         still = [p for p in gaps_before if p not in pa]
         lost = [p for p in pb if p not in pa]
 
+        print(f"  après : {len(pa)} entrées, trous = {gaps_after}")
+
+        if lost:
+            cache[key] = before          # refus : aucune régression acceptée
+            n_reject += 1
+            lost_total += len(lost)
+            print(f"  🔴 REJETÉE — {len(lost)} position(s) perdue(s) : {lost}")
+            for p in lost:
+                print(f"     #{p}  était : {pb[p]}")
+            report.append({"key": key, "status": "rejetee",
+                           "lost": {str(p): pb[p] for p in lost}})
+            continue
+
+        n_ok += 1
+        rec_total += len(recovered)
         if recovered:
-            print(f"  ✅ {len(recovered)} position(s) récupérée(s) :")
+            print(f"  ✅ {len(recovered)} récupérée(s) :")
             for p in recovered:
                 print(f"     #{p}  {pa[p]}")
         if still:
             print(f"  ⚪ {len(still)} toujours absente(s) : {still}")
-        if lost:
-            print(f"  🔴 {len(lost)} position(s) PERDUE(S) : {lost}")
-            for p in lost:
-                print(f"     #{p}  était : {pb[p]}")
 
-        recovered_total += len(recovered)
-        report.append({
-            "key": key, "status": "ok",
-            "entries_before": len(pb), "entries_after": len(pa),
-            "gaps_before": gaps_before, "gaps_after": gaps_after,
-            "recovered": {str(p): pa[p] for p in recovered},
-            "still_missing": still,
-            "lost": {str(p): pb[p] for p in lost},
-        })
+        report.append({"key": key, "status": "ok",
+                       "entries_before": len(pb), "entries_after": len(pa),
+                       "gaps_before": gaps_before, "gaps_after": gaps_after,
+                       "recovered": {str(p): pa[p] for p in recovered},
+                       "still_missing": still})
+
+        done += 1
+        if args.apply and done % SAVE_EVERY == 0:
+            fab.save_retro_cache(cache)
+            print(f"  💾 sauvegarde intermédiaire ({done} semaines traitées)")
 
     print(f"\n{'='*70}")
-    print(f"BILAN : {recovered_total} position(s) récupérée(s) au total")
+    print("BILAN")
+    print("="*70)
+    print(f"  semaines améliorées : {n_ok}")
+    print(f"  échecs (restaurées) : {n_fail}")
+    print(f"  rejetées (régression): {n_reject}")
+    print(f"  positions récupérées : {rec_total}")
+    print(f"  positions perdues    : {lost_total}  (toutes restaurées)")
     print("="*70)
 
     os.makedirs(os.path.dirname(REPORT), exist_ok=True)
@@ -141,13 +193,12 @@ def main():
     print(f"💾 rapport : {REPORT}")
 
     if args.apply:
-        if any(r.get("lost") for r in report):
-            print("\n🔴 Des positions ont été perdues sur au moins une semaine.")
-            print("   Par sécurité, RIEN n'a été écrit.")
-        else:
+        if n_ok:
             fab.save_retro_cache(cache)
-            print("\n✅ Cache mis à jour (aucune perte détectée).")
+            print("\n✅ Cache mis à jour.")
             print("   Pense à régénérer l'index artiste.")
+        else:
+            print("\nAucune semaine améliorée — cache non modifié.")
     else:
         print("\n(dry-run : le cache n'a pas été modifié)")
 
