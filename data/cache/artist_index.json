@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T15:53:21.678187+00:00",
+  "generatedAt": "2026-11-14T15:57:19.990141+00:00",
   "archiveCount": 2198,
-  "artistCount": 4654,
-  "trackCount": 10761,
+  "artistCount": 4656,
+  "trackCount": 10763,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -8329,7 +8329,7 @@
           "firstDate": "30/11/2009",
           "lastKey": "2011-39",
           "lastDate": "26/09/2011",
-          "weeks": 22,
+          "weeks": 21,
           "peak": 6,
           "peakKey": "2009-49",
           "peakDate": "30/11/2009"
@@ -8583,7 +8583,7 @@
         }
       ],
       "trackCount": 25,
-      "totalWeeks": 358,
+      "totalWeeks": 357,
       "bestPeak": 2,
       "firstYear": 1990,
       "lastYear": 2025,
@@ -9596,9 +9596,9 @@
           "credit": "U2",
           "firstKey": "2009-09",
           "firstDate": "23/02/2009",
-          "lastKey": "2009-39",
-          "lastDate": "21/09/2009",
-          "weeks": 31,
+          "lastKey": "2010-39",
+          "lastDate": "27/09/2010",
+          "weeks": 34,
           "peak": 6,
           "peakKey": "2009-09",
           "peakDate": "23/02/2009"
@@ -9687,9 +9687,9 @@
           "credit": "U2",
           "firstKey": "2009-19",
           "firstDate": "04/05/2009",
-          "lastKey": "2009-52",
-          "lastDate": "21/12/2009",
-          "weeks": 32,
+          "lastKey": "2010-46",
+          "lastDate": "15/11/2010",
+          "weeks": 35,
           "peak": 15,
           "peakKey": "2009-25",
           "peakDate": "15/06/2009"
@@ -9765,9 +9765,9 @@
           "credit": "U2",
           "firstKey": "2009-37",
           "firstDate": "07/09/2009",
-          "lastKey": "2009-52",
-          "lastDate": "21/12/2009",
-          "weeks": 16,
+          "lastKey": "2010-53",
+          "lastDate": "03/01/2011",
+          "weeks": 47,
           "peak": 21,
           "peakKey": "2009-44",
           "peakDate": "26/10/2009"
@@ -9904,14 +9904,14 @@
         }
       ],
       "trackCount": 24,
-      "totalWeeks": 290,
+      "totalWeeks": 327,
       "bestPeak": 6,
       "firstYear": 1987,
-      "lastYear": 2009,
+      "lastYear": 2010,
       "firstKey": "1987-20",
       "firstDate": "17/05/1987",
-      "lastKey": "2009-52",
-      "lastDate": "21/12/2009"
+      "lastKey": "2010-53",
+      "lastDate": "03/01/2011"
     },
     {
       "id": "les enfoires",
@@ -35543,7 +35543,7 @@
           "firstDate": "08/03/2010",
           "lastKey": "2011-06",
           "lastDate": "07/02/2011",
-          "weeks": 43,
+          "weeks": 44,
           "peak": 1,
           "peakKey": "2010-10",
           "peakDate": "08/03/2010"
@@ -35667,7 +35667,7 @@
         }
       ],
       "trackCount": 10,
-      "totalWeeks": 242,
+      "totalWeeks": 243,
       "bestPeak": 1,
       "firstYear": 2010,
       "lastYear": 2022,
@@ -49342,7 +49342,7 @@
           "firstDate": "24/05/2010",
           "lastKey": "2011-02",
           "lastDate": "10/01/2011",
-          "weeks": 29,
+          "weeks": 30,
           "peak": 2,
           "peakKey": "2010-21",
           "peakDate": "24/05/2010"
@@ -49414,7 +49414,7 @@
         }
       ],
       "trackCount": 7,
-      "totalWeeks": 174,
+      "totalWeeks": 175,
       "bestPeak": 2,
       "firstYear": 2010,
       "lastYear": 2024,
@@ -55477,14 +55477,14 @@
           "firstDate": "30/11/2009",
           "lastKey": "2012-05",
           "lastDate": "30/01/2012",
-          "weeks": 24,
+          "weeks": 23,
           "peak": 20,
           "peakKey": "2009-50",
           "peakDate": "07/12/2009"
         }
       ],
       "trackCount": 6,
-      "totalWeeks": 149,
+      "totalWeeks": 148,
       "bestPeak": 3,
       "firstYear": 2005,
       "lastYear": 2012,
@@ -70981,6 +70981,73 @@
       "lastDate": "10/02/2003"
     },
     {
+      "id": "coeur de pirate",
+      "name": "Coeur de Pirate",
+      "tracks": [
+        {
+          "key": "comme des enfants|coeur de pirate",
+          "title": "Comme des enfants",
+          "credit": "Coeur de Pirate",
+          "firstKey": "2009-40",
+          "firstDate": "28/09/2009",
+          "lastKey": "2010-21",
+          "lastDate": "24/05/2010",
+          "weeks": 34,
+          "peak": 4,
+          "peakKey": "2009-40",
+          "peakDate": "28/09/2009"
+        },
+        {
+          "key": "oublie moi|coeur de pirate",
+          "title": "Oublie-moi",
+          "credit": "Coeur de pirate",
+          "firstKey": "2015-18",
+          "firstDate": "27/04/2015",
+          "lastKey": "2015-50",
+          "lastDate": "07/12/2015",
+          "weeks": 29,
+          "peak": 24,
+          "peakKey": "2015-44",
+          "peakDate": "26/10/2015"
+        },
+        {
+          "key": "vivre ou ne pas vivre|coeur de pirate",
+          "title": "Vivre ou ne pas vivre",
+          "credit": "Coeur de pirate, Arthur H et Marc Lavoine",
+          "firstKey": "2016-37",
+          "firstDate": "12/09/2016",
+          "lastKey": "2017-04",
+          "lastDate": "23/01/2017",
+          "weeks": 18,
+          "peak": 25,
+          "peakKey": "2016-46",
+          "peakDate": "14/11/2016"
+        },
+        {
+          "key": "mistral gagnant|coeur de pirate",
+          "title": "Mistral gagnant",
+          "credit": "Coeur de pirate",
+          "firstKey": "2014-23",
+          "firstDate": "02/06/2014",
+          "lastKey": "2014-43",
+          "lastDate": "20/10/2014",
+          "weeks": 20,
+          "peak": 30,
+          "peakKey": "2014-27",
+          "peakDate": "30/06/2014"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 101,
+      "bestPeak": 4,
+      "firstYear": 2009,
+      "lastYear": 2017,
+      "firstKey": "2009-40",
+      "firstDate": "28/09/2009",
+      "lastKey": "2017-04",
+      "lastDate": "23/01/2017"
+    },
+    {
       "id": "jungeli",
       "name": "Jungeli",
       "tracks": [
@@ -71180,73 +71247,6 @@
       "firstDate": "01/11/1992",
       "lastKey": "1995-09",
       "lastDate": "27/02/1995"
-    },
-    {
-      "id": "coeur de pirate",
-      "name": "Coeur de Pirate",
-      "tracks": [
-        {
-          "key": "comme des enfants|coeur de pirate",
-          "title": "Comme des enfants",
-          "credit": "Coeur de Pirate",
-          "firstKey": "2009-40",
-          "firstDate": "28/09/2009",
-          "lastKey": "2010-21",
-          "lastDate": "24/05/2010",
-          "weeks": 33,
-          "peak": 4,
-          "peakKey": "2009-40",
-          "peakDate": "28/09/2009"
-        },
-        {
-          "key": "oublie moi|coeur de pirate",
-          "title": "Oublie-moi",
-          "credit": "Coeur de pirate",
-          "firstKey": "2015-18",
-          "firstDate": "27/04/2015",
-          "lastKey": "2015-50",
-          "lastDate": "07/12/2015",
-          "weeks": 29,
-          "peak": 24,
-          "peakKey": "2015-44",
-          "peakDate": "26/10/2015"
-        },
-        {
-          "key": "vivre ou ne pas vivre|coeur de pirate",
-          "title": "Vivre ou ne pas vivre",
-          "credit": "Coeur de pirate, Arthur H et Marc Lavoine",
-          "firstKey": "2016-37",
-          "firstDate": "12/09/2016",
-          "lastKey": "2017-04",
-          "lastDate": "23/01/2017",
-          "weeks": 18,
-          "peak": 25,
-          "peakKey": "2016-46",
-          "peakDate": "14/11/2016"
-        },
-        {
-          "key": "mistral gagnant|coeur de pirate",
-          "title": "Mistral gagnant",
-          "credit": "Coeur de pirate",
-          "firstKey": "2014-23",
-          "firstDate": "02/06/2014",
-          "lastKey": "2014-43",
-          "lastDate": "20/10/2014",
-          "weeks": 20,
-          "peak": 30,
-          "peakKey": "2014-27",
-          "peakDate": "30/06/2014"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 100,
-      "bestPeak": 4,
-      "firstYear": 2009,
-      "lastYear": 2017,
-      "firstKey": "2009-40",
-      "firstDate": "28/09/2009",
-      "lastKey": "2017-04",
-      "lastDate": "23/01/2017"
     },
     {
       "id": "kenza farah",
@@ -82248,14 +82248,14 @@
           "firstDate": "03/05/2010",
           "lastKey": "2011-13",
           "lastDate": "28/03/2011",
-          "weeks": 33,
+          "weeks": 34,
           "peak": 10,
           "peakKey": "2010-18",
           "peakDate": "03/05/2010"
         }
       ],
       "trackCount": 3,
-      "totalWeeks": 121,
+      "totalWeeks": 122,
       "bestPeak": 1,
       "firstYear": 2009,
       "lastYear": 2011,
@@ -136796,6 +136796,34 @@
       "lastDate": "08/06/2009"
     },
     {
+      "id": "pete yorn and scarlett johansson",
+      "name": "Pete Yorn & Scarlett Johansson",
+      "tracks": [
+        {
+          "key": "relator|pete yorn and scarlett johansson",
+          "title": "Relator",
+          "credit": "Pete Yorn & Scarlett Johansson",
+          "firstKey": "2010-01",
+          "firstDate": "04/01/2010",
+          "lastKey": "2010-35",
+          "lastDate": "30/08/2010",
+          "weeks": 22,
+          "peak": 19,
+          "peakKey": "2010-01",
+          "peakDate": "04/01/2010"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 22,
+      "bestPeak": 19,
+      "firstYear": 2010,
+      "lastYear": 2010,
+      "firstKey": "2010-01",
+      "firstDate": "04/01/2010",
+      "lastKey": "2010-35",
+      "lastDate": "30/08/2010"
+    },
+    {
       "id": "rodolfo chikilicuatre",
       "name": "Rodolfo Chikilicuatre",
       "tracks": [
@@ -138558,34 +138586,6 @@
       "firstDate": "25/03/2019",
       "lastKey": "2019-33",
       "lastDate": "12/08/2019"
-    },
-    {
-      "id": "pete yorn and scarlett johansson",
-      "name": "Pete Yorn & Scarlett Johansson",
-      "tracks": [
-        {
-          "key": "relator|pete yorn and scarlett johansson",
-          "title": "Relator",
-          "credit": "Pete Yorn & Scarlett Johansson",
-          "firstKey": "2010-01",
-          "firstDate": "04/01/2010",
-          "lastKey": "2010-35",
-          "lastDate": "30/08/2010",
-          "weeks": 21,
-          "peak": 19,
-          "peakKey": "2010-01",
-          "peakDate": "04/01/2010"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 21,
-      "bestPeak": 19,
-      "firstYear": 2010,
-      "lastYear": 2010,
-      "firstKey": "2010-01",
-      "firstDate": "04/01/2010",
-      "lastKey": "2010-35",
-      "lastDate": "30/08/2010"
     },
     {
       "id": "liquido",
@@ -201026,6 +201026,62 @@
       "firstDate": "15/10/2018",
       "lastKey": "2018-42",
       "lastDate": "15/10/2018"
+    },
+    {
+      "id": "lalalove you",
+      "name": "Lalalove You",
+      "tracks": [
+        {
+          "key": "12|lalalove you",
+          "title": "12",
+          "credit": "Lalalove You",
+          "firstKey": "2010-02",
+          "firstDate": "11/01/2010",
+          "lastKey": "2010-02",
+          "lastDate": "11/01/2010",
+          "weeks": 1,
+          "peak": 34,
+          "peakKey": "2010-02",
+          "peakDate": "11/01/2010"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 34,
+      "firstYear": 2010,
+      "lastYear": 2010,
+      "firstKey": "2010-02",
+      "firstDate": "11/01/2010",
+      "lastKey": "2010-02",
+      "lastDate": "11/01/2010"
+    },
+    {
+      "id": "j aimerais tellement",
+      "name": "J'aimerais tellement",
+      "tracks": [
+        {
+          "key": "6|j aimerais tellement",
+          "title": "6",
+          "credit": "J'aimerais tellement",
+          "firstKey": "2010-07",
+          "firstDate": "15/02/2010",
+          "lastKey": "2010-07",
+          "lastDate": "15/02/2010",
+          "weeks": 1,
+          "peak": 35,
+          "peakKey": "2010-07",
+          "peakDate": "15/02/2010"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 35,
+      "firstYear": 2010,
+      "lastYear": 2010,
+      "firstKey": "2010-07",
+      "firstDate": "15/02/2010",
+      "lastKey": "2010-07",
+      "lastDate": "15/02/2010"
     },
     {
       "id": "quelle aventure",
