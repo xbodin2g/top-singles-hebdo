@@ -1,12 +1,10 @@
 name: Fetch Weekly Charts
 
-
 on:
   schedule:
     # Lundi 18:00 UTC
     # => 20h en heure d'été FR, 19h en heure d'hiver FR
     - cron: '0 18 * * 1'
-
 
   workflow_dispatch:
 
@@ -43,6 +41,10 @@ jobs:
         run: |
           python fetch_charts.py
 
+      - name: Sync current week to retro
+        run: |
+          python sync_current_week_to_retro.py
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
@@ -55,6 +57,6 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update weekly charts - $(date +%Y-%m-%d)"
+          git commit -m "Update weekly charts + sync retro - $(date +%Y-%m-%d)"
           git pull --rebase origin main
           git push origin main
