@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T07:35:00.243887+00:00",
+  "generatedAt": "2026-11-14T07:39:58.211613+00:00",
   "archiveCount": 2198,
   "artistCount": 4511,
   "trackCount": 10560,
@@ -1840,7 +1840,7 @@
           "firstDate": "18/09/1995",
           "lastKey": "1995-50",
           "lastDate": "11/12/1995",
-          "weeks": 11,
+          "weeks": 12,
           "peak": 1,
           "peakKey": "1995-38",
           "peakDate": "18/09/1995"
@@ -2367,7 +2367,7 @@
         }
       ],
       "trackCount": 51,
-      "totalWeeks": 913,
+      "totalWeeks": 914,
       "bestPeak": 1,
       "firstYear": 1986,
       "lastYear": 2026,
@@ -21657,11 +21657,11 @@
           "key": "blessed|elton john",
           "title": "Blessed",
           "credit": "Elton John",
-          "firstKey": "1995-45",
-          "firstDate": "06/11/1995",
+          "firstKey": "1995-44",
+          "firstDate": "30/10/1995",
           "lastKey": "1996-01",
           "lastDate": "01/01/1996",
-          "weeks": 9,
+          "weeks": 10,
           "peak": 32,
           "peakKey": "1995-45",
           "peakDate": "06/11/1995"
@@ -21720,7 +21720,7 @@
         }
       ],
       "trackCount": 16,
-      "totalWeeks": 234,
+      "totalWeeks": 235,
       "bestPeak": 1,
       "firstYear": 1986,
       "lastYear": 2003,
@@ -28452,7 +28452,7 @@
           "firstDate": "06/03/1995",
           "lastKey": "1995-29",
           "lastDate": "17/07/1995",
-          "weeks": 19,
+          "weeks": 20,
           "peak": 5,
           "peakKey": "1995-14",
           "peakDate": "03/04/1995"
@@ -28589,7 +28589,7 @@
         }
       ],
       "trackCount": 13,
-      "totalWeeks": 183,
+      "totalWeeks": 184,
       "bestPeak": 2,
       "firstYear": 1990,
       "lastYear": 2008,
@@ -32253,10 +32253,10 @@
           "firstDate": "20/02/1995",
           "lastKey": "1995-24",
           "lastDate": "12/06/1995",
-          "weeks": 16,
+          "weeks": 17,
           "peak": 13,
-          "peakKey": "1995-19",
-          "peakDate": "08/05/1995"
+          "peakKey": "1995-17",
+          "peakDate": "24/04/1995"
         },
         {
           "key": "ce matin|axelle red",
@@ -32351,7 +32351,7 @@
         }
       ],
       "trackCount": 11,
-      "totalWeeks": 178,
+      "totalWeeks": 179,
       "bestPeak": 2,
       "firstYear": 1994,
       "lastYear": 2007,
@@ -37380,6 +37380,151 @@
       "lastDate": "13/09/2021"
     },
     {
+      "id": "masterboy",
+      "name": "Masterboy",
+      "tracks": [
+        {
+          "key": "feel the heat of the night|masterboy",
+          "title": "Feel The Heat Of The Night",
+          "credit": "Masterboy",
+          "firstKey": "1994-38",
+          "firstDate": "19/09/1994",
+          "lastKey": "1995-11",
+          "lastDate": "13/03/1995",
+          "weeks": 25,
+          "peak": 2,
+          "peakKey": "1994-44",
+          "peakDate": "31/10/1994"
+        },
+        {
+          "key": "generation of love|masterboy",
+          "title": "Generation Of Love",
+          "credit": "Masterboy",
+          "firstKey": "1995-34",
+          "firstDate": "21/08/1995",
+          "lastKey": "1995-46",
+          "lastDate": "13/11/1995",
+          "weeks": 13,
+          "peak": 8,
+          "peakKey": "1995-37",
+          "peakDate": "11/09/1995"
+        },
+        {
+          "key": "megamix|masterboy",
+          "title": "Megamix",
+          "credit": "Masterboy",
+          "firstKey": "1995-23",
+          "firstDate": "05/06/1995",
+          "lastKey": "1995-35",
+          "lastDate": "28/08/1995",
+          "weeks": 13,
+          "peak": 11,
+          "peakKey": "1995-26",
+          "peakDate": "26/06/1995"
+        },
+        {
+          "key": "is this the love|masterboy",
+          "title": "Is This The Love",
+          "credit": "Masterboy",
+          "firstKey": "1994-50",
+          "firstDate": "12/12/1994",
+          "lastKey": "1995-16",
+          "lastDate": "17/04/1995",
+          "weeks": 18,
+          "peak": 12,
+          "peakKey": "1995-03",
+          "peakDate": "16/01/1995"
+        },
+        {
+          "key": "different dreams|masterboy",
+          "title": "Different Dreams",
+          "credit": "Masterboy",
+          "firstKey": "1995-13",
+          "firstDate": "27/03/1995",
+          "lastKey": "1995-27",
+          "lastDate": "03/07/1995",
+          "weeks": 15,
+          "peak": 16,
+          "peakKey": "1995-13",
+          "peakDate": "27/03/1995"
+        },
+        {
+          "key": "anybody|masterboy",
+          "title": "Anybody (Movin' On)",
+          "credit": "Masterboy",
+          "firstKey": "1995-42",
+          "firstDate": "16/10/1995",
+          "lastKey": "1996-01",
+          "lastDate": "01/01/1996",
+          "weeks": 12,
+          "peak": 20,
+          "peakKey": "1995-43",
+          "peakDate": "23/10/1995"
+        },
+        {
+          "key": "land of dreaming|masterboy",
+          "title": "Land Of Dreaming",
+          "credit": "Masterboy",
+          "firstKey": "1996-08",
+          "firstDate": "19/02/1996",
+          "lastKey": "1996-17",
+          "lastDate": "22/04/1996",
+          "weeks": 10,
+          "peak": 22,
+          "peakKey": "1996-12",
+          "peakDate": "18/03/1996"
+        },
+        {
+          "key": "baby let it be|masterboy",
+          "title": "Baby Let It Be",
+          "credit": "Masterboy",
+          "firstKey": "1996-29",
+          "firstDate": "15/07/1996",
+          "lastKey": "1996-35",
+          "lastDate": "26/08/1996",
+          "weeks": 7,
+          "peak": 27,
+          "peakKey": "1996-32",
+          "peakDate": "05/08/1996"
+        },
+        {
+          "key": "show me colours|masterboy",
+          "title": "Show Me Colours",
+          "credit": "Masterboy",
+          "firstKey": "1996-46",
+          "firstDate": "11/11/1996",
+          "lastKey": "1996-46",
+          "lastDate": "11/11/1996",
+          "weeks": 1,
+          "peak": 31,
+          "peakKey": "1996-46",
+          "peakDate": "11/11/1996"
+        },
+        {
+          "key": "i got to give it up|masterboy",
+          "title": "I Got To Give It Up",
+          "credit": "Masterboy",
+          "firstKey": "1994-28",
+          "firstDate": "11/07/1994",
+          "lastKey": "1994-33",
+          "lastDate": "15/08/1994",
+          "weeks": 2,
+          "peak": 41,
+          "peakKey": "1994-28",
+          "peakDate": "11/07/1994"
+        }
+      ],
+      "trackCount": 10,
+      "totalWeeks": 116,
+      "bestPeak": 2,
+      "firstYear": 1994,
+      "lastYear": 1996,
+      "firstKey": "1994-28",
+      "firstDate": "11/07/1994",
+      "lastKey": "1996-46",
+      "lastDate": "11/11/1996"
+    },
+    {
       "id": "the cranberries",
       "name": "The Cranberries",
       "tracks": [
@@ -37523,151 +37668,6 @@
       "firstDate": "20/02/1995",
       "lastKey": "2002-02",
       "lastDate": "07/01/2002"
-    },
-    {
-      "id": "masterboy",
-      "name": "Masterboy",
-      "tracks": [
-        {
-          "key": "feel the heat of the night|masterboy",
-          "title": "Feel The Heat Of The Night",
-          "credit": "Masterboy",
-          "firstKey": "1994-38",
-          "firstDate": "19/09/1994",
-          "lastKey": "1995-11",
-          "lastDate": "13/03/1995",
-          "weeks": 25,
-          "peak": 2,
-          "peakKey": "1994-44",
-          "peakDate": "31/10/1994"
-        },
-        {
-          "key": "generation of love|masterboy",
-          "title": "Generation Of Love",
-          "credit": "Masterboy",
-          "firstKey": "1995-34",
-          "firstDate": "21/08/1995",
-          "lastKey": "1995-46",
-          "lastDate": "13/11/1995",
-          "weeks": 12,
-          "peak": 8,
-          "peakKey": "1995-37",
-          "peakDate": "11/09/1995"
-        },
-        {
-          "key": "is this the love|masterboy",
-          "title": "Is This The Love",
-          "credit": "Masterboy",
-          "firstKey": "1994-50",
-          "firstDate": "12/12/1994",
-          "lastKey": "1995-16",
-          "lastDate": "17/04/1995",
-          "weeks": 17,
-          "peak": 12,
-          "peakKey": "1995-03",
-          "peakDate": "16/01/1995"
-        },
-        {
-          "key": "different dreams|masterboy",
-          "title": "Different Dreams",
-          "credit": "Masterboy",
-          "firstKey": "1995-13",
-          "firstDate": "27/03/1995",
-          "lastKey": "1995-27",
-          "lastDate": "03/07/1995",
-          "weeks": 15,
-          "peak": 16,
-          "peakKey": "1995-13",
-          "peakDate": "27/03/1995"
-        },
-        {
-          "key": "megamix|masterboy",
-          "title": "Megamix",
-          "credit": "Masterboy",
-          "firstKey": "1995-23",
-          "firstDate": "05/06/1995",
-          "lastKey": "1995-35",
-          "lastDate": "28/08/1995",
-          "weeks": 12,
-          "peak": 16,
-          "peakKey": "1995-23",
-          "peakDate": "05/06/1995"
-        },
-        {
-          "key": "anybody|masterboy",
-          "title": "Anybody (Movin' On)",
-          "credit": "Masterboy",
-          "firstKey": "1995-42",
-          "firstDate": "16/10/1995",
-          "lastKey": "1996-01",
-          "lastDate": "01/01/1996",
-          "weeks": 12,
-          "peak": 20,
-          "peakKey": "1995-43",
-          "peakDate": "23/10/1995"
-        },
-        {
-          "key": "land of dreaming|masterboy",
-          "title": "Land Of Dreaming",
-          "credit": "Masterboy",
-          "firstKey": "1996-08",
-          "firstDate": "19/02/1996",
-          "lastKey": "1996-17",
-          "lastDate": "22/04/1996",
-          "weeks": 10,
-          "peak": 22,
-          "peakKey": "1996-12",
-          "peakDate": "18/03/1996"
-        },
-        {
-          "key": "baby let it be|masterboy",
-          "title": "Baby Let It Be",
-          "credit": "Masterboy",
-          "firstKey": "1996-29",
-          "firstDate": "15/07/1996",
-          "lastKey": "1996-35",
-          "lastDate": "26/08/1996",
-          "weeks": 7,
-          "peak": 27,
-          "peakKey": "1996-32",
-          "peakDate": "05/08/1996"
-        },
-        {
-          "key": "show me colours|masterboy",
-          "title": "Show Me Colours",
-          "credit": "Masterboy",
-          "firstKey": "1996-46",
-          "firstDate": "11/11/1996",
-          "lastKey": "1996-46",
-          "lastDate": "11/11/1996",
-          "weeks": 1,
-          "peak": 31,
-          "peakKey": "1996-46",
-          "peakDate": "11/11/1996"
-        },
-        {
-          "key": "i got to give it up|masterboy",
-          "title": "I Got To Give It Up",
-          "credit": "Masterboy",
-          "firstKey": "1994-28",
-          "firstDate": "11/07/1994",
-          "lastKey": "1994-33",
-          "lastDate": "15/08/1994",
-          "weeks": 2,
-          "peak": 41,
-          "peakKey": "1994-28",
-          "peakDate": "11/07/1994"
-        }
-      ],
-      "trackCount": 10,
-      "totalWeeks": 113,
-      "bestPeak": 2,
-      "firstYear": 1994,
-      "lastYear": 1996,
-      "firstKey": "1994-28",
-      "firstDate": "11/07/1994",
-      "lastKey": "1996-46",
-      "lastDate": "11/11/1996"
     },
     {
       "id": "oasis",
@@ -57427,6 +57427,99 @@
       "lastDate": "12/10/2009"
     },
     {
+      "id": "bon jovi",
+      "name": "Bon Jovi",
+      "tracks": [
+        {
+          "key": "always|bon jovi",
+          "title": "Always",
+          "credit": "Bon Jovi",
+          "firstKey": "1994-50",
+          "firstDate": "12/12/1994",
+          "lastKey": "1995-23",
+          "lastDate": "05/06/1995",
+          "weeks": 25,
+          "peak": 2,
+          "peakKey": "1995-03",
+          "peakDate": "16/01/1995"
+        },
+        {
+          "key": "this ain t a love song|bon jovi",
+          "title": "This Ain't A Love Song",
+          "credit": "Bon Jovi",
+          "firstKey": "1995-23",
+          "firstDate": "05/06/1995",
+          "lastKey": "1995-39",
+          "lastDate": "25/09/1995",
+          "weeks": 17,
+          "peak": 8,
+          "peakKey": "1995-32",
+          "peakDate": "07/08/1995"
+        },
+        {
+          "key": "it s my life|bon jovi",
+          "title": "It's My Life",
+          "credit": "Bon Jovi",
+          "firstKey": "2000-22",
+          "firstDate": "29/05/2000",
+          "lastKey": "2001-40",
+          "lastDate": "01/10/2001",
+          "weeks": 38,
+          "peak": 14,
+          "peakKey": "2000-25",
+          "peakDate": "19/06/2000"
+        },
+        {
+          "key": "lie to me|bon jovi",
+          "title": "Lie To Me",
+          "credit": "Bon Jovi",
+          "firstKey": "1996-07",
+          "firstDate": "12/02/1996",
+          "lastKey": "1996-15",
+          "lastDate": "08/04/1996",
+          "weeks": 9,
+          "peak": 32,
+          "peakKey": "1996-09",
+          "peakDate": "26/02/1996"
+        },
+        {
+          "key": "bed of roses|bon jovi",
+          "title": "Bed Of Roses",
+          "credit": "Bon Jovi",
+          "firstKey": "1993-23",
+          "firstDate": "06/06/1993",
+          "lastKey": "1993-23",
+          "lastDate": "06/06/1993",
+          "weeks": 1,
+          "peak": 49,
+          "peakKey": "1993-23",
+          "peakDate": "06/06/1993"
+        },
+        {
+          "key": "everyday|bon jovi",
+          "title": "Everyday",
+          "credit": "Bon Jovi",
+          "firstKey": "2002-46",
+          "firstDate": "11/11/2002",
+          "lastKey": "2002-47",
+          "lastDate": "18/11/2002",
+          "weeks": 2,
+          "peak": 93,
+          "peakKey": "2002-47",
+          "peakDate": "18/11/2002"
+        }
+      ],
+      "trackCount": 6,
+      "totalWeeks": 92,
+      "bestPeak": 2,
+      "firstYear": 1993,
+      "lastYear": 2002,
+      "firstKey": "1993-23",
+      "firstDate": "06/06/1993",
+      "lastKey": "2002-47",
+      "lastDate": "18/11/2002"
+    },
+    {
       "id": "clean bandit",
       "name": "Clean Bandit",
       "tracks": [
@@ -57518,99 +57611,6 @@
       "firstDate": "03/03/2014",
       "lastKey": "2024-41",
       "lastDate": "07/10/2024"
-    },
-    {
-      "id": "bon jovi",
-      "name": "Bon Jovi",
-      "tracks": [
-        {
-          "key": "always|bon jovi",
-          "title": "Always",
-          "credit": "Bon Jovi",
-          "firstKey": "1994-50",
-          "firstDate": "12/12/1994",
-          "lastKey": "1995-23",
-          "lastDate": "05/06/1995",
-          "weeks": 25,
-          "peak": 2,
-          "peakKey": "1995-03",
-          "peakDate": "16/01/1995"
-        },
-        {
-          "key": "this ain t a love song|bon jovi",
-          "title": "This Ain't A Love Song",
-          "credit": "Bon Jovi",
-          "firstKey": "1995-23",
-          "firstDate": "05/06/1995",
-          "lastKey": "1995-39",
-          "lastDate": "25/09/1995",
-          "weeks": 16,
-          "peak": 8,
-          "peakKey": "1995-32",
-          "peakDate": "07/08/1995"
-        },
-        {
-          "key": "it s my life|bon jovi",
-          "title": "It's My Life",
-          "credit": "Bon Jovi",
-          "firstKey": "2000-22",
-          "firstDate": "29/05/2000",
-          "lastKey": "2001-40",
-          "lastDate": "01/10/2001",
-          "weeks": 38,
-          "peak": 14,
-          "peakKey": "2000-25",
-          "peakDate": "19/06/2000"
-        },
-        {
-          "key": "lie to me|bon jovi",
-          "title": "Lie To Me",
-          "credit": "Bon Jovi",
-          "firstKey": "1996-07",
-          "firstDate": "12/02/1996",
-          "lastKey": "1996-15",
-          "lastDate": "08/04/1996",
-          "weeks": 9,
-          "peak": 32,
-          "peakKey": "1996-09",
-          "peakDate": "26/02/1996"
-        },
-        {
-          "key": "bed of roses|bon jovi",
-          "title": "Bed Of Roses",
-          "credit": "Bon Jovi",
-          "firstKey": "1993-23",
-          "firstDate": "06/06/1993",
-          "lastKey": "1993-23",
-          "lastDate": "06/06/1993",
-          "weeks": 1,
-          "peak": 49,
-          "peakKey": "1993-23",
-          "peakDate": "06/06/1993"
-        },
-        {
-          "key": "everyday|bon jovi",
-          "title": "Everyday",
-          "credit": "Bon Jovi",
-          "firstKey": "2002-46",
-          "firstDate": "11/11/2002",
-          "lastKey": "2002-47",
-          "lastDate": "18/11/2002",
-          "weeks": 2,
-          "peak": 93,
-          "peakKey": "2002-47",
-          "peakDate": "18/11/2002"
-        }
-      ],
-      "trackCount": 6,
-      "totalWeeks": 91,
-      "bestPeak": 2,
-      "firstYear": 1993,
-      "lastYear": 2002,
-      "firstKey": "1993-23",
-      "firstDate": "06/06/1993",
-      "lastKey": "2002-47",
-      "lastDate": "18/11/2002"
     },
     {
       "id": "cunnie williams",
@@ -60682,6 +60682,99 @@
       "lastDate": "20/12/2021"
     },
     {
+      "id": "u 96",
+      "name": "U 96",
+      "tracks": [
+        {
+          "key": "das boot kennedy|u 96",
+          "title": "Das Boot / Kennedy",
+          "credit": "U 96",
+          "firstKey": "1992-42",
+          "firstDate": "18/10/1992",
+          "lastKey": "1993-53",
+          "lastDate": "03/01/1994",
+          "weeks": 19,
+          "peak": 9,
+          "peakKey": "1992-47",
+          "peakDate": "22/11/1992"
+        },
+        {
+          "key": "love religion|u 96",
+          "title": "Love Religion",
+          "credit": "U 96",
+          "firstKey": "1995-01",
+          "firstDate": "02/01/1995",
+          "lastKey": "1995-12",
+          "lastDate": "20/03/1995",
+          "weeks": 12,
+          "peak": 15,
+          "peakKey": "1995-06",
+          "peakDate": "06/02/1995"
+        },
+        {
+          "key": "love sees no colour|u 96",
+          "title": "Love Sees No Colour",
+          "credit": "U 96",
+          "firstKey": "1993-31",
+          "firstDate": "01/08/1993",
+          "lastKey": "1993-42",
+          "lastDate": "18/10/1993",
+          "weeks": 12,
+          "peak": 20,
+          "peakKey": "1993-35",
+          "peakDate": "29/08/1993"
+        },
+        {
+          "key": "night in motion|u 96",
+          "title": "Night In Motion",
+          "credit": "U 96",
+          "firstKey": "1993-47",
+          "firstDate": "22/11/1993",
+          "lastKey": "1993-48",
+          "lastDate": "29/11/1993",
+          "weeks": 2,
+          "peak": 29,
+          "peakKey": "1993-48",
+          "peakDate": "29/11/1993"
+        },
+        {
+          "key": "ambient underworld|u 96",
+          "title": "Ambient Underworld",
+          "credit": "U 96",
+          "firstKey": "1993-05",
+          "firstDate": "31/01/1993",
+          "lastKey": "1993-10",
+          "lastDate": "07/03/1993",
+          "weeks": 5,
+          "peak": 36,
+          "peakKey": "1993-05",
+          "peakDate": "31/01/1993"
+        },
+        {
+          "key": "club bizarre|u 96",
+          "title": "Club Bizarre",
+          "credit": "U 96",
+          "firstKey": "1995-24",
+          "firstDate": "12/06/1995",
+          "lastKey": "1995-24",
+          "lastDate": "12/06/1995",
+          "weeks": 1,
+          "peak": 44,
+          "peakKey": "1995-24",
+          "peakDate": "12/06/1995"
+        }
+      ],
+      "trackCount": 6,
+      "totalWeeks": 51,
+      "bestPeak": 9,
+      "firstYear": 1992,
+      "lastYear": 1995,
+      "firstKey": "1992-42",
+      "firstDate": "18/10/1992",
+      "lastKey": "1995-24",
+      "lastDate": "12/06/1995"
+    },
+    {
       "id": "bernard lavilliers",
       "name": "Bernard Lavilliers",
       "tracks": [
@@ -60773,99 +60866,6 @@
       "firstDate": "11/01/1987",
       "lastKey": "1996-04",
       "lastDate": "22/01/1996"
-    },
-    {
-      "id": "u 96",
-      "name": "U 96",
-      "tracks": [
-        {
-          "key": "das boot kennedy|u 96",
-          "title": "Das Boot / Kennedy",
-          "credit": "U 96",
-          "firstKey": "1992-42",
-          "firstDate": "18/10/1992",
-          "lastKey": "1993-53",
-          "lastDate": "03/01/1994",
-          "weeks": 19,
-          "peak": 9,
-          "peakKey": "1992-47",
-          "peakDate": "22/11/1992"
-        },
-        {
-          "key": "love religion|u 96",
-          "title": "Love Religion",
-          "credit": "U 96",
-          "firstKey": "1995-01",
-          "firstDate": "02/01/1995",
-          "lastKey": "1995-12",
-          "lastDate": "20/03/1995",
-          "weeks": 11,
-          "peak": 15,
-          "peakKey": "1995-06",
-          "peakDate": "06/02/1995"
-        },
-        {
-          "key": "love sees no colour|u 96",
-          "title": "Love Sees No Colour",
-          "credit": "U 96",
-          "firstKey": "1993-31",
-          "firstDate": "01/08/1993",
-          "lastKey": "1993-42",
-          "lastDate": "18/10/1993",
-          "weeks": 12,
-          "peak": 20,
-          "peakKey": "1993-35",
-          "peakDate": "29/08/1993"
-        },
-        {
-          "key": "night in motion|u 96",
-          "title": "Night In Motion",
-          "credit": "U 96",
-          "firstKey": "1993-47",
-          "firstDate": "22/11/1993",
-          "lastKey": "1993-48",
-          "lastDate": "29/11/1993",
-          "weeks": 2,
-          "peak": 29,
-          "peakKey": "1993-48",
-          "peakDate": "29/11/1993"
-        },
-        {
-          "key": "ambient underworld|u 96",
-          "title": "Ambient Underworld",
-          "credit": "U 96",
-          "firstKey": "1993-05",
-          "firstDate": "31/01/1993",
-          "lastKey": "1993-10",
-          "lastDate": "07/03/1993",
-          "weeks": 5,
-          "peak": 36,
-          "peakKey": "1993-05",
-          "peakDate": "31/01/1993"
-        },
-        {
-          "key": "club bizarre|u 96",
-          "title": "Club Bizarre",
-          "credit": "U 96",
-          "firstKey": "1995-24",
-          "firstDate": "12/06/1995",
-          "lastKey": "1995-24",
-          "lastDate": "12/06/1995",
-          "weeks": 1,
-          "peak": 44,
-          "peakKey": "1995-24",
-          "peakDate": "12/06/1995"
-        }
-      ],
-      "trackCount": 6,
-      "totalWeeks": 50,
-      "bestPeak": 9,
-      "firstYear": 1992,
-      "lastYear": 1995,
-      "firstKey": "1992-42",
-      "firstDate": "18/10/1992",
-      "lastKey": "1995-24",
-      "lastDate": "12/06/1995"
     },
     {
       "id": "lacrim",
@@ -86171,6 +86171,60 @@
       "lastDate": "10/10/1994"
     },
     {
+      "id": "whigfield",
+      "name": "Whigfield",
+      "tracks": [
+        {
+          "key": "saturday night|whigfield",
+          "title": "Saturday Night",
+          "credit": "Whigfield",
+          "firstKey": "1994-41",
+          "firstDate": "10/10/1994",
+          "lastKey": "1995-15",
+          "lastDate": "10/04/1995",
+          "weeks": 26,
+          "peak": 2,
+          "peakKey": "1994-46",
+          "peakDate": "14/11/1994"
+        },
+        {
+          "key": "another day|whigfield",
+          "title": "Another Day",
+          "credit": "Whigfield",
+          "firstKey": "1995-04",
+          "firstDate": "23/01/1995",
+          "lastKey": "1995-13",
+          "lastDate": "27/03/1995",
+          "weeks": 10,
+          "peak": 24,
+          "peakKey": "1995-05",
+          "peakDate": "30/01/1995"
+        },
+        {
+          "key": "think of you|whigfield",
+          "title": "Think Of You",
+          "credit": "Whigfield",
+          "firstKey": "1995-27",
+          "firstDate": "03/07/1995",
+          "lastKey": "1995-39",
+          "lastDate": "25/09/1995",
+          "weeks": 13,
+          "peak": 25,
+          "peakKey": "1995-37",
+          "peakDate": "11/09/1995"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 49,
+      "bestPeak": 2,
+      "firstYear": 1994,
+      "lastYear": 1995,
+      "firstKey": "1994-41",
+      "firstDate": "10/10/1994",
+      "lastKey": "1995-39",
+      "lastDate": "25/09/1995"
+    },
+    {
       "id": "bananarama",
       "name": "Bananarama",
       "tracks": [
@@ -86655,60 +86709,6 @@
       "firstDate": "01/05/1995",
       "lastKey": "1996-01",
       "lastDate": "01/01/1996"
-    },
-    {
-      "id": "whigfield",
-      "name": "Whigfield",
-      "tracks": [
-        {
-          "key": "saturday night|whigfield",
-          "title": "Saturday Night",
-          "credit": "Whigfield",
-          "firstKey": "1994-41",
-          "firstDate": "10/10/1994",
-          "lastKey": "1995-15",
-          "lastDate": "10/04/1995",
-          "weeks": 25,
-          "peak": 2,
-          "peakKey": "1994-46",
-          "peakDate": "14/11/1994"
-        },
-        {
-          "key": "another day|whigfield",
-          "title": "Another Day",
-          "credit": "Whigfield",
-          "firstKey": "1995-04",
-          "firstDate": "23/01/1995",
-          "lastKey": "1995-13",
-          "lastDate": "27/03/1995",
-          "weeks": 10,
-          "peak": 24,
-          "peakKey": "1995-05",
-          "peakDate": "30/01/1995"
-        },
-        {
-          "key": "think of you|whigfield",
-          "title": "Think Of You",
-          "credit": "Whigfield",
-          "firstKey": "1995-27",
-          "firstDate": "03/07/1995",
-          "lastKey": "1995-39",
-          "lastDate": "25/09/1995",
-          "weeks": 13,
-          "peak": 25,
-          "peakKey": "1995-37",
-          "peakDate": "11/09/1995"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 48,
-      "bestPeak": 2,
-      "firstYear": 1994,
-      "lastYear": 1995,
-      "firstKey": "1994-41",
-      "firstDate": "10/10/1994",
-      "lastKey": "1995-39",
-      "lastDate": "25/09/1995"
     },
     {
       "id": "chainsmokers",
@@ -89195,6 +89195,60 @@
       "lastDate": "08/06/2026"
     },
     {
+      "id": "20 fingers",
+      "name": "20 Fingers",
+      "tracks": [
+        {
+          "key": "short dick man|20 fingers",
+          "title": "Short Dick Man",
+          "credit": "20 Fingers feat. Gillette",
+          "firstKey": "1994-48",
+          "firstDate": "28/11/1994",
+          "lastKey": "1995-18",
+          "lastDate": "01/05/1995",
+          "weeks": 22,
+          "peak": 1,
+          "peakKey": "1995-06",
+          "peakDate": "06/02/1995"
+        },
+        {
+          "key": "lick it|20 fingers",
+          "title": "Lick It",
+          "credit": "20 Fingers feat. Roula",
+          "firstKey": "1995-12",
+          "firstDate": "20/03/1995",
+          "lastKey": "1995-28",
+          "lastDate": "10/07/1995",
+          "weeks": 17,
+          "peak": 5,
+          "peakKey": "1995-19",
+          "peakDate": "08/05/1995"
+        },
+        {
+          "key": "megamix explosion|20 fingers",
+          "title": "Megamix Explosion",
+          "credit": "20 Fingers",
+          "firstKey": "1996-16",
+          "firstDate": "15/04/1996",
+          "lastKey": "1996-16",
+          "lastDate": "15/04/1996",
+          "weeks": 1,
+          "peak": 44,
+          "peakKey": "1996-16",
+          "peakDate": "15/04/1996"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 40,
+      "bestPeak": 1,
+      "firstYear": 1994,
+      "lastYear": 1996,
+      "firstKey": "1994-48",
+      "firstDate": "28/11/1994",
+      "lastKey": "1996-16",
+      "lastDate": "15/04/1996"
+    },
+    {
       "id": "era",
       "name": "Era",
       "tracks": [
@@ -89463,60 +89517,6 @@
       "firstDate": "21/11/1994",
       "lastKey": "2010-46",
       "lastDate": "15/11/2010"
-    },
-    {
-      "id": "20 fingers",
-      "name": "20 Fingers",
-      "tracks": [
-        {
-          "key": "short dick man|20 fingers",
-          "title": "Short Dick Man",
-          "credit": "20 Fingers feat. Gillette",
-          "firstKey": "1994-48",
-          "firstDate": "28/11/1994",
-          "lastKey": "1995-18",
-          "lastDate": "01/05/1995",
-          "weeks": 21,
-          "peak": 1,
-          "peakKey": "1995-06",
-          "peakDate": "06/02/1995"
-        },
-        {
-          "key": "lick it|20 fingers",
-          "title": "Lick It",
-          "credit": "20 Fingers feat. Roula",
-          "firstKey": "1995-12",
-          "firstDate": "20/03/1995",
-          "lastKey": "1995-28",
-          "lastDate": "10/07/1995",
-          "weeks": 17,
-          "peak": 5,
-          "peakKey": "1995-19",
-          "peakDate": "08/05/1995"
-        },
-        {
-          "key": "megamix explosion|20 fingers",
-          "title": "Megamix Explosion",
-          "credit": "20 Fingers",
-          "firstKey": "1996-16",
-          "firstDate": "15/04/1996",
-          "lastKey": "1996-16",
-          "lastDate": "15/04/1996",
-          "weeks": 1,
-          "peak": 44,
-          "peakKey": "1996-16",
-          "peakDate": "15/04/1996"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 39,
-      "bestPeak": 1,
-      "firstYear": 1994,
-      "lastYear": 1996,
-      "firstKey": "1994-48",
-      "firstDate": "28/11/1994",
-      "lastKey": "1996-16",
-      "lastDate": "15/04/1996"
     },
     {
       "id": "mn8",
@@ -89843,6 +89843,60 @@
       "lastDate": "27/01/1997"
     },
     {
+      "id": "magic affair",
+      "name": "Magic Affair",
+      "tracks": [
+        {
+          "key": "omen iii|magic affair",
+          "title": "Omen III",
+          "credit": "Magic Affair",
+          "firstKey": "1994-24",
+          "firstDate": "13/06/1994",
+          "lastKey": "1994-41",
+          "lastDate": "10/10/1994",
+          "weeks": 18,
+          "peak": 12,
+          "peakKey": "1994-32",
+          "peakDate": "08/08/1994"
+        },
+        {
+          "key": "give me all your love|magic affair",
+          "title": "Give Me All Your Love",
+          "credit": "Magic Affair",
+          "firstKey": "1994-39",
+          "firstDate": "26/09/1994",
+          "lastKey": "1994-47",
+          "lastDate": "21/11/1994",
+          "weeks": 9,
+          "peak": 20,
+          "peakKey": "1994-40",
+          "peakDate": "03/10/1994"
+        },
+        {
+          "key": "in the middle of the night|magic affair",
+          "title": "In The Middle Of The Night",
+          "credit": "Magic Affair",
+          "firstKey": "1995-03",
+          "firstDate": "16/01/1995",
+          "lastKey": "1995-14",
+          "lastDate": "03/04/1995",
+          "weeks": 11,
+          "peak": 26,
+          "peakKey": "1995-07",
+          "peakDate": "13/02/1995"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 38,
+      "bestPeak": 12,
+      "firstYear": 1994,
+      "lastYear": 1995,
+      "firstKey": "1994-24",
+      "firstDate": "13/06/1994",
+      "lastKey": "1995-14",
+      "lastDate": "03/04/1995"
+    },
+    {
       "id": "mel and kim",
       "name": "Mel & Kim",
       "tracks": [
@@ -90165,60 +90219,6 @@
       "firstDate": "01/12/1991",
       "lastKey": "1992-43",
       "lastDate": "25/10/1992"
-    },
-    {
-      "id": "magic affair",
-      "name": "Magic Affair",
-      "tracks": [
-        {
-          "key": "omen iii|magic affair",
-          "title": "Omen III",
-          "credit": "Magic Affair",
-          "firstKey": "1994-24",
-          "firstDate": "13/06/1994",
-          "lastKey": "1994-41",
-          "lastDate": "10/10/1994",
-          "weeks": 18,
-          "peak": 12,
-          "peakKey": "1994-32",
-          "peakDate": "08/08/1994"
-        },
-        {
-          "key": "give me all your love|magic affair",
-          "title": "Give Me All Your Love",
-          "credit": "Magic Affair",
-          "firstKey": "1994-39",
-          "firstDate": "26/09/1994",
-          "lastKey": "1994-47",
-          "lastDate": "21/11/1994",
-          "weeks": 9,
-          "peak": 20,
-          "peakKey": "1994-40",
-          "peakDate": "03/10/1994"
-        },
-        {
-          "key": "in the middle of the night|magic affair",
-          "title": "In The Middle Of The Night",
-          "credit": "Magic Affair",
-          "firstKey": "1995-03",
-          "firstDate": "16/01/1995",
-          "lastKey": "1995-14",
-          "lastDate": "03/04/1995",
-          "weeks": 10,
-          "peak": 26,
-          "peakKey": "1995-09",
-          "peakDate": "27/02/1995"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 37,
-      "bestPeak": 12,
-      "firstYear": 1994,
-      "lastYear": 1995,
-      "firstKey": "1994-24",
-      "firstDate": "13/06/1994",
-      "lastKey": "1995-14",
-      "lastDate": "03/04/1995"
     },
     {
       "id": "prince and the revolution",
@@ -92705,6 +92705,60 @@
       "lastDate": "06/02/2017"
     },
     {
+      "id": "the presidents of the united states of america",
+      "name": "The Presidents Of The United States Of America",
+      "tracks": [
+        {
+          "key": "lump|the presidents of the united states of america",
+          "title": "Lump",
+          "credit": "The Presidents Of The United States Of America",
+          "firstKey": "1995-42",
+          "firstDate": "16/10/1995",
+          "lastKey": "1996-06",
+          "lastDate": "05/02/1996",
+          "weeks": 17,
+          "peak": 10,
+          "peakKey": "1995-46",
+          "peakDate": "13/11/1995"
+        },
+        {
+          "key": "ca plane pour moi|the presidents of the united states of america",
+          "title": "Ça plane pour moi",
+          "credit": "The Presidents Of The United States Of America",
+          "firstKey": "1996-22",
+          "firstDate": "27/05/1996",
+          "lastKey": "1996-29",
+          "lastDate": "15/07/1996",
+          "weeks": 7,
+          "peak": 24,
+          "peakKey": "1996-23",
+          "peakDate": "03/06/1996"
+        },
+        {
+          "key": "peaches|the presidents of the united states of america",
+          "title": "Peaches",
+          "credit": "The Presidents Of The United States Of America",
+          "firstKey": "1996-08",
+          "firstDate": "19/02/1996",
+          "lastKey": "1996-12",
+          "lastDate": "18/03/1996",
+          "weeks": 5,
+          "peak": 34,
+          "peakKey": "1996-09",
+          "peakDate": "26/02/1996"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 29,
+      "bestPeak": 10,
+      "firstYear": 1995,
+      "lastYear": 1996,
+      "firstKey": "1995-42",
+      "firstDate": "16/10/1995",
+      "lastKey": "1996-29",
+      "lastDate": "15/07/1996"
+    },
+    {
       "id": "armin van buuren",
       "name": "Armin Van Buuren",
       "tracks": [
@@ -92919,60 +92973,6 @@
       "firstDate": "01/08/1993",
       "lastKey": "1995-44",
       "lastDate": "30/10/1995"
-    },
-    {
-      "id": "the presidents of the united states of america",
-      "name": "The Presidents Of The United States Of America",
-      "tracks": [
-        {
-          "key": "lump|the presidents of the united states of america",
-          "title": "Lump",
-          "credit": "The Presidents Of The United States Of America",
-          "firstKey": "1995-42",
-          "firstDate": "16/10/1995",
-          "lastKey": "1996-06",
-          "lastDate": "05/02/1996",
-          "weeks": 16,
-          "peak": 10,
-          "peakKey": "1995-46",
-          "peakDate": "13/11/1995"
-        },
-        {
-          "key": "ca plane pour moi|the presidents of the united states of america",
-          "title": "Ça plane pour moi",
-          "credit": "The Presidents Of The United States Of America",
-          "firstKey": "1996-22",
-          "firstDate": "27/05/1996",
-          "lastKey": "1996-29",
-          "lastDate": "15/07/1996",
-          "weeks": 7,
-          "peak": 24,
-          "peakKey": "1996-23",
-          "peakDate": "03/06/1996"
-        },
-        {
-          "key": "peaches|the presidents of the united states of america",
-          "title": "Peaches",
-          "credit": "The Presidents Of The United States Of America",
-          "firstKey": "1996-08",
-          "firstDate": "19/02/1996",
-          "lastKey": "1996-12",
-          "lastDate": "18/03/1996",
-          "weeks": 5,
-          "peak": 34,
-          "peakKey": "1996-09",
-          "peakDate": "26/02/1996"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 28,
-      "bestPeak": 10,
-      "firstYear": 1995,
-      "lastYear": 1996,
-      "firstKey": "1995-42",
-      "firstDate": "16/10/1995",
-      "lastKey": "1996-29",
-      "lastDate": "15/07/1996"
     },
     {
       "id": "lady laistee",
@@ -107642,6 +107642,47 @@
       "lastDate": "06/01/2003"
     },
     {
+      "id": "debbie davis",
+      "name": "Debbie Davis",
+      "tracks": [
+        {
+          "key": "l histoire de la vie|debbie davis",
+          "title": "L'histoire de la vie",
+          "credit": "Debbie Davis",
+          "firstKey": "1994-50",
+          "firstDate": "12/12/1994",
+          "lastKey": "1995-16",
+          "lastDate": "17/04/1995",
+          "weeks": 18,
+          "peak": 7,
+          "peakKey": "1995-04",
+          "peakDate": "23/01/1995"
+        },
+        {
+          "key": "emotion|debbie davis",
+          "title": "Émotion",
+          "credit": "Debbie Davis",
+          "firstKey": "1985-10",
+          "firstDate": "10/03/1985",
+          "lastKey": "1985-20",
+          "lastDate": "19/05/1985",
+          "weeks": 11,
+          "peak": 25,
+          "peakKey": "1985-14",
+          "peakDate": "07/04/1985"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 29,
+      "bestPeak": 7,
+      "firstYear": 1985,
+      "lastYear": 1995,
+      "firstKey": "1985-10",
+      "firstDate": "10/03/1985",
+      "lastKey": "1995-16",
+      "lastDate": "17/04/1995"
+    },
+    {
       "id": "galantis",
       "name": "Galantis",
       "tracks": [
@@ -108995,47 +109036,6 @@
       "lastDate": "05/10/1986"
     },
     {
-      "id": "debbie davis",
-      "name": "Debbie Davis",
-      "tracks": [
-        {
-          "key": "l histoire de la vie|debbie davis",
-          "title": "L'histoire de la vie",
-          "credit": "Debbie Davis",
-          "firstKey": "1994-50",
-          "firstDate": "12/12/1994",
-          "lastKey": "1995-16",
-          "lastDate": "17/04/1995",
-          "weeks": 16,
-          "peak": 7,
-          "peakKey": "1995-04",
-          "peakDate": "23/01/1995"
-        },
-        {
-          "key": "emotion|debbie davis",
-          "title": "Émotion",
-          "credit": "Debbie Davis",
-          "firstKey": "1985-10",
-          "firstDate": "10/03/1985",
-          "lastKey": "1985-20",
-          "lastDate": "19/05/1985",
-          "weeks": 11,
-          "peak": 25,
-          "peakKey": "1985-14",
-          "peakDate": "07/04/1985"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 27,
-      "bestPeak": 7,
-      "firstYear": 1985,
-      "lastYear": 1995,
-      "firstKey": "1985-10",
-      "firstDate": "10/03/1985",
-      "lastKey": "1995-16",
-      "lastDate": "17/04/1995"
-    },
-    {
       "id": "the calling",
       "name": "The Calling",
       "tracks": [
@@ -110225,6 +110225,47 @@
       "lastDate": "16/05/1993"
     },
     {
+      "id": "sister queen",
+      "name": "Sister Queen",
+      "tracks": [
+        {
+          "key": "let me be a drag queen|sister queen",
+          "title": "Let Me Be A Drag Queen",
+          "credit": "Sister Queen",
+          "firstKey": "1995-35",
+          "firstDate": "28/08/1995",
+          "lastKey": "1996-06",
+          "lastDate": "05/02/1996",
+          "weeks": 24,
+          "peak": 9,
+          "peakKey": "1995-49",
+          "peakDate": "04/12/1995"
+        },
+        {
+          "key": "saturday every man a queen|sister queen",
+          "title": "Saturday - Every Man A Queen",
+          "credit": "Sister Queen",
+          "firstKey": "1996-07",
+          "firstDate": "12/02/1996",
+          "lastKey": "1996-07",
+          "lastDate": "12/02/1996",
+          "weeks": 1,
+          "peak": 43,
+          "peakKey": "1996-07",
+          "peakDate": "12/02/1996"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 25,
+      "bestPeak": 9,
+      "firstYear": 1995,
+      "lastYear": 1996,
+      "firstKey": "1995-35",
+      "firstDate": "28/08/1995",
+      "lastKey": "1996-07",
+      "lastDate": "12/02/1996"
+    },
+    {
       "id": "fine young cannibals",
       "name": "Fine Young Cannibals",
       "tracks": [
@@ -110879,47 +110920,6 @@
       "firstDate": "19/08/2013",
       "lastKey": "2015-51",
       "lastDate": "14/12/2015"
-    },
-    {
-      "id": "sister queen",
-      "name": "Sister Queen",
-      "tracks": [
-        {
-          "key": "let me be a drag queen|sister queen",
-          "title": "Let Me Be A Drag Queen",
-          "credit": "Sister Queen",
-          "firstKey": "1995-35",
-          "firstDate": "28/08/1995",
-          "lastKey": "1996-06",
-          "lastDate": "05/02/1996",
-          "weeks": 23,
-          "peak": 9,
-          "peakKey": "1995-49",
-          "peakDate": "04/12/1995"
-        },
-        {
-          "key": "saturday every man a queen|sister queen",
-          "title": "Saturday - Every Man A Queen",
-          "credit": "Sister Queen",
-          "firstKey": "1996-07",
-          "firstDate": "12/02/1996",
-          "lastKey": "1996-07",
-          "lastDate": "12/02/1996",
-          "weeks": 1,
-          "peak": 43,
-          "peakKey": "1996-07",
-          "peakDate": "12/02/1996"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 24,
-      "bestPeak": 9,
-      "firstYear": 1995,
-      "lastYear": 1996,
-      "firstKey": "1995-35",
-      "firstDate": "28/08/1995",
-      "lastKey": "1996-07",
-      "lastDate": "12/02/1996"
     },
     {
       "id": "rednex",
@@ -130526,6 +130526,34 @@
       "lastDate": "18/11/2024"
     },
     {
+      "id": "no se",
+      "name": "No Sé",
+      "tracks": [
+        {
+          "key": "quelle aventure|no se",
+          "title": "Quelle aventure !",
+          "credit": "No Sé feat. Ménélik",
+          "firstKey": "1995-10",
+          "firstDate": "06/03/1995",
+          "lastKey": "1995-34",
+          "lastDate": "21/08/1995",
+          "weeks": 25,
+          "peak": 8,
+          "peakKey": "1995-22",
+          "peakDate": "29/05/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 25,
+      "bestPeak": 8,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-10",
+      "firstDate": "06/03/1995",
+      "lastKey": "1995-34",
+      "lastDate": "21/08/1995"
+    },
+    {
       "id": "jessy",
       "name": "Jessy",
       "tracks": [
@@ -131338,6 +131366,34 @@
       "lastDate": "25/06/2001"
     },
     {
+      "id": "ini kamoze",
+      "name": "Ini Kamoze",
+      "tracks": [
+        {
+          "key": "here comes the hotstepper|ini kamoze",
+          "title": "Here Comes The Hotstepper",
+          "credit": "Ini Kamoze",
+          "firstKey": "1995-03",
+          "firstDate": "16/01/1995",
+          "lastKey": "1995-26",
+          "lastDate": "26/06/1995",
+          "weeks": 24,
+          "peak": 2,
+          "peakKey": "1995-09",
+          "peakDate": "27/02/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 24,
+      "bestPeak": 2,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-03",
+      "firstDate": "16/01/1995",
+      "lastKey": "1995-26",
+      "lastDate": "26/06/1995"
+    },
+    {
       "id": "leopold nord and vous",
       "name": "Léopold Nord & Vous",
       "tracks": [
@@ -131646,6 +131702,34 @@
       "lastDate": "18/09/2023"
     },
     {
+      "id": "edwyn collins",
+      "name": "Edwyn Collins",
+      "tracks": [
+        {
+          "key": "a girl like you|edwyn collins",
+          "title": "A Girl Like You",
+          "credit": "Edwyn Collins",
+          "firstKey": "1995-04",
+          "firstDate": "23/01/1995",
+          "lastKey": "1995-27",
+          "lastDate": "03/07/1995",
+          "weeks": 24,
+          "peak": 4,
+          "peakKey": "1995-11",
+          "peakDate": "13/03/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 24,
+      "bestPeak": 4,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-04",
+      "firstDate": "23/01/1995",
+      "lastKey": "1995-27",
+      "lastDate": "03/07/1995"
+    },
+    {
       "id": "philippe lavil and jocelyne beroard",
       "name": "Philippe Lavil & Jocelyne Beroard",
       "tracks": [
@@ -131896,34 +131980,6 @@
       "firstDate": "06/02/2023",
       "lastKey": "2023-31",
       "lastDate": "31/07/2023"
-    },
-    {
-      "id": "no se",
-      "name": "No Sé",
-      "tracks": [
-        {
-          "key": "quelle aventure|no se",
-          "title": "Quelle aventure !",
-          "credit": "No Sé feat. Ménélik",
-          "firstKey": "1995-10",
-          "firstDate": "06/03/1995",
-          "lastKey": "1995-34",
-          "lastDate": "21/08/1995",
-          "weeks": 24,
-          "peak": 8,
-          "peakKey": "1995-22",
-          "peakDate": "29/05/1995"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 24,
-      "bestPeak": 8,
-      "firstYear": 1995,
-      "lastYear": 1995,
-      "firstKey": "1995-10",
-      "firstDate": "06/03/1995",
-      "lastKey": "1995-34",
-      "lastDate": "21/08/1995"
     },
     {
       "id": "not real presence",
@@ -132598,34 +132654,6 @@
       "lastDate": "13/09/1993"
     },
     {
-      "id": "ini kamoze",
-      "name": "Ini Kamoze",
-      "tracks": [
-        {
-          "key": "here comes the hotstepper|ini kamoze",
-          "title": "Here Comes The Hotstepper",
-          "credit": "Ini Kamoze",
-          "firstKey": "1995-03",
-          "firstDate": "16/01/1995",
-          "lastKey": "1995-26",
-          "lastDate": "26/06/1995",
-          "weeks": 23,
-          "peak": 2,
-          "peakKey": "1995-09",
-          "peakDate": "27/02/1995"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 23,
-      "bestPeak": 2,
-      "firstYear": 1995,
-      "lastYear": 1995,
-      "firstKey": "1995-03",
-      "firstDate": "16/01/1995",
-      "lastKey": "1995-26",
-      "lastDate": "26/06/1995"
-    },
-    {
       "id": "peter kingsbery",
       "name": "Peter Kingsbery",
       "tracks": [
@@ -132848,34 +132876,6 @@
       "firstDate": "30/05/2005",
       "lastKey": "2005-44",
       "lastDate": "31/10/2005"
-    },
-    {
-      "id": "edwyn collins",
-      "name": "Edwyn Collins",
-      "tracks": [
-        {
-          "key": "a girl like you|edwyn collins",
-          "title": "A Girl Like You",
-          "credit": "Edwyn Collins",
-          "firstKey": "1995-04",
-          "firstDate": "23/01/1995",
-          "lastKey": "1995-27",
-          "lastDate": "03/07/1995",
-          "weeks": 23,
-          "peak": 4,
-          "peakKey": "1995-11",
-          "peakDate": "13/03/1995"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 23,
-      "bestPeak": 4,
-      "firstYear": 1995,
-      "lastYear": 1995,
-      "firstKey": "1995-04",
-      "firstDate": "23/01/1995",
-      "lastKey": "1995-27",
-      "lastDate": "03/07/1995"
     },
     {
       "id": "dj sammy and yanou",
@@ -134640,6 +134640,34 @@
       "firstDate": "13/06/1994",
       "lastKey": "1994-45",
       "lastDate": "07/11/1994"
+    },
+    {
+      "id": "warren g and nate dogg",
+      "name": "Warren G & Nate Dogg",
+      "tracks": [
+        {
+          "key": "regulate|warren g and nate dogg",
+          "title": "Regulate",
+          "credit": "Warren G & Nate Dogg",
+          "firstKey": "1994-46",
+          "firstDate": "14/11/1994",
+          "lastKey": "1995-16",
+          "lastDate": "17/04/1995",
+          "weeks": 22,
+          "peak": 7,
+          "peakKey": "1995-03",
+          "peakDate": "16/01/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 22,
+      "bestPeak": 7,
+      "firstYear": 1994,
+      "lastYear": 1995,
+      "firstKey": "1994-46",
+      "firstDate": "14/11/1994",
+      "lastKey": "1995-16",
+      "lastDate": "17/04/1995"
     },
     {
       "id": "wiz khalifa",
@@ -136546,34 +136574,6 @@
       "lastDate": "19/01/2026"
     },
     {
-      "id": "warren g and nate dogg",
-      "name": "Warren G & Nate Dogg",
-      "tracks": [
-        {
-          "key": "regulate|warren g and nate dogg",
-          "title": "Regulate",
-          "credit": "Warren G & Nate Dogg",
-          "firstKey": "1994-46",
-          "firstDate": "14/11/1994",
-          "lastKey": "1995-16",
-          "lastDate": "17/04/1995",
-          "weeks": 21,
-          "peak": 7,
-          "peakKey": "1995-03",
-          "peakDate": "16/01/1995"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 21,
-      "bestPeak": 7,
-      "firstYear": 1994,
-      "lastYear": 1995,
-      "firstKey": "1994-46",
-      "firstDate": "14/11/1994",
-      "lastKey": "1995-16",
-      "lastDate": "17/04/1995"
-    },
-    {
       "id": "elodie frege and michal",
       "name": "Élodie Frégé & Michal",
       "tracks": [
@@ -137888,6 +137888,34 @@
       "firstDate": "27/12/1993",
       "lastKey": "1994-19",
       "lastDate": "09/05/1994"
+    },
+    {
+      "id": "the connells",
+      "name": "The Connells",
+      "tracks": [
+        {
+          "key": "74 75|the connells",
+          "title": "'74-'75",
+          "credit": "The Connells",
+          "firstKey": "1995-27",
+          "firstDate": "03/07/1995",
+          "lastKey": "1995-46",
+          "lastDate": "13/11/1995",
+          "weeks": 20,
+          "peak": 4,
+          "peakKey": "1995-40",
+          "peakDate": "02/10/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 20,
+      "bestPeak": 4,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-27",
+      "firstDate": "03/07/1995",
+      "lastKey": "1995-46",
+      "lastDate": "13/11/1995"
     },
     {
       "id": "amade",
@@ -139514,6 +139542,34 @@
       "lastDate": "20/10/2003"
     },
     {
+      "id": "sacred spirit",
+      "name": "Sacred Spirit",
+      "tracks": [
+        {
+          "key": "yeha noha wishes of happin|sacred spirit",
+          "title": "Yeha-noha (Wishes Of Happin...",
+          "credit": "Sacred Spirit",
+          "firstKey": "1995-27",
+          "firstDate": "03/07/1995",
+          "lastKey": "1995-45",
+          "lastDate": "06/11/1995",
+          "weeks": 19,
+          "peak": 1,
+          "peakKey": "1995-31",
+          "peakDate": "31/07/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 19,
+      "bestPeak": 1,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-27",
+      "firstDate": "03/07/1995",
+      "lastKey": "1995-45",
+      "lastDate": "06/11/1995"
+    },
+    {
       "id": "a s i e",
       "name": "A.S.I.E.",
       "tracks": [
@@ -139736,34 +139792,6 @@
       "firstDate": "02/10/1988",
       "lastKey": "1989-06",
       "lastDate": "05/02/1989"
-    },
-    {
-      "id": "the connells",
-      "name": "The Connells",
-      "tracks": [
-        {
-          "key": "74 75|the connells",
-          "title": "'74-'75",
-          "credit": "The Connells",
-          "firstKey": "1995-27",
-          "firstDate": "03/07/1995",
-          "lastKey": "1995-46",
-          "lastDate": "13/11/1995",
-          "weeks": 19,
-          "peak": 4,
-          "peakKey": "1995-40",
-          "peakDate": "02/10/1995"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 19,
-      "bestPeak": 4,
-      "firstYear": 1995,
-      "lastYear": 1995,
-      "firstKey": "1995-27",
-      "firstDate": "03/07/1995",
-      "lastKey": "1995-46",
-      "lastDate": "13/11/1995"
     },
     {
       "id": "kygo and miguel",
@@ -141948,34 +141976,6 @@
       "firstDate": "12/02/1989",
       "lastKey": "1989-24",
       "lastDate": "11/06/1989"
-    },
-    {
-      "id": "sacred spirit",
-      "name": "Sacred Spirit",
-      "tracks": [
-        {
-          "key": "yeha noha wishes of happin|sacred spirit",
-          "title": "Yeha-noha (Wishes Of Happin...",
-          "credit": "Sacred Spirit",
-          "firstKey": "1995-27",
-          "firstDate": "03/07/1995",
-          "lastKey": "1995-45",
-          "lastDate": "06/11/1995",
-          "weeks": 18,
-          "peak": 1,
-          "peakKey": "1995-31",
-          "peakDate": "31/07/1995"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 18,
-      "bestPeak": 1,
-      "firstYear": 1995,
-      "lastYear": 1995,
-      "firstKey": "1995-27",
-      "firstDate": "03/07/1995",
-      "lastKey": "1995-45",
-      "lastDate": "06/11/1995"
     },
     {
       "id": "serge gainsbourg and charlotte",
@@ -147494,6 +147494,34 @@
       "lastDate": "24/05/1987"
     },
     {
+      "id": "winx",
+      "name": "Winx",
+      "tracks": [
+        {
+          "key": "don t laugh|winx",
+          "title": "Don't Laugh",
+          "credit": "Winx",
+          "firstKey": "1995-19",
+          "firstDate": "08/05/1995",
+          "lastKey": "1995-34",
+          "lastDate": "21/08/1995",
+          "weeks": 16,
+          "peak": 18,
+          "peakKey": "1995-22",
+          "peakDate": "29/05/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 16,
+      "bestPeak": 18,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-19",
+      "firstDate": "08/05/1995",
+      "lastKey": "1995-34",
+      "lastDate": "21/08/1995"
+    },
+    {
       "id": "alisha",
       "name": "Alisha",
       "tracks": [
@@ -149564,34 +149592,6 @@
       "firstDate": "24/08/2009",
       "lastKey": "2009-49",
       "lastDate": "30/11/2009"
-    },
-    {
-      "id": "winx",
-      "name": "Winx",
-      "tracks": [
-        {
-          "key": "don t laugh|winx",
-          "title": "Don't Laugh",
-          "credit": "Winx",
-          "firstKey": "1995-19",
-          "firstDate": "08/05/1995",
-          "lastKey": "1995-34",
-          "lastDate": "21/08/1995",
-          "weeks": 15,
-          "peak": 18,
-          "peakKey": "1995-22",
-          "peakDate": "29/05/1995"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 15,
-      "bestPeak": 18,
-      "firstYear": 1995,
-      "lastYear": 1995,
-      "firstKey": "1995-19",
-      "firstDate": "08/05/1995",
-      "lastKey": "1995-34",
-      "lastDate": "21/08/1995"
     },
     {
       "id": "eartha kitt",
@@ -154662,6 +154662,34 @@
       "lastDate": "05/04/1992"
     },
     {
+      "id": "urge overkill",
+      "name": "Urge Overkill",
+      "tracks": [
+        {
+          "key": "girl you ll be a woman soon|urge overkill",
+          "title": "Girl, You'll Be A Woman Soon",
+          "credit": "Urge Overkill",
+          "firstKey": "1995-12",
+          "firstDate": "20/03/1995",
+          "lastKey": "1995-24",
+          "lastDate": "12/06/1995",
+          "weeks": 13,
+          "peak": 10,
+          "peakKey": "1995-16",
+          "peakDate": "17/04/1995"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 13,
+      "bestPeak": 10,
+      "firstYear": 1995,
+      "lastYear": 1995,
+      "firstKey": "1995-12",
+      "firstDate": "20/03/1995",
+      "lastKey": "1995-24",
+      "lastDate": "12/06/1995"
+    },
+    {
       "id": "doc gyneco and bernard tapie",
       "name": "Doc Gynéco & Bernard Tapie",
       "tracks": [
@@ -157572,34 +157600,6 @@
       "firstDate": "09/07/2018",
       "lastKey": "2018-39",
       "lastDate": "24/09/2018"
-    },
-    {
-      "id": "urge overkill",
-      "name": "Urge Overkill",
-      "tracks": [
-        {
-          "key": "girl you ll be a woman soon|urge overkill",
-          "title": "Girl, You'll Be A Woman Soon",
-          "credit": "Urge Overkill",
-          "firstKey": "1995-13",
-          "firstDate": "27/03/1995",
-          "lastKey": "1995-24",
-          "lastDate": "12/06/1995",
-          "weeks": 12,
-          "peak": 10,
-          "peakKey": "1995-16",
-          "peakDate": "17/04/1995"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 12,
-      "bestPeak": 10,
-      "firstYear": 1995,
-      "lastYear": 1995,
-      "firstKey": "1995-13",
-      "firstDate": "27/03/1995",
-      "lastKey": "1995-24",
-      "lastDate": "12/06/1995"
     },
     {
       "id": "justin bieber and bloodpop",

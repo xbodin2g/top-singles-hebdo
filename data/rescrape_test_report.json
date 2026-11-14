@@ -1,207 +1,6 @@
 [
   {
-    "key": "1994-01",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 49,
-    "gaps_before": [
-      11,
-      18
-    ],
-    "gaps_after": [
-      18
-    ],
-    "recovered": {
-      "11": "Aerosmith — Cryin'"
-    },
-    "still_missing": [
-      18
-    ]
-  },
-  {
-    "key": "1994-02",
-    "status": "ok",
-    "entries_before": 47,
-    "entries_after": 49,
-    "gaps_before": [
-      2,
-      20,
-      39
-    ],
-    "gaps_after": [
-      39
-    ],
-    "recovered": {
-      "2": "Freddie Mercury — Living On My Own",
-      "20": "Classe Mannequin — Essaye d'imaginer"
-    },
-    "still_missing": [
-      39
-    ]
-  },
-  {
-    "key": "1994-03",
-    "status": "ok",
-    "entries_before": 47,
-    "entries_after": 49,
-    "gaps_before": [
-      10,
-      20,
-      41
-    ],
-    "gaps_after": [
-      41
-    ],
-    "recovered": {
-      "10": "Ace Of Base — Happy Nation",
-      "20": "Laura Pausini — La solitudine"
-    },
-    "still_missing": [
-      41
-    ]
-  },
-  {
-    "key": "1994-04",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 49,
-    "gaps_before": [
-      8,
-      38
-    ],
-    "gaps_after": [
-      38
-    ],
-    "recovered": {
-      "8": "MC Solaar — Nouveau western"
-    },
-    "still_missing": [
-      38
-    ]
-  },
-  {
-    "key": "1994-05",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 49,
-    "gaps_before": [
-      6,
-      46
-    ],
-    "gaps_after": [
-      46
-    ],
-    "recovered": {
-      "6": "Karine Costa et Daniel Levi — Ce rêve bleu"
-    },
-    "still_missing": [
-      46
-    ]
-  },
-  {
-    "key": "1994-06",
-    "status": "ok",
-    "entries_before": 47,
-    "entries_after": 49,
-    "gaps_before": [
-      9,
-      13,
-      41
-    ],
-    "gaps_after": [
-      41
-    ],
-    "recovered": {
-      "9": "Pet Shop Boys — Go West",
-      "13": "MC Solaar — Nouveau western"
-    },
-    "still_missing": [
-      41
-    ]
-  },
-  {
-    "key": "1994-07",
-    "status": "ok",
-    "entries_before": 45,
-    "entries_after": 49,
-    "gaps_before": [
-      2,
-      5,
-      6,
-      32,
-      47
-    ],
-    "gaps_after": [
-      47
-    ],
-    "recovered": {
-      "2": "Axelle Red — Sensualité",
-      "5": "Culture Beat — Anything",
-      "6": "Alain Souchon — Foule sentimentale",
-      "32": "Barbara Hendricks — Ave Maria"
-    },
-    "still_missing": [
-      47
-    ]
-  },
-  {
-    "key": "1994-08",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 49,
-    "gaps_before": [
-      37
-    ],
-    "gaps_after": [
-      37
-    ],
-    "recovered": {},
-    "still_missing": [
-      37
-    ]
-  },
-  {
-    "key": "1994-09",
-    "status": "ok",
-    "entries_before": 47,
-    "entries_after": 49,
-    "gaps_before": [
-      11,
-      23,
-      46
-    ],
-    "gaps_after": [
-      46
-    ],
-    "recovered": {
-      "11": "Charles & Eddie — Shine",
-      "23": "2 Unlimited — Let The Beat Control Your Body"
-    },
-    "still_missing": [
-      46
-    ]
-  },
-  {
-    "key": "1994-10",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 49,
-    "gaps_before": [
-      6,
-      48
-    ],
-    "gaps_after": [
-      48
-    ],
-    "recovered": {
-      "6": "Culture Beat — Anything"
-    },
-    "still_missing": [
-      48
-    ]
-  },
-  {
-    "key": "1994-11",
+    "key": "1995-02",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
@@ -210,26 +9,26 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "10": "Karine Costa et Daniel Levi — Ce rêve bleu"
+      "10": "Debbie Davis — L'histoire de la vie"
     },
     "still_missing": []
   },
   {
-    "key": "1994-12",
+    "key": "1995-03",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      4
+      5
     ],
     "gaps_after": [],
     "recovered": {
-      "4": "East 17 — It's Alright"
+      "5": "Whigfield — Saturday Night"
     },
     "still_missing": []
   },
   {
-    "key": "1994-15",
+    "key": "1995-05",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
@@ -238,26 +37,90 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "9": "M People — Moving On Up"
+      "9": "Ini Kamoze — Here Comes The Hotstepper"
     },
     "still_missing": []
   },
   {
-    "key": "1994-18",
+    "key": "1995-06",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
     "gaps_before": [
-      2
+      11
     ],
     "gaps_after": [],
     "recovered": {
-      "2": "Bruce Springsteen — Streets Of Philadelphia"
+      "11": "Warren G & Nate Dogg — Regulate"
     },
     "still_missing": []
   },
   {
-    "key": "1994-19",
+    "key": "1995-07",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      17,
+      26
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "17": "Masterboy — Is This The Love",
+      "26": "Magic Affair — In The Middle Of The Night"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-09",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      3,
+      22
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "20 Fingers feat. Gillette — Short Dick Man",
+      "22": "U 96 — Love Religion"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-12",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      10,
+      18
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "10": "Janet Jackson — Whoops Now",
+      "18": "Urge Overkill — Girl, You'll Be A Woman Soon"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-13",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      5,
+      23
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "5": "Edwyn Collins — A Girl Like You",
+      "23": "Debbie Davis — L'histoire de la vie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-17",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
@@ -266,186 +129,393 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "13": "Ace Of Base — Happy Nation"
+      "13": "Axelle Red — Je t'attends"
     },
     "still_missing": []
   },
   {
-    "key": "1994-24",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      5,
-      35
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "5": "Bruce Springsteen — Streets Of Philadelphia",
-      "35": "Les Droper's — Ce soir on vous met le feu..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1994-27",
+    "key": "1995-24",
     "status": "ok",
     "entries_before": 49,
-    "entries_after": 50,
+    "entries_after": 49,
     "gaps_before": [
-      9
+      41
     ],
-    "gaps_after": [],
-    "recovered": {
-      "9": "Billy Ze Kick Et Les Gamins En Folie — Mangez-moi ! Mangez-moi !"
-    },
-    "still_missing": []
+    "gaps_after": [
+      41
+    ],
+    "recovered": {},
+    "still_missing": [
+      41
+    ]
   },
   {
-    "key": "1994-36",
+    "key": "1995-25",
     "status": "ok",
     "entries_before": 48,
-    "entries_after": 50,
+    "entries_after": 49,
     "gaps_before": [
-      3,
-      20
+      17,
+      24
     ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Billy Ze Kick Et Les Gamins En Folie — Mangez-moi ! Mangez-moi !",
-      "20": "2 Unlimited — The Real Thing"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1994-39",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
+    "gaps_after": [
       17
     ],
-    "gaps_after": [],
     "recovered": {
-      "17": "Soundgarden — Black Hole Sun"
+      "24": "Winx — Don't Laugh"
     },
-    "still_missing": []
+    "still_missing": [
+      17
+    ]
   },
   {
-    "key": "1994-40",
+    "key": "1995-26",
     "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
+    "entries_before": 48,
+    "entries_after": 49,
     "gaps_before": [
-      32
+      11,
+      16
     ],
-    "gaps_after": [],
-    "recovered": {
-      "32": "Beck — Loser"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1994-41",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      9
+    "gaps_after": [
+      16
     ],
-    "gaps_after": [],
     "recovered": {
-      "9": "Patrick Bruel — Combien de murs..."
+      "11": "Masterboy — Megamix"
     },
-    "still_missing": []
+    "still_missing": [
+      16
+    ]
   },
   {
-    "key": "1994-44",
+    "key": "1995-27",
     "status": "ok",
     "entries_before": 49,
-    "entries_after": 50,
+    "entries_after": 49,
     "gaps_before": [
+      16
+    ],
+    "gaps_after": [
+      16
+    ],
+    "recovered": {},
+    "still_missing": [
+      16
+    ]
+  },
+  {
+    "key": "1995-28",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 49,
+    "gaps_before": [
+      14,
+      23
+    ],
+    "gaps_after": [
+      14
+    ],
+    "recovered": {
+      "23": "No Sé feat. Ménélik — Quelle aventure !"
+    },
+    "still_missing": [
+      14
+    ]
+  },
+  {
+    "key": "1995-29",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 49,
+    "gaps_before": [
+      12,
+      13
+    ],
+    "gaps_after": [
       12
     ],
-    "gaps_after": [],
     "recovered": {
-      "12": "Cyndi Lauper — {Hey Now} Girls Just Want T..."
+      "13": "Bon Jovi — This Ain't A Love Song"
     },
-    "still_missing": []
+    "still_missing": [
+      12
+    ]
   },
   {
-    "key": "1994-45",
+    "key": "1995-30",
     "status": "ok",
     "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      17
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "17": "Mo-Do — Eins, zwei, Polizei"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1994-46",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      5,
-      20
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "5": "Pink Floyd — High Hopes",
-      "20": "John Lennon — Imagine"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1994-47",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      6
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "6": "Whigfield — Saturday Night"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1994-48",
-    "status": "ok",
-    "entries_before": 47,
-    "entries_after": 50,
-    "gaps_before": [
-      4,
-      6,
-      11
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Madonna — Secret",
-      "6": "Whigfield — Saturday Night",
-      "11": "John Lennon — Imagine"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1994-51",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
+    "entries_after": 49,
     "gaps_before": [
       10
     ],
+    "gaps_after": [
+      10
+    ],
+    "recovered": {},
+    "still_missing": [
+      10
+    ]
+  },
+  {
+    "key": "1995-31",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      13
+    ],
+    "gaps_after": [
+      13
+    ],
+    "recovered": {},
+    "still_missing": [
+      13
+    ]
+  },
+  {
+    "key": "1995-32",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      14
+    ],
+    "gaps_after": [
+      14
+    ],
+    "recovered": {},
+    "still_missing": [
+      14
+    ]
+  },
+  {
+    "key": "1995-33",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      12
+    ],
+    "gaps_after": [
+      12
+    ],
+    "recovered": {},
+    "still_missing": [
+      12
+    ]
+  },
+  {
+    "key": "1995-34",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      17
+    ],
+    "gaps_after": [
+      17
+    ],
+    "recovered": {},
+    "still_missing": [
+      17
+    ]
+  },
+  {
+    "key": "1995-35",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      15
+    ],
+    "gaps_after": [
+      15
+    ],
+    "recovered": {},
+    "still_missing": [
+      15
+    ]
+  },
+  {
+    "key": "1995-36",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      17
+    ],
+    "gaps_after": [
+      17
+    ],
+    "recovered": {},
+    "still_missing": [
+      17
+    ]
+  },
+  {
+    "key": "1995-37",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      22
+    ],
+    "gaps_after": [
+      22
+    ],
+    "recovered": {},
+    "still_missing": [
+      22
+    ]
+  },
+  {
+    "key": "1995-38",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      24
+    ],
+    "gaps_after": [
+      24
+    ],
+    "recovered": {},
+    "still_missing": [
+      24
+    ]
+  },
+  {
+    "key": "1995-39",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 49,
+    "gaps_before": [
+      4,
+      26
+    ],
+    "gaps_after": [
+      26
+    ],
+    "recovered": {
+      "4": "Sacred Spirit — Yeha-noha (Wishes Of Happin..."
+    },
+    "still_missing": [
+      26
+    ]
+  },
+  {
+    "key": "1995-40",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      43
+    ],
+    "gaps_after": [
+      43
+    ],
+    "recovered": {},
+    "still_missing": [
+      43
+    ]
+  },
+  {
+    "key": "1995-41",
+    "status": "ok",
+    "entries_before": 47,
+    "entries_after": 49,
+    "gaps_before": [
+      8,
+      14,
+      43
+    ],
+    "gaps_after": [
+      43
+    ],
+    "recovered": {
+      "8": "Mylène Farmer — XXL",
+      "14": "Masterboy — Generation Of Love"
+    },
+    "still_missing": [
+      43
+    ]
+  },
+  {
+    "key": "1995-42",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 49,
+    "gaps_before": [
+      18,
+      50
+    ],
+    "gaps_after": [
+      50
+    ],
+    "recovered": {
+      "18": "Sister Queen — Let Me Be A Drag Queen"
+    },
+    "still_missing": [
+      50
+    ]
+  },
+  {
+    "key": "1995-43",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      12,
+      24
+    ],
     "gaps_after": [],
     "recovered": {
-      "10": "Billy Ze Kick Et Les Gamins En Folie — O.C.B."
+      "12": "The Connells — '74-'75",
+      "24": "The Presidents Of The United States Of America — Lump"
     },
     "still_missing": []
+  },
+  {
+    "key": "1995-44",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      42
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "42": "Elton John — Blessed"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1995-48",
+    "status": "rejetee",
+    "lost": {
+      "20": "Nirvana — Singles"
+    }
+  },
+  {
+    "key": "1995-49",
+    "status": "rejetee",
+    "lost": {
+      "26": "Nirvana — Singles"
+    }
+  },
+  {
+    "key": "1995-51",
+    "status": "rejetee",
+    "lost": {
+      "24": "Nirvana — Singles"
+    }
+  },
+  {
+    "key": "1995-52",
+    "status": "rejetee",
+    "lost": {
+      "32": "Nirvana — Singles"
+    }
   }
 ]
