@@ -685672,782 +685672,6 @@
     "source": "snepmusique.com",
     "cached_at": "2026-11-07"
   },
-  "2019-05": {
-    "week": 5,
-    "year": 2019,
-    "date": "28/01/2019",
-    "entries": [
-      {
-        "position": 1,
-        "track": {
-          "title": "Shallow",
-          "artist": "Lady Gaga & Bradley Cooper"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 1,
-        "movement": "same",
-        "weeksOnChart": 17,
-        "peakPosition": 1,
-        "source": "snep"
-      },
-      {
-        "position": 2,
-        "track": {
-          "title": "Tout oublier",
-          "artist": "Angèle et Roméo Elvis"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 2,
-        "movement": "same",
-        "weeksOnChart": 16,
-        "peakPosition": 2,
-        "source": "snep"
-      },
-      {
-        "position": 3,
-        "track": {
-          "title": "Mia",
-          "artist": "Bad Bunny feat. Drake"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 3,
-        "movement": "same",
-        "weeksOnChart": 16,
-        "peakPosition": 3,
-        "source": "snep"
-      },
-      {
-        "position": 4,
-        "track": {
-          "title": "Be alright",
-          "artist": "Dean Lewis"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 5,
-        "movement": "up",
-        "weeksOnChart": 18,
-        "peakPosition": 4,
-        "source": "snep"
-      },
-      {
-        "position": 5,
-        "track": {
-          "title": "Sweet but psycho",
-          "artist": "Ava Max"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 4,
-        "movement": "down",
-        "weeksOnChart": 10,
-        "peakPosition": 5,
-        "source": "snep"
-      },
-      {
-        "position": 6,
-        "track": {
-          "title": "Come and get your love",
-          "artist": "Redbone"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 15,
-        "movement": "up",
-        "weeksOnChart": 8,
-        "peakPosition": 6,
-        "source": "snep"
-      },
-      {
-        "position": 7,
-        "track": {
-          "title": "Plus tard",
-          "artist": "Bigflo & Oli"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 10,
-        "movement": "up",
-        "weeksOnChart": 13,
-        "peakPosition": 7,
-        "source": "snep"
-      },
-      {
-        "position": 8,
-        "track": {
-          "title": "La grenade",
-          "artist": "Clara Luciani"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 20,
-        "movement": "up",
-        "weeksOnChart": 25,
-        "peakPosition": 8,
-        "source": "snep"
-      },
-      {
-        "position": 9,
-        "track": {
-          "title": "High hopes",
-          "artist": "Panic! at the disco"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 28,
-        "movement": "up",
-        "weeksOnChart": 16,
-        "peakPosition": 9,
-        "source": "snep"
-      },
-      {
-        "position": 10,
-        "track": {
-          "title": "Say my name",
-          "artist": "David Guetta feat. Bebe Rexha & J Balvin"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 7,
-        "movement": "down",
-        "weeksOnChart": 14,
-        "peakPosition": 10,
-        "source": "snep"
-      },
-      {
-        "position": 11,
-        "track": {
-          "title": "Promises",
-          "artist": "Calvin Harris & Sam Smith"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 6,
-        "movement": "down",
-        "weeksOnChart": 24,
-        "peakPosition": 11,
-        "source": "snep"
-      },
-      {
-        "position": 12,
-        "track": {
-          "title": "Natural",
-          "artist": "Imagine Dragons"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 11,
-        "movement": "down",
-        "weeksOnChart": 25,
-        "peakPosition": 12,
-        "source": "snep"
-      },
-      {
-        "position": 13,
-        "track": {
-          "title": "Taki taki",
-          "artist": "DJ Snake, Selena Gomez, Cardi B et Ozuna"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 8,
-        "movement": "down",
-        "weeksOnChart": 18,
-        "peakPosition": 13,
-        "source": "snep"
-      },
-      {
-        "position": 14,
-        "track": {
-          "title": "Shotgun",
-          "artist": "George Ezra"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 9,
-        "movement": "down",
-        "weeksOnChart": 28,
-        "peakPosition": 14,
-        "source": "snep"
-      },
-      {
-        "position": 15,
-        "track": {
-          "title": "Ta main",
-          "artist": "Claudio Capéo"
-        },
-        "label": "SONY",
-        "previousPosition": 12,
-        "movement": "down",
-        "weeksOnChart": 20,
-        "peakPosition": 15,
-        "source": "snep"
-      },
-      {
-        "position": 16,
-        "track": {
-          "title": "Longtemps",
-          "artist": "Amir"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 18,
-        "movement": "up",
-        "weeksOnChart": 22,
-        "peakPosition": 16,
-        "source": "snep"
-      },
-      {
-        "position": 17,
-        "track": {
-          "title": "Tiago",
-          "artist": "Kendji Girac"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 14,
-        "movement": "down",
-        "weeksOnChart": 20,
-        "peakPosition": 17,
-        "source": "snep"
-      },
-      {
-        "position": 18,
-        "track": {
-          "title": "Paradise",
-          "artist": "Ofenbach feat. Benjamin Ingrosso"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 13,
-        "movement": "down",
-        "weeksOnChart": 23,
-        "peakPosition": 18,
-        "source": "snep"
-      },
-      {
-        "position": 19,
-        "track": {
-          "title": "Je te le donne",
-          "artist": "Vitaa & Slimane"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 19,
-        "movement": "same",
-        "weeksOnChart": 23,
-        "peakPosition": 19,
-        "source": "snep"
-      },
-      {
-        "position": 20,
-        "track": {
-          "title": "Oh man",
-          "artist": "Jain"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 29,
-        "movement": "up",
-        "weeksOnChart": 17,
-        "peakPosition": 20,
-        "source": "snep"
-      },
-      {
-        "position": 21,
-        "track": {
-          "title": "Arms around you",
-          "artist": "XXXTentacion & Lil Pump feat. Maluma & Swae Lee"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 21,
-        "movement": "same",
-        "weeksOnChart": 10,
-        "peakPosition": 21,
-        "source": "snep"
-      },
-      {
-        "position": 22,
-        "track": {
-          "title": "Thunderclouds",
-          "artist": "LSD"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 17,
-        "movement": "down",
-        "weeksOnChart": 23,
-        "peakPosition": 22,
-        "source": "snep"
-      },
-      {
-        "position": 23,
-        "track": {
-          "title": "Giant",
-          "artist": "Calvin Harris feat. Rag 'N' Bone Man"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 22,
-        "movement": "down",
-        "weeksOnChart": 3,
-        "peakPosition": 23,
-        "source": "snep"
-      },
-      {
-        "position": 24,
-        "track": {
-          "title": "Jaloux",
-          "artist": "Dadju"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 25,
-        "movement": "up",
-        "weeksOnChart": 17,
-        "peakPosition": 24,
-        "source": "snep"
-      },
-      {
-        "position": 25,
-        "track": {
-          "title": "À nos souvenirs",
-          "artist": "Trois Cafés Gourmands"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 16,
-        "movement": "down",
-        "weeksOnChart": 29,
-        "peakPosition": 25,
-        "source": "snep"
-      },
-      {
-        "position": 26,
-        "track": {
-          "title": "Zoum",
-          "artist": "Soprano feat. Niska"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 24,
-        "movement": "down",
-        "weeksOnChart": 14,
-        "peakPosition": 26,
-        "source": "snep"
-      },
-      {
-        "position": 27,
-        "track": {
-          "title": "Nothing breaks like a heart",
-          "artist": "Mark Ronson feat. Miley Cyrus"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 27,
-        "movement": "same",
-        "weeksOnChart": 9,
-        "peakPosition": 27,
-        "source": "snep"
-      },
-      {
-        "position": 28,
-        "track": {
-          "title": "Tout le temps",
-          "artist": "Boulevard des Airs"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 26,
-        "movement": "down",
-        "weeksOnChart": 16,
-        "peakPosition": 28,
-        "source": "snep"
-      },
-      {
-        "position": 29,
-        "track": {
-          "title": "Dancing with a stranger",
-          "artist": "Sam Smith & Normani"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 37,
-        "movement": "up",
-        "weeksOnChart": 3,
-        "peakPosition": 29,
-        "source": "snep"
-      },
-      {
-        "position": 30,
-        "track": {
-          "title": "La dot",
-          "artist": "Aya Nakamura"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 30,
-        "movement": "same",
-        "weeksOnChart": 7,
-        "peakPosition": 30,
-        "source": "snep"
-      },
-      {
-        "position": 31,
-        "track": {
-          "title": "Hey DJ",
-          "artist": "CNCO x Meghan Trainor x Sean Paul"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 33,
-        "movement": "up",
-        "weeksOnChart": 8,
-        "peakPosition": 31,
-        "source": "snep"
-      },
-      {
-        "position": 32,
-        "track": {
-          "title": "Gam gam",
-          "artist": "Marnik & Smack"
-        },
-        "label": "SCORPIO",
-        "previousPosition": 31,
-        "movement": "down",
-        "weeksOnChart": 11,
-        "peakPosition": 32,
-        "source": "snep"
-      },
-      {
-        "position": 33,
-        "track": {
-          "title": "Speechless",
-          "artist": "Robin Schulz"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 40,
-        "movement": "up",
-        "weeksOnChart": 10,
-        "peakPosition": 33,
-        "source": "snep"
-      },
-      {
-        "position": 34,
-        "track": {
-          "title": "Moonlight",
-          "artist": "Gaullin"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 43,
-        "movement": "up",
-        "weeksOnChart": 16,
-        "peakPosition": 34,
-        "source": "snep"
-      },
-      {
-        "position": 35,
-        "track": {
-          "title": "Revoir",
-          "artist": "Jérémy Frérot"
-        },
-        "label": "BELIEVE",
-        "previousPosition": 32,
-        "movement": "down",
-        "weeksOnChart": 32,
-        "peakPosition": 35,
-        "source": "snep"
-      },
-      {
-        "position": 36,
-        "track": {
-          "title": "Midi sur novembre",
-          "artist": "Louane et Julien Doré"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 35,
-        "movement": "down",
-        "weeksOnChart": 19,
-        "peakPosition": 36,
-        "source": "snep"
-      },
-      {
-        "position": 37,
-        "track": {
-          "title": "Lost in the fire",
-          "artist": "Gesaffelstein & The Weeknd"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 50,
-        "movement": "up",
-        "weeksOnChart": 3,
-        "peakPosition": 37,
-        "source": "snep"
-      },
-      {
-        "position": 38,
-        "track": {
-          "title": "7 rings",
-          "artist": "Ariana Grande"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 49,
-        "movement": "up",
-        "weeksOnChart": 2,
-        "peakPosition": 38,
-        "source": "snep"
-      },
-      {
-        "position": 39,
-        "track": {
-          "title": "Ma dernière lettre",
-          "artist": "David Hallyday"
-        },
-        "label": "WAGRAM MUSIC",
-        "previousPosition": 34,
-        "movement": "down",
-        "weeksOnChart": 12,
-        "peakPosition": 39,
-        "source": "snep"
-      },
-      {
-        "position": 40,
-        "track": {
-          "title": "Later bitches",
-          "artist": "The Prince Karma"
-        },
-        "label": "IDOL",
-        "previousPosition": 36,
-        "movement": "down",
-        "weeksOnChart": 21,
-        "peakPosition": 40,
-        "source": "snep"
-      },
-      {
-        "position": 41,
-        "track": {
-          "title": "Tu ne le vois pas",
-          "artist": "Maitre Gims feat. Dadju"
-        },
-        "label": "SONY",
-        "previousPosition": 45,
-        "movement": "up",
-        "weeksOnChart": 7,
-        "peakPosition": 41,
-        "source": "snep"
-      },
-      {
-        "position": 42,
-        "track": {
-          "title": "Polaroid",
-          "artist": "Jonas Blue"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 38,
-        "movement": "down",
-        "weeksOnChart": 13,
-        "peakPosition": 42,
-        "source": "snep"
-      },
-      {
-        "position": 43,
-        "track": {
-          "title": "Sunflower",
-          "artist": "Post Malone & Swae Lee"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 42,
-        "movement": "down",
-        "weeksOnChart": 15,
-        "peakPosition": 43,
-        "source": "snep"
-      },
-      {
-        "position": 44,
-        "track": {
-          "title": "Tu donnes",
-          "artist": "Jérémy Frérot"
-        },
-        "label": null,
-        "previousPosition": 41,
-        "movement": "down",
-        "weeksOnChart": 12,
-        "peakPosition": 44,
-        "source": "snep"
-      },
-      {
-        "position": 45,
-        "track": {
-          "title": "Girls like you",
-          "artist": "Maroon 5 feat. Cardi B"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 44,
-        "movement": "down",
-        "weeksOnChart": 34,
-        "peakPosition": 45,
-        "source": "snep"
-      },
-      {
-        "position": 46,
-        "track": {
-          "title": "Seul définitivement",
-          "artist": "Marc Lavoine"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 65,
-        "movement": "up",
-        "weeksOnChart": 11,
-        "peakPosition": 46,
-        "source": "snep"
-      },
-      {
-        "position": 47,
-        "track": {
-          "title": "On se sait par coeur",
-          "artist": "Calogero"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 39,
-        "movement": "down",
-        "weeksOnChart": 9,
-        "peakPosition": 47,
-        "source": "snep"
-      },
-      {
-        "position": 48,
-        "track": {
-          "title": "Thank U, next",
-          "artist": "Ariana Grande"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 23,
-        "movement": "down",
-        "weeksOnChart": 13,
-        "peakPosition": 48,
-        "source": "snep"
-      },
-      {
-        "position": 49,
-        "track": {
-          "title": "Pas eu le temps",
-          "artist": "Patrick Bruel"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 48,
-        "movement": "down",
-        "weeksOnChart": 7,
-        "peakPosition": 49,
-        "source": "snep"
-      },
-      {
-        "position": 50,
-        "track": {
-          "title": "Control",
-          "artist": "Feder"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 46,
-        "movement": "down",
-        "weeksOnChart": 10,
-        "peakPosition": 50,
-        "source": "snep"
-      },
-      {
-        "position": 52,
-        "track": {
-          "title": "Encore et encore",
-          "artist": "Jenifer"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 71,
-        "movement": "up",
-        "weeksOnChart": 7,
-        "peakPosition": 52,
-        "source": "snep"
-      },
-      {
-        "position": 53,
-        "track": {
-          "title": "Rien ne dure",
-          "artist": "Pascal Obispo"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 55,
-        "movement": "up",
-        "weeksOnChart": 21,
-        "peakPosition": 53,
-        "source": "snep"
-      },
-      {
-        "position": 54,
-        "track": {
-          "title": "Speed",
-          "artist": "Zazie"
-        },
-        "label": null,
-        "previousPosition": 51,
-        "movement": "down",
-        "weeksOnChart": 37,
-        "peakPosition": 54,
-        "source": "snep"
-      },
-      {
-        "position": 55,
-        "track": {
-          "title": "Moonlight",
-          "artist": "Xxxtentacion"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 77,
-        "movement": "up",
-        "weeksOnChart": 16,
-        "peakPosition": 55,
-        "source": "snep"
-      },
-      {
-        "position": 56,
-        "track": {
-          "title": "Madrina",
-          "artist": "Maes feat. Booba"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 62,
-        "movement": "up",
-        "weeksOnChart": 14,
-        "peakPosition": 56,
-        "source": "snep"
-      },
-      {
-        "position": 57,
-        "track": {
-          "title": "1987",
-          "artist": "Calogero"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 52,
-        "movement": "down",
-        "weeksOnChart": 35,
-        "peakPosition": 57,
-        "source": "snep"
-      },
-      {
-        "position": 58,
-        "track": {
-          "title": "On trace",
-          "artist": "Les Enfoirés"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 57,
-        "movement": "down",
-        "weeksOnChart": 3,
-        "peakPosition": 58,
-        "source": "snep"
-      },
-      {
-        "position": 59,
-        "track": {
-          "title": "Sale mood",
-          "artist": "Bramsito feat. Booba"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 63,
-        "movement": "up",
-        "weeksOnChart": 10,
-        "peakPosition": 59,
-        "source": "snep"
-      },
-      {
-        "position": 60,
-        "track": {
-          "title": "I'm still here",
-          "artist": "Sia"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 54,
-        "movement": "down",
-        "weeksOnChart": 11,
-        "peakPosition": 60,
-        "source": "snep"
-      }
-    ],
-    "source": "snepmusique.com",
-    "cached_at": "2026-11-07"
-  },
   "2019-06": {
     "week": 6,
     "year": 2019,
@@ -706962,782 +706186,6 @@
     "source": "snepmusique.com",
     "cached_at": "2026-11-07"
   },
-  "2019-32": {
-    "week": 32,
-    "year": 2019,
-    "date": "05/08/2019",
-    "entries": [
-      {
-        "position": 1,
-        "track": {
-          "title": "I don't care",
-          "artist": "Ed Sheeran & Justin Bieber"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 1,
-        "movement": "same",
-        "weeksOnChart": 13,
-        "peakPosition": 1,
-        "source": "snep"
-      },
-      {
-        "position": 2,
-        "track": {
-          "title": "Loco contigo",
-          "artist": "DJ Snake feat. J-Balvin & Tyga"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 2,
-        "movement": "same",
-        "weeksOnChart": 8,
-        "peakPosition": 2,
-        "source": "snep"
-      },
-      {
-        "position": 3,
-        "track": {
-          "title": "Old town road",
-          "artist": "Lil Nas X"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 4,
-        "movement": "up",
-        "weeksOnChart": 14,
-        "peakPosition": 3,
-        "source": "snep"
-      },
-      {
-        "position": 4,
-        "track": {
-          "title": "Calma (Remix)",
-          "artist": "Pedro Capo feat. Farruko"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 3,
-        "movement": "down",
-        "weeksOnChart": 30,
-        "peakPosition": 4,
-        "source": "snep"
-      },
-      {
-        "position": 5,
-        "track": {
-          "title": "Hola senorita",
-          "artist": "Gims feat. Maluma"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 5,
-        "movement": "same",
-        "weeksOnChart": 11,
-        "peakPosition": 5,
-        "source": "snep"
-      },
-      {
-        "position": 6,
-        "track": {
-          "title": "Allez reste",
-          "artist": "Boulevard des airs feat. Vianney"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 6,
-        "movement": "same",
-        "weeksOnChart": 25,
-        "peakPosition": 6,
-        "source": "snep"
-      },
-      {
-        "position": 7,
-        "track": {
-          "title": "Senorita",
-          "artist": "Shawn Mendes & Camila Cabello"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 8,
-        "movement": "up",
-        "weeksOnChart": 6,
-        "peakPosition": 7,
-        "source": "snep"
-      },
-      {
-        "position": 8,
-        "track": {
-          "title": "Someone you loved",
-          "artist": "Lewis Capaldi"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 7,
-        "movement": "down",
-        "weeksOnChart": 22,
-        "peakPosition": 8,
-        "source": "snep"
-      },
-      {
-        "position": 9,
-        "track": {
-          "title": "Can we pretend",
-          "artist": "Pink"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 9,
-        "movement": "same",
-        "weeksOnChart": 14,
-        "peakPosition": 9,
-        "source": "snep"
-      },
-      {
-        "position": 10,
-        "track": {
-          "title": "Flou",
-          "artist": "Angèle"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 13,
-        "movement": "up",
-        "weeksOnChart": 10,
-        "peakPosition": 10,
-        "source": "snep"
-      },
-      {
-        "position": 11,
-        "track": {
-          "title": "Con calma",
-          "artist": "Daddy Yankee"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 14,
-        "movement": "up",
-        "weeksOnChart": 24,
-        "peakPosition": 11,
-        "source": "snep"
-      },
-      {
-        "position": 12,
-        "track": {
-          "title": "Let me down slowly",
-          "artist": "Alec Benjamin"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 12,
-        "movement": "same",
-        "weeksOnChart": 20,
-        "peakPosition": 12,
-        "source": "snep"
-      },
-      {
-        "position": 13,
-        "track": {
-          "title": "You say",
-          "artist": "Lauren Daigle"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 10,
-        "movement": "down",
-        "weeksOnChart": 24,
-        "peakPosition": 13,
-        "source": "snep"
-      },
-      {
-        "position": 14,
-        "track": {
-          "title": "Don't call me up",
-          "artist": "MABEL"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 16,
-        "movement": "up",
-        "weeksOnChart": 27,
-        "peakPosition": 14,
-        "source": "snep"
-      },
-      {
-        "position": 15,
-        "track": {
-          "title": "Birds",
-          "artist": "Imagine Dragons"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 20,
-        "movement": "up",
-        "weeksOnChart": 9,
-        "peakPosition": 15,
-        "source": "snep"
-      },
-      {
-        "position": 16,
-        "track": {
-          "title": "Le coach",
-          "artist": "Soprano feat. Vincenzo"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 17,
-        "movement": "up",
-        "weeksOnChart": 10,
-        "peakPosition": 16,
-        "source": "snep"
-      },
-      {
-        "position": 17,
-        "track": {
-          "title": "Balance ton quoi",
-          "artist": "Angèle"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 11,
-        "movement": "down",
-        "weeksOnChart": 25,
-        "peakPosition": 17,
-        "source": "snep"
-      },
-      {
-        "position": 18,
-        "track": {
-          "title": "Nue",
-          "artist": "Clara Luciani"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 29,
-        "movement": "up",
-        "weeksOnChart": 20,
-        "peakPosition": 18,
-        "source": "snep"
-      },
-      {
-        "position": 19,
-        "track": {
-          "title": "Monster",
-          "artist": "LUM!X"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 32,
-        "movement": "up",
-        "weeksOnChart": 6,
-        "peakPosition": 19,
-        "source": "snep"
-      },
-      {
-        "position": 20,
-        "track": {
-          "title": "Piece of your heart",
-          "artist": "Meduza"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 22,
-        "movement": "up",
-        "weeksOnChart": 15,
-        "peakPosition": 20,
-        "source": "snep"
-      },
-      {
-        "position": 21,
-        "track": {
-          "title": "Soleil",
-          "artist": "Roméo Elvis"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 27,
-        "movement": "up",
-        "weeksOnChart": 11,
-        "peakPosition": 21,
-        "source": "snep"
-      },
-      {
-        "position": 22,
-        "track": {
-          "title": "Always (Quota fr)",
-          "artist": "Gavin James feat. Philippine"
-        },
-        "label": "BELIEVE",
-        "previousPosition": 25,
-        "movement": "up",
-        "weeksOnChart": 6,
-        "peakPosition": 22,
-        "source": "snep"
-      },
-      {
-        "position": 23,
-        "track": {
-          "title": "Power over me",
-          "artist": "Dermot Kennedy"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 23,
-        "movement": "same",
-        "weeksOnChart": 34,
-        "peakPosition": 23,
-        "source": "snep"
-      },
-      {
-        "position": 24,
-        "track": {
-          "title": "So am I",
-          "artist": "Ava Max"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 18,
-        "movement": "down",
-        "weeksOnChart": 22,
-        "peakPosition": 24,
-        "source": "snep"
-      },
-      {
-        "position": 25,
-        "track": {
-          "title": "Compliqué",
-          "artist": "Dadju"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 21,
-        "movement": "down",
-        "weeksOnChart": 6,
-        "peakPosition": 25,
-        "source": "snep"
-      },
-      {
-        "position": 26,
-        "track": {
-          "title": "Les planètes",
-          "artist": "M. Pokora"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 31,
-        "movement": "up",
-        "weeksOnChart": 23,
-        "peakPosition": 26,
-        "source": "snep"
-      },
-      {
-        "position": 27,
-        "track": {
-          "title": "Pookie",
-          "artist": "Aya Nakamura"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 24,
-        "movement": "down",
-        "weeksOnChart": 18,
-        "peakPosition": 27,
-        "source": "snep"
-      },
-      {
-        "position": 28,
-        "track": {
-          "title": "Summer days",
-          "artist": "Martin Garrix, Macklemore, Patrick Stump of Fall Out Boy"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 26,
-        "movement": "down",
-        "weeksOnChart": 12,
-        "peakPosition": 28,
-        "source": "snep"
-      },
-      {
-        "position": 29,
-        "track": {
-          "title": "Bad guy",
-          "artist": "Billie Eilish"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 15,
-        "movement": "down",
-        "weeksOnChart": 16,
-        "peakPosition": 29,
-        "source": "snep"
-      },
-      {
-        "position": 30,
-        "track": {
-          "title": "Giant",
-          "artist": "Calvin Harris feat. Rag 'N' Bone Man"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 19,
-        "movement": "down",
-        "weeksOnChart": 30,
-        "peakPosition": 30,
-        "source": "snep"
-      },
-      {
-        "position": 31,
-        "track": {
-          "title": "Always remember us this way",
-          "artist": "Lady GaGa"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 28,
-        "movement": "down",
-        "weeksOnChart": 29,
-        "peakPosition": 31,
-        "source": "snep"
-      },
-      {
-        "position": 32,
-        "track": {
-          "title": "Heaven",
-          "artist": "Avicii"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 55,
-        "movement": "up",
-        "weeksOnChart": 9,
-        "peakPosition": 32,
-        "source": "snep"
-      },
-      {
-        "position": 33,
-        "track": {
-          "title": "Plus haut",
-          "artist": "Claudio Capéo"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 35,
-        "movement": "up",
-        "weeksOnChart": 12,
-        "peakPosition": 33,
-        "source": "snep"
-      },
-      {
-        "position": 34,
-        "track": {
-          "title": "Beautiful",
-          "artist": "The Avener"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 34,
-        "movement": "same",
-        "weeksOnChart": 11,
-        "peakPosition": 34,
-        "source": "snep"
-      },
-      {
-        "position": 35,
-        "track": {
-          "title": "Goodbyes",
-          "artist": "Post Malone"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 42,
-        "movement": "up",
-        "weeksOnChart": 4,
-        "peakPosition": 35,
-        "source": "snep"
-      },
-      {
-        "position": 36,
-        "track": {
-          "title": "Rock it",
-          "artist": "Ofenbach"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 30,
-        "movement": "down",
-        "weeksOnChart": 17,
-        "peakPosition": 36,
-        "source": "snep"
-      },
-      {
-        "position": 37,
-        "track": {
-          "title": "Allez leur dire",
-          "artist": "Silvan Areg"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 33,
-        "movement": "down",
-        "weeksOnChart": 15,
-        "peakPosition": 37,
-        "source": "snep"
-      },
-      {
-        "position": 38,
-        "track": {
-          "title": "Mon beau frère",
-          "artist": "Black M."
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 37,
-        "movement": "down",
-        "weeksOnChart": 8,
-        "peakPosition": 38,
-        "source": "snep"
-      },
-      {
-        "position": 39,
-        "track": {
-          "title": "Ca va ça vient",
-          "artist": "Vitaa & Slimane"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 38,
-        "movement": "down",
-        "weeksOnChart": 7,
-        "peakPosition": 39,
-        "source": "snep"
-      },
-      {
-        "position": 40,
-        "track": {
-          "title": "Donnez-moi",
-          "artist": "Les Frangines"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 41,
-        "movement": "up",
-        "weeksOnChart": 12,
-        "peakPosition": 40,
-        "source": "snep"
-      },
-      {
-        "position": 41,
-        "track": {
-          "title": "Ice cream",
-          "artist": "Mika"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 56,
-        "movement": "up",
-        "weeksOnChart": 10,
-        "peakPosition": 41,
-        "source": "snep"
-      },
-      {
-        "position": 42,
-        "track": {
-          "title": "Viens",
-          "artist": "Yannick Noah"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 40,
-        "movement": "down",
-        "weeksOnChart": 9,
-        "peakPosition": 42,
-        "source": "snep"
-      },
-      {
-        "position": 43,
-        "track": {
-          "title": "Beautiful people",
-          "artist": "Ed Sheeran feat. Khalid"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 61,
-        "movement": "up",
-        "weeksOnChart": 6,
-        "peakPosition": 43,
-        "source": "snep"
-      },
-      {
-        "position": 44,
-        "track": {
-          "title": "Children",
-          "artist": "MATTN, Roland Clark and Klaas"
-        },
-        "label": "IDOL",
-        "previousPosition": 44,
-        "movement": "same",
-        "weeksOnChart": 9,
-        "peakPosition": 44,
-        "source": "snep"
-      },
-      {
-        "position": 45,
-        "track": {
-          "title": "5 minutes avec toi",
-          "artist": "Amir"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 39,
-        "movement": "down",
-        "weeksOnChart": 20,
-        "peakPosition": 45,
-        "source": "snep"
-      },
-      {
-        "position": 46,
-        "track": {
-          "title": "Stay (Don't go away)",
-          "artist": "David Guetta feat. Raye"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 48,
-        "movement": "up",
-        "weeksOnChart": 13,
-        "peakPosition": 46,
-        "source": "snep"
-      },
-      {
-        "position": 47,
-        "track": {
-          "title": "ME!",
-          "artist": "Taylor Swift feat. Brendon Urie"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 45,
-        "movement": "down",
-        "weeksOnChart": 15,
-        "peakPosition": 47,
-        "source": "snep"
-      },
-      {
-        "position": 48,
-        "track": {
-          "title": "Juice",
-          "artist": "Lizzo"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 52,
-        "movement": "up",
-        "weeksOnChart": 24,
-        "peakPosition": 48,
-        "source": "snep"
-      },
-      {
-        "position": 49,
-        "track": {
-          "title": "Que dieu me pardonne",
-          "artist": "Kendji Girac & Claudio Capéo"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 46,
-        "movement": "down",
-        "weeksOnChart": 25,
-        "peakPosition": 49,
-        "source": "snep"
-      },
-      {
-        "position": 50,
-        "track": {
-          "title": "Walk me home",
-          "artist": "Pink"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 49,
-        "movement": "down",
-        "weeksOnChart": 23,
-        "peakPosition": 50,
-        "source": "snep"
-      },
-      {
-        "position": 51,
-        "track": {
-          "title": "La vie",
-          "artist": "DJ Ross feat. Kumi"
-        },
-        "label": "IDOL",
-        "previousPosition": 58,
-        "movement": "up",
-        "weeksOnChart": 12,
-        "peakPosition": 51,
-        "source": "snep"
-      },
-      {
-        "position": 52,
-        "track": {
-          "title": "Miami vice",
-          "artist": "Gims"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 36,
-        "movement": "down",
-        "weeksOnChart": 21,
-        "peakPosition": 52,
-        "source": "snep"
-      },
-      {
-        "position": 53,
-        "track": {
-          "title": "Promesses",
-          "artist": "Bigflo & Oli"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 53,
-        "movement": "same",
-        "weeksOnChart": 3,
-        "peakPosition": 53,
-        "source": "snep"
-      },
-      {
-        "position": 54,
-        "track": {
-          "title": "Music sounds better with you",
-          "artist": "Stardust"
-        },
-        "label": "BECAUSE MUSIC",
-        "previousPosition": 63,
-        "movement": "up",
-        "weeksOnChart": 5,
-        "peakPosition": 54,
-        "source": "snep"
-      },
-      {
-        "position": 55,
-        "track": {
-          "title": "Laisse-les parler",
-          "artist": "Keen' V feat. Ajnin"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 47,
-        "movement": "down",
-        "weeksOnChart": 13,
-        "peakPosition": 55,
-        "source": "snep"
-      },
-      {
-        "position": 56,
-        "track": {
-          "title": "La grenade",
-          "artist": "Clara Luciani"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 43,
-        "movement": "down",
-        "weeksOnChart": 52,
-        "peakPosition": 56,
-        "source": "snep"
-      },
-      {
-        "position": 57,
-        "track": {
-          "title": "Speechless",
-          "artist": "Robin Schulz"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 89,
-        "movement": "up",
-        "weeksOnChart": 37,
-        "peakPosition": 57,
-        "source": "snep"
-      },
-      {
-        "position": 58,
-        "track": {
-          "title": "Mind if I stay",
-          "artist": "Kadebostany"
-        },
-        "label": "BELIEVE",
-        "previousPosition": 59,
-        "movement": "up",
-        "weeksOnChart": 29,
-        "peakPosition": 58,
-        "source": "snep"
-      },
-      {
-        "position": 60,
-        "track": {
-          "title": "Larmes à paillettes",
-          "artist": "Rose"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 51,
-        "movement": "down",
-        "weeksOnChart": 11,
-        "peakPosition": 60,
-        "source": "snep"
-      }
-    ],
-    "source": "snepmusique.com",
-    "cached_at": "2026-11-07"
-  },
   "2019-33": {
     "week": 33,
     "year": 2019,
@@ -708520,782 +706968,6 @@
         "previousPosition": 87,
         "movement": "up",
         "weeksOnChart": 6,
-        "peakPosition": 60,
-        "source": "snep"
-      }
-    ],
-    "source": "snepmusique.com",
-    "cached_at": "2026-11-07"
-  },
-  "2019-34": {
-    "week": 34,
-    "year": 2019,
-    "date": "19/08/2019",
-    "entries": [
-      {
-        "position": 1,
-        "track": {
-          "title": "I don't care",
-          "artist": "Ed Sheeran & Justin Bieber"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 1,
-        "movement": "same",
-        "weeksOnChart": 15,
-        "peakPosition": 1,
-        "source": "snep"
-      },
-      {
-        "position": 2,
-        "track": {
-          "title": "Senorita",
-          "artist": "Shawn Mendes & Camila Cabello"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 3,
-        "movement": "up",
-        "weeksOnChart": 8,
-        "peakPosition": 2,
-        "source": "snep"
-      },
-      {
-        "position": 3,
-        "track": {
-          "title": "Loco contigo",
-          "artist": "DJ Snake feat. J-Balvin & Tyga"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 2,
-        "movement": "down",
-        "weeksOnChart": 10,
-        "peakPosition": 3,
-        "source": "snep"
-      },
-      {
-        "position": 4,
-        "track": {
-          "title": "Old town road",
-          "artist": "Lil Nas X"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 4,
-        "movement": "same",
-        "weeksOnChart": 16,
-        "peakPosition": 4,
-        "source": "snep"
-      },
-      {
-        "position": 5,
-        "track": {
-          "title": "Allez reste",
-          "artist": "Boulevard des airs feat. Vianney"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 8,
-        "movement": "up",
-        "weeksOnChart": 27,
-        "peakPosition": 5,
-        "source": "snep"
-      },
-      {
-        "position": 6,
-        "track": {
-          "title": "Calma (Remix)",
-          "artist": "Pedro Capo feat. Farruko"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 6,
-        "movement": "same",
-        "weeksOnChart": 32,
-        "peakPosition": 6,
-        "source": "snep"
-      },
-      {
-        "position": 7,
-        "track": {
-          "title": "Con calma",
-          "artist": "Daddy Yankee"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 12,
-        "movement": "up",
-        "weeksOnChart": 26,
-        "peakPosition": 7,
-        "source": "snep"
-      },
-      {
-        "position": 8,
-        "track": {
-          "title": "Someone you loved",
-          "artist": "Lewis Capaldi"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 7,
-        "movement": "down",
-        "weeksOnChart": 24,
-        "peakPosition": 8,
-        "source": "snep"
-      },
-      {
-        "position": 9,
-        "track": {
-          "title": "Can we pretend",
-          "artist": "Pink"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 9,
-        "movement": "same",
-        "weeksOnChart": 16,
-        "peakPosition": 9,
-        "source": "snep"
-      },
-      {
-        "position": 10,
-        "track": {
-          "title": "Flou",
-          "artist": "Angèle"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 10,
-        "movement": "same",
-        "weeksOnChart": 12,
-        "peakPosition": 10,
-        "source": "snep"
-      },
-      {
-        "position": 11,
-        "track": {
-          "title": "Let me down slowly",
-          "artist": "Alec Benjamin"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 11,
-        "movement": "same",
-        "weeksOnChart": 22,
-        "peakPosition": 11,
-        "source": "snep"
-      },
-      {
-        "position": 12,
-        "track": {
-          "title": "Birds",
-          "artist": "Imagine Dragons"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 20,
-        "movement": "up",
-        "weeksOnChart": 11,
-        "peakPosition": 12,
-        "source": "snep"
-      },
-      {
-        "position": 13,
-        "track": {
-          "title": "Nue",
-          "artist": "Clara Luciani"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 14,
-        "movement": "up",
-        "weeksOnChart": 22,
-        "peakPosition": 13,
-        "source": "snep"
-      },
-      {
-        "position": 14,
-        "track": {
-          "title": "Don't call me up",
-          "artist": "MABEL"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 13,
-        "movement": "down",
-        "weeksOnChart": 29,
-        "peakPosition": 14,
-        "source": "snep"
-      },
-      {
-        "position": 15,
-        "track": {
-          "title": "Le coach",
-          "artist": "Soprano feat. Vincenzo"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 16,
-        "movement": "up",
-        "weeksOnChart": 12,
-        "peakPosition": 15,
-        "source": "snep"
-      },
-      {
-        "position": 16,
-        "track": {
-          "title": "Piece of your heart",
-          "artist": "Meduza"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 17,
-        "movement": "up",
-        "weeksOnChart": 17,
-        "peakPosition": 16,
-        "source": "snep"
-      },
-      {
-        "position": 17,
-        "track": {
-          "title": "You say",
-          "artist": "Lauren Daigle"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 15,
-        "movement": "down",
-        "weeksOnChart": 26,
-        "peakPosition": 17,
-        "source": "snep"
-      },
-      {
-        "position": 18,
-        "track": {
-          "title": "Balance ton quoi",
-          "artist": "Angèle"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 18,
-        "movement": "same",
-        "weeksOnChart": 27,
-        "peakPosition": 18,
-        "source": "snep"
-      },
-      {
-        "position": 19,
-        "track": {
-          "title": "Hola senorita",
-          "artist": "Gims feat. Maluma"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 5,
-        "movement": "down",
-        "weeksOnChart": 13,
-        "peakPosition": 19,
-        "source": "snep"
-      },
-      {
-        "position": 20,
-        "track": {
-          "title": "So am I",
-          "artist": "Ava Max"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 19,
-        "movement": "down",
-        "weeksOnChart": 24,
-        "peakPosition": 20,
-        "source": "snep"
-      },
-      {
-        "position": 21,
-        "track": {
-          "title": "Heaven",
-          "artist": "Avicii"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 29,
-        "movement": "up",
-        "weeksOnChart": 11,
-        "peakPosition": 21,
-        "source": "snep"
-      },
-      {
-        "position": 22,
-        "track": {
-          "title": "Beautiful people",
-          "artist": "Ed Sheeran feat. Khalid"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 32,
-        "movement": "up",
-        "weeksOnChart": 8,
-        "peakPosition": 22,
-        "source": "snep"
-      },
-      {
-        "position": 23,
-        "track": {
-          "title": "ME!",
-          "artist": "Taylor Swift feat. Brendon Urie"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 40,
-        "movement": "up",
-        "weeksOnChart": 17,
-        "peakPosition": 23,
-        "source": "snep"
-      },
-      {
-        "position": 24,
-        "track": {
-          "title": "Soleil",
-          "artist": "Roméo Elvis"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 23,
-        "movement": "down",
-        "weeksOnChart": 13,
-        "peakPosition": 24,
-        "source": "snep"
-      },
-      {
-        "position": 25,
-        "track": {
-          "title": "Compliqué",
-          "artist": "Dadju"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 22,
-        "movement": "down",
-        "weeksOnChart": 8,
-        "peakPosition": 25,
-        "source": "snep"
-      },
-      {
-        "position": 26,
-        "track": {
-          "title": "Monster",
-          "artist": "LUM!X & Gabry Ponte"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 21,
-        "movement": "down",
-        "weeksOnChart": 8,
-        "peakPosition": 26,
-        "source": "snep"
-      },
-      {
-        "position": 27,
-        "track": {
-          "title": "Power over me",
-          "artist": "Dermot Kennedy"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 26,
-        "movement": "down",
-        "weeksOnChart": 36,
-        "peakPosition": 27,
-        "source": "snep"
-      },
-      {
-        "position": 28,
-        "track": {
-          "title": "Pookie",
-          "artist": "Aya Nakamura"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 27,
-        "movement": "down",
-        "weeksOnChart": 20,
-        "peakPosition": 28,
-        "source": "snep"
-      },
-      {
-        "position": 29,
-        "track": {
-          "title": "Always (Quota fr)",
-          "artist": "Gavin James feat. Philippine"
-        },
-        "label": "BELIEVE",
-        "previousPosition": 24,
-        "movement": "down",
-        "weeksOnChart": 8,
-        "peakPosition": 29,
-        "source": "snep"
-      },
-      {
-        "position": 30,
-        "track": {
-          "title": "Plus haut",
-          "artist": "Claudio Capéo"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 43,
-        "movement": "up",
-        "weeksOnChart": 14,
-        "peakPosition": 30,
-        "source": "snep"
-      },
-      {
-        "position": 31,
-        "track": {
-          "title": "Always remember us this way",
-          "artist": "Lady GaGa"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 28,
-        "movement": "down",
-        "weeksOnChart": 31,
-        "peakPosition": 31,
-        "source": "snep"
-      },
-      {
-        "position": 32,
-        "track": {
-          "title": "Beautiful",
-          "artist": "The Avener"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 34,
-        "movement": "up",
-        "weeksOnChart": 13,
-        "peakPosition": 32,
-        "source": "snep"
-      },
-      {
-        "position": 33,
-        "track": {
-          "title": "Giant",
-          "artist": "Calvin Harris feat. Rag 'N' Bone Man"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 25,
-        "movement": "down",
-        "weeksOnChart": 32,
-        "peakPosition": 33,
-        "source": "snep"
-      },
-      {
-        "position": 34,
-        "track": {
-          "title": "Goodbyes",
-          "artist": "Post Malone"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 33,
-        "movement": "down",
-        "weeksOnChart": 6,
-        "peakPosition": 34,
-        "source": "snep"
-      },
-      {
-        "position": 35,
-        "track": {
-          "title": "Summer days",
-          "artist": "Martin Garrix, Macklemore, Patrick Stump of Fall Out Boy"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 35,
-        "movement": "same",
-        "weeksOnChart": 14,
-        "peakPosition": 35,
-        "source": "snep"
-      },
-      {
-        "position": 36,
-        "track": {
-          "title": "Les planètes",
-          "artist": "M. Pokora"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 31,
-        "movement": "down",
-        "weeksOnChart": 25,
-        "peakPosition": 36,
-        "source": "snep"
-      },
-      {
-        "position": 37,
-        "track": {
-          "title": "Bad guy",
-          "artist": "Billie Eilish"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 39,
-        "movement": "up",
-        "weeksOnChart": 18,
-        "peakPosition": 37,
-        "source": "snep"
-      },
-      {
-        "position": 38,
-        "track": {
-          "title": "L'homme nouveau",
-          "artist": "Jérémy Frérot"
-        },
-        "label": "BELIEVE",
-        "previousPosition": 48,
-        "movement": "up",
-        "weeksOnChart": 13,
-        "peakPosition": 38,
-        "source": "snep"
-      },
-      {
-        "position": 39,
-        "track": {
-          "title": "Mon beau frère",
-          "artist": "Black M."
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 42,
-        "movement": "up",
-        "weeksOnChart": 10,
-        "peakPosition": 39,
-        "source": "snep"
-      },
-      {
-        "position": 40,
-        "track": {
-          "title": "Ca va ça vient",
-          "artist": "Vitaa & Slimane"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 44,
-        "movement": "up",
-        "weeksOnChart": 9,
-        "peakPosition": 40,
-        "source": "snep"
-      },
-      {
-        "position": 41,
-        "track": {
-          "title": "Allez leur dire",
-          "artist": "Silvan Areg"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 30,
-        "movement": "down",
-        "weeksOnChart": 17,
-        "peakPosition": 41,
-        "source": "snep"
-      },
-      {
-        "position": 42,
-        "track": {
-          "title": "Promesses",
-          "artist": "Bigflo & Oli"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 58,
-        "movement": "up",
-        "weeksOnChart": 5,
-        "peakPosition": 42,
-        "source": "snep"
-      },
-      {
-        "position": 43,
-        "track": {
-          "title": "Stay (Don't go away)",
-          "artist": "David Guetta feat. Raye"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 41,
-        "movement": "down",
-        "weeksOnChart": 15,
-        "peakPosition": 43,
-        "source": "snep"
-      },
-      {
-        "position": 44,
-        "track": {
-          "title": "Rock it",
-          "artist": "Ofenbach"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 36,
-        "movement": "down",
-        "weeksOnChart": 19,
-        "peakPosition": 44,
-        "source": "snep"
-      },
-      {
-        "position": 45,
-        "track": {
-          "title": "Thing for you",
-          "artist": "David Guetta & Martin Solveig"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 71,
-        "movement": "up",
-        "weeksOnChart": 6,
-        "peakPosition": 45,
-        "source": "snep"
-      },
-      {
-        "position": 46,
-        "track": {
-          "title": "Viens",
-          "artist": "Yannick Noah"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 38,
-        "movement": "down",
-        "weeksOnChart": 11,
-        "peakPosition": 46,
-        "source": "snep"
-      },
-      {
-        "position": 47,
-        "track": {
-          "title": "5 minutes avec toi",
-          "artist": "Amir"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 52,
-        "movement": "up",
-        "weeksOnChart": 22,
-        "peakPosition": 47,
-        "source": "snep"
-      },
-      {
-        "position": 48,
-        "track": {
-          "title": "Only human",
-          "artist": "Jonas Brothers"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 59,
-        "movement": "up",
-        "weeksOnChart": 8,
-        "peakPosition": 48,
-        "source": "snep"
-      },
-      {
-        "position": 49,
-        "track": {
-          "title": "Donnez-moi",
-          "artist": "Les Frangines"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 37,
-        "movement": "down",
-        "weeksOnChart": 14,
-        "peakPosition": 49,
-        "source": "snep"
-      },
-      {
-        "position": 50,
-        "track": {
-          "title": "Miami vice",
-          "artist": "Gims"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 47,
-        "movement": "down",
-        "weeksOnChart": 23,
-        "peakPosition": 50,
-        "source": "snep"
-      },
-      {
-        "position": 51,
-        "track": {
-          "title": "Narcotic",
-          "artist": "Younotus"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 45,
-        "movement": "down",
-        "weeksOnChart": 8,
-        "peakPosition": 51,
-        "source": "snep"
-      },
-      {
-        "position": 52,
-        "track": {
-          "title": "Que dieu me pardonne",
-          "artist": "Kendji Girac & Claudio Capéo"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 56,
-        "movement": "up",
-        "weeksOnChart": 27,
-        "peakPosition": 52,
-        "source": "snep"
-      },
-      {
-        "position": 53,
-        "track": {
-          "title": "Children",
-          "artist": "MATTN, Roland Clark and Klaas"
-        },
-        "label": "IDOL",
-        "previousPosition": 46,
-        "movement": "down",
-        "weeksOnChart": 11,
-        "peakPosition": 53,
-        "source": "snep"
-      },
-      {
-        "position": 54,
-        "track": {
-          "title": "Toutes les machines ont un coeur",
-          "artist": "Maëlle"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 57,
-        "movement": "up",
-        "weeksOnChart": 17,
-        "peakPosition": 54,
-        "source": "snep"
-      },
-      {
-        "position": 55,
-        "track": {
-          "title": "Summer is a curse",
-          "artist": "The Faim"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 60,
-        "movement": "up",
-        "weeksOnChart": 7,
-        "peakPosition": 55,
-        "source": "snep"
-      },
-      {
-        "position": 56,
-        "track": {
-          "title": "Walk me home",
-          "artist": "Pink"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 65,
-        "movement": "up",
-        "weeksOnChart": 25,
-        "peakPosition": 56,
-        "source": "snep"
-      },
-      {
-        "position": 57,
-        "track": {
-          "title": "La vie",
-          "artist": "DJ Ross feat. Kumi"
-        },
-        "label": "IDOL",
-        "previousPosition": 50,
-        "movement": "down",
-        "weeksOnChart": 14,
-        "peakPosition": 57,
-        "source": "snep"
-      },
-      {
-        "position": 58,
-        "track": {
-          "title": "Laisse-les parler",
-          "artist": "Keen' V feat. Ajnin"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 49,
-        "movement": "down",
-        "weeksOnChart": 15,
-        "peakPosition": 58,
-        "source": "snep"
-      },
-      {
-        "position": 60,
-        "track": {
-          "title": "Ice cream",
-          "artist": "Mika"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 63,
-        "movement": "up",
-        "weeksOnChart": 12,
         "peakPosition": 60,
         "source": "snep"
       }
@@ -710874,782 +708546,6 @@
         "previousPosition": 47,
         "movement": "down",
         "weeksOnChart": 27,
-        "peakPosition": 60,
-        "source": "snep"
-      }
-    ],
-    "source": "snepmusique.com",
-    "cached_at": "2026-11-07"
-  },
-  "2019-37": {
-    "week": 37,
-    "year": 2019,
-    "date": "09/09/2019",
-    "entries": [
-      {
-        "position": 1,
-        "track": {
-          "title": "Senorita",
-          "artist": "Shawn Mendes & Camila Cabello"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 1,
-        "movement": "same",
-        "weeksOnChart": 11,
-        "peakPosition": 1,
-        "source": "snep"
-      },
-      {
-        "position": 2,
-        "track": {
-          "title": "Loco contigo",
-          "artist": "DJ Snake feat. J-Balvin & Tyga"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 2,
-        "movement": "same",
-        "weeksOnChart": 13,
-        "peakPosition": 2,
-        "source": "snep"
-      },
-      {
-        "position": 3,
-        "track": {
-          "title": "I don't care",
-          "artist": "Ed Sheeran & Justin Bieber"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 3,
-        "movement": "same",
-        "weeksOnChart": 18,
-        "peakPosition": 3,
-        "source": "snep"
-      },
-      {
-        "position": 4,
-        "track": {
-          "title": "Can we pretend",
-          "artist": "Pink"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 6,
-        "movement": "up",
-        "weeksOnChart": 19,
-        "peakPosition": 4,
-        "source": "snep"
-      },
-      {
-        "position": 5,
-        "track": {
-          "title": "Beautiful people",
-          "artist": "Ed Sheeran feat. Khalid"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 5,
-        "movement": "same",
-        "weeksOnChart": 11,
-        "peakPosition": 5,
-        "source": "snep"
-      },
-      {
-        "position": 6,
-        "track": {
-          "title": "Birds",
-          "artist": "Imagine Dragons"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 8,
-        "movement": "up",
-        "weeksOnChart": 14,
-        "peakPosition": 6,
-        "source": "snep"
-      },
-      {
-        "position": 7,
-        "track": {
-          "title": "Allez reste",
-          "artist": "Boulevard des airs feat. Vianney"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 4,
-        "movement": "down",
-        "weeksOnChart": 30,
-        "peakPosition": 7,
-        "source": "snep"
-      },
-      {
-        "position": 8,
-        "track": {
-          "title": "Flou",
-          "artist": "Angèle"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 10,
-        "movement": "up",
-        "weeksOnChart": 15,
-        "peakPosition": 8,
-        "source": "snep"
-      },
-      {
-        "position": 9,
-        "track": {
-          "title": "Nue",
-          "artist": "Clara Luciani"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 7,
-        "movement": "down",
-        "weeksOnChart": 25,
-        "peakPosition": 9,
-        "source": "snep"
-      },
-      {
-        "position": 10,
-        "track": {
-          "title": "Heaven",
-          "artist": "Avicii"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 17,
-        "movement": "up",
-        "weeksOnChart": 14,
-        "peakPosition": 10,
-        "source": "snep"
-      },
-      {
-        "position": 11,
-        "track": {
-          "title": "Someone you loved",
-          "artist": "Lewis Capaldi"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 12,
-        "movement": "up",
-        "weeksOnChart": 27,
-        "peakPosition": 11,
-        "source": "snep"
-      },
-      {
-        "position": 12,
-        "track": {
-          "title": "Monster",
-          "artist": "LUM!X & Gabry Ponte"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 11,
-        "movement": "down",
-        "weeksOnChart": 11,
-        "peakPosition": 12,
-        "source": "snep"
-      },
-      {
-        "position": 13,
-        "track": {
-          "title": "Compliqué",
-          "artist": "Dadju"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 19,
-        "movement": "up",
-        "weeksOnChart": 11,
-        "peakPosition": 13,
-        "source": "snep"
-      },
-      {
-        "position": 14,
-        "track": {
-          "title": "Con calma",
-          "artist": "Daddy Yankee"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 14,
-        "movement": "same",
-        "weeksOnChart": 29,
-        "peakPosition": 14,
-        "source": "snep"
-      },
-      {
-        "position": 15,
-        "track": {
-          "title": "Old town road",
-          "artist": "Lil Nas X"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 9,
-        "movement": "down",
-        "weeksOnChart": 19,
-        "peakPosition": 15,
-        "source": "snep"
-      },
-      {
-        "position": 16,
-        "track": {
-          "title": "Let me down slowly",
-          "artist": "Alec Benjamin"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 13,
-        "movement": "down",
-        "weeksOnChart": 25,
-        "peakPosition": 16,
-        "source": "snep"
-      },
-      {
-        "position": 17,
-        "track": {
-          "title": "Hola senorita",
-          "artist": "Gims feat. Maluma"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 23,
-        "movement": "up",
-        "weeksOnChart": 16,
-        "peakPosition": 17,
-        "source": "snep"
-      },
-      {
-        "position": 18,
-        "track": {
-          "title": "Le coach",
-          "artist": "Soprano feat. Vincenzo"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 20,
-        "movement": "up",
-        "weeksOnChart": 15,
-        "peakPosition": 18,
-        "source": "snep"
-      },
-      {
-        "position": 19,
-        "track": {
-          "title": "Don't call me up",
-          "artist": "MABEL"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 21,
-        "movement": "up",
-        "weeksOnChart": 32,
-        "peakPosition": 19,
-        "source": "snep"
-      },
-      {
-        "position": 20,
-        "track": {
-          "title": "Donnez-moi",
-          "artist": "Les Frangines"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 34,
-        "movement": "up",
-        "weeksOnChart": 17,
-        "peakPosition": 20,
-        "source": "snep"
-      },
-      {
-        "position": 21,
-        "track": {
-          "title": "You say",
-          "artist": "Lauren Daigle"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 22,
-        "movement": "up",
-        "weeksOnChart": 29,
-        "peakPosition": 21,
-        "source": "snep"
-      },
-      {
-        "position": 22,
-        "track": {
-          "title": "Calma (Remix)",
-          "artist": "Pedro Capo feat. Farruko"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 15,
-        "movement": "down",
-        "weeksOnChart": 35,
-        "peakPosition": 22,
-        "source": "snep"
-      },
-      {
-        "position": 23,
-        "track": {
-          "title": "Piece of your heart",
-          "artist": "Meduza"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 16,
-        "movement": "down",
-        "weeksOnChart": 20,
-        "peakPosition": 23,
-        "source": "snep"
-      },
-      {
-        "position": 24,
-        "track": {
-          "title": "Ca va ça vient",
-          "artist": "Vitaa & Slimane"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 27,
-        "movement": "up",
-        "weeksOnChart": 12,
-        "peakPosition": 24,
-        "source": "snep"
-      },
-      {
-        "position": 25,
-        "track": {
-          "title": "China",
-          "artist": "Anuel Aa, Daddy Yankee, Karol G, J-Balvin & Ozuna"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 52,
-        "movement": "up",
-        "weeksOnChart": 5,
-        "peakPosition": 25,
-        "source": "snep"
-      },
-      {
-        "position": 26,
-        "track": {
-          "title": "Promesses",
-          "artist": "Bigflo & Oli"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 35,
-        "movement": "up",
-        "weeksOnChart": 8,
-        "peakPosition": 26,
-        "source": "snep"
-      },
-      {
-        "position": 27,
-        "track": {
-          "title": "Always (Quota fr)",
-          "artist": "Gavin James feat. Philippine"
-        },
-        "label": "BELIEVE",
-        "previousPosition": 29,
-        "movement": "up",
-        "weeksOnChart": 11,
-        "peakPosition": 27,
-        "source": "snep"
-      },
-      {
-        "position": 28,
-        "track": {
-          "title": "Dance monkey",
-          "artist": "Tones and I"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 40,
-        "movement": "up",
-        "weeksOnChart": 5,
-        "peakPosition": 28,
-        "source": "snep"
-      },
-      {
-        "position": 29,
-        "track": {
-          "title": "Summer days",
-          "artist": "Martin Garrix, Macklemore, Patrick Stump of Fall Out Boy"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 28,
-        "movement": "down",
-        "weeksOnChart": 17,
-        "peakPosition": 29,
-        "source": "snep"
-      },
-      {
-        "position": 30,
-        "track": {
-          "title": "Viens",
-          "artist": "Yannick Noah"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 48,
-        "movement": "up",
-        "weeksOnChart": 14,
-        "peakPosition": 30,
-        "source": "snep"
-      },
-      {
-        "position": 31,
-        "track": {
-          "title": "Les gens",
-          "artist": "Christophe Maé"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 70,
-        "movement": "up",
-        "weeksOnChart": 2,
-        "peakPosition": 31,
-        "source": "snep"
-      },
-      {
-        "position": 32,
-        "track": {
-          "title": "Beautiful",
-          "artist": "The Avener"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 31,
-        "movement": "down",
-        "weeksOnChart": 16,
-        "peakPosition": 32,
-        "source": "snep"
-      },
-      {
-        "position": 33,
-        "track": {
-          "title": "Plus haut",
-          "artist": "Claudio Capéo"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 32,
-        "movement": "down",
-        "weeksOnChart": 17,
-        "peakPosition": 33,
-        "source": "snep"
-      },
-      {
-        "position": 34,
-        "track": {
-          "title": "Soleil",
-          "artist": "Roméo Elvis"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 26,
-        "movement": "down",
-        "weeksOnChart": 16,
-        "peakPosition": 34,
-        "source": "snep"
-      },
-      {
-        "position": 35,
-        "track": {
-          "title": "Pookie",
-          "artist": "Aya Nakamura"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 25,
-        "movement": "down",
-        "weeksOnChart": 23,
-        "peakPosition": 35,
-        "source": "snep"
-      },
-      {
-        "position": 36,
-        "track": {
-          "title": "Power over me",
-          "artist": "Dermot Kennedy"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 33,
-        "movement": "down",
-        "weeksOnChart": 39,
-        "peakPosition": 36,
-        "source": "snep"
-      },
-      {
-        "position": 37,
-        "track": {
-          "title": "Summer is a curse",
-          "artist": "The Faim"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 44,
-        "movement": "up",
-        "weeksOnChart": 10,
-        "peakPosition": 37,
-        "source": "snep"
-      },
-      {
-        "position": 38,
-        "track": {
-          "title": "Les planètes",
-          "artist": "M. Pokora"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 30,
-        "movement": "down",
-        "weeksOnChart": 28,
-        "peakPosition": 38,
-        "source": "snep"
-      },
-      {
-        "position": 39,
-        "track": {
-          "title": "Dans mon délire",
-          "artist": "Black M feat. Heuss L'enfoiré & Soolking"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 69,
-        "movement": "up",
-        "weeksOnChart": 3,
-        "peakPosition": 39,
-        "source": "snep"
-      },
-      {
-        "position": 40,
-        "track": {
-          "title": "Only human",
-          "artist": "Jonas Brothers"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 45,
-        "movement": "up",
-        "weeksOnChart": 11,
-        "peakPosition": 40,
-        "source": "snep"
-      },
-      {
-        "position": 41,
-        "track": {
-          "title": "Reste",
-          "artist": "Gims feat. Sting"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 47,
-        "movement": "up",
-        "weeksOnChart": 3,
-        "peakPosition": 41,
-        "source": "snep"
-      },
-      {
-        "position": 42,
-        "track": {
-          "title": "Balance ton quoi",
-          "artist": "Angèle"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 36,
-        "movement": "down",
-        "weeksOnChart": 30,
-        "peakPosition": 42,
-        "source": "snep"
-      },
-      {
-        "position": 43,
-        "track": {
-          "title": "Narcotic",
-          "artist": "Younotus"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 38,
-        "movement": "down",
-        "weeksOnChart": 11,
-        "peakPosition": 43,
-        "source": "snep"
-      },
-      {
-        "position": 44,
-        "track": {
-          "title": "Torn",
-          "artist": "Ava Max"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 55,
-        "movement": "up",
-        "weeksOnChart": 4,
-        "peakPosition": 44,
-        "source": "snep"
-      },
-      {
-        "position": 45,
-        "track": {
-          "title": "So am I",
-          "artist": "Ava Max"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 39,
-        "movement": "down",
-        "weeksOnChart": 27,
-        "peakPosition": 45,
-        "source": "snep"
-      },
-      {
-        "position": 46,
-        "track": {
-          "title": "L'homme nouveau",
-          "artist": "Jérémy Frérot"
-        },
-        "label": "BELIEVE",
-        "previousPosition": 46,
-        "movement": "same",
-        "weeksOnChart": 16,
-        "peakPosition": 46,
-        "source": "snep"
-      },
-      {
-        "position": 47,
-        "track": {
-          "title": "Goodbyes",
-          "artist": "Post Malone"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 37,
-        "movement": "down",
-        "weeksOnChart": 9,
-        "peakPosition": 47,
-        "source": "snep"
-      },
-      {
-        "position": 48,
-        "track": {
-          "title": "Rescue me",
-          "artist": "OneRepublic"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 49,
-        "movement": "up",
-        "weeksOnChart": 16,
-        "peakPosition": 48,
-        "source": "snep"
-      },
-      {
-        "position": 49,
-        "track": {
-          "title": "Tombé",
-          "artist": "M. Pokora"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 41,
-        "movement": "down",
-        "weeksOnChart": 12,
-        "peakPosition": 49,
-        "source": "snep"
-      },
-      {
-        "position": 50,
-        "track": {
-          "title": "Bad guy",
-          "artist": "Billie Eilish"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 18,
-        "movement": "down",
-        "weeksOnChart": 21,
-        "peakPosition": 50,
-        "source": "snep"
-      },
-      {
-        "position": 51,
-        "track": {
-          "title": "Toutes les machines ont un coeur",
-          "artist": "Maëlle"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 42,
-        "movement": "down",
-        "weeksOnChart": 20,
-        "peakPosition": 51,
-        "source": "snep"
-      },
-      {
-        "position": 52,
-        "track": {
-          "title": "Higher love",
-          "artist": "Kygo feat. Whitney Houston"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 51,
-        "movement": "down",
-        "weeksOnChart": 5,
-        "peakPosition": 52,
-        "source": "snep"
-      },
-      {
-        "position": 53,
-        "track": {
-          "title": "ME!",
-          "artist": "Taylor Swift feat. Brendon Urie"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 24,
-        "movement": "down",
-        "weeksOnChart": 20,
-        "peakPosition": 53,
-        "source": "snep"
-      },
-      {
-        "position": 54,
-        "track": {
-          "title": "Presque",
-          "artist": "Alain Souchon"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 43,
-        "movement": "down",
-        "weeksOnChart": 2,
-        "peakPosition": 54,
-        "source": "snep"
-      },
-      {
-        "position": 55,
-        "track": {
-          "title": "Elle est bonne sa mère",
-          "artist": "Vegedream feat. Ninho"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 57,
-        "movement": "up",
-        "weeksOnChart": 14,
-        "peakPosition": 55,
-        "source": "snep"
-      },
-      {
-        "position": 56,
-        "track": {
-          "title": "Walk me home",
-          "artist": "Pink"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 60,
-        "movement": "up",
-        "weeksOnChart": 28,
-        "peakPosition": 56,
-        "source": "snep"
-      },
-      {
-        "position": 58,
-        "track": {
-          "title": "En nuit",
-          "artist": "Videoclub"
-        },
-        "label": "SONY MUSIC",
-        "previousPosition": 86,
-        "movement": "up",
-        "weeksOnChart": 7,
-        "peakPosition": 58,
-        "source": "snep"
-      },
-      {
-        "position": 59,
-        "track": {
-          "title": "Always remember us this way",
-          "artist": "Lady GaGa"
-        },
-        "label": "UNIVERSAL",
-        "previousPosition": 50,
-        "movement": "down",
-        "weeksOnChart": 34,
-        "peakPosition": 59,
-        "source": "snep"
-      },
-      {
-        "position": 60,
-        "track": {
-          "title": "Allez leur dire",
-          "artist": "Silvan Areg"
-        },
-        "label": "WARNER MUSIC",
-        "previousPosition": 53,
-        "movement": "down",
-        "weeksOnChart": 20,
         "peakPosition": 60,
         "source": "snep"
       }
@@ -714022,602 +710918,6 @@
       }
     ],
     "source": "snepmusique.com",
-    "cached_at": "2026-11-07"
-  },
-  "2019-41": {
-    "week": 41,
-    "year": 2019,
-    "date": "07/10/2019",
-    "entries": [
-      {
-        "position": 1,
-        "track": {
-          "title": "Dance Monkey",
-          "artist": "Tones and I"
-        },
-        "previousPosition": 1,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 1,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 2,
-        "track": {
-          "title": "Reste",
-          "artist": "Maître Gims"
-        },
-        "previousPosition": 4,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 2,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 3,
-        "track": {
-          "title": "Señorita",
-          "artist": "Shawn Mendes"
-        },
-        "previousPosition": 2,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 3,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 4,
-        "track": {
-          "title": "Popopop",
-          "artist": "Gambi"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 4,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 5,
-        "track": {
-          "title": "Ça va ça vient",
-          "artist": "Vitaa"
-        },
-        "previousPosition": 5,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 5,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 6,
-        "track": {
-          "title": "Unstoppable",
-          "artist": "Sia"
-        },
-        "previousPosition": 3,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 6,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 7,
-        "track": {
-          "title": "Le coach",
-          "artist": "Soprano"
-        },
-        "previousPosition": 6,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 7,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 8,
-        "track": {
-          "title": "Tombé",
-          "artist": "M. Pokora"
-        },
-        "previousPosition": 11,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 8,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 9,
-        "track": {
-          "title": "On oublie le reste (feat. K...",
-          "artist": "Jenifer"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 9,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 10,
-        "track": {
-          "title": "Torn",
-          "artist": "Ava Max"
-        },
-        "previousPosition": 10,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 10,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 11,
-        "track": {
-          "title": "Ride It",
-          "artist": "Regard"
-        },
-        "previousPosition": 29,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 11,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 12,
-        "track": {
-          "title": "Bad Guy",
-          "artist": "Billie Eilish"
-        },
-        "previousPosition": 8,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 12,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 13,
-        "track": {
-          "title": "Monster",
-          "artist": "Lum!x & Gabry Ponte"
-        },
-        "previousPosition": 18,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 13,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 14,
-        "track": {
-          "title": "Old Town Road",
-          "artist": "Lil Nas X"
-        },
-        "previousPosition": 14,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 14,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 15,
-        "track": {
-          "title": "Donnez-moi",
-          "artist": "Les Frangines"
-        },
-        "previousPosition": 16,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 15,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 16,
-        "track": {
-          "title": "Someone You Loved",
-          "artist": "Lewis Capaldi"
-        },
-        "previousPosition": 12,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 16,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 17,
-        "track": {
-          "title": "M'effondre",
-          "artist": "Mylène Farmer"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 17,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 19,
-        "track": {
-          "title": "Mada",
-          "artist": "Kalash"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 19,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 20,
-        "track": {
-          "title": "Birds",
-          "artist": "Imagine Dragons"
-        },
-        "previousPosition": 20,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 20,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 21,
-        "track": {
-          "title": "Shallow",
-          "artist": "Lady Gaga"
-        },
-        "previousPosition": 9,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 21,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 22,
-        "track": {
-          "title": "HIGHEST IN THE ROOM",
-          "artist": "Travis Scott"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 22,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 23,
-        "track": {
-          "title": "Flou",
-          "artist": "Angèle"
-        },
-        "previousPosition": 26,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 23,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 24,
-        "track": {
-          "title": "Les planètes",
-          "artist": "M. Pokora"
-        },
-        "previousPosition": 21,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 24,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 25,
-        "track": {
-          "title": "I'll Never Love Again",
-          "artist": "Lady Gaga"
-        },
-        "previousPosition": 39,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 25,
-        "source": "chartsinfrance"
-      }
-    ],
-    "source": "chartsinfrance.net",
-    "pages": 1,
-    "cached_at": "2026-11-07"
-  },
-  "2019-42": {
-    "week": 42,
-    "year": 2019,
-    "date": "14/10/2019",
-    "entries": [
-      {
-        "position": 1,
-        "track": {
-          "title": "Dance Monkey",
-          "artist": "Tones and I"
-        },
-        "previousPosition": 1,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 1,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 2,
-        "track": {
-          "title": "Reste",
-          "artist": "Maître Gims"
-        },
-        "previousPosition": 2,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 2,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 3,
-        "track": {
-          "title": "Ça va ça vient",
-          "artist": "Vitaa"
-        },
-        "previousPosition": 5,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 3,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 4,
-        "track": {
-          "title": "Señorita",
-          "artist": "Shawn Mendes"
-        },
-        "previousPosition": 3,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 4,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 5,
-        "track": {
-          "title": "Unstoppable",
-          "artist": "Sia"
-        },
-        "previousPosition": 6,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 5,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 6,
-        "track": {
-          "title": "Ride It",
-          "artist": "Regard"
-        },
-        "previousPosition": 11,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 6,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 7,
-        "track": {
-          "title": "Birds",
-          "artist": "Imagine Dragons"
-        },
-        "previousPosition": 20,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 7,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 8,
-        "track": {
-          "title": "Le coach",
-          "artist": "Soprano"
-        },
-        "previousPosition": 7,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 8,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 9,
-        "track": {
-          "title": "Tombé",
-          "artist": "M. Pokora"
-        },
-        "previousPosition": 8,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 9,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 10,
-        "track": {
-          "title": "Perdus",
-          "artist": "Angèle"
-        },
-        "previousPosition": 96,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 10,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 11,
-        "track": {
-          "title": "Ma vie",
-          "artist": "Dadju"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 11,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 12,
-        "track": {
-          "title": "Lights Up",
-          "artist": "Harry Styles"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 12,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 14,
-        "track": {
-          "title": "Donnez-moi",
-          "artist": "Les Frangines"
-        },
-        "previousPosition": 15,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 14,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 15,
-        "track": {
-          "title": "Monster",
-          "artist": "Lum!x & Gabry Ponte"
-        },
-        "previousPosition": 13,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 15,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 16,
-        "track": {
-          "title": "Torn",
-          "artist": "Ava Max"
-        },
-        "previousPosition": 10,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 16,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 17,
-        "track": {
-          "title": "Old Town Road",
-          "artist": "Lil Nas X"
-        },
-        "previousPosition": 14,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 17,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 18,
-        "track": {
-          "title": "Bad Guy",
-          "artist": "Billie Eilish"
-        },
-        "previousPosition": 12,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 18,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 19,
-        "track": {
-          "title": "Memories",
-          "artist": "Maroon 5"
-        },
-        "previousPosition": 57,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 19,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 20,
-        "track": {
-          "title": "Flou",
-          "artist": "Angèle"
-        },
-        "previousPosition": 23,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 20,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 21,
-        "track": {
-          "title": "Nue",
-          "artist": "Clara Luciani"
-        },
-        "previousPosition": 28,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 21,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 22,
-        "track": {
-          "title": "Someone You Loved",
-          "artist": "Lewis Capaldi"
-        },
-        "previousPosition": 16,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 22,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 23,
-        "track": {
-          "title": "Que Calor",
-          "artist": "Major Lazer"
-        },
-        "previousPosition": 34,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 23,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 24,
-        "track": {
-          "title": "Les planètes",
-          "artist": "M. Pokora"
-        },
-        "previousPosition": 24,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 24,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 25,
-        "track": {
-          "title": "Shallow",
-          "artist": "Lady Gaga"
-        },
-        "previousPosition": 21,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 25,
-        "source": "chartsinfrance"
-      }
-    ],
-    "source": "chartsinfrance.net",
-    "pages": 1,
     "cached_at": "2026-11-07"
   },
   "2019-43": {
@@ -1854128,6 +1850428,3782 @@
       }
     ],
     "source": "snepmusique.com",
+    "cached_at": "2026-11-14"
+  },
+  "2019-05": {
+    "week": 5,
+    "year": 2019,
+    "date": "28/01/2019",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Shallow",
+          "artist": "Lady Gaga & Bradley Cooper"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 1,
+        "movement": "same",
+        "weeksOnChart": 17,
+        "peakPosition": 1,
+        "source": "snep"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Tout oublier",
+          "artist": "Angèle et Roméo Elvis"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 2,
+        "movement": "same",
+        "weeksOnChart": 16,
+        "peakPosition": 2,
+        "source": "snep"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Mia",
+          "artist": "Bad Bunny feat. Drake"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 3,
+        "movement": "same",
+        "weeksOnChart": 16,
+        "peakPosition": 3,
+        "source": "snep"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Be alright",
+          "artist": "Dean Lewis"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 5,
+        "movement": "up",
+        "weeksOnChart": 18,
+        "peakPosition": 4,
+        "source": "snep"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Sweet but psycho",
+          "artist": "Ava Max"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 4,
+        "movement": "down",
+        "weeksOnChart": 10,
+        "peakPosition": 5,
+        "source": "snep"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Come and get your love",
+          "artist": "Redbone"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 15,
+        "movement": "up",
+        "weeksOnChart": 8,
+        "peakPosition": 6,
+        "source": "snep"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Plus tard",
+          "artist": "Bigflo & Oli"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 10,
+        "movement": "up",
+        "weeksOnChart": 13,
+        "peakPosition": 7,
+        "source": "snep"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "La grenade",
+          "artist": "Clara Luciani"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 20,
+        "movement": "up",
+        "weeksOnChart": 25,
+        "peakPosition": 8,
+        "source": "snep"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "High hopes",
+          "artist": "Panic! at the disco"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 28,
+        "movement": "up",
+        "weeksOnChart": 16,
+        "peakPosition": 9,
+        "source": "snep"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Say my name",
+          "artist": "David Guetta feat. Bebe Rexha & J Balvin"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 7,
+        "movement": "down",
+        "weeksOnChart": 14,
+        "peakPosition": 10,
+        "source": "snep"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Promises",
+          "artist": "Calvin Harris & Sam Smith"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 6,
+        "movement": "down",
+        "weeksOnChart": 24,
+        "peakPosition": 11,
+        "source": "snep"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Natural",
+          "artist": "Imagine Dragons"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 11,
+        "movement": "down",
+        "weeksOnChart": 25,
+        "peakPosition": 12,
+        "source": "snep"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Taki taki",
+          "artist": "DJ Snake, Selena Gomez, Cardi B et Ozuna"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 8,
+        "movement": "down",
+        "weeksOnChart": 18,
+        "peakPosition": 13,
+        "source": "snep"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Shotgun",
+          "artist": "George Ezra"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 9,
+        "movement": "down",
+        "weeksOnChart": 28,
+        "peakPosition": 14,
+        "source": "snep"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Ta main",
+          "artist": "Claudio Capéo"
+        },
+        "label": "SONY",
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 20,
+        "peakPosition": 15,
+        "source": "snep"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Longtemps",
+          "artist": "Amir"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 18,
+        "movement": "up",
+        "weeksOnChart": 22,
+        "peakPosition": 16,
+        "source": "snep"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Tiago",
+          "artist": "Kendji Girac"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 20,
+        "peakPosition": 17,
+        "source": "snep"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Paradise",
+          "artist": "Ofenbach feat. Benjamin Ingrosso"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 23,
+        "peakPosition": 18,
+        "source": "snep"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Je te le donne",
+          "artist": "Vitaa & Slimane"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 19,
+        "movement": "same",
+        "weeksOnChart": 23,
+        "peakPosition": 19,
+        "source": "snep"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Oh man",
+          "artist": "Jain"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 29,
+        "movement": "up",
+        "weeksOnChart": 17,
+        "peakPosition": 20,
+        "source": "snep"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Arms around you",
+          "artist": "XXXTentacion & Lil Pump feat. Maluma & Swae Lee"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 21,
+        "movement": "same",
+        "weeksOnChart": 10,
+        "peakPosition": 21,
+        "source": "snep"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Thunderclouds",
+          "artist": "LSD"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 17,
+        "movement": "down",
+        "weeksOnChart": 23,
+        "peakPosition": 22,
+        "source": "snep"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Giant",
+          "artist": "Calvin Harris feat. Rag 'N' Bone Man"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 22,
+        "movement": "down",
+        "weeksOnChart": 3,
+        "peakPosition": 23,
+        "source": "snep"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Jaloux",
+          "artist": "Dadju"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 25,
+        "movement": "up",
+        "weeksOnChart": 17,
+        "peakPosition": 24,
+        "source": "snep"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "À nos souvenirs",
+          "artist": "Trois Cafés Gourmands"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 16,
+        "movement": "down",
+        "weeksOnChart": 29,
+        "peakPosition": 25,
+        "source": "snep"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Zoum",
+          "artist": "Soprano feat. Niska"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 14,
+        "peakPosition": 26,
+        "source": "snep"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Nothing breaks like a heart",
+          "artist": "Mark Ronson feat. Miley Cyrus"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 27,
+        "movement": "same",
+        "weeksOnChart": 9,
+        "peakPosition": 27,
+        "source": "snep"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Tout le temps",
+          "artist": "Boulevard des Airs"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 26,
+        "movement": "down",
+        "weeksOnChart": 16,
+        "peakPosition": 28,
+        "source": "snep"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Dancing with a stranger",
+          "artist": "Sam Smith & Normani"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 37,
+        "movement": "up",
+        "weeksOnChart": 3,
+        "peakPosition": 29,
+        "source": "snep"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "La dot",
+          "artist": "Aya Nakamura"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 30,
+        "movement": "same",
+        "weeksOnChart": 7,
+        "peakPosition": 30,
+        "source": "snep"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Hey DJ",
+          "artist": "CNCO x Meghan Trainor x Sean Paul"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 33,
+        "movement": "up",
+        "weeksOnChart": 8,
+        "peakPosition": 31,
+        "source": "snep"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Gam gam",
+          "artist": "Marnik & Smack"
+        },
+        "label": "SCORPIO",
+        "previousPosition": 31,
+        "movement": "down",
+        "weeksOnChart": 11,
+        "peakPosition": 32,
+        "source": "snep"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "Speechless",
+          "artist": "Robin Schulz"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 40,
+        "movement": "up",
+        "weeksOnChart": 10,
+        "peakPosition": 33,
+        "source": "snep"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Moonlight",
+          "artist": "Gaullin"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 43,
+        "movement": "up",
+        "weeksOnChart": 16,
+        "peakPosition": 34,
+        "source": "snep"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "Revoir",
+          "artist": "Jérémy Frérot"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 32,
+        "movement": "down",
+        "weeksOnChart": 32,
+        "peakPosition": 35,
+        "source": "snep"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Midi sur novembre",
+          "artist": "Louane et Julien Doré"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 35,
+        "movement": "down",
+        "weeksOnChart": 19,
+        "peakPosition": 36,
+        "source": "snep"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "Lost in the fire",
+          "artist": "Gesaffelstein & The Weeknd"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 50,
+        "movement": "up",
+        "weeksOnChart": 3,
+        "peakPosition": 37,
+        "source": "snep"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "7 rings",
+          "artist": "Ariana Grande"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 49,
+        "movement": "up",
+        "weeksOnChart": 2,
+        "peakPosition": 38,
+        "source": "snep"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "Ma dernière lettre",
+          "artist": "David Hallyday"
+        },
+        "label": "WAGRAM MUSIC",
+        "previousPosition": 34,
+        "movement": "down",
+        "weeksOnChart": 12,
+        "peakPosition": 39,
+        "source": "snep"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "Later bitches",
+          "artist": "The Prince Karma"
+        },
+        "label": "IDOL",
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 21,
+        "peakPosition": 40,
+        "source": "snep"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "Tu ne le vois pas",
+          "artist": "Maitre Gims feat. Dadju"
+        },
+        "label": "SONY",
+        "previousPosition": 45,
+        "movement": "up",
+        "weeksOnChart": 7,
+        "peakPosition": 41,
+        "source": "snep"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Polaroid",
+          "artist": "Jonas Blue"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 38,
+        "movement": "down",
+        "weeksOnChart": 13,
+        "peakPosition": 42,
+        "source": "snep"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Sunflower",
+          "artist": "Post Malone & Swae Lee"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 42,
+        "movement": "down",
+        "weeksOnChart": 15,
+        "peakPosition": 43,
+        "source": "snep"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Tu donnes",
+          "artist": "Jérémy Frérot"
+        },
+        "label": "KURONEKO",
+        "previousPosition": 41,
+        "movement": "down",
+        "weeksOnChart": 12,
+        "peakPosition": 44,
+        "source": "snep"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Girls like you",
+          "artist": "Maroon 5 feat. Cardi B"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 44,
+        "movement": "down",
+        "weeksOnChart": 34,
+        "peakPosition": 45,
+        "source": "snep"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Seul définitivement",
+          "artist": "Marc Lavoine"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 65,
+        "movement": "up",
+        "weeksOnChart": 11,
+        "peakPosition": 46,
+        "source": "snep"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "On se sait par coeur",
+          "artist": "Calogero"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 39,
+        "movement": "down",
+        "weeksOnChart": 9,
+        "peakPosition": 47,
+        "source": "snep"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Thank U, next",
+          "artist": "Ariana Grande"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 13,
+        "peakPosition": 48,
+        "source": "snep"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Pas eu le temps",
+          "artist": "Patrick Bruel"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 48,
+        "movement": "down",
+        "weeksOnChart": 7,
+        "peakPosition": 49,
+        "source": "snep"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Control",
+          "artist": "Feder"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 46,
+        "movement": "down",
+        "weeksOnChart": 10,
+        "peakPosition": 50,
+        "source": "snep"
+      },
+      {
+        "position": 51,
+        "track": {
+          "title": "Superchérie",
+          "artist": "M"
+        },
+        "label": "WAGRAM MUSIC",
+        "previousPosition": 74,
+        "movement": "up",
+        "weeksOnChart": 10,
+        "peakPosition": 51,
+        "source": "snep"
+      },
+      {
+        "position": 52,
+        "track": {
+          "title": "Encore et encore",
+          "artist": "Jenifer"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 71,
+        "movement": "up",
+        "weeksOnChart": 7,
+        "peakPosition": 52,
+        "source": "snep"
+      },
+      {
+        "position": 53,
+        "track": {
+          "title": "Rien ne dure",
+          "artist": "Pascal Obispo"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 55,
+        "movement": "up",
+        "weeksOnChart": 21,
+        "peakPosition": 53,
+        "source": "snep"
+      },
+      {
+        "position": 54,
+        "track": {
+          "title": "Speed",
+          "artist": "Zazie"
+        },
+        "label": "BELIEVE DIGITAL",
+        "previousPosition": 51,
+        "movement": "down",
+        "weeksOnChart": 37,
+        "peakPosition": 54,
+        "source": "snep"
+      },
+      {
+        "position": 55,
+        "track": {
+          "title": "Moonlight",
+          "artist": "Xxxtentacion"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 77,
+        "movement": "up",
+        "weeksOnChart": 16,
+        "peakPosition": 55,
+        "source": "snep"
+      },
+      {
+        "position": 56,
+        "track": {
+          "title": "Madrina",
+          "artist": "Maes feat. Booba"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 62,
+        "movement": "up",
+        "weeksOnChart": 14,
+        "peakPosition": 56,
+        "source": "snep"
+      },
+      {
+        "position": 57,
+        "track": {
+          "title": "1987",
+          "artist": "Calogero"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 52,
+        "movement": "down",
+        "weeksOnChart": 35,
+        "peakPosition": 57,
+        "source": "snep"
+      },
+      {
+        "position": 58,
+        "track": {
+          "title": "On trace",
+          "artist": "Les Enfoirés"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 57,
+        "movement": "down",
+        "weeksOnChart": 3,
+        "peakPosition": 58,
+        "source": "snep"
+      },
+      {
+        "position": 59,
+        "track": {
+          "title": "Sale mood",
+          "artist": "Bramsito feat. Booba"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 63,
+        "movement": "up",
+        "weeksOnChart": 10,
+        "peakPosition": 59,
+        "source": "snep"
+      },
+      {
+        "position": 60,
+        "track": {
+          "title": "I'm still here",
+          "artist": "Sia"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 54,
+        "movement": "down",
+        "weeksOnChart": 11,
+        "peakPosition": 60,
+        "source": "snep"
+      }
+    ],
+    "source": "snepmusique.com",
+    "cached_at": "2026-11-14"
+  },
+  "2019-32": {
+    "week": 32,
+    "year": 2019,
+    "date": "05/08/2019",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "I don't care",
+          "artist": "Ed Sheeran & Justin Bieber"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 1,
+        "movement": "same",
+        "weeksOnChart": 13,
+        "peakPosition": 1,
+        "source": "snep"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Loco contigo",
+          "artist": "DJ Snake feat. J-Balvin & Tyga"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 2,
+        "movement": "same",
+        "weeksOnChart": 8,
+        "peakPosition": 2,
+        "source": "snep"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Old town road",
+          "artist": "Lil Nas X"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 4,
+        "movement": "up",
+        "weeksOnChart": 14,
+        "peakPosition": 3,
+        "source": "snep"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Calma (Remix)",
+          "artist": "Pedro Capo feat. Farruko"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 3,
+        "movement": "down",
+        "weeksOnChart": 30,
+        "peakPosition": 4,
+        "source": "snep"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Hola senorita",
+          "artist": "Gims feat. Maluma"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 5,
+        "movement": "same",
+        "weeksOnChart": 11,
+        "peakPosition": 5,
+        "source": "snep"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Allez reste",
+          "artist": "Boulevard des airs feat. Vianney"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 6,
+        "movement": "same",
+        "weeksOnChart": 25,
+        "peakPosition": 6,
+        "source": "snep"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Senorita",
+          "artist": "Shawn Mendes & Camila Cabello"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 8,
+        "movement": "up",
+        "weeksOnChart": 6,
+        "peakPosition": 7,
+        "source": "snep"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Someone you loved",
+          "artist": "Lewis Capaldi"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 7,
+        "movement": "down",
+        "weeksOnChart": 22,
+        "peakPosition": 8,
+        "source": "snep"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Can we pretend",
+          "artist": "Pink"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 9,
+        "movement": "same",
+        "weeksOnChart": 14,
+        "peakPosition": 9,
+        "source": "snep"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Flou",
+          "artist": "Angèle"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 13,
+        "movement": "up",
+        "weeksOnChart": 10,
+        "peakPosition": 10,
+        "source": "snep"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Con calma",
+          "artist": "Daddy Yankee"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 14,
+        "movement": "up",
+        "weeksOnChart": 24,
+        "peakPosition": 11,
+        "source": "snep"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Let me down slowly",
+          "artist": "Alec Benjamin"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 12,
+        "movement": "same",
+        "weeksOnChart": 20,
+        "peakPosition": 12,
+        "source": "snep"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "You say",
+          "artist": "Lauren Daigle"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 10,
+        "movement": "down",
+        "weeksOnChart": 24,
+        "peakPosition": 13,
+        "source": "snep"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Don't call me up",
+          "artist": "MABEL"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 16,
+        "movement": "up",
+        "weeksOnChart": 27,
+        "peakPosition": 14,
+        "source": "snep"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Birds",
+          "artist": "Imagine Dragons"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 20,
+        "movement": "up",
+        "weeksOnChart": 9,
+        "peakPosition": 15,
+        "source": "snep"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Le coach",
+          "artist": "Soprano feat. Vincenzo"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 17,
+        "movement": "up",
+        "weeksOnChart": 10,
+        "peakPosition": 16,
+        "source": "snep"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Balance ton quoi",
+          "artist": "Angèle"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 11,
+        "movement": "down",
+        "weeksOnChart": 25,
+        "peakPosition": 17,
+        "source": "snep"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Nue",
+          "artist": "Clara Luciani"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 29,
+        "movement": "up",
+        "weeksOnChart": 20,
+        "peakPosition": 18,
+        "source": "snep"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Monster",
+          "artist": "LUM!X"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 32,
+        "movement": "up",
+        "weeksOnChart": 6,
+        "peakPosition": 19,
+        "source": "snep"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Piece of your heart",
+          "artist": "Meduza"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 22,
+        "movement": "up",
+        "weeksOnChart": 15,
+        "peakPosition": 20,
+        "source": "snep"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Soleil",
+          "artist": "Roméo Elvis"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 27,
+        "movement": "up",
+        "weeksOnChart": 11,
+        "peakPosition": 21,
+        "source": "snep"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Always (Quota fr)",
+          "artist": "Gavin James feat. Philippine"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 25,
+        "movement": "up",
+        "weeksOnChart": 6,
+        "peakPosition": 22,
+        "source": "snep"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Power over me",
+          "artist": "Dermot Kennedy"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 23,
+        "movement": "same",
+        "weeksOnChart": 34,
+        "peakPosition": 23,
+        "source": "snep"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "So am I",
+          "artist": "Ava Max"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 22,
+        "peakPosition": 24,
+        "source": "snep"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Compliqué",
+          "artist": "Dadju"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 6,
+        "peakPosition": 25,
+        "source": "snep"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Les planètes",
+          "artist": "M. Pokora"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 31,
+        "movement": "up",
+        "weeksOnChart": 23,
+        "peakPosition": 26,
+        "source": "snep"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Pookie",
+          "artist": "Aya Nakamura"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 18,
+        "peakPosition": 27,
+        "source": "snep"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Summer days",
+          "artist": "Martin Garrix, Macklemore, Patrick Stump of Fall Out Boy"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 26,
+        "movement": "down",
+        "weeksOnChart": 12,
+        "peakPosition": 28,
+        "source": "snep"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Bad guy",
+          "artist": "Billie Eilish"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 15,
+        "movement": "down",
+        "weeksOnChart": 16,
+        "peakPosition": 29,
+        "source": "snep"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "Giant",
+          "artist": "Calvin Harris feat. Rag 'N' Bone Man"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 30,
+        "peakPosition": 30,
+        "source": "snep"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Always remember us this way",
+          "artist": "Lady GaGa"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 29,
+        "peakPosition": 31,
+        "source": "snep"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Heaven",
+          "artist": "Avicii"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 55,
+        "movement": "up",
+        "weeksOnChart": 9,
+        "peakPosition": 32,
+        "source": "snep"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "Plus haut",
+          "artist": "Claudio Capéo"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 35,
+        "movement": "up",
+        "weeksOnChart": 12,
+        "peakPosition": 33,
+        "source": "snep"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Beautiful",
+          "artist": "The Avener"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 34,
+        "movement": "same",
+        "weeksOnChart": 11,
+        "peakPosition": 34,
+        "source": "snep"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "Goodbyes",
+          "artist": "Post Malone"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 42,
+        "movement": "up",
+        "weeksOnChart": 4,
+        "peakPosition": 35,
+        "source": "snep"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Rock it",
+          "artist": "Ofenbach"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 30,
+        "movement": "down",
+        "weeksOnChart": 17,
+        "peakPosition": 36,
+        "source": "snep"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "Allez leur dire",
+          "artist": "Silvan Areg"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 15,
+        "peakPosition": 37,
+        "source": "snep"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Mon beau frère",
+          "artist": "Black M."
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 37,
+        "movement": "down",
+        "weeksOnChart": 8,
+        "peakPosition": 38,
+        "source": "snep"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "Ca va ça vient",
+          "artist": "Vitaa & Slimane"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 38,
+        "movement": "down",
+        "weeksOnChart": 7,
+        "peakPosition": 39,
+        "source": "snep"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "Donnez-moi",
+          "artist": "Les Frangines"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 41,
+        "movement": "up",
+        "weeksOnChart": 12,
+        "peakPosition": 40,
+        "source": "snep"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "Ice cream",
+          "artist": "Mika"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 56,
+        "movement": "up",
+        "weeksOnChart": 10,
+        "peakPosition": 41,
+        "source": "snep"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Viens",
+          "artist": "Yannick Noah"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 40,
+        "movement": "down",
+        "weeksOnChart": 9,
+        "peakPosition": 42,
+        "source": "snep"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Beautiful people",
+          "artist": "Ed Sheeran feat. Khalid"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 61,
+        "movement": "up",
+        "weeksOnChart": 6,
+        "peakPosition": 43,
+        "source": "snep"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Children",
+          "artist": "MATTN, Roland Clark and Klaas"
+        },
+        "label": "IDOL",
+        "previousPosition": 44,
+        "movement": "same",
+        "weeksOnChart": 9,
+        "peakPosition": 44,
+        "source": "snep"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "5 minutes avec toi",
+          "artist": "Amir"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 39,
+        "movement": "down",
+        "weeksOnChart": 20,
+        "peakPosition": 45,
+        "source": "snep"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Stay (Don't go away)",
+          "artist": "David Guetta feat. Raye"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 48,
+        "movement": "up",
+        "weeksOnChart": 13,
+        "peakPosition": 46,
+        "source": "snep"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "ME!",
+          "artist": "Taylor Swift feat. Brendon Urie"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 45,
+        "movement": "down",
+        "weeksOnChart": 15,
+        "peakPosition": 47,
+        "source": "snep"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Juice",
+          "artist": "Lizzo"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 52,
+        "movement": "up",
+        "weeksOnChart": 24,
+        "peakPosition": 48,
+        "source": "snep"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Que dieu me pardonne",
+          "artist": "Kendji Girac & Claudio Capéo"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 46,
+        "movement": "down",
+        "weeksOnChart": 25,
+        "peakPosition": 49,
+        "source": "snep"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Walk me home",
+          "artist": "Pink"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 49,
+        "movement": "down",
+        "weeksOnChart": 23,
+        "peakPosition": 50,
+        "source": "snep"
+      },
+      {
+        "position": 51,
+        "track": {
+          "title": "La vie",
+          "artist": "DJ Ross feat. Kumi"
+        },
+        "label": "IDOL",
+        "previousPosition": 58,
+        "movement": "up",
+        "weeksOnChart": 12,
+        "peakPosition": 51,
+        "source": "snep"
+      },
+      {
+        "position": 52,
+        "track": {
+          "title": "Miami vice",
+          "artist": "Gims"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 21,
+        "peakPosition": 52,
+        "source": "snep"
+      },
+      {
+        "position": 53,
+        "track": {
+          "title": "Promesses",
+          "artist": "Bigflo & Oli"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 53,
+        "movement": "same",
+        "weeksOnChart": 3,
+        "peakPosition": 53,
+        "source": "snep"
+      },
+      {
+        "position": 54,
+        "track": {
+          "title": "Music sounds better with you",
+          "artist": "Stardust"
+        },
+        "label": "BECAUSE MUSIC",
+        "previousPosition": 63,
+        "movement": "up",
+        "weeksOnChart": 5,
+        "peakPosition": 54,
+        "source": "snep"
+      },
+      {
+        "position": 55,
+        "track": {
+          "title": "Laisse-les parler",
+          "artist": "Keen' V feat. Ajnin"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 47,
+        "movement": "down",
+        "weeksOnChart": 13,
+        "peakPosition": 55,
+        "source": "snep"
+      },
+      {
+        "position": 56,
+        "track": {
+          "title": "La grenade",
+          "artist": "Clara Luciani"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 43,
+        "movement": "down",
+        "weeksOnChart": 52,
+        "peakPosition": 56,
+        "source": "snep"
+      },
+      {
+        "position": 57,
+        "track": {
+          "title": "Speechless",
+          "artist": "Robin Schulz"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 89,
+        "movement": "up",
+        "weeksOnChart": 37,
+        "peakPosition": 57,
+        "source": "snep"
+      },
+      {
+        "position": 58,
+        "track": {
+          "title": "Mind if I stay",
+          "artist": "Kadebostany"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 59,
+        "movement": "up",
+        "weeksOnChart": 29,
+        "peakPosition": 58,
+        "source": "snep"
+      },
+      {
+        "position": 59,
+        "track": {
+          "title": "Grand petit con",
+          "artist": "M"
+        },
+        "label": "WAGRAM MUSIC",
+        "previousPosition": 69,
+        "movement": "up",
+        "weeksOnChart": 19,
+        "peakPosition": 59,
+        "source": "snep"
+      },
+      {
+        "position": 60,
+        "track": {
+          "title": "Larmes à paillettes",
+          "artist": "Rose"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 51,
+        "movement": "down",
+        "weeksOnChart": 11,
+        "peakPosition": 60,
+        "source": "snep"
+      }
+    ],
+    "source": "snepmusique.com",
+    "cached_at": "2026-11-14"
+  },
+  "2019-34": {
+    "week": 34,
+    "year": 2019,
+    "date": "19/08/2019",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "I don't care",
+          "artist": "Ed Sheeran & Justin Bieber"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 1,
+        "movement": "same",
+        "weeksOnChart": 15,
+        "peakPosition": 1,
+        "source": "snep"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Senorita",
+          "artist": "Shawn Mendes & Camila Cabello"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 3,
+        "movement": "up",
+        "weeksOnChart": 8,
+        "peakPosition": 2,
+        "source": "snep"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Loco contigo",
+          "artist": "DJ Snake feat. J-Balvin & Tyga"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 2,
+        "movement": "down",
+        "weeksOnChart": 10,
+        "peakPosition": 3,
+        "source": "snep"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Old town road",
+          "artist": "Lil Nas X"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 4,
+        "movement": "same",
+        "weeksOnChart": 16,
+        "peakPosition": 4,
+        "source": "snep"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Allez reste",
+          "artist": "Boulevard des airs feat. Vianney"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 8,
+        "movement": "up",
+        "weeksOnChart": 27,
+        "peakPosition": 5,
+        "source": "snep"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Calma (Remix)",
+          "artist": "Pedro Capo feat. Farruko"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 6,
+        "movement": "same",
+        "weeksOnChart": 32,
+        "peakPosition": 6,
+        "source": "snep"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Con calma",
+          "artist": "Daddy Yankee"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 12,
+        "movement": "up",
+        "weeksOnChart": 26,
+        "peakPosition": 7,
+        "source": "snep"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Someone you loved",
+          "artist": "Lewis Capaldi"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 7,
+        "movement": "down",
+        "weeksOnChart": 24,
+        "peakPosition": 8,
+        "source": "snep"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Can we pretend",
+          "artist": "Pink"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 9,
+        "movement": "same",
+        "weeksOnChart": 16,
+        "peakPosition": 9,
+        "source": "snep"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Flou",
+          "artist": "Angèle"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 10,
+        "movement": "same",
+        "weeksOnChart": 12,
+        "peakPosition": 10,
+        "source": "snep"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Let me down slowly",
+          "artist": "Alec Benjamin"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 11,
+        "movement": "same",
+        "weeksOnChart": 22,
+        "peakPosition": 11,
+        "source": "snep"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Birds",
+          "artist": "Imagine Dragons"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 20,
+        "movement": "up",
+        "weeksOnChart": 11,
+        "peakPosition": 12,
+        "source": "snep"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Nue",
+          "artist": "Clara Luciani"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 14,
+        "movement": "up",
+        "weeksOnChart": 22,
+        "peakPosition": 13,
+        "source": "snep"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Don't call me up",
+          "artist": "MABEL"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 29,
+        "peakPosition": 14,
+        "source": "snep"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Le coach",
+          "artist": "Soprano feat. Vincenzo"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 16,
+        "movement": "up",
+        "weeksOnChart": 12,
+        "peakPosition": 15,
+        "source": "snep"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Piece of your heart",
+          "artist": "Meduza"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 17,
+        "movement": "up",
+        "weeksOnChart": 17,
+        "peakPosition": 16,
+        "source": "snep"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "You say",
+          "artist": "Lauren Daigle"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 15,
+        "movement": "down",
+        "weeksOnChart": 26,
+        "peakPosition": 17,
+        "source": "snep"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Balance ton quoi",
+          "artist": "Angèle"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 18,
+        "movement": "same",
+        "weeksOnChart": 27,
+        "peakPosition": 18,
+        "source": "snep"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Hola senorita",
+          "artist": "Gims feat. Maluma"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 5,
+        "movement": "down",
+        "weeksOnChart": 13,
+        "peakPosition": 19,
+        "source": "snep"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "So am I",
+          "artist": "Ava Max"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 24,
+        "peakPosition": 20,
+        "source": "snep"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Heaven",
+          "artist": "Avicii"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 29,
+        "movement": "up",
+        "weeksOnChart": 11,
+        "peakPosition": 21,
+        "source": "snep"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Beautiful people",
+          "artist": "Ed Sheeran feat. Khalid"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 32,
+        "movement": "up",
+        "weeksOnChart": 8,
+        "peakPosition": 22,
+        "source": "snep"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "ME!",
+          "artist": "Taylor Swift feat. Brendon Urie"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 40,
+        "movement": "up",
+        "weeksOnChart": 17,
+        "peakPosition": 23,
+        "source": "snep"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Soleil",
+          "artist": "Roméo Elvis"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 13,
+        "peakPosition": 24,
+        "source": "snep"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Compliqué",
+          "artist": "Dadju"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 22,
+        "movement": "down",
+        "weeksOnChart": 8,
+        "peakPosition": 25,
+        "source": "snep"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Monster",
+          "artist": "LUM!X & Gabry Ponte"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 8,
+        "peakPosition": 26,
+        "source": "snep"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Power over me",
+          "artist": "Dermot Kennedy"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 26,
+        "movement": "down",
+        "weeksOnChart": 36,
+        "peakPosition": 27,
+        "source": "snep"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Pookie",
+          "artist": "Aya Nakamura"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 27,
+        "movement": "down",
+        "weeksOnChart": 20,
+        "peakPosition": 28,
+        "source": "snep"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Always (Quota fr)",
+          "artist": "Gavin James feat. Philippine"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 8,
+        "peakPosition": 29,
+        "source": "snep"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "Plus haut",
+          "artist": "Claudio Capéo"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 43,
+        "movement": "up",
+        "weeksOnChart": 14,
+        "peakPosition": 30,
+        "source": "snep"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Always remember us this way",
+          "artist": "Lady GaGa"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 31,
+        "peakPosition": 31,
+        "source": "snep"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Beautiful",
+          "artist": "The Avener"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 34,
+        "movement": "up",
+        "weeksOnChart": 13,
+        "peakPosition": 32,
+        "source": "snep"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "Giant",
+          "artist": "Calvin Harris feat. Rag 'N' Bone Man"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 32,
+        "peakPosition": 33,
+        "source": "snep"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Goodbyes",
+          "artist": "Post Malone"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 6,
+        "peakPosition": 34,
+        "source": "snep"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "Summer days",
+          "artist": "Martin Garrix, Macklemore, Patrick Stump of Fall Out Boy"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 35,
+        "movement": "same",
+        "weeksOnChart": 14,
+        "peakPosition": 35,
+        "source": "snep"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Les planètes",
+          "artist": "M. Pokora"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 31,
+        "movement": "down",
+        "weeksOnChart": 25,
+        "peakPosition": 36,
+        "source": "snep"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "Bad guy",
+          "artist": "Billie Eilish"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 39,
+        "movement": "up",
+        "weeksOnChart": 18,
+        "peakPosition": 37,
+        "source": "snep"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "L'homme nouveau",
+          "artist": "Jérémy Frérot"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 48,
+        "movement": "up",
+        "weeksOnChart": 13,
+        "peakPosition": 38,
+        "source": "snep"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "Mon beau frère",
+          "artist": "Black M."
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 42,
+        "movement": "up",
+        "weeksOnChart": 10,
+        "peakPosition": 39,
+        "source": "snep"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "Ca va ça vient",
+          "artist": "Vitaa & Slimane"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 44,
+        "movement": "up",
+        "weeksOnChart": 9,
+        "peakPosition": 40,
+        "source": "snep"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "Allez leur dire",
+          "artist": "Silvan Areg"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 30,
+        "movement": "down",
+        "weeksOnChart": 17,
+        "peakPosition": 41,
+        "source": "snep"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Promesses",
+          "artist": "Bigflo & Oli"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 58,
+        "movement": "up",
+        "weeksOnChart": 5,
+        "peakPosition": 42,
+        "source": "snep"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Stay (Don't go away)",
+          "artist": "David Guetta feat. Raye"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 41,
+        "movement": "down",
+        "weeksOnChart": 15,
+        "peakPosition": 43,
+        "source": "snep"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Rock it",
+          "artist": "Ofenbach"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 19,
+        "peakPosition": 44,
+        "source": "snep"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Thing for you",
+          "artist": "David Guetta & Martin Solveig"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 71,
+        "movement": "up",
+        "weeksOnChart": 6,
+        "peakPosition": 45,
+        "source": "snep"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Viens",
+          "artist": "Yannick Noah"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 38,
+        "movement": "down",
+        "weeksOnChart": 11,
+        "peakPosition": 46,
+        "source": "snep"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "5 minutes avec toi",
+          "artist": "Amir"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 52,
+        "movement": "up",
+        "weeksOnChart": 22,
+        "peakPosition": 47,
+        "source": "snep"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Only human",
+          "artist": "Jonas Brothers"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 59,
+        "movement": "up",
+        "weeksOnChart": 8,
+        "peakPosition": 48,
+        "source": "snep"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Donnez-moi",
+          "artist": "Les Frangines"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 37,
+        "movement": "down",
+        "weeksOnChart": 14,
+        "peakPosition": 49,
+        "source": "snep"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Miami vice",
+          "artist": "Gims"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 47,
+        "movement": "down",
+        "weeksOnChart": 23,
+        "peakPosition": 50,
+        "source": "snep"
+      },
+      {
+        "position": 51,
+        "track": {
+          "title": "Narcotic",
+          "artist": "Younotus"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 45,
+        "movement": "down",
+        "weeksOnChart": 8,
+        "peakPosition": 51,
+        "source": "snep"
+      },
+      {
+        "position": 52,
+        "track": {
+          "title": "Que dieu me pardonne",
+          "artist": "Kendji Girac & Claudio Capéo"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 56,
+        "movement": "up",
+        "weeksOnChart": 27,
+        "peakPosition": 52,
+        "source": "snep"
+      },
+      {
+        "position": 53,
+        "track": {
+          "title": "Children",
+          "artist": "MATTN, Roland Clark and Klaas"
+        },
+        "label": "IDOL",
+        "previousPosition": 46,
+        "movement": "down",
+        "weeksOnChart": 11,
+        "peakPosition": 53,
+        "source": "snep"
+      },
+      {
+        "position": 54,
+        "track": {
+          "title": "Toutes les machines ont un coeur",
+          "artist": "Maëlle"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 57,
+        "movement": "up",
+        "weeksOnChart": 17,
+        "peakPosition": 54,
+        "source": "snep"
+      },
+      {
+        "position": 55,
+        "track": {
+          "title": "Summer is a curse",
+          "artist": "The Faim"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 60,
+        "movement": "up",
+        "weeksOnChart": 7,
+        "peakPosition": 55,
+        "source": "snep"
+      },
+      {
+        "position": 56,
+        "track": {
+          "title": "Walk me home",
+          "artist": "Pink"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 65,
+        "movement": "up",
+        "weeksOnChart": 25,
+        "peakPosition": 56,
+        "source": "snep"
+      },
+      {
+        "position": 57,
+        "track": {
+          "title": "La vie",
+          "artist": "DJ Ross feat. Kumi"
+        },
+        "label": "IDOL",
+        "previousPosition": 50,
+        "movement": "down",
+        "weeksOnChart": 14,
+        "peakPosition": 57,
+        "source": "snep"
+      },
+      {
+        "position": 58,
+        "track": {
+          "title": "Laisse-les parler",
+          "artist": "Keen' V feat. Ajnin"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 49,
+        "movement": "down",
+        "weeksOnChart": 15,
+        "peakPosition": 58,
+        "source": "snep"
+      },
+      {
+        "position": 59,
+        "track": {
+          "title": "Grand petit con",
+          "artist": "M"
+        },
+        "label": "WAGRAM MUSIC",
+        "previousPosition": 70,
+        "movement": "up",
+        "weeksOnChart": 21,
+        "peakPosition": 59,
+        "source": "snep"
+      },
+      {
+        "position": 60,
+        "track": {
+          "title": "Ice cream",
+          "artist": "Mika"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 63,
+        "movement": "up",
+        "weeksOnChart": 12,
+        "peakPosition": 60,
+        "source": "snep"
+      }
+    ],
+    "source": "snepmusique.com",
+    "cached_at": "2026-11-14"
+  },
+  "2019-37": {
+    "week": 37,
+    "year": 2019,
+    "date": "09/09/2019",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Senorita",
+          "artist": "Shawn Mendes & Camila Cabello"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 1,
+        "movement": "same",
+        "weeksOnChart": 11,
+        "peakPosition": 1,
+        "source": "snep"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Loco contigo",
+          "artist": "DJ Snake feat. J-Balvin & Tyga"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 2,
+        "movement": "same",
+        "weeksOnChart": 13,
+        "peakPosition": 2,
+        "source": "snep"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "I don't care",
+          "artist": "Ed Sheeran & Justin Bieber"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 3,
+        "movement": "same",
+        "weeksOnChart": 18,
+        "peakPosition": 3,
+        "source": "snep"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Can we pretend",
+          "artist": "Pink"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 6,
+        "movement": "up",
+        "weeksOnChart": 19,
+        "peakPosition": 4,
+        "source": "snep"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Beautiful people",
+          "artist": "Ed Sheeran feat. Khalid"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 5,
+        "movement": "same",
+        "weeksOnChart": 11,
+        "peakPosition": 5,
+        "source": "snep"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Birds",
+          "artist": "Imagine Dragons"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 8,
+        "movement": "up",
+        "weeksOnChart": 14,
+        "peakPosition": 6,
+        "source": "snep"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Allez reste",
+          "artist": "Boulevard des airs feat. Vianney"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 4,
+        "movement": "down",
+        "weeksOnChart": 30,
+        "peakPosition": 7,
+        "source": "snep"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Flou",
+          "artist": "Angèle"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 10,
+        "movement": "up",
+        "weeksOnChart": 15,
+        "peakPosition": 8,
+        "source": "snep"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Nue",
+          "artist": "Clara Luciani"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 7,
+        "movement": "down",
+        "weeksOnChart": 25,
+        "peakPosition": 9,
+        "source": "snep"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Heaven",
+          "artist": "Avicii"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 17,
+        "movement": "up",
+        "weeksOnChart": 14,
+        "peakPosition": 10,
+        "source": "snep"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Someone you loved",
+          "artist": "Lewis Capaldi"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 12,
+        "movement": "up",
+        "weeksOnChart": 27,
+        "peakPosition": 11,
+        "source": "snep"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Monster",
+          "artist": "LUM!X & Gabry Ponte"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 11,
+        "movement": "down",
+        "weeksOnChart": 11,
+        "peakPosition": 12,
+        "source": "snep"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Compliqué",
+          "artist": "Dadju"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 19,
+        "movement": "up",
+        "weeksOnChart": 11,
+        "peakPosition": 13,
+        "source": "snep"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Con calma",
+          "artist": "Daddy Yankee"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 14,
+        "movement": "same",
+        "weeksOnChart": 29,
+        "peakPosition": 14,
+        "source": "snep"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Old town road",
+          "artist": "Lil Nas X"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 9,
+        "movement": "down",
+        "weeksOnChart": 19,
+        "peakPosition": 15,
+        "source": "snep"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Let me down slowly",
+          "artist": "Alec Benjamin"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 25,
+        "peakPosition": 16,
+        "source": "snep"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Hola senorita",
+          "artist": "Gims feat. Maluma"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 23,
+        "movement": "up",
+        "weeksOnChart": 16,
+        "peakPosition": 17,
+        "source": "snep"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Le coach",
+          "artist": "Soprano feat. Vincenzo"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 20,
+        "movement": "up",
+        "weeksOnChart": 15,
+        "peakPosition": 18,
+        "source": "snep"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Don't call me up",
+          "artist": "MABEL"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 21,
+        "movement": "up",
+        "weeksOnChart": 32,
+        "peakPosition": 19,
+        "source": "snep"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Donnez-moi",
+          "artist": "Les Frangines"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 34,
+        "movement": "up",
+        "weeksOnChart": 17,
+        "peakPosition": 20,
+        "source": "snep"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "You say",
+          "artist": "Lauren Daigle"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 22,
+        "movement": "up",
+        "weeksOnChart": 29,
+        "peakPosition": 21,
+        "source": "snep"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Calma (Remix)",
+          "artist": "Pedro Capo feat. Farruko"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 15,
+        "movement": "down",
+        "weeksOnChart": 35,
+        "peakPosition": 22,
+        "source": "snep"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Piece of your heart",
+          "artist": "Meduza"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 16,
+        "movement": "down",
+        "weeksOnChart": 20,
+        "peakPosition": 23,
+        "source": "snep"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Ca va ça vient",
+          "artist": "Vitaa & Slimane"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 27,
+        "movement": "up",
+        "weeksOnChart": 12,
+        "peakPosition": 24,
+        "source": "snep"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "China",
+          "artist": "Anuel Aa, Daddy Yankee, Karol G, J-Balvin & Ozuna"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 52,
+        "movement": "up",
+        "weeksOnChart": 5,
+        "peakPosition": 25,
+        "source": "snep"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Promesses",
+          "artist": "Bigflo & Oli"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 35,
+        "movement": "up",
+        "weeksOnChart": 8,
+        "peakPosition": 26,
+        "source": "snep"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Always (Quota fr)",
+          "artist": "Gavin James feat. Philippine"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 29,
+        "movement": "up",
+        "weeksOnChart": 11,
+        "peakPosition": 27,
+        "source": "snep"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Dance monkey",
+          "artist": "Tones and I"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 40,
+        "movement": "up",
+        "weeksOnChart": 5,
+        "peakPosition": 28,
+        "source": "snep"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Summer days",
+          "artist": "Martin Garrix, Macklemore, Patrick Stump of Fall Out Boy"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 17,
+        "peakPosition": 29,
+        "source": "snep"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "Viens",
+          "artist": "Yannick Noah"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 48,
+        "movement": "up",
+        "weeksOnChart": 14,
+        "peakPosition": 30,
+        "source": "snep"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Les gens",
+          "artist": "Christophe Maé"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 70,
+        "movement": "up",
+        "weeksOnChart": 2,
+        "peakPosition": 31,
+        "source": "snep"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Beautiful",
+          "artist": "The Avener"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 31,
+        "movement": "down",
+        "weeksOnChart": 16,
+        "peakPosition": 32,
+        "source": "snep"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "Plus haut",
+          "artist": "Claudio Capéo"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 32,
+        "movement": "down",
+        "weeksOnChart": 17,
+        "peakPosition": 33,
+        "source": "snep"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Soleil",
+          "artist": "Roméo Elvis"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 26,
+        "movement": "down",
+        "weeksOnChart": 16,
+        "peakPosition": 34,
+        "source": "snep"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "Pookie",
+          "artist": "Aya Nakamura"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 23,
+        "peakPosition": 35,
+        "source": "snep"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Power over me",
+          "artist": "Dermot Kennedy"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 39,
+        "peakPosition": 36,
+        "source": "snep"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "Summer is a curse",
+          "artist": "The Faim"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 44,
+        "movement": "up",
+        "weeksOnChart": 10,
+        "peakPosition": 37,
+        "source": "snep"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Les planètes",
+          "artist": "M. Pokora"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 30,
+        "movement": "down",
+        "weeksOnChart": 28,
+        "peakPosition": 38,
+        "source": "snep"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "Dans mon délire",
+          "artist": "Black M feat. Heuss L'enfoiré & Soolking"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 69,
+        "movement": "up",
+        "weeksOnChart": 3,
+        "peakPosition": 39,
+        "source": "snep"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "Only human",
+          "artist": "Jonas Brothers"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 45,
+        "movement": "up",
+        "weeksOnChart": 11,
+        "peakPosition": 40,
+        "source": "snep"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "Reste",
+          "artist": "Gims feat. Sting"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 47,
+        "movement": "up",
+        "weeksOnChart": 3,
+        "peakPosition": 41,
+        "source": "snep"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Balance ton quoi",
+          "artist": "Angèle"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 30,
+        "peakPosition": 42,
+        "source": "snep"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Narcotic",
+          "artist": "Younotus"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 38,
+        "movement": "down",
+        "weeksOnChart": 11,
+        "peakPosition": 43,
+        "source": "snep"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Torn",
+          "artist": "Ava Max"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 55,
+        "movement": "up",
+        "weeksOnChart": 4,
+        "peakPosition": 44,
+        "source": "snep"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "So am I",
+          "artist": "Ava Max"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 39,
+        "movement": "down",
+        "weeksOnChart": 27,
+        "peakPosition": 45,
+        "source": "snep"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "L'homme nouveau",
+          "artist": "Jérémy Frérot"
+        },
+        "label": "BELIEVE",
+        "previousPosition": 46,
+        "movement": "same",
+        "weeksOnChart": 16,
+        "peakPosition": 46,
+        "source": "snep"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "Goodbyes",
+          "artist": "Post Malone"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 37,
+        "movement": "down",
+        "weeksOnChart": 9,
+        "peakPosition": 47,
+        "source": "snep"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Rescue me",
+          "artist": "OneRepublic"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 49,
+        "movement": "up",
+        "weeksOnChart": 16,
+        "peakPosition": 48,
+        "source": "snep"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Tombé",
+          "artist": "M. Pokora"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 41,
+        "movement": "down",
+        "weeksOnChart": 12,
+        "peakPosition": 49,
+        "source": "snep"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Bad guy",
+          "artist": "Billie Eilish"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 21,
+        "peakPosition": 50,
+        "source": "snep"
+      },
+      {
+        "position": 51,
+        "track": {
+          "title": "Toutes les machines ont un coeur",
+          "artist": "Maëlle"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 42,
+        "movement": "down",
+        "weeksOnChart": 20,
+        "peakPosition": 51,
+        "source": "snep"
+      },
+      {
+        "position": 52,
+        "track": {
+          "title": "Higher love",
+          "artist": "Kygo feat. Whitney Houston"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 51,
+        "movement": "down",
+        "weeksOnChart": 5,
+        "peakPosition": 52,
+        "source": "snep"
+      },
+      {
+        "position": 53,
+        "track": {
+          "title": "ME!",
+          "artist": "Taylor Swift feat. Brendon Urie"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 20,
+        "peakPosition": 53,
+        "source": "snep"
+      },
+      {
+        "position": 54,
+        "track": {
+          "title": "Presque",
+          "artist": "Alain Souchon"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 43,
+        "movement": "down",
+        "weeksOnChart": 2,
+        "peakPosition": 54,
+        "source": "snep"
+      },
+      {
+        "position": 55,
+        "track": {
+          "title": "Elle est bonne sa mère",
+          "artist": "Vegedream feat. Ninho"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 57,
+        "movement": "up",
+        "weeksOnChart": 14,
+        "peakPosition": 55,
+        "source": "snep"
+      },
+      {
+        "position": 56,
+        "track": {
+          "title": "Walk me home",
+          "artist": "Pink"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 60,
+        "movement": "up",
+        "weeksOnChart": 28,
+        "peakPosition": 56,
+        "source": "snep"
+      },
+      {
+        "position": 57,
+        "track": {
+          "title": "Grand petit con",
+          "artist": "M"
+        },
+        "label": "WAGRAM MUSIC",
+        "previousPosition": 61,
+        "movement": "up",
+        "weeksOnChart": 24,
+        "peakPosition": 57,
+        "source": "snep"
+      },
+      {
+        "position": 58,
+        "track": {
+          "title": "En nuit",
+          "artist": "Videoclub"
+        },
+        "label": "SONY MUSIC",
+        "previousPosition": 86,
+        "movement": "up",
+        "weeksOnChart": 7,
+        "peakPosition": 58,
+        "source": "snep"
+      },
+      {
+        "position": 59,
+        "track": {
+          "title": "Always remember us this way",
+          "artist": "Lady GaGa"
+        },
+        "label": "UNIVERSAL",
+        "previousPosition": 50,
+        "movement": "down",
+        "weeksOnChart": 34,
+        "peakPosition": 59,
+        "source": "snep"
+      },
+      {
+        "position": 60,
+        "track": {
+          "title": "Allez leur dire",
+          "artist": "Silvan Areg"
+        },
+        "label": "WARNER MUSIC",
+        "previousPosition": 53,
+        "movement": "down",
+        "weeksOnChart": 20,
+        "peakPosition": 60,
+        "source": "snep"
+      }
+    ],
+    "source": "snepmusique.com",
+    "cached_at": "2026-11-14"
+  },
+  "2019-41": {
+    "week": 41,
+    "year": 2019,
+    "date": "07/10/2019",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Dance Monkey",
+          "artist": "Tones and I"
+        },
+        "previousPosition": 1,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Reste",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": 4,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Señorita",
+          "artist": "Shawn Mendes"
+        },
+        "previousPosition": 2,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Popopop",
+          "artist": "Gambi"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Ça va ça vient",
+          "artist": "Vitaa"
+        },
+        "previousPosition": 5,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Unstoppable",
+          "artist": "Sia"
+        },
+        "previousPosition": 3,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Le coach",
+          "artist": "Soprano"
+        },
+        "previousPosition": 6,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Tombé",
+          "artist": "M. Pokora"
+        },
+        "previousPosition": 11,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "On oublie le reste (feat. K...",
+          "artist": "Jenifer"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Torn",
+          "artist": "Ava Max"
+        },
+        "previousPosition": 10,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Ride It",
+          "artist": "Regard"
+        },
+        "previousPosition": 29,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Bad Guy",
+          "artist": "Billie Eilish"
+        },
+        "previousPosition": 8,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Monster",
+          "artist": "Lum!x & Gabry Ponte"
+        },
+        "previousPosition": 18,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Old Town Road",
+          "artist": "Lil Nas X"
+        },
+        "previousPosition": 14,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Donnez-moi",
+          "artist": "Les Frangines"
+        },
+        "previousPosition": 16,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Someone You Loved",
+          "artist": "Lewis Capaldi"
+        },
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "M'effondre",
+          "artist": "Mylène Farmer"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Rapper S Delight",
+          "artist": "The Sugarhill Gang"
+        },
+        "previousPosition": 30,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Mada",
+          "artist": "Kalash"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Birds",
+          "artist": "Imagine Dragons"
+        },
+        "previousPosition": 20,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Shallow",
+          "artist": "Lady Gaga"
+        },
+        "previousPosition": 9,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "HIGHEST IN THE ROOM",
+          "artist": "Travis Scott"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Flou",
+          "artist": "Angèle"
+        },
+        "previousPosition": 26,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Les planètes",
+          "artist": "M. Pokora"
+        },
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "I'll Never Love Again",
+          "artist": "Lady Gaga"
+        },
+        "previousPosition": 39,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
+    "cached_at": "2026-11-14"
+  },
+  "2019-42": {
+    "week": 42,
+    "year": 2019,
+    "date": "14/10/2019",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Dance Monkey",
+          "artist": "Tones and I"
+        },
+        "previousPosition": 1,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Reste",
+          "artist": "Maître Gims"
+        },
+        "previousPosition": 2,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Ça va ça vient",
+          "artist": "Vitaa"
+        },
+        "previousPosition": 5,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Señorita",
+          "artist": "Shawn Mendes"
+        },
+        "previousPosition": 3,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Unstoppable",
+          "artist": "Sia"
+        },
+        "previousPosition": 6,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Ride It",
+          "artist": "Regard"
+        },
+        "previousPosition": 11,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Birds",
+          "artist": "Imagine Dragons"
+        },
+        "previousPosition": 20,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Le coach",
+          "artist": "Soprano"
+        },
+        "previousPosition": 7,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Tombé",
+          "artist": "M. Pokora"
+        },
+        "previousPosition": 8,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Perdus",
+          "artist": "Angèle"
+        },
+        "previousPosition": 96,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Ma vie",
+          "artist": "Dadju"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Lights Up",
+          "artist": "Harry Styles"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Popopop",
+          "artist": "Gambi"
+        },
+        "previousPosition": 4,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Donnez-moi",
+          "artist": "Les Frangines"
+        },
+        "previousPosition": 15,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Monster",
+          "artist": "Lum!x & Gabry Ponte"
+        },
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "Torn",
+          "artist": "Ava Max"
+        },
+        "previousPosition": 10,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "Old Town Road",
+          "artist": "Lil Nas X"
+        },
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Bad Guy",
+          "artist": "Billie Eilish"
+        },
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Memories",
+          "artist": "Maroon 5"
+        },
+        "previousPosition": 57,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Flou",
+          "artist": "Angèle"
+        },
+        "previousPosition": 23,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Nue",
+          "artist": "Clara Luciani"
+        },
+        "previousPosition": 28,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Someone You Loved",
+          "artist": "Lewis Capaldi"
+        },
+        "previousPosition": 16,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Que Calor",
+          "artist": "Major Lazer"
+        },
+        "previousPosition": 34,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Les planètes",
+          "artist": "M. Pokora"
+        },
+        "previousPosition": 24,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Shallow",
+          "artist": "Lady Gaga"
+        },
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 1,
     "cached_at": "2026-11-14"
   }
 }

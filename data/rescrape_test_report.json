@@ -1,636 +1,91 @@
 [
   {
-    "key": "2018-01",
+    "key": "2019-05",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      22
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "22": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-02",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      26
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "26": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-03",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      26
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "26": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-04",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      29
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "29": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-05",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      31
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "31": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-06",
-    "status": "ok",
-    "entries_before": 58,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      32,
-      58
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "32": "U2 — You're the best thing about me",
-      "58": "NF — Let you down"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-07",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      31
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "31": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-08",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      37
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "37": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-09",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      35
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "35": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-10",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      32
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "32": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-11",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      29
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "29": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-12",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      42
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "42": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-13",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      45
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "45": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-14",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      41
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "41": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-15",
-    "status": "ok",
-    "entries_before": 58,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      26,
-      48
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "26": "Nicky Jam feat. J Balvin — X",
-      "48": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-16",
-    "status": "ok",
-    "entries_before": 58,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      16,
-      45
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "16": "Nicky Jam feat. J Balvin — X",
-      "45": "U2 — You're the best thing about me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-17",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      21
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "21": "Nicky Jam feat. J Balvin — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-18",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      17
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "17": "Nicky Jam feat. J Balvin — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-19",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      37
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "37": "Nicky Jam feat. J Balvin — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-20",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      29
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "29": "Nicky Jam feat. J Balvin — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-21",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      26
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "26": "Nicky Jam feat. J Balvin — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-22",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      29
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "29": "Nicky Jam feat. J Balvin — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-23",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      28
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "28": "Nicky Jam feat. J Balvin — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-24",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      24
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "24": "Nicky Jam feat. J Balvin — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-25",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      33
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "33": "Nicky Jam feat. J Balvin — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-26",
-    "status": "ok",
-    "entries_before": 58,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      33,
-      57
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "33": "Nicky Jam feat. J Balvin — X",
-      "57": "Louane — No"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-27",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      50
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "50": "Nicky Jam feat. J Balvin — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-28",
-    "status": "ok",
-    "entries_before": 58,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      53,
-      54
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "53": "Louane — No",
-      "54": "Nicky Jam feat. J Balvin — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-29",
-    "status": "ok",
-    "entries_before": 58,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      45,
       51
     ],
     "gaps_after": [],
     "recovered": {
-      "45": "Louane — No",
-      "51": "Nicky Jam feat. J Balvin — X"
+      "51": "M — Superchérie"
     },
     "still_missing": []
   },
   {
-    "key": "2018-30",
+    "key": "2019-32",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      45
+      59
     ],
     "gaps_after": [],
     "recovered": {
-      "45": "Louane — No"
+      "59": "M — Grand petit con"
     },
     "still_missing": []
   },
   {
-    "key": "2018-31",
+    "key": "2019-34",
     "status": "ok",
-    "entries_before": 58,
+    "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      46,
-      48
+      59
     ],
     "gaps_after": [],
     "recovered": {
-      "46": "Louane — No",
-      "48": "Nicky Jam feat. J Balvin — X"
+      "59": "M — Grand petit con"
     },
     "still_missing": []
   },
   {
-    "key": "2018-32",
+    "key": "2019-37",
     "status": "ok",
-    "entries_before": 58,
+    "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      46,
       57
     ],
     "gaps_after": [],
     "recovered": {
-      "46": "Louane — No",
-      "57": "Nicky Jam feat. J Balvin — X"
+      "57": "M — Grand petit con"
     },
     "still_missing": []
   },
   {
-    "key": "2018-33",
+    "key": "2019-41",
     "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
+    "entries_before": 24,
+    "entries_after": 25,
+    "reference": 25,
     "gaps_before": [
-      46
+      18
     ],
     "gaps_after": [],
     "recovered": {
-      "46": "Louane — No"
+      "18": "The Sugarhill Gang — Rapper S Delight"
     },
     "still_missing": []
   },
   {
-    "key": "2018-34",
+    "key": "2019-42",
     "status": "ok",
-    "entries_before": 58,
-    "entries_after": 60,
-    "reference": 60,
+    "entries_before": 24,
+    "entries_after": 25,
+    "reference": 25,
     "gaps_before": [
-      44,
-      51
+      13
     ],
     "gaps_after": [],
     "recovered": {
-      "44": "Louane — No",
-      "51": "Joyce Jonathan — On"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-35",
-    "status": "ok",
-    "entries_before": 58,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      50,
-      55
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "50": "Joyce Jonathan — On",
-      "55": "Louane — No"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-36",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      54
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "54": "Joyce Jonathan — On"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-38",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      59
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "59": "Joyce Jonathan — On"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-41",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      54
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "54": "Joyce Jonathan — On"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-42",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      59
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "59": "Joyce Jonathan — On"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-43",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      47
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "47": "Joyce Jonathan — On"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2018-45",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      59
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "59": "Joyce Jonathan — On"
+      "13": "Gambi — Popopop"
     },
     "still_missing": []
   }
