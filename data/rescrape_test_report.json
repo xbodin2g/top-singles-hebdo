@@ -1,596 +1,278 @@
 [
   {
-    "key": "2002-01",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      2
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "2": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-02",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      2,
-      53
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "2": "L5 — Toutes les femmes de ta vie",
-      "53": "Alizée — Gourmandises"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-03",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      7
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "7": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-04",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      8,
-      37
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "8": "L5 — Toutes les femmes de ta vie",
-      "37": "Sébastien Chato — Avoir une fille"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-05",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      8,
-      12
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "8": "L5 — Une étincelle",
-      "12": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-06",
-    "status": "ok",
-    "entries_before": 96,
-    "entries_after": 100,
-    "gaps_before": [
-      7,
-      8,
-      17,
-      84
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "7": "L5 — Une étincelle",
-      "8": "Jennifer Lopez — I'm Real",
-      "17": "L5 — Toutes les femmes de ta vie",
-      "84": "Daddy DJ — Over You"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-07",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      10,
-      19
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "10": "L5 — Une étincelle",
-      "19": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-08",
-    "status": "ok",
-    "entries_before": 95,
-    "entries_after": 100,
-    "gaps_before": [
-      3,
-      7,
-      10,
-      13,
-      29
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Olivia Ruiz, Jenifer & Carine Haddadou — Gimme! Gimme! Gimme! (A Man...",
-      "7": "Pascal Obispo — Millésime",
-      "10": "Alicia Keys — Fallin'",
-      "13": "L5 — Une étincelle",
-      "29": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-09",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      14,
-      32
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "14": "L5 — Une étincelle",
-      "32": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-10",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      3,
-      9,
-      34
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Marc Lavoine & Cristina Marocco — J'ai tout oublié",
-      "9": "L5 — Une étincelle",
-      "34": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-11",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      12,
-      17,
-      40
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "12": "L5 — Une étincelle",
-      "17": "Weezer — Island In The Sun",
-      "40": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-12",
-    "status": "ok",
-    "entries_before": 95,
-    "entries_after": 100,
-    "gaps_before": [
-      15,
-      16,
-      21,
-      35,
-      43
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "15": "R. Kelly — The World's Greatest",
-      "16": "Anastacia — Paid My Dues",
-      "21": "L5 — Une étincelle",
-      "35": "Kylie Minogue — In Your Eyes",
-      "43": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-13",
-    "status": "ok",
-    "entries_before": 95,
-    "entries_after": 100,
-    "gaps_before": [
-      9,
-      18,
-      28,
-      49,
-      69
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "9": "Priscilla — Cette vie nouvelle",
-      "18": "Olivia Ruiz, Jenifer & Carine Haddadou — Gimme! Gimme! Gimme! (A Man...",
-      "28": "L5 — Une étincelle",
-      "49": "L5 — Toutes les femmes de ta vie",
-      "69": "Djalil — Au pays de mes rêves"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-14",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      40,
-      58
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "40": "L5 — Une étincelle",
-      "58": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-15",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      8,
-      48,
-      68
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "8": "Lorie — Toute seule",
-      "48": "L5 — Une étincelle",
-      "68": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-16",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      63,
-      81
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "63": "L5 — Une étincelle",
-      "81": "L5 — Toutes les femmes de ta vie"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-17",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      34,
-      76
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "34": "L5 — Question de survie (de l'air!)",
-      "76": "L5 — Une étincelle"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-18",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      33,
-      36,
-      91
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "33": "Grégori Baquet — Comment lui dire",
-      "36": "L5 — Question de survie (de l'air!)",
-      "91": "L5 — Une étincelle"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-19",
+    "key": "2003-01",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
       37,
-      95
+      48
     ],
     "gaps_after": [],
     "recovered": {
-      "37": "L5 — Question de survie (de l'air!)",
-      "95": "L5 — Une étincelle"
+      "37": "L5 — Retiens-moi",
+      "48": "L5 — Aime"
     },
     "still_missing": []
   },
   {
-    "key": "2002-20",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      37
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "37": "L5 — Question de survie (de l'air!)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-21",
+    "key": "2003-02",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      5,
-      53
+      30,
+      55
     ],
     "gaps_after": [],
     "recovered": {
-      "5": "Mad'House — Like A Prayer",
-      "53": "L5 — Question de survie (de l'air!)"
+      "30": "L5 — Retiens-moi",
+      "55": "L5 — Aime"
     },
     "still_missing": []
   },
   {
-    "key": "2002-22",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      56
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "56": "L5 — Question de survie (de l'air!)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-23",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      62
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "62": "L5 — Question de survie (de l'air!)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-24",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      35,
-      65,
-      81
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "35": "Stomy Bugsy — Motivation",
-      "65": "L5 — Question de survie (de l'air!)",
-      "81": "L5 — Une étincelle"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-25",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      43,
-      45,
-      82
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "43": "Pink — Get The Party Started",
-      "45": "Laurent Voulzy — La fille d'Avril",
-      "82": "L5 — Question de survie (de l'air!)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-26",
+    "key": "2003-03",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      48,
-      78
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "48": "Sum 41 — In Too Deep",
-      "78": "L5 — Question de survie (de l'air!)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-27",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      93
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "93": "L5 — Question de survie (de l'air!)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-28",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      25
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "25": "Sman — J'ai tout imaginé"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-29",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      2
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "2": "Bratisla Boys — Stach Stach"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-33",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      4
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Bratisla Boys — Stach Stach"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-35",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      18
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "18": "Elvis Presley vs. JXL — A Little Less Conversation"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-37",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      48,
+      20,
       66
     ],
     "gaps_after": [],
     "recovered": {
-      "48": "Mad'House — Holiday",
-      "66": "Le 6-9 — Faut passer ton bac"
+      "20": "L5 — Retiens-moi",
+      "66": "L5 — Aime"
     },
     "still_missing": []
   },
   {
-    "key": "2002-38",
+    "key": "2003-04",
     "status": "ok",
-    "entries_before": 96,
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      12,
+      40,
+      80
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "12": "Joël O'Cangha — Tous les hommes",
+      "40": "L5 — Retiens-moi",
+      "80": "L5 — Aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-05",
+    "status": "ok",
+    "entries_before": 97,
     "entries_after": 100,
     "gaps_before": [
       4,
-      54,
-      76,
-      86
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Renaud & Axelle Red — Manhattan-Kaboul",
-      "54": "Sum 41 — In Too Deep",
-      "76": "Natasha St-Pier — Tu trouveras",
-      "86": "Snoop Dogg & Jamel Debbouze — Mission Cleopatra"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-39",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      32
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "32": "The Calling — Wherever You Will Go"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-40",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      60,
+      41,
       84
     ],
     "gaps_after": [],
     "recovered": {
-      "60": "Tim Deluxe feat. Sam Obernik — It Just Won't Do",
-      "84": "Tiziano Ferro — Perdono"
+      "4": "Chimène Badi — Entre nous",
+      "41": "L5 — Retiens-moi",
+      "84": "L5 — Aime"
     },
     "still_missing": []
   },
   {
-    "key": "2002-41",
+    "key": "2003-06",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      45,
+      91
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "45": "L5 — Retiens-moi",
+      "91": "L5 — Aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-07",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      42,
+      98
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "42": "L5 — Retiens-moi",
+      "98": "L5 — Aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-08",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      6,
+      47,
+      60
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "6": "Houcine — Être un homme comme vous",
+      "47": "Avril Lavigne — Complicated",
+      "60": "L5 — Retiens-moi"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-09",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      71,
+      73
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "71": "L5 — Retiens-moi",
+      "73": "Nas — I Can"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-10",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      53,
+      67,
+      80
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "53": "Beenie Man feat. Assia — Street Life",
+      "67": "Avril Lavigne — Complicated",
+      "80": "L5 — Retiens-moi"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-11",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      6
+      90
     ],
     "gaps_after": [],
     "recovered": {
-      "6": "King Africa — La bomba"
+      "90": "L5 — Retiens-moi"
     },
     "still_missing": []
   },
   {
-    "key": "2002-42",
+    "key": "2003-12",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      100
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "100": "L5 — Retiens-moi"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-14",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      14
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "14": "Justin Timberlake — Cry Me A River"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-15",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      3
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Nolwenn Leroy — Cassé"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-16",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      51
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "51": "Florent Neuray & Frédérica Sorel — Ma seule chanson d'amour"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-17",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      16,
+      23,
+      73
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "16": "Gareth Gates — Unchained Melody",
+      "23": "L5 — Maniac",
+      "73": "Alexandre Balduzzi — Tout le monde me dit"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-18",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      10,
+      11
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "10": "Kyo — Dernière danse",
+      "11": "L5 — Maniac"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-19",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
@@ -599,183 +281,569 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "13": "L5 — Aime"
+      "13": "L5 — Maniac"
     },
     "still_missing": []
   },
   {
-    "key": "2002-43",
+    "key": "2003-20",
     "status": "ok",
     "entries_before": 97,
     "entries_after": 100,
     "gaps_before": [
-      14,
-      18,
-      20
+      13,
+      49,
+      61
     ],
     "gaps_after": [],
     "recovered": {
-      "14": "Lorie — J'ai besoin d'amour",
-      "18": "U2 — Electrical Storm",
-      "20": "L5 — Aime"
+      "13": "L5 — Maniac",
+      "49": "Robbie Williams — Come Undone",
+      "61": "t.A.T.u. — Not Gonna Get Us"
     },
     "still_missing": []
   },
   {
-    "key": "2002-44",
+    "key": "2003-21",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      18,
-      38
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "18": "L5 — Aime",
-      "38": "U2 — Electrical Storm"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-45",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      26,
-      42
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "26": "L5 — Aime",
-      "42": "U2 — Electrical Storm"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-46",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      11,
-      28,
-      70
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "11": "Renaud & Axelle Red — Manhattan-Kaboul",
-      "28": "L5 — Aime",
-      "70": "U2 — Electrical Storm"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-47",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      29,
-      71,
-      72
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "29": "L5 — Aime",
-      "71": "Dany Brillant — Tu vuo' fa l'americano",
-      "72": "U2 — Electrical Storm"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2002-48",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      32,
-      77,
+      21,
       78
     ],
     "gaps_after": [],
     "recovered": {
-      "32": "L5 — Aime",
-      "77": "Youssou N'Dour & Pascal Obispo — So Many Men",
-      "78": "U2 — Electrical Storm"
+      "21": "L5 — Maniac",
+      "78": "Félicien — Tranquille Émile"
     },
     "still_missing": []
   },
   {
-    "key": "2002-49",
+    "key": "2003-22",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      25
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "25": "L5 — Maniac"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-23",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      36,
-      91
+      20,
+      33
     ],
     "gaps_after": [],
     "recovered": {
-      "36": "L5 — Aime",
-      "91": "U2 — Electrical Storm"
+      "20": "Diam's — DJ",
+      "33": "L5 — Maniac"
     },
     "still_missing": []
   },
   {
-    "key": "2002-50",
+    "key": "2003-24",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      16,
+      27,
+      40
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "16": "Diam's — DJ",
+      "27": "One-T + Cool-T — The Magic Key",
+      "40": "L5 — Maniac"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-25",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      13,
+      38
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "13": "Diam's — DJ",
+      "38": "L5 — Maniac"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-26",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      11,
+      39
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "11": "Diam's — DJ",
+      "39": "L5 — Maniac"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-27",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      12,
+      63
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "12": "Diam's — DJ",
+      "63": "L5 — Maniac"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-28",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      9,
+      72
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "9": "Diam's — DJ",
+      "72": "L5 — Maniac"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-29",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      7,
+      25,
+      84
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "7": "Diam's — DJ",
+      "25": "50 Cent — In Da Club",
+      "84": "L5 — Maniac"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-30",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      6,
+      31,
+      92
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "6": "Diam's — DJ",
+      "31": "Indochine — Marilyn",
+      "92": "L5 — Maniac"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-31",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      4,
+      29
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Diam's — DJ",
+      "29": "Pink — Family Portrait"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-32",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      3,
+      34
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Diam's — DJ",
+      "34": "3T — Stuck On You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-33",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      3,
+      19
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Diam's — DJ",
+      "19": "3T — Stuck On You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-34",
     "status": "ok",
     "entries_before": 96,
     "entries_after": 100,
     "gaps_before": [
       2,
-      42,
-      52,
-      98
+      18,
+      22,
+      26
     ],
     "gaps_after": [],
     "recovered": {
-      "2": "Las Ketchup — The Ketchup Song (Aserejé)",
-      "42": "L5 — Aime",
-      "52": "L5 — Retiens-moi",
-      "98": "U2 — Electrical Storm"
+      "2": "Diam's — DJ",
+      "18": "3T — Stuck On You",
+      "22": "Beyoncé — Crazy In Love",
+      "26": "Pink — Family Portrait"
     },
     "still_missing": []
   },
   {
-    "key": "2002-51",
+    "key": "2003-35",
     "status": "ok",
-    "entries_before": 97,
+    "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      46,
-      47,
-      90
+      2,
+      17
     ],
     "gaps_after": [],
     "recovered": {
-      "46": "L5 — Retiens-moi",
-      "47": "L5 — Aime",
-      "90": "U2 — Electrical Storm"
+      "2": "Diam's — DJ",
+      "17": "3T — Stuck On You"
     },
     "still_missing": []
   },
   {
-    "key": "2002-52",
+    "key": "2003-36",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      3,
+      20
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Diam's — DJ",
+      "20": "3T — Stuck On You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-37",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      3,
+      17
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Diam's — DJ",
+      "17": "3T — Stuck On You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-38",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      4,
+      15
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Diam's — DJ",
+      "15": "3T — Stuck On You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-39",
     "status": "ok",
     "entries_before": 97,
     "entries_after": 100,
     "gaps_before": [
-      43,
-      52,
-      94
+      6,
+      10,
+      13
     ],
     "gaps_after": [],
     "recovered": {
-      "43": "L5 — Retiens-moi",
-      "52": "L5 — Aime",
-      "94": "U2 — Electrical Storm"
+      "6": "Diam's — DJ",
+      "10": "3T — Stuck On You",
+      "13": "The Underdog Project vs. Sunclub — Summer Jam 2003"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-40",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      8,
+      12,
+      84
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "8": "Diam's — DJ",
+      "12": "3T — Stuck On You",
+      "84": "Raphaël & Jean-Louis Aubert — Sur la route"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-41",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      6,
+      11
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "6": "Diam's — DJ",
+      "11": "3T — Stuck On You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-42",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      10
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "10": "3T — Stuck On You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-43",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      7,
+      12
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "7": "Diam's — DJ",
+      "12": "3T — Stuck On You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-44",
+    "status": "ok",
+    "entries_before": 96,
+    "entries_after": 100,
+    "gaps_before": [
+      8,
+      15,
+      23,
+      63
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "8": "Diam's — DJ",
+      "15": "3T — Stuck On You",
+      "23": "Marc Lavoine & Bambou — Dis-moi que l'amour",
+      "63": "L5 — Reste encore"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-45",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      10,
+      17,
+      56
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "10": "Diam's — DJ",
+      "17": "3T — Stuck On You",
+      "56": "L5 — Reste encore"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-46",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      15,
+      27,
+      60
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "15": "Diam's — DJ",
+      "27": "3T — Stuck On You",
+      "60": "L5 — Reste encore"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-47",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      14,
+      31,
+      72
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "14": "Diam's — DJ",
+      "31": "3T — Stuck On You",
+      "72": "L5 — Reste encore"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-48",
+    "status": "ok",
+    "entries_before": 96,
+    "entries_after": 100,
+    "gaps_before": [
+      18,
+      39,
+      68,
+      79
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "18": "Diam's — DJ",
+      "39": "3T — Stuck On You",
+      "68": "Sweet Generation — Toi le père Noël",
+      "79": "L5 — Reste encore"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-49",
+    "status": "ok",
+    "entries_before": 96,
+    "entries_after": 100,
+    "gaps_before": [
+      24,
+      50,
+      58,
+      80
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "24": "Diam's — DJ",
+      "50": "3T — Stuck On You",
+      "58": "Christina Aguilera feat. Lil' Kim — Can't Hold Us Down",
+      "80": "L5 — Reste encore"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-50",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      27,
+      62,
+      85
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "27": "Diam's — DJ",
+      "62": "3T — Stuck On You",
+      "85": "L5 — Reste encore"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-51",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      29,
+      66,
+      93
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "29": "Diam's — DJ",
+      "66": "3T — Stuck On You",
+      "93": "L5 — Reste encore"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2003-52",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      31,
+      68
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "31": "Diam's — DJ",
+      "68": "3T — Stuck On You"
     },
     "still_missing": []
   }
