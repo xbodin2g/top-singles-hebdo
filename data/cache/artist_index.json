@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T16:09:54.979067+00:00",
+  "generatedAt": "2026-11-14T16:32:22.462755+00:00",
   "archiveCount": 2198,
-  "artistCount": 4660,
-  "trackCount": 10768,
+  "artistCount": 4662,
+  "trackCount": 10771,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -3358,6 +3358,19 @@
           "peakDate": "10/02/2014"
         },
         {
+          "key": "play hard|david guetta",
+          "title": "Play Hard (feat. Ne-Yo & Akon)",
+          "credit": "David Guetta",
+          "firstKey": "2013-12",
+          "firstDate": "18/03/2013",
+          "lastKey": "2013-33",
+          "lastDate": "12/08/2013",
+          "weeks": 22,
+          "peak": 7,
+          "peakKey": "2013-13",
+          "peakDate": "25/03/2013"
+        },
+        {
           "key": "when we were young|david guetta",
           "title": "When we were young",
           "credit": "David Guetta feat. Kim Petras",
@@ -3369,19 +3382,6 @@
           "peak": 7,
           "peakKey": "2024-06",
           "peakDate": "05/02/2024"
-        },
-        {
-          "key": "play hard|david guetta",
-          "title": "Play Hard (feat. Ne-Yo & Akon)",
-          "credit": "David Guetta",
-          "firstKey": "2013-13",
-          "firstDate": "25/03/2013",
-          "lastKey": "2013-33",
-          "lastDate": "12/08/2013",
-          "weeks": 21,
-          "peak": 7,
-          "peakKey": "2013-13",
-          "peakDate": "25/03/2013"
         },
         {
           "key": "don t leave me alone|david guetta",
@@ -3671,7 +3671,7 @@
         }
       ],
       "trackCount": 48,
-      "totalWeeks": 993,
+      "totalWeeks": 994,
       "bestPeak": 1,
       "firstYear": 2001,
       "lastYear": 2026,
@@ -7911,7 +7911,7 @@
           "firstDate": "11/03/2013",
           "lastKey": "2013-31",
           "lastDate": "29/07/2013",
-          "weeks": 18,
+          "weeks": 21,
           "peak": 1,
           "peakKey": "2013-12",
           "peakDate": "18/03/2013"
@@ -7943,6 +7943,19 @@
           "peakDate": "07/10/2019"
         },
         {
+          "key": "zombie|maitre gims",
+          "title": "Zombie",
+          "credit": "Maître Gims",
+          "firstKey": "2013-49",
+          "firstDate": "02/12/2013",
+          "lastKey": "2014-18",
+          "lastDate": "28/04/2014",
+          "weeks": 22,
+          "peak": 3,
+          "peakKey": "2013-49",
+          "peakDate": "02/12/2013"
+        },
+        {
           "key": "bella|maitre gims",
           "title": "Bella",
           "credit": "Maître Gims",
@@ -7954,19 +7967,6 @@
           "peak": 3,
           "peakKey": "2013-21",
           "peakDate": "20/05/2013"
-        },
-        {
-          "key": "zombie|maitre gims",
-          "title": "Zombie",
-          "credit": "Maître Gims",
-          "firstKey": "2013-49",
-          "firstDate": "02/12/2013",
-          "lastKey": "2014-18",
-          "lastDate": "28/04/2014",
-          "weeks": 20,
-          "peak": 3,
-          "peakKey": "2013-49",
-          "peakDate": "02/12/2013"
         },
         {
           "key": "est ce que tu m aimes|maitre gims",
@@ -8243,7 +8243,7 @@
         }
       ],
       "trackCount": 26,
-      "totalWeeks": 319,
+      "totalWeeks": 324,
       "bestPeak": 1,
       "firstYear": 2013,
       "lastYear": 2019,
@@ -9375,7 +9375,7 @@
           "firstDate": "16/09/2013",
           "lastKey": "2013-45",
           "lastDate": "04/11/2013",
-          "weeks": 6,
+          "weeks": 7,
           "peak": 6,
           "peakKey": "2013-38",
           "peakDate": "16/09/2013"
@@ -9577,7 +9577,7 @@
         }
       ],
       "trackCount": 24,
-      "totalWeeks": 472,
+      "totalWeeks": 473,
       "bestPeak": 1,
       "firstYear": 1999,
       "lastYear": 2013,
@@ -9951,7 +9951,7 @@
           "firstDate": "18/02/2013",
           "lastKey": "2013-14",
           "lastDate": "01/04/2013",
-          "weeks": 6,
+          "weeks": 7,
           "peak": 5,
           "peakKey": "2013-12",
           "peakDate": "18/03/2013"
@@ -10231,7 +10231,7 @@
         }
       ],
       "trackCount": 24,
-      "totalWeeks": 284,
+      "totalWeeks": 285,
       "bestPeak": 2,
       "firstYear": 1986,
       "lastYear": 2026,
@@ -12238,9 +12238,9 @@
           "credit": "Eminem",
           "firstKey": "2013-35",
           "firstDate": "26/08/2013",
-          "lastKey": "2013-45",
-          "lastDate": "04/11/2013",
-          "weeks": 6,
+          "lastKey": "2013-46",
+          "lastDate": "11/11/2013",
+          "weeks": 7,
           "peak": 10,
           "peakKey": "2013-41",
           "peakDate": "07/10/2013"
@@ -12416,7 +12416,7 @@
         }
       ],
       "trackCount": 22,
-      "totalWeeks": 333,
+      "totalWeeks": 334,
       "bestPeak": 1,
       "firstYear": 1999,
       "lastYear": 2024,
@@ -14230,7 +14230,7 @@
           "firstDate": "11/03/2013",
           "lastKey": "2013-33",
           "lastDate": "12/08/2013",
-          "weeks": 21,
+          "weeks": 22,
           "peak": 4,
           "peakKey": "2013-13",
           "peakDate": "25/03/2013"
@@ -14419,7 +14419,7 @@
         }
       ],
       "trackCount": 20,
-      "totalWeeks": 398,
+      "totalWeeks": 399,
       "bestPeak": 1,
       "firstYear": 2002,
       "lastYear": 2020,
@@ -19301,7 +19301,7 @@
           "firstDate": "15/04/2013",
           "lastKey": "2014-12",
           "lastDate": "17/03/2014",
-          "weeks": 41,
+          "weeks": 40,
           "peak": 1,
           "peakKey": "2013-16",
           "peakDate": "15/04/2013"
@@ -19516,7 +19516,7 @@
         }
       ],
       "trackCount": 17,
-      "totalWeeks": 247,
+      "totalWeeks": 246,
       "bestPeak": 1,
       "firstYear": 1997,
       "lastYear": 2024,
@@ -21228,7 +21228,7 @@
           "firstDate": "12/08/2013",
           "lastKey": "2013-52",
           "lastDate": "23/12/2013",
-          "weeks": 17,
+          "weeks": 19,
           "peak": 5,
           "peakKey": "2013-43",
           "peakDate": "21/10/2013"
@@ -21378,7 +21378,7 @@
         }
       ],
       "trackCount": 16,
-      "totalWeeks": 300,
+      "totalWeeks": 302,
       "bestPeak": 2,
       "firstYear": 2008,
       "lastYear": 2019,
@@ -24062,7 +24062,7 @@
           "firstDate": "28/10/2013",
           "lastKey": "2014-51",
           "lastDate": "15/12/2014",
-          "weeks": 36,
+          "weeks": 37,
           "peak": 11,
           "peakKey": "2013-44",
           "peakDate": "28/10/2013"
@@ -24160,7 +24160,7 @@
         }
       ],
       "trackCount": 14,
-      "totalWeeks": 327,
+      "totalWeeks": 328,
       "bestPeak": 2,
       "firstYear": 2007,
       "lastYear": 2022,
@@ -27145,11 +27145,11 @@
           "key": "tombe sous le charme|christophe mae",
           "title": "Tombé sous le charme",
           "credit": "Christophe Maé",
-          "firstKey": "2013-13",
-          "firstDate": "25/03/2013",
+          "firstKey": "2013-12",
+          "firstDate": "18/03/2013",
           "lastKey": "2013-27",
           "lastDate": "01/07/2013",
-          "weeks": 5,
+          "weeks": 6,
           "peak": 11,
           "peakKey": "2013-24",
           "peakDate": "10/06/2013"
@@ -27260,7 +27260,7 @@
         }
       ],
       "trackCount": 13,
-      "totalWeeks": 263,
+      "totalWeeks": 264,
       "bestPeak": 1,
       "firstYear": 2007,
       "lastYear": 2026,
@@ -27465,7 +27465,7 @@
           "firstDate": "23/09/2013",
           "lastKey": "2014-02",
           "lastDate": "06/01/2014",
-          "weeks": 15,
+          "weeks": 16,
           "peak": 1,
           "peakKey": "2013-43",
           "peakDate": "21/10/2013"
@@ -27628,7 +27628,7 @@
         }
       ],
       "trackCount": 13,
-      "totalWeeks": 219,
+      "totalWeeks": 220,
       "bestPeak": 1,
       "firstYear": 2007,
       "lastYear": 2026,
@@ -27820,6 +27820,190 @@
       "firstDate": "30/12/1984",
       "lastKey": "2010-04",
       "lastDate": "25/01/2010"
+    },
+    {
+      "id": "avicii",
+      "name": "Avicii",
+      "tracks": [
+        {
+          "key": "wake me up|avicii",
+          "title": "Wake Me Up",
+          "credit": "Avicii",
+          "firstKey": "2013-26",
+          "firstDate": "24/06/2013",
+          "lastKey": "2014-04",
+          "lastDate": "20/01/2014",
+          "weeks": 31,
+          "peak": 1,
+          "peakKey": "2013-34",
+          "peakDate": "19/08/2013"
+        },
+        {
+          "key": "waiting for love|avicii",
+          "title": "Waiting for love",
+          "credit": "Avicii",
+          "firstKey": "2015-26",
+          "firstDate": "22/06/2015",
+          "lastKey": "2016-02",
+          "lastDate": "11/01/2016",
+          "weeks": 29,
+          "peak": 2,
+          "peakKey": "2015-32",
+          "peakDate": "03/08/2015"
+        },
+        {
+          "key": "addicted to you|avicii",
+          "title": "Addicted To You",
+          "credit": "Avicii",
+          "firstKey": "2014-04",
+          "firstDate": "20/01/2014",
+          "lastKey": "2014-27",
+          "lastDate": "30/06/2014",
+          "weeks": 22,
+          "peak": 3,
+          "peakKey": "2014-16",
+          "peakDate": "14/04/2014"
+        },
+        {
+          "key": "hey brother|avicii",
+          "title": "Hey Brother",
+          "credit": "Avicii",
+          "firstKey": "2013-43",
+          "firstDate": "21/10/2013",
+          "lastKey": "2014-26",
+          "lastDate": "23/06/2014",
+          "weeks": 29,
+          "peak": 4,
+          "peakKey": "2013-47",
+          "peakDate": "18/11/2013"
+        },
+        {
+          "key": "lay me down|avicii",
+          "title": "Lay me down",
+          "credit": "Avicii",
+          "firstKey": "2014-18",
+          "firstDate": "28/04/2014",
+          "lastKey": "2014-36",
+          "lastDate": "01/09/2014",
+          "weeks": 18,
+          "peak": 6,
+          "peakKey": "2014-28",
+          "peakDate": "07/07/2014"
+        },
+        {
+          "key": "heaven|avicii",
+          "title": "Heaven",
+          "credit": "Avicii",
+          "firstKey": "2019-27",
+          "firstDate": "01/07/2019",
+          "lastKey": "2019-48",
+          "lastDate": "25/11/2019",
+          "weeks": 20,
+          "peak": 8,
+          "peakKey": "2019-38",
+          "peakDate": "16/09/2019"
+        },
+        {
+          "key": "without you|avicii",
+          "title": "Without you",
+          "credit": "Avicii",
+          "firstKey": "2017-35",
+          "firstDate": "28/08/2017",
+          "lastKey": "2018-01",
+          "lastDate": "01/01/2018",
+          "weeks": 17,
+          "peak": 8,
+          "peakKey": "2017-40",
+          "peakDate": "02/10/2017"
+        },
+        {
+          "key": "lonely together|avicii",
+          "title": "Lonely together",
+          "credit": "Avicii feat. Rita Ora",
+          "firstKey": "2017-45",
+          "firstDate": "06/11/2017",
+          "lastKey": "2018-09",
+          "lastDate": "26/02/2018",
+          "weeks": 17,
+          "peak": 10,
+          "peakKey": "2017-50",
+          "peakDate": "11/12/2017"
+        },
+        {
+          "key": "levels|avicii",
+          "title": "Levels",
+          "credit": "Avicii",
+          "firstKey": "2012-06",
+          "firstDate": "06/02/2012",
+          "lastKey": "2012-09",
+          "lastDate": "27/02/2012",
+          "weeks": 4,
+          "peak": 17,
+          "peakKey": "2012-07",
+          "peakDate": "13/02/2012"
+        },
+        {
+          "key": "the days|avicii",
+          "title": "The days",
+          "credit": "Avicii",
+          "firstKey": "2014-41",
+          "firstDate": "06/10/2014",
+          "lastKey": "2014-49",
+          "lastDate": "01/12/2014",
+          "weeks": 9,
+          "peak": 21,
+          "peakKey": "2014-41",
+          "peakDate": "06/10/2014"
+        },
+        {
+          "key": "i could be the one|avicii",
+          "title": "I Could Be The One",
+          "credit": "Avicii",
+          "firstKey": "2013-02",
+          "firstDate": "07/01/2013",
+          "lastKey": "2013-08",
+          "lastDate": "18/02/2013",
+          "weeks": 4,
+          "peak": 22,
+          "peakKey": "2013-07",
+          "peakDate": "11/02/2013"
+        },
+        {
+          "key": "sos|avicii",
+          "title": "SOS",
+          "credit": "Avicii",
+          "firstKey": "2019-17",
+          "firstDate": "22/04/2019",
+          "lastKey": "2019-27",
+          "lastDate": "01/07/2019",
+          "weeks": 11,
+          "peak": 29,
+          "peakKey": "2019-21",
+          "peakDate": "20/05/2019"
+        },
+        {
+          "key": "for a better day|avicii",
+          "title": "For a better day",
+          "credit": "Avicii",
+          "firstKey": "2015-44",
+          "firstDate": "26/10/2015",
+          "lastKey": "2015-50",
+          "lastDate": "07/12/2015",
+          "weeks": 2,
+          "peak": 59,
+          "peakKey": "2015-44",
+          "peakDate": "26/10/2015"
+        }
+      ],
+      "trackCount": 13,
+      "totalWeeks": 213,
+      "bestPeak": 1,
+      "firstYear": 2012,
+      "lastYear": 2019,
+      "firstKey": "2012-06",
+      "firstDate": "06/02/2012",
+      "lastKey": "2019-48",
+      "lastDate": "25/11/2019"
     },
     {
       "id": "kygo",
@@ -28188,190 +28372,6 @@
       "firstDate": "11/11/1984",
       "lastKey": "2003-39",
       "lastDate": "22/09/2003"
-    },
-    {
-      "id": "avicii",
-      "name": "Avicii",
-      "tracks": [
-        {
-          "key": "wake me up|avicii",
-          "title": "Wake Me Up",
-          "credit": "Avicii",
-          "firstKey": "2013-26",
-          "firstDate": "24/06/2013",
-          "lastKey": "2014-04",
-          "lastDate": "20/01/2014",
-          "weeks": 30,
-          "peak": 1,
-          "peakKey": "2013-34",
-          "peakDate": "19/08/2013"
-        },
-        {
-          "key": "waiting for love|avicii",
-          "title": "Waiting for love",
-          "credit": "Avicii",
-          "firstKey": "2015-26",
-          "firstDate": "22/06/2015",
-          "lastKey": "2016-02",
-          "lastDate": "11/01/2016",
-          "weeks": 29,
-          "peak": 2,
-          "peakKey": "2015-32",
-          "peakDate": "03/08/2015"
-        },
-        {
-          "key": "addicted to you|avicii",
-          "title": "Addicted To You",
-          "credit": "Avicii",
-          "firstKey": "2014-04",
-          "firstDate": "20/01/2014",
-          "lastKey": "2014-27",
-          "lastDate": "30/06/2014",
-          "weeks": 22,
-          "peak": 3,
-          "peakKey": "2014-16",
-          "peakDate": "14/04/2014"
-        },
-        {
-          "key": "hey brother|avicii",
-          "title": "Hey Brother",
-          "credit": "Avicii",
-          "firstKey": "2013-43",
-          "firstDate": "21/10/2013",
-          "lastKey": "2014-26",
-          "lastDate": "23/06/2014",
-          "weeks": 28,
-          "peak": 4,
-          "peakKey": "2013-50",
-          "peakDate": "09/12/2013"
-        },
-        {
-          "key": "lay me down|avicii",
-          "title": "Lay me down",
-          "credit": "Avicii",
-          "firstKey": "2014-18",
-          "firstDate": "28/04/2014",
-          "lastKey": "2014-36",
-          "lastDate": "01/09/2014",
-          "weeks": 18,
-          "peak": 6,
-          "peakKey": "2014-28",
-          "peakDate": "07/07/2014"
-        },
-        {
-          "key": "heaven|avicii",
-          "title": "Heaven",
-          "credit": "Avicii",
-          "firstKey": "2019-27",
-          "firstDate": "01/07/2019",
-          "lastKey": "2019-48",
-          "lastDate": "25/11/2019",
-          "weeks": 20,
-          "peak": 8,
-          "peakKey": "2019-38",
-          "peakDate": "16/09/2019"
-        },
-        {
-          "key": "without you|avicii",
-          "title": "Without you",
-          "credit": "Avicii",
-          "firstKey": "2017-35",
-          "firstDate": "28/08/2017",
-          "lastKey": "2018-01",
-          "lastDate": "01/01/2018",
-          "weeks": 17,
-          "peak": 8,
-          "peakKey": "2017-40",
-          "peakDate": "02/10/2017"
-        },
-        {
-          "key": "lonely together|avicii",
-          "title": "Lonely together",
-          "credit": "Avicii feat. Rita Ora",
-          "firstKey": "2017-45",
-          "firstDate": "06/11/2017",
-          "lastKey": "2018-09",
-          "lastDate": "26/02/2018",
-          "weeks": 17,
-          "peak": 10,
-          "peakKey": "2017-50",
-          "peakDate": "11/12/2017"
-        },
-        {
-          "key": "levels|avicii",
-          "title": "Levels",
-          "credit": "Avicii",
-          "firstKey": "2012-06",
-          "firstDate": "06/02/2012",
-          "lastKey": "2012-09",
-          "lastDate": "27/02/2012",
-          "weeks": 4,
-          "peak": 17,
-          "peakKey": "2012-07",
-          "peakDate": "13/02/2012"
-        },
-        {
-          "key": "the days|avicii",
-          "title": "The days",
-          "credit": "Avicii",
-          "firstKey": "2014-41",
-          "firstDate": "06/10/2014",
-          "lastKey": "2014-49",
-          "lastDate": "01/12/2014",
-          "weeks": 9,
-          "peak": 21,
-          "peakKey": "2014-41",
-          "peakDate": "06/10/2014"
-        },
-        {
-          "key": "i could be the one|avicii",
-          "title": "I Could Be The One",
-          "credit": "Avicii",
-          "firstKey": "2013-02",
-          "firstDate": "07/01/2013",
-          "lastKey": "2013-08",
-          "lastDate": "18/02/2013",
-          "weeks": 4,
-          "peak": 22,
-          "peakKey": "2013-07",
-          "peakDate": "11/02/2013"
-        },
-        {
-          "key": "sos|avicii",
-          "title": "SOS",
-          "credit": "Avicii",
-          "firstKey": "2019-17",
-          "firstDate": "22/04/2019",
-          "lastKey": "2019-27",
-          "lastDate": "01/07/2019",
-          "weeks": 11,
-          "peak": 29,
-          "peakKey": "2019-21",
-          "peakDate": "20/05/2019"
-        },
-        {
-          "key": "for a better day|avicii",
-          "title": "For a better day",
-          "credit": "Avicii",
-          "firstKey": "2015-44",
-          "firstDate": "26/10/2015",
-          "lastKey": "2015-50",
-          "lastDate": "07/12/2015",
-          "weeks": 2,
-          "peak": 59,
-          "peakKey": "2015-44",
-          "peakDate": "26/10/2015"
-        }
-      ],
-      "trackCount": 13,
-      "totalWeeks": 211,
-      "bestPeak": 1,
-      "firstYear": 2012,
-      "lastYear": 2019,
-      "firstKey": "2012-06",
-      "firstDate": "06/02/2012",
-      "lastKey": "2019-48",
-      "lastDate": "25/11/2019"
     },
     {
       "id": "francois feldman",
@@ -29686,7 +29686,7 @@
           "firstDate": "29/07/2013",
           "lastKey": "2014-01",
           "lastDate": "30/12/2013",
-          "weeks": 20,
+          "weeks": 21,
           "peak": 2,
           "peakKey": "2013-39",
           "peakDate": "23/09/2013"
@@ -29836,7 +29836,7 @@
         }
       ],
       "trackCount": 13,
-      "totalWeeks": 131,
+      "totalWeeks": 132,
       "bestPeak": 2,
       "firstYear": 2013,
       "lastYear": 2022,
@@ -30580,7 +30580,7 @@
           "firstDate": "30/09/2013",
           "lastKey": "2014-04",
           "lastDate": "20/01/2014",
-          "weeks": 14,
+          "weeks": 15,
           "peak": 3,
           "peakKey": "2013-45",
           "peakDate": "04/11/2013"
@@ -30691,7 +30691,7 @@
         }
       ],
       "trackCount": 12,
-      "totalWeeks": 208,
+      "totalWeeks": 209,
       "bestPeak": 1,
       "firstYear": 2010,
       "lastYear": 2023,
@@ -31145,7 +31145,7 @@
           "firstDate": "11/02/2013",
           "lastKey": "2013-15",
           "lastDate": "08/04/2013",
-          "weeks": 4,
+          "weeks": 5,
           "peak": 15,
           "peakKey": "2013-07",
           "peakDate": "11/02/2013"
@@ -31204,7 +31204,7 @@
         }
       ],
       "trackCount": 12,
-      "totalWeeks": 180,
+      "totalWeeks": 181,
       "bestPeak": 1,
       "firstYear": 2003,
       "lastYear": 2018,
@@ -35727,7 +35727,7 @@
           "firstDate": "03/06/2013",
           "lastKey": "2014-08",
           "lastDate": "17/02/2014",
-          "weeks": 36,
+          "weeks": 37,
           "peak": 1,
           "peakKey": "2013-36",
           "peakDate": "02/09/2013"
@@ -35825,7 +35825,7 @@
         }
       ],
       "trackCount": 10,
-      "totalWeeks": 243,
+      "totalWeeks": 244,
       "bestPeak": 1,
       "firstYear": 2010,
       "lastYear": 2022,
@@ -36448,11 +36448,11 @@
           "key": "wrecking ball|miley cyrus",
           "title": "Wrecking Ball",
           "credit": "Miley Cyrus",
-          "firstKey": "2013-38",
-          "firstDate": "16/09/2013",
+          "firstKey": "2013-37",
+          "firstDate": "09/09/2013",
           "lastKey": "2014-03",
           "lastDate": "13/01/2014",
-          "weeks": 18,
+          "weeks": 19,
           "peak": 2,
           "peakKey": "2013-48",
           "peakDate": "25/11/2013"
@@ -36550,7 +36550,7 @@
         }
       ],
       "trackCount": 10,
-      "totalWeeks": 195,
+      "totalWeeks": 196,
       "bestPeak": 1,
       "firstYear": 2009,
       "lastYear": 2026,
@@ -39629,7 +39629,7 @@
           "firstDate": "04/03/2013",
           "lastKey": "2013-22",
           "lastDate": "27/05/2013",
-          "weeks": 12,
+          "weeks": 13,
           "peak": 9,
           "peakKey": "2013-13",
           "peakDate": "25/03/2013"
@@ -39675,7 +39675,7 @@
         }
       ],
       "trackCount": 9,
-      "totalWeeks": 187,
+      "totalWeeks": 188,
       "bestPeak": 1,
       "firstYear": 2012,
       "lastYear": 2026,
@@ -40237,7 +40237,7 @@
           "firstDate": "01/10/2012",
           "lastKey": "2013-19",
           "lastDate": "06/05/2013",
-          "weeks": 28,
+          "weeks": 29,
           "peak": 1,
           "peakKey": "2012-44",
           "peakDate": "29/10/2012"
@@ -40335,7 +40335,7 @@
         }
       ],
       "trackCount": 9,
-      "totalWeeks": 161,
+      "totalWeeks": 162,
       "bestPeak": 1,
       "firstYear": 2011,
       "lastYear": 2022,
@@ -45495,6 +45495,125 @@
       "lastDate": "03/01/1994"
     },
     {
+      "id": "zaho",
+      "name": "Zaho",
+      "tracks": [
+        {
+          "key": "c est chelou|zaho",
+          "title": "C'est chelou",
+          "credit": "Zaho",
+          "firstKey": "2008-15",
+          "firstDate": "07/04/2008",
+          "lastKey": "2009-04",
+          "lastDate": "19/01/2009",
+          "weeks": 38,
+          "peak": 2,
+          "peakKey": "2008-15",
+          "peakDate": "07/04/2008"
+        },
+        {
+          "key": "laissez les kouma|zaho",
+          "title": "Laissez les kouma",
+          "credit": "Zaho",
+          "firstKey": "2016-29",
+          "firstDate": "18/07/2016",
+          "lastKey": "2016-42",
+          "lastDate": "17/10/2016",
+          "weeks": 14,
+          "peak": 5,
+          "peakKey": "2016-35",
+          "peakDate": "29/08/2016"
+        },
+        {
+          "key": "comme caroline|zaho",
+          "title": "Comme Caroline",
+          "credit": "Zaho feat. MC Solaar",
+          "firstKey": "2026-11",
+          "firstDate": "09/03/2026",
+          "lastKey": "2026-31",
+          "lastDate": "27/07/2026",
+          "weeks": 21,
+          "peak": 6,
+          "peakKey": "2026-17",
+          "peakDate": "20/04/2026"
+        },
+        {
+          "key": "la roue tourne|zaho",
+          "title": "La roue tourne",
+          "credit": "Zaho feat. Tunisiano",
+          "firstKey": "2008-30",
+          "firstDate": "21/07/2008",
+          "lastKey": "2011-04",
+          "lastDate": "24/01/2011",
+          "weeks": 34,
+          "peak": 15,
+          "peakKey": "2008-33",
+          "peakDate": "11/08/2008"
+        },
+        {
+          "key": "tourner la page|zaho",
+          "title": "Tourner la page",
+          "credit": "Zaho",
+          "firstKey": "2013-13",
+          "firstDate": "25/03/2013",
+          "lastKey": "2013-16",
+          "lastDate": "15/04/2013",
+          "weeks": 4,
+          "peak": 19,
+          "peakKey": "2013-15",
+          "peakDate": "08/04/2013"
+        },
+        {
+          "key": "kif n dir|zaho",
+          "title": "Kif'n'dir",
+          "credit": "Zaho",
+          "firstKey": "2008-51",
+          "firstDate": "15/12/2008",
+          "lastKey": "2009-24",
+          "lastDate": "08/06/2009",
+          "weeks": 25,
+          "peak": 33,
+          "peakKey": "2009-02",
+          "peakDate": "05/01/2009"
+        },
+        {
+          "key": "tant de choses|zaho",
+          "title": "Tant de choses",
+          "credit": "Zaho",
+          "firstKey": "2017-03",
+          "firstDate": "16/01/2017",
+          "lastKey": "2017-05",
+          "lastDate": "30/01/2017",
+          "weeks": 3,
+          "peak": 38,
+          "peakKey": "2017-04",
+          "peakDate": "23/01/2017"
+        },
+        {
+          "key": "comme tous les soirs|zaho",
+          "title": "Comme tous les soirs",
+          "credit": "Zaho",
+          "firstKey": "2017-20",
+          "firstDate": "15/05/2017",
+          "lastKey": "2017-21",
+          "lastDate": "22/05/2017",
+          "weeks": 2,
+          "peak": 56,
+          "peakKey": "2017-21",
+          "peakDate": "22/05/2017"
+        }
+      ],
+      "trackCount": 8,
+      "totalWeeks": 141,
+      "bestPeak": 2,
+      "firstYear": 2008,
+      "lastYear": 2026,
+      "firstKey": "2008-15",
+      "firstDate": "07/04/2008",
+      "lastKey": "2026-31",
+      "lastDate": "27/07/2026"
+    },
+    {
       "id": "gold",
       "name": "Gold",
       "tracks": [
@@ -45612,125 +45731,6 @@
       "firstDate": "23/06/1985",
       "lastKey": "1989-32",
       "lastDate": "06/08/1989"
-    },
-    {
-      "id": "zaho",
-      "name": "Zaho",
-      "tracks": [
-        {
-          "key": "c est chelou|zaho",
-          "title": "C'est chelou",
-          "credit": "Zaho",
-          "firstKey": "2008-15",
-          "firstDate": "07/04/2008",
-          "lastKey": "2009-04",
-          "lastDate": "19/01/2009",
-          "weeks": 38,
-          "peak": 2,
-          "peakKey": "2008-15",
-          "peakDate": "07/04/2008"
-        },
-        {
-          "key": "laissez les kouma|zaho",
-          "title": "Laissez les kouma",
-          "credit": "Zaho",
-          "firstKey": "2016-29",
-          "firstDate": "18/07/2016",
-          "lastKey": "2016-42",
-          "lastDate": "17/10/2016",
-          "weeks": 14,
-          "peak": 5,
-          "peakKey": "2016-35",
-          "peakDate": "29/08/2016"
-        },
-        {
-          "key": "comme caroline|zaho",
-          "title": "Comme Caroline",
-          "credit": "Zaho feat. MC Solaar",
-          "firstKey": "2026-11",
-          "firstDate": "09/03/2026",
-          "lastKey": "2026-31",
-          "lastDate": "27/07/2026",
-          "weeks": 21,
-          "peak": 6,
-          "peakKey": "2026-17",
-          "peakDate": "20/04/2026"
-        },
-        {
-          "key": "la roue tourne|zaho",
-          "title": "La roue tourne",
-          "credit": "Zaho feat. Tunisiano",
-          "firstKey": "2008-30",
-          "firstDate": "21/07/2008",
-          "lastKey": "2011-04",
-          "lastDate": "24/01/2011",
-          "weeks": 34,
-          "peak": 15,
-          "peakKey": "2008-33",
-          "peakDate": "11/08/2008"
-        },
-        {
-          "key": "tourner la page|zaho",
-          "title": "Tourner la page",
-          "credit": "Zaho",
-          "firstKey": "2013-13",
-          "firstDate": "25/03/2013",
-          "lastKey": "2013-15",
-          "lastDate": "08/04/2013",
-          "weeks": 3,
-          "peak": 19,
-          "peakKey": "2013-15",
-          "peakDate": "08/04/2013"
-        },
-        {
-          "key": "kif n dir|zaho",
-          "title": "Kif'n'dir",
-          "credit": "Zaho",
-          "firstKey": "2008-51",
-          "firstDate": "15/12/2008",
-          "lastKey": "2009-24",
-          "lastDate": "08/06/2009",
-          "weeks": 25,
-          "peak": 33,
-          "peakKey": "2009-02",
-          "peakDate": "05/01/2009"
-        },
-        {
-          "key": "tant de choses|zaho",
-          "title": "Tant de choses",
-          "credit": "Zaho",
-          "firstKey": "2017-03",
-          "firstDate": "16/01/2017",
-          "lastKey": "2017-05",
-          "lastDate": "30/01/2017",
-          "weeks": 3,
-          "peak": 38,
-          "peakKey": "2017-04",
-          "peakDate": "23/01/2017"
-        },
-        {
-          "key": "comme tous les soirs|zaho",
-          "title": "Comme tous les soirs",
-          "credit": "Zaho",
-          "firstKey": "2017-20",
-          "firstDate": "15/05/2017",
-          "lastKey": "2017-21",
-          "lastDate": "22/05/2017",
-          "weeks": 2,
-          "peak": 56,
-          "peakKey": "2017-21",
-          "peakDate": "22/05/2017"
-        }
-      ],
-      "trackCount": 8,
-      "totalWeeks": 140,
-      "bestPeak": 2,
-      "firstYear": 2008,
-      "lastYear": 2026,
-      "firstKey": "2008-15",
-      "firstDate": "07/04/2008",
-      "lastKey": "2026-31",
-      "lastDate": "27/07/2026"
     },
     {
       "id": "2 be 3",
@@ -50921,112 +50921,6 @@
       "lastDate": "02/01/2006"
     },
     {
-      "id": "emmanuel moire",
-      "name": "Emmanuel Moire",
-      "tracks": [
-        {
-          "key": "je fais de toi mon essentiel|emmanuel moire",
-          "title": "Je fais de toi mon essentiel",
-          "credit": "Emmanuel Moire",
-          "firstKey": "2005-17",
-          "firstDate": "25/04/2005",
-          "lastKey": "2005-33",
-          "lastDate": "15/08/2005",
-          "weeks": 17,
-          "peak": 3,
-          "peakKey": "2005-17",
-          "peakDate": "25/04/2005"
-        },
-        {
-          "key": "le sourire|emmanuel moire",
-          "title": "Le sourire",
-          "credit": "Emmanuel Moire",
-          "firstKey": "2006-52",
-          "firstDate": "25/12/2006",
-          "lastKey": "2007-24",
-          "lastDate": "11/06/2007",
-          "weeks": 25,
-          "peak": 7,
-          "peakKey": "2006-52",
-          "peakDate": "25/12/2006"
-        },
-        {
-          "key": "adulte sexy|emmanuel moire",
-          "title": "Adulte & sexy",
-          "credit": "Emmanuel Moire",
-          "firstKey": "2009-19",
-          "firstDate": "04/05/2009",
-          "lastKey": "2009-47",
-          "lastDate": "16/11/2009",
-          "weeks": 28,
-          "peak": 9,
-          "peakKey": "2009-19",
-          "peakDate": "04/05/2009"
-        },
-        {
-          "key": "etre a la hauteur|emmanuel moire",
-          "title": "Être à la hauteur",
-          "credit": "Emmanuel Moire",
-          "firstKey": "2004-48",
-          "firstDate": "22/11/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 21,
-          "peak": 9,
-          "peakKey": "2004-49",
-          "peakDate": "29/11/2004"
-        },
-        {
-          "key": "sans dire un mot|emmanuel moire",
-          "title": "Sans dire un mot",
-          "credit": "Emmanuel Moire",
-          "firstKey": "2010-01",
-          "firstDate": "04/01/2010",
-          "lastKey": "2010-21",
-          "lastDate": "24/05/2010",
-          "weeks": 21,
-          "peak": 11,
-          "peakKey": "2010-01",
-          "peakDate": "04/01/2010"
-        },
-        {
-          "key": "beau malheur|emmanuel moire",
-          "title": "Beau malheur",
-          "credit": "Emmanuel Moire",
-          "firstKey": "2013-08",
-          "firstDate": "18/02/2013",
-          "lastKey": "2013-28",
-          "lastDate": "08/07/2013",
-          "weeks": 10,
-          "peak": 11,
-          "peakKey": "2013-18",
-          "peakDate": "29/04/2013"
-        },
-        {
-          "key": "sois tranquille|emmanuel moire",
-          "title": "Sois tranquille",
-          "credit": "Emmanuel Moire",
-          "firstKey": "2012-41",
-          "firstDate": "08/10/2012",
-          "lastKey": "2012-42",
-          "lastDate": "15/10/2012",
-          "weeks": 2,
-          "peak": 21,
-          "peakKey": "2012-41",
-          "peakDate": "08/10/2012"
-        }
-      ],
-      "trackCount": 7,
-      "totalWeeks": 124,
-      "bestPeak": 3,
-      "firstYear": 2004,
-      "lastYear": 2013,
-      "firstKey": "2004-48",
-      "firstDate": "22/11/2004",
-      "lastKey": "2013-28",
-      "lastDate": "08/07/2013"
-    },
-    {
       "id": "laura pausini",
       "name": "Laura Pausini",
       "tracks": [
@@ -51237,6 +51131,112 @@
       "firstDate": "22/09/1997",
       "lastKey": "2009-43",
       "lastDate": "19/10/2009"
+    },
+    {
+      "id": "emmanuel moire",
+      "name": "Emmanuel Moire",
+      "tracks": [
+        {
+          "key": "je fais de toi mon essentiel|emmanuel moire",
+          "title": "Je fais de toi mon essentiel",
+          "credit": "Emmanuel Moire",
+          "firstKey": "2005-17",
+          "firstDate": "25/04/2005",
+          "lastKey": "2005-33",
+          "lastDate": "15/08/2005",
+          "weeks": 17,
+          "peak": 3,
+          "peakKey": "2005-17",
+          "peakDate": "25/04/2005"
+        },
+        {
+          "key": "le sourire|emmanuel moire",
+          "title": "Le sourire",
+          "credit": "Emmanuel Moire",
+          "firstKey": "2006-52",
+          "firstDate": "25/12/2006",
+          "lastKey": "2007-24",
+          "lastDate": "11/06/2007",
+          "weeks": 25,
+          "peak": 7,
+          "peakKey": "2006-52",
+          "peakDate": "25/12/2006"
+        },
+        {
+          "key": "adulte sexy|emmanuel moire",
+          "title": "Adulte & sexy",
+          "credit": "Emmanuel Moire",
+          "firstKey": "2009-19",
+          "firstDate": "04/05/2009",
+          "lastKey": "2009-47",
+          "lastDate": "16/11/2009",
+          "weeks": 28,
+          "peak": 9,
+          "peakKey": "2009-19",
+          "peakDate": "04/05/2009"
+        },
+        {
+          "key": "etre a la hauteur|emmanuel moire",
+          "title": "Être à la hauteur",
+          "credit": "Emmanuel Moire",
+          "firstKey": "2004-48",
+          "firstDate": "22/11/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 21,
+          "peak": 9,
+          "peakKey": "2004-49",
+          "peakDate": "29/11/2004"
+        },
+        {
+          "key": "sans dire un mot|emmanuel moire",
+          "title": "Sans dire un mot",
+          "credit": "Emmanuel Moire",
+          "firstKey": "2010-01",
+          "firstDate": "04/01/2010",
+          "lastKey": "2010-21",
+          "lastDate": "24/05/2010",
+          "weeks": 21,
+          "peak": 11,
+          "peakKey": "2010-01",
+          "peakDate": "04/01/2010"
+        },
+        {
+          "key": "beau malheur|emmanuel moire",
+          "title": "Beau malheur",
+          "credit": "Emmanuel Moire",
+          "firstKey": "2013-18",
+          "firstDate": "29/04/2013",
+          "lastKey": "2013-28",
+          "lastDate": "08/07/2013",
+          "weeks": 9,
+          "peak": 11,
+          "peakKey": "2013-18",
+          "peakDate": "29/04/2013"
+        },
+        {
+          "key": "sois tranquille|emmanuel moire",
+          "title": "Sois tranquille",
+          "credit": "Emmanuel Moire",
+          "firstKey": "2012-41",
+          "firstDate": "08/10/2012",
+          "lastKey": "2012-42",
+          "lastDate": "15/10/2012",
+          "weeks": 2,
+          "peak": 21,
+          "peakKey": "2012-41",
+          "peakDate": "08/10/2012"
+        }
+      ],
+      "trackCount": 7,
+      "totalWeeks": 123,
+      "bestPeak": 3,
+      "firstYear": 2004,
+      "lastYear": 2013,
+      "firstKey": "2004-48",
+      "firstDate": "22/11/2004",
+      "lastKey": "2013-28",
+      "lastDate": "08/07/2013"
     },
     {
       "id": "manau",
@@ -60901,6 +60901,99 @@
       "lastDate": "21/12/2015"
     },
     {
+      "id": "simple minds",
+      "name": "Simple Minds",
+      "tracks": [
+        {
+          "key": "mandela day|simple minds",
+          "title": "Mandela Day",
+          "credit": "Simple Minds",
+          "firstKey": "2013-49",
+          "firstDate": "02/12/2013",
+          "lastKey": "2013-49",
+          "lastDate": "02/12/2013",
+          "weeks": 1,
+          "peak": 11,
+          "peakKey": "2013-49",
+          "peakDate": "02/12/2013"
+        },
+        {
+          "key": "ballad of the streets|simple minds",
+          "title": "Ballad Of The Streets",
+          "credit": "Simple Minds",
+          "firstKey": "1989-17",
+          "firstDate": "23/04/1989",
+          "lastKey": "1989-33",
+          "lastDate": "13/08/1989",
+          "weeks": 17,
+          "peak": 20,
+          "peakKey": "1989-28",
+          "peakDate": "09/07/1989"
+        },
+        {
+          "key": "let there be love|simple minds",
+          "title": "Let There Be Love",
+          "credit": "Simple Minds",
+          "firstKey": "1991-14",
+          "firstDate": "07/04/1991",
+          "lastKey": "1991-26",
+          "lastDate": "30/06/1991",
+          "weeks": 13,
+          "peak": 23,
+          "peakKey": "1991-18",
+          "peakDate": "05/05/1991"
+        },
+        {
+          "key": "don t you|simple minds",
+          "title": "Don't You (Forget About Me)",
+          "credit": "Simple Minds",
+          "firstKey": "1985-39",
+          "firstDate": "29/09/1985",
+          "lastKey": "1985-52",
+          "lastDate": "29/12/1985",
+          "weeks": 12,
+          "peak": 24,
+          "peakKey": "1985-39",
+          "peakDate": "29/09/1985"
+        },
+        {
+          "key": "alive kicking|simple minds",
+          "title": "Alive & Kicking",
+          "credit": "Simple Minds",
+          "firstKey": "1986-06",
+          "firstDate": "09/02/1986",
+          "lastKey": "1986-14",
+          "lastDate": "06/04/1986",
+          "weeks": 8,
+          "peak": 33,
+          "peakKey": "1986-09",
+          "peakDate": "02/03/1986"
+        },
+        {
+          "key": "see the lights|simple minds",
+          "title": "See The Lights",
+          "credit": "Simple Minds",
+          "firstKey": "1991-31",
+          "firstDate": "04/08/1991",
+          "lastKey": "1991-38",
+          "lastDate": "22/09/1991",
+          "weeks": 8,
+          "peak": 33,
+          "peakKey": "1991-36",
+          "peakDate": "08/09/1991"
+        }
+      ],
+      "trackCount": 6,
+      "totalWeeks": 59,
+      "bestPeak": 11,
+      "firstYear": 1985,
+      "lastYear": 2013,
+      "firstKey": "1985-39",
+      "firstDate": "29/09/1985",
+      "lastKey": "2013-49",
+      "lastDate": "02/12/2013"
+    },
+    {
       "id": "gazo",
       "name": "Gazo",
       "tracks": [
@@ -65671,6 +65764,86 @@
       "lastDate": "17/04/2006"
     },
     {
+      "id": "will i am",
+      "name": "will.i.am",
+      "tracks": [
+        {
+          "key": "scream shout feat britn|will i am",
+          "title": "Scream & Shout (feat. Britn...",
+          "credit": "Will.I.Am",
+          "firstKey": "2012-47",
+          "firstDate": "19/11/2012",
+          "lastKey": "2013-21",
+          "lastDate": "20/05/2013",
+          "weeks": 27,
+          "peak": 1,
+          "peakKey": "2013-03",
+          "peakDate": "14/01/2013"
+        },
+        {
+          "key": "this is love|will i am",
+          "title": "This Is Love",
+          "credit": "will.i.am",
+          "firstKey": "2012-28",
+          "firstDate": "09/07/2012",
+          "lastKey": "2012-44",
+          "lastDate": "29/10/2012",
+          "weeks": 17,
+          "peak": 2,
+          "peakKey": "2012-31",
+          "peakDate": "30/07/2012"
+        },
+        {
+          "key": "thatpower|will i am",
+          "title": "#thatPOWER",
+          "credit": "Will.i.am",
+          "firstKey": "2013-16",
+          "firstDate": "15/04/2013",
+          "lastKey": "2013-24",
+          "lastDate": "10/06/2013",
+          "weeks": 9,
+          "peak": 11,
+          "peakKey": "2013-19",
+          "peakDate": "06/05/2013"
+        },
+        {
+          "key": "boys girls|will i am",
+          "title": "Boys & girls",
+          "credit": "Will.I.Am",
+          "firstKey": "2016-16",
+          "firstDate": "18/04/2016",
+          "lastKey": "2016-17",
+          "lastDate": "25/04/2016",
+          "weeks": 2,
+          "peak": 47,
+          "peakKey": "2016-16",
+          "peakDate": "18/04/2016"
+        },
+        {
+          "key": "i got it from my mama|will i am",
+          "title": "I Got It From My Mama",
+          "credit": "will.i.am",
+          "firstKey": "2007-44",
+          "firstDate": "29/10/2007",
+          "lastKey": "2008-10",
+          "lastDate": "03/03/2008",
+          "weeks": 17,
+          "peak": 49,
+          "peakKey": "2007-44",
+          "peakDate": "29/10/2007"
+        }
+      ],
+      "trackCount": 5,
+      "totalWeeks": 72,
+      "bestPeak": 1,
+      "firstYear": 2007,
+      "lastYear": 2016,
+      "firstKey": "2007-44",
+      "firstDate": "29/10/2007",
+      "lastKey": "2016-17",
+      "lastDate": "25/04/2016"
+    },
+    {
       "id": "enigma",
       "name": "Enigma",
       "tracks": [
@@ -65749,86 +65922,6 @@
       "firstDate": "30/12/1990",
       "lastKey": "1997-04",
       "lastDate": "20/01/1997"
-    },
-    {
-      "id": "will i am",
-      "name": "will.i.am",
-      "tracks": [
-        {
-          "key": "scream shout feat britn|will i am",
-          "title": "Scream & Shout (feat. Britn...",
-          "credit": "Will.I.Am",
-          "firstKey": "2012-47",
-          "firstDate": "19/11/2012",
-          "lastKey": "2013-21",
-          "lastDate": "20/05/2013",
-          "weeks": 26,
-          "peak": 1,
-          "peakKey": "2013-03",
-          "peakDate": "14/01/2013"
-        },
-        {
-          "key": "this is love|will i am",
-          "title": "This Is Love",
-          "credit": "will.i.am",
-          "firstKey": "2012-28",
-          "firstDate": "09/07/2012",
-          "lastKey": "2012-44",
-          "lastDate": "29/10/2012",
-          "weeks": 17,
-          "peak": 2,
-          "peakKey": "2012-31",
-          "peakDate": "30/07/2012"
-        },
-        {
-          "key": "thatpower|will i am",
-          "title": "#thatPOWER",
-          "credit": "Will.i.am",
-          "firstKey": "2013-16",
-          "firstDate": "15/04/2013",
-          "lastKey": "2013-24",
-          "lastDate": "10/06/2013",
-          "weeks": 9,
-          "peak": 11,
-          "peakKey": "2013-19",
-          "peakDate": "06/05/2013"
-        },
-        {
-          "key": "boys girls|will i am",
-          "title": "Boys & girls",
-          "credit": "Will.I.Am",
-          "firstKey": "2016-16",
-          "firstDate": "18/04/2016",
-          "lastKey": "2016-17",
-          "lastDate": "25/04/2016",
-          "weeks": 2,
-          "peak": 47,
-          "peakKey": "2016-16",
-          "peakDate": "18/04/2016"
-        },
-        {
-          "key": "i got it from my mama|will i am",
-          "title": "I Got It From My Mama",
-          "credit": "will.i.am",
-          "firstKey": "2007-44",
-          "firstDate": "29/10/2007",
-          "lastKey": "2008-10",
-          "lastDate": "03/03/2008",
-          "weeks": 17,
-          "peak": 49,
-          "peakKey": "2007-44",
-          "peakDate": "29/10/2007"
-        }
-      ],
-      "trackCount": 5,
-      "totalWeeks": 71,
-      "bestPeak": 1,
-      "firstYear": 2007,
-      "lastYear": 2016,
-      "firstKey": "2007-44",
-      "firstDate": "29/10/2007",
-      "lastKey": "2016-17",
-      "lastDate": "25/04/2016"
     },
     {
       "id": "jean michel jarre",
@@ -67509,86 +67602,6 @@
       "firstDate": "26/08/1996",
       "lastKey": "2000-52",
       "lastDate": "25/12/2000"
-    },
-    {
-      "id": "simple minds",
-      "name": "Simple Minds",
-      "tracks": [
-        {
-          "key": "ballad of the streets|simple minds",
-          "title": "Ballad Of The Streets",
-          "credit": "Simple Minds",
-          "firstKey": "1989-17",
-          "firstDate": "23/04/1989",
-          "lastKey": "1989-33",
-          "lastDate": "13/08/1989",
-          "weeks": 17,
-          "peak": 20,
-          "peakKey": "1989-28",
-          "peakDate": "09/07/1989"
-        },
-        {
-          "key": "let there be love|simple minds",
-          "title": "Let There Be Love",
-          "credit": "Simple Minds",
-          "firstKey": "1991-14",
-          "firstDate": "07/04/1991",
-          "lastKey": "1991-26",
-          "lastDate": "30/06/1991",
-          "weeks": 13,
-          "peak": 23,
-          "peakKey": "1991-18",
-          "peakDate": "05/05/1991"
-        },
-        {
-          "key": "don t you|simple minds",
-          "title": "Don't You (Forget About Me)",
-          "credit": "Simple Minds",
-          "firstKey": "1985-39",
-          "firstDate": "29/09/1985",
-          "lastKey": "1985-52",
-          "lastDate": "29/12/1985",
-          "weeks": 12,
-          "peak": 24,
-          "peakKey": "1985-39",
-          "peakDate": "29/09/1985"
-        },
-        {
-          "key": "alive kicking|simple minds",
-          "title": "Alive & Kicking",
-          "credit": "Simple Minds",
-          "firstKey": "1986-06",
-          "firstDate": "09/02/1986",
-          "lastKey": "1986-14",
-          "lastDate": "06/04/1986",
-          "weeks": 8,
-          "peak": 33,
-          "peakKey": "1986-09",
-          "peakDate": "02/03/1986"
-        },
-        {
-          "key": "see the lights|simple minds",
-          "title": "See The Lights",
-          "credit": "Simple Minds",
-          "firstKey": "1991-31",
-          "firstDate": "04/08/1991",
-          "lastKey": "1991-38",
-          "lastDate": "22/09/1991",
-          "weeks": 8,
-          "peak": 33,
-          "peakKey": "1991-36",
-          "peakDate": "08/09/1991"
-        }
-      ],
-      "trackCount": 5,
-      "totalWeeks": 58,
-      "bestPeak": 20,
-      "firstYear": 1985,
-      "lastYear": 1991,
-      "firstKey": "1985-39",
-      "firstDate": "29/09/1985",
-      "lastKey": "1991-38",
-      "lastDate": "22/09/1991"
     },
     {
       "id": "olivia ruiz",
@@ -72736,6 +72749,73 @@
       "lastDate": "09/11/2026"
     },
     {
+      "id": "macklemore",
+      "name": "Macklemore",
+      "tracks": [
+        {
+          "key": "thrift shop|macklemore",
+          "title": "Thrift Shop",
+          "credit": "Macklemore",
+          "firstKey": "2013-02",
+          "firstDate": "07/01/2013",
+          "lastKey": "2013-31",
+          "lastDate": "29/07/2013",
+          "weeks": 28,
+          "peak": 1,
+          "peakKey": "2013-04",
+          "peakDate": "21/01/2013"
+        },
+        {
+          "key": "can t hold us|macklemore",
+          "title": "Can't Hold Us",
+          "credit": "Macklemore",
+          "firstKey": "2013-09",
+          "firstDate": "25/02/2013",
+          "lastKey": "2013-34",
+          "lastDate": "19/08/2013",
+          "weeks": 26,
+          "peak": 3,
+          "peakKey": "2013-14",
+          "peakDate": "01/04/2013"
+        },
+        {
+          "key": "glorious|macklemore",
+          "title": "Glorious",
+          "credit": "Macklemore feat. Skylar Grey",
+          "firstKey": "2017-36",
+          "firstDate": "04/09/2017",
+          "lastKey": "2018-03",
+          "lastDate": "15/01/2018",
+          "weeks": 20,
+          "peak": 3,
+          "peakKey": "2017-42",
+          "peakDate": "16/10/2017"
+        },
+        {
+          "key": "same love|macklemore",
+          "title": "Same Love",
+          "credit": "Macklemore",
+          "firstKey": "2013-34",
+          "firstDate": "19/08/2013",
+          "lastKey": "2013-36",
+          "lastDate": "02/09/2013",
+          "weeks": 3,
+          "peak": 19,
+          "peakKey": "2013-35",
+          "peakDate": "26/08/2013"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 77,
+      "bestPeak": 1,
+      "firstYear": 2013,
+      "lastYear": 2018,
+      "firstKey": "2013-02",
+      "firstDate": "07/01/2013",
+      "lastKey": "2018-03",
+      "lastDate": "15/01/2018"
+    },
+    {
       "id": "juliette armanet",
       "name": "Juliette Armanet",
       "tracks": [
@@ -72868,73 +72948,6 @@
       "firstDate": "03/06/1990",
       "lastKey": "1992-04",
       "lastDate": "26/01/1992"
-    },
-    {
-      "id": "macklemore",
-      "name": "Macklemore",
-      "tracks": [
-        {
-          "key": "thrift shop|macklemore",
-          "title": "Thrift Shop",
-          "credit": "Macklemore",
-          "firstKey": "2013-02",
-          "firstDate": "07/01/2013",
-          "lastKey": "2013-31",
-          "lastDate": "29/07/2013",
-          "weeks": 27,
-          "peak": 1,
-          "peakKey": "2013-04",
-          "peakDate": "21/01/2013"
-        },
-        {
-          "key": "can t hold us|macklemore",
-          "title": "Can't Hold Us",
-          "credit": "Macklemore",
-          "firstKey": "2013-09",
-          "firstDate": "25/02/2013",
-          "lastKey": "2013-34",
-          "lastDate": "19/08/2013",
-          "weeks": 26,
-          "peak": 3,
-          "peakKey": "2013-14",
-          "peakDate": "01/04/2013"
-        },
-        {
-          "key": "glorious|macklemore",
-          "title": "Glorious",
-          "credit": "Macklemore feat. Skylar Grey",
-          "firstKey": "2017-36",
-          "firstDate": "04/09/2017",
-          "lastKey": "2018-03",
-          "lastDate": "15/01/2018",
-          "weeks": 20,
-          "peak": 3,
-          "peakKey": "2017-42",
-          "peakDate": "16/10/2017"
-        },
-        {
-          "key": "same love|macklemore",
-          "title": "Same Love",
-          "credit": "Macklemore",
-          "firstKey": "2013-34",
-          "firstDate": "19/08/2013",
-          "lastKey": "2013-36",
-          "lastDate": "02/09/2013",
-          "weeks": 3,
-          "peak": 19,
-          "peakKey": "2013-35",
-          "peakDate": "26/08/2013"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 76,
-      "bestPeak": 1,
-      "firstYear": 2013,
-      "lastYear": 2018,
-      "firstKey": "2013-02",
-      "firstDate": "07/01/2013",
-      "lastKey": "2018-03",
-      "lastDate": "15/01/2018"
     },
     {
       "id": "o zone",
@@ -73339,6 +73352,73 @@
       "lastDate": "30/01/1995"
     },
     {
+      "id": "sexion d assaut",
+      "name": "Sexion d'Assaut",
+      "tracks": [
+        {
+          "key": "avant qu elle parte|sexion d assaut",
+          "title": "Avant qu'elle parte",
+          "credit": "Sexion d'Assaut",
+          "firstKey": "2012-06",
+          "firstDate": "06/02/2012",
+          "lastKey": "2012-23",
+          "lastDate": "04/06/2012",
+          "weeks": 18,
+          "peak": 3,
+          "peakKey": "2012-11",
+          "peakDate": "12/03/2012"
+        },
+        {
+          "key": "wati house|sexion d assaut",
+          "title": "Wati House",
+          "credit": "Sexion d'Assaut",
+          "firstKey": "2012-16",
+          "firstDate": "16/04/2012",
+          "lastKey": "2012-40",
+          "lastDate": "01/10/2012",
+          "weeks": 23,
+          "peak": 4,
+          "peakKey": "2012-33",
+          "peakDate": "13/08/2012"
+        },
+        {
+          "key": "ma direction|sexion d assaut",
+          "title": "Ma direction",
+          "credit": "Sexion d'Assaut",
+          "firstKey": "2012-11",
+          "firstDate": "12/03/2012",
+          "lastKey": "2012-32",
+          "lastDate": "06/08/2012",
+          "weeks": 22,
+          "peak": 5,
+          "peakKey": "2012-21",
+          "peakDate": "21/05/2012"
+        },
+        {
+          "key": "problemes d adultes|sexion d assaut",
+          "title": "Problèmes d'adultes",
+          "credit": "Sexion d'Assaut",
+          "firstKey": "2012-48",
+          "firstDate": "26/11/2012",
+          "lastKey": "2013-07",
+          "lastDate": "11/02/2013",
+          "weeks": 12,
+          "peak": 11,
+          "peakKey": "2012-50",
+          "peakDate": "10/12/2012"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 75,
+      "bestPeak": 3,
+      "firstYear": 2012,
+      "lastYear": 2013,
+      "firstKey": "2012-06",
+      "firstDate": "06/02/2012",
+      "lastKey": "2013-07",
+      "lastDate": "11/02/2013"
+    },
+    {
       "id": "seal",
       "name": "Seal",
       "tracks": [
@@ -73406,73 +73486,6 @@
       "lastDate": "03/05/2004"
     },
     {
-      "id": "sexion d assaut",
-      "name": "Sexion d'Assaut",
-      "tracks": [
-        {
-          "key": "avant qu elle parte|sexion d assaut",
-          "title": "Avant qu'elle parte",
-          "credit": "Sexion d'Assaut",
-          "firstKey": "2012-06",
-          "firstDate": "06/02/2012",
-          "lastKey": "2012-23",
-          "lastDate": "04/06/2012",
-          "weeks": 18,
-          "peak": 3,
-          "peakKey": "2012-11",
-          "peakDate": "12/03/2012"
-        },
-        {
-          "key": "wati house|sexion d assaut",
-          "title": "Wati House",
-          "credit": "Sexion d'Assaut",
-          "firstKey": "2012-16",
-          "firstDate": "16/04/2012",
-          "lastKey": "2012-40",
-          "lastDate": "01/10/2012",
-          "weeks": 23,
-          "peak": 4,
-          "peakKey": "2012-33",
-          "peakDate": "13/08/2012"
-        },
-        {
-          "key": "ma direction|sexion d assaut",
-          "title": "Ma direction",
-          "credit": "Sexion d'Assaut",
-          "firstKey": "2012-11",
-          "firstDate": "12/03/2012",
-          "lastKey": "2012-32",
-          "lastDate": "06/08/2012",
-          "weeks": 22,
-          "peak": 5,
-          "peakKey": "2012-21",
-          "peakDate": "21/05/2012"
-        },
-        {
-          "key": "problemes d adultes|sexion d assaut",
-          "title": "Problèmes d'adultes",
-          "credit": "Sexion d'Assaut",
-          "firstKey": "2012-48",
-          "firstDate": "26/11/2012",
-          "lastKey": "2013-07",
-          "lastDate": "11/02/2013",
-          "weeks": 11,
-          "peak": 11,
-          "peakKey": "2012-50",
-          "peakDate": "10/12/2012"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 74,
-      "bestPeak": 3,
-      "firstYear": 2012,
-      "lastYear": 2013,
-      "firstKey": "2012-06",
-      "firstDate": "06/02/2012",
-      "lastKey": "2013-07",
-      "lastDate": "11/02/2013"
-    },
-    {
       "id": "johnny clegg and savuka",
       "name": "Johnny Clegg & Savuka",
       "tracks": [
@@ -73482,9 +73495,9 @@
           "credit": "Johnny Clegg & Savuka",
           "firstKey": "1988-10",
           "firstDate": "06/03/1988",
-          "lastKey": "2013-49",
-          "lastDate": "02/12/2013",
-          "weeks": 28,
+          "lastKey": "2013-50",
+          "lastDate": "09/12/2013",
+          "weeks": 29,
           "peak": 2,
           "peakKey": "1988-22",
           "peakDate": "29/05/1988"
@@ -73530,14 +73543,14 @@
         }
       ],
       "trackCount": 4,
-      "totalWeeks": 73,
+      "totalWeeks": 74,
       "bestPeak": 2,
       "firstYear": 1987,
       "lastYear": 2013,
       "firstKey": "1987-36",
       "firstDate": "06/09/1987",
-      "lastKey": "2013-49",
-      "lastDate": "02/12/2013"
+      "lastKey": "2013-50",
+      "lastDate": "09/12/2013"
     },
     {
       "id": "thierry cham",
@@ -78632,6 +78645,73 @@
       "lastDate": "13/05/2019"
     },
     {
+      "id": "youssoupha",
+      "name": "Youssoupha",
+      "tracks": [
+        {
+          "key": "on se connait|youssoupha",
+          "title": "On se connaît (feat. Ayna)",
+          "credit": "Youssoupha",
+          "firstKey": "2013-02",
+          "firstDate": "07/01/2013",
+          "lastKey": "2013-18",
+          "lastDate": "29/04/2013",
+          "weeks": 17,
+          "peak": 9,
+          "peakKey": "2013-12",
+          "peakDate": "18/03/2013"
+        },
+        {
+          "key": "smile|youssoupha",
+          "title": "Smile",
+          "credit": "Youssoupha",
+          "firstKey": "2015-17",
+          "firstDate": "20/04/2015",
+          "lastKey": "2015-33",
+          "lastDate": "10/08/2015",
+          "weeks": 17,
+          "peak": 14,
+          "peakKey": "2015-25",
+          "peakDate": "15/06/2015"
+        },
+        {
+          "key": "dreamin|youssoupha",
+          "title": "Dreamin' (feat. Indila)",
+          "credit": "Youssoupha",
+          "firstKey": "2012-21",
+          "firstDate": "21/05/2012",
+          "lastKey": "2012-28",
+          "lastDate": "09/07/2012",
+          "weeks": 8,
+          "peak": 14,
+          "peakKey": "2012-27",
+          "peakDate": "02/07/2012"
+        },
+        {
+          "key": "a cause de moi|youssoupha",
+          "title": "A cause de moi",
+          "credit": "Youssoupha",
+          "firstKey": "2015-43",
+          "firstDate": "19/10/2015",
+          "lastKey": "2015-43",
+          "lastDate": "19/10/2015",
+          "weeks": 1,
+          "peak": 59,
+          "peakKey": "2015-43",
+          "peakDate": "19/10/2015"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 43,
+      "bestPeak": 9,
+      "firstYear": 2012,
+      "lastYear": 2015,
+      "firstKey": "2012-21",
+      "firstDate": "21/05/2012",
+      "lastKey": "2015-43",
+      "lastDate": "19/10/2015"
+    },
+    {
       "id": "jane fostin",
       "name": "Jane Fostin",
       "tracks": [
@@ -79032,73 +79112,6 @@
       "firstDate": "07/12/1998",
       "lastKey": "2000-20",
       "lastDate": "15/05/2000"
-    },
-    {
-      "id": "youssoupha",
-      "name": "Youssoupha",
-      "tracks": [
-        {
-          "key": "on se connait|youssoupha",
-          "title": "On se connaît (feat. Ayna)",
-          "credit": "Youssoupha",
-          "firstKey": "2013-02",
-          "firstDate": "07/01/2013",
-          "lastKey": "2013-18",
-          "lastDate": "29/04/2013",
-          "weeks": 15,
-          "peak": 9,
-          "peakKey": "2013-12",
-          "peakDate": "18/03/2013"
-        },
-        {
-          "key": "smile|youssoupha",
-          "title": "Smile",
-          "credit": "Youssoupha",
-          "firstKey": "2015-17",
-          "firstDate": "20/04/2015",
-          "lastKey": "2015-33",
-          "lastDate": "10/08/2015",
-          "weeks": 17,
-          "peak": 14,
-          "peakKey": "2015-25",
-          "peakDate": "15/06/2015"
-        },
-        {
-          "key": "dreamin|youssoupha",
-          "title": "Dreamin' (feat. Indila)",
-          "credit": "Youssoupha",
-          "firstKey": "2012-21",
-          "firstDate": "21/05/2012",
-          "lastKey": "2012-28",
-          "lastDate": "09/07/2012",
-          "weeks": 8,
-          "peak": 14,
-          "peakKey": "2012-27",
-          "peakDate": "02/07/2012"
-        },
-        {
-          "key": "a cause de moi|youssoupha",
-          "title": "A cause de moi",
-          "credit": "Youssoupha",
-          "firstKey": "2015-43",
-          "firstDate": "19/10/2015",
-          "lastKey": "2015-43",
-          "lastDate": "19/10/2015",
-          "weeks": 1,
-          "peak": 59,
-          "peakKey": "2015-43",
-          "peakDate": "19/10/2015"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 41,
-      "bestPeak": 9,
-      "firstYear": 2012,
-      "lastYear": 2015,
-      "firstKey": "2012-21",
-      "firstDate": "21/05/2012",
-      "lastKey": "2015-43",
-      "lastDate": "19/10/2015"
     },
     {
       "id": "jeremy chatelain",
@@ -88434,6 +88447,60 @@
       "lastDate": "10/10/2005"
     },
     {
+      "id": "psy",
+      "name": "Psy",
+      "tracks": [
+        {
+          "key": "gangnam style|psy",
+          "title": "Gangnam Style",
+          "credit": "Psy",
+          "firstKey": "2012-38",
+          "firstDate": "17/09/2012",
+          "lastKey": "2013-15",
+          "lastDate": "08/04/2013",
+          "weeks": 29,
+          "peak": 1,
+          "peakKey": "2012-42",
+          "peakDate": "15/10/2012"
+        },
+        {
+          "key": "angelina|psy",
+          "title": "Angelina",
+          "credit": "Psy",
+          "firstKey": "1991-39",
+          "firstDate": "29/09/1991",
+          "lastKey": "1991-50",
+          "lastDate": "15/12/1991",
+          "weeks": 12,
+          "peak": 9,
+          "peakKey": "1991-44",
+          "peakDate": "03/11/1991"
+        },
+        {
+          "key": "gentleman|psy",
+          "title": "Gentleman",
+          "credit": "Psy",
+          "firstKey": "2013-16",
+          "firstDate": "15/04/2013",
+          "lastKey": "2013-19",
+          "lastDate": "06/05/2013",
+          "weeks": 4,
+          "peak": 11,
+          "peakKey": "2013-16",
+          "peakDate": "15/04/2013"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 45,
+      "bestPeak": 1,
+      "firstYear": 1991,
+      "lastYear": 2013,
+      "firstKey": "1991-39",
+      "firstDate": "29/09/1991",
+      "lastKey": "2013-19",
+      "lastDate": "06/05/2013"
+    },
+    {
       "id": "jessie j",
       "name": "Jessie J",
       "tracks": [
@@ -89080,60 +89147,6 @@
       "firstDate": "10/06/2002",
       "lastKey": "2024-23",
       "lastDate": "03/06/2024"
-    },
-    {
-      "id": "psy",
-      "name": "Psy",
-      "tracks": [
-        {
-          "key": "gangnam style|psy",
-          "title": "Gangnam Style",
-          "credit": "Psy",
-          "firstKey": "2012-38",
-          "firstDate": "17/09/2012",
-          "lastKey": "2013-15",
-          "lastDate": "08/04/2013",
-          "weeks": 27,
-          "peak": 1,
-          "peakKey": "2012-42",
-          "peakDate": "15/10/2012"
-        },
-        {
-          "key": "angelina|psy",
-          "title": "Angelina",
-          "credit": "Psy",
-          "firstKey": "1991-39",
-          "firstDate": "29/09/1991",
-          "lastKey": "1991-50",
-          "lastDate": "15/12/1991",
-          "weeks": 12,
-          "peak": 9,
-          "peakKey": "1991-44",
-          "peakDate": "03/11/1991"
-        },
-        {
-          "key": "gentleman|psy",
-          "title": "Gentleman",
-          "credit": "Psy",
-          "firstKey": "2013-16",
-          "firstDate": "15/04/2013",
-          "lastKey": "2013-19",
-          "lastDate": "06/05/2013",
-          "weeks": 4,
-          "peak": 11,
-          "peakKey": "2013-16",
-          "peakDate": "15/04/2013"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 43,
-      "bestPeak": 1,
-      "firstYear": 1991,
-      "lastYear": 2013,
-      "firstKey": "1991-39",
-      "firstDate": "29/09/1991",
-      "lastKey": "2013-19",
-      "lastDate": "06/05/2013"
     },
     {
       "id": "pacifique",
@@ -98046,7 +98059,7 @@
           "firstDate": "31/10/2011",
           "lastKey": "2025-09",
           "lastDate": "24/02/2025",
-          "weeks": 61,
+          "weeks": 62,
           "peak": 1,
           "peakKey": "2024-44",
           "peakDate": "28/10/2024"
@@ -98066,7 +98079,7 @@
         }
       ],
       "trackCount": 2,
-      "totalWeeks": 72,
+      "totalWeeks": 73,
       "bestPeak": 1,
       "firstYear": 2011,
       "lastYear": 2025,
@@ -99347,6 +99360,47 @@
       "lastDate": "07/07/2008"
     },
     {
+      "id": "james arthur",
+      "name": "James Arthur",
+      "tracks": [
+        {
+          "key": "say you won t let go|james arthur",
+          "title": "Say you won't let go",
+          "credit": "James Arthur",
+          "firstKey": "2016-45",
+          "firstDate": "07/11/2016",
+          "lastKey": "2017-17",
+          "lastDate": "24/04/2017",
+          "weeks": 26,
+          "peak": 3,
+          "peakKey": "2017-03",
+          "peakDate": "16/01/2017"
+        },
+        {
+          "key": "impossible|james arthur",
+          "title": "Impossible",
+          "credit": "James Arthur",
+          "firstKey": "2013-18",
+          "firstDate": "29/04/2013",
+          "lastKey": "2013-51",
+          "lastDate": "16/12/2013",
+          "weeks": 26,
+          "peak": 6,
+          "peakKey": "2013-25",
+          "peakDate": "17/06/2013"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 52,
+      "bestPeak": 3,
+      "firstYear": 2013,
+      "lastYear": 2017,
+      "firstKey": "2013-18",
+      "firstDate": "29/04/2013",
+      "lastKey": "2017-17",
+      "lastDate": "24/04/2017"
+    },
+    {
       "id": "flo delavega",
       "name": "Flo Delavega",
       "tracks": [
@@ -99468,47 +99522,6 @@
       "firstDate": "18/04/2005",
       "lastKey": "2019-40",
       "lastDate": "30/09/2019"
-    },
-    {
-      "id": "james arthur",
-      "name": "James Arthur",
-      "tracks": [
-        {
-          "key": "say you won t let go|james arthur",
-          "title": "Say you won't let go",
-          "credit": "James Arthur",
-          "firstKey": "2016-45",
-          "firstDate": "07/11/2016",
-          "lastKey": "2017-17",
-          "lastDate": "24/04/2017",
-          "weeks": 26,
-          "peak": 3,
-          "peakKey": "2017-03",
-          "peakDate": "16/01/2017"
-        },
-        {
-          "key": "impossible|james arthur",
-          "title": "Impossible",
-          "credit": "James Arthur",
-          "firstKey": "2013-18",
-          "firstDate": "29/04/2013",
-          "lastKey": "2013-51",
-          "lastDate": "16/12/2013",
-          "weeks": 25,
-          "peak": 6,
-          "peakKey": "2013-25",
-          "peakDate": "17/06/2013"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 51,
-      "bestPeak": 3,
-      "firstYear": 2013,
-      "lastYear": 2017,
-      "firstKey": "2013-18",
-      "firstDate": "29/04/2013",
-      "lastKey": "2017-17",
-      "lastDate": "24/04/2017"
     },
     {
       "id": "calvin harris and sam smith",
@@ -101397,6 +101410,47 @@
       "lastDate": "19/05/2008"
     },
     {
+      "id": "robin thicke",
+      "name": "Robin Thicke",
+      "tracks": [
+        {
+          "key": "blurred lines|robin thicke",
+          "title": "Blurred Lines",
+          "credit": "Robin Thicke",
+          "firstKey": "2013-13",
+          "firstDate": "25/03/2013",
+          "lastKey": "2014-01",
+          "lastDate": "30/12/2013",
+          "weeks": 32,
+          "peak": 1,
+          "peakKey": "2013-23",
+          "peakDate": "03/06/2013"
+        },
+        {
+          "key": "lost without u|robin thicke",
+          "title": "Lost Without U",
+          "credit": "Robin Thicke",
+          "firstKey": "2007-28",
+          "firstDate": "09/07/2007",
+          "lastKey": "2007-37",
+          "lastDate": "10/09/2007",
+          "weeks": 10,
+          "peak": 54,
+          "peakKey": "2007-29",
+          "peakDate": "16/07/2007"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 42,
+      "bestPeak": 1,
+      "firstYear": 2007,
+      "lastYear": 2014,
+      "firstKey": "2007-28",
+      "firstDate": "09/07/2007",
+      "lastKey": "2014-01",
+      "lastDate": "30/12/2013"
+    },
+    {
       "id": "tony parker",
       "name": "Tony Parker",
       "tracks": [
@@ -102340,45 +102394,45 @@
       "lastDate": "23/11/2015"
     },
     {
-      "id": "robin thicke",
-      "name": "Robin Thicke",
+      "id": "lana del rey",
+      "name": "Lana Del Rey",
       "tracks": [
         {
-          "key": "blurred lines|robin thicke",
-          "title": "Blurred Lines",
-          "credit": "Robin Thicke",
-          "firstKey": "2013-13",
-          "firstDate": "25/03/2013",
-          "lastKey": "2014-01",
-          "lastDate": "30/12/2013",
-          "weeks": 29,
-          "peak": 1,
-          "peakKey": "2013-23",
-          "peakDate": "03/06/2013"
+          "key": "games|lana del rey",
+          "title": "Video Games",
+          "credit": "Lana Del Rey",
+          "firstKey": "2011-48",
+          "firstDate": "28/11/2011",
+          "lastKey": "2012-21",
+          "lastDate": "21/05/2012",
+          "weeks": 27,
+          "peak": 2,
+          "peakKey": "2012-09",
+          "peakDate": "27/02/2012"
         },
         {
-          "key": "lost without u|robin thicke",
-          "title": "Lost Without U",
-          "credit": "Robin Thicke",
-          "firstKey": "2007-28",
-          "firstDate": "09/07/2007",
-          "lastKey": "2007-37",
-          "lastDate": "10/09/2007",
-          "weeks": 10,
-          "peak": 54,
-          "peakKey": "2007-29",
-          "peakDate": "16/07/2007"
+          "key": "summertime sadness|lana del rey",
+          "title": "Summertime Sadness",
+          "credit": "Lana Del Rey",
+          "firstKey": "2013-35",
+          "firstDate": "26/08/2013",
+          "lastKey": "2013-46",
+          "lastDate": "11/11/2013",
+          "weeks": 12,
+          "peak": 10,
+          "peakKey": "2013-40",
+          "peakDate": "30/09/2013"
         }
       ],
       "trackCount": 2,
       "totalWeeks": 39,
-      "bestPeak": 1,
-      "firstYear": 2007,
-      "lastYear": 2014,
-      "firstKey": "2007-28",
-      "firstDate": "09/07/2007",
-      "lastKey": "2014-01",
-      "lastDate": "30/12/2013"
+      "bestPeak": 2,
+      "firstYear": 2011,
+      "lastYear": 2013,
+      "firstKey": "2011-48",
+      "firstDate": "28/11/2011",
+      "lastKey": "2013-46",
+      "lastDate": "11/11/2013"
     },
     {
       "id": "nomads",
@@ -102584,47 +102638,6 @@
       "firstDate": "19/06/2000",
       "lastKey": "2006-28",
       "lastDate": "10/07/2006"
-    },
-    {
-      "id": "lana del rey",
-      "name": "Lana Del Rey",
-      "tracks": [
-        {
-          "key": "games|lana del rey",
-          "title": "Video Games",
-          "credit": "Lana Del Rey",
-          "firstKey": "2011-48",
-          "firstDate": "28/11/2011",
-          "lastKey": "2012-21",
-          "lastDate": "21/05/2012",
-          "weeks": 27,
-          "peak": 2,
-          "peakKey": "2012-09",
-          "peakDate": "27/02/2012"
-        },
-        {
-          "key": "summertime sadness|lana del rey",
-          "title": "Summertime Sadness",
-          "credit": "Lana Del Rey",
-          "firstKey": "2013-35",
-          "firstDate": "26/08/2013",
-          "lastKey": "2013-46",
-          "lastDate": "11/11/2013",
-          "weeks": 11,
-          "peak": 10,
-          "peakKey": "2013-40",
-          "peakDate": "30/09/2013"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 38,
-      "bestPeak": 2,
-      "firstYear": 2011,
-      "lastYear": 2013,
-      "firstKey": "2011-48",
-      "firstDate": "28/11/2011",
-      "lastKey": "2013-46",
-      "lastDate": "11/11/2013"
     },
     {
       "id": "leann rimes",
@@ -105333,6 +105346,47 @@
       "lastDate": "13/06/2011"
     },
     {
+      "id": "c2c",
+      "name": "C2C",
+      "tracks": [
+        {
+          "key": "down the road|c2c",
+          "title": "Down The Road",
+          "credit": "C2C",
+          "firstKey": "2012-28",
+          "firstDate": "09/07/2012",
+          "lastKey": "2012-53",
+          "lastDate": "31/12/2012",
+          "weeks": 20,
+          "peak": 1,
+          "peakKey": "2012-38",
+          "peakDate": "17/09/2012"
+        },
+        {
+          "key": "happy|c2c",
+          "title": "Happy",
+          "credit": "C2C",
+          "firstKey": "2013-09",
+          "firstDate": "25/02/2013",
+          "lastKey": "2013-23",
+          "lastDate": "03/06/2013",
+          "weeks": 13,
+          "peak": 13,
+          "peakKey": "2013-14",
+          "peakDate": "01/04/2013"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 33,
+      "bestPeak": 1,
+      "firstYear": 2012,
+      "lastYear": 2013,
+      "firstKey": "2012-28",
+      "firstDate": "09/07/2012",
+      "lastKey": "2013-23",
+      "lastDate": "03/06/2013"
+    },
+    {
       "id": "iggy azalea",
       "name": "Iggy Azalea",
       "tracks": [
@@ -105782,47 +105836,6 @@
       "firstDate": "15/06/2020",
       "lastKey": "2021-06",
       "lastDate": "08/02/2021"
-    },
-    {
-      "id": "c2c",
-      "name": "C2C",
-      "tracks": [
-        {
-          "key": "down the road|c2c",
-          "title": "Down The Road",
-          "credit": "C2C",
-          "firstKey": "2012-28",
-          "firstDate": "09/07/2012",
-          "lastKey": "2012-53",
-          "lastDate": "31/12/2012",
-          "weeks": 20,
-          "peak": 1,
-          "peakKey": "2012-38",
-          "peakDate": "17/09/2012"
-        },
-        {
-          "key": "happy|c2c",
-          "title": "Happy",
-          "credit": "C2C",
-          "firstKey": "2013-09",
-          "firstDate": "25/02/2013",
-          "lastKey": "2013-23",
-          "lastDate": "03/06/2013",
-          "weeks": 12,
-          "peak": 13,
-          "peakKey": "2013-14",
-          "peakDate": "01/04/2013"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 32,
-      "bestPeak": 1,
-      "firstYear": 2012,
-      "lastYear": 2013,
-      "firstKey": "2012-28",
-      "firstDate": "09/07/2012",
-      "lastKey": "2013-23",
-      "lastDate": "03/06/2013"
     },
     {
       "id": "coumba gawlo",
@@ -110745,6 +110758,47 @@
       "lastDate": "12/05/2003"
     },
     {
+      "id": "naughty boy",
+      "name": "Naughty Boy",
+      "tracks": [
+        {
+          "key": "la la la|naughty boy",
+          "title": "La La La",
+          "credit": "Naughty Boy",
+          "firstKey": "2013-34",
+          "firstDate": "19/08/2013",
+          "lastKey": "2013-47",
+          "lastDate": "18/11/2013",
+          "weeks": 14,
+          "peak": 6,
+          "peakKey": "2013-39",
+          "peakDate": "23/09/2013"
+        },
+        {
+          "key": "runnin|naughty boy",
+          "title": "Runnin' (Lose it all)",
+          "credit": "Naughty Boy",
+          "firstKey": "2015-41",
+          "firstDate": "05/10/2015",
+          "lastKey": "2015-51",
+          "lastDate": "14/12/2015",
+          "weeks": 11,
+          "peak": 10,
+          "peakKey": "2015-48",
+          "peakDate": "23/11/2015"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 25,
+      "bestPeak": 6,
+      "firstYear": 2013,
+      "lastYear": 2015,
+      "firstKey": "2013-34",
+      "firstDate": "19/08/2013",
+      "lastKey": "2015-51",
+      "lastDate": "14/12/2015"
+    },
+    {
       "id": "emeli sande",
       "name": "Emeli Sandé",
       "tracks": [
@@ -111522,47 +111576,6 @@
       "firstDate": "29/01/1996",
       "lastKey": "1996-51",
       "lastDate": "16/12/1996"
-    },
-    {
-      "id": "naughty boy",
-      "name": "Naughty Boy",
-      "tracks": [
-        {
-          "key": "la la la|naughty boy",
-          "title": "La La La",
-          "credit": "Naughty Boy",
-          "firstKey": "2013-34",
-          "firstDate": "19/08/2013",
-          "lastKey": "2013-47",
-          "lastDate": "18/11/2013",
-          "weeks": 13,
-          "peak": 6,
-          "peakKey": "2013-39",
-          "peakDate": "23/09/2013"
-        },
-        {
-          "key": "runnin|naughty boy",
-          "title": "Runnin' (Lose it all)",
-          "credit": "Naughty Boy",
-          "firstKey": "2015-41",
-          "firstDate": "05/10/2015",
-          "lastKey": "2015-51",
-          "lastDate": "14/12/2015",
-          "weeks": 11,
-          "peak": 10,
-          "peakKey": "2015-48",
-          "peakDate": "23/11/2015"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 24,
-      "bestPeak": 6,
-      "firstYear": 2013,
-      "lastYear": 2015,
-      "firstKey": "2013-34",
-      "firstDate": "19/08/2013",
-      "lastKey": "2015-51",
-      "lastDate": "14/12/2015"
     },
     {
       "id": "zhi vago",
@@ -119396,6 +119409,47 @@
       "lastDate": "15/05/2000"
     },
     {
+      "id": "bingo players",
+      "name": "Bingo Players",
+      "tracks": [
+        {
+          "key": "rattle|bingo players",
+          "title": "Rattle",
+          "credit": "Bingo Players",
+          "firstKey": "2013-03",
+          "firstDate": "14/01/2013",
+          "lastKey": "2013-07",
+          "lastDate": "11/02/2013",
+          "weeks": 5,
+          "peak": 8,
+          "peakKey": "2013-06",
+          "peakDate": "04/02/2013"
+        },
+        {
+          "key": "get up|bingo players",
+          "title": "Get Up",
+          "credit": "Bingo Players",
+          "firstKey": "2013-08",
+          "firstDate": "18/02/2013",
+          "lastKey": "2013-13",
+          "lastDate": "25/03/2013",
+          "weeks": 6,
+          "peak": 9,
+          "peakKey": "2013-09",
+          "peakDate": "25/02/2013"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 11,
+      "bestPeak": 8,
+      "firstYear": 2013,
+      "lastYear": 2013,
+      "firstKey": "2013-03",
+      "firstDate": "14/01/2013",
+      "lastKey": "2013-13",
+      "lastDate": "25/03/2013"
+    },
+    {
       "id": "team bs",
       "name": "Team BS",
       "tracks": [
@@ -120009,47 +120063,6 @@
       "firstDate": "26/07/1999",
       "lastKey": "2002-16",
       "lastDate": "15/04/2002"
-    },
-    {
-      "id": "bingo players",
-      "name": "Bingo Players",
-      "tracks": [
-        {
-          "key": "rattle|bingo players",
-          "title": "Rattle",
-          "credit": "Bingo Players",
-          "firstKey": "2013-03",
-          "firstDate": "14/01/2013",
-          "lastKey": "2013-06",
-          "lastDate": "04/02/2013",
-          "weeks": 4,
-          "peak": 8,
-          "peakKey": "2013-06",
-          "peakDate": "04/02/2013"
-        },
-        {
-          "key": "get up|bingo players",
-          "title": "Get Up",
-          "credit": "Bingo Players",
-          "firstKey": "2013-08",
-          "firstDate": "18/02/2013",
-          "lastKey": "2013-13",
-          "lastDate": "25/03/2013",
-          "weeks": 6,
-          "peak": 9,
-          "peakKey": "2013-09",
-          "peakDate": "25/02/2013"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 10,
-      "bestPeak": 8,
-      "firstYear": 2013,
-      "lastYear": 2013,
-      "firstKey": "2013-03",
-      "firstDate": "14/01/2013",
-      "lastKey": "2013-13",
-      "lastDate": "25/03/2013"
     },
     {
       "id": "josh groban",
@@ -136053,6 +136066,34 @@
       "lastDate": "19/11/2007"
     },
     {
+      "id": "passenger",
+      "name": "Passenger",
+      "tracks": [
+        {
+          "key": "let her go|passenger",
+          "title": "Let Her Go",
+          "credit": "Passenger",
+          "firstKey": "2013-17",
+          "firstDate": "22/04/2013",
+          "lastKey": "2013-39",
+          "lastDate": "23/09/2013",
+          "weeks": 22,
+          "peak": 6,
+          "peakKey": "2013-26",
+          "peakDate": "24/06/2013"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 22,
+      "bestPeak": 6,
+      "firstYear": 2013,
+      "lastYear": 2013,
+      "firstKey": "2013-17",
+      "firstDate": "22/04/2013",
+      "lastKey": "2013-39",
+      "lastDate": "23/09/2013"
+    },
+    {
       "id": "big mountain",
       "name": "Big Mountain",
       "tracks": [
@@ -137759,34 +137800,6 @@
       "firstDate": "22/01/1996",
       "lastKey": "1996-24",
       "lastDate": "10/06/1996"
-    },
-    {
-      "id": "passenger",
-      "name": "Passenger",
-      "tracks": [
-        {
-          "key": "let her go|passenger",
-          "title": "Let Her Go",
-          "credit": "Passenger",
-          "firstKey": "2013-17",
-          "firstDate": "22/04/2013",
-          "lastKey": "2013-39",
-          "lastDate": "23/09/2013",
-          "weeks": 21,
-          "peak": 6,
-          "peakKey": "2013-26",
-          "peakDate": "24/06/2013"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 21,
-      "bestPeak": 6,
-      "firstYear": 2013,
-      "lastYear": 2013,
-      "firstKey": "2013-17",
-      "firstDate": "22/04/2013",
-      "lastKey": "2013-39",
-      "lastDate": "23/09/2013"
     },
     {
       "id": "shouse",
@@ -143361,6 +143374,34 @@
       "lastDate": "03/09/2012"
     },
     {
+      "id": "jabberwocky",
+      "name": "Jabberwocky",
+      "tracks": [
+        {
+          "key": "photomaton|jabberwocky",
+          "title": "Photomaton",
+          "credit": "Jabberwocky",
+          "firstKey": "2013-45",
+          "firstDate": "04/11/2013",
+          "lastKey": "2014-10",
+          "lastDate": "03/03/2014",
+          "weeks": 18,
+          "peak": 2,
+          "peakKey": "2013-46",
+          "peakDate": "11/11/2013"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 18,
+      "bestPeak": 2,
+      "firstYear": 2013,
+      "lastYear": 2014,
+      "firstKey": "2013-45",
+      "firstDate": "04/11/2013",
+      "lastKey": "2014-10",
+      "lastDate": "03/03/2014"
+    },
+    {
       "id": "serge gainsbourg and charlotte",
       "name": "Serge Gainsbourg & Charlotte",
       "tracks": [
@@ -145543,34 +145584,6 @@
       "firstDate": "11/11/1984",
       "lastKey": "1985-09",
       "lastDate": "03/03/1985"
-    },
-    {
-      "id": "jabberwocky",
-      "name": "Jabberwocky",
-      "tracks": [
-        {
-          "key": "photomaton|jabberwocky",
-          "title": "Photomaton",
-          "credit": "Jabberwocky",
-          "firstKey": "2013-45",
-          "firstDate": "04/11/2013",
-          "lastKey": "2014-10",
-          "lastDate": "03/03/2014",
-          "weeks": 17,
-          "peak": 2,
-          "peakKey": "2013-46",
-          "peakDate": "11/11/2013"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 17,
-      "bestPeak": 2,
-      "firstYear": 2013,
-      "lastYear": 2014,
-      "firstKey": "2013-45",
-      "firstDate": "04/11/2013",
-      "lastKey": "2014-10",
-      "lastDate": "03/03/2014"
     },
     {
       "id": "big boi",
@@ -150221,6 +150234,34 @@
       "lastDate": "05/05/1997"
     },
     {
+      "id": "dvbbs and borgeous",
+      "name": "DVBBS & Borgeous",
+      "tracks": [
+        {
+          "key": "tsunami|dvbbs and borgeous",
+          "title": "Tsunami",
+          "credit": "DVBBS & Borgeous",
+          "firstKey": "2013-40",
+          "firstDate": "30/09/2013",
+          "lastKey": "2014-02",
+          "lastDate": "06/01/2014",
+          "weeks": 15,
+          "peak": 3,
+          "peakKey": "2013-44",
+          "peakDate": "28/10/2013"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 15,
+      "bestPeak": 3,
+      "firstYear": 2013,
+      "lastYear": 2014,
+      "firstKey": "2013-40",
+      "firstDate": "30/09/2013",
+      "lastKey": "2014-02",
+      "lastDate": "06/01/2014"
+    },
+    {
       "id": "selena gomez and marshmello",
       "name": "Selena Gomez & Marshmello",
       "tracks": [
@@ -152683,34 +152724,6 @@
       "firstDate": "13/08/2012",
       "lastKey": "2012-46",
       "lastDate": "12/11/2012"
-    },
-    {
-      "id": "dvbbs and borgeous",
-      "name": "DVBBS & Borgeous",
-      "tracks": [
-        {
-          "key": "tsunami|dvbbs and borgeous",
-          "title": "Tsunami",
-          "credit": "DVBBS & Borgeous",
-          "firstKey": "2013-40",
-          "firstDate": "30/09/2013",
-          "lastKey": "2014-02",
-          "lastDate": "06/01/2014",
-          "weeks": 14,
-          "peak": 3,
-          "peakKey": "2013-44",
-          "peakDate": "28/10/2013"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 14,
-      "bestPeak": 3,
-      "firstYear": 2013,
-      "lastYear": 2014,
-      "firstKey": "2013-40",
-      "firstDate": "30/09/2013",
-      "lastKey": "2014-02",
-      "lastDate": "06/01/2014"
     },
     {
       "id": "jose de rico",
@@ -168813,6 +168826,34 @@
       "lastDate": "23/04/2018"
     },
     {
+      "id": "icona pop",
+      "name": "Icona Pop",
+      "tracks": [
+        {
+          "key": "i love it|icona pop",
+          "title": "I Love It",
+          "credit": "Icona Pop",
+          "firstKey": "2013-24",
+          "firstDate": "10/06/2013",
+          "lastKey": "2013-32",
+          "lastDate": "05/08/2013",
+          "weeks": 9,
+          "peak": 18,
+          "peakKey": "2013-26",
+          "peakDate": "24/06/2013"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 9,
+      "bestPeak": 18,
+      "firstYear": 2013,
+      "lastYear": 2013,
+      "firstKey": "2013-24",
+      "firstDate": "10/06/2013",
+      "lastKey": "2013-32",
+      "lastDate": "05/08/2013"
+    },
+    {
       "id": "madonna vs sickick",
       "name": "Madonna Vs Sickick",
       "tracks": [
@@ -171611,34 +171652,6 @@
       "firstDate": "11/08/2025",
       "lastKey": "2025-40",
       "lastDate": "29/09/2025"
-    },
-    {
-      "id": "icona pop",
-      "name": "Icona Pop",
-      "tracks": [
-        {
-          "key": "i love it|icona pop",
-          "title": "I Love It",
-          "credit": "Icona Pop",
-          "firstKey": "2013-25",
-          "firstDate": "17/06/2013",
-          "lastKey": "2013-32",
-          "lastDate": "05/08/2013",
-          "weeks": 8,
-          "peak": 18,
-          "peakKey": "2013-26",
-          "peakDate": "24/06/2013"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 8,
-      "bestPeak": 18,
-      "firstYear": 2013,
-      "lastYear": 2013,
-      "firstKey": "2013-25",
-      "firstDate": "17/06/2013",
-      "lastKey": "2013-32",
-      "lastDate": "05/08/2013"
     },
     {
       "id": "cameron whitcomb",
@@ -174803,6 +174816,34 @@
       "firstDate": "14/08/2000",
       "lastKey": "2000-40",
       "lastDate": "02/10/2000"
+    },
+    {
+      "id": "baauer",
+      "name": "Baauer",
+      "tracks": [
+        {
+          "key": "harlem shake|baauer",
+          "title": "Harlem Shake",
+          "credit": "Baauer",
+          "firstKey": "2013-08",
+          "firstDate": "18/02/2013",
+          "lastKey": "2013-14",
+          "lastDate": "01/04/2013",
+          "weeks": 7,
+          "peak": 4,
+          "peakKey": "2013-09",
+          "peakDate": "25/02/2013"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 7,
+      "bestPeak": 4,
+      "firstYear": 2013,
+      "lastYear": 2013,
+      "firstKey": "2013-08",
+      "firstDate": "18/02/2013",
+      "lastKey": "2013-14",
+      "lastDate": "01/04/2013"
     },
     {
       "id": "cris mj",
@@ -178443,34 +178484,6 @@
       "firstDate": "03/11/2003",
       "lastKey": "2004-02",
       "lastDate": "05/01/2004"
-    },
-    {
-      "id": "baauer",
-      "name": "Baauer",
-      "tracks": [
-        {
-          "key": "harlem shake|baauer",
-          "title": "Harlem Shake",
-          "credit": "Baauer",
-          "firstKey": "2013-08",
-          "firstDate": "18/02/2013",
-          "lastKey": "2013-13",
-          "lastDate": "25/03/2013",
-          "weeks": 6,
-          "peak": 4,
-          "peakKey": "2013-09",
-          "peakDate": "25/02/2013"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 6,
-      "bestPeak": 4,
-      "firstYear": 2013,
-      "lastYear": 2013,
-      "firstKey": "2013-08",
-      "firstDate": "18/02/2013",
-      "lastKey": "2013-13",
-      "lastDate": "25/03/2013"
     },
     {
       "id": "david guetta and hypaton",
@@ -199305,6 +199318,34 @@
       "lastDate": "02/11/1998"
     },
     {
+      "id": "roar",
+      "name": "Roar",
+      "tracks": [
+        {
+          "key": "6|roar",
+          "title": "6",
+          "credit": "Roar",
+          "firstKey": "2013-37",
+          "firstDate": "09/09/2013",
+          "lastKey": "2013-37",
+          "lastDate": "09/09/2013",
+          "weeks": 1,
+          "peak": 9,
+          "peakKey": "2013-37",
+          "peakDate": "09/09/2013"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 9,
+      "firstYear": 2013,
+      "lastYear": 2013,
+      "firstKey": "2013-37",
+      "firstDate": "09/09/2013",
+      "lastKey": "2013-37",
+      "lastDate": "09/09/2013"
+    },
+    {
       "id": "all the things she said",
       "name": "All The Things She Said",
       "tracks": [
@@ -200759,6 +200800,34 @@
       "firstDate": "11/03/2013",
       "lastKey": "2013-11",
       "lastDate": "11/03/2013"
+    },
+    {
+      "id": "on se connait",
+      "name": "On se connaît",
+      "tracks": [
+        {
+          "key": "10|on se connait",
+          "title": "10",
+          "credit": "On se connaît (feat. Ayna)",
+          "firstKey": "2013-08",
+          "firstDate": "18/02/2013",
+          "lastKey": "2013-08",
+          "lastDate": "18/02/2013",
+          "weeks": 1,
+          "peak": 25,
+          "peakKey": "2013-08",
+          "peakDate": "18/02/2013"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 25,
+      "firstYear": 2013,
+      "lastYear": 2013,
+      "firstKey": "2013-08",
+      "firstDate": "18/02/2013",
+      "lastKey": "2013-08",
+      "lastDate": "18/02/2013"
     },
     {
       "id": "the black soft",

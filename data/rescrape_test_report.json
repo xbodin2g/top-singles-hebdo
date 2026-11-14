@@ -1,242 +1,20 @@
 [
   {
-    "key": "2012-01",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      46
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "46": "Beth Ditto — EP"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-02",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      57
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "57": "Beth Ditto — EP"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-03",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      56
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "56": "Beth Ditto — EP"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-04",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      62,
-      81
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "62": "Beth Ditto — EP",
-      "81": "U2 — I'll Go Crazy If I Don't Go..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-05",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      52,
-      55
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "52": "Beth Ditto — EP",
-      "55": "Jim K Ressource — Taka danser"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-07",
-    "status": "ok",
-    "entries_before": 23,
-    "entries_after": 25,
-    "gaps_before": [
-      9,
-      19
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "9": "Sexion d'Assaut — Avant qu'elle parte",
-      "19": "Snoop Dogg — Young Wild Free"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-08",
+    "key": "2013-02",
     "status": "ok",
     "entries_before": 24,
     "entries_after": 25,
-    "gaps_before": [
-      8
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "8": "Madonna — Give Me All Your Luvin'"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-10",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      3
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Lana Del Rey — Video Games"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-11",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      17
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "17": "Shaka Ponk — My Name Is Stain"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-12",
-    "status": "ok",
-    "entries_before": 23,
-    "entries_after": 25,
-    "gaps_before": [
-      8,
-      25
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "8": "Shakira — Je l'aime à mourir",
-      "25": "Marlon Roudette — New Age"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-15",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      12
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "12": "Flo Rida — Wild Ones (feat. Sia)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-16",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 26,
     "gaps_before": [
       23
     ],
     "gaps_after": [],
     "recovered": {
-      "23": "Snoop Dogg — Young Wild Free"
+      "23": "Kavinsky — Nightcall"
     },
     "still_missing": []
   },
   {
-    "key": "2012-17",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      11
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "11": "Shaka Ponk — My Name Is Stain"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-18",
-    "status": "ok",
-    "entries_before": 23,
-    "entries_after": 25,
-    "gaps_before": [
-      8,
-      22
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "8": "Tal — Le sens de la vie",
-      "22": "Flo Rida — Wild Ones (feat. Sia)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-19",
-    "status": "ok",
-    "entries_before": 23,
-    "entries_after": 25,
-    "gaps_before": [
-      4,
-      13
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Birdy — Skinny Love",
-      "13": "Michel Telo — Ai Si Eu Te Pego"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-23",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      5
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "5": "Gotye — Somebody That I Used To Know"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-24",
+    "key": "2013-04",
     "status": "ok",
     "entries_before": 24,
     "entries_after": 25,
@@ -245,190 +23,12 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "3": "Gotye — Somebody That I Used To Know"
+      "3": "Psy — Gangnam Style"
     },
     "still_missing": []
   },
   {
-    "key": "2012-25",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      3
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Gusttavo Lima — Balada"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-26",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      8
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "8": "Jose De Rico feat. Henry Mendez — Rayos de sol"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-28",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      12
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "12": "Lykke Li — I Follow Rivers"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-30",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      6
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "6": "Jose De Rico feat. Henry Mendez — Rayos de sol"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-31",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      3
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Shy'm — Et alors ?"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-32",
-    "status": "ok",
-    "entries_before": 23,
-    "entries_after": 25,
-    "gaps_before": [
-      4,
-      6
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Jose De Rico feat. Henry Mendez — Rayos de sol",
-      "6": "Shy'm — Et alors ?"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-33",
-    "status": "ok",
-    "entries_before": 23,
-    "entries_after": 25,
-    "gaps_before": [
-      2,
-      9
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "2": "Carly Rae Jepsen — Call Me Maybe",
-      "9": "Tacabro — Tacatà"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-35",
-    "status": "ok",
-    "entries_before": 23,
-    "entries_after": 25,
-    "gaps_before": [
-      12,
-      14
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "12": "Lykke Li — I Follow Rivers",
-      "14": "Gotye — Somebody That I Used To Know"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-36",
-    "status": "ok",
-    "entries_before": 22,
-    "entries_after": 25,
-    "gaps_before": [
-      11,
-      18,
-      19
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "11": "Sexion d'Assaut — Wati House",
-      "18": "Lykke Li — I Follow Rivers",
-      "19": "Nicki Minaj — Pound The Alarm"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-38",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      6
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "6": "David Guetta — She Wolf (Falling To Pieces)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-39",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      12
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "12": "Alex Clare — Too Close"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-42",
-    "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "gaps_before": [
-      12
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "12": "Owl City — Good Time"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-43",
+    "key": "2013-05",
     "status": "ok",
     "entries_before": 23,
     "entries_after": 25,
@@ -438,61 +38,27 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "3": "Rihanna — Diamonds",
-      "23": "will.i.am — This Is Love"
+      "3": "Psy — Gangnam Style",
+      "23": "Sexion d'Assaut — Problèmes d'adultes"
     },
     "still_missing": []
   },
   {
-    "key": "2012-45",
-    "status": "ok",
-    "entries_before": 22,
-    "entries_after": 25,
-    "gaps_before": [
-      9,
-      16,
-      24
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "9": "Maroon 5 — One More Night",
-      "16": "Muse — Madness",
-      "24": "Ne-Yo — Let Me Love You (Until You..."
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-46",
-    "status": "ok",
-    "entries_before": 23,
-    "entries_after": 25,
-    "gaps_before": [
-      11,
-      16
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "11": "Kavinsky — Nightcall",
-      "16": "BB Brunes — Coups et blessures"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2012-48",
+    "key": "2013-07",
     "status": "ok",
     "entries_before": 24,
     "entries_after": 25,
     "gaps_before": [
-      18
+      8
     ],
     "gaps_after": [],
     "recovered": {
-      "18": "Rohff — K-Sos Musik"
+      "8": "Bingo Players — Rattle"
     },
     "still_missing": []
   },
   {
-    "key": "2012-49",
+    "key": "2013-08",
     "status": "ok",
     "entries_before": 24,
     "entries_after": 25,
@@ -501,21 +67,391 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "4": "Psy — Gangnam Style"
+      "4": "Adele — Skyfall"
     },
     "still_missing": []
   },
   {
-    "key": "2012-51",
+    "key": "2013-10",
     "status": "ok",
     "entries_before": 24,
     "entries_after": 25,
     "gaps_before": [
-      2
+      18
     ],
     "gaps_after": [],
     "recovered": {
-      "2": "Adele — Skyfall"
+      "18": "Les Enfoirés — Attention au départ"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-11",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      10
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "10": "Youssoupha — On se connaît (feat. Ayna)"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-12",
+    "status": "ok",
+    "entries_before": 21,
+    "entries_after": 25,
+    "gaps_before": [
+      2,
+      10,
+      14,
+      18
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "2": "Macklemore — Thrift Shop",
+      "10": "Bruno Mars — When I Was Your Man",
+      "14": "Christophe Maé — Tombé sous le charme",
+      "18": "David Guetta — Play Hard (feat. Ne-Yo & Akon)"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-13",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      11
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "11": "Youssoupha — On se connaît (feat. Ayna)"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-14",
+    "status": "ok",
+    "entries_before": 23,
+    "entries_after": 25,
+    "gaps_before": [
+      17,
+      19
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "17": "Justin Timberlake — Mirrors",
+      "19": "Baauer — Harlem Shake"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-16",
+    "status": "ok",
+    "entries_before": 23,
+    "entries_after": 25,
+    "gaps_before": [
+      5,
+      21
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "5": "Robin Thicke — Blurred Lines",
+      "21": "Zaho — Tourner la page"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-17",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      3
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Maître Gims — J'me tire"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-19",
+    "status": "ok",
+    "entries_before": 23,
+    "entries_after": 25,
+    "gaps_before": [
+      15,
+      22
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "15": "C2C — Happy",
+      "22": "Will.I.Am — Scream & Shout (feat. Britn..."
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-21",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      17
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "17": "James Arthur — Impossible"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-22",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      12
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "12": "Pink — Just Give Me A Reason"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-24",
+    "status": "ok",
+    "entries_before": 23,
+    "entries_after": 25,
+    "gaps_before": [
+      9,
+      23
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "9": "Maître Gims — J'me tire",
+      "23": "Icona Pop — I Love It"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-27",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      13
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "13": "Maître Gims — J'me tire"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-31",
+    "status": "ok",
+    "entries_before": 23,
+    "entries_after": 25,
+    "gaps_before": [
+      3,
+      10
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Robin Thicke — Blurred Lines",
+      "10": "Passenger — Let Her Go"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-34",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      4
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Robin Thicke — Blurred Lines"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-37",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      7
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "7": "Miley Cyrus — Wrecking Ball"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-42",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      3
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Vitaa — Game Over"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-43",
+    "status": "ok",
+    "entries_before": 23,
+    "entries_after": 25,
+    "gaps_before": [
+      2,
+      7
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "2": "Avicii — Wake Me Up",
+      "7": "DVBBS & Borgeous — Tsunami"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-44",
+    "status": "ok",
+    "entries_before": 22,
+    "entries_after": 25,
+    "gaps_before": [
+      4,
+      20,
+      25
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Stromae — Formidable",
+      "20": "Lana Del Rey — Summertime Sadness",
+      "25": "Britney Spears — Work Bitch"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-45",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      13
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "13": "Katy Perry — Roar"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-46",
+    "status": "ok",
+    "entries_before": 22,
+    "entries_after": 25,
+    "gaps_before": [
+      16,
+      17,
+      21
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "16": "Naughty Boy — La La La",
+      "17": "Katy Perry — Roar",
+      "21": "Eminem — Berzerk"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-47",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      4
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Avicii — Hey Brother"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-48",
+    "status": "ok",
+    "entries_before": 23,
+    "entries_after": 25,
+    "gaps_before": [
+      9,
+      16
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "9": "Jason Derulo — Talk Dirty",
+      "16": "Jabberwocky — Photomaton"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-49",
+    "status": "ok",
+    "entries_before": 23,
+    "entries_after": 25,
+    "gaps_before": [
+      11,
+      24
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "11": "Simple Minds — Mandela Day",
+      "24": "Martin Garrix — Animals"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-50",
+    "status": "ok",
+    "entries_before": 22,
+    "entries_after": 25,
+    "gaps_before": [
+      3,
+      12,
+      21
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Maître Gims — Zombie",
+      "12": "Johnny Clegg & Savuka — Asimbonanga (Mandela)",
+      "21": "Julien Doré — Paris-Seychelles"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2013-51",
+    "status": "ok",
+    "entries_before": 24,
+    "entries_after": 25,
+    "gaps_before": [
+      3
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Maître Gims — Zombie"
     },
     "still_missing": []
   }
