@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T22:55:18.023160+00:00",
+  "generatedAt": "2026-11-14T00:32:18.308568+00:00",
   "archiveCount": 2198,
   "artistCount": 4511,
   "trackCount": 10560,
@@ -15462,7 +15462,7 @@
           "firstDate": "11/07/1993",
           "lastKey": "1994-09",
           "lastDate": "28/02/1994",
-          "weeks": 31,
+          "weeks": 32,
           "peak": 5,
           "peakKey": "1993-46",
           "peakDate": "15/11/1993"
@@ -15703,7 +15703,7 @@
         }
       ],
       "trackCount": 19,
-      "totalWeeks": 282,
+      "totalWeeks": 283,
       "bestPeak": 5,
       "firstYear": 1987,
       "lastYear": 2009,
@@ -36376,7 +36376,7 @@
           "firstDate": "11/10/1993",
           "lastKey": "1994-30",
           "lastDate": "25/07/1994",
-          "weeks": 37,
+          "weeks": 38,
           "peak": 1,
           "peakKey": "1994-05",
           "peakDate": "31/01/1994"
@@ -36500,7 +36500,7 @@
         }
       ],
       "trackCount": 10,
-      "totalWeeks": 170,
+      "totalWeeks": 171,
       "bestPeak": 1,
       "firstYear": 1993,
       "lastYear": 1998,
@@ -37192,7 +37192,7 @@
           "firstDate": "15/11/1993",
           "lastKey": "1994-10",
           "lastDate": "07/03/1994",
-          "weeks": 16,
+          "weeks": 17,
           "peak": 18,
           "peakKey": "1994-03",
           "peakDate": "17/01/1994"
@@ -37225,7 +37225,7 @@
         }
       ],
       "trackCount": 10,
-      "totalWeeks": 130,
+      "totalWeeks": 131,
       "bestPeak": 2,
       "firstYear": 1990,
       "lastYear": 1995,
@@ -49943,7 +49943,7 @@
           "firstDate": "01/08/1993",
           "lastKey": "1993-46",
           "lastDate": "15/11/1993",
-          "weeks": 15,
+          "weeks": 16,
           "peak": 14,
           "peakKey": "1993-37",
           "peakDate": "13/09/1993"
@@ -49989,7 +49989,7 @@
         }
       ],
       "trackCount": 7,
-      "totalWeeks": 132,
+      "totalWeeks": 133,
       "bestPeak": 2,
       "firstYear": 1985,
       "lastYear": 2003,
@@ -59752,6 +59752,99 @@
       "lastDate": "27/03/2023"
     },
     {
+      "id": "culture beat",
+      "name": "Culture Beat",
+      "tracks": [
+        {
+          "key": "mr vain|culture beat",
+          "title": "Mr. Vain",
+          "credit": "Culture Beat",
+          "firstKey": "1993-28",
+          "firstDate": "11/07/1993",
+          "lastKey": "1993-50",
+          "lastDate": "13/12/1993",
+          "weeks": 23,
+          "peak": 3,
+          "peakKey": "1993-35",
+          "peakDate": "29/08/1993"
+        },
+        {
+          "key": "anything|culture beat",
+          "title": "Anything",
+          "credit": "Culture Beat",
+          "firstKey": "1994-03",
+          "firstDate": "17/01/1994",
+          "lastKey": "1994-22",
+          "lastDate": "30/05/1994",
+          "weeks": 18,
+          "peak": 4,
+          "peakKey": "1994-09",
+          "peakDate": "28/02/1994"
+        },
+        {
+          "key": "got to get it|culture beat",
+          "title": "Got To Get It",
+          "credit": "Culture Beat",
+          "firstKey": "1993-37",
+          "firstDate": "13/09/1993",
+          "lastKey": "1994-03",
+          "lastDate": "17/01/1994",
+          "weeks": 17,
+          "peak": 10,
+          "peakKey": "1993-46",
+          "peakDate": "15/11/1993"
+        },
+        {
+          "key": "world in your hands|culture beat",
+          "title": "World In Your Hands",
+          "credit": "Culture Beat",
+          "firstKey": "1994-19",
+          "firstDate": "09/05/1994",
+          "lastKey": "1994-23",
+          "lastDate": "06/06/1994",
+          "weeks": 4,
+          "peak": 42,
+          "peakKey": "1994-22",
+          "peakDate": "30/05/1994"
+        },
+        {
+          "key": "inside out|culture beat",
+          "title": "Inside Out",
+          "credit": "Culture Beat",
+          "firstKey": "1995-46",
+          "firstDate": "13/11/1995",
+          "lastKey": "1995-47",
+          "lastDate": "20/11/1995",
+          "weeks": 2,
+          "peak": 46,
+          "peakKey": "1995-46",
+          "peakDate": "13/11/1995"
+        },
+        {
+          "key": "rendez vous|culture beat",
+          "title": "Rendez-vous",
+          "credit": "Culture Beat",
+          "firstKey": "1998-43",
+          "firstDate": "19/10/1998",
+          "lastKey": "1998-45",
+          "lastDate": "02/11/1998",
+          "weeks": 2,
+          "peak": 88,
+          "peakKey": "1998-43",
+          "peakDate": "19/10/1998"
+        }
+      ],
+      "trackCount": 6,
+      "totalWeeks": 66,
+      "bestPeak": 3,
+      "firstYear": 1993,
+      "lastYear": 1998,
+      "firstKey": "1993-28",
+      "firstDate": "11/07/1993",
+      "lastKey": "1998-45",
+      "lastDate": "02/11/1998"
+    },
+    {
       "id": "dj fred and arnold t",
       "name": "DJ Fred & Arnold T",
       "tracks": [
@@ -59936,99 +60029,6 @@
       "firstDate": "11/11/1984",
       "lastKey": "1990-11",
       "lastDate": "18/03/1990"
-    },
-    {
-      "id": "culture beat",
-      "name": "Culture Beat",
-      "tracks": [
-        {
-          "key": "mr vain|culture beat",
-          "title": "Mr. Vain",
-          "credit": "Culture Beat",
-          "firstKey": "1993-28",
-          "firstDate": "11/07/1993",
-          "lastKey": "1993-50",
-          "lastDate": "13/12/1993",
-          "weeks": 22,
-          "peak": 3,
-          "peakKey": "1993-35",
-          "peakDate": "29/08/1993"
-        },
-        {
-          "key": "anything|culture beat",
-          "title": "Anything",
-          "credit": "Culture Beat",
-          "firstKey": "1994-03",
-          "firstDate": "17/01/1994",
-          "lastKey": "1994-22",
-          "lastDate": "30/05/1994",
-          "weeks": 18,
-          "peak": 4,
-          "peakKey": "1994-09",
-          "peakDate": "28/02/1994"
-        },
-        {
-          "key": "got to get it|culture beat",
-          "title": "Got To Get It",
-          "credit": "Culture Beat",
-          "firstKey": "1993-38",
-          "firstDate": "20/09/1993",
-          "lastKey": "1994-03",
-          "lastDate": "17/01/1994",
-          "weeks": 16,
-          "peak": 10,
-          "peakKey": "1993-46",
-          "peakDate": "15/11/1993"
-        },
-        {
-          "key": "world in your hands|culture beat",
-          "title": "World In Your Hands",
-          "credit": "Culture Beat",
-          "firstKey": "1994-19",
-          "firstDate": "09/05/1994",
-          "lastKey": "1994-23",
-          "lastDate": "06/06/1994",
-          "weeks": 4,
-          "peak": 42,
-          "peakKey": "1994-22",
-          "peakDate": "30/05/1994"
-        },
-        {
-          "key": "inside out|culture beat",
-          "title": "Inside Out",
-          "credit": "Culture Beat",
-          "firstKey": "1995-46",
-          "firstDate": "13/11/1995",
-          "lastKey": "1995-47",
-          "lastDate": "20/11/1995",
-          "weeks": 2,
-          "peak": 46,
-          "peakKey": "1995-46",
-          "peakDate": "13/11/1995"
-        },
-        {
-          "key": "rendez vous|culture beat",
-          "title": "Rendez-vous",
-          "credit": "Culture Beat",
-          "firstKey": "1998-43",
-          "firstDate": "19/10/1998",
-          "lastKey": "1998-45",
-          "lastDate": "02/11/1998",
-          "weeks": 2,
-          "peak": 88,
-          "peakKey": "1998-43",
-          "peakDate": "19/10/1998"
-        }
-      ],
-      "trackCount": 6,
-      "totalWeeks": 64,
-      "bestPeak": 3,
-      "firstYear": 1993,
-      "lastYear": 1998,
-      "firstKey": "1993-28",
-      "firstDate": "11/07/1993",
-      "lastKey": "1998-45",
-      "lastDate": "02/11/1998"
     },
     {
       "id": "eurythmics",
@@ -63011,10 +63011,10 @@
           "firstDate": "22/08/1993",
           "lastKey": "1994-02",
           "lastDate": "10/01/1994",
-          "weeks": 20,
-          "peak": 6,
-          "peakKey": "1993-43",
-          "peakDate": "25/10/1993"
+          "weeks": 21,
+          "peak": 5,
+          "peakKey": "1993-44",
+          "peakDate": "01/11/1993"
         },
         {
           "key": "rock my heart|haddaway",
@@ -63057,7 +63057,7 @@
         }
       ],
       "trackCount": 5,
-      "totalWeeks": 89,
+      "totalWeeks": 90,
       "bestPeak": 1,
       "firstYear": 1993,
       "lastYear": 1995,
@@ -65947,6 +65947,86 @@
       "lastDate": "10/05/2004"
     },
     {
+      "id": "r e m",
+      "name": "R.E.M.",
+      "tracks": [
+        {
+          "key": "everybody hurts|r e m",
+          "title": "Everybody Hurts",
+          "credit": "R.E.M.",
+          "firstKey": "1993-36",
+          "firstDate": "05/09/1993",
+          "lastKey": "1994-08",
+          "lastDate": "21/02/1994",
+          "weeks": 24,
+          "peak": 3,
+          "peakKey": "1993-42",
+          "peakDate": "18/10/1993"
+        },
+        {
+          "key": "losing my religion|r e m",
+          "title": "Losing My Religion",
+          "credit": "R.E.M.",
+          "firstKey": "1991-26",
+          "firstDate": "30/06/1991",
+          "lastKey": "1991-46",
+          "lastDate": "17/11/1991",
+          "weeks": 21,
+          "peak": 3,
+          "peakKey": "1991-37",
+          "peakDate": "15/09/1991"
+        },
+        {
+          "key": "shiny happy people|r e m",
+          "title": "Shiny Happy People",
+          "credit": "R.E.M.",
+          "firstKey": "1991-44",
+          "firstDate": "03/11/1991",
+          "lastKey": "1992-06",
+          "lastDate": "09/02/1992",
+          "weeks": 15,
+          "peak": 10,
+          "peakKey": "1991-47",
+          "peakDate": "24/11/1991"
+        },
+        {
+          "key": "bang and blame|r e m",
+          "title": "Bang And Blame",
+          "credit": "R.E.M.",
+          "firstKey": "1995-17",
+          "firstDate": "24/04/1995",
+          "lastKey": "1995-17",
+          "lastDate": "24/04/1995",
+          "weeks": 1,
+          "peak": 44,
+          "peakKey": "1995-17",
+          "peakDate": "24/04/1995"
+        },
+        {
+          "key": "imitation of life|r e m",
+          "title": "Imitation Of Life",
+          "credit": "R.E.M.",
+          "firstKey": "2001-24",
+          "firstDate": "11/06/2001",
+          "lastKey": "2001-24",
+          "lastDate": "11/06/2001",
+          "weeks": 1,
+          "peak": 99,
+          "peakKey": "2001-24",
+          "peakDate": "11/06/2001"
+        }
+      ],
+      "trackCount": 5,
+      "totalWeeks": 62,
+      "bestPeak": 3,
+      "firstYear": 1991,
+      "lastYear": 2001,
+      "firstKey": "1991-26",
+      "firstDate": "30/06/1991",
+      "lastKey": "2001-24",
+      "lastDate": "11/06/2001"
+    },
+    {
       "id": "claude barzotti",
       "name": "Claude Barzotti",
       "tracks": [
@@ -66025,86 +66105,6 @@
       "firstDate": "18/11/1984",
       "lastKey": "2007-47",
       "lastDate": "19/11/2007"
-    },
-    {
-      "id": "r e m",
-      "name": "R.E.M.",
-      "tracks": [
-        {
-          "key": "everybody hurts|r e m",
-          "title": "Everybody Hurts",
-          "credit": "R.E.M.",
-          "firstKey": "1993-36",
-          "firstDate": "05/09/1993",
-          "lastKey": "1994-08",
-          "lastDate": "21/02/1994",
-          "weeks": 23,
-          "peak": 3,
-          "peakKey": "1993-42",
-          "peakDate": "18/10/1993"
-        },
-        {
-          "key": "losing my religion|r e m",
-          "title": "Losing My Religion",
-          "credit": "R.E.M.",
-          "firstKey": "1991-26",
-          "firstDate": "30/06/1991",
-          "lastKey": "1991-46",
-          "lastDate": "17/11/1991",
-          "weeks": 21,
-          "peak": 3,
-          "peakKey": "1991-37",
-          "peakDate": "15/09/1991"
-        },
-        {
-          "key": "shiny happy people|r e m",
-          "title": "Shiny Happy People",
-          "credit": "R.E.M.",
-          "firstKey": "1991-44",
-          "firstDate": "03/11/1991",
-          "lastKey": "1992-06",
-          "lastDate": "09/02/1992",
-          "weeks": 15,
-          "peak": 10,
-          "peakKey": "1991-47",
-          "peakDate": "24/11/1991"
-        },
-        {
-          "key": "bang and blame|r e m",
-          "title": "Bang And Blame",
-          "credit": "R.E.M.",
-          "firstKey": "1995-17",
-          "firstDate": "24/04/1995",
-          "lastKey": "1995-17",
-          "lastDate": "24/04/1995",
-          "weeks": 1,
-          "peak": 44,
-          "peakKey": "1995-17",
-          "peakDate": "24/04/1995"
-        },
-        {
-          "key": "imitation of life|r e m",
-          "title": "Imitation Of Life",
-          "credit": "R.E.M.",
-          "firstKey": "2001-24",
-          "firstDate": "11/06/2001",
-          "lastKey": "2001-24",
-          "lastDate": "11/06/2001",
-          "weeks": 1,
-          "peak": 99,
-          "peakKey": "2001-24",
-          "peakDate": "11/06/2001"
-        }
-      ],
-      "trackCount": 5,
-      "totalWeeks": 61,
-      "bestPeak": 3,
-      "firstYear": 1991,
-      "lastYear": 2001,
-      "firstKey": "1991-26",
-      "firstDate": "30/06/1991",
-      "lastKey": "2001-24",
-      "lastDate": "11/06/2001"
     },
     {
       "id": "midnight oil",
@@ -76595,6 +76595,73 @@
       "lastDate": "24/03/2003"
     },
     {
+      "id": "pin occhio",
+      "name": "Pin-occhio",
+      "tracks": [
+        {
+          "key": "pinocchio|pin occhio",
+          "title": "Pinocchio",
+          "credit": "Pin-occhio",
+          "firstKey": "1993-10",
+          "firstDate": "07/03/1993",
+          "lastKey": "1993-40",
+          "lastDate": "04/10/1993",
+          "weeks": 25,
+          "peak": 10,
+          "peakKey": "1993-22",
+          "peakDate": "30/05/1993"
+        },
+        {
+          "key": "tutatutatutata|pin occhio",
+          "title": "Tutatutatutata",
+          "credit": "Pin-occhio",
+          "firstKey": "1993-27",
+          "firstDate": "04/07/1993",
+          "lastKey": "1993-45",
+          "lastDate": "08/11/1993",
+          "weeks": 19,
+          "peak": 14,
+          "peakKey": "1993-31",
+          "peakDate": "01/08/1993"
+        },
+        {
+          "key": "vai|pin occhio",
+          "title": "Vai !!",
+          "credit": "Pin-occhio",
+          "firstKey": "1993-46",
+          "firstDate": "15/11/1993",
+          "lastKey": "1994-01",
+          "lastDate": "03/01/1994",
+          "weeks": 4,
+          "peak": 34,
+          "peakKey": "1993-47",
+          "peakDate": "22/11/1993"
+        },
+        {
+          "key": "enjoy the music|pin occhio",
+          "title": "Enjoy The Music",
+          "credit": "Pin-occhio",
+          "firstKey": "1994-15",
+          "firstDate": "11/04/1994",
+          "lastKey": "1994-17",
+          "lastDate": "25/04/1994",
+          "weeks": 2,
+          "peak": 48,
+          "peakKey": "1994-17",
+          "peakDate": "25/04/1994"
+        }
+      ],
+      "trackCount": 4,
+      "totalWeeks": 50,
+      "bestPeak": 10,
+      "firstYear": 1993,
+      "lastYear": 1994,
+      "firstKey": "1993-10",
+      "firstDate": "07/03/1993",
+      "lastKey": "1994-17",
+      "lastDate": "25/04/1994"
+    },
+    {
       "id": "sonia lacen",
       "name": "Sonia Lacen",
       "tracks": [
@@ -76727,73 +76794,6 @@
       "firstDate": "11/11/1984",
       "lastKey": "1988-28",
       "lastDate": "10/07/1988"
-    },
-    {
-      "id": "pin occhio",
-      "name": "Pin-occhio",
-      "tracks": [
-        {
-          "key": "pinocchio|pin occhio",
-          "title": "Pinocchio",
-          "credit": "Pin-occhio",
-          "firstKey": "1993-10",
-          "firstDate": "07/03/1993",
-          "lastKey": "1993-40",
-          "lastDate": "04/10/1993",
-          "weeks": 25,
-          "peak": 10,
-          "peakKey": "1993-22",
-          "peakDate": "30/05/1993"
-        },
-        {
-          "key": "tutatutatutata|pin occhio",
-          "title": "Tutatutatutata",
-          "credit": "Pin-occhio",
-          "firstKey": "1993-27",
-          "firstDate": "04/07/1993",
-          "lastKey": "1993-45",
-          "lastDate": "08/11/1993",
-          "weeks": 18,
-          "peak": 14,
-          "peakKey": "1993-31",
-          "peakDate": "01/08/1993"
-        },
-        {
-          "key": "vai|pin occhio",
-          "title": "Vai !!",
-          "credit": "Pin-occhio",
-          "firstKey": "1993-46",
-          "firstDate": "15/11/1993",
-          "lastKey": "1994-01",
-          "lastDate": "03/01/1994",
-          "weeks": 4,
-          "peak": 34,
-          "peakKey": "1993-47",
-          "peakDate": "22/11/1993"
-        },
-        {
-          "key": "enjoy the music|pin occhio",
-          "title": "Enjoy The Music",
-          "credit": "Pin-occhio",
-          "firstKey": "1994-15",
-          "firstDate": "11/04/1994",
-          "lastKey": "1994-17",
-          "lastDate": "25/04/1994",
-          "weeks": 2,
-          "peak": 48,
-          "peakKey": "1994-17",
-          "peakDate": "25/04/1994"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 49,
-      "bestPeak": 10,
-      "firstYear": 1993,
-      "lastYear": 1994,
-      "firstKey": "1993-10",
-      "firstDate": "07/03/1993",
-      "lastKey": "1994-17",
-      "lastDate": "25/04/1994"
     },
     {
       "id": "billie eilish",
@@ -83525,6 +83525,60 @@
       "lastDate": "19/01/2009"
     },
     {
+      "id": "helene",
+      "name": "Hélène",
+      "tracks": [
+        {
+          "key": "pour l amour d un garcon|helene",
+          "title": "Pour l'amour d'un garçon",
+          "credit": "Hélène",
+          "firstKey": "1992-46",
+          "firstDate": "15/11/1992",
+          "lastKey": "1993-53",
+          "lastDate": "03/01/1994",
+          "weeks": 24,
+          "peak": 4,
+          "peakKey": "1993-03",
+          "peakDate": "17/01/1993"
+        },
+        {
+          "key": "je m appelle helene|helene",
+          "title": "Je m'appelle Hélène",
+          "credit": "Hélène",
+          "firstKey": "1993-39",
+          "firstDate": "27/09/1993",
+          "lastKey": "1994-02",
+          "lastDate": "10/01/1994",
+          "weeks": 16,
+          "peak": 5,
+          "peakKey": "1993-43",
+          "peakDate": "25/10/1993"
+        },
+        {
+          "key": "peut etre qu en septembre|helene",
+          "title": "Peut-être qu'en septembre",
+          "credit": "Hélène",
+          "firstKey": "1993-13",
+          "firstDate": "28/03/1993",
+          "lastKey": "1993-36",
+          "lastDate": "05/09/1993",
+          "weeks": 23,
+          "peak": 11,
+          "peakKey": "1993-26",
+          "peakDate": "27/06/1993"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 63,
+      "bestPeak": 4,
+      "firstYear": 1992,
+      "lastYear": 1994,
+      "firstKey": "1992-46",
+      "firstDate": "15/11/1992",
+      "lastKey": "1994-02",
+      "lastDate": "10/01/1994"
+    },
+    {
       "id": "julien lieb",
       "name": "Julien Lieb",
       "tracks": [
@@ -83685,60 +83739,6 @@
       "firstDate": "30/03/2020",
       "lastKey": "2022-32",
       "lastDate": "08/08/2022"
-    },
-    {
-      "id": "helene",
-      "name": "Hélène",
-      "tracks": [
-        {
-          "key": "pour l amour d un garcon|helene",
-          "title": "Pour l'amour d'un garçon",
-          "credit": "Hélène",
-          "firstKey": "1992-46",
-          "firstDate": "15/11/1992",
-          "lastKey": "1993-53",
-          "lastDate": "03/01/1994",
-          "weeks": 24,
-          "peak": 4,
-          "peakKey": "1993-03",
-          "peakDate": "17/01/1993"
-        },
-        {
-          "key": "je m appelle helene|helene",
-          "title": "Je m'appelle Hélène",
-          "credit": "Hélène",
-          "firstKey": "1993-39",
-          "firstDate": "27/09/1993",
-          "lastKey": "1994-02",
-          "lastDate": "10/01/1994",
-          "weeks": 14,
-          "peak": 6,
-          "peakKey": "1993-45",
-          "peakDate": "08/11/1993"
-        },
-        {
-          "key": "peut etre qu en septembre|helene",
-          "title": "Peut-être qu'en septembre",
-          "credit": "Hélène",
-          "firstKey": "1993-13",
-          "firstDate": "28/03/1993",
-          "lastKey": "1993-36",
-          "lastDate": "05/09/1993",
-          "weeks": 23,
-          "peak": 11,
-          "peakKey": "1993-26",
-          "peakDate": "27/06/1993"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 61,
-      "bestPeak": 4,
-      "firstYear": 1992,
-      "lastYear": 1994,
-      "firstKey": "1992-46",
-      "firstDate": "15/11/1992",
-      "lastKey": "1994-02",
-      "lastDate": "10/01/1994"
     },
     {
       "id": "slai",
@@ -100549,6 +100549,47 @@
       "lastDate": "06/10/2025"
     },
     {
+      "id": "robin s",
+      "name": "Robin S.",
+      "tracks": [
+        {
+          "key": "show me love|robin s",
+          "title": "Show Me Love",
+          "credit": "Robin S.",
+          "firstKey": "1993-37",
+          "firstDate": "13/09/1993",
+          "lastKey": "1998-23",
+          "lastDate": "01/06/1998",
+          "weeks": 23,
+          "peak": 14,
+          "peakKey": "1993-39",
+          "peakDate": "27/09/1993"
+        },
+        {
+          "key": "luv 4 luv|robin s",
+          "title": "Luv 4 Luv",
+          "credit": "Robin S.",
+          "firstKey": "1993-41",
+          "firstDate": "11/10/1993",
+          "lastKey": "1994-13",
+          "lastDate": "28/03/1994",
+          "weeks": 20,
+          "peak": 15,
+          "peakKey": "1994-05",
+          "peakDate": "31/01/1994"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 43,
+      "bestPeak": 14,
+      "firstYear": 1993,
+      "lastYear": 1998,
+      "firstKey": "1993-37",
+      "firstDate": "13/09/1993",
+      "lastKey": "1998-23",
+      "lastDate": "01/06/1998"
+    },
+    {
       "id": "ginie line",
       "name": "Ginie Line",
       "tracks": [
@@ -100957,47 +100998,6 @@
       "firstDate": "11/09/2006",
       "lastKey": "2011-13",
       "lastDate": "28/03/2011"
-    },
-    {
-      "id": "robin s",
-      "name": "Robin S.",
-      "tracks": [
-        {
-          "key": "show me love|robin s",
-          "title": "Show Me Love",
-          "credit": "Robin S.",
-          "firstKey": "1993-37",
-          "firstDate": "13/09/1993",
-          "lastKey": "1998-23",
-          "lastDate": "01/06/1998",
-          "weeks": 22,
-          "peak": 14,
-          "peakKey": "1993-39",
-          "peakDate": "27/09/1993"
-        },
-        {
-          "key": "luv 4 luv|robin s",
-          "title": "Luv 4 Luv",
-          "credit": "Robin S.",
-          "firstKey": "1993-41",
-          "firstDate": "11/10/1993",
-          "lastKey": "1994-13",
-          "lastDate": "28/03/1994",
-          "weeks": 20,
-          "peak": 15,
-          "peakKey": "1994-05",
-          "peakDate": "31/01/1994"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 42,
-      "bestPeak": 14,
-      "firstYear": 1993,
-      "lastYear": 1998,
-      "firstKey": "1993-37",
-      "firstDate": "13/09/1993",
-      "lastKey": "1998-23",
-      "lastDate": "01/06/1998"
     },
     {
       "id": "sko",
@@ -103706,6 +103706,47 @@
       "lastDate": "08/03/2004"
     },
     {
+      "id": "regg lyss",
+      "name": "Regg'Lyss",
+      "tracks": [
+        {
+          "key": "mets de l huile|regg lyss",
+          "title": "Mets de l'huile",
+          "credit": "Regg'Lyss",
+          "firstKey": "1993-30",
+          "firstDate": "25/07/1993",
+          "lastKey": "1994-09",
+          "lastDate": "28/02/1994",
+          "weeks": 32,
+          "peak": 1,
+          "peakKey": "1993-37",
+          "peakDate": "13/09/1993"
+        },
+        {
+          "key": "vive les gestes|regg lyss",
+          "title": "Vive les gestes",
+          "credit": "Regg'Lyss",
+          "firstKey": "1993-22",
+          "firstDate": "30/05/1993",
+          "lastKey": "1993-24",
+          "lastDate": "13/06/1993",
+          "weeks": 3,
+          "peak": 24,
+          "peakKey": "1993-24",
+          "peakDate": "13/06/1993"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 35,
+      "bestPeak": 1,
+      "firstYear": 1993,
+      "lastYear": 1994,
+      "firstKey": "1993-22",
+      "firstDate": "30/05/1993",
+      "lastKey": "1994-09",
+      "lastDate": "28/02/1994"
+    },
+    {
       "id": "topic",
       "name": "Topic",
       "tracks": [
@@ -104729,47 +104770,6 @@
       "firstDate": "24/05/2010",
       "lastKey": "2011-24",
       "lastDate": "13/06/2011"
-    },
-    {
-      "id": "regg lyss",
-      "name": "Regg'Lyss",
-      "tracks": [
-        {
-          "key": "mets de l huile|regg lyss",
-          "title": "Mets de l'huile",
-          "credit": "Regg'Lyss",
-          "firstKey": "1993-30",
-          "firstDate": "25/07/1993",
-          "lastKey": "1994-09",
-          "lastDate": "28/02/1994",
-          "weeks": 30,
-          "peak": 1,
-          "peakKey": "1993-37",
-          "peakDate": "13/09/1993"
-        },
-        {
-          "key": "vive les gestes|regg lyss",
-          "title": "Vive les gestes",
-          "credit": "Regg'Lyss",
-          "firstKey": "1993-22",
-          "firstDate": "30/05/1993",
-          "lastKey": "1993-24",
-          "lastDate": "13/06/1993",
-          "weeks": 3,
-          "peak": 24,
-          "peakKey": "1993-24",
-          "peakDate": "13/06/1993"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 33,
-      "bestPeak": 1,
-      "firstYear": 1993,
-      "lastYear": 1994,
-      "firstKey": "1993-22",
-      "firstDate": "30/05/1993",
-      "lastKey": "1994-09",
-      "lastDate": "28/02/1994"
     },
     {
       "id": "iggy azalea",
@@ -137638,6 +137638,34 @@
       "lastDate": "13/08/1989"
     },
     {
+      "id": "snow",
+      "name": "Snow",
+      "tracks": [
+        {
+          "key": "informer|snow",
+          "title": "Informer",
+          "credit": "Snow",
+          "firstKey": "1993-22",
+          "firstDate": "30/05/1993",
+          "lastKey": "1993-42",
+          "lastDate": "18/10/1993",
+          "weeks": 20,
+          "peak": 3,
+          "peakKey": "1993-30",
+          "peakDate": "25/07/1993"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 20,
+      "bestPeak": 3,
+      "firstYear": 1993,
+      "lastYear": 1993,
+      "firstKey": "1993-22",
+      "firstDate": "30/05/1993",
+      "lastKey": "1993-42",
+      "lastDate": "18/10/1993"
+    },
+    {
       "id": "yall",
       "name": "Yall",
       "tracks": [
@@ -139652,34 +139680,6 @@
       "firstDate": "17/01/1994",
       "lastKey": "1994-23",
       "lastDate": "06/06/1994"
-    },
-    {
-      "id": "snow",
-      "name": "Snow",
-      "tracks": [
-        {
-          "key": "informer|snow",
-          "title": "Informer",
-          "credit": "Snow",
-          "firstKey": "1993-22",
-          "firstDate": "30/05/1993",
-          "lastKey": "1993-42",
-          "lastDate": "18/10/1993",
-          "weeks": 19,
-          "peak": 3,
-          "peakKey": "1993-30",
-          "peakDate": "25/07/1993"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 19,
-      "bestPeak": 3,
-      "firstYear": 1993,
-      "lastYear": 1993,
-      "firstKey": "1993-22",
-      "firstDate": "30/05/1993",
-      "lastKey": "1993-42",
-      "lastDate": "18/10/1993"
     },
     {
       "id": "thierry mutin",
@@ -142314,6 +142314,34 @@
       "lastDate": "10/12/2018"
     },
     {
+      "id": "spin doctors",
+      "name": "Spin Doctors",
+      "tracks": [
+        {
+          "key": "two princes|spin doctors",
+          "title": "Two Princes",
+          "credit": "Spin Doctors",
+          "firstKey": "1993-35",
+          "firstDate": "29/08/1993",
+          "lastKey": "1993-52",
+          "lastDate": "27/12/1993",
+          "weeks": 18,
+          "peak": 5,
+          "peakKey": "1993-40",
+          "peakDate": "04/10/1993"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 18,
+      "bestPeak": 5,
+      "firstYear": 1993,
+      "lastYear": 1993,
+      "firstKey": "1993-35",
+      "firstDate": "29/08/1993",
+      "lastKey": "1993-52",
+      "lastDate": "27/12/1993"
+    },
+    {
       "id": "alexandra lucci",
       "name": "Alexandra Lucci",
       "tracks": [
@@ -144218,34 +144246,6 @@
       "lastDate": "15/04/1996"
     },
     {
-      "id": "spin doctors",
-      "name": "Spin Doctors",
-      "tracks": [
-        {
-          "key": "two princes|spin doctors",
-          "title": "Two Princes",
-          "credit": "Spin Doctors",
-          "firstKey": "1993-35",
-          "firstDate": "29/08/1993",
-          "lastKey": "1993-52",
-          "lastDate": "27/12/1993",
-          "weeks": 17,
-          "peak": 5,
-          "peakKey": "1993-40",
-          "peakDate": "04/10/1993"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 17,
-      "bestPeak": 5,
-      "firstYear": 1993,
-      "lastYear": 1993,
-      "firstKey": "1993-35",
-      "firstDate": "29/08/1993",
-      "lastKey": "1993-52",
-      "lastDate": "27/12/1993"
-    },
-    {
       "id": "bernard lavilliers and jimmy cliff",
       "name": "Bernard Lavilliers & Jimmy Cliff",
       "tracks": [
@@ -144496,6 +144496,34 @@
       "firstDate": "09/09/1996",
       "lastKey": "1997-01",
       "lastDate": "30/12/1996"
+    },
+    {
+      "id": "indecent obsession",
+      "name": "Indecent Obsession",
+      "tracks": [
+        {
+          "key": "whispers in the dark|indecent obsession",
+          "title": "Whispers In The Dark",
+          "credit": "Indecent Obsession",
+          "firstKey": "1993-37",
+          "firstDate": "13/09/1993",
+          "lastKey": "1994-01",
+          "lastDate": "03/01/1994",
+          "weeks": 17,
+          "peak": 7,
+          "peakKey": "1993-39",
+          "peakDate": "27/09/1993"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 17,
+      "bestPeak": 7,
+      "firstYear": 1993,
+      "lastYear": 1994,
+      "firstKey": "1993-37",
+      "firstDate": "13/09/1993",
+      "lastKey": "1994-01",
+      "lastDate": "03/01/1994"
     },
     {
       "id": "shanice",
@@ -146568,34 +146596,6 @@
       "firstDate": "05/09/1994",
       "lastKey": "1994-51",
       "lastDate": "19/12/1994"
-    },
-    {
-      "id": "indecent obsession",
-      "name": "Indecent Obsession",
-      "tracks": [
-        {
-          "key": "whispers in the dark|indecent obsession",
-          "title": "Whispers In The Dark",
-          "credit": "Indecent Obsession",
-          "firstKey": "1993-37",
-          "firstDate": "13/09/1993",
-          "lastKey": "1994-01",
-          "lastDate": "03/01/1994",
-          "weeks": 16,
-          "peak": 7,
-          "peakKey": "1993-39",
-          "peakDate": "27/09/1993"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 16,
-      "bestPeak": 7,
-      "firstYear": 1993,
-      "lastYear": 1994,
-      "firstKey": "1993-37",
-      "firstDate": "13/09/1993",
-      "lastKey": "1994-01",
-      "lastDate": "03/01/1994"
     },
     {
       "id": "ivanov",

@@ -15,48 +15,193 @@
       "26": "Pin-occhio — Tutatutatutata",
       "30": "Culture Beat — Got To Get It"
     },
-    "still_missing": [],
-    "lost": {}
+    "still_missing": []
   },
   {
-    "key": "1994-07",
+    "key": "1993-38",
     "status": "ok",
-    "entries_before": 45,
-    "entries_after": 49,
+    "entries_before": 48,
+    "entries_after": 50,
     "gaps_before": [
-      2,
-      5,
-      6,
-      32,
-      47
-    ],
-    "gaps_after": [
-      47
-    ],
-    "recovered": {
-      "2": "Axelle Red — Sensualité",
-      "5": "Culture Beat — Anything",
-      "6": "Alain Souchon — Foule sentimentale",
-      "32": "Barbara Hendricks — Ave Maria"
-    },
-    "still_missing": [
-      47
-    ],
-    "lost": {}
-  },
-  {
-    "key": "2003-15",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      3
+      18,
+      29
     ],
     "gaps_after": [],
     "recovered": {
-      "3": "Nolwenn Leroy — Cassé"
+      "18": "Snow — Informer",
+      "29": "Robin S. — Show Me Love"
     },
-    "still_missing": [],
-    "lost": {}
+    "still_missing": []
+  },
+  {
+    "key": "1993-42",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      17,
+      20
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "17": "Hélène — Je m'appelle Hélène",
+      "20": "Ace Of Base — Happy Nation"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1993-43",
+    "status": "ok",
+    "entries_before": 47,
+    "entries_after": 50,
+    "gaps_before": [
+      5,
+      12,
+      15
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "5": "Hélène — Je m'appelle Hélène",
+      "12": "Indecent Obsession — Whispers In The Dark",
+      "15": "Culture Beat — Mr. Vain"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1993-44",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      5,
+      22
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "5": "Haddaway — Life",
+      "22": "Eros Ramazzotti — Cose della vita"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1993-45",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      4
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Regg'Lyss — Mets de l'huile"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1993-47",
+    "status": "ok",
+    "entries_before": 47,
+    "entries_after": 49,
+    "gaps_before": [
+      5,
+      22,
+      43
+    ],
+    "gaps_after": [
+      43
+    ],
+    "recovered": {
+      "5": "Regg'Lyss — Mets de l'huile",
+      "22": "Fredericks, Goldman & Jones — Rouge"
+    },
+    "still_missing": [
+      43
+    ]
+  },
+  {
+    "key": "1993-48",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 49,
+    "gaps_before": [
+      13,
+      34
+    ],
+    "gaps_after": [
+      34
+    ],
+    "recovered": {
+      "13": "Patricia Kaas — Il me dit que je suis belle"
+    },
+    "still_missing": [
+      34
+    ]
+  },
+  {
+    "key": "1993-49",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      33
+    ],
+    "gaps_after": [
+      33
+    ],
+    "recovered": {},
+    "still_missing": [
+      33
+    ]
+  },
+  {
+    "key": "1993-50",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      32
+    ],
+    "gaps_after": [
+      32
+    ],
+    "recovered": {},
+    "still_missing": [
+      32
+    ]
+  },
+  {
+    "key": "1993-51",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 49,
+    "gaps_before": [
+      4,
+      26
+    ],
+    "gaps_after": [
+      26
+    ],
+    "recovered": {
+      "4": "R.E.M. — Everybody Hurts"
+    },
+    "still_missing": [
+      26
+    ]
+  },
+  {
+    "key": "1993-52",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 49,
+    "gaps_before": [
+      30
+    ],
+    "gaps_after": [
+      30
+    ],
+    "recovered": {},
+    "still_missing": [
+      30
+    ]
   }
 ]
