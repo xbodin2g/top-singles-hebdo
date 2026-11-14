@@ -17,10 +17,12 @@ Corrections cumulées :
   - longueurs minimales ramenées à 1 : "U2" et "LP" (2 car.) étaient rejetés
   - filtre d'en-têtes par correspondance EXACTE / préfixe :
     "3 nuits par semaine" (Brett) était rejeté car il contient "semaine"
-  - SNEP : validation structurelle par ancrage sur "La Semaine Dernière".
-    Sans elle, les nombres de métadonnée (position précédente, nombre de
-    semaines) étaient pris pour des positions et engendraient des fantômes
-    "La Semaine Dernière — e" qui écrasaient les vrais titres.
+  - SNEP : validation structurelle acceptant DEUX cas :
+      * Entrée avec historique : "La Semaine Dernière" à l'index 4 ou 5
+      * Nouvelle entrée       : pas de "La Semaine Dernière",
+                                "Semaine dans le Top" à l'index 4 ou 5
+        (sinon les lignes "1, er" de « 1ᵉʳ Semaine dans le Top »
+        faisaient rejeter toute nouvelle entrée SNEP)
 """
 
 import json
@@ -626,17 +628,20 @@ def fetch_snep_week(year, week, cache):
 
 def parse_snep_html(html_text):
     """
-    Structure SNEP, après la ligne de position :
+    Deux structures SNEP possibles après la ligne de position :
+
+    Entrée avec historique :
       [titre, artiste, (label), valeur_préc, e, "La Semaine Dernière",
        semaines, e, "Semaine dans le Top"]
+      → "La Semaine Dernière" à l'index 4 (sans label) ou 5 (avec label)
 
-    Validation structurelle : "La Semaine Dernière" doit être à l'index 4
-    (sans label) ou 5 (avec label) du bloc. Sans ce contrôle, les nombres
-    de métadonnée (position précédente, nombre de semaines) sont pris pour
-    des positions et engendrent des fantômes "La Semaine Dernière — e"
-    qui écrasent les vrais titres par déduplication.
+    Nouvelle entrée (1ère semaine au classement) :
+      [titre, artiste, (label), 1, er, "Semaine dans le Top"]
+      → pas de "La Semaine Dernière", "Semaine dans le Top" à l'index 4 ou 5
+      → lignes "1, er" = « 1ᵉʳ Semaine dans le Top »
 
-    Après une entrée validée, on saute ses métadonnées.
+    Les deux cas sont acceptés ; les nombres de métadonnée ne peuvent plus
+    être confondus avec des positions.
     """
     entries = []
     soup = BeautifulSoup(html_text, 'html.parser')
@@ -664,39 +669,48 @@ def parse_snep_html(html_text):
             i += 1
             continue
 
-        # --- ancrage structurel ---
+        # --- recherche des ancres ---
         lsd = None
         for k in range(2, min(7, len(block))):
             if block[k] == LSD:
                 lsd = k
                 break
-        if lsd not in (4, 5):
+
+        sdt = None
+        sdt_start = (lsd + 1) if lsd is not None else 2
+        sdt_end = (lsd + 5) if lsd is not None else 7
+        for k in range(sdt_start, min(sdt_end, len(block))):
+            if block[k] == SDT:
+                sdt = k
+                break
+
+        # --- validation structurelle : deux cas valides ---
+        is_historical = lsd in (4, 5)
+        is_new_entry = (lsd is None and sdt in (4, 5))
+
+        if not (is_historical or is_new_entry):
             i += 1
             continue
 
         title = block[0]
         artist = block[1]
-        label = block[2] if lsd == 5 else None
+        label = block[2] if (lsd == 5 or sdt == 5) else None
 
         previous_pos = None
         movement = "same"
         weeks_on_chart = 1
 
-        # valeur de position précédente : 2 lignes avant LSD
-        pv = block[lsd - 2]
-        if re.fullmatch(r"\d{1,3}", pv):
-            previous_pos = int(pv)
-            if previous_pos > position:
-                movement = "up"
-            elif previous_pos < position:
-                movement = "down"
+        if is_historical:
+            # position précédente : 2 lignes avant LSD
+            pv = block[lsd - 2]
+            if re.fullmatch(r"\d{1,3}", pv):
+                previous_pos = int(pv)
+                if previous_pos > position:
+                    movement = "up"
+                elif previous_pos < position:
+                    movement = "down"
 
-        # nombre de semaines : 2 lignes avant SDT
-        sdt = None
-        for k in range(lsd + 1, min(lsd + 5, len(block))):
-            if block[k] == SDT:
-                sdt = k
-                break
+        # nombre de semaines : 2 lignes avant SDT (toujours présent)
         if sdt is not None and sdt >= 2:
             wv = block[sdt - 2]
             if re.fullmatch(r"\d{1,3}", wv):
@@ -721,7 +735,8 @@ def parse_snep_html(html_text):
             })
 
         # sauter au-delà des métadonnées de cette entrée
-        i = i + 1 + ((sdt + 1) if sdt is not None else (lsd + 1))
+        end_marker = sdt if sdt is not None else (lsd if lsd is not None else 0)
+        i = i + 1 + (end_marker + 1 if end_marker else 1)
 
     return entries
 
