@@ -1561001,3600 +1561001,6 @@
     "pages": 5,
     "cached_at": "2026-11-14"
   },
-  "2005-15": {
-    "week": 15,
-    "year": 2005,
-    "date": "11/04/2005",
-    "entries": [
-      {
-        "position": 1,
-        "track": {
-          "title": "Un monde parfait",
-          "artist": "Ilona Mitrecey"
-        },
-        "previousPosition": 1,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 1,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 2,
-        "track": {
-          "title": "Écris l'histoire",
-          "artist": "Grégory Lemarchal"
-        },
-        "previousPosition": 2,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 2,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 3,
-        "track": {
-          "title": "Concerto pour deux voix",
-          "artist": "Clémence & Jean-Baptiste Maunier"
-        },
-        "previousPosition": 4,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 3,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 4,
-        "track": {
-          "title": "Tout le bonheur du monde",
-          "artist": "Sinsemilia"
-        },
-        "previousPosition": 5,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 4,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 5,
-        "track": {
-          "title": "Le casse de Brice",
-          "artist": "Jean Dujardin"
-        },
-        "previousPosition": 9,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 5,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 6,
-        "track": {
-          "title": "Je viens du sud",
-          "artist": "Chimène Badi"
-        },
-        "previousPosition": 6,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 6,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 7,
-        "track": {
-          "title": "Lift Me Up",
-          "artist": "Moby"
-        },
-        "previousPosition": 7,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 7,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 8,
-        "track": {
-          "title": "Bad Day",
-          "artist": "Daniel Powter"
-        },
-        "previousPosition": 8,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 8,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 9,
-        "track": {
-          "title": "Ma philosophie",
-          "artist": "Amel Bent"
-        },
-        "previousPosition": 3,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 9,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 10,
-        "track": {
-          "title": "Everybody's Changing",
-          "artist": "Keane"
-        },
-        "previousPosition": 13,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 10,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 11,
-        "track": {
-          "title": "Let Me Love You",
-          "artist": "Mario"
-        },
-        "previousPosition": 10,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 11,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 12,
-        "track": {
-          "title": "Toi & moi",
-          "artist": "Lorie"
-        },
-        "previousPosition": 12,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 12,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 13,
-        "track": {
-          "title": "Get Right",
-          "artist": "Jennifer Lopez"
-        },
-        "previousPosition": 11,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 13,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 14,
-        "track": {
-          "title": "Sous l'oeil de l'ange / Qu'...",
-          "artist": "K-Maro"
-        },
-        "previousPosition": 15,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 14,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 15,
-        "track": {
-          "title": "Blame It On The Boogie",
-          "artist": "Nouvelle Star"
-        },
-        "previousPosition": 17,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 15,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 16,
-        "track": {
-          "title": "If There's Any Justice",
-          "artist": "Lemar"
-        },
-        "previousPosition": 21,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 16,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 17,
-        "track": {
-          "title": "La lettre",
-          "artist": "Lara Fabian"
-        },
-        "previousPosition": 16,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 17,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 18,
-        "track": {
-          "title": "Curtain Falls",
-          "artist": "Blue"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 18,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 19,
-        "track": {
-          "title": "The World Is Mine",
-          "artist": "David Guetta feat. JD Davis"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 19,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 20,
-        "track": {
-          "title": "Et si tu n'existais pas",
-          "artist": "Willy Denzey"
-        },
-        "previousPosition": 14,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 20,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 21,
-        "track": {
-          "title": "Fuck Them All",
-          "artist": "Mylène Farmer"
-        },
-        "previousPosition": 18,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 21,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 22,
-        "track": {
-          "title": "Anaïs Nin",
-          "artist": "Romane Serda avec Renaud"
-        },
-        "previousPosition": 19,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 22,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 23,
-        "track": {
-          "title": "What A Feeling (Flashdance)",
-          "artist": "Global Deejays"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 23,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 24,
-        "track": {
-          "title": "Dilema",
-          "artist": "Papi Sanchez"
-        },
-        "previousPosition": 22,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 24,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 25,
-        "track": {
-          "title": "Make Me Feel",
-          "artist": "Benassi Bros. feat. Dhany"
-        },
-        "previousPosition": 23,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 25,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 26,
-        "track": {
-          "title": "Jerk It Out",
-          "artist": "Caesars"
-        },
-        "previousPosition": 26,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 26,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 27,
-        "track": {
-          "title": "Et puis la terre...",
-          "artist": "A.S.I.E."
-        },
-        "previousPosition": 20,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 27,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 28,
-        "track": {
-          "title": "Oye mi canto",
-          "artist": "N.O.R.E. feat. Nina Sky, Daddy Yankee, Gem Star, Big Mato"
-        },
-        "previousPosition": 24,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 28,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 29,
-        "track": {
-          "title": "If You're Not The One",
-          "artist": "Daniel Bedingfield"
-        },
-        "previousPosition": 25,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 29,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 30,
-        "track": {
-          "title": "How We Do",
-          "artist": "The Game feat. 50 Cent"
-        },
-        "previousPosition": 33,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 30,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 31,
-        "track": {
-          "title": "C'est de l'or",
-          "artist": "Jenifer"
-        },
-        "previousPosition": 29,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 31,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 32,
-        "track": {
-          "title": "Ailleurs comme ici",
-          "artist": "Hélène Segara"
-        },
-        "previousPosition": 32,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 32,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 34,
-        "track": {
-          "title": "Être une femme",
-          "artist": "Anggun"
-        },
-        "previousPosition": 30,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 34,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 35,
-        "track": {
-          "title": "18",
-          "artist": "Ultra Lights feat. Steph B."
-        },
-        "previousPosition": 27,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 35,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 36,
-        "track": {
-          "title": "Ma vie devant toi",
-          "artist": "Steeve Estatof"
-        },
-        "previousPosition": 48,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 36,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 37,
-        "track": {
-          "title": "Get Up Stand Up",
-          "artist": "Stellar Project feat. Brandi Emma"
-        },
-        "previousPosition": 31,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 37,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 38,
-        "track": {
-          "title": "Bye Bye",
-          "artist": "Tragedie feat. Calvin Scott"
-        },
-        "previousPosition": 36,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 38,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 39,
-        "track": {
-          "title": "Dans tes rêves",
-          "artist": "Disiz La Peste"
-        },
-        "previousPosition": 49,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 39,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 40,
-        "track": {
-          "title": "Locked Up",
-          "artist": "Akon"
-        },
-        "previousPosition": 35,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 40,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 41,
-        "track": {
-          "title": "What You Waiting For ?",
-          "artist": "Gwen Stefani"
-        },
-        "previousPosition": 28,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 41,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 42,
-        "track": {
-          "title": "Goodies",
-          "artist": "Ciara"
-        },
-        "previousPosition": 39,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 42,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 43,
-        "track": {
-          "title": "Où va la vie ?",
-          "artist": "IAM feat. Moïse"
-        },
-        "previousPosition": 40,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 43,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 44,
-        "track": {
-          "title": "Lady's Light \"I'm The Queen...",
-          "artist": "Miss Sin"
-        },
-        "previousPosition": 37,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 44,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 45,
-        "track": {
-          "title": "Pom Pom Pom",
-          "artist": "Projet Facteur X²"
-        },
-        "previousPosition": 41,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 45,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 46,
-        "track": {
-          "title": "Soldier",
-          "artist": "Destiny's Child feat. T.I. and Lil Wayne"
-        },
-        "previousPosition": 44,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 46,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 47,
-        "track": {
-          "title": "Belly Dance",
-          "artist": "Kayliah avec Pegguy Tabu"
-        },
-        "previousPosition": 45,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 47,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 48,
-        "track": {
-          "title": "Only U",
-          "artist": "Ashanti"
-        },
-        "previousPosition": 43,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 48,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 49,
-        "track": {
-          "title": "Nobody's Home",
-          "artist": "Avril Lavigne"
-        },
-        "previousPosition": 42,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 49,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 50,
-        "track": {
-          "title": "Get The Party Started",
-          "artist": "Pink"
-        },
-        "previousPosition": 38,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 50,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 51,
-        "track": {
-          "title": "El bimbo",
-          "artist": "Marlene Mourreau"
-        },
-        "previousPosition": 34,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 51,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 52,
-        "track": {
-          "title": "Apprends-nous à rêver",
-          "artist": "Lucie Bernardoni"
-        },
-        "previousPosition": 46,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 52,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 53,
-        "track": {
-          "title": "Boulevard Of Broken Dreams",
-          "artist": "Green Day"
-        },
-        "previousPosition": 47,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 53,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 54,
-        "track": {
-          "title": "La rivière de notre enfance",
-          "artist": "Garou & Michel Sardou"
-        },
-        "previousPosition": 50,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 54,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 55,
-        "track": {
-          "title": "Here We Go Again",
-          "artist": "Ray Charles & Norah Jones"
-        },
-        "previousPosition": 51,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 55,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 56,
-        "track": {
-          "title": "Le grand cabaret",
-          "artist": "Patrick Sébastien"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 56,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 57,
-        "track": {
-          "title": "I Want You",
-          "artist": "Paris Avenue feat. Robin One"
-        },
-        "previousPosition": 55,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 57,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 58,
-        "track": {
-          "title": "Quelqu'un pour quelqu'un",
-          "artist": "Hoda"
-        },
-        "previousPosition": 53,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 58,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 59,
-        "track": {
-          "title": "The Weekend",
-          "artist": "Michael Gray"
-        },
-        "previousPosition": 59,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 59,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 60,
-        "track": {
-          "title": "J'en sais rien",
-          "artist": "Matthieu Mendes"
-        },
-        "previousPosition": 52,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 60,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 61,
-        "track": {
-          "title": "Un geste",
-          "artist": "Les Petits Chanteurs De Saint-Marc"
-        },
-        "previousPosition": 60,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 61,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 62,
-        "track": {
-          "title": "My Boo",
-          "artist": "Usher & Alicia Keys"
-        },
-        "previousPosition": 58,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 62,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 63,
-        "track": {
-          "title": "Contact",
-          "artist": "Kyo"
-        },
-        "previousPosition": 63,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 63,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 64,
-        "track": {
-          "title": "Numb / Encore",
-          "artist": "Jay-Z & Linkin Park"
-        },
-        "previousPosition": 62,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 64,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 65,
-        "track": {
-          "title": "Drop It Like It's Hot",
-          "artist": "Snoop Dogg feat. Pharrell"
-        },
-        "previousPosition": 57,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 65,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 66,
-        "track": {
-          "title": "Drop The Pressure",
-          "artist": "Mylo"
-        },
-        "previousPosition": 66,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 66,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 67,
-        "track": {
-          "title": "Break My Stride",
-          "artist": "Bluelagoon"
-        },
-        "previousPosition": 61,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 67,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 68,
-        "track": {
-          "title": "Iznogoud",
-          "artist": "Michael Youn"
-        },
-        "previousPosition": 65,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 68,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 69,
-        "track": {
-          "title": "Changer",
-          "artist": "Marie-Eve Janvier & Jean-François Breau"
-        },
-        "previousPosition": 64,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 69,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 70,
-        "track": {
-          "title": "Je voudrais que tu me consoles",
-          "artist": "Julie Zenatti"
-        },
-        "previousPosition": 56,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 70,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 71,
-        "track": {
-          "title": "J'te reconnais pas",
-          "artist": "Mathieu Johann"
-        },
-        "previousPosition": 54,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 71,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 72,
-        "track": {
-          "title": "Like Toy Soldiers",
-          "artist": "Eminem"
-        },
-        "previousPosition": 67,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 72,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 73,
-        "track": {
-          "title": "Elle me contrôle",
-          "artist": "M. Pokora feat. Sweety"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 73,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 74,
-        "track": {
-          "title": "She Will Be Loved",
-          "artist": "Maroon 5"
-        },
-        "previousPosition": 72,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 74,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 75,
-        "track": {
-          "title": "Marie la Dondaine",
-          "artist": "Chaplain"
-        },
-        "previousPosition": 79,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 75,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 76,
-        "track": {
-          "title": "Une vie pour une generation",
-          "artist": "Glorious"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 76,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 77,
-        "track": {
-          "title": "Donna",
-          "artist": "Wallen"
-        },
-        "previousPosition": 73,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 77,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 78,
-        "track": {
-          "title": "Higher",
-          "artist": "The Game"
-        },
-        "previousPosition": 83,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 78,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 79,
-        "track": {
-          "title": "Robot Rock",
-          "artist": "Daft Punk"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 79,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 80,
-        "track": {
-          "title": "Steamy Nights",
-          "artist": "Billy Crawford"
-        },
-        "previousPosition": 76,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 80,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 81,
-        "track": {
-          "title": "Chou à la crème",
-          "artist": "String Color"
-        },
-        "previousPosition": 75,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 81,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 82,
-        "track": {
-          "title": "A chi mi dice",
-          "artist": "Blue"
-        },
-        "previousPosition": 68,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 82,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 83,
-        "track": {
-          "title": "One Vision",
-          "artist": "Queen"
-        },
-        "previousPosition": 80,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 83,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 84,
-        "track": {
-          "title": "Tout au bout de nos peines",
-          "artist": "Isabelle Boulay & Johnny Hallyday"
-        },
-        "previousPosition": 69,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 84,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 85,
-        "track": {
-          "title": "Showbiz (The Battle)",
-          "artist": "Matt Pokora"
-        },
-        "previousPosition": 89,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 85,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 86,
-        "track": {
-          "title": "Enamorame",
-          "artist": "Papi Sanchez"
-        },
-        "previousPosition": 74,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 86,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 87,
-        "track": {
-          "title": "Ce mec ne lâche pas l'affaire",
-          "artist": "Carine Haddadou"
-        },
-        "previousPosition": 70,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 87,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 88,
-        "track": {
-          "title": "Hommes... femmes",
-          "artist": "Lynnsha feat. D. Dy"
-        },
-        "previousPosition": 71,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 88,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 89,
-        "track": {
-          "title": "Trop Fresh",
-          "artist": "Gage"
-        },
-        "previousPosition": 78,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 89,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 90,
-        "track": {
-          "title": "Être à la hauteur",
-          "artist": "Emmanuel Moire"
-        },
-        "previousPosition": 86,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 90,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 91,
-        "track": {
-          "title": "Stop / Superstar",
-          "artist": "Jamelia"
-        },
-        "previousPosition": 81,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 91,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 92,
-        "track": {
-          "title": "Call On Me",
-          "artist": "Eric Prydz"
-        },
-        "previousPosition": 77,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 92,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 93,
-        "track": {
-          "title": "J'attends",
-          "artist": "Emma Daumas"
-        },
-        "previousPosition": 84,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 93,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 94,
-        "track": {
-          "title": "Si loin de vous (hey oh...p...",
-          "artist": "Nâdiya"
-        },
-        "previousPosition": 82,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 94,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 95,
-        "track": {
-          "title": "Zone internationale",
-          "artist": "Rohff avec Roldan G. Rivero"
-        },
-        "previousPosition": 90,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 95,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 96,
-        "track": {
-          "title": "Broken",
-          "artist": "Seether"
-        },
-        "previousPosition": 85,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 96,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 97,
-        "track": {
-          "title": "Sale temps",
-          "artist": "John Eyzen"
-        },
-        "previousPosition": 91,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 97,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 98,
-        "track": {
-          "title": "De ce plang chitarele",
-          "artist": "O-Zone"
-        },
-        "previousPosition": 92,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 98,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 99,
-        "track": {
-          "title": "Fragiles",
-          "artist": "Ludovic Delamoga"
-        },
-        "previousPosition": 88,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 99,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 100,
-        "track": {
-          "title": "Rich Girl",
-          "artist": "Gwen Stefani feat. Eve"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 100,
-        "source": "chartsinfrance"
-      }
-    ],
-    "source": "chartsinfrance.net",
-    "pages": 4,
-    "cached_at": "2026-11-14"
-  },
-  "2005-16": {
-    "week": 16,
-    "year": 2005,
-    "date": "18/04/2005",
-    "entries": [
-      {
-        "position": 1,
-        "track": {
-          "title": "Un monde parfait",
-          "artist": "Ilona Mitrecey"
-        },
-        "previousPosition": 1,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 1,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 2,
-        "track": {
-          "title": "Écris l'histoire",
-          "artist": "Grégory Lemarchal"
-        },
-        "previousPosition": 2,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 2,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 3,
-        "track": {
-          "title": "Fuck Them All",
-          "artist": "Mylène Farmer"
-        },
-        "previousPosition": 21,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 3,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 4,
-        "track": {
-          "title": "Tout le bonheur du monde",
-          "artist": "Sinsemilia"
-        },
-        "previousPosition": 4,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 4,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 5,
-        "track": {
-          "title": "Le casse de Brice",
-          "artist": "Jean Dujardin"
-        },
-        "previousPosition": 5,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 5,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 6,
-        "track": {
-          "title": "Elle me contrôle",
-          "artist": "M. Pokora feat. Sweety"
-        },
-        "previousPosition": 73,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 6,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 7,
-        "track": {
-          "title": "Lift Me Up",
-          "artist": "Moby"
-        },
-        "previousPosition": 7,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 7,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 8,
-        "track": {
-          "title": "Je viens du sud",
-          "artist": "Chimène Badi"
-        },
-        "previousPosition": 6,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 8,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 9,
-        "track": {
-          "title": "Bad Day",
-          "artist": "Daniel Powter"
-        },
-        "previousPosition": 8,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 9,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 10,
-        "track": {
-          "title": "Concerto pour deux voix",
-          "artist": "Clémence & Jean-Baptiste Maunier"
-        },
-        "previousPosition": 3,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 10,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 11,
-        "track": {
-          "title": "Everybody's Changing",
-          "artist": "Keane"
-        },
-        "previousPosition": 10,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 11,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 12,
-        "track": {
-          "title": "Let Me Love You",
-          "artist": "Mario"
-        },
-        "previousPosition": 11,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 12,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 13,
-        "track": {
-          "title": "Toi & moi",
-          "artist": "Lorie"
-        },
-        "previousPosition": 12,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 13,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 14,
-        "track": {
-          "title": "Get Right",
-          "artist": "Jennifer Lopez"
-        },
-        "previousPosition": 13,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 14,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 15,
-        "track": {
-          "title": "Ma philosophie",
-          "artist": "Amel Bent"
-        },
-        "previousPosition": 9,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 15,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 16,
-        "track": {
-          "title": "The World Is Mine",
-          "artist": "David Guetta feat. JD Davis"
-        },
-        "previousPosition": 19,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 16,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 17,
-        "track": {
-          "title": "If There's Any Justice",
-          "artist": "Lemar"
-        },
-        "previousPosition": 16,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 17,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 18,
-        "track": {
-          "title": "Curtain Falls",
-          "artist": "Blue"
-        },
-        "previousPosition": 18,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 18,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 19,
-        "track": {
-          "title": "Blame It On The Boogie",
-          "artist": "Nouvelle Star"
-        },
-        "previousPosition": 15,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 19,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 20,
-        "track": {
-          "title": "Sous l'oeil de l'ange / Qu'...",
-          "artist": "K-Maro"
-        },
-        "previousPosition": 14,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 20,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 21,
-        "track": {
-          "title": "La lettre",
-          "artist": "Lara Fabian"
-        },
-        "previousPosition": 17,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 21,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 22,
-        "track": {
-          "title": "Anaïs Nin",
-          "artist": "Romane Serda avec Renaud"
-        },
-        "previousPosition": 22,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 22,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 23,
-        "track": {
-          "title": "Gasolina",
-          "artist": "Daddy Yankee"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 23,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 24,
-        "track": {
-          "title": "What A Feeling (Flashdance)",
-          "artist": "Global Deejays"
-        },
-        "previousPosition": 23,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 24,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 25,
-        "track": {
-          "title": "Make Me Feel",
-          "artist": "Benassi Bros. feat. Dhany"
-        },
-        "previousPosition": 25,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 25,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 26,
-        "track": {
-          "title": "Jerk It Out",
-          "artist": "Caesars"
-        },
-        "previousPosition": 26,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 26,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 27,
-        "track": {
-          "title": "Et si tu n'existais pas",
-          "artist": "Willy Denzey"
-        },
-        "previousPosition": 20,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 27,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 28,
-        "track": {
-          "title": "Dilema",
-          "artist": "Papi Sanchez"
-        },
-        "previousPosition": 24,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 28,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 29,
-        "track": {
-          "title": "Oye mi canto",
-          "artist": "N.O.R.E. feat. Nina Sky, Daddy Yankee, Gem Star, Big Mato"
-        },
-        "previousPosition": 28,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 29,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 30,
-        "track": {
-          "title": "If You're Not The One",
-          "artist": "Daniel Bedingfield"
-        },
-        "previousPosition": 29,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 30,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 31,
-        "track": {
-          "title": "Charisme",
-          "artist": "Rohff avec Wallen"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 31,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 32,
-        "track": {
-          "title": "Ailleurs comme ici",
-          "artist": "Hélène Segara"
-        },
-        "previousPosition": 32,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 32,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 33,
-        "track": {
-          "title": "C'est de l'or",
-          "artist": "Jenifer"
-        },
-        "previousPosition": 31,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 33,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 34,
-        "track": {
-          "title": "You Got Me",
-          "artist": "Eskobar & Emma Daumas"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 34,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 35,
-        "track": {
-          "title": "Et puis la terre...",
-          "artist": "A.S.I.E."
-        },
-        "previousPosition": 27,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 35,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 36,
-        "track": {
-          "title": "How We Do",
-          "artist": "The Game feat. 50 Cent"
-        },
-        "previousPosition": 30,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 36,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 37,
-        "track": {
-          "title": "Dans tes rêves",
-          "artist": "Disiz La Peste"
-        },
-        "previousPosition": 39,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 37,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 38,
-        "track": {
-          "title": "Ma vie devant toi",
-          "artist": "Steeve Estatof"
-        },
-        "previousPosition": 36,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 38,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 39,
-        "track": {
-          "title": "J'te reconnais pas",
-          "artist": "Mathieu Johann"
-        },
-        "previousPosition": 71,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 39,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 40,
-        "track": {
-          "title": "18",
-          "artist": "Ultra Lights feat. Steph B."
-        },
-        "previousPosition": 35,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 40,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 41,
-        "track": {
-          "title": "I Believe In You",
-          "artist": "Kylie Minogue"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 41,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 43,
-        "track": {
-          "title": "Born To Be Alive",
-          "artist": "Disco Kings"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 43,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 44,
-        "track": {
-          "title": "Locked Up",
-          "artist": "Akon"
-        },
-        "previousPosition": 40,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 44,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 45,
-        "track": {
-          "title": "Être une femme",
-          "artist": "Anggun"
-        },
-        "previousPosition": 34,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 45,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 46,
-        "track": {
-          "title": "Bye Bye",
-          "artist": "Tragedie feat. Calvin Scott"
-        },
-        "previousPosition": 38,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 46,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 47,
-        "track": {
-          "title": "Get Up Stand Up",
-          "artist": "Stellar Project feat. Brandi Emma"
-        },
-        "previousPosition": 37,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 47,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 48,
-        "track": {
-          "title": "Lady's Light \"I'm The Queen...",
-          "artist": "Miss Sin"
-        },
-        "previousPosition": 44,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 48,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 49,
-        "track": {
-          "title": "Goodies",
-          "artist": "Ciara"
-        },
-        "previousPosition": 42,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 49,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 50,
-        "track": {
-          "title": "Où va la vie ?",
-          "artist": "IAM feat. Moïse"
-        },
-        "previousPosition": 43,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 50,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 51,
-        "track": {
-          "title": "Soldier",
-          "artist": "Destiny's Child feat. T.I. and Lil Wayne"
-        },
-        "previousPosition": 46,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 51,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 52,
-        "track": {
-          "title": "Pom Pom Pom",
-          "artist": "Projet Facteur X²"
-        },
-        "previousPosition": 45,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 52,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 53,
-        "track": {
-          "title": "Nobody's Home",
-          "artist": "Avril Lavigne"
-        },
-        "previousPosition": 49,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 53,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 54,
-        "track": {
-          "title": "What You Waiting For ?",
-          "artist": "Gwen Stefani"
-        },
-        "previousPosition": 41,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 54,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 55,
-        "track": {
-          "title": "Apprends-nous à rêver",
-          "artist": "Lucie Bernardoni"
-        },
-        "previousPosition": 52,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 55,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 56,
-        "track": {
-          "title": "Get The Party Started",
-          "artist": "Pink"
-        },
-        "previousPosition": 50,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 56,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 57,
-        "track": {
-          "title": "Une vie pour une generation",
-          "artist": "Glorious"
-        },
-        "previousPosition": 76,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 57,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 58,
-        "track": {
-          "title": "Only U",
-          "artist": "Ashanti"
-        },
-        "previousPosition": 48,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 58,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 59,
-        "track": {
-          "title": "Belly Dance",
-          "artist": "Kayliah avec Pegguy Tabu"
-        },
-        "previousPosition": 47,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 59,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 60,
-        "track": {
-          "title": "Boulevard Of Broken Dreams",
-          "artist": "Green Day"
-        },
-        "previousPosition": 53,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 60,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 61,
-        "track": {
-          "title": "I Want You",
-          "artist": "Paris Avenue feat. Robin One"
-        },
-        "previousPosition": 57,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 61,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 62,
-        "track": {
-          "title": "Here We Go Again",
-          "artist": "Ray Charles & Norah Jones"
-        },
-        "previousPosition": 55,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 62,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 63,
-        "track": {
-          "title": "El bimbo",
-          "artist": "Marlene Mourreau"
-        },
-        "previousPosition": 51,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 63,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 64,
-        "track": {
-          "title": "Quelqu'un pour quelqu'un",
-          "artist": "Hoda"
-        },
-        "previousPosition": 58,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 64,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 65,
-        "track": {
-          "title": "Le grand cabaret",
-          "artist": "Patrick Sébastien"
-        },
-        "previousPosition": 56,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 65,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 66,
-        "track": {
-          "title": "The Weekend",
-          "artist": "Michael Gray"
-        },
-        "previousPosition": 59,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 66,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 67,
-        "track": {
-          "title": "7",
-          "artist": "Lift Me Up"
-        },
-        "previousPosition": 67,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 67,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 68,
-        "track": {
-          "title": "My Boo",
-          "artist": "Usher & Alicia Keys"
-        },
-        "previousPosition": 62,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 68,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 69,
-        "track": {
-          "title": "Drop The Pressure",
-          "artist": "Mylo"
-        },
-        "previousPosition": 66,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 69,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 70,
-        "track": {
-          "title": "La rivière de notre enfance",
-          "artist": "Garou & Michel Sardou"
-        },
-        "previousPosition": 54,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 70,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 71,
-        "track": {
-          "title": "Drop It Like It's Hot",
-          "artist": "Snoop Dogg feat. Pharrell"
-        },
-        "previousPosition": 65,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 71,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 72,
-        "track": {
-          "title": "Candy Shop",
-          "artist": "50 Cent feat. Olivia"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 72,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 73,
-        "track": {
-          "title": "Numb / Encore",
-          "artist": "Jay-Z & Linkin Park"
-        },
-        "previousPosition": 64,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 73,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 74,
-        "track": {
-          "title": "Iznogoud",
-          "artist": "Michael Youn"
-        },
-        "previousPosition": 68,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 74,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 75,
-        "track": {
-          "title": "Changer",
-          "artist": "Marie-Eve Janvier & Jean-François Breau"
-        },
-        "previousPosition": 69,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 75,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 76,
-        "track": {
-          "title": "Contact",
-          "artist": "Kyo"
-        },
-        "previousPosition": 63,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 76,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 77,
-        "track": {
-          "title": "Un geste",
-          "artist": "Les Petits Chanteurs De Saint-Marc"
-        },
-        "previousPosition": 61,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 77,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 78,
-        "track": {
-          "title": "Higher",
-          "artist": "The Game"
-        },
-        "previousPosition": 78,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 78,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 79,
-        "track": {
-          "title": "Like Toy Soldiers",
-          "artist": "Eminem"
-        },
-        "previousPosition": 72,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 79,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 80,
-        "track": {
-          "title": "Marie la Dondaine",
-          "artist": "Chaplain"
-        },
-        "previousPosition": 75,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 80,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 81,
-        "track": {
-          "title": "Break My Stride",
-          "artist": "Bluelagoon"
-        },
-        "previousPosition": 67,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 81,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 82,
-        "track": {
-          "title": "Je voudrais que tu me consoles",
-          "artist": "Julie Zenatti"
-        },
-        "previousPosition": 70,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 82,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 83,
-        "track": {
-          "title": "She Will Be Loved",
-          "artist": "Maroon 5"
-        },
-        "previousPosition": 74,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 83,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 84,
-        "track": {
-          "title": "Donna",
-          "artist": "Wallen"
-        },
-        "previousPosition": 77,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 84,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 85,
-        "track": {
-          "title": "Ce mec ne lâche pas l'affaire",
-          "artist": "Carine Haddadou"
-        },
-        "previousPosition": 87,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 85,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 86,
-        "track": {
-          "title": "Tout au bout de nos peines",
-          "artist": "Isabelle Boulay & Johnny Hallyday"
-        },
-        "previousPosition": 84,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 86,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 87,
-        "track": {
-          "title": "Le droit à l'erreur",
-          "artist": "Amel Bent"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 87,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 88,
-        "track": {
-          "title": "Hommes... femmes",
-          "artist": "Lynnsha feat. D. Dy"
-        },
-        "previousPosition": 88,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 88,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 89,
-        "track": {
-          "title": "Chou à la crème",
-          "artist": "String Color"
-        },
-        "previousPosition": 81,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 89,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 90,
-        "track": {
-          "title": "It's Like That",
-          "artist": "Mariah Carey"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 90,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 91,
-        "track": {
-          "title": "Steamy Nights",
-          "artist": "Billy Crawford"
-        },
-        "previousPosition": 80,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 91,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 92,
-        "track": {
-          "title": "A chi mi dice",
-          "artist": "Blue"
-        },
-        "previousPosition": 82,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 92,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 93,
-        "track": {
-          "title": "Robot Rock",
-          "artist": "Daft Punk"
-        },
-        "previousPosition": 79,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 93,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 94,
-        "track": {
-          "title": "One Vision",
-          "artist": "Queen"
-        },
-        "previousPosition": 83,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 94,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 95,
-        "track": {
-          "title": "Enamorame",
-          "artist": "Papi Sanchez"
-        },
-        "previousPosition": 86,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 95,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 96,
-        "track": {
-          "title": "Call On Me",
-          "artist": "Eric Prydz"
-        },
-        "previousPosition": 92,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 96,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 97,
-        "track": {
-          "title": "J'attends",
-          "artist": "Emma Daumas"
-        },
-        "previousPosition": 93,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 97,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 98,
-        "track": {
-          "title": "Être à la hauteur",
-          "artist": "Emmanuel Moire"
-        },
-        "previousPosition": 90,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 98,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 99,
-        "track": {
-          "title": "Broken",
-          "artist": "Seether"
-        },
-        "previousPosition": 96,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 99,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 100,
-        "track": {
-          "title": "De ce plang chitarele",
-          "artist": "O-Zone"
-        },
-        "previousPosition": 98,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 100,
-        "source": "chartsinfrance"
-      }
-    ],
-    "source": "chartsinfrance.net",
-    "pages": 5,
-    "cached_at": "2026-11-14"
-  },
-  "2005-17": {
-    "week": 17,
-    "year": 2005,
-    "date": "25/04/2005",
-    "entries": [
-      {
-        "position": 1,
-        "track": {
-          "title": "Un monde parfait",
-          "artist": "Ilona Mitrecey"
-        },
-        "previousPosition": 1,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 1,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 2,
-        "track": {
-          "title": "Écris l'histoire",
-          "artist": "Grégory Lemarchal"
-        },
-        "previousPosition": 2,
-        "movement": "same",
-        "weeksOnChart": 1,
-        "peakPosition": 2,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 3,
-        "track": {
-          "title": "Je fais de toi mon essentiel",
-          "artist": "Emmanuel Moire"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 3,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 4,
-        "track": {
-          "title": "Le casse de Brice",
-          "artist": "Jean Dujardin"
-        },
-        "previousPosition": 5,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 4,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 5,
-        "track": {
-          "title": "Tout le bonheur du monde",
-          "artist": "Sinsemilia"
-        },
-        "previousPosition": 4,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 5,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 6,
-        "track": {
-          "title": "Lift Me Up",
-          "artist": "Moby"
-        },
-        "previousPosition": 7,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 6,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 7,
-        "track": {
-          "title": "Elle me contrôle",
-          "artist": "M. Pokora feat. Sweety"
-        },
-        "previousPosition": 6,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 7,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 8,
-        "track": {
-          "title": "Candy Shop",
-          "artist": "50 Cent feat. Olivia"
-        },
-        "previousPosition": 72,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 8,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 9,
-        "track": {
-          "title": "Je viens du sud",
-          "artist": "Chimène Badi"
-        },
-        "previousPosition": 8,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 9,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 10,
-        "track": {
-          "title": "Bad Day",
-          "artist": "Daniel Powter"
-        },
-        "previousPosition": 9,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 10,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 11,
-        "track": {
-          "title": "Concerto pour deux voix",
-          "artist": "Clémence & Jean-Baptiste Maunier"
-        },
-        "previousPosition": 10,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 11,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 12,
-        "track": {
-          "title": "Everybody's Changing",
-          "artist": "Keane"
-        },
-        "previousPosition": 11,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 12,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 13,
-        "track": {
-          "title": "Le droit à l'erreur",
-          "artist": "Amel Bent"
-        },
-        "previousPosition": 87,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 13,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 14,
-        "track": {
-          "title": "Let Me Love You",
-          "artist": "Mario"
-        },
-        "previousPosition": 12,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 14,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 15,
-        "track": {
-          "title": "Toi & moi",
-          "artist": "Lorie"
-        },
-        "previousPosition": 13,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 15,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 16,
-        "track": {
-          "title": "It's Like That",
-          "artist": "Mariah Carey"
-        },
-        "previousPosition": 90,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 16,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 17,
-        "track": {
-          "title": "The World Is Mine",
-          "artist": "David Guetta feat. JD Davis"
-        },
-        "previousPosition": 16,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 17,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 18,
-        "track": {
-          "title": "Fuck Them All",
-          "artist": "Mylène Farmer"
-        },
-        "previousPosition": 3,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 18,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 19,
-        "track": {
-          "title": "Get Right",
-          "artist": "Jennifer Lopez"
-        },
-        "previousPosition": 14,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 19,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 20,
-        "track": {
-          "title": "L'art du corps et du coeur",
-          "artist": "Tragedie"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 20,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 21,
-        "track": {
-          "title": "If There's Any Justice",
-          "artist": "Lemar"
-        },
-        "previousPosition": 17,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 21,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 22,
-        "track": {
-          "title": "Blame It On The Boogie",
-          "artist": "Nouvelle Star"
-        },
-        "previousPosition": 19,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 22,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 23,
-        "track": {
-          "title": "Curtain Falls",
-          "artist": "Blue"
-        },
-        "previousPosition": 18,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 23,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 24,
-        "track": {
-          "title": "Gasolina",
-          "artist": "Daddy Yankee"
-        },
-        "previousPosition": 23,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 24,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 25,
-        "track": {
-          "title": "La lettre",
-          "artist": "Lara Fabian"
-        },
-        "previousPosition": 21,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 25,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 26,
-        "track": {
-          "title": "Sous l'oeil de l'ange / Qu'...",
-          "artist": "K-Maro"
-        },
-        "previousPosition": 20,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 26,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 27,
-        "track": {
-          "title": "Gasolina",
-          "artist": "Papa A.P."
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 27,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 28,
-        "track": {
-          "title": "Ma philosophie",
-          "artist": "Amel Bent"
-        },
-        "previousPosition": 15,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 28,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 29,
-        "track": {
-          "title": "Anaïs Nin",
-          "artist": "Romane Serda avec Renaud"
-        },
-        "previousPosition": 22,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 29,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 30,
-        "track": {
-          "title": "You Got Me",
-          "artist": "Eskobar & Emma Daumas"
-        },
-        "previousPosition": 34,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 30,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 31,
-        "track": {
-          "title": "Make Me Feel",
-          "artist": "Benassi Bros. feat. Dhany"
-        },
-        "previousPosition": 25,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 31,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 32,
-        "track": {
-          "title": "Charisme",
-          "artist": "Rohff avec Wallen"
-        },
-        "previousPosition": 31,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 32,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 33,
-        "track": {
-          "title": "18",
-          "artist": "Ultra Lights feat. Steph B."
-        },
-        "previousPosition": 40,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 33,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 34,
-        "track": {
-          "title": "Dilema",
-          "artist": "Papi Sanchez"
-        },
-        "previousPosition": 28,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 34,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 35,
-        "track": {
-          "title": "I Believe In You",
-          "artist": "Kylie Minogue"
-        },
-        "previousPosition": 41,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 35,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 36,
-        "track": {
-          "title": "Oye mi canto",
-          "artist": "N.O.R.E. feat. Nina Sky, Daddy Yankee, Gem Star, Big Mato"
-        },
-        "previousPosition": 29,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 36,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 37,
-        "track": {
-          "title": "What A Feeling (Flashdance)",
-          "artist": "Global Deejays"
-        },
-        "previousPosition": 24,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 37,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 38,
-        "track": {
-          "title": "If You're Not The One",
-          "artist": "Daniel Bedingfield"
-        },
-        "previousPosition": 30,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 38,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 39,
-        "track": {
-          "title": "Jerk It Out",
-          "artist": "Caesars"
-        },
-        "previousPosition": 26,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 39,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 40,
-        "track": {
-          "title": "Et si tu n'existais pas",
-          "artist": "Willy Denzey"
-        },
-        "previousPosition": 27,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 40,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 41,
-        "track": {
-          "title": "C'est de l'or",
-          "artist": "Jenifer"
-        },
-        "previousPosition": 33,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 41,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 42,
-        "track": {
-          "title": "J'te reconnais pas",
-          "artist": "Mathieu Johann"
-        },
-        "previousPosition": 39,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 42,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 43,
-        "track": {
-          "title": "Locked Up",
-          "artist": "Akon"
-        },
-        "previousPosition": 44,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 43,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 44,
-        "track": {
-          "title": "How We Do",
-          "artist": "The Game feat. 50 Cent"
-        },
-        "previousPosition": 36,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 44,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 45,
-        "track": {
-          "title": "Ailleurs comme ici",
-          "artist": "Hélène Segara"
-        },
-        "previousPosition": 32,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 45,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 46,
-        "track": {
-          "title": "Born To Be Alive",
-          "artist": "Disco Kings"
-        },
-        "previousPosition": 43,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 46,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 47,
-        "track": {
-          "title": "Dans tes rêves",
-          "artist": "Disiz La Peste"
-        },
-        "previousPosition": 37,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 47,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 49,
-        "track": {
-          "title": "Et puis la terre...",
-          "artist": "A.S.I.E."
-        },
-        "previousPosition": 35,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 49,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 50,
-        "track": {
-          "title": "Lady's Light \"I'm The Queen...",
-          "artist": "Miss Sin"
-        },
-        "previousPosition": 48,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 50,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 51,
-        "track": {
-          "title": "La gagne",
-          "artist": "Intouchable feat. Tonton David"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 51,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 52,
-        "track": {
-          "title": "Get Up Stand Up",
-          "artist": "Stellar Project feat. Brandi Emma"
-        },
-        "previousPosition": 47,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 52,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 53,
-        "track": {
-          "title": "Geht's noch ?",
-          "artist": "Roman Flügel"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 53,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 54,
-        "track": {
-          "title": "Ma vie devant toi",
-          "artist": "Steeve Estatof"
-        },
-        "previousPosition": 38,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 54,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 55,
-        "track": {
-          "title": "Être une femme",
-          "artist": "Anggun"
-        },
-        "previousPosition": 45,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 55,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 56,
-        "track": {
-          "title": "El bimbo",
-          "artist": "Marlene Mourreau"
-        },
-        "previousPosition": 63,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 56,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 57,
-        "track": {
-          "title": "U Make Me Wanna",
-          "artist": "Jadakiss feat. Mariah Carey"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 57,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 58,
-        "track": {
-          "title": "Bye Bye",
-          "artist": "Tragedie feat. Calvin Scott"
-        },
-        "previousPosition": 46,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 58,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 59,
-        "track": {
-          "title": "Pom Pom Pom",
-          "artist": "Projet Facteur X²"
-        },
-        "previousPosition": 52,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 59,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 60,
-        "track": {
-          "title": "Sometimes You Can't Make It...",
-          "artist": "U2"
-        },
-        "previousPosition": null,
-        "movement": "new",
-        "weeksOnChart": 1,
-        "peakPosition": 60,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 61,
-        "track": {
-          "title": "Goodies",
-          "artist": "Ciara"
-        },
-        "previousPosition": 49,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 61,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 62,
-        "track": {
-          "title": "Où va la vie ?",
-          "artist": "IAM feat. Moïse"
-        },
-        "previousPosition": 50,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 62,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 63,
-        "track": {
-          "title": "Une vie pour une generation",
-          "artist": "Glorious"
-        },
-        "previousPosition": 57,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 63,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 64,
-        "track": {
-          "title": "9",
-          "artist": "Je viens du sud"
-        },
-        "previousPosition": 63,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 64,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 65,
-        "track": {
-          "title": "What You Waiting For ?",
-          "artist": "Gwen Stefani"
-        },
-        "previousPosition": 54,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 65,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 66,
-        "track": {
-          "title": "Soldier",
-          "artist": "Destiny's Child feat. T.I. and Lil Wayne"
-        },
-        "previousPosition": 51,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 66,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 67,
-        "track": {
-          "title": "Apprends-nous à rêver",
-          "artist": "Lucie Bernardoni"
-        },
-        "previousPosition": 55,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 67,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 68,
-        "track": {
-          "title": "I Want You",
-          "artist": "Paris Avenue feat. Robin One"
-        },
-        "previousPosition": 61,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 68,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 69,
-        "track": {
-          "title": "Get The Party Started",
-          "artist": "Pink"
-        },
-        "previousPosition": 56,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 69,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 70,
-        "track": {
-          "title": "Only U",
-          "artist": "Ashanti"
-        },
-        "previousPosition": 58,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 70,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 71,
-        "track": {
-          "title": "Here We Go Again",
-          "artist": "Ray Charles & Norah Jones"
-        },
-        "previousPosition": 62,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 71,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 72,
-        "track": {
-          "title": "Belly Dance",
-          "artist": "Kayliah avec Pegguy Tabu"
-        },
-        "previousPosition": 59,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 72,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 73,
-        "track": {
-          "title": "Boulevard Of Broken Dreams",
-          "artist": "Green Day"
-        },
-        "previousPosition": 60,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 73,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 74,
-        "track": {
-          "title": "Le grand cabaret",
-          "artist": "Patrick Sébastien"
-        },
-        "previousPosition": 65,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 74,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 75,
-        "track": {
-          "title": "J'en sais rien",
-          "artist": "Matthieu Mendes"
-        },
-        "previousPosition": 67,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 75,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 76,
-        "track": {
-          "title": "Quelqu'un pour quelqu'un",
-          "artist": "Hoda"
-        },
-        "previousPosition": 64,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 76,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 77,
-        "track": {
-          "title": "Contact",
-          "artist": "Kyo"
-        },
-        "previousPosition": 76,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 77,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 78,
-        "track": {
-          "title": "Drop The Pressure",
-          "artist": "Mylo"
-        },
-        "previousPosition": 69,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 78,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 79,
-        "track": {
-          "title": "The Weekend",
-          "artist": "Michael Gray"
-        },
-        "previousPosition": 66,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 79,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 80,
-        "track": {
-          "title": "My Boo",
-          "artist": "Usher & Alicia Keys"
-        },
-        "previousPosition": 68,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 80,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 81,
-        "track": {
-          "title": "Iznogoud",
-          "artist": "Michael Youn"
-        },
-        "previousPosition": 74,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 81,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 82,
-        "track": {
-          "title": "Un geste",
-          "artist": "Les Petits Chanteurs De Saint-Marc"
-        },
-        "previousPosition": 77,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 82,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 83,
-        "track": {
-          "title": "Changer",
-          "artist": "Marie-Eve Janvier & Jean-François Breau"
-        },
-        "previousPosition": 75,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 83,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 84,
-        "track": {
-          "title": "La rivière de notre enfance",
-          "artist": "Garou & Michel Sardou"
-        },
-        "previousPosition": 70,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 84,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 85,
-        "track": {
-          "title": "Break My Stride",
-          "artist": "Bluelagoon"
-        },
-        "previousPosition": 81,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 85,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 86,
-        "track": {
-          "title": "Drop It Like It's Hot",
-          "artist": "Snoop Dogg feat. Pharrell"
-        },
-        "previousPosition": 71,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 86,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 87,
-        "track": {
-          "title": "Numb / Encore",
-          "artist": "Jay-Z & Linkin Park"
-        },
-        "previousPosition": 73,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 87,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 88,
-        "track": {
-          "title": "She Will Be Loved",
-          "artist": "Maroon 5"
-        },
-        "previousPosition": 83,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 88,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 89,
-        "track": {
-          "title": "Higher",
-          "artist": "The Game"
-        },
-        "previousPosition": 78,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 89,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 90,
-        "track": {
-          "title": "Marie la Dondaine",
-          "artist": "Chaplain"
-        },
-        "previousPosition": 80,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 90,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 91,
-        "track": {
-          "title": "Donna",
-          "artist": "Wallen"
-        },
-        "previousPosition": 84,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 91,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 92,
-        "track": {
-          "title": "Chou à la crème",
-          "artist": "String Color"
-        },
-        "previousPosition": 89,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 92,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 93,
-        "track": {
-          "title": "One Vision",
-          "artist": "Queen"
-        },
-        "previousPosition": 94,
-        "movement": "up",
-        "weeksOnChart": 1,
-        "peakPosition": 93,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 94,
-        "track": {
-          "title": "Steamy Nights",
-          "artist": "Billy Crawford"
-        },
-        "previousPosition": 91,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 94,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 95,
-        "track": {
-          "title": "Like Toy Soldiers",
-          "artist": "Eminem"
-        },
-        "previousPosition": 79,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 95,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 96,
-        "track": {
-          "title": "Ce mec ne lâche pas l'affaire",
-          "artist": "Carine Haddadou"
-        },
-        "previousPosition": 85,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 96,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 97,
-        "track": {
-          "title": "Hommes... femmes",
-          "artist": "Lynnsha feat. D. Dy"
-        },
-        "previousPosition": 88,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 97,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 98,
-        "track": {
-          "title": "Robot Rock",
-          "artist": "Daft Punk"
-        },
-        "previousPosition": 93,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 98,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 99,
-        "track": {
-          "title": "Tout au bout de nos peines",
-          "artist": "Isabelle Boulay & Johnny Hallyday"
-        },
-        "previousPosition": 86,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 99,
-        "source": "chartsinfrance"
-      },
-      {
-        "position": 100,
-        "track": {
-          "title": "Je voudrais que tu me consoles",
-          "artist": "Julie Zenatti"
-        },
-        "previousPosition": 82,
-        "movement": "down",
-        "weeksOnChart": 1,
-        "peakPosition": 100,
-        "source": "chartsinfrance"
-      }
-    ],
-    "source": "chartsinfrance.net",
-    "pages": 4,
-    "cached_at": "2026-11-14"
-  },
   "2005-18": {
     "week": 18,
     "year": 2005,
@@ -1851831,6 +1848237,3636 @@
     ],
     "source": "chartsinfrance.net",
     "pages": 1,
+    "cached_at": "2026-11-14"
+  },
+  "2005-15": {
+    "week": 15,
+    "year": 2005,
+    "date": "11/04/2005",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Un monde parfait",
+          "artist": "Ilona Mitrecey"
+        },
+        "previousPosition": 1,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Écris l'histoire",
+          "artist": "Grégory Lemarchal"
+        },
+        "previousPosition": 2,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Concerto pour deux voix",
+          "artist": "Clémence & Jean-Baptiste Maunier"
+        },
+        "previousPosition": 4,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Tout le bonheur du monde",
+          "artist": "Sinsemilia"
+        },
+        "previousPosition": 5,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Le casse de Brice",
+          "artist": "Jean Dujardin"
+        },
+        "previousPosition": 9,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Je viens du sud",
+          "artist": "Chimène Badi"
+        },
+        "previousPosition": 6,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Lift Me Up",
+          "artist": "Moby"
+        },
+        "previousPosition": 7,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Bad Day",
+          "artist": "Daniel Powter"
+        },
+        "previousPosition": 8,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Ma philosophie",
+          "artist": "Amel Bent"
+        },
+        "previousPosition": 3,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Everybody's Changing",
+          "artist": "Keane"
+        },
+        "previousPosition": 13,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Let Me Love You",
+          "artist": "Mario"
+        },
+        "previousPosition": 10,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Toi & moi",
+          "artist": "Lorie"
+        },
+        "previousPosition": 12,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Get Right",
+          "artist": "Jennifer Lopez"
+        },
+        "previousPosition": 11,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Sous l'oeil de l'ange / Qu'...",
+          "artist": "K-Maro"
+        },
+        "previousPosition": 15,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Blame It On The Boogie",
+          "artist": "Nouvelle Star"
+        },
+        "previousPosition": 17,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "If There's Any Justice",
+          "artist": "Lemar"
+        },
+        "previousPosition": 21,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "La lettre",
+          "artist": "Lara Fabian"
+        },
+        "previousPosition": 16,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Curtain Falls",
+          "artist": "Blue"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "The World Is Mine",
+          "artist": "David Guetta feat. JD Davis"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Et si tu n'existais pas",
+          "artist": "Willy Denzey"
+        },
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "Fuck Them All",
+          "artist": "Mylène Farmer"
+        },
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Anaïs Nin",
+          "artist": "Romane Serda avec Renaud"
+        },
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "What A Feeling (Flashdance)",
+          "artist": "Global Deejays"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Dilema",
+          "artist": "Papi Sanchez"
+        },
+        "previousPosition": 22,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Make Me Feel",
+          "artist": "Benassi Bros. feat. Dhany"
+        },
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Jerk It Out",
+          "artist": "Caesars"
+        },
+        "previousPosition": 26,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 26,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Et puis la terre...",
+          "artist": "A.S.I.E."
+        },
+        "previousPosition": 20,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 27,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Oye mi canto",
+          "artist": "N.O.R.E. feat. Nina Sky, Daddy Yankee, Gem Star, Big Mato"
+        },
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "If You're Not The One",
+          "artist": "Daniel Bedingfield"
+        },
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 29,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "How We Do",
+          "artist": "The Game feat. 50 Cent"
+        },
+        "previousPosition": 33,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 30,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "C'est de l'or",
+          "artist": "Jenifer"
+        },
+        "previousPosition": 29,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 31,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Ailleurs comme ici",
+          "artist": "Hélène Segara"
+        },
+        "previousPosition": 32,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 32,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "3 nuits par semaine",
+          "artist": "Brett"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Être une femme",
+          "artist": "Anggun"
+        },
+        "previousPosition": 30,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 34,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "18",
+          "artist": "Ultra Lights feat. Steph B."
+        },
+        "previousPosition": 27,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Ma vie devant toi",
+          "artist": "Steeve Estatof"
+        },
+        "previousPosition": 48,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 36,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "Get Up Stand Up",
+          "artist": "Stellar Project feat. Brandi Emma"
+        },
+        "previousPosition": 31,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 37,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Bye Bye",
+          "artist": "Tragedie feat. Calvin Scott"
+        },
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 38,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "Dans tes rêves",
+          "artist": "Disiz La Peste"
+        },
+        "previousPosition": 49,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 39,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "Locked Up",
+          "artist": "Akon"
+        },
+        "previousPosition": 35,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 40,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "What You Waiting For ?",
+          "artist": "Gwen Stefani"
+        },
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 41,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "Goodies",
+          "artist": "Ciara"
+        },
+        "previousPosition": 39,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Où va la vie ?",
+          "artist": "IAM feat. Moïse"
+        },
+        "previousPosition": 40,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 43,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Lady's Light \"I'm The Queen...",
+          "artist": "Miss Sin"
+        },
+        "previousPosition": 37,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 44,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Pom Pom Pom",
+          "artist": "Projet Facteur X²"
+        },
+        "previousPosition": 41,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 45,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Soldier",
+          "artist": "Destiny's Child feat. T.I. and Lil Wayne"
+        },
+        "previousPosition": 44,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "Belly Dance",
+          "artist": "Kayliah avec Pegguy Tabu"
+        },
+        "previousPosition": 45,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 47,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Only U",
+          "artist": "Ashanti"
+        },
+        "previousPosition": 43,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 48,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Nobody's Home",
+          "artist": "Avril Lavigne"
+        },
+        "previousPosition": 42,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 49,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Get The Party Started",
+          "artist": "Pink"
+        },
+        "previousPosition": 38,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 51,
+        "track": {
+          "title": "El bimbo",
+          "artist": "Marlene Mourreau"
+        },
+        "previousPosition": 34,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 51,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 52,
+        "track": {
+          "title": "Apprends-nous à rêver",
+          "artist": "Lucie Bernardoni"
+        },
+        "previousPosition": 46,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 52,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 53,
+        "track": {
+          "title": "Boulevard Of Broken Dreams",
+          "artist": "Green Day"
+        },
+        "previousPosition": 47,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 53,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 54,
+        "track": {
+          "title": "La rivière de notre enfance",
+          "artist": "Garou & Michel Sardou"
+        },
+        "previousPosition": 50,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 54,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 55,
+        "track": {
+          "title": "Here We Go Again",
+          "artist": "Ray Charles & Norah Jones"
+        },
+        "previousPosition": 51,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 55,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 56,
+        "track": {
+          "title": "Le grand cabaret",
+          "artist": "Patrick Sébastien"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 56,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 57,
+        "track": {
+          "title": "I Want You",
+          "artist": "Paris Avenue feat. Robin One"
+        },
+        "previousPosition": 55,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 57,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 58,
+        "track": {
+          "title": "Quelqu'un pour quelqu'un",
+          "artist": "Hoda"
+        },
+        "previousPosition": 53,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 58,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 59,
+        "track": {
+          "title": "The Weekend",
+          "artist": "Michael Gray"
+        },
+        "previousPosition": 59,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 59,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 60,
+        "track": {
+          "title": "J'en sais rien",
+          "artist": "Matthieu Mendes"
+        },
+        "previousPosition": 52,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 60,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 61,
+        "track": {
+          "title": "Un geste",
+          "artist": "Les Petits Chanteurs De Saint-Marc"
+        },
+        "previousPosition": 60,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 61,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 62,
+        "track": {
+          "title": "My Boo",
+          "artist": "Usher & Alicia Keys"
+        },
+        "previousPosition": 58,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 62,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 63,
+        "track": {
+          "title": "Contact",
+          "artist": "Kyo"
+        },
+        "previousPosition": 63,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 63,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 64,
+        "track": {
+          "title": "Numb / Encore",
+          "artist": "Jay-Z & Linkin Park"
+        },
+        "previousPosition": 62,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 64,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 65,
+        "track": {
+          "title": "Drop It Like It's Hot",
+          "artist": "Snoop Dogg feat. Pharrell"
+        },
+        "previousPosition": 57,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 65,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 66,
+        "track": {
+          "title": "Drop The Pressure",
+          "artist": "Mylo"
+        },
+        "previousPosition": 66,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 66,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 67,
+        "track": {
+          "title": "Break My Stride",
+          "artist": "Bluelagoon"
+        },
+        "previousPosition": 61,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 67,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 68,
+        "track": {
+          "title": "Iznogoud",
+          "artist": "Michael Youn"
+        },
+        "previousPosition": 65,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 68,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 69,
+        "track": {
+          "title": "Changer",
+          "artist": "Marie-Eve Janvier & Jean-François Breau"
+        },
+        "previousPosition": 64,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 69,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 70,
+        "track": {
+          "title": "Je voudrais que tu me consoles",
+          "artist": "Julie Zenatti"
+        },
+        "previousPosition": 56,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 70,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 71,
+        "track": {
+          "title": "J'te reconnais pas",
+          "artist": "Mathieu Johann"
+        },
+        "previousPosition": 54,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 71,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 72,
+        "track": {
+          "title": "Like Toy Soldiers",
+          "artist": "Eminem"
+        },
+        "previousPosition": 67,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 72,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 73,
+        "track": {
+          "title": "Elle me contrôle",
+          "artist": "M. Pokora feat. Sweety"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 73,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 74,
+        "track": {
+          "title": "She Will Be Loved",
+          "artist": "Maroon 5"
+        },
+        "previousPosition": 72,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 74,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 75,
+        "track": {
+          "title": "Marie la Dondaine",
+          "artist": "Chaplain"
+        },
+        "previousPosition": 79,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 75,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 76,
+        "track": {
+          "title": "Une vie pour une generation",
+          "artist": "Glorious"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 76,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 77,
+        "track": {
+          "title": "Donna",
+          "artist": "Wallen"
+        },
+        "previousPosition": 73,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 77,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 78,
+        "track": {
+          "title": "Higher",
+          "artist": "The Game"
+        },
+        "previousPosition": 83,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 78,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 79,
+        "track": {
+          "title": "Robot Rock",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 79,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 80,
+        "track": {
+          "title": "Steamy Nights",
+          "artist": "Billy Crawford"
+        },
+        "previousPosition": 76,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 80,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 81,
+        "track": {
+          "title": "Chou à la crème",
+          "artist": "String Color"
+        },
+        "previousPosition": 75,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 81,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 82,
+        "track": {
+          "title": "A chi mi dice",
+          "artist": "Blue"
+        },
+        "previousPosition": 68,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 82,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 83,
+        "track": {
+          "title": "One Vision",
+          "artist": "Queen"
+        },
+        "previousPosition": 80,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 83,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 84,
+        "track": {
+          "title": "Tout au bout de nos peines",
+          "artist": "Isabelle Boulay & Johnny Hallyday"
+        },
+        "previousPosition": 69,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 84,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 85,
+        "track": {
+          "title": "Showbiz (The Battle)",
+          "artist": "Matt Pokora"
+        },
+        "previousPosition": 89,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 85,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 86,
+        "track": {
+          "title": "Enamorame",
+          "artist": "Papi Sanchez"
+        },
+        "previousPosition": 74,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 86,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 87,
+        "track": {
+          "title": "Ce mec ne lâche pas l'affaire",
+          "artist": "Carine Haddadou"
+        },
+        "previousPosition": 70,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 87,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 88,
+        "track": {
+          "title": "Hommes... femmes",
+          "artist": "Lynnsha feat. D. Dy"
+        },
+        "previousPosition": 71,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 88,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 89,
+        "track": {
+          "title": "Trop Fresh",
+          "artist": "Gage"
+        },
+        "previousPosition": 78,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 89,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 90,
+        "track": {
+          "title": "Être à la hauteur",
+          "artist": "Emmanuel Moire"
+        },
+        "previousPosition": 86,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 90,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 91,
+        "track": {
+          "title": "Stop / Superstar",
+          "artist": "Jamelia"
+        },
+        "previousPosition": 81,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 91,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 92,
+        "track": {
+          "title": "Call On Me",
+          "artist": "Eric Prydz"
+        },
+        "previousPosition": 77,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 92,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 93,
+        "track": {
+          "title": "J'attends",
+          "artist": "Emma Daumas"
+        },
+        "previousPosition": 84,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 93,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 94,
+        "track": {
+          "title": "Si loin de vous (hey oh...p...",
+          "artist": "Nâdiya"
+        },
+        "previousPosition": 82,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 94,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 95,
+        "track": {
+          "title": "Zone internationale",
+          "artist": "Rohff avec Roldan G. Rivero"
+        },
+        "previousPosition": 90,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 95,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 96,
+        "track": {
+          "title": "Broken",
+          "artist": "Seether"
+        },
+        "previousPosition": 85,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 96,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 97,
+        "track": {
+          "title": "Sale temps",
+          "artist": "John Eyzen"
+        },
+        "previousPosition": 91,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 97,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 98,
+        "track": {
+          "title": "De ce plang chitarele",
+          "artist": "O-Zone"
+        },
+        "previousPosition": 92,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 98,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 99,
+        "track": {
+          "title": "Fragiles",
+          "artist": "Ludovic Delamoga"
+        },
+        "previousPosition": 88,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 99,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 100,
+        "track": {
+          "title": "Rich Girl",
+          "artist": "Gwen Stefani feat. Eve"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 100,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 4,
+    "cached_at": "2026-11-14"
+  },
+  "2005-16": {
+    "week": 16,
+    "year": 2005,
+    "date": "18/04/2005",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Un monde parfait",
+          "artist": "Ilona Mitrecey"
+        },
+        "previousPosition": 1,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Écris l'histoire",
+          "artist": "Grégory Lemarchal"
+        },
+        "previousPosition": 2,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Fuck Them All",
+          "artist": "Mylène Farmer"
+        },
+        "previousPosition": 21,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Tout le bonheur du monde",
+          "artist": "Sinsemilia"
+        },
+        "previousPosition": 4,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Le casse de Brice",
+          "artist": "Jean Dujardin"
+        },
+        "previousPosition": 5,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Elle me contrôle",
+          "artist": "M. Pokora feat. Sweety"
+        },
+        "previousPosition": 73,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Lift Me Up",
+          "artist": "Moby"
+        },
+        "previousPosition": 7,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Je viens du sud",
+          "artist": "Chimène Badi"
+        },
+        "previousPosition": 6,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Bad Day",
+          "artist": "Daniel Powter"
+        },
+        "previousPosition": 8,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Concerto pour deux voix",
+          "artist": "Clémence & Jean-Baptiste Maunier"
+        },
+        "previousPosition": 3,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Everybody's Changing",
+          "artist": "Keane"
+        },
+        "previousPosition": 10,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Let Me Love You",
+          "artist": "Mario"
+        },
+        "previousPosition": 11,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Toi & moi",
+          "artist": "Lorie"
+        },
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Get Right",
+          "artist": "Jennifer Lopez"
+        },
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Ma philosophie",
+          "artist": "Amel Bent"
+        },
+        "previousPosition": 9,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "The World Is Mine",
+          "artist": "David Guetta feat. JD Davis"
+        },
+        "previousPosition": 19,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "If There's Any Justice",
+          "artist": "Lemar"
+        },
+        "previousPosition": 16,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Curtain Falls",
+          "artist": "Blue"
+        },
+        "previousPosition": 18,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Blame It On The Boogie",
+          "artist": "Nouvelle Star"
+        },
+        "previousPosition": 15,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "Sous l'oeil de l'ange / Qu'...",
+          "artist": "K-Maro"
+        },
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "La lettre",
+          "artist": "Lara Fabian"
+        },
+        "previousPosition": 17,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Anaïs Nin",
+          "artist": "Romane Serda avec Renaud"
+        },
+        "previousPosition": 22,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Gasolina",
+          "artist": "Daddy Yankee"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "What A Feeling (Flashdance)",
+          "artist": "Global Deejays"
+        },
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "Make Me Feel",
+          "artist": "Benassi Bros. feat. Dhany"
+        },
+        "previousPosition": 25,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Jerk It Out",
+          "artist": "Caesars"
+        },
+        "previousPosition": 26,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 26,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Et si tu n'existais pas",
+          "artist": "Willy Denzey"
+        },
+        "previousPosition": 20,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 27,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Dilema",
+          "artist": "Papi Sanchez"
+        },
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Oye mi canto",
+          "artist": "N.O.R.E. feat. Nina Sky, Daddy Yankee, Gem Star, Big Mato"
+        },
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 29,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "If You're Not The One",
+          "artist": "Daniel Bedingfield"
+        },
+        "previousPosition": 29,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 30,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Charisme",
+          "artist": "Rohff avec Wallen"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 31,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Ailleurs comme ici",
+          "artist": "Hélène Segara"
+        },
+        "previousPosition": 32,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 32,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "C'est de l'or",
+          "artist": "Jenifer"
+        },
+        "previousPosition": 31,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "You Got Me",
+          "artist": "Eskobar & Emma Daumas"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 34,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "Et puis la terre...",
+          "artist": "A.S.I.E."
+        },
+        "previousPosition": 27,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "How We Do",
+          "artist": "The Game feat. 50 Cent"
+        },
+        "previousPosition": 30,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 36,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "Dans tes rêves",
+          "artist": "Disiz La Peste"
+        },
+        "previousPosition": 39,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 37,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "Ma vie devant toi",
+          "artist": "Steeve Estatof"
+        },
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 38,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "J'te reconnais pas",
+          "artist": "Mathieu Johann"
+        },
+        "previousPosition": 71,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 39,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "18",
+          "artist": "Ultra Lights feat. Steph B."
+        },
+        "previousPosition": 35,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 40,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "I Believe In You",
+          "artist": "Kylie Minogue"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 41,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "3 nuits par semaine",
+          "artist": "Brett"
+        },
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Born To Be Alive",
+          "artist": "Disco Kings"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 43,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "Locked Up",
+          "artist": "Akon"
+        },
+        "previousPosition": 40,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 44,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Être une femme",
+          "artist": "Anggun"
+        },
+        "previousPosition": 34,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 45,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Bye Bye",
+          "artist": "Tragedie feat. Calvin Scott"
+        },
+        "previousPosition": 38,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "Get Up Stand Up",
+          "artist": "Stellar Project feat. Brandi Emma"
+        },
+        "previousPosition": 37,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 47,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "Lady's Light \"I'm The Queen...",
+          "artist": "Miss Sin"
+        },
+        "previousPosition": 44,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 48,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Goodies",
+          "artist": "Ciara"
+        },
+        "previousPosition": 42,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 49,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Où va la vie ?",
+          "artist": "IAM feat. Moïse"
+        },
+        "previousPosition": 43,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 51,
+        "track": {
+          "title": "Soldier",
+          "artist": "Destiny's Child feat. T.I. and Lil Wayne"
+        },
+        "previousPosition": 46,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 51,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 52,
+        "track": {
+          "title": "Pom Pom Pom",
+          "artist": "Projet Facteur X²"
+        },
+        "previousPosition": 45,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 52,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 53,
+        "track": {
+          "title": "Nobody's Home",
+          "artist": "Avril Lavigne"
+        },
+        "previousPosition": 49,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 53,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 54,
+        "track": {
+          "title": "What You Waiting For ?",
+          "artist": "Gwen Stefani"
+        },
+        "previousPosition": 41,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 54,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 55,
+        "track": {
+          "title": "Apprends-nous à rêver",
+          "artist": "Lucie Bernardoni"
+        },
+        "previousPosition": 52,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 55,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 56,
+        "track": {
+          "title": "Get The Party Started",
+          "artist": "Pink"
+        },
+        "previousPosition": 50,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 56,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 57,
+        "track": {
+          "title": "Une vie pour une generation",
+          "artist": "Glorious"
+        },
+        "previousPosition": 76,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 57,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 58,
+        "track": {
+          "title": "Only U",
+          "artist": "Ashanti"
+        },
+        "previousPosition": 48,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 58,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 59,
+        "track": {
+          "title": "Belly Dance",
+          "artist": "Kayliah avec Pegguy Tabu"
+        },
+        "previousPosition": 47,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 59,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 60,
+        "track": {
+          "title": "Boulevard Of Broken Dreams",
+          "artist": "Green Day"
+        },
+        "previousPosition": 53,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 60,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 61,
+        "track": {
+          "title": "I Want You",
+          "artist": "Paris Avenue feat. Robin One"
+        },
+        "previousPosition": 57,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 61,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 62,
+        "track": {
+          "title": "Here We Go Again",
+          "artist": "Ray Charles & Norah Jones"
+        },
+        "previousPosition": 55,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 62,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 63,
+        "track": {
+          "title": "El bimbo",
+          "artist": "Marlene Mourreau"
+        },
+        "previousPosition": 51,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 63,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 64,
+        "track": {
+          "title": "Quelqu'un pour quelqu'un",
+          "artist": "Hoda"
+        },
+        "previousPosition": 58,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 64,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 65,
+        "track": {
+          "title": "Le grand cabaret",
+          "artist": "Patrick Sébastien"
+        },
+        "previousPosition": 56,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 65,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 66,
+        "track": {
+          "title": "The Weekend",
+          "artist": "Michael Gray"
+        },
+        "previousPosition": 59,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 66,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 67,
+        "track": {
+          "title": "7",
+          "artist": "Lift Me Up"
+        },
+        "previousPosition": 67,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 67,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 68,
+        "track": {
+          "title": "My Boo",
+          "artist": "Usher & Alicia Keys"
+        },
+        "previousPosition": 62,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 68,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 69,
+        "track": {
+          "title": "Drop The Pressure",
+          "artist": "Mylo"
+        },
+        "previousPosition": 66,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 69,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 70,
+        "track": {
+          "title": "La rivière de notre enfance",
+          "artist": "Garou & Michel Sardou"
+        },
+        "previousPosition": 54,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 70,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 71,
+        "track": {
+          "title": "Drop It Like It's Hot",
+          "artist": "Snoop Dogg feat. Pharrell"
+        },
+        "previousPosition": 65,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 71,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 72,
+        "track": {
+          "title": "Candy Shop",
+          "artist": "50 Cent feat. Olivia"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 72,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 73,
+        "track": {
+          "title": "Numb / Encore",
+          "artist": "Jay-Z & Linkin Park"
+        },
+        "previousPosition": 64,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 73,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 74,
+        "track": {
+          "title": "Iznogoud",
+          "artist": "Michael Youn"
+        },
+        "previousPosition": 68,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 74,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 75,
+        "track": {
+          "title": "Changer",
+          "artist": "Marie-Eve Janvier & Jean-François Breau"
+        },
+        "previousPosition": 69,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 75,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 76,
+        "track": {
+          "title": "Contact",
+          "artist": "Kyo"
+        },
+        "previousPosition": 63,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 76,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 77,
+        "track": {
+          "title": "Un geste",
+          "artist": "Les Petits Chanteurs De Saint-Marc"
+        },
+        "previousPosition": 61,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 77,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 78,
+        "track": {
+          "title": "Higher",
+          "artist": "The Game"
+        },
+        "previousPosition": 78,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 78,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 79,
+        "track": {
+          "title": "Like Toy Soldiers",
+          "artist": "Eminem"
+        },
+        "previousPosition": 72,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 79,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 80,
+        "track": {
+          "title": "Marie la Dondaine",
+          "artist": "Chaplain"
+        },
+        "previousPosition": 75,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 80,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 81,
+        "track": {
+          "title": "Break My Stride",
+          "artist": "Bluelagoon"
+        },
+        "previousPosition": 67,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 81,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 82,
+        "track": {
+          "title": "Je voudrais que tu me consoles",
+          "artist": "Julie Zenatti"
+        },
+        "previousPosition": 70,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 82,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 83,
+        "track": {
+          "title": "She Will Be Loved",
+          "artist": "Maroon 5"
+        },
+        "previousPosition": 74,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 83,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 84,
+        "track": {
+          "title": "Donna",
+          "artist": "Wallen"
+        },
+        "previousPosition": 77,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 84,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 85,
+        "track": {
+          "title": "Ce mec ne lâche pas l'affaire",
+          "artist": "Carine Haddadou"
+        },
+        "previousPosition": 87,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 85,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 86,
+        "track": {
+          "title": "Tout au bout de nos peines",
+          "artist": "Isabelle Boulay & Johnny Hallyday"
+        },
+        "previousPosition": 84,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 86,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 87,
+        "track": {
+          "title": "Le droit à l'erreur",
+          "artist": "Amel Bent"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 87,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 88,
+        "track": {
+          "title": "Hommes... femmes",
+          "artist": "Lynnsha feat. D. Dy"
+        },
+        "previousPosition": 88,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 88,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 89,
+        "track": {
+          "title": "Chou à la crème",
+          "artist": "String Color"
+        },
+        "previousPosition": 81,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 89,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 90,
+        "track": {
+          "title": "It's Like That",
+          "artist": "Mariah Carey"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 90,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 91,
+        "track": {
+          "title": "Steamy Nights",
+          "artist": "Billy Crawford"
+        },
+        "previousPosition": 80,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 91,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 92,
+        "track": {
+          "title": "A chi mi dice",
+          "artist": "Blue"
+        },
+        "previousPosition": 82,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 92,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 93,
+        "track": {
+          "title": "Robot Rock",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": 79,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 93,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 94,
+        "track": {
+          "title": "One Vision",
+          "artist": "Queen"
+        },
+        "previousPosition": 83,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 94,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 95,
+        "track": {
+          "title": "Enamorame",
+          "artist": "Papi Sanchez"
+        },
+        "previousPosition": 86,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 95,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 96,
+        "track": {
+          "title": "Call On Me",
+          "artist": "Eric Prydz"
+        },
+        "previousPosition": 92,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 96,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 97,
+        "track": {
+          "title": "J'attends",
+          "artist": "Emma Daumas"
+        },
+        "previousPosition": 93,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 97,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 98,
+        "track": {
+          "title": "Être à la hauteur",
+          "artist": "Emmanuel Moire"
+        },
+        "previousPosition": 90,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 98,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 99,
+        "track": {
+          "title": "Broken",
+          "artist": "Seether"
+        },
+        "previousPosition": 96,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 99,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 100,
+        "track": {
+          "title": "De ce plang chitarele",
+          "artist": "O-Zone"
+        },
+        "previousPosition": 98,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 100,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 5,
+    "cached_at": "2026-11-14"
+  },
+  "2005-17": {
+    "week": 17,
+    "year": 2005,
+    "date": "25/04/2005",
+    "entries": [
+      {
+        "position": 1,
+        "track": {
+          "title": "Un monde parfait",
+          "artist": "Ilona Mitrecey"
+        },
+        "previousPosition": 1,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 1,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 2,
+        "track": {
+          "title": "Écris l'histoire",
+          "artist": "Grégory Lemarchal"
+        },
+        "previousPosition": 2,
+        "movement": "same",
+        "weeksOnChart": 1,
+        "peakPosition": 2,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 3,
+        "track": {
+          "title": "Je fais de toi mon essentiel",
+          "artist": "Emmanuel Moire"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 3,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 4,
+        "track": {
+          "title": "Le casse de Brice",
+          "artist": "Jean Dujardin"
+        },
+        "previousPosition": 5,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 4,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 5,
+        "track": {
+          "title": "Tout le bonheur du monde",
+          "artist": "Sinsemilia"
+        },
+        "previousPosition": 4,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 5,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 6,
+        "track": {
+          "title": "Lift Me Up",
+          "artist": "Moby"
+        },
+        "previousPosition": 7,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 6,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 7,
+        "track": {
+          "title": "Elle me contrôle",
+          "artist": "M. Pokora feat. Sweety"
+        },
+        "previousPosition": 6,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 7,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 8,
+        "track": {
+          "title": "Candy Shop",
+          "artist": "50 Cent feat. Olivia"
+        },
+        "previousPosition": 72,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 8,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 9,
+        "track": {
+          "title": "Je viens du sud",
+          "artist": "Chimène Badi"
+        },
+        "previousPosition": 8,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 9,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 10,
+        "track": {
+          "title": "Bad Day",
+          "artist": "Daniel Powter"
+        },
+        "previousPosition": 9,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 10,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 11,
+        "track": {
+          "title": "Concerto pour deux voix",
+          "artist": "Clémence & Jean-Baptiste Maunier"
+        },
+        "previousPosition": 10,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 11,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 12,
+        "track": {
+          "title": "Everybody's Changing",
+          "artist": "Keane"
+        },
+        "previousPosition": 11,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 12,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 13,
+        "track": {
+          "title": "Le droit à l'erreur",
+          "artist": "Amel Bent"
+        },
+        "previousPosition": 87,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 13,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 14,
+        "track": {
+          "title": "Let Me Love You",
+          "artist": "Mario"
+        },
+        "previousPosition": 12,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 14,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 15,
+        "track": {
+          "title": "Toi & moi",
+          "artist": "Lorie"
+        },
+        "previousPosition": 13,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 15,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 16,
+        "track": {
+          "title": "It's Like That",
+          "artist": "Mariah Carey"
+        },
+        "previousPosition": 90,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 16,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 17,
+        "track": {
+          "title": "The World Is Mine",
+          "artist": "David Guetta feat. JD Davis"
+        },
+        "previousPosition": 16,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 17,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 18,
+        "track": {
+          "title": "Fuck Them All",
+          "artist": "Mylène Farmer"
+        },
+        "previousPosition": 3,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 18,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 19,
+        "track": {
+          "title": "Get Right",
+          "artist": "Jennifer Lopez"
+        },
+        "previousPosition": 14,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 19,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 20,
+        "track": {
+          "title": "L'art du corps et du coeur",
+          "artist": "Tragedie"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 20,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 21,
+        "track": {
+          "title": "If There's Any Justice",
+          "artist": "Lemar"
+        },
+        "previousPosition": 17,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 21,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 22,
+        "track": {
+          "title": "Blame It On The Boogie",
+          "artist": "Nouvelle Star"
+        },
+        "previousPosition": 19,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 22,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 23,
+        "track": {
+          "title": "Curtain Falls",
+          "artist": "Blue"
+        },
+        "previousPosition": 18,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 23,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 24,
+        "track": {
+          "title": "Gasolina",
+          "artist": "Daddy Yankee"
+        },
+        "previousPosition": 23,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 24,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 25,
+        "track": {
+          "title": "La lettre",
+          "artist": "Lara Fabian"
+        },
+        "previousPosition": 21,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 25,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 26,
+        "track": {
+          "title": "Sous l'oeil de l'ange / Qu'...",
+          "artist": "K-Maro"
+        },
+        "previousPosition": 20,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 26,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 27,
+        "track": {
+          "title": "Gasolina",
+          "artist": "Papa A.P."
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 27,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 28,
+        "track": {
+          "title": "Ma philosophie",
+          "artist": "Amel Bent"
+        },
+        "previousPosition": 15,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 28,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 29,
+        "track": {
+          "title": "Anaïs Nin",
+          "artist": "Romane Serda avec Renaud"
+        },
+        "previousPosition": 22,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 29,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 30,
+        "track": {
+          "title": "You Got Me",
+          "artist": "Eskobar & Emma Daumas"
+        },
+        "previousPosition": 34,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 30,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 31,
+        "track": {
+          "title": "Make Me Feel",
+          "artist": "Benassi Bros. feat. Dhany"
+        },
+        "previousPosition": 25,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 31,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 32,
+        "track": {
+          "title": "Charisme",
+          "artist": "Rohff avec Wallen"
+        },
+        "previousPosition": 31,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 32,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 33,
+        "track": {
+          "title": "18",
+          "artist": "Ultra Lights feat. Steph B."
+        },
+        "previousPosition": 40,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 33,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 34,
+        "track": {
+          "title": "Dilema",
+          "artist": "Papi Sanchez"
+        },
+        "previousPosition": 28,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 34,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 35,
+        "track": {
+          "title": "I Believe In You",
+          "artist": "Kylie Minogue"
+        },
+        "previousPosition": 41,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 35,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 36,
+        "track": {
+          "title": "Oye mi canto",
+          "artist": "N.O.R.E. feat. Nina Sky, Daddy Yankee, Gem Star, Big Mato"
+        },
+        "previousPosition": 29,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 36,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 37,
+        "track": {
+          "title": "What A Feeling (Flashdance)",
+          "artist": "Global Deejays"
+        },
+        "previousPosition": 24,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 37,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 38,
+        "track": {
+          "title": "If You're Not The One",
+          "artist": "Daniel Bedingfield"
+        },
+        "previousPosition": 30,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 38,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 39,
+        "track": {
+          "title": "Jerk It Out",
+          "artist": "Caesars"
+        },
+        "previousPosition": 26,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 39,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 40,
+        "track": {
+          "title": "Et si tu n'existais pas",
+          "artist": "Willy Denzey"
+        },
+        "previousPosition": 27,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 40,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 41,
+        "track": {
+          "title": "C'est de l'or",
+          "artist": "Jenifer"
+        },
+        "previousPosition": 33,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 41,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 42,
+        "track": {
+          "title": "J'te reconnais pas",
+          "artist": "Mathieu Johann"
+        },
+        "previousPosition": 39,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 42,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 43,
+        "track": {
+          "title": "Locked Up",
+          "artist": "Akon"
+        },
+        "previousPosition": 44,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 43,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 44,
+        "track": {
+          "title": "How We Do",
+          "artist": "The Game feat. 50 Cent"
+        },
+        "previousPosition": 36,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 44,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 45,
+        "track": {
+          "title": "Ailleurs comme ici",
+          "artist": "Hélène Segara"
+        },
+        "previousPosition": 32,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 45,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 46,
+        "track": {
+          "title": "Born To Be Alive",
+          "artist": "Disco Kings"
+        },
+        "previousPosition": 43,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 46,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 47,
+        "track": {
+          "title": "Dans tes rêves",
+          "artist": "Disiz La Peste"
+        },
+        "previousPosition": 37,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 47,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 48,
+        "track": {
+          "title": "3 nuits par semaine",
+          "artist": "Brett"
+        },
+        "previousPosition": 42,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 48,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 49,
+        "track": {
+          "title": "Et puis la terre...",
+          "artist": "A.S.I.E."
+        },
+        "previousPosition": 35,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 49,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 50,
+        "track": {
+          "title": "Lady's Light \"I'm The Queen...",
+          "artist": "Miss Sin"
+        },
+        "previousPosition": 48,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 50,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 51,
+        "track": {
+          "title": "La gagne",
+          "artist": "Intouchable feat. Tonton David"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 51,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 52,
+        "track": {
+          "title": "Get Up Stand Up",
+          "artist": "Stellar Project feat. Brandi Emma"
+        },
+        "previousPosition": 47,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 52,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 53,
+        "track": {
+          "title": "Geht's noch ?",
+          "artist": "Roman Flügel"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 53,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 54,
+        "track": {
+          "title": "Ma vie devant toi",
+          "artist": "Steeve Estatof"
+        },
+        "previousPosition": 38,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 54,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 55,
+        "track": {
+          "title": "Être une femme",
+          "artist": "Anggun"
+        },
+        "previousPosition": 45,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 55,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 56,
+        "track": {
+          "title": "El bimbo",
+          "artist": "Marlene Mourreau"
+        },
+        "previousPosition": 63,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 56,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 57,
+        "track": {
+          "title": "U Make Me Wanna",
+          "artist": "Jadakiss feat. Mariah Carey"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 57,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 58,
+        "track": {
+          "title": "Bye Bye",
+          "artist": "Tragedie feat. Calvin Scott"
+        },
+        "previousPosition": 46,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 58,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 59,
+        "track": {
+          "title": "Pom Pom Pom",
+          "artist": "Projet Facteur X²"
+        },
+        "previousPosition": 52,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 59,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 60,
+        "track": {
+          "title": "Sometimes You Can't Make It...",
+          "artist": "U2"
+        },
+        "previousPosition": null,
+        "movement": "new",
+        "weeksOnChart": 1,
+        "peakPosition": 60,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 61,
+        "track": {
+          "title": "Goodies",
+          "artist": "Ciara"
+        },
+        "previousPosition": 49,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 61,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 62,
+        "track": {
+          "title": "Où va la vie ?",
+          "artist": "IAM feat. Moïse"
+        },
+        "previousPosition": 50,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 62,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 63,
+        "track": {
+          "title": "Une vie pour une generation",
+          "artist": "Glorious"
+        },
+        "previousPosition": 57,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 63,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 64,
+        "track": {
+          "title": "9",
+          "artist": "Je viens du sud"
+        },
+        "previousPosition": 63,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 64,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 65,
+        "track": {
+          "title": "What You Waiting For ?",
+          "artist": "Gwen Stefani"
+        },
+        "previousPosition": 54,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 65,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 66,
+        "track": {
+          "title": "Soldier",
+          "artist": "Destiny's Child feat. T.I. and Lil Wayne"
+        },
+        "previousPosition": 51,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 66,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 67,
+        "track": {
+          "title": "Apprends-nous à rêver",
+          "artist": "Lucie Bernardoni"
+        },
+        "previousPosition": 55,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 67,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 68,
+        "track": {
+          "title": "I Want You",
+          "artist": "Paris Avenue feat. Robin One"
+        },
+        "previousPosition": 61,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 68,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 69,
+        "track": {
+          "title": "Get The Party Started",
+          "artist": "Pink"
+        },
+        "previousPosition": 56,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 69,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 70,
+        "track": {
+          "title": "Only U",
+          "artist": "Ashanti"
+        },
+        "previousPosition": 58,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 70,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 71,
+        "track": {
+          "title": "Here We Go Again",
+          "artist": "Ray Charles & Norah Jones"
+        },
+        "previousPosition": 62,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 71,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 72,
+        "track": {
+          "title": "Belly Dance",
+          "artist": "Kayliah avec Pegguy Tabu"
+        },
+        "previousPosition": 59,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 72,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 73,
+        "track": {
+          "title": "Boulevard Of Broken Dreams",
+          "artist": "Green Day"
+        },
+        "previousPosition": 60,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 73,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 74,
+        "track": {
+          "title": "Le grand cabaret",
+          "artist": "Patrick Sébastien"
+        },
+        "previousPosition": 65,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 74,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 75,
+        "track": {
+          "title": "J'en sais rien",
+          "artist": "Matthieu Mendes"
+        },
+        "previousPosition": 67,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 75,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 76,
+        "track": {
+          "title": "Quelqu'un pour quelqu'un",
+          "artist": "Hoda"
+        },
+        "previousPosition": 64,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 76,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 77,
+        "track": {
+          "title": "Contact",
+          "artist": "Kyo"
+        },
+        "previousPosition": 76,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 77,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 78,
+        "track": {
+          "title": "Drop The Pressure",
+          "artist": "Mylo"
+        },
+        "previousPosition": 69,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 78,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 79,
+        "track": {
+          "title": "The Weekend",
+          "artist": "Michael Gray"
+        },
+        "previousPosition": 66,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 79,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 80,
+        "track": {
+          "title": "My Boo",
+          "artist": "Usher & Alicia Keys"
+        },
+        "previousPosition": 68,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 80,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 81,
+        "track": {
+          "title": "Iznogoud",
+          "artist": "Michael Youn"
+        },
+        "previousPosition": 74,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 81,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 82,
+        "track": {
+          "title": "Un geste",
+          "artist": "Les Petits Chanteurs De Saint-Marc"
+        },
+        "previousPosition": 77,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 82,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 83,
+        "track": {
+          "title": "Changer",
+          "artist": "Marie-Eve Janvier & Jean-François Breau"
+        },
+        "previousPosition": 75,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 83,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 84,
+        "track": {
+          "title": "La rivière de notre enfance",
+          "artist": "Garou & Michel Sardou"
+        },
+        "previousPosition": 70,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 84,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 85,
+        "track": {
+          "title": "Break My Stride",
+          "artist": "Bluelagoon"
+        },
+        "previousPosition": 81,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 85,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 86,
+        "track": {
+          "title": "Drop It Like It's Hot",
+          "artist": "Snoop Dogg feat. Pharrell"
+        },
+        "previousPosition": 71,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 86,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 87,
+        "track": {
+          "title": "Numb / Encore",
+          "artist": "Jay-Z & Linkin Park"
+        },
+        "previousPosition": 73,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 87,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 88,
+        "track": {
+          "title": "She Will Be Loved",
+          "artist": "Maroon 5"
+        },
+        "previousPosition": 83,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 88,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 89,
+        "track": {
+          "title": "Higher",
+          "artist": "The Game"
+        },
+        "previousPosition": 78,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 89,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 90,
+        "track": {
+          "title": "Marie la Dondaine",
+          "artist": "Chaplain"
+        },
+        "previousPosition": 80,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 90,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 91,
+        "track": {
+          "title": "Donna",
+          "artist": "Wallen"
+        },
+        "previousPosition": 84,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 91,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 92,
+        "track": {
+          "title": "Chou à la crème",
+          "artist": "String Color"
+        },
+        "previousPosition": 89,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 92,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 93,
+        "track": {
+          "title": "One Vision",
+          "artist": "Queen"
+        },
+        "previousPosition": 94,
+        "movement": "up",
+        "weeksOnChart": 1,
+        "peakPosition": 93,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 94,
+        "track": {
+          "title": "Steamy Nights",
+          "artist": "Billy Crawford"
+        },
+        "previousPosition": 91,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 94,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 95,
+        "track": {
+          "title": "Like Toy Soldiers",
+          "artist": "Eminem"
+        },
+        "previousPosition": 79,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 95,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 96,
+        "track": {
+          "title": "Ce mec ne lâche pas l'affaire",
+          "artist": "Carine Haddadou"
+        },
+        "previousPosition": 85,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 96,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 97,
+        "track": {
+          "title": "Hommes... femmes",
+          "artist": "Lynnsha feat. D. Dy"
+        },
+        "previousPosition": 88,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 97,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 98,
+        "track": {
+          "title": "Robot Rock",
+          "artist": "Daft Punk"
+        },
+        "previousPosition": 93,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 98,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 99,
+        "track": {
+          "title": "Tout au bout de nos peines",
+          "artist": "Isabelle Boulay & Johnny Hallyday"
+        },
+        "previousPosition": 86,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 99,
+        "source": "chartsinfrance"
+      },
+      {
+        "position": 100,
+        "track": {
+          "title": "Je voudrais que tu me consoles",
+          "artist": "Julie Zenatti"
+        },
+        "previousPosition": 82,
+        "movement": "down",
+        "weeksOnChart": 1,
+        "peakPosition": 100,
+        "source": "chartsinfrance"
+      }
+    ],
+    "source": "chartsinfrance.net",
+    "pages": 4,
     "cached_at": "2026-11-14"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T16:34:04.229638+00:00",
+  "generatedAt": "2026-11-14T18:52:11.785828+00:00",
   "archiveCount": 2198,
-  "artistCount": 4664,
-  "trackCount": 10775,
+  "artistCount": 4665,
+  "trackCount": 10776,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -188926,6 +188926,34 @@
       "firstDate": "04/03/1996",
       "lastKey": "1996-12",
       "lastDate": "18/03/1996"
+    },
+    {
+      "id": "brett",
+      "name": "Brett",
+      "tracks": [
+        {
+          "key": "3 nuits par semaine|brett",
+          "title": "3 nuits par semaine",
+          "credit": "Brett",
+          "firstKey": "2005-15",
+          "firstDate": "11/04/2005",
+          "lastKey": "2005-17",
+          "lastDate": "25/04/2005",
+          "weeks": 3,
+          "peak": 33,
+          "peakKey": "2005-15",
+          "peakDate": "11/04/2005"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 3,
+      "bestPeak": 33,
+      "firstYear": 2005,
+      "lastYear": 2005,
+      "firstKey": "2005-15",
+      "firstDate": "11/04/2005",
+      "lastKey": "2005-17",
+      "lastDate": "25/04/2005"
     },
     {
       "id": "calvin harris and the weeknd",
