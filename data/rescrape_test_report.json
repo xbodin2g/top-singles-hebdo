@@ -1,224 +1,6 @@
 [
   {
-    "key": "1996-02",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      22
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "22": "CJ Lewis — R To The A"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-03",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      9
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "9": "The Outhere Brothers — Boom Boom Boom"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-04",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      4,
-      20
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Michael Jackson — Earth Song",
-      "20": "Native — L'air du vent"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-05",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      24
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "24": "Whitney Houston — Exhale (Shoop Shoop)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-08",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      33
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "33": "3T — Anything"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-09",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      27
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "27": "3T — Anything"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-10",
-    "status": "ok",
-    "entries_before": 47,
-    "entries_after": 50,
-    "gaps_before": [
-      25,
-      29,
-      32
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "25": "Ace Of Base — Beautiful Life",
-      "29": "3T — Anything",
-      "32": "Michael Learns To Rock — That's Why (You Go Away)"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-11",
-    "status": "ok",
-    "entries_before": 46,
-    "entries_after": 50,
-    "gaps_before": [
-      3,
-      9,
-      24,
-      26
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Coolio feat. L.V. — Gangsta's Paradise",
-      "9": "Reciprok — Balance-toi",
-      "24": "Tina Turner — GoldenEye",
-      "26": "3T — Anything"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-12",
-    "status": "ok",
-    "entries_before": 46,
-    "entries_after": 50,
-    "gaps_before": [
-      4,
-      15,
-      19,
-      24
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Florent Pagny — Caruso",
-      "15": "Mariah Carey & Boyz II Men — One Sweet Day",
-      "19": "3T — Anything",
-      "24": "Radiohead — Creep"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-13",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      18
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "18": "3T — Anything"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-14",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      18
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "18": "3T — Anything"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-15",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      12
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "12": "3T — Anything"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-16",
-    "status": "ok",
-    "entries_before": 47,
-    "entries_after": 50,
-    "gaps_before": [
-      14,
-      19,
-      29
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "14": "3T — Anything",
-      "19": "Queen — You Don't Fool Me",
-      "29": "George Michael — Jesus To A Child"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-17",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      8
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "8": "3T — Anything"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-18",
+    "key": "1997-01",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
@@ -227,332 +9,62 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "7": "3T — Anything"
+      "7": "3T — I Need You"
     },
     "still_missing": []
   },
   {
-    "key": "1996-19",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      6
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "6": "3T — Anything"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-20",
+    "key": "1997-02",
     "status": "ok",
     "entries_before": 48,
     "entries_after": 50,
     "gaps_before": [
-      6,
+      5,
       17
     ],
     "gaps_after": [],
     "recovered": {
-      "6": "3T — Anything",
-      "17": "Queen — You Don't Fool Me"
+      "5": "3T — I Need You",
+      "17": "Donna Lewis — I Love You Always Forever"
     },
     "still_missing": []
   },
   {
-    "key": "1996-21",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      8
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "8": "3T — Anything"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-22",
+    "key": "1997-03",
     "status": "ok",
     "entries_before": 48,
     "entries_after": 50,
     "gaps_before": [
-      8,
-      16
+      5,
+      17
     ],
     "gaps_after": [],
     "recovered": {
-      "8": "3T — Anything",
-      "16": "Lilicub — Voyage en Italie"
+      "5": "3T — I Need You",
+      "17": "The Braids — Bohemian Rhapsody"
     },
     "still_missing": []
   },
   {
-    "key": "1996-23",
+    "key": "1997-04",
     "status": "ok",
     "entries_before": 47,
     "entries_after": 50,
     "gaps_before": [
-      8,
-      15,
-      22
+      6,
+      20,
+      24
     ],
     "gaps_after": [],
     "recovered": {
-      "8": "Zhi-Vago — Celebrate The Love",
-      "15": "3T — Anything",
-      "22": "Ophélie Winter — Dieu m'a donné la foi"
+      "6": "3T — I Need You",
+      "20": "OMC — How Bizarre",
+      "24": "Doc Gynéco — Nirvana"
     },
     "still_missing": []
   },
   {
-    "key": "1996-24",
-    "status": "ok",
-    "entries_before": 47,
-    "entries_after": 50,
-    "gaps_before": [
-      4,
-      17,
-      28
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Robert Miles — Children",
-      "17": "3T — Anything",
-      "28": "The Presidents Of The United States Of America — Ça plane pour moi"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-25",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      24,
-      32
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "24": "3T — Anything",
-      "32": "Sarah — Lovin' You"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-26",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      22
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "22": "3T — Anything"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-27",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      25,
-      40
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "25": "3T — Anything",
-      "40": "Dany Brillant — Quand je vois tes yeux"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-29",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      15
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "15": "Mark Morrison — Return Of The Mack"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-30",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      18
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "18": "Robert Miles — Children"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-36",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      4
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "4": "Khaled — Aïcha"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-38",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      29
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "29": "George Michael — Fastlove"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-39",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      2,
-      8
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "2": "Khaled — Aïcha",
-      "8": "Worlds Apart — Je te donne"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-45",
-    "status": "ok",
-    "entries_before": 47,
-    "entries_after": 50,
-    "gaps_before": [
-      7,
-      24,
-      29
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "7": "No Mercy — Where Do You Go",
-      "24": "Mephisto — Voices",
-      "29": "Florent Pagny — Oh Happy Day"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-46",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      9
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "9": "Céline Dion — All By Myself"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-47",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      28
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "28": "Fiesta Mora — Alabina"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-48",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      41
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "41": "3T — I Need You"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-49",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      27,
-      41
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "27": "3T — I Need You",
-      "41": "Mr. President — Coco Jamboo"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-50",
-    "status": "ok",
-    "entries_before": 48,
-    "entries_after": 50,
-    "gaps_before": [
-      18,
-      29
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "18": "3T — I Need You",
-      "29": "Nada Surf — Popular"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-51",
-    "status": "ok",
-    "entries_before": 49,
-    "entries_after": 50,
-    "gaps_before": [
-      10
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "10": "3T — I Need You"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1996-52",
+    "key": "1997-05",
     "status": "ok",
     "entries_before": 49,
     "entries_after": 50,
@@ -562,6 +74,428 @@
     "gaps_after": [],
     "recovered": {
       "9": "3T — I Need You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-06",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      7,
+      12
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "7": "3T — I Need You",
+      "12": "U2 — Discothèque"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-07",
+    "status": "ok",
+    "entries_before": 47,
+    "entries_after": 50,
+    "gaps_before": [
+      9,
+      12,
+      19
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "9": "3T — I Need You",
+      "12": "Faithless — Insomnia",
+      "19": "U2 — Discothèque"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-08",
+    "status": "ok",
+    "entries_before": 47,
+    "entries_after": 50,
+    "gaps_before": [
+      6,
+      8,
+      27
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "6": "Paradisio — Bailando",
+      "8": "3T — I Need You",
+      "27": "U2 — Discothèque"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-09",
+    "status": "ok",
+    "entries_before": 47,
+    "entries_after": 50,
+    "gaps_before": [
+      2,
+      8,
+      36
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "2": "Gala — Let A Boy Cry",
+      "8": "3T — I Need You",
+      "36": "U2 — Discothèque"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-10",
+    "status": "ok",
+    "entries_before": 47,
+    "entries_after": 50,
+    "gaps_before": [
+      8,
+      20,
+      31
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "8": "3T — I Need You",
+      "20": "Faithless — Insomnia",
+      "31": "U2 — Discothèque"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-11",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      5,
+      12
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "5": "No Doubt — Don't Speak",
+      "12": "3T — I Need You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-12",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      8,
+      14
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "8": "Paradisio — Bailando",
+      "14": "3T — I Need You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-14",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      20
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "20": "3T — I Need You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-15",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      21,
+      27
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "21": "3T — I Need You",
+      "27": "Daft Punk — Da Funk"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-16",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      29
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "29": "3T — I Need You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-17",
+    "status": "ok",
+    "entries_before": 47,
+    "entries_after": 50,
+    "gaps_before": [
+      4,
+      25,
+      41
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Alliage — Lucy",
+      "25": "Pascal Obispo — Lucie",
+      "41": "3T — I Need You"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-19",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      9,
+      11
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "9": "Milk Inc. — La vache",
+      "11": "Pascal Obispo — Lucie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-20",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      49
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "49": "U2 — Staring At The Sun"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-21",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      10,
+      23
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "10": "Top Boys — Le feu ça brule",
+      "23": "Michael Jackson — Blood On The Dance Floor"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-22",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      5,
+      17
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "5": "Top Boys — Le feu ça brule",
+      "17": "The Blueboy — Remember Me"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-23",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      5
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "5": "Bee Gees — Alone"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-25",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      6,
+      23
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "6": "Andrea Bocelli — Con te partiro",
+      "23": "Blackstreet — Don't Leave Me"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-26",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      9
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "9": "Pascal Obispo — Lucie"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-28",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      17
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "17": "Milk Inc. — La vache"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-33",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      5
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "5": "Hanson — MmmBop"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-36",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      26
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "26": "Dalida — Salma ya salama"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-37",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      7
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "7": "Poetic Lover — Prenons notre temps"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-40",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      8,
+      27
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "8": "Ultra Naté — Free",
+      "27": "Eternal feat. Bebe Winans — I Wanna Be The Only One"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-41",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      4,
+      10
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Will Smith — Men In Black",
+      "10": "Ultra Naté — Free"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-42",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      10,
+      31
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "10": "Puff Daddy & Faith Evans feat. 112 — I'll Be Missing You",
+      "31": "U2 — Please"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-43",
+    "status": "ok",
+    "entries_before": 48,
+    "entries_after": 50,
+    "gaps_before": [
+      33,
+      40
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "33": "Dalida — Salma ya salama",
+      "40": "U2 — Please"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "1997-51",
+    "status": "ok",
+    "entries_before": 49,
+    "entries_after": 50,
+    "gaps_before": [
+      23
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "23": "Doc Gynéco — Ma s... à moi"
     },
     "still_missing": []
   }
