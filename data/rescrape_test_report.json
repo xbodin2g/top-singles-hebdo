@@ -1,36 +1,126 @@
 [
   {
-    "key": "2020-27",
+    "key": "2021-01",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      55
+      58
     ],
     "gaps_after": [],
     "recovered": {
-      "55": "Jonas Brothers feat. Karol G — X"
+      "58": "LP — The one that you love"
     },
     "still_missing": []
   },
   {
-    "key": "2020-28",
+    "key": "2021-03",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      39
+      53
     ],
     "gaps_after": [],
     "recovered": {
-      "39": "Jonas Brothers feat. Karol G — X"
+      "53": "LP — The one that you love"
     },
     "still_missing": []
   },
   {
-    "key": "2020-29",
+    "key": "2021-04",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      42
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "42": "LP — The one that you love"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-05",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      38
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "38": "LP — The one that you love"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-06",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      46
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "46": "LP — The one that you love"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-07",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      49
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "49": "LP — The one that you love"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-08",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      45
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "45": "LP — The one that you love"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-09",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      44
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "44": "LP — The one that you love"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-10",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
@@ -40,27 +130,222 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "29": "Jonas Brothers feat. Karol G — X"
+      "29": "LP — The one that you love"
     },
     "still_missing": []
   },
   {
-    "key": "2020-30",
+    "key": "2021-11",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      26
+      38
     ],
     "gaps_after": [],
     "recovered": {
-      "26": "Jonas Brothers feat. Karol G — X"
+      "38": "LP — The one that you love"
     },
     "still_missing": []
   },
   {
-    "key": "2020-31",
+    "key": "2021-12",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      44
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "44": "LP — The one that you love"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-13",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      37
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "37": "LP — The one that you love"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-14",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      58
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "58": "LP — The one that you love"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-16",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      59
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "59": "LP — The one that you love"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-24",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      41
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "41": "Texas — Hi"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-25",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      49
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "49": "Texas — Hi"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-31",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      57
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "57": "Texas — Hi"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-37",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      47
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "47": "Vitaa & Slimane — XY"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-38",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      31
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "31": "Vitaa & Slimane — XY"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-39",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      25
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "25": "Vitaa & Slimane — XY"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-40",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      28
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "28": "Vitaa & Slimane — XY"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-41",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      27
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "27": "Vitaa & Slimane — XY"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-42",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      27
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "27": "Vitaa & Slimane — XY"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-43",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
@@ -70,52 +355,173 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "23": "Jonas Brothers feat. Karol G — X"
+      "23": "Vitaa & Slimane — XY"
     },
     "still_missing": []
   },
   {
-    "key": "2020-32",
+    "key": "2021-44",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      19,
+      47
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "19": "Vitaa & Slimane — XY",
+      "47": "DJ Snake, Ozuna, Megan Stallion, Lisa from BlackPink — SG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-45",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      20,
+      57
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "20": "Vitaa & Slimane — XY",
+      "57": "DJ Snake, Ozuna, Megan Stallion, Lisa from BlackPink — SG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-46",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      18,
+      51
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "18": "Vitaa & Slimane — XY",
+      "51": "DJ Snake, Ozuna, Megan Stallion, Lisa from BlackPink — SG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-47",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      16,
+      34
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "16": "Vitaa & Slimane — XY",
+      "34": "DJ Snake, Ozuna, Megan Stallion, Lisa from BlackPink — SG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-48",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      18,
+      34
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "18": "Vitaa & Slimane — XY",
+      "34": "DJ Snake, Ozuna, Megan Stallion, Lisa from BlackPink — SG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-49",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      20,
+      40
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "20": "Vitaa & Slimane — XY",
+      "40": "DJ Snake, Ozuna, Megan Stallion, Lisa from BlackPink — SG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-50",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      27,
+      33
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "27": "Vitaa & Slimane — XY",
+      "33": "DJ Snake, Ozuna, Megan Stallion, Lisa from BlackPink — SG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-51",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      37,
+      59
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "37": "Vitaa & Slimane — XY",
+      "59": "DJ Snake, Ozuna, Megan Stallion, Lisa from BlackPink — SG"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2021-52",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      30
+      31
     ],
     "gaps_after": [],
     "recovered": {
-      "30": "Jonas Brothers feat. Karol G — X"
+      "31": "Vitaa & Slimane — XY"
     },
     "still_missing": []
   },
   {
-    "key": "2020-33",
+    "key": "2021-53",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      58
+      52
     ],
     "gaps_after": [],
     "recovered": {
-      "58": "Jonas Brothers feat. Karol G — X"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2020-35",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      58
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "58": "Jonas Brothers feat. Karol G — X"
+      "52": "Vitaa & Slimane — XY"
     },
     "still_missing": []
   }
