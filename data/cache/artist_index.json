@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T21:39:28.944899+00:00",
+  "generatedAt": "2026-11-14T21:42:08.632022+00:00",
   "archiveCount": 2198,
   "artistCount": 4669,
-  "trackCount": 10799,
+  "trackCount": 10800,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -7764,12 +7764,12 @@
           "credit": "U2",
           "firstKey": "2023-46",
           "firstDate": "13/11/2023",
-          "lastKey": "2023-53",
-          "lastDate": "01/01/2024",
-          "weeks": 8,
-          "peak": 29,
-          "peakKey": "2023-51",
-          "peakDate": "18/12/2023"
+          "lastKey": "2024-17",
+          "lastDate": "22/04/2024",
+          "weeks": 25,
+          "peak": 27,
+          "peakKey": "2024-07",
+          "peakDate": "12/02/2024"
         },
         {
           "key": "stuck in a moment you can t|u2",
@@ -7916,14 +7916,14 @@
         }
       ],
       "trackCount": 29,
-      "totalWeeks": 394,
+      "totalWeeks": 411,
       "bestPeak": 6,
       "firstYear": 1987,
-      "lastYear": 2023,
+      "lastYear": 2024,
       "firstKey": "1987-20",
       "firstDate": "17/05/1987",
-      "lastKey": "2023-53",
-      "lastDate": "01/01/2024"
+      "lastKey": "2024-17",
+      "lastDate": "22/04/2024"
     },
     {
       "id": "kylie minogue",
@@ -13318,6 +13318,19 @@
           "peakDate": "28/06/2021"
         },
         {
+          "key": "42|aya nakamura",
+          "title": "42",
+          "credit": "Aya Nakamura",
+          "firstKey": "2024-28",
+          "firstDate": "08/07/2024",
+          "lastKey": "2024-37",
+          "lastDate": "09/09/2024",
+          "weeks": 9,
+          "peak": 46,
+          "peakKey": "2024-36",
+          "peakDate": "02/09/2024"
+        },
+        {
           "key": "soldat|aya nakamura",
           "title": "Soldat",
           "credit": "Aya Nakamura",
@@ -13383,8 +13396,8 @@
           "peakDate": "09/10/2023"
         }
       ],
-      "trackCount": 21,
-      "totalWeeks": 239,
+      "trackCount": 22,
+      "totalWeeks": 248,
       "bestPeak": 8,
       "firstYear": 2017,
       "lastYear": 2026,
