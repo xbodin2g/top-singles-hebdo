@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T21:49:45.889659+00:00",
+  "generatedAt": "2026-11-14T23:03:40.014765+00:00",
   "archiveCount": 2198,
   "artistCount": 4670,
   "trackCount": 10802,
@@ -7095,11 +7095,11 @@
           "key": "saint tropez|gims",
           "title": "Saint-Tropez",
           "credit": "Gims",
-          "firstKey": "2024-37",
-          "firstDate": "09/09/2024",
+          "firstKey": "2024-36",
+          "firstDate": "02/09/2024",
           "lastKey": "2024-41",
           "lastDate": "07/10/2024",
-          "weeks": 5,
+          "weeks": 6,
           "peak": 40,
           "peakKey": "2024-41",
           "peakDate": "07/10/2024"
@@ -7145,7 +7145,7 @@
         }
       ],
       "trackCount": 29,
-      "totalWeeks": 473,
+      "totalWeeks": 474,
       "bestPeak": 2,
       "firstYear": 2019,
       "lastYear": 2026,
@@ -7896,7 +7896,7 @@
           "firstDate": "07/02/2005",
           "lastKey": "2005-26",
           "lastDate": "27/06/2005",
-          "weeks": 11,
+          "weeks": 13,
           "peak": 60,
           "peakKey": "2005-17",
           "peakDate": "25/04/2005"
@@ -7929,7 +7929,7 @@
         }
       ],
       "trackCount": 29,
-      "totalWeeks": 411,
+      "totalWeeks": 413,
       "bestPeak": 6,
       "firstYear": 1987,
       "lastYear": 2024,
@@ -9767,7 +9767,7 @@
           "firstDate": "02/02/2004",
           "lastKey": "2004-34",
           "lastDate": "16/08/2004",
-          "weeks": 27,
+          "weeks": 28,
           "peak": 4,
           "peakKey": "2004-13",
           "peakDate": "22/03/2004"
@@ -9995,7 +9995,7 @@
         }
       ],
       "trackCount": 24,
-      "totalWeeks": 473,
+      "totalWeeks": 474,
       "bestPeak": 1,
       "firstYear": 1999,
       "lastYear": 2013,
@@ -30513,7 +30513,7 @@
           "firstDate": "08/03/2004",
           "lastKey": "2004-33",
           "lastDate": "09/08/2004",
-          "weeks": 22,
+          "weeks": 23,
           "peak": 1,
           "peakKey": "2004-15",
           "peakDate": "05/04/2004"
@@ -30663,7 +30663,7 @@
         }
       ],
       "trackCount": 12,
-      "totalWeeks": 229,
+      "totalWeeks": 230,
       "bestPeak": 1,
       "firstYear": 1998,
       "lastYear": 2015,
@@ -34877,11 +34877,11 @@
           "key": "94|rohff",
           "title": "94",
           "credit": "Rohff",
-          "firstKey": "2004-17",
-          "firstDate": "19/04/2004",
+          "firstKey": "2004-16",
+          "firstDate": "12/04/2004",
           "lastKey": "2004-20",
           "lastDate": "10/05/2004",
-          "weeks": 4,
+          "weeks": 5,
           "peak": 68,
           "peakKey": "2004-17",
           "peakDate": "19/04/2004"
@@ -34901,7 +34901,7 @@
         }
       ],
       "trackCount": 11,
-      "totalWeeks": 132,
+      "totalWeeks": 133,
       "bestPeak": 1,
       "firstYear": 2001,
       "lastYear": 2021,
@@ -35606,7 +35606,7 @@
           "firstDate": "23/05/2005",
           "lastKey": "2005-32",
           "lastDate": "08/08/2005",
-          "weeks": 6,
+          "weeks": 8,
           "peak": 50,
           "peakKey": "2005-21",
           "peakDate": "23/05/2005"
@@ -35691,7 +35691,7 @@
         }
       ],
       "trackCount": 11,
-      "totalWeeks": 108,
+      "totalWeeks": 110,
       "bestPeak": 9,
       "firstYear": 1987,
       "lastYear": 2022,
@@ -46965,14 +46965,14 @@
           "key": "a ta liberte|l5",
           "title": "À ta liberté",
           "credit": "L5",
-          "firstKey": "2005-24",
-          "firstDate": "13/06/2005",
+          "firstKey": "2005-23",
+          "firstDate": "06/06/2005",
           "lastKey": "2005-38",
           "lastDate": "19/09/2005",
-          "weeks": 13,
-          "peak": 32,
-          "peakKey": "2005-24",
-          "peakDate": "13/06/2005"
+          "weeks": 15,
+          "peak": 31,
+          "peakKey": "2005-23",
+          "peakDate": "06/06/2005"
         },
         {
           "key": "question de survie|l5",
@@ -47002,7 +47002,7 @@
         }
       ],
       "trackCount": 8,
-      "totalWeeks": 119,
+      "totalWeeks": 121,
       "bestPeak": 1,
       "firstYear": 2001,
       "lastYear": 2005,
@@ -57415,6 +57415,99 @@
       "lastDate": "25/12/2000"
     },
     {
+      "id": "3t",
+      "name": "3T",
+      "tracks": [
+        {
+          "key": "i need you|3t",
+          "title": "I Need You",
+          "credit": "3T",
+          "firstKey": "1996-48",
+          "firstDate": "25/11/1996",
+          "lastKey": "1997-17",
+          "lastDate": "21/04/1997",
+          "weeks": 21,
+          "peak": 5,
+          "peakKey": "1997-02",
+          "peakDate": "06/01/1997"
+        },
+        {
+          "key": "anything|3t",
+          "title": "Anything",
+          "credit": "3T",
+          "firstKey": "1996-08",
+          "firstDate": "19/02/1996",
+          "lastKey": "1996-27",
+          "lastDate": "01/07/1996",
+          "weeks": 20,
+          "peak": 6,
+          "peakKey": "1996-19",
+          "peakDate": "06/05/1996"
+        },
+        {
+          "key": "why|3t",
+          "title": "Why",
+          "credit": "3T feat. Michael Jackson",
+          "firstKey": "1996-34",
+          "firstDate": "19/08/1996",
+          "lastKey": "1996-51",
+          "lastDate": "16/12/1996",
+          "weeks": 18,
+          "peak": 9,
+          "peakKey": "1996-42",
+          "peakDate": "14/10/1996"
+        },
+        {
+          "key": "stuck on you|3t",
+          "title": "Stuck On You",
+          "credit": "3T",
+          "firstKey": "2003-32",
+          "firstDate": "04/08/2003",
+          "lastKey": "2004-01",
+          "lastDate": "29/12/2003",
+          "weeks": 22,
+          "peak": 10,
+          "peakKey": "2003-39",
+          "peakDate": "22/09/2003"
+        },
+        {
+          "key": "gotta be you|3t",
+          "title": "Gotta Be You",
+          "credit": "3T feat. Herbie",
+          "firstKey": "1997-14",
+          "firstDate": "31/03/1997",
+          "lastKey": "1997-21",
+          "lastDate": "19/05/1997",
+          "weeks": 8,
+          "peak": 16,
+          "peakKey": "1997-15",
+          "peakDate": "07/04/1997"
+        },
+        {
+          "key": "sex appeal|3t",
+          "title": "Sex Appeal",
+          "credit": "3T",
+          "firstKey": "2004-12",
+          "firstDate": "15/03/2004",
+          "lastKey": "2004-21",
+          "lastDate": "17/05/2004",
+          "weeks": 10,
+          "peak": 34,
+          "peakKey": "2004-14",
+          "peakDate": "29/03/2004"
+        }
+      ],
+      "trackCount": 6,
+      "totalWeeks": 99,
+      "bestPeak": 5,
+      "firstYear": 1996,
+      "lastYear": 2004,
+      "firstKey": "1996-08",
+      "firstDate": "19/02/1996",
+      "lastKey": "2004-21",
+      "lastDate": "17/05/2004"
+    },
+    {
       "id": "brandy",
       "name": "Brandy",
       "tracks": [
@@ -57506,99 +57599,6 @@
       "firstDate": "05/10/1998",
       "lastKey": "2009-34",
       "lastDate": "17/08/2009"
-    },
-    {
-      "id": "3t",
-      "name": "3T",
-      "tracks": [
-        {
-          "key": "i need you|3t",
-          "title": "I Need You",
-          "credit": "3T",
-          "firstKey": "1996-48",
-          "firstDate": "25/11/1996",
-          "lastKey": "1997-17",
-          "lastDate": "21/04/1997",
-          "weeks": 21,
-          "peak": 5,
-          "peakKey": "1997-02",
-          "peakDate": "06/01/1997"
-        },
-        {
-          "key": "anything|3t",
-          "title": "Anything",
-          "credit": "3T",
-          "firstKey": "1996-08",
-          "firstDate": "19/02/1996",
-          "lastKey": "1996-27",
-          "lastDate": "01/07/1996",
-          "weeks": 20,
-          "peak": 6,
-          "peakKey": "1996-19",
-          "peakDate": "06/05/1996"
-        },
-        {
-          "key": "why|3t",
-          "title": "Why",
-          "credit": "3T feat. Michael Jackson",
-          "firstKey": "1996-34",
-          "firstDate": "19/08/1996",
-          "lastKey": "1996-51",
-          "lastDate": "16/12/1996",
-          "weeks": 18,
-          "peak": 9,
-          "peakKey": "1996-42",
-          "peakDate": "14/10/1996"
-        },
-        {
-          "key": "stuck on you|3t",
-          "title": "Stuck On You",
-          "credit": "3T",
-          "firstKey": "2003-32",
-          "firstDate": "04/08/2003",
-          "lastKey": "2004-01",
-          "lastDate": "29/12/2003",
-          "weeks": 22,
-          "peak": 10,
-          "peakKey": "2003-39",
-          "peakDate": "22/09/2003"
-        },
-        {
-          "key": "gotta be you|3t",
-          "title": "Gotta Be You",
-          "credit": "3T feat. Herbie",
-          "firstKey": "1997-14",
-          "firstDate": "31/03/1997",
-          "lastKey": "1997-21",
-          "lastDate": "19/05/1997",
-          "weeks": 8,
-          "peak": 16,
-          "peakKey": "1997-15",
-          "peakDate": "07/04/1997"
-        },
-        {
-          "key": "sex appeal|3t",
-          "title": "Sex Appeal",
-          "credit": "3T",
-          "firstKey": "2004-12",
-          "firstDate": "15/03/2004",
-          "lastKey": "2004-21",
-          "lastDate": "17/05/2004",
-          "weeks": 9,
-          "peak": 34,
-          "peakKey": "2004-14",
-          "peakDate": "29/03/2004"
-        }
-      ],
-      "trackCount": 6,
-      "totalWeeks": 98,
-      "bestPeak": 5,
-      "firstYear": 1996,
-      "lastYear": 2004,
-      "firstKey": "1996-08",
-      "firstDate": "19/02/1996",
-      "lastKey": "2004-21",
-      "lastDate": "17/05/2004"
     },
     {
       "id": "nirvana",
@@ -58345,6 +58345,99 @@
       "lastDate": "12/10/2009"
     },
     {
+      "id": "clean bandit",
+      "name": "Clean Bandit",
+      "tracks": [
+        {
+          "key": "rockabye|clean bandit",
+          "title": "Rockabye",
+          "credit": "Clean Bandit",
+          "firstKey": "2016-48",
+          "firstDate": "28/11/2016",
+          "lastKey": "2017-18",
+          "lastDate": "01/05/2017",
+          "weeks": 24,
+          "peak": 1,
+          "peakKey": "2016-53",
+          "peakDate": "02/01/2017"
+        },
+        {
+          "key": "rather be|clean bandit",
+          "title": "Rather Be",
+          "credit": "Clean Bandit",
+          "firstKey": "2014-09",
+          "firstDate": "24/02/2014",
+          "lastKey": "2014-32",
+          "lastDate": "04/08/2014",
+          "weeks": 24,
+          "peak": 2,
+          "peakKey": "2014-12",
+          "peakDate": "17/03/2014"
+        },
+        {
+          "key": "solo|clean bandit",
+          "title": "Solo",
+          "credit": "Clean Bandit feat. Demi Lovato",
+          "firstKey": "2018-25",
+          "firstDate": "18/06/2018",
+          "lastKey": "2018-44",
+          "lastDate": "29/10/2018",
+          "weeks": 20,
+          "peak": 2,
+          "peakKey": "2018-32",
+          "peakDate": "06/08/2018"
+        },
+        {
+          "key": "symphony|clean bandit",
+          "title": "Symphony",
+          "credit": "Clean Bandit",
+          "firstKey": "2017-20",
+          "firstDate": "15/05/2017",
+          "lastKey": "2017-33",
+          "lastDate": "14/08/2017",
+          "weeks": 14,
+          "peak": 7,
+          "peakKey": "2017-25",
+          "peakDate": "19/06/2017"
+        },
+        {
+          "key": "i miss you|clean bandit",
+          "title": "I miss you",
+          "credit": "Clean Bandit feat. Julia Michaels",
+          "firstKey": "2018-06",
+          "firstDate": "05/02/2018",
+          "lastKey": "2018-14",
+          "lastDate": "02/04/2018",
+          "weeks": 8,
+          "peak": 22,
+          "peakKey": "2018-08",
+          "peakDate": "19/02/2018"
+        },
+        {
+          "key": "cry baby|clean bandit",
+          "title": "Cry baby",
+          "credit": "Clean Bandit x Anne-Marie x David Guetta",
+          "firstKey": "2024-39",
+          "firstDate": "23/09/2024",
+          "lastKey": "2024-41",
+          "lastDate": "07/10/2024",
+          "weeks": 2,
+          "peak": 43,
+          "peakKey": "2024-41",
+          "peakDate": "07/10/2024"
+        }
+      ],
+      "trackCount": 6,
+      "totalWeeks": 92,
+      "bestPeak": 1,
+      "firstYear": 2014,
+      "lastYear": 2024,
+      "firstKey": "2014-09",
+      "firstDate": "24/02/2014",
+      "lastKey": "2024-41",
+      "lastDate": "07/10/2024"
+    },
+    {
       "id": "bon jovi",
       "name": "Bon Jovi",
       "tracks": [
@@ -58436,99 +58529,6 @@
       "firstDate": "06/06/1993",
       "lastKey": "2002-47",
       "lastDate": "18/11/2002"
-    },
-    {
-      "id": "clean bandit",
-      "name": "Clean Bandit",
-      "tracks": [
-        {
-          "key": "rockabye|clean bandit",
-          "title": "Rockabye",
-          "credit": "Clean Bandit",
-          "firstKey": "2016-48",
-          "firstDate": "28/11/2016",
-          "lastKey": "2017-18",
-          "lastDate": "01/05/2017",
-          "weeks": 24,
-          "peak": 1,
-          "peakKey": "2016-53",
-          "peakDate": "02/01/2017"
-        },
-        {
-          "key": "rather be|clean bandit",
-          "title": "Rather Be",
-          "credit": "Clean Bandit",
-          "firstKey": "2014-10",
-          "firstDate": "03/03/2014",
-          "lastKey": "2014-32",
-          "lastDate": "04/08/2014",
-          "weeks": 23,
-          "peak": 2,
-          "peakKey": "2014-12",
-          "peakDate": "17/03/2014"
-        },
-        {
-          "key": "solo|clean bandit",
-          "title": "Solo",
-          "credit": "Clean Bandit feat. Demi Lovato",
-          "firstKey": "2018-25",
-          "firstDate": "18/06/2018",
-          "lastKey": "2018-44",
-          "lastDate": "29/10/2018",
-          "weeks": 20,
-          "peak": 2,
-          "peakKey": "2018-32",
-          "peakDate": "06/08/2018"
-        },
-        {
-          "key": "symphony|clean bandit",
-          "title": "Symphony",
-          "credit": "Clean Bandit",
-          "firstKey": "2017-20",
-          "firstDate": "15/05/2017",
-          "lastKey": "2017-33",
-          "lastDate": "14/08/2017",
-          "weeks": 14,
-          "peak": 7,
-          "peakKey": "2017-25",
-          "peakDate": "19/06/2017"
-        },
-        {
-          "key": "i miss you|clean bandit",
-          "title": "I miss you",
-          "credit": "Clean Bandit feat. Julia Michaels",
-          "firstKey": "2018-06",
-          "firstDate": "05/02/2018",
-          "lastKey": "2018-14",
-          "lastDate": "02/04/2018",
-          "weeks": 8,
-          "peak": 22,
-          "peakKey": "2018-08",
-          "peakDate": "19/02/2018"
-        },
-        {
-          "key": "cry baby|clean bandit",
-          "title": "Cry baby",
-          "credit": "Clean Bandit x Anne-Marie x David Guetta",
-          "firstKey": "2024-39",
-          "firstDate": "23/09/2024",
-          "lastKey": "2024-41",
-          "lastDate": "07/10/2024",
-          "weeks": 2,
-          "peak": 43,
-          "peakKey": "2024-41",
-          "peakDate": "07/10/2024"
-        }
-      ],
-      "trackCount": 6,
-      "totalWeeks": 91,
-      "bestPeak": 1,
-      "firstYear": 2014,
-      "lastYear": 2024,
-      "firstKey": "2014-10",
-      "firstDate": "03/03/2014",
-      "lastKey": "2024-41",
-      "lastDate": "07/10/2024"
     },
     {
       "id": "cunnie williams",
@@ -86385,6 +86385,60 @@
       "lastDate": "02/01/2006"
     },
     {
+      "id": "cris cab",
+      "name": "Cris Cab",
+      "tracks": [
+        {
+          "key": "liar liar|cris cab",
+          "title": "Liar Liar",
+          "credit": "Cris Cab",
+          "firstKey": "2014-09",
+          "firstDate": "24/02/2014",
+          "lastKey": "2014-42",
+          "lastDate": "13/10/2014",
+          "weeks": 33,
+          "peak": 1,
+          "peakKey": "2014-16",
+          "peakDate": "14/04/2014"
+        },
+        {
+          "key": "englishman in new york|cris cab",
+          "title": "Englishman in New-York",
+          "credit": "Cris Cab",
+          "firstKey": "2015-22",
+          "firstDate": "25/05/2015",
+          "lastKey": "2015-33",
+          "lastDate": "10/08/2015",
+          "weeks": 12,
+          "peak": 5,
+          "peakKey": "2015-27",
+          "peakDate": "29/06/2015"
+        },
+        {
+          "key": "bada bing|cris cab",
+          "title": "Bada bing (VF)",
+          "credit": "Cris Cab feat Youssoupha",
+          "firstKey": "2016-16",
+          "firstDate": "18/04/2016",
+          "lastKey": "2016-25",
+          "lastDate": "20/06/2016",
+          "weeks": 7,
+          "peak": 25,
+          "peakKey": "2016-24",
+          "peakDate": "13/06/2016"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 52,
+      "bestPeak": 1,
+      "firstYear": 2014,
+      "lastYear": 2016,
+      "firstKey": "2014-09",
+      "firstDate": "24/02/2014",
+      "lastKey": "2016-25",
+      "lastDate": "20/06/2016"
+    },
+    {
       "id": "demis roussos",
       "name": "Demis Roussos",
       "tracks": [
@@ -86437,60 +86491,6 @@
       "firstDate": "17/01/1988",
       "lastKey": "1990-25",
       "lastDate": "24/06/1990"
-    },
-    {
-      "id": "cris cab",
-      "name": "Cris Cab",
-      "tracks": [
-        {
-          "key": "liar liar|cris cab",
-          "title": "Liar Liar",
-          "credit": "Cris Cab",
-          "firstKey": "2014-10",
-          "firstDate": "03/03/2014",
-          "lastKey": "2014-42",
-          "lastDate": "13/10/2014",
-          "weeks": 32,
-          "peak": 1,
-          "peakKey": "2014-16",
-          "peakDate": "14/04/2014"
-        },
-        {
-          "key": "englishman in new york|cris cab",
-          "title": "Englishman in New-York",
-          "credit": "Cris Cab",
-          "firstKey": "2015-22",
-          "firstDate": "25/05/2015",
-          "lastKey": "2015-33",
-          "lastDate": "10/08/2015",
-          "weeks": 12,
-          "peak": 5,
-          "peakKey": "2015-27",
-          "peakDate": "29/06/2015"
-        },
-        {
-          "key": "bada bing|cris cab",
-          "title": "Bada bing (VF)",
-          "credit": "Cris Cab feat Youssoupha",
-          "firstKey": "2016-16",
-          "firstDate": "18/04/2016",
-          "lastKey": "2016-25",
-          "lastDate": "20/06/2016",
-          "weeks": 7,
-          "peak": 25,
-          "peakKey": "2016-24",
-          "peakDate": "13/06/2016"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 51,
-      "bestPeak": 1,
-      "firstYear": 2014,
-      "lastYear": 2016,
-      "firstKey": "2014-10",
-      "firstDate": "03/03/2014",
-      "lastKey": "2016-25",
-      "lastDate": "20/06/2016"
     },
     {
       "id": "francis lalanne",
@@ -100727,6 +100727,47 @@
       "lastDate": "14/03/2022"
     },
     {
+      "id": "ke ha",
+      "name": "Ke$ha",
+      "tracks": [
+        {
+          "key": "tik tok|ke ha",
+          "title": "TiK ToK",
+          "credit": "Ke$ha",
+          "firstKey": "2010-05",
+          "firstDate": "01/02/2010",
+          "lastKey": "2012-03",
+          "lastDate": "16/01/2012",
+          "weeks": 37,
+          "peak": 1,
+          "peakKey": "2010-08",
+          "peakDate": "22/02/2010"
+        },
+        {
+          "key": "die young|ke ha",
+          "title": "Die Young",
+          "credit": "Ke$ha",
+          "firstKey": "2012-48",
+          "firstDate": "26/11/2012",
+          "lastKey": "2013-03",
+          "lastDate": "14/01/2013",
+          "weeks": 8,
+          "peak": 12,
+          "peakKey": "2012-52",
+          "peakDate": "24/12/2012"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 45,
+      "bestPeak": 1,
+      "firstYear": 2010,
+      "lastYear": 2013,
+      "firstKey": "2010-05",
+      "firstDate": "01/02/2010",
+      "lastKey": "2013-03",
+      "lastDate": "14/01/2013"
+    },
+    {
       "id": "quentin mosimann",
       "name": "Quentin Mosimann",
       "tracks": [
@@ -100971,47 +101012,6 @@
       "firstDate": "24/11/1985",
       "lastKey": "1986-34",
       "lastDate": "24/08/1986"
-    },
-    {
-      "id": "ke ha",
-      "name": "Ke$ha",
-      "tracks": [
-        {
-          "key": "tik tok|ke ha",
-          "title": "TiK ToK",
-          "credit": "Ke$ha",
-          "firstKey": "2010-05",
-          "firstDate": "01/02/2010",
-          "lastKey": "2012-03",
-          "lastDate": "16/01/2012",
-          "weeks": 36,
-          "peak": 1,
-          "peakKey": "2010-08",
-          "peakDate": "22/02/2010"
-        },
-        {
-          "key": "die young|ke ha",
-          "title": "Die Young",
-          "credit": "Ke$ha",
-          "firstKey": "2012-48",
-          "firstDate": "26/11/2012",
-          "lastKey": "2013-03",
-          "lastDate": "14/01/2013",
-          "weeks": 8,
-          "peak": 12,
-          "peakKey": "2012-52",
-          "peakDate": "24/12/2012"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 44,
-      "bestPeak": 1,
-      "firstYear": 2010,
-      "lastYear": 2013,
-      "firstKey": "2010-05",
-      "firstDate": "01/02/2010",
-      "lastKey": "2013-03",
-      "lastDate": "14/01/2013"
     },
     {
       "id": "las ketchup",
@@ -126117,6 +126117,34 @@
       "lastDate": "16/11/1998"
     },
     {
+      "id": "milky chance",
+      "name": "Milky Chance",
+      "tracks": [
+        {
+          "key": "stolen dance|milky chance",
+          "title": "Stolen Dance",
+          "credit": "Milky Chance",
+          "firstKey": "2014-09",
+          "firstDate": "24/02/2014",
+          "lastKey": "2014-43",
+          "lastDate": "20/10/2014",
+          "weeks": 34,
+          "peak": 1,
+          "peakKey": "2014-21",
+          "peakDate": "19/05/2014"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 34,
+      "bestPeak": 1,
+      "firstYear": 2014,
+      "lastYear": 2014,
+      "firstKey": "2014-09",
+      "firstDate": "24/02/2014",
+      "lastKey": "2014-43",
+      "lastDate": "20/10/2014"
+    },
+    {
       "id": "brandy and monica",
       "name": "Brandy & Monica",
       "tracks": [
@@ -126479,34 +126507,6 @@
       "firstDate": "10/12/2007",
       "lastKey": "2008-33",
       "lastDate": "11/08/2008"
-    },
-    {
-      "id": "milky chance",
-      "name": "Milky Chance",
-      "tracks": [
-        {
-          "key": "stolen dance|milky chance",
-          "title": "Stolen Dance",
-          "credit": "Milky Chance",
-          "firstKey": "2014-10",
-          "firstDate": "03/03/2014",
-          "lastKey": "2014-43",
-          "lastDate": "20/10/2014",
-          "weeks": 33,
-          "peak": 1,
-          "peakKey": "2014-21",
-          "peakDate": "19/05/2014"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 33,
-      "bestPeak": 1,
-      "firstYear": 2014,
-      "lastYear": 2014,
-      "firstKey": "2014-10",
-      "firstDate": "03/03/2014",
-      "lastKey": "2014-43",
-      "lastDate": "20/10/2014"
     },
     {
       "id": "tom walker",
@@ -145185,6 +145185,34 @@
       "lastDate": "27/10/2008"
     },
     {
+      "id": "ultra lights",
+      "name": "Ultra Lights",
+      "tracks": [
+        {
+          "key": "18|ultra lights",
+          "title": "18",
+          "credit": "Ultra Lights feat. Steph B.",
+          "firstKey": "2005-14",
+          "firstDate": "04/04/2005",
+          "lastKey": "2005-31",
+          "lastDate": "01/08/2005",
+          "weeks": 18,
+          "peak": 17,
+          "peakKey": "2005-18",
+          "peakDate": "02/05/2005"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 18,
+      "bestPeak": 17,
+      "firstYear": 2005,
+      "lastYear": 2005,
+      "firstKey": "2005-14",
+      "firstDate": "04/04/2005",
+      "lastKey": "2005-31",
+      "lastDate": "01/08/2005"
+    },
+    {
       "id": "werenoi et gims",
       "name": "Werenoi et Gims",
       "tracks": [
@@ -149327,34 +149355,6 @@
       "firstDate": "09/05/1993",
       "lastKey": "1993-34",
       "lastDate": "22/08/1993"
-    },
-    {
-      "id": "ultra lights",
-      "name": "Ultra Lights",
-      "tracks": [
-        {
-          "key": "18|ultra lights",
-          "title": "18",
-          "credit": "Ultra Lights feat. Steph B.",
-          "firstKey": "2005-14",
-          "firstDate": "04/04/2005",
-          "lastKey": "2005-31",
-          "lastDate": "01/08/2005",
-          "weeks": 16,
-          "peak": 17,
-          "peakKey": "2005-18",
-          "peakDate": "02/05/2005"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 16,
-      "bestPeak": 17,
-      "firstYear": 2005,
-      "lastYear": 2005,
-      "firstKey": "2005-14",
-      "firstDate": "04/04/2005",
-      "lastKey": "2005-31",
-      "lastDate": "01/08/2005"
     },
     {
       "id": "valli",
@@ -153809,6 +153809,34 @@
       "lastDate": "18/10/1987"
     },
     {
+      "id": "stellar project",
+      "name": "Stellar Project",
+      "tracks": [
+        {
+          "key": "get up stand up|stellar project",
+          "title": "Get Up Stand Up",
+          "credit": "Stellar Project feat. Brandi Emma",
+          "firstKey": "2005-11",
+          "firstDate": "14/03/2005",
+          "lastKey": "2005-24",
+          "lastDate": "13/06/2005",
+          "weeks": 14,
+          "peak": 16,
+          "peakKey": "2005-11",
+          "peakDate": "14/03/2005"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 14,
+      "bestPeak": 16,
+      "firstYear": 2005,
+      "lastYear": 2005,
+      "firstKey": "2005-11",
+      "firstDate": "14/03/2005",
+      "lastKey": "2005-24",
+      "lastDate": "13/06/2005"
+    },
+    {
       "id": "kraze",
       "name": "Kraze",
       "tracks": [
@@ -157085,34 +157113,6 @@
       "lastDate": "24/04/2006"
     },
     {
-      "id": "stellar project",
-      "name": "Stellar Project",
-      "tracks": [
-        {
-          "key": "get up stand up|stellar project",
-          "title": "Get Up Stand Up",
-          "credit": "Stellar Project feat. Brandi Emma",
-          "firstKey": "2005-11",
-          "firstDate": "14/03/2005",
-          "lastKey": "2005-24",
-          "lastDate": "13/06/2005",
-          "weeks": 13,
-          "peak": 16,
-          "peakKey": "2005-11",
-          "peakDate": "14/03/2005"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 13,
-      "bestPeak": 16,
-      "firstYear": 2005,
-      "lastYear": 2005,
-      "firstKey": "2005-11",
-      "firstDate": "14/03/2005",
-      "lastKey": "2005-24",
-      "lastDate": "13/06/2005"
-    },
-    {
       "id": "the beloved",
       "name": "The Beloved",
       "tracks": [
@@ -157587,6 +157587,34 @@
       "firstDate": "28/07/1985",
       "lastKey": "1985-42",
       "lastDate": "20/10/1985"
+    },
+    {
+      "id": "hot vibes baby",
+      "name": "Hot Vibes Baby",
+      "tracks": [
+        {
+          "key": "hot|hot vibes baby",
+          "title": "Hot",
+          "credit": "Hot Vibes Baby feat. Still T/D",
+          "firstKey": "2005-19",
+          "firstDate": "09/05/2005",
+          "lastKey": "2005-34",
+          "lastDate": "22/08/2005",
+          "weeks": 13,
+          "peak": 22,
+          "peakKey": "2005-19",
+          "peakDate": "09/05/2005"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 13,
+      "bestPeak": 22,
+      "firstYear": 2005,
+      "lastYear": 2005,
+      "firstKey": "2005-19",
+      "firstDate": "09/05/2005",
+      "lastKey": "2005-34",
+      "lastDate": "22/08/2005"
     },
     {
       "id": "level 42",
@@ -158847,6 +158875,34 @@
       "firstDate": "09/09/2002",
       "lastKey": "2003-01",
       "lastDate": "30/12/2002"
+    },
+    {
+      "id": "daho and gainsbourg",
+      "name": "Daho & Gainsbourg",
+      "tracks": [
+        {
+          "key": "if|daho and gainsbourg",
+          "title": "If",
+          "credit": "Daho & Gainsbourg",
+          "firstKey": "2004-13",
+          "firstDate": "22/03/2004",
+          "lastKey": "2004-25",
+          "lastDate": "14/06/2004",
+          "weeks": 13,
+          "peak": 42,
+          "peakKey": "2004-13",
+          "peakDate": "22/03/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 13,
+      "bestPeak": 42,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-13",
+      "firstDate": "22/03/2004",
+      "lastKey": "2004-25",
+      "lastDate": "14/06/2004"
     },
     {
       "id": "disco kings",
@@ -160529,34 +160585,6 @@
       "lastDate": "24/04/2006"
     },
     {
-      "id": "hot vibes baby",
-      "name": "Hot Vibes Baby",
-      "tracks": [
-        {
-          "key": "hot|hot vibes baby",
-          "title": "Hot",
-          "credit": "Hot Vibes Baby feat. Still T/D",
-          "firstKey": "2005-19",
-          "firstDate": "09/05/2005",
-          "lastKey": "2005-34",
-          "lastDate": "22/08/2005",
-          "weeks": 12,
-          "peak": 22,
-          "peakKey": "2005-19",
-          "peakDate": "09/05/2005"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 12,
-      "bestPeak": 22,
-      "firstYear": 2005,
-      "lastYear": 2005,
-      "firstKey": "2005-19",
-      "firstDate": "09/05/2005",
-      "lastKey": "2005-34",
-      "lastDate": "22/08/2005"
-    },
-    {
       "id": "lee mashup",
       "name": "Lee Mashup",
       "tracks": [
@@ -161899,34 +161927,6 @@
       "firstDate": "08/04/2002",
       "lastKey": "2002-26",
       "lastDate": "24/06/2002"
-    },
-    {
-      "id": "daho and gainsbourg",
-      "name": "Daho & Gainsbourg",
-      "tracks": [
-        {
-          "key": "if|daho and gainsbourg",
-          "title": "If",
-          "credit": "Daho & Gainsbourg",
-          "firstKey": "2004-13",
-          "firstDate": "22/03/2004",
-          "lastKey": "2004-25",
-          "lastDate": "14/06/2004",
-          "weeks": 12,
-          "peak": 42,
-          "peakKey": "2004-13",
-          "peakDate": "22/03/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 12,
-      "bestPeak": 42,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-13",
-      "firstDate": "22/03/2004",
-      "lastKey": "2004-25",
-      "lastDate": "14/06/2004"
     },
     {
       "id": "kore and ninho",
@@ -196285,6 +196285,34 @@
       "lastDate": "23/03/1998"
     },
     {
+      "id": "ecris l histoire",
+      "name": "Écris l'histoire",
+      "tracks": [
+        {
+          "key": "14|ecris l histoire",
+          "title": "14",
+          "credit": "Écris l'histoire",
+          "firstKey": "2005-21",
+          "firstDate": "23/05/2005",
+          "lastKey": "2005-22",
+          "lastDate": "30/05/2005",
+          "weeks": 2,
+          "peak": 70,
+          "peakKey": "2005-21",
+          "peakDate": "23/05/2005"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 2,
+      "bestPeak": 70,
+      "firstYear": 2005,
+      "lastYear": 2005,
+      "firstKey": "2005-21",
+      "firstDate": "23/05/2005",
+      "lastKey": "2005-22",
+      "lastDate": "30/05/2005"
+    },
+    {
       "id": "les gottamou",
       "name": "Les Gottamou",
       "tracks": [
@@ -206419,34 +206447,6 @@
       "firstDate": "16/11/2009",
       "lastKey": "2009-47",
       "lastDate": "16/11/2009"
-    },
-    {
-      "id": "ecris l histoire",
-      "name": "Écris l'histoire",
-      "tracks": [
-        {
-          "key": "14|ecris l histoire",
-          "title": "14",
-          "credit": "Écris l'histoire",
-          "firstKey": "2005-22",
-          "firstDate": "30/05/2005",
-          "lastKey": "2005-22",
-          "lastDate": "30/05/2005",
-          "weeks": 1,
-          "peak": 75,
-          "peakKey": "2005-22",
-          "peakDate": "30/05/2005"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 1,
-      "bestPeak": 75,
-      "firstYear": 2005,
-      "lastYear": 2005,
-      "firstKey": "2005-22",
-      "firstDate": "30/05/2005",
-      "lastKey": "2005-22",
-      "lastDate": "30/05/2005"
     },
     {
       "id": "gabriel",
