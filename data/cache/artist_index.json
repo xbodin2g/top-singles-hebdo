@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T20:03:23.433266+00:00",
+  "generatedAt": "2026-11-14T20:06:56.928485+00:00",
   "archiveCount": 2198,
-  "artistCount": 4666,
-  "trackCount": 10779,
+  "artistCount": 4667,
+  "trackCount": 10780,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -134268,6 +134268,34 @@
       "firstDate": "12/04/1987",
       "lastKey": "1987-37",
       "lastDate": "13/09/1987"
+    },
+    {
+      "id": "lp",
+      "name": "LP",
+      "tracks": [
+        {
+          "key": "lost on you|lp",
+          "title": "Lost on you",
+          "credit": "LP",
+          "firstKey": "2016-31",
+          "firstDate": "01/08/2016",
+          "lastKey": "2016-53",
+          "lastDate": "02/01/2017",
+          "weeks": 23,
+          "peak": 3,
+          "peakKey": "2016-39",
+          "peakDate": "26/09/2016"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 23,
+      "bestPeak": 3,
+      "firstYear": 2016,
+      "lastYear": 2016,
+      "firstKey": "2016-31",
+      "firstDate": "01/08/2016",
+      "lastKey": "2016-53",
+      "lastDate": "02/01/2017"
     },
     {
       "id": "booka",
