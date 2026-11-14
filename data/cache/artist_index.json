@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T11:39:31.483909+00:00",
+  "generatedAt": "2026-11-14T11:41:34.007409+00:00",
   "archiveCount": 2198,
-  "artistCount": 4514,
-  "trackCount": 10564,
+  "artistCount": 4515,
+  "trackCount": 10565,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -46795,6 +46795,125 @@
       "lastDate": "24/11/2014"
     },
     {
+      "id": "u2",
+      "name": "U2",
+      "tracks": [
+        {
+          "key": "the fly|u2",
+          "title": "The Fly",
+          "credit": "U2",
+          "firstKey": "1991-45",
+          "firstDate": "10/11/1991",
+          "lastKey": "1992-01",
+          "lastDate": "05/01/1992",
+          "weeks": 9,
+          "peak": 6,
+          "peakKey": "1991-45",
+          "peakDate": "10/11/1991"
+        },
+        {
+          "key": "with or without you|u2",
+          "title": "With or Without You",
+          "credit": "U2",
+          "firstKey": "1987-20",
+          "firstDate": "17/05/1987",
+          "lastKey": "1987-42",
+          "lastDate": "18/10/1987",
+          "weeks": 23,
+          "peak": 10,
+          "peakKey": "1987-28",
+          "peakDate": "12/07/1987"
+        },
+        {
+          "key": "one|u2",
+          "title": "One",
+          "credit": "U2",
+          "firstKey": "1992-17",
+          "firstDate": "26/04/1992",
+          "lastKey": "1992-29",
+          "lastDate": "19/07/1992",
+          "weeks": 13,
+          "peak": 13,
+          "peakKey": "1992-23",
+          "peakDate": "07/06/1992"
+        },
+        {
+          "key": "stay|u2",
+          "title": "Stay (Faraway, So Close!)",
+          "credit": "U2",
+          "firstKey": "1993-47",
+          "firstDate": "22/11/1993",
+          "lastKey": "1994-10",
+          "lastDate": "07/03/1994",
+          "weeks": 16,
+          "peak": 18,
+          "peakKey": "1994-01",
+          "peakDate": "03/01/1994"
+        },
+        {
+          "key": "mysterious ways|u2",
+          "title": "Mysterious Ways",
+          "credit": "U2",
+          "firstKey": "1992-06",
+          "firstDate": "09/02/1992",
+          "lastKey": "1992-15",
+          "lastDate": "12/04/1992",
+          "weeks": 10,
+          "peak": 19,
+          "peakKey": "1992-13",
+          "peakDate": "29/03/1992"
+        },
+        {
+          "key": "even better than the real thing|u2",
+          "title": "Even Better Than The Real Thing",
+          "credit": "U2",
+          "firstKey": "1992-38",
+          "firstDate": "20/09/1992",
+          "lastKey": "1992-43",
+          "lastDate": "25/10/1992",
+          "weeks": 6,
+          "peak": 34,
+          "peakKey": "1992-39",
+          "peakDate": "27/09/1992"
+        },
+        {
+          "key": "desire|u2",
+          "title": "Desire",
+          "credit": "U2",
+          "firstKey": "1988-42",
+          "firstDate": "16/10/1988",
+          "lastKey": "1988-49",
+          "lastDate": "04/12/1988",
+          "weeks": 8,
+          "peak": 37,
+          "peakKey": "1988-42",
+          "peakDate": "16/10/1988"
+        },
+        {
+          "key": "i still haven t found what i m looking for|u2",
+          "title": "I Still Haven't Found What I'm Looking For",
+          "credit": "U2",
+          "firstKey": "1987-41",
+          "firstDate": "11/10/1987",
+          "lastKey": "1987-46",
+          "lastDate": "15/11/1987",
+          "weeks": 6,
+          "peak": 37,
+          "peakKey": "1987-44",
+          "peakDate": "01/11/1987"
+        }
+      ],
+      "trackCount": 8,
+      "totalWeeks": 91,
+      "bestPeak": 6,
+      "firstYear": 1987,
+      "lastYear": 1994,
+      "firstKey": "1987-20",
+      "firstDate": "17/05/1987",
+      "lastKey": "1994-10",
+      "lastDate": "07/03/1994"
+    },
+    {
       "id": "khaled",
       "name": "Khaled",
       "tracks": [
@@ -47031,125 +47150,6 @@
       "firstDate": "12/02/1996",
       "lastKey": "1999-53",
       "lastDate": "03/01/2000"
-    },
-    {
-      "id": "u2",
-      "name": "U2",
-      "tracks": [
-        {
-          "key": "the fly|u2",
-          "title": "The Fly",
-          "credit": "U2",
-          "firstKey": "1991-45",
-          "firstDate": "10/11/1991",
-          "lastKey": "1992-01",
-          "lastDate": "05/01/1992",
-          "weeks": 9,
-          "peak": 6,
-          "peakKey": "1991-45",
-          "peakDate": "10/11/1991"
-        },
-        {
-          "key": "with or without you|u2",
-          "title": "With or Without You",
-          "credit": "U2",
-          "firstKey": "1987-20",
-          "firstDate": "17/05/1987",
-          "lastKey": "1987-42",
-          "lastDate": "18/10/1987",
-          "weeks": 23,
-          "peak": 10,
-          "peakKey": "1987-28",
-          "peakDate": "12/07/1987"
-        },
-        {
-          "key": "one|u2",
-          "title": "One",
-          "credit": "U2",
-          "firstKey": "1992-17",
-          "firstDate": "26/04/1992",
-          "lastKey": "1992-29",
-          "lastDate": "19/07/1992",
-          "weeks": 13,
-          "peak": 13,
-          "peakKey": "1992-23",
-          "peakDate": "07/06/1992"
-        },
-        {
-          "key": "mysterious ways|u2",
-          "title": "Mysterious Ways",
-          "credit": "U2",
-          "firstKey": "1992-06",
-          "firstDate": "09/02/1992",
-          "lastKey": "1992-15",
-          "lastDate": "12/04/1992",
-          "weeks": 10,
-          "peak": 19,
-          "peakKey": "1992-13",
-          "peakDate": "29/03/1992"
-        },
-        {
-          "key": "stay|u2",
-          "title": "Stay (Faraway, So Close!)",
-          "credit": "U2",
-          "firstKey": "1993-47",
-          "firstDate": "22/11/1993",
-          "lastKey": "1993-52",
-          "lastDate": "27/12/1993",
-          "weeks": 6,
-          "peak": 26,
-          "peakKey": "1993-51",
-          "peakDate": "20/12/1993"
-        },
-        {
-          "key": "even better than the real thing|u2",
-          "title": "Even Better Than The Real Thing",
-          "credit": "U2",
-          "firstKey": "1992-38",
-          "firstDate": "20/09/1992",
-          "lastKey": "1992-43",
-          "lastDate": "25/10/1992",
-          "weeks": 6,
-          "peak": 34,
-          "peakKey": "1992-39",
-          "peakDate": "27/09/1992"
-        },
-        {
-          "key": "desire|u2",
-          "title": "Desire",
-          "credit": "U2",
-          "firstKey": "1988-42",
-          "firstDate": "16/10/1988",
-          "lastKey": "1988-49",
-          "lastDate": "04/12/1988",
-          "weeks": 8,
-          "peak": 37,
-          "peakKey": "1988-42",
-          "peakDate": "16/10/1988"
-        },
-        {
-          "key": "i still haven t found what i m looking for|u2",
-          "title": "I Still Haven't Found What I'm Looking For",
-          "credit": "U2",
-          "firstKey": "1987-41",
-          "firstDate": "11/10/1987",
-          "lastKey": "1987-46",
-          "lastDate": "15/11/1987",
-          "weeks": 6,
-          "peak": 37,
-          "peakKey": "1987-44",
-          "peakDate": "01/11/1987"
-        }
-      ],
-      "trackCount": 8,
-      "totalWeeks": 81,
-      "bestPeak": 6,
-      "firstYear": 1987,
-      "lastYear": 1993,
-      "firstKey": "1987-20",
-      "firstDate": "17/05/1987",
-      "lastKey": "1993-52",
-      "lastDate": "27/12/1993"
     },
     {
       "id": "red hot chili peppers",
@@ -127683,34 +127683,6 @@
       "lastDate": "20/05/2002"
     },
     {
-      "id": "karine costa et daniel levi",
-      "name": "Karine Costa et Daniel Levi",
-      "tracks": [
-        {
-          "key": "ce reve bleu|karine costa et daniel levi",
-          "title": "Ce rêve bleu",
-          "credit": "Karine Costa et Daniel Levi",
-          "firstKey": "1993-49",
-          "firstDate": "06/12/1993",
-          "lastKey": "1994-24",
-          "lastDate": "13/06/1994",
-          "weeks": 28,
-          "peak": 3,
-          "peakKey": "1994-04",
-          "peakDate": "24/01/1994"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 28,
-      "bestPeak": 3,
-      "firstYear": 1993,
-      "lastYear": 1994,
-      "firstKey": "1993-49",
-      "firstDate": "06/12/1993",
-      "lastKey": "1994-24",
-      "lastDate": "13/06/1994"
-    },
-    {
       "id": "kendji girac and vianney",
       "name": "Kendji Girac & Vianney",
       "tracks": [
@@ -128381,6 +128353,34 @@
       "firstDate": "15/04/2019",
       "lastKey": "2019-44",
       "lastDate": "28/10/2019"
+    },
+    {
+      "id": "karine costa et daniel levi",
+      "name": "Karine Costa et Daniel Levi",
+      "tracks": [
+        {
+          "key": "ce reve bleu|karine costa et daniel levi",
+          "title": "Ce rêve bleu",
+          "credit": "Karine Costa et Daniel Levi",
+          "firstKey": "1993-49",
+          "firstDate": "06/12/1993",
+          "lastKey": "1994-24",
+          "lastDate": "13/06/1994",
+          "weeks": 27,
+          "peak": 3,
+          "peakKey": "1994-04",
+          "peakDate": "24/01/1994"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 27,
+      "bestPeak": 3,
+      "firstYear": 1993,
+      "lastYear": 1994,
+      "firstKey": "1993-49",
+      "firstDate": "06/12/1993",
+      "lastKey": "1994-24",
+      "lastDate": "13/06/1994"
     },
     {
       "id": "mathieu edward and sheryfa luna",
@@ -196897,6 +196897,34 @@
       "firstDate": "18/02/2013",
       "lastKey": "2013-08",
       "lastDate": "18/02/2013"
+    },
+    {
+      "id": "i d do anything for love b",
+      "name": "I'd Do Anything For Love (B...",
+      "tracks": [
+        {
+          "key": "4|i d do anything for love b",
+          "title": "4",
+          "credit": "I'd Do Anything For Love (B...",
+          "firstKey": "1994-05",
+          "firstDate": "31/01/1994",
+          "lastKey": "1994-05",
+          "lastDate": "31/01/1994",
+          "weeks": 1,
+          "peak": 6,
+          "peakKey": "1994-05",
+          "peakDate": "31/01/1994"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 6,
+      "firstYear": 1994,
+      "lastYear": 1994,
+      "firstKey": "1994-05",
+      "firstDate": "31/01/1994",
+      "lastKey": "1994-05",
+      "lastDate": "31/01/1994"
     },
     {
       "id": "we were evergreen",
