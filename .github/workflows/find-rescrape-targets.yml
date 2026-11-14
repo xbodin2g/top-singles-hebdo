@@ -8,9 +8,17 @@ on:
         required: false
         default: '5'
       limit:
-        description: 'Lignes affichees dans le rapport'
+        description: 'Lignes affichees'
         required: false
         default: '50'
+      include_snep:
+        description: 'Inclure SNEP (trous internes)'
+        required: false
+        default: 'non'
+        type: choice
+        options:
+          - non
+          - oui
 
 permissions:
   contents: write
@@ -34,35 +42,30 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Detecter les paliers de la source
-        run: |
-          echo "############################################################"
-          echo "# PALIERS DE TAILLE — CHARTSINFRANCE"
-          echo "############################################################"
-          python find_source_limits.py
+      - name: Paliers de la source
+        run: python find_source_limits.py
 
-      - name: Trouver les cibles de re-scraping
+      - name: Cibles (sans SNEP)
+        if: ${{ inputs.include_snep == 'non' }}
         run: |
-          echo ""
-          echo "############################################################"
-          echo "# CIBLES DE RE-SCRAPING"
-          echo "############################################################"
           python find_rescrape_targets.py --max-gaps "${{ inputs.max_gaps }}" --limit "${{ inputs.limit }}"
 
-      - name: Commit target list
+      - name: Cibles (avec SNEP)
+        if: ${{ inputs.include_snep == 'oui' }}
+        run: |
+          python find_rescrape_targets.py --max-gaps "${{ inputs.max_gaps }}" --limit "${{ inputs.limit }}" --include-snep
+
+      - name: Commit
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-
           if [ -f data/rescrape_targets.json ]; then
             git add data/rescrape_targets.json
           fi
-
           if git diff --staged --quiet; then
             echo "Aucun changement"
             exit 0
           fi
-
-          git commit -m "Cibles de re-scraping + detection paliers source"
+          git commit -m "Cibles de re-scraping (snep=${{ inputs.include_snep }})"
           git pull --rebase origin main
           git push origin main
