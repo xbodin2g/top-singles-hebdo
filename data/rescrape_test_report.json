@@ -1,91 +1,121 @@
 [
   {
-    "key": "2019-05",
+    "key": "2020-27",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      51
+      55
     ],
     "gaps_after": [],
     "recovered": {
-      "51": "M — Superchérie"
+      "55": "Jonas Brothers feat. Karol G — X"
     },
     "still_missing": []
   },
   {
-    "key": "2019-32",
+    "key": "2020-28",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      59
+      39
     ],
     "gaps_after": [],
     "recovered": {
-      "59": "M — Grand petit con"
+      "39": "Jonas Brothers feat. Karol G — X"
     },
     "still_missing": []
   },
   {
-    "key": "2019-34",
+    "key": "2020-29",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      59
+      29
     ],
     "gaps_after": [],
     "recovered": {
-      "59": "M — Grand petit con"
+      "29": "Jonas Brothers feat. Karol G — X"
     },
     "still_missing": []
   },
   {
-    "key": "2019-37",
+    "key": "2020-30",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      57
+      26
     ],
     "gaps_after": [],
     "recovered": {
-      "57": "M — Grand petit con"
+      "26": "Jonas Brothers feat. Karol G — X"
     },
     "still_missing": []
   },
   {
-    "key": "2019-41",
+    "key": "2020-31",
     "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "reference": 25,
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
     "gaps_before": [
-      18
+      23
     ],
     "gaps_after": [],
     "recovered": {
-      "18": "The Sugarhill Gang — Rapper S Delight"
+      "23": "Jonas Brothers feat. Karol G — X"
     },
     "still_missing": []
   },
   {
-    "key": "2019-42",
+    "key": "2020-32",
     "status": "ok",
-    "entries_before": 24,
-    "entries_after": 25,
-    "reference": 25,
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
     "gaps_before": [
-      13
+      30
     ],
     "gaps_after": [],
     "recovered": {
-      "13": "Gambi — Popopop"
+      "30": "Jonas Brothers feat. Karol G — X"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2020-33",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      58
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "58": "Jonas Brothers feat. Karol G — X"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2020-35",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      58
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "58": "Jonas Brothers feat. Karol G — X"
     },
     "still_missing": []
   }

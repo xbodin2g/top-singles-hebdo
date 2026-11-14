@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T21:06:13.790095+00:00",
+  "generatedAt": "2026-11-14T21:16:18.665226+00:00",
   "archiveCount": 2198,
   "artistCount": 4669,
-  "trackCount": 10790,
+  "trackCount": 10791,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -64294,6 +64294,86 @@
       "lastDate": "03/01/2000"
     },
     {
+      "id": "jonas brothers",
+      "name": "Jonas Brothers",
+      "tracks": [
+        {
+          "key": "only human|jonas brothers",
+          "title": "Only human",
+          "credit": "Jonas Brothers",
+          "firstKey": "2019-33",
+          "firstDate": "12/08/2019",
+          "lastKey": "2020-11",
+          "lastDate": "09/03/2020",
+          "weeks": 30,
+          "peak": 7,
+          "peakKey": "2019-46",
+          "peakDate": "11/11/2019"
+        },
+        {
+          "key": "s o s|jonas brothers",
+          "title": "S.O.S",
+          "credit": "Jonas Brothers",
+          "firstKey": "2008-29",
+          "firstDate": "14/07/2008",
+          "lastKey": "2009-01",
+          "lastDate": "29/12/2008",
+          "weeks": 25,
+          "peak": 15,
+          "peakKey": "2008-30",
+          "peakDate": "21/07/2008"
+        },
+        {
+          "key": "sucker|jonas brothers",
+          "title": "Sucker",
+          "credit": "Jonas Brothers",
+          "firstKey": "2019-15",
+          "firstDate": "08/04/2019",
+          "lastKey": "2019-27",
+          "lastDate": "01/07/2019",
+          "weeks": 10,
+          "peak": 15,
+          "peakKey": "2019-22",
+          "peakDate": "27/05/2019"
+        },
+        {
+          "key": "what a man gotta do|jonas brothers",
+          "title": "What a man gotta do",
+          "credit": "Jonas Brothers",
+          "firstKey": "2020-11",
+          "firstDate": "09/03/2020",
+          "lastKey": "2020-21",
+          "lastDate": "18/05/2020",
+          "weeks": 11,
+          "peak": 23,
+          "peakKey": "2020-14",
+          "peakDate": "30/03/2020"
+        },
+        {
+          "key": "x|jonas brothers",
+          "title": "X",
+          "credit": "Jonas Brothers feat. Karol G",
+          "firstKey": "2020-27",
+          "firstDate": "29/06/2020",
+          "lastKey": "2020-35",
+          "lastDate": "24/08/2020",
+          "weeks": 8,
+          "peak": 23,
+          "peakKey": "2020-31",
+          "peakDate": "27/07/2020"
+        }
+      ],
+      "trackCount": 5,
+      "totalWeeks": 84,
+      "bestPeak": 7,
+      "firstYear": 2008,
+      "lastYear": 2020,
+      "firstKey": "2008-29",
+      "firstDate": "14/07/2008",
+      "lastKey": "2020-35",
+      "lastDate": "24/08/2020"
+    },
+    {
       "id": "ciara",
       "name": "Ciara",
       "tracks": [
@@ -73279,73 +73359,6 @@
       "firstDate": "12/01/1998",
       "lastKey": "1999-53",
       "lastDate": "03/01/2000"
-    },
-    {
-      "id": "jonas brothers",
-      "name": "Jonas Brothers",
-      "tracks": [
-        {
-          "key": "only human|jonas brothers",
-          "title": "Only human",
-          "credit": "Jonas Brothers",
-          "firstKey": "2019-33",
-          "firstDate": "12/08/2019",
-          "lastKey": "2020-11",
-          "lastDate": "09/03/2020",
-          "weeks": 30,
-          "peak": 7,
-          "peakKey": "2019-46",
-          "peakDate": "11/11/2019"
-        },
-        {
-          "key": "s o s|jonas brothers",
-          "title": "S.O.S",
-          "credit": "Jonas Brothers",
-          "firstKey": "2008-29",
-          "firstDate": "14/07/2008",
-          "lastKey": "2009-01",
-          "lastDate": "29/12/2008",
-          "weeks": 25,
-          "peak": 15,
-          "peakKey": "2008-30",
-          "peakDate": "21/07/2008"
-        },
-        {
-          "key": "sucker|jonas brothers",
-          "title": "Sucker",
-          "credit": "Jonas Brothers",
-          "firstKey": "2019-15",
-          "firstDate": "08/04/2019",
-          "lastKey": "2019-27",
-          "lastDate": "01/07/2019",
-          "weeks": 10,
-          "peak": 15,
-          "peakKey": "2019-22",
-          "peakDate": "27/05/2019"
-        },
-        {
-          "key": "what a man gotta do|jonas brothers",
-          "title": "What a man gotta do",
-          "credit": "Jonas Brothers",
-          "firstKey": "2020-11",
-          "firstDate": "09/03/2020",
-          "lastKey": "2020-21",
-          "lastDate": "18/05/2020",
-          "weeks": 11,
-          "peak": 23,
-          "peakKey": "2020-14",
-          "peakDate": "30/03/2020"
-        }
-      ],
-      "trackCount": 4,
-      "totalWeeks": 76,
-      "bestPeak": 7,
-      "firstYear": 2008,
-      "lastYear": 2020,
-      "firstKey": "2008-29",
-      "firstDate": "14/07/2008",
-      "lastKey": "2020-21",
-      "lastDate": "18/05/2020"
     },
     {
       "id": "david and jonathan",
