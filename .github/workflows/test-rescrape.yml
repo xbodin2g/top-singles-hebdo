@@ -1,0 +1,73 @@
+name: Test Rescrape
+
+on:
+  workflow_dispatch:
+    inputs:
+      keys:
+        description: 'Cles a tester (ex: 1993-37,1994-07,2003-15)'
+        required: true
+        default: '1993-37,1994-07,2003-15'
+      mode:
+        description: 'dry-run = aucune ecriture / apply = enregistrer'
+        required: true
+        default: 'dry-run'
+        type: choice
+        options:
+          - dry-run
+          - apply
+
+permissions:
+  contents: write
+
+concurrency:
+  group: test-rescrape
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Test rescrape (dry-run)
+        if: ${{ inputs.mode == 'dry-run' }}
+        run: python test_rescrape.py --keys "${{ inputs.keys }}"
+
+      - name: Test rescrape (apply)
+        if: ${{ inputs.mode == 'apply' }}
+        run: python test_rescrape.py --keys "${{ inputs.keys }}" --apply
+
+      - name: Rebuild artist index
+        if: ${{ inputs.mode == 'apply' }}
+        run: python build_artist_index.py
+
+      - name: Commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add data/rescrape_test_report.json
+          if [ "${{ inputs.mode }}" = "apply" ]; then
+            git add data/cache/retro_archives.json data/cache/artist_index.json
+          fi
+
+          if git diff --staged --quiet; then
+            echo "Aucun changement"
+            exit 0
+          fi
+
+          git commit -m "Test re-scraping cible (${{ inputs.mode }})"
+          git pull --rebase origin main
+          git push origin main
