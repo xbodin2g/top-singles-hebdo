@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T13:48:58.663486+00:00",
+  "generatedAt": "2026-11-14T13:54:07.641953+00:00",
   "archiveCount": 2198,
-  "artistCount": 4618,
-  "trackCount": 10708,
+  "artistCount": 4630,
+  "trackCount": 10726,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -9323,23 +9323,10 @@
           "firstDate": "03/05/2004",
           "lastKey": "2004-49",
           "lastDate": "29/11/2004",
-          "weeks": 24,
+          "weeks": 23,
           "peak": 2,
           "peakKey": "2004-37",
           "peakDate": "06/09/2004"
-        },
-        {
-          "key": "toxic|britney spears",
-          "title": "Toxic",
-          "credit": "Britney Spears",
-          "firstKey": "2004-06",
-          "firstDate": "02/02/2004",
-          "lastKey": "2004-34",
-          "lastDate": "16/08/2004",
-          "weeks": 28,
-          "peak": 3,
-          "peakKey": "2004-12",
-          "peakDate": "15/03/2004"
         },
         {
           "key": "oops i did it again|britney spears",
@@ -9353,6 +9340,19 @@
           "peak": 4,
           "peakKey": "2000-20",
           "peakDate": "15/05/2000"
+        },
+        {
+          "key": "toxic|britney spears",
+          "title": "Toxic",
+          "credit": "Britney Spears",
+          "firstKey": "2004-06",
+          "firstDate": "02/02/2004",
+          "lastKey": "2004-34",
+          "lastDate": "16/08/2004",
+          "weeks": 27,
+          "peak": 4,
+          "peakKey": "2004-13",
+          "peakDate": "22/03/2004"
         },
         {
           "key": "gimme more|britney spears",
@@ -9577,7 +9577,7 @@
         }
       ],
       "trackCount": 24,
-      "totalWeeks": 473,
+      "totalWeeks": 471,
       "bestPeak": 1,
       "firstYear": 1999,
       "lastYear": 2013,
@@ -12214,10 +12214,10 @@
           "firstDate": "09/02/2004",
           "lastKey": "2004-46",
           "lastDate": "08/11/2004",
-          "weeks": 38,
-          "peak": 8,
-          "peakKey": "2004-10",
-          "peakDate": "01/03/2004"
+          "weeks": 37,
+          "peak": 9,
+          "peakKey": "2004-08",
+          "peakDate": "16/02/2004"
         },
         {
           "key": "on the outside|roch voisine",
@@ -12390,7 +12390,7 @@
         }
       ],
       "trackCount": 22,
-      "totalWeeks": 301,
+      "totalWeeks": 300,
       "bestPeak": 1,
       "firstYear": 1989,
       "lastYear": 2017,
@@ -16499,6 +16499,268 @@
       "lastDate": "21/12/2009"
     },
     {
+      "id": "u2",
+      "name": "U2",
+      "tracks": [
+        {
+          "key": "the fly|u2",
+          "title": "The Fly",
+          "credit": "U2",
+          "firstKey": "1991-45",
+          "firstDate": "10/11/1991",
+          "lastKey": "1992-01",
+          "lastDate": "05/01/1992",
+          "weeks": 9,
+          "peak": 6,
+          "peakKey": "1991-45",
+          "peakDate": "10/11/1991"
+        },
+        {
+          "key": "with or without you|u2",
+          "title": "With or Without You",
+          "credit": "U2",
+          "firstKey": "1987-20",
+          "firstDate": "17/05/1987",
+          "lastKey": "1987-42",
+          "lastDate": "18/10/1987",
+          "weeks": 23,
+          "peak": 10,
+          "peakKey": "1987-28",
+          "peakDate": "12/07/1987"
+        },
+        {
+          "key": "hold me thrill me kiss me|u2",
+          "title": "Hold Me, Thrill Me, Kiss Me...",
+          "credit": "U2",
+          "firstKey": "1995-24",
+          "firstDate": "12/06/1995",
+          "lastKey": "1995-42",
+          "lastDate": "16/10/1995",
+          "weeks": 19,
+          "peak": 10,
+          "peakKey": "1995-30",
+          "peakDate": "24/07/1995"
+        },
+        {
+          "key": "vertigo|u2",
+          "title": "Vertigo",
+          "credit": "U2",
+          "firstKey": "2004-44",
+          "firstDate": "25/10/2004",
+          "lastKey": "2004-52",
+          "lastDate": "20/12/2004",
+          "weeks": 9,
+          "peak": 12,
+          "peakKey": "2004-45",
+          "peakDate": "01/11/2004"
+        },
+        {
+          "key": "discotheque|u2",
+          "title": "Discothèque",
+          "credit": "U2",
+          "firstKey": "1997-06",
+          "firstDate": "03/02/1997",
+          "lastKey": "1997-10",
+          "lastDate": "03/03/1997",
+          "weeks": 5,
+          "peak": 12,
+          "peakKey": "1997-06",
+          "peakDate": "03/02/1997"
+        },
+        {
+          "key": "one|u2",
+          "title": "One",
+          "credit": "U2",
+          "firstKey": "1992-17",
+          "firstDate": "26/04/1992",
+          "lastKey": "1992-29",
+          "lastDate": "19/07/1992",
+          "weeks": 13,
+          "peak": 13,
+          "peakKey": "1992-23",
+          "peakDate": "07/06/1992"
+        },
+        {
+          "key": "beautiful day|u2",
+          "title": "Beautiful Day",
+          "credit": "U2",
+          "firstKey": "2000-41",
+          "firstDate": "09/10/2000",
+          "lastKey": "2001-02",
+          "lastDate": "08/01/2001",
+          "weeks": 13,
+          "peak": 17,
+          "peakKey": "2000-41",
+          "peakDate": "09/10/2000"
+        },
+        {
+          "key": "stay|u2",
+          "title": "Stay (Faraway, So Close!)",
+          "credit": "U2",
+          "firstKey": "1993-47",
+          "firstDate": "22/11/1993",
+          "lastKey": "1994-10",
+          "lastDate": "07/03/1994",
+          "weeks": 16,
+          "peak": 18,
+          "peakKey": "1994-01",
+          "peakDate": "03/01/1994"
+        },
+        {
+          "key": "sweetest thing|u2",
+          "title": "Sweetest Thing",
+          "credit": "U2",
+          "firstKey": "1998-43",
+          "firstDate": "19/10/1998",
+          "lastKey": "1999-53",
+          "lastDate": "03/01/2000",
+          "weeks": 13,
+          "peak": 18,
+          "peakKey": "1998-43",
+          "peakDate": "19/10/1998"
+        },
+        {
+          "key": "electrical storm|u2",
+          "title": "Electrical Storm",
+          "credit": "U2",
+          "firstKey": "2002-43",
+          "firstDate": "21/10/2002",
+          "lastKey": "2002-52",
+          "lastDate": "23/12/2002",
+          "weeks": 10,
+          "peak": 18,
+          "peakKey": "2002-43",
+          "peakDate": "21/10/2002"
+        },
+        {
+          "key": "mysterious ways|u2",
+          "title": "Mysterious Ways",
+          "credit": "U2",
+          "firstKey": "1992-06",
+          "firstDate": "09/02/1992",
+          "lastKey": "1992-15",
+          "lastDate": "12/04/1992",
+          "weeks": 10,
+          "peak": 19,
+          "peakKey": "1992-13",
+          "peakDate": "29/03/1992"
+        },
+        {
+          "key": "stuck in a moment you can t|u2",
+          "title": "Stuck In A Moment You Can't...",
+          "credit": "U2",
+          "firstKey": "2001-16",
+          "firstDate": "16/04/2001",
+          "lastKey": "2001-24",
+          "lastDate": "11/06/2001",
+          "weeks": 8,
+          "peak": 31,
+          "peakKey": "2001-16",
+          "peakDate": "16/04/2001"
+        },
+        {
+          "key": "please|u2",
+          "title": "Please",
+          "credit": "U2",
+          "firstKey": "1997-42",
+          "firstDate": "13/10/1997",
+          "lastKey": "1997-43",
+          "lastDate": "20/10/1997",
+          "weeks": 2,
+          "peak": 31,
+          "peakKey": "1997-42",
+          "peakDate": "13/10/1997"
+        },
+        {
+          "key": "elevation|u2",
+          "title": "Elevation",
+          "credit": "U2",
+          "firstKey": "2001-29",
+          "firstDate": "16/07/2001",
+          "lastKey": "2001-42",
+          "lastDate": "15/10/2001",
+          "weeks": 14,
+          "peak": 34,
+          "peakKey": "2001-29",
+          "peakDate": "16/07/2001"
+        },
+        {
+          "key": "even better than the real thing|u2",
+          "title": "Even Better Than The Real Thing",
+          "credit": "U2",
+          "firstKey": "1992-38",
+          "firstDate": "20/09/1992",
+          "lastKey": "1992-43",
+          "lastDate": "25/10/1992",
+          "weeks": 6,
+          "peak": 34,
+          "peakKey": "1992-39",
+          "peakDate": "27/09/1992"
+        },
+        {
+          "key": "desire|u2",
+          "title": "Desire",
+          "credit": "U2",
+          "firstKey": "1988-42",
+          "firstDate": "16/10/1988",
+          "lastKey": "1988-49",
+          "lastDate": "04/12/1988",
+          "weeks": 8,
+          "peak": 37,
+          "peakKey": "1988-42",
+          "peakDate": "16/10/1988"
+        },
+        {
+          "key": "i still haven t found what i m looking for|u2",
+          "title": "I Still Haven't Found What I'm Looking For",
+          "credit": "U2",
+          "firstKey": "1987-41",
+          "firstDate": "11/10/1987",
+          "lastKey": "1987-46",
+          "lastDate": "15/11/1987",
+          "weeks": 6,
+          "peak": 37,
+          "peakKey": "1987-44",
+          "peakDate": "01/11/1987"
+        },
+        {
+          "key": "staring at the sun|u2",
+          "title": "Staring At The Sun",
+          "credit": "U2",
+          "firstKey": "1997-20",
+          "firstDate": "12/05/1997",
+          "lastKey": "1997-20",
+          "lastDate": "12/05/1997",
+          "weeks": 1,
+          "peak": 49,
+          "peakKey": "1997-20",
+          "peakDate": "12/05/1997"
+        },
+        {
+          "key": "walk on|u2",
+          "title": "Walk On",
+          "credit": "U2",
+          "firstKey": "2001-47",
+          "firstDate": "19/11/2001",
+          "lastKey": "2001-48",
+          "lastDate": "26/11/2001",
+          "weeks": 2,
+          "peak": 81,
+          "peakKey": "2001-47",
+          "peakDate": "19/11/2001"
+        }
+      ],
+      "trackCount": 19,
+      "totalWeeks": 187,
+      "bestPeak": 6,
+      "firstYear": 1987,
+      "lastYear": 2004,
+      "firstKey": "1987-20",
+      "firstDate": "17/05/1987",
+      "lastKey": "2004-52",
+      "lastDate": "20/12/2004"
+    },
+    {
       "id": "lorie",
       "name": "Lorie",
       "tracks": [
@@ -16653,7 +16915,7 @@
           "firstDate": "07/06/2004",
           "lastKey": "2004-47",
           "lastDate": "15/11/2004",
-          "weeks": 23,
+          "weeks": 24,
           "peak": 13,
           "peakKey": "2004-26",
           "peakDate": "21/06/2004"
@@ -16738,7 +17000,7 @@
         }
       ],
       "trackCount": 18,
-      "totalWeeks": 394,
+      "totalWeeks": 395,
       "bestPeak": 1,
       "firstYear": 2001,
       "lastYear": 2009,
@@ -18489,255 +18751,6 @@
       "firstDate": "20/04/1998",
       "lastKey": "2012-45",
       "lastDate": "05/11/2012"
-    },
-    {
-      "id": "u2",
-      "name": "U2",
-      "tracks": [
-        {
-          "key": "the fly|u2",
-          "title": "The Fly",
-          "credit": "U2",
-          "firstKey": "1991-45",
-          "firstDate": "10/11/1991",
-          "lastKey": "1992-01",
-          "lastDate": "05/01/1992",
-          "weeks": 9,
-          "peak": 6,
-          "peakKey": "1991-45",
-          "peakDate": "10/11/1991"
-        },
-        {
-          "key": "with or without you|u2",
-          "title": "With or Without You",
-          "credit": "U2",
-          "firstKey": "1987-20",
-          "firstDate": "17/05/1987",
-          "lastKey": "1987-42",
-          "lastDate": "18/10/1987",
-          "weeks": 23,
-          "peak": 10,
-          "peakKey": "1987-28",
-          "peakDate": "12/07/1987"
-        },
-        {
-          "key": "hold me thrill me kiss me|u2",
-          "title": "Hold Me, Thrill Me, Kiss Me...",
-          "credit": "U2",
-          "firstKey": "1995-24",
-          "firstDate": "12/06/1995",
-          "lastKey": "1995-42",
-          "lastDate": "16/10/1995",
-          "weeks": 19,
-          "peak": 10,
-          "peakKey": "1995-30",
-          "peakDate": "24/07/1995"
-        },
-        {
-          "key": "discotheque|u2",
-          "title": "Discothèque",
-          "credit": "U2",
-          "firstKey": "1997-06",
-          "firstDate": "03/02/1997",
-          "lastKey": "1997-10",
-          "lastDate": "03/03/1997",
-          "weeks": 5,
-          "peak": 12,
-          "peakKey": "1997-06",
-          "peakDate": "03/02/1997"
-        },
-        {
-          "key": "one|u2",
-          "title": "One",
-          "credit": "U2",
-          "firstKey": "1992-17",
-          "firstDate": "26/04/1992",
-          "lastKey": "1992-29",
-          "lastDate": "19/07/1992",
-          "weeks": 13,
-          "peak": 13,
-          "peakKey": "1992-23",
-          "peakDate": "07/06/1992"
-        },
-        {
-          "key": "beautiful day|u2",
-          "title": "Beautiful Day",
-          "credit": "U2",
-          "firstKey": "2000-41",
-          "firstDate": "09/10/2000",
-          "lastKey": "2001-02",
-          "lastDate": "08/01/2001",
-          "weeks": 13,
-          "peak": 17,
-          "peakKey": "2000-41",
-          "peakDate": "09/10/2000"
-        },
-        {
-          "key": "stay|u2",
-          "title": "Stay (Faraway, So Close!)",
-          "credit": "U2",
-          "firstKey": "1993-47",
-          "firstDate": "22/11/1993",
-          "lastKey": "1994-10",
-          "lastDate": "07/03/1994",
-          "weeks": 16,
-          "peak": 18,
-          "peakKey": "1994-01",
-          "peakDate": "03/01/1994"
-        },
-        {
-          "key": "sweetest thing|u2",
-          "title": "Sweetest Thing",
-          "credit": "U2",
-          "firstKey": "1998-43",
-          "firstDate": "19/10/1998",
-          "lastKey": "1999-53",
-          "lastDate": "03/01/2000",
-          "weeks": 13,
-          "peak": 18,
-          "peakKey": "1998-43",
-          "peakDate": "19/10/1998"
-        },
-        {
-          "key": "electrical storm|u2",
-          "title": "Electrical Storm",
-          "credit": "U2",
-          "firstKey": "2002-43",
-          "firstDate": "21/10/2002",
-          "lastKey": "2002-52",
-          "lastDate": "23/12/2002",
-          "weeks": 10,
-          "peak": 18,
-          "peakKey": "2002-43",
-          "peakDate": "21/10/2002"
-        },
-        {
-          "key": "mysterious ways|u2",
-          "title": "Mysterious Ways",
-          "credit": "U2",
-          "firstKey": "1992-06",
-          "firstDate": "09/02/1992",
-          "lastKey": "1992-15",
-          "lastDate": "12/04/1992",
-          "weeks": 10,
-          "peak": 19,
-          "peakKey": "1992-13",
-          "peakDate": "29/03/1992"
-        },
-        {
-          "key": "stuck in a moment you can t|u2",
-          "title": "Stuck In A Moment You Can't...",
-          "credit": "U2",
-          "firstKey": "2001-16",
-          "firstDate": "16/04/2001",
-          "lastKey": "2001-24",
-          "lastDate": "11/06/2001",
-          "weeks": 8,
-          "peak": 31,
-          "peakKey": "2001-16",
-          "peakDate": "16/04/2001"
-        },
-        {
-          "key": "please|u2",
-          "title": "Please",
-          "credit": "U2",
-          "firstKey": "1997-42",
-          "firstDate": "13/10/1997",
-          "lastKey": "1997-43",
-          "lastDate": "20/10/1997",
-          "weeks": 2,
-          "peak": 31,
-          "peakKey": "1997-42",
-          "peakDate": "13/10/1997"
-        },
-        {
-          "key": "elevation|u2",
-          "title": "Elevation",
-          "credit": "U2",
-          "firstKey": "2001-29",
-          "firstDate": "16/07/2001",
-          "lastKey": "2001-42",
-          "lastDate": "15/10/2001",
-          "weeks": 14,
-          "peak": 34,
-          "peakKey": "2001-29",
-          "peakDate": "16/07/2001"
-        },
-        {
-          "key": "even better than the real thing|u2",
-          "title": "Even Better Than The Real Thing",
-          "credit": "U2",
-          "firstKey": "1992-38",
-          "firstDate": "20/09/1992",
-          "lastKey": "1992-43",
-          "lastDate": "25/10/1992",
-          "weeks": 6,
-          "peak": 34,
-          "peakKey": "1992-39",
-          "peakDate": "27/09/1992"
-        },
-        {
-          "key": "desire|u2",
-          "title": "Desire",
-          "credit": "U2",
-          "firstKey": "1988-42",
-          "firstDate": "16/10/1988",
-          "lastKey": "1988-49",
-          "lastDate": "04/12/1988",
-          "weeks": 8,
-          "peak": 37,
-          "peakKey": "1988-42",
-          "peakDate": "16/10/1988"
-        },
-        {
-          "key": "i still haven t found what i m looking for|u2",
-          "title": "I Still Haven't Found What I'm Looking For",
-          "credit": "U2",
-          "firstKey": "1987-41",
-          "firstDate": "11/10/1987",
-          "lastKey": "1987-46",
-          "lastDate": "15/11/1987",
-          "weeks": 6,
-          "peak": 37,
-          "peakKey": "1987-44",
-          "peakDate": "01/11/1987"
-        },
-        {
-          "key": "staring at the sun|u2",
-          "title": "Staring At The Sun",
-          "credit": "U2",
-          "firstKey": "1997-20",
-          "firstDate": "12/05/1997",
-          "lastKey": "1997-20",
-          "lastDate": "12/05/1997",
-          "weeks": 1,
-          "peak": 49,
-          "peakKey": "1997-20",
-          "peakDate": "12/05/1997"
-        },
-        {
-          "key": "walk on|u2",
-          "title": "Walk On",
-          "credit": "U2",
-          "firstKey": "2001-47",
-          "firstDate": "19/11/2001",
-          "lastKey": "2001-48",
-          "lastDate": "26/11/2001",
-          "weeks": 2,
-          "peak": 81,
-          "peakKey": "2001-47",
-          "peakDate": "19/11/2001"
-        }
-      ],
-      "trackCount": 18,
-      "totalWeeks": 178,
-      "bestPeak": 6,
-      "firstYear": 1987,
-      "lastYear": 2002,
-      "firstKey": "1987-20",
-      "firstDate": "17/05/1987",
-      "lastKey": "2002-52",
-      "lastDate": "23/12/2002"
     },
     {
       "id": "enrique iglesias",
@@ -20953,7 +20966,7 @@
           "firstDate": "12/01/2004",
           "lastKey": "2004-24",
           "lastDate": "07/06/2004",
-          "weeks": 20,
+          "weeks": 21,
           "peak": 13,
           "peakKey": "2004-06",
           "peakDate": "02/02/2004"
@@ -20979,7 +20992,7 @@
           "firstDate": "21/06/2004",
           "lastKey": "2004-45",
           "lastDate": "01/11/2004",
-          "weeks": 19,
+          "weeks": 20,
           "peak": 19,
           "peakKey": "2004-26",
           "peakDate": "21/06/2004"
@@ -21077,7 +21090,7 @@
         }
       ],
       "trackCount": 16,
-      "totalWeeks": 312,
+      "totalWeeks": 314,
       "bestPeak": 1,
       "firstYear": 1991,
       "lastYear": 2022,
@@ -23079,7 +23092,7 @@
           "firstDate": "23/02/2004",
           "lastKey": "2004-25",
           "lastDate": "14/06/2004",
-          "weeks": 17,
+          "weeks": 16,
           "peak": 18,
           "peakKey": "2004-09",
           "peakDate": "23/02/2004"
@@ -23268,7 +23281,7 @@
         }
       ],
       "trackCount": 15,
-      "totalWeeks": 183,
+      "totalWeeks": 182,
       "bestPeak": 18,
       "firstYear": 1999,
       "lastYear": 2022,
@@ -26361,7 +26374,7 @@
           "firstDate": "08/11/2004",
           "lastKey": "2004-48",
           "lastDate": "22/11/2004",
-          "weeks": 2,
+          "weeks": 3,
           "peak": 62,
           "peakKey": "2004-46",
           "peakDate": "08/11/2004"
@@ -26446,7 +26459,7 @@
         }
       ],
       "trackCount": 14,
-      "totalWeeks": 60,
+      "totalWeeks": 61,
       "bestPeak": 17,
       "firstYear": 1994,
       "lastYear": 2010,
@@ -27229,7 +27242,7 @@
           "firstDate": "06/10/2003",
           "lastKey": "2004-11",
           "lastDate": "08/03/2004",
-          "weeks": 20,
+          "weeks": 21,
           "peak": 8,
           "peakKey": "2003-45",
           "peakDate": "03/11/2003"
@@ -27366,7 +27379,7 @@
         }
       ],
       "trackCount": 13,
-      "totalWeeks": 235,
+      "totalWeeks": 236,
       "bestPeak": 1,
       "firstYear": 2002,
       "lastYear": 2024,
@@ -37484,6 +37497,151 @@
       "lastDate": "23/01/1995"
     },
     {
+      "id": "rohff",
+      "name": "Rohff",
+      "tracks": [
+        {
+          "key": "qui est l exemple|rohff",
+          "title": "Qui est l'exemple ?",
+          "credit": "Rohff",
+          "firstKey": "2002-05",
+          "firstDate": "28/01/2002",
+          "lastKey": "2002-38",
+          "lastDate": "16/09/2002",
+          "weeks": 34,
+          "peak": 1,
+          "peakKey": "2002-10",
+          "peakDate": "04/03/2002"
+        },
+        {
+          "key": "la puissance|rohff",
+          "title": "La puissance",
+          "credit": "Rohff",
+          "firstKey": "2005-50",
+          "firstDate": "12/12/2005",
+          "lastKey": "2006-17",
+          "lastDate": "24/04/2006",
+          "weeks": 20,
+          "peak": 14,
+          "peakKey": "2006-02",
+          "peakDate": "09/01/2006"
+        },
+        {
+          "key": "5 9 1|rohff",
+          "title": "5.9.1",
+          "credit": "Rohff feat. Assia",
+          "firstKey": "2002-29",
+          "firstDate": "15/07/2002",
+          "lastKey": "2002-46",
+          "lastDate": "11/11/2002",
+          "weeks": 18,
+          "peak": 15,
+          "peakKey": "2002-33",
+          "peakDate": "12/08/2002"
+        },
+        {
+          "key": "j accelere|rohff",
+          "title": "J'accelere",
+          "credit": "Rohff",
+          "firstKey": "2013-26",
+          "firstDate": "24/06/2013",
+          "lastKey": "2013-26",
+          "lastDate": "24/06/2013",
+          "weeks": 1,
+          "peak": 19,
+          "peakKey": "2013-26",
+          "peakDate": "24/06/2013"
+        },
+        {
+          "key": "la resurrection|rohff",
+          "title": "La résurrection",
+          "credit": "Rohff",
+          "firstKey": "2006-48",
+          "firstDate": "27/11/2006",
+          "lastKey": "2008-02",
+          "lastDate": "07/01/2008",
+          "weeks": 23,
+          "peak": 37,
+          "peakKey": "2006-49",
+          "peakDate": "04/12/2006"
+        },
+        {
+          "key": "tdsi|rohff",
+          "title": "TDSI",
+          "credit": "Rohff",
+          "firstKey": "2001-47",
+          "firstDate": "19/11/2001",
+          "lastKey": "2002-09",
+          "lastDate": "25/02/2002",
+          "weeks": 15,
+          "peak": 38,
+          "peakKey": "2001-48",
+          "peakDate": "26/11/2001"
+        },
+        {
+          "key": "legend|rohff",
+          "title": "Legend",
+          "credit": "Rohff x JUL",
+          "firstKey": "2021-49",
+          "firstDate": "06/12/2021",
+          "lastKey": "2021-50",
+          "lastDate": "13/12/2021",
+          "weeks": 2,
+          "peak": 51,
+          "peakKey": "2021-49",
+          "peakDate": "06/12/2021"
+        },
+        {
+          "key": "starfuckeuz|rohff",
+          "title": "Starfuckeuz'",
+          "credit": "Rohff",
+          "firstKey": "2006-23",
+          "firstDate": "05/06/2006",
+          "lastKey": "2006-35",
+          "lastDate": "28/08/2006",
+          "weeks": 11,
+          "peak": 55,
+          "peakKey": "2006-24",
+          "peakDate": "12/06/2006"
+        },
+        {
+          "key": "94|rohff",
+          "title": "94",
+          "credit": "Rohff",
+          "firstKey": "2004-17",
+          "firstDate": "19/04/2004",
+          "lastKey": "2004-20",
+          "lastDate": "10/05/2004",
+          "weeks": 4,
+          "peak": 68,
+          "peakKey": "2004-17",
+          "peakDate": "19/04/2004"
+        },
+        {
+          "key": "r o h f f|rohff",
+          "title": "R.O.H.F.F.",
+          "credit": "Rohff",
+          "firstKey": "2001-29",
+          "firstDate": "16/07/2001",
+          "lastKey": "2001-30",
+          "lastDate": "23/07/2001",
+          "weeks": 2,
+          "peak": 72,
+          "peakKey": "2001-29",
+          "peakDate": "16/07/2001"
+        }
+      ],
+      "trackCount": 10,
+      "totalWeeks": 130,
+      "bestPeak": 1,
+      "firstYear": 2001,
+      "lastYear": 2021,
+      "firstKey": "2001-29",
+      "firstDate": "16/07/2001",
+      "lastKey": "2021-50",
+      "lastDate": "13/12/2021"
+    },
+    {
       "id": "bob sinclar",
       "name": "Bob Sinclar",
       "tracks": [
@@ -39053,6 +39211,138 @@
       "lastDate": "28/05/2007"
     },
     {
+      "id": "nadiya",
+      "name": "Nâdiya",
+      "tracks": [
+        {
+          "key": "parle moi|nadiya",
+          "title": "Parle-moi",
+          "credit": "Nâdiya",
+          "firstKey": "2004-12",
+          "firstDate": "15/03/2004",
+          "lastKey": "2004-35",
+          "lastDate": "23/08/2004",
+          "weeks": 24,
+          "peak": 2,
+          "peakKey": "2004-13",
+          "peakDate": "22/03/2004"
+        },
+        {
+          "key": "roc|nadiya",
+          "title": "Roc",
+          "credit": "Nâdiya",
+          "firstKey": "2006-25",
+          "firstDate": "19/06/2006",
+          "lastKey": "2006-48",
+          "lastDate": "27/11/2006",
+          "weeks": 24,
+          "peak": 2,
+          "peakKey": "2006-25",
+          "peakDate": "19/06/2006"
+        },
+        {
+          "key": "tous ces mots|nadiya",
+          "title": "Tous ces mots",
+          "credit": "Nâdiya feat. Smartzee",
+          "firstKey": "2006-09",
+          "firstDate": "27/02/2006",
+          "lastKey": "2006-31",
+          "lastDate": "31/07/2006",
+          "weeks": 23,
+          "peak": 2,
+          "peakKey": "2006-09",
+          "peakDate": "27/02/2006"
+        },
+        {
+          "key": "amies ennemies|nadiya",
+          "title": "Amies-ennemies",
+          "credit": "Nâdiya",
+          "firstKey": "2006-44",
+          "firstDate": "30/10/2006",
+          "lastKey": "2007-20",
+          "lastDate": "14/05/2007",
+          "weeks": 29,
+          "peak": 4,
+          "peakKey": "2006-44",
+          "peakDate": "30/10/2006"
+        },
+        {
+          "key": "et c est parti|nadiya",
+          "title": "Et c'est parti...",
+          "credit": "Nâdiya feat. Smartzee",
+          "firstKey": "2004-26",
+          "firstDate": "21/06/2004",
+          "lastKey": "2004-47",
+          "lastDate": "15/11/2004",
+          "weeks": 22,
+          "peak": 5,
+          "peakKey": "2004-29",
+          "peakDate": "12/07/2004"
+        },
+        {
+          "key": "si loin de vous hey oh p|nadiya",
+          "title": "Si loin de vous (hey oh...p...",
+          "credit": "Nâdiya",
+          "firstKey": "2004-47",
+          "firstDate": "15/11/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 21,
+          "peak": 6,
+          "peakKey": "2004-47",
+          "peakDate": "15/11/2004"
+        },
+        {
+          "key": "vivre ou survivre|nadiya",
+          "title": "Vivre ou survivre",
+          "credit": "Nâdiya",
+          "firstKey": "2007-48",
+          "firstDate": "26/11/2007",
+          "lastKey": "2009-06",
+          "lastDate": "02/02/2009",
+          "weeks": 18,
+          "peak": 26,
+          "peakKey": "2007-48",
+          "peakDate": "26/11/2007"
+        },
+        {
+          "key": "chaque fois|nadiya",
+          "title": "Chaque fois",
+          "credit": "Nâdiya",
+          "firstKey": "2001-34",
+          "firstDate": "20/08/2001",
+          "lastKey": "2001-52",
+          "lastDate": "24/12/2001",
+          "weeks": 18,
+          "peak": 27,
+          "peakKey": "2001-40",
+          "peakDate": "01/10/2001"
+        },
+        {
+          "key": "j ai confiance en toi|nadiya",
+          "title": "J'ai confiance en toi",
+          "credit": "Nâdiya",
+          "firstKey": "2001-08",
+          "firstDate": "19/02/2001",
+          "lastKey": "2001-20",
+          "lastDate": "14/05/2001",
+          "weeks": 13,
+          "peak": 38,
+          "peakKey": "2001-10",
+          "peakDate": "05/03/2001"
+        }
+      ],
+      "trackCount": 9,
+      "totalWeeks": 192,
+      "bestPeak": 2,
+      "firstYear": 2001,
+      "lastYear": 2009,
+      "firstKey": "2001-08",
+      "firstDate": "19/02/2001",
+      "lastKey": "2009-06",
+      "lastDate": "02/02/2009"
+    },
+    {
       "id": "tina arena",
       "name": "Tina Arena",
       "tracks": [
@@ -39183,138 +39473,6 @@
       "firstDate": "08/02/1999",
       "lastKey": "2011-11",
       "lastDate": "14/03/2011"
-    },
-    {
-      "id": "nadiya",
-      "name": "Nâdiya",
-      "tracks": [
-        {
-          "key": "parle moi|nadiya",
-          "title": "Parle-moi",
-          "credit": "Nâdiya",
-          "firstKey": "2004-12",
-          "firstDate": "15/03/2004",
-          "lastKey": "2004-35",
-          "lastDate": "23/08/2004",
-          "weeks": 24,
-          "peak": 2,
-          "peakKey": "2004-13",
-          "peakDate": "22/03/2004"
-        },
-        {
-          "key": "roc|nadiya",
-          "title": "Roc",
-          "credit": "Nâdiya",
-          "firstKey": "2006-25",
-          "firstDate": "19/06/2006",
-          "lastKey": "2006-48",
-          "lastDate": "27/11/2006",
-          "weeks": 24,
-          "peak": 2,
-          "peakKey": "2006-25",
-          "peakDate": "19/06/2006"
-        },
-        {
-          "key": "tous ces mots|nadiya",
-          "title": "Tous ces mots",
-          "credit": "Nâdiya feat. Smartzee",
-          "firstKey": "2006-09",
-          "firstDate": "27/02/2006",
-          "lastKey": "2006-31",
-          "lastDate": "31/07/2006",
-          "weeks": 23,
-          "peak": 2,
-          "peakKey": "2006-09",
-          "peakDate": "27/02/2006"
-        },
-        {
-          "key": "amies ennemies|nadiya",
-          "title": "Amies-ennemies",
-          "credit": "Nâdiya",
-          "firstKey": "2006-44",
-          "firstDate": "30/10/2006",
-          "lastKey": "2007-20",
-          "lastDate": "14/05/2007",
-          "weeks": 29,
-          "peak": 4,
-          "peakKey": "2006-44",
-          "peakDate": "30/10/2006"
-        },
-        {
-          "key": "et c est parti|nadiya",
-          "title": "Et c'est parti...",
-          "credit": "Nâdiya feat. Smartzee",
-          "firstKey": "2004-26",
-          "firstDate": "21/06/2004",
-          "lastKey": "2004-47",
-          "lastDate": "15/11/2004",
-          "weeks": 20,
-          "peak": 5,
-          "peakKey": "2004-29",
-          "peakDate": "12/07/2004"
-        },
-        {
-          "key": "si loin de vous hey oh p|nadiya",
-          "title": "Si loin de vous (hey oh...p...",
-          "credit": "Nâdiya",
-          "firstKey": "2004-47",
-          "firstDate": "15/11/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 21,
-          "peak": 6,
-          "peakKey": "2004-47",
-          "peakDate": "15/11/2004"
-        },
-        {
-          "key": "vivre ou survivre|nadiya",
-          "title": "Vivre ou survivre",
-          "credit": "Nâdiya",
-          "firstKey": "2007-48",
-          "firstDate": "26/11/2007",
-          "lastKey": "2009-06",
-          "lastDate": "02/02/2009",
-          "weeks": 18,
-          "peak": 26,
-          "peakKey": "2007-48",
-          "peakDate": "26/11/2007"
-        },
-        {
-          "key": "chaque fois|nadiya",
-          "title": "Chaque fois",
-          "credit": "Nâdiya",
-          "firstKey": "2001-34",
-          "firstDate": "20/08/2001",
-          "lastKey": "2001-52",
-          "lastDate": "24/12/2001",
-          "weeks": 18,
-          "peak": 27,
-          "peakKey": "2001-40",
-          "peakDate": "01/10/2001"
-        },
-        {
-          "key": "j ai confiance en toi|nadiya",
-          "title": "J'ai confiance en toi",
-          "credit": "Nâdiya",
-          "firstKey": "2001-08",
-          "firstDate": "19/02/2001",
-          "lastKey": "2001-20",
-          "lastDate": "14/05/2001",
-          "weeks": 13,
-          "peak": 38,
-          "peakKey": "2001-10",
-          "peakDate": "05/03/2001"
-        }
-      ],
-      "trackCount": 9,
-      "totalWeeks": 190,
-      "bestPeak": 2,
-      "firstYear": 2001,
-      "lastYear": 2009,
-      "firstKey": "2001-08",
-      "firstDate": "19/02/2001",
-      "lastKey": "2009-06",
-      "lastDate": "02/02/2009"
     },
     {
       "id": "bruno mars",
@@ -39908,7 +40066,7 @@
           "firstDate": "23/08/2004",
           "lastKey": "2004-46",
           "lastDate": "08/11/2004",
-          "weeks": 11,
+          "weeks": 12,
           "peak": 27,
           "peakKey": "2004-37",
           "peakDate": "06/09/2004"
@@ -39967,7 +40125,7 @@
         }
       ],
       "trackCount": 9,
-      "totalWeeks": 165,
+      "totalWeeks": 166,
       "bestPeak": 2,
       "firstYear": 2002,
       "lastYear": 2024,
@@ -41559,138 +41717,6 @@
       "firstDate": "09/01/2017",
       "lastKey": "2025-46",
       "lastDate": "10/11/2025"
-    },
-    {
-      "id": "rohff",
-      "name": "Rohff",
-      "tracks": [
-        {
-          "key": "qui est l exemple|rohff",
-          "title": "Qui est l'exemple ?",
-          "credit": "Rohff",
-          "firstKey": "2002-05",
-          "firstDate": "28/01/2002",
-          "lastKey": "2002-38",
-          "lastDate": "16/09/2002",
-          "weeks": 34,
-          "peak": 1,
-          "peakKey": "2002-10",
-          "peakDate": "04/03/2002"
-        },
-        {
-          "key": "la puissance|rohff",
-          "title": "La puissance",
-          "credit": "Rohff",
-          "firstKey": "2005-50",
-          "firstDate": "12/12/2005",
-          "lastKey": "2006-17",
-          "lastDate": "24/04/2006",
-          "weeks": 20,
-          "peak": 14,
-          "peakKey": "2006-02",
-          "peakDate": "09/01/2006"
-        },
-        {
-          "key": "5 9 1|rohff",
-          "title": "5.9.1",
-          "credit": "Rohff feat. Assia",
-          "firstKey": "2002-29",
-          "firstDate": "15/07/2002",
-          "lastKey": "2002-46",
-          "lastDate": "11/11/2002",
-          "weeks": 18,
-          "peak": 15,
-          "peakKey": "2002-33",
-          "peakDate": "12/08/2002"
-        },
-        {
-          "key": "j accelere|rohff",
-          "title": "J'accelere",
-          "credit": "Rohff",
-          "firstKey": "2013-26",
-          "firstDate": "24/06/2013",
-          "lastKey": "2013-26",
-          "lastDate": "24/06/2013",
-          "weeks": 1,
-          "peak": 19,
-          "peakKey": "2013-26",
-          "peakDate": "24/06/2013"
-        },
-        {
-          "key": "la resurrection|rohff",
-          "title": "La résurrection",
-          "credit": "Rohff",
-          "firstKey": "2006-48",
-          "firstDate": "27/11/2006",
-          "lastKey": "2008-02",
-          "lastDate": "07/01/2008",
-          "weeks": 23,
-          "peak": 37,
-          "peakKey": "2006-49",
-          "peakDate": "04/12/2006"
-        },
-        {
-          "key": "tdsi|rohff",
-          "title": "TDSI",
-          "credit": "Rohff",
-          "firstKey": "2001-47",
-          "firstDate": "19/11/2001",
-          "lastKey": "2002-09",
-          "lastDate": "25/02/2002",
-          "weeks": 15,
-          "peak": 38,
-          "peakKey": "2001-48",
-          "peakDate": "26/11/2001"
-        },
-        {
-          "key": "legend|rohff",
-          "title": "Legend",
-          "credit": "Rohff x JUL",
-          "firstKey": "2021-49",
-          "firstDate": "06/12/2021",
-          "lastKey": "2021-50",
-          "lastDate": "13/12/2021",
-          "weeks": 2,
-          "peak": 51,
-          "peakKey": "2021-49",
-          "peakDate": "06/12/2021"
-        },
-        {
-          "key": "starfuckeuz|rohff",
-          "title": "Starfuckeuz'",
-          "credit": "Rohff",
-          "firstKey": "2006-23",
-          "firstDate": "05/06/2006",
-          "lastKey": "2006-35",
-          "lastDate": "28/08/2006",
-          "weeks": 11,
-          "peak": 55,
-          "peakKey": "2006-24",
-          "peakDate": "12/06/2006"
-        },
-        {
-          "key": "r o h f f|rohff",
-          "title": "R.O.H.F.F.",
-          "credit": "Rohff",
-          "firstKey": "2001-29",
-          "firstDate": "16/07/2001",
-          "lastKey": "2001-30",
-          "lastDate": "23/07/2001",
-          "weeks": 2,
-          "peak": 72,
-          "peakKey": "2001-29",
-          "peakDate": "16/07/2001"
-        }
-      ],
-      "trackCount": 9,
-      "totalWeeks": 126,
-      "bestPeak": 1,
-      "firstYear": 2001,
-      "lastYear": 2021,
-      "firstKey": "2001-29",
-      "firstDate": "16/07/2001",
-      "lastKey": "2021-50",
-      "lastDate": "13/12/2021"
     },
     {
       "id": "le 6 9",
@@ -47163,6 +47189,125 @@
       "lastDate": "29/10/2012"
     },
     {
+      "id": "m",
+      "name": "M",
+      "tracks": [
+        {
+          "key": "pump up the volume|m",
+          "title": "Pump Up The Volume",
+          "credit": "M/A/R/R/S",
+          "firstKey": "1987-52",
+          "firstDate": "27/12/1987",
+          "lastKey": "1988-18",
+          "lastDate": "01/05/1988",
+          "weeks": 19,
+          "peak": 9,
+          "peakKey": "1988-07",
+          "peakDate": "14/02/1988"
+        },
+        {
+          "key": "qui de nous deux|m",
+          "title": "Qui de nous deux",
+          "credit": "M",
+          "firstKey": "2004-02",
+          "firstDate": "05/01/2004",
+          "lastKey": "2004-18",
+          "lastDate": "26/04/2004",
+          "weeks": 15,
+          "peak": 40,
+          "peakKey": "2004-03",
+          "peakDate": "12/01/2004"
+        },
+        {
+          "key": "onde sensuelle je dis aime|m",
+          "title": "Onde sensuelle / Je dis aime",
+          "credit": "M",
+          "firstKey": "2000-11",
+          "firstDate": "13/03/2000",
+          "lastKey": "2000-24",
+          "lastDate": "12/06/2000",
+          "weeks": 14,
+          "peak": 46,
+          "peakKey": "2000-20",
+          "peakDate": "15/05/2000"
+        },
+        {
+          "key": "dans ta radio|m",
+          "title": "Dans ta radio",
+          "credit": "-M-",
+          "firstKey": "2022-26",
+          "firstDate": "27/06/2022",
+          "lastKey": "2022-34",
+          "lastDate": "22/08/2022",
+          "weeks": 8,
+          "peak": 47,
+          "peakKey": "2022-28",
+          "peakDate": "11/07/2022"
+        },
+        {
+          "key": "bal de bamako|m",
+          "title": "Bal de Bamako",
+          "credit": "M, Toumani & Sidiki Diabaté feat. Fatoumata Diawara & Oxmo Puccino",
+          "firstKey": "2017-18",
+          "firstDate": "01/05/2017",
+          "lastKey": "2017-25",
+          "lastDate": "19/06/2017",
+          "weeks": 5,
+          "peak": 50,
+          "peakKey": "2017-19",
+          "peakDate": "08/05/2017"
+        },
+        {
+          "key": "ma melodie|m",
+          "title": "Ma mélodie",
+          "credit": "M",
+          "firstKey": "2004-47",
+          "firstDate": "15/11/2004",
+          "lastKey": "2004-52",
+          "lastDate": "20/12/2004",
+          "weeks": 6,
+          "peak": 67,
+          "peakKey": "2004-48",
+          "peakDate": "22/11/2004"
+        },
+        {
+          "key": "a tes souhaits|m",
+          "title": "À tes souhaits",
+          "credit": "M",
+          "firstKey": "2004-34",
+          "firstDate": "16/08/2004",
+          "lastKey": "2004-41",
+          "lastDate": "04/10/2004",
+          "weeks": 6,
+          "peak": 78,
+          "peakKey": "2004-35",
+          "peakDate": "23/08/2004"
+        },
+        {
+          "key": "machistador|m",
+          "title": "Machistador",
+          "credit": "M",
+          "firstKey": "1998-37",
+          "firstDate": "07/09/1998",
+          "lastKey": "1998-49",
+          "lastDate": "30/11/1998",
+          "weeks": 12,
+          "peak": 83,
+          "peakKey": "1998-46",
+          "peakDate": "09/11/1998"
+        }
+      ],
+      "trackCount": 8,
+      "totalWeeks": 85,
+      "bestPeak": 9,
+      "firstYear": 1987,
+      "lastYear": 2022,
+      "firstKey": "1987-52",
+      "firstDate": "27/12/1987",
+      "lastKey": "2022-34",
+      "lastDate": "22/08/2022"
+    },
+    {
       "id": "boyzone",
       "name": "Boyzone",
       "tracks": [
@@ -50179,7 +50324,7 @@
           "firstDate": "22/12/2003",
           "lastKey": "2004-17",
           "lastDate": "19/04/2004",
-          "weeks": 18,
+          "weeks": 17,
           "peak": 1,
           "peakKey": "2004-01",
           "peakDate": "29/12/2003"
@@ -50238,7 +50383,7 @@
         }
       ],
       "trackCount": 7,
-      "totalWeeks": 133,
+      "totalWeeks": 132,
       "bestPeak": 1,
       "firstYear": 2003,
       "lastYear": 2005,
@@ -50506,14 +50651,14 @@
           "key": "bright lights|billy crawford",
           "title": "Bright Lights",
           "credit": "Billy Crawford",
-          "firstKey": "2004-39",
-          "firstDate": "20/09/2004",
+          "firstKey": "2004-38",
+          "firstDate": "13/09/2004",
           "lastKey": "2005-53",
           "lastDate": "02/01/2006",
-          "weeks": 21,
+          "weeks": 22,
           "peak": 12,
-          "peakKey": "2004-39",
-          "peakDate": "20/09/2004"
+          "peakKey": "2004-38",
+          "peakDate": "13/09/2004"
         },
         {
           "key": "when you think about me|billy crawford",
@@ -50556,7 +50701,7 @@
         }
       ],
       "trackCount": 7,
-      "totalWeeks": 126,
+      "totalWeeks": 127,
       "bestPeak": 5,
       "firstYear": 1998,
       "lastYear": 2005,
@@ -52050,6 +52195,112 @@
       "lastDate": "10/05/1999"
     },
     {
+      "id": "l5",
+      "name": "L5",
+      "tracks": [
+        {
+          "key": "toutes les femmes de ta vie|l5",
+          "title": "Toutes les femmes de ta vie",
+          "credit": "L5",
+          "firstKey": "2001-48",
+          "firstDate": "26/11/2001",
+          "lastKey": "2004-04",
+          "lastDate": "19/01/2004",
+          "weeks": 24,
+          "peak": 1,
+          "peakKey": "2001-48",
+          "peakDate": "26/11/2001"
+        },
+        {
+          "key": "une etincelle|l5",
+          "title": "Une étincelle",
+          "credit": "L5",
+          "firstKey": "2002-05",
+          "firstDate": "28/01/2002",
+          "lastKey": "2002-24",
+          "lastDate": "10/06/2002",
+          "weeks": 16,
+          "peak": 7,
+          "peakKey": "2002-06",
+          "peakDate": "04/02/2002"
+        },
+        {
+          "key": "maniac|l5",
+          "title": "Maniac",
+          "credit": "L5",
+          "firstKey": "2003-17",
+          "firstDate": "21/04/2003",
+          "lastKey": "2003-30",
+          "lastDate": "21/07/2003",
+          "weeks": 14,
+          "peak": 11,
+          "peakKey": "2003-18",
+          "peakDate": "28/04/2003"
+        },
+        {
+          "key": "aime|l5",
+          "title": "Aime",
+          "credit": "L5",
+          "firstKey": "2002-42",
+          "firstDate": "14/10/2002",
+          "lastKey": "2003-07",
+          "lastDate": "10/02/2003",
+          "weeks": 18,
+          "peak": 13,
+          "peakKey": "2002-42",
+          "peakDate": "14/10/2002"
+        },
+        {
+          "key": "retiens moi|l5",
+          "title": "Retiens-moi",
+          "credit": "L5",
+          "firstKey": "2002-50",
+          "firstDate": "09/12/2002",
+          "lastKey": "2003-12",
+          "lastDate": "17/03/2003",
+          "weeks": 15,
+          "peak": 20,
+          "peakKey": "2003-03",
+          "peakDate": "13/01/2003"
+        },
+        {
+          "key": "question de survie|l5",
+          "title": "Question de survie (de l'air!)",
+          "credit": "L5",
+          "firstKey": "2002-17",
+          "firstDate": "22/04/2002",
+          "lastKey": "2002-27",
+          "lastDate": "01/07/2002",
+          "weeks": 11,
+          "peak": 34,
+          "peakKey": "2002-17",
+          "peakDate": "22/04/2002"
+        },
+        {
+          "key": "reste encore|l5",
+          "title": "Reste encore",
+          "credit": "L5",
+          "firstKey": "2003-44",
+          "firstDate": "27/10/2003",
+          "lastKey": "2003-51",
+          "lastDate": "15/12/2003",
+          "weeks": 8,
+          "peak": 56,
+          "peakKey": "2003-45",
+          "peakDate": "03/11/2003"
+        }
+      ],
+      "trackCount": 7,
+      "totalWeeks": 106,
+      "bestPeak": 1,
+      "firstYear": 2001,
+      "lastYear": 2004,
+      "firstKey": "2001-48",
+      "firstDate": "26/11/2001",
+      "lastKey": "2004-04",
+      "lastDate": "19/01/2004"
+    },
+    {
       "id": "sniper",
       "name": "Sniper",
       "tracks": [
@@ -52368,112 +52619,6 @@
       "lastDate": "30/01/2012"
     },
     {
-      "id": "l5",
-      "name": "L5",
-      "tracks": [
-        {
-          "key": "toutes les femmes de ta vie|l5",
-          "title": "Toutes les femmes de ta vie",
-          "credit": "L5",
-          "firstKey": "2001-48",
-          "firstDate": "26/11/2001",
-          "lastKey": "2002-16",
-          "lastDate": "15/04/2002",
-          "weeks": 21,
-          "peak": 1,
-          "peakKey": "2001-48",
-          "peakDate": "26/11/2001"
-        },
-        {
-          "key": "une etincelle|l5",
-          "title": "Une étincelle",
-          "credit": "L5",
-          "firstKey": "2002-05",
-          "firstDate": "28/01/2002",
-          "lastKey": "2002-24",
-          "lastDate": "10/06/2002",
-          "weeks": 16,
-          "peak": 7,
-          "peakKey": "2002-06",
-          "peakDate": "04/02/2002"
-        },
-        {
-          "key": "maniac|l5",
-          "title": "Maniac",
-          "credit": "L5",
-          "firstKey": "2003-17",
-          "firstDate": "21/04/2003",
-          "lastKey": "2003-30",
-          "lastDate": "21/07/2003",
-          "weeks": 14,
-          "peak": 11,
-          "peakKey": "2003-18",
-          "peakDate": "28/04/2003"
-        },
-        {
-          "key": "aime|l5",
-          "title": "Aime",
-          "credit": "L5",
-          "firstKey": "2002-42",
-          "firstDate": "14/10/2002",
-          "lastKey": "2003-07",
-          "lastDate": "10/02/2003",
-          "weeks": 18,
-          "peak": 13,
-          "peakKey": "2002-42",
-          "peakDate": "14/10/2002"
-        },
-        {
-          "key": "retiens moi|l5",
-          "title": "Retiens-moi",
-          "credit": "L5",
-          "firstKey": "2002-50",
-          "firstDate": "09/12/2002",
-          "lastKey": "2003-12",
-          "lastDate": "17/03/2003",
-          "weeks": 15,
-          "peak": 20,
-          "peakKey": "2003-03",
-          "peakDate": "13/01/2003"
-        },
-        {
-          "key": "question de survie|l5",
-          "title": "Question de survie (de l'air!)",
-          "credit": "L5",
-          "firstKey": "2002-17",
-          "firstDate": "22/04/2002",
-          "lastKey": "2002-27",
-          "lastDate": "01/07/2002",
-          "weeks": 11,
-          "peak": 34,
-          "peakKey": "2002-17",
-          "peakDate": "22/04/2002"
-        },
-        {
-          "key": "reste encore|l5",
-          "title": "Reste encore",
-          "credit": "L5",
-          "firstKey": "2003-44",
-          "firstDate": "27/10/2003",
-          "lastKey": "2003-51",
-          "lastDate": "15/12/2003",
-          "weeks": 8,
-          "peak": 56,
-          "peakKey": "2003-45",
-          "peakDate": "03/11/2003"
-        }
-      ],
-      "trackCount": 7,
-      "totalWeeks": 103,
-      "bestPeak": 1,
-      "firstYear": 2001,
-      "lastYear": 2003,
-      "firstKey": "2001-48",
-      "firstDate": "26/11/2001",
-      "lastKey": "2003-51",
-      "lastDate": "15/12/2003"
-    },
-    {
       "id": "anggun",
       "name": "Anggun",
       "tracks": [
@@ -52591,7 +52736,7 @@
           "firstDate": "09/02/2004",
           "lastKey": "2004-36",
           "lastDate": "30/08/2004",
-          "weeks": 28,
+          "weeks": 29,
           "peak": 3,
           "peakKey": "2004-11",
           "peakDate": "08/03/2004"
@@ -52676,7 +52821,7 @@
         }
       ],
       "trackCount": 7,
-      "totalWeeks": 101,
+      "totalWeeks": 102,
       "bestPeak": 3,
       "firstYear": 2003,
       "lastYear": 2006,
@@ -55072,6 +55217,99 @@
       "lastDate": "28/06/2021"
     },
     {
+      "id": "diam s",
+      "name": "Diam's",
+      "tracks": [
+        {
+          "key": "la boulette generation nan|diam s",
+          "title": "La boulette (Génération nan...",
+          "credit": "Diam's",
+          "firstKey": "2006-08",
+          "firstDate": "20/02/2006",
+          "lastKey": "2006-36",
+          "lastDate": "04/09/2006",
+          "weeks": 29,
+          "peak": 1,
+          "peakKey": "2006-15",
+          "peakDate": "10/04/2006"
+        },
+        {
+          "key": "dj|diam s",
+          "title": "DJ",
+          "credit": "Diam's",
+          "firstKey": "2003-23",
+          "firstDate": "02/06/2003",
+          "lastKey": "2004-10",
+          "lastDate": "01/03/2004",
+          "weeks": 40,
+          "peak": 2,
+          "peakKey": "2003-34",
+          "peakDate": "18/08/2003"
+        },
+        {
+          "key": "jeune demoiselle|diam s",
+          "title": "Jeune demoiselle",
+          "credit": "Diam's",
+          "firstKey": "2006-21",
+          "firstDate": "22/05/2006",
+          "lastKey": "2008-17",
+          "lastDate": "21/04/2008",
+          "weeks": 29,
+          "peak": 4,
+          "peakKey": "2006-22",
+          "peakDate": "29/05/2006"
+        },
+        {
+          "key": "ma france a moi|diam s",
+          "title": "Ma France à moi",
+          "credit": "Diam's",
+          "firstKey": "2007-09",
+          "firstDate": "26/02/2007",
+          "lastKey": "2007-33",
+          "lastDate": "13/08/2007",
+          "weeks": 25,
+          "peak": 11,
+          "peakKey": "2007-09",
+          "peakDate": "26/02/2007"
+        },
+        {
+          "key": "evasion|diam s",
+          "title": "Evasion",
+          "credit": "Diam's feat. China",
+          "firstKey": "2004-11",
+          "firstDate": "08/03/2004",
+          "lastKey": "2004-25",
+          "lastDate": "14/06/2004",
+          "weeks": 15,
+          "peak": 29,
+          "peakKey": "2004-12",
+          "peakDate": "15/03/2004"
+        },
+        {
+          "key": "incassables|diam s",
+          "title": "Incassables",
+          "credit": "Diam's",
+          "firstKey": "2003-49",
+          "firstDate": "01/12/2003",
+          "lastKey": "2004-11",
+          "lastDate": "08/03/2004",
+          "weeks": 15,
+          "peak": 31,
+          "peakKey": "2004-01",
+          "peakDate": "29/12/2003"
+        }
+      ],
+      "trackCount": 6,
+      "totalWeeks": 153,
+      "bestPeak": 1,
+      "firstYear": 2003,
+      "lastYear": 2008,
+      "firstKey": "2003-23",
+      "firstDate": "02/06/2003",
+      "lastKey": "2008-17",
+      "lastDate": "21/04/2008"
+    },
+    {
       "id": "najoua belyzel",
       "name": "Najoua Belyzel",
       "tracks": [
@@ -55258,99 +55496,6 @@
       "lastDate": "01/12/2025"
     },
     {
-      "id": "diam s",
-      "name": "Diam's",
-      "tracks": [
-        {
-          "key": "la boulette generation nan|diam s",
-          "title": "La boulette (Génération nan...",
-          "credit": "Diam's",
-          "firstKey": "2006-08",
-          "firstDate": "20/02/2006",
-          "lastKey": "2006-36",
-          "lastDate": "04/09/2006",
-          "weeks": 29,
-          "peak": 1,
-          "peakKey": "2006-15",
-          "peakDate": "10/04/2006"
-        },
-        {
-          "key": "dj|diam s",
-          "title": "DJ",
-          "credit": "Diam's",
-          "firstKey": "2003-23",
-          "firstDate": "02/06/2003",
-          "lastKey": "2003-52",
-          "lastDate": "22/12/2003",
-          "weeks": 30,
-          "peak": 2,
-          "peakKey": "2003-34",
-          "peakDate": "18/08/2003"
-        },
-        {
-          "key": "jeune demoiselle|diam s",
-          "title": "Jeune demoiselle",
-          "credit": "Diam's",
-          "firstKey": "2006-21",
-          "firstDate": "22/05/2006",
-          "lastKey": "2008-17",
-          "lastDate": "21/04/2008",
-          "weeks": 29,
-          "peak": 4,
-          "peakKey": "2006-22",
-          "peakDate": "29/05/2006"
-        },
-        {
-          "key": "ma france a moi|diam s",
-          "title": "Ma France à moi",
-          "credit": "Diam's",
-          "firstKey": "2007-09",
-          "firstDate": "26/02/2007",
-          "lastKey": "2007-33",
-          "lastDate": "13/08/2007",
-          "weeks": 25,
-          "peak": 11,
-          "peakKey": "2007-09",
-          "peakDate": "26/02/2007"
-        },
-        {
-          "key": "evasion|diam s",
-          "title": "Evasion",
-          "credit": "Diam's feat. China",
-          "firstKey": "2004-11",
-          "firstDate": "08/03/2004",
-          "lastKey": "2004-25",
-          "lastDate": "14/06/2004",
-          "weeks": 15,
-          "peak": 29,
-          "peakKey": "2004-12",
-          "peakDate": "15/03/2004"
-        },
-        {
-          "key": "incassables|diam s",
-          "title": "Incassables",
-          "credit": "Diam's",
-          "firstKey": "2003-49",
-          "firstDate": "01/12/2003",
-          "lastKey": "2004-11",
-          "lastDate": "08/03/2004",
-          "weeks": 15,
-          "peak": 31,
-          "peakKey": "2004-01",
-          "peakDate": "29/12/2003"
-        }
-      ],
-      "trackCount": 6,
-      "totalWeeks": 143,
-      "bestPeak": 1,
-      "firstYear": 2003,
-      "lastYear": 2008,
-      "firstKey": "2003-23",
-      "firstDate": "02/06/2003",
-      "lastKey": "2008-17",
-      "lastDate": "21/04/2008"
-    },
-    {
       "id": "pierre garnier",
       "name": "Pierre Garnier",
       "tracks": [
@@ -55444,6 +55589,99 @@
       "lastDate": "04/05/2026"
     },
     {
+      "id": "alicia keys",
+      "name": "Alicia Keys",
+      "tracks": [
+        {
+          "key": "fallin|alicia keys",
+          "title": "Fallin'",
+          "credit": "Alicia Keys",
+          "firstKey": "2001-40",
+          "firstDate": "01/10/2001",
+          "lastKey": "2002-24",
+          "lastDate": "10/06/2002",
+          "weeks": 37,
+          "peak": 5,
+          "peakKey": "2002-11",
+          "peakDate": "11/03/2002"
+        },
+        {
+          "key": "no one|alicia keys",
+          "title": "No One",
+          "credit": "Alicia Keys",
+          "firstKey": "2007-49",
+          "firstDate": "03/12/2007",
+          "lastKey": "2008-20",
+          "lastDate": "12/05/2008",
+          "weeks": 24,
+          "peak": 5,
+          "peakKey": "2007-50",
+          "peakDate": "10/12/2007"
+        },
+        {
+          "key": "girl on fire|alicia keys",
+          "title": "Girl On Fire",
+          "credit": "Alicia Keys",
+          "firstKey": "2012-43",
+          "firstDate": "22/10/2012",
+          "lastKey": "2013-07",
+          "lastDate": "11/02/2013",
+          "weeks": 17,
+          "peak": 5,
+          "peakKey": "2012-46",
+          "peakDate": "12/11/2012"
+        },
+        {
+          "key": "if i ain t got you|alicia keys",
+          "title": "If I Ain't Got You",
+          "credit": "Alicia Keys",
+          "firstKey": "2004-39",
+          "firstDate": "20/09/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 18,
+          "peak": 15,
+          "peakKey": "2004-40",
+          "peakDate": "27/09/2004"
+        },
+        {
+          "key": "you don t know my name|alicia keys",
+          "title": "You Don't Know My Name",
+          "credit": "Alicia Keys",
+          "firstKey": "2004-09",
+          "firstDate": "23/02/2004",
+          "lastKey": "2004-23",
+          "lastDate": "31/05/2004",
+          "weeks": 15,
+          "peak": 43,
+          "peakKey": "2004-10",
+          "peakDate": "01/03/2004"
+        },
+        {
+          "key": "underdog|alicia keys",
+          "title": "Underdog",
+          "credit": "Alicia Keys",
+          "firstKey": "2020-05",
+          "firstDate": "27/01/2020",
+          "lastKey": "2020-18",
+          "lastDate": "27/04/2020",
+          "weeks": 10,
+          "peak": 43,
+          "peakKey": "2020-11",
+          "peakDate": "09/03/2020"
+        }
+      ],
+      "trackCount": 6,
+      "totalWeeks": 121,
+      "bestPeak": 5,
+      "firstYear": 2001,
+      "lastYear": 2020,
+      "firstKey": "2001-40",
+      "firstDate": "01/10/2001",
+      "lastKey": "2020-18",
+      "lastDate": "27/04/2020"
+    },
+    {
       "id": "benassi bros",
       "name": "Benassi Bros.",
       "tracks": [
@@ -55535,99 +55773,6 @@
       "firstDate": "27/10/2003",
       "lastKey": "2006-08",
       "lastDate": "20/02/2006"
-    },
-    {
-      "id": "alicia keys",
-      "name": "Alicia Keys",
-      "tracks": [
-        {
-          "key": "fallin|alicia keys",
-          "title": "Fallin'",
-          "credit": "Alicia Keys",
-          "firstKey": "2001-40",
-          "firstDate": "01/10/2001",
-          "lastKey": "2002-24",
-          "lastDate": "10/06/2002",
-          "weeks": 37,
-          "peak": 5,
-          "peakKey": "2002-11",
-          "peakDate": "11/03/2002"
-        },
-        {
-          "key": "no one|alicia keys",
-          "title": "No One",
-          "credit": "Alicia Keys",
-          "firstKey": "2007-49",
-          "firstDate": "03/12/2007",
-          "lastKey": "2008-20",
-          "lastDate": "12/05/2008",
-          "weeks": 24,
-          "peak": 5,
-          "peakKey": "2007-50",
-          "peakDate": "10/12/2007"
-        },
-        {
-          "key": "girl on fire|alicia keys",
-          "title": "Girl On Fire",
-          "credit": "Alicia Keys",
-          "firstKey": "2012-43",
-          "firstDate": "22/10/2012",
-          "lastKey": "2013-07",
-          "lastDate": "11/02/2013",
-          "weeks": 17,
-          "peak": 5,
-          "peakKey": "2012-46",
-          "peakDate": "12/11/2012"
-        },
-        {
-          "key": "if i ain t got you|alicia keys",
-          "title": "If I Ain't Got You",
-          "credit": "Alicia Keys",
-          "firstKey": "2004-39",
-          "firstDate": "20/09/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 18,
-          "peak": 15,
-          "peakKey": "2004-40",
-          "peakDate": "27/09/2004"
-        },
-        {
-          "key": "you don t know my name|alicia keys",
-          "title": "You Don't Know My Name",
-          "credit": "Alicia Keys",
-          "firstKey": "2004-09",
-          "firstDate": "23/02/2004",
-          "lastKey": "2004-23",
-          "lastDate": "31/05/2004",
-          "weeks": 13,
-          "peak": 43,
-          "peakKey": "2004-10",
-          "peakDate": "01/03/2004"
-        },
-        {
-          "key": "underdog|alicia keys",
-          "title": "Underdog",
-          "credit": "Alicia Keys",
-          "firstKey": "2020-05",
-          "firstDate": "27/01/2020",
-          "lastKey": "2020-18",
-          "lastDate": "27/04/2020",
-          "weeks": 10,
-          "peak": 43,
-          "peakKey": "2020-11",
-          "peakDate": "09/03/2020"
-        }
-      ],
-      "trackCount": 6,
-      "totalWeeks": 119,
-      "bestPeak": 5,
-      "firstYear": 2001,
-      "lastYear": 2020,
-      "firstKey": "2001-40",
-      "firstDate": "01/10/2001",
-      "lastKey": "2020-18",
-      "lastDate": "27/04/2020"
     },
     {
       "id": "willy denzey",
@@ -56199,7 +56344,7 @@
           "firstDate": "17/05/2004",
           "lastKey": "2004-41",
           "lastDate": "04/10/2004",
-          "weeks": 20,
+          "weeks": 21,
           "peak": 1,
           "peakKey": "2004-31",
           "peakDate": "26/07/2004"
@@ -56271,7 +56416,7 @@
         }
       ],
       "trackCount": 6,
-      "totalWeeks": 107,
+      "totalWeeks": 108,
       "bestPeak": 1,
       "firstYear": 2004,
       "lastYear": 2025,
@@ -57023,6 +57168,99 @@
       "firstDate": "05/10/1998",
       "lastKey": "2009-34",
       "lastDate": "17/08/2009"
+    },
+    {
+      "id": "3t",
+      "name": "3T",
+      "tracks": [
+        {
+          "key": "i need you|3t",
+          "title": "I Need You",
+          "credit": "3T",
+          "firstKey": "1996-48",
+          "firstDate": "25/11/1996",
+          "lastKey": "1997-17",
+          "lastDate": "21/04/1997",
+          "weeks": 21,
+          "peak": 5,
+          "peakKey": "1997-02",
+          "peakDate": "06/01/1997"
+        },
+        {
+          "key": "anything|3t",
+          "title": "Anything",
+          "credit": "3T",
+          "firstKey": "1996-08",
+          "firstDate": "19/02/1996",
+          "lastKey": "1996-27",
+          "lastDate": "01/07/1996",
+          "weeks": 20,
+          "peak": 6,
+          "peakKey": "1996-19",
+          "peakDate": "06/05/1996"
+        },
+        {
+          "key": "why|3t",
+          "title": "Why",
+          "credit": "3T feat. Michael Jackson",
+          "firstKey": "1996-34",
+          "firstDate": "19/08/1996",
+          "lastKey": "1996-51",
+          "lastDate": "16/12/1996",
+          "weeks": 18,
+          "peak": 9,
+          "peakKey": "1996-42",
+          "peakDate": "14/10/1996"
+        },
+        {
+          "key": "stuck on you|3t",
+          "title": "Stuck On You",
+          "credit": "3T",
+          "firstKey": "2003-32",
+          "firstDate": "04/08/2003",
+          "lastKey": "2004-01",
+          "lastDate": "29/12/2003",
+          "weeks": 22,
+          "peak": 10,
+          "peakKey": "2003-39",
+          "peakDate": "22/09/2003"
+        },
+        {
+          "key": "gotta be you|3t",
+          "title": "Gotta Be You",
+          "credit": "3T feat. Herbie",
+          "firstKey": "1997-14",
+          "firstDate": "31/03/1997",
+          "lastKey": "1997-21",
+          "lastDate": "19/05/1997",
+          "weeks": 8,
+          "peak": 16,
+          "peakKey": "1997-15",
+          "peakDate": "07/04/1997"
+        },
+        {
+          "key": "sex appeal|3t",
+          "title": "Sex Appeal",
+          "credit": "3T",
+          "firstKey": "2004-12",
+          "firstDate": "15/03/2004",
+          "lastKey": "2004-21",
+          "lastDate": "17/05/2004",
+          "weeks": 9,
+          "peak": 34,
+          "peakKey": "2004-14",
+          "peakDate": "29/03/2004"
+        }
+      ],
+      "trackCount": 6,
+      "totalWeeks": 98,
+      "bestPeak": 5,
+      "firstYear": 1996,
+      "lastYear": 2004,
+      "firstKey": "1996-08",
+      "firstDate": "19/02/1996",
+      "lastKey": "2004-21",
+      "lastDate": "17/05/2004"
     },
     {
       "id": "nirvana",
@@ -63409,86 +63647,6 @@
       "lastDate": "26/04/2004"
     },
     {
-      "id": "3t",
-      "name": "3T",
-      "tracks": [
-        {
-          "key": "i need you|3t",
-          "title": "I Need You",
-          "credit": "3T",
-          "firstKey": "1996-48",
-          "firstDate": "25/11/1996",
-          "lastKey": "1997-17",
-          "lastDate": "21/04/1997",
-          "weeks": 21,
-          "peak": 5,
-          "peakKey": "1997-02",
-          "peakDate": "06/01/1997"
-        },
-        {
-          "key": "anything|3t",
-          "title": "Anything",
-          "credit": "3T",
-          "firstKey": "1996-08",
-          "firstDate": "19/02/1996",
-          "lastKey": "1996-27",
-          "lastDate": "01/07/1996",
-          "weeks": 20,
-          "peak": 6,
-          "peakKey": "1996-19",
-          "peakDate": "06/05/1996"
-        },
-        {
-          "key": "why|3t",
-          "title": "Why",
-          "credit": "3T feat. Michael Jackson",
-          "firstKey": "1996-34",
-          "firstDate": "19/08/1996",
-          "lastKey": "1996-51",
-          "lastDate": "16/12/1996",
-          "weeks": 18,
-          "peak": 9,
-          "peakKey": "1996-42",
-          "peakDate": "14/10/1996"
-        },
-        {
-          "key": "stuck on you|3t",
-          "title": "Stuck On You",
-          "credit": "3T",
-          "firstKey": "2003-32",
-          "firstDate": "04/08/2003",
-          "lastKey": "2003-52",
-          "lastDate": "22/12/2003",
-          "weeks": 21,
-          "peak": 10,
-          "peakKey": "2003-39",
-          "peakDate": "22/09/2003"
-        },
-        {
-          "key": "gotta be you|3t",
-          "title": "Gotta Be You",
-          "credit": "3T feat. Herbie",
-          "firstKey": "1997-14",
-          "firstDate": "31/03/1997",
-          "lastKey": "1997-21",
-          "lastDate": "19/05/1997",
-          "weeks": 8,
-          "peak": 16,
-          "peakKey": "1997-15",
-          "peakDate": "07/04/1997"
-        }
-      ],
-      "trackCount": 5,
-      "totalWeeks": 88,
-      "bestPeak": 5,
-      "firstYear": 1996,
-      "lastYear": 2003,
-      "firstKey": "1996-08",
-      "firstDate": "19/02/1996",
-      "lastKey": "2003-52",
-      "lastDate": "22/12/2003"
-    },
-    {
       "id": "eve",
       "name": "Eve",
       "tracks": [
@@ -65969,6 +66127,86 @@
       "lastDate": "21/06/1992"
     },
     {
+      "id": "mickey 3d",
+      "name": "Mickey 3D",
+      "tracks": [
+        {
+          "key": "respire|mickey 3d",
+          "title": "Respire",
+          "credit": "Mickey 3D",
+          "firstKey": "2003-13",
+          "firstDate": "24/03/2003",
+          "lastKey": "2003-37",
+          "lastDate": "08/09/2003",
+          "weeks": 24,
+          "peak": 12,
+          "peakKey": "2003-14",
+          "peakDate": "31/03/2003"
+        },
+        {
+          "key": "les mots d amour|mickey 3d",
+          "title": "Les mots d'amour",
+          "credit": "Mickey 3D",
+          "firstKey": "2004-45",
+          "firstDate": "01/11/2004",
+          "lastKey": "2004-51",
+          "lastDate": "13/12/2004",
+          "weeks": 5,
+          "peak": 31,
+          "peakKey": "2004-46",
+          "peakDate": "08/11/2004"
+        },
+        {
+          "key": "johnny rep|mickey 3d",
+          "title": "Johnny Rep",
+          "credit": "Mickey 3D",
+          "firstKey": "2004-11",
+          "firstDate": "08/03/2004",
+          "lastKey": "2004-28",
+          "lastDate": "05/07/2004",
+          "weeks": 18,
+          "peak": 35,
+          "peakKey": "2004-12",
+          "peakDate": "15/03/2004"
+        },
+        {
+          "key": "matador|mickey 3d",
+          "title": "Matador",
+          "credit": "Mickey 3D",
+          "firstKey": "2005-31",
+          "firstDate": "01/08/2005",
+          "lastKey": "2005-47",
+          "lastDate": "21/11/2005",
+          "weeks": 17,
+          "peak": 37,
+          "peakKey": "2005-35",
+          "peakDate": "29/08/2005"
+        },
+        {
+          "key": "respire 2020|mickey 3d",
+          "title": "Respire 2020",
+          "credit": "Mickey 3D feat. Bigflo & Oli",
+          "firstKey": "2020-44",
+          "firstDate": "26/10/2020",
+          "lastKey": "2020-44",
+          "lastDate": "26/10/2020",
+          "weeks": 1,
+          "peak": 54,
+          "peakKey": "2020-44",
+          "peakDate": "26/10/2020"
+        }
+      ],
+      "trackCount": 5,
+      "totalWeeks": 65,
+      "bestPeak": 12,
+      "firstYear": 2003,
+      "lastYear": 2020,
+      "firstKey": "2003-13",
+      "firstDate": "24/03/2003",
+      "lastKey": "2020-44",
+      "lastDate": "26/10/2020"
+    },
+    {
       "id": "indila",
       "name": "Indila",
       "tracks": [
@@ -66287,86 +66525,6 @@
       "firstDate": "24/11/1991",
       "lastKey": "1993-53",
       "lastDate": "03/01/1994"
-    },
-    {
-      "id": "mickey 3d",
-      "name": "Mickey 3D",
-      "tracks": [
-        {
-          "key": "respire|mickey 3d",
-          "title": "Respire",
-          "credit": "Mickey 3D",
-          "firstKey": "2003-13",
-          "firstDate": "24/03/2003",
-          "lastKey": "2003-37",
-          "lastDate": "08/09/2003",
-          "weeks": 24,
-          "peak": 12,
-          "peakKey": "2003-14",
-          "peakDate": "31/03/2003"
-        },
-        {
-          "key": "les mots d amour|mickey 3d",
-          "title": "Les mots d'amour",
-          "credit": "Mickey 3D",
-          "firstKey": "2004-45",
-          "firstDate": "01/11/2004",
-          "lastKey": "2004-51",
-          "lastDate": "13/12/2004",
-          "weeks": 4,
-          "peak": 34,
-          "peakKey": "2004-47",
-          "peakDate": "15/11/2004"
-        },
-        {
-          "key": "johnny rep|mickey 3d",
-          "title": "Johnny Rep",
-          "credit": "Mickey 3D",
-          "firstKey": "2004-11",
-          "firstDate": "08/03/2004",
-          "lastKey": "2004-28",
-          "lastDate": "05/07/2004",
-          "weeks": 18,
-          "peak": 35,
-          "peakKey": "2004-12",
-          "peakDate": "15/03/2004"
-        },
-        {
-          "key": "matador|mickey 3d",
-          "title": "Matador",
-          "credit": "Mickey 3D",
-          "firstKey": "2005-31",
-          "firstDate": "01/08/2005",
-          "lastKey": "2005-47",
-          "lastDate": "21/11/2005",
-          "weeks": 17,
-          "peak": 37,
-          "peakKey": "2005-35",
-          "peakDate": "29/08/2005"
-        },
-        {
-          "key": "respire 2020|mickey 3d",
-          "title": "Respire 2020",
-          "credit": "Mickey 3D feat. Bigflo & Oli",
-          "firstKey": "2020-44",
-          "firstDate": "26/10/2020",
-          "lastKey": "2020-44",
-          "lastDate": "26/10/2020",
-          "weeks": 1,
-          "peak": 54,
-          "peakKey": "2020-44",
-          "peakDate": "26/10/2020"
-        }
-      ],
-      "trackCount": 5,
-      "totalWeeks": 64,
-      "bestPeak": 12,
-      "firstYear": 2003,
-      "lastYear": 2020,
-      "firstKey": "2003-13",
-      "firstDate": "24/03/2003",
-      "lastKey": "2020-44",
-      "lastDate": "26/10/2020"
     },
     {
       "id": "r e m",
@@ -67087,86 +67245,6 @@
       "firstDate": "27/10/1991",
       "lastKey": "1992-51",
       "lastDate": "20/12/1992"
-    },
-    {
-      "id": "m",
-      "name": "M",
-      "tracks": [
-        {
-          "key": "pump up the volume|m",
-          "title": "Pump Up The Volume",
-          "credit": "M/A/R/R/S",
-          "firstKey": "1987-52",
-          "firstDate": "27/12/1987",
-          "lastKey": "1988-18",
-          "lastDate": "01/05/1988",
-          "weeks": 19,
-          "peak": 9,
-          "peakKey": "1988-07",
-          "peakDate": "14/02/1988"
-        },
-        {
-          "key": "onde sensuelle je dis aime|m",
-          "title": "Onde sensuelle / Je dis aime",
-          "credit": "M",
-          "firstKey": "2000-11",
-          "firstDate": "13/03/2000",
-          "lastKey": "2000-24",
-          "lastDate": "12/06/2000",
-          "weeks": 14,
-          "peak": 46,
-          "peakKey": "2000-20",
-          "peakDate": "15/05/2000"
-        },
-        {
-          "key": "dans ta radio|m",
-          "title": "Dans ta radio",
-          "credit": "-M-",
-          "firstKey": "2022-26",
-          "firstDate": "27/06/2022",
-          "lastKey": "2022-34",
-          "lastDate": "22/08/2022",
-          "weeks": 8,
-          "peak": 47,
-          "peakKey": "2022-28",
-          "peakDate": "11/07/2022"
-        },
-        {
-          "key": "bal de bamako|m",
-          "title": "Bal de Bamako",
-          "credit": "M, Toumani & Sidiki Diabaté feat. Fatoumata Diawara & Oxmo Puccino",
-          "firstKey": "2017-18",
-          "firstDate": "01/05/2017",
-          "lastKey": "2017-25",
-          "lastDate": "19/06/2017",
-          "weeks": 5,
-          "peak": 50,
-          "peakKey": "2017-19",
-          "peakDate": "08/05/2017"
-        },
-        {
-          "key": "machistador|m",
-          "title": "Machistador",
-          "credit": "M",
-          "firstKey": "1998-37",
-          "firstDate": "07/09/1998",
-          "lastKey": "1998-49",
-          "lastDate": "30/11/1998",
-          "weeks": 12,
-          "peak": 83,
-          "peakKey": "1998-46",
-          "peakDate": "09/11/1998"
-        }
-      ],
-      "trackCount": 5,
-      "totalWeeks": 58,
-      "bestPeak": 9,
-      "firstYear": 1987,
-      "lastYear": 2022,
-      "firstKey": "1987-52",
-      "firstDate": "27/12/1987",
-      "lastKey": "2022-34",
-      "lastDate": "22/08/2022"
     },
     {
       "id": "alabina",
@@ -71372,7 +71450,7 @@
           "firstDate": "08/03/2004",
           "lastKey": "2004-27",
           "lastDate": "28/06/2004",
-          "weeks": 17,
+          "weeks": 16,
           "peak": 21,
           "peakKey": "2004-14",
           "peakDate": "29/03/2004"
@@ -71392,7 +71470,7 @@
         }
       ],
       "trackCount": 4,
-      "totalWeeks": 94,
+      "totalWeeks": 93,
       "bestPeak": 6,
       "firstYear": 2003,
       "lastYear": 2010,
@@ -83811,6 +83889,60 @@
       "lastDate": "27/07/2020"
     },
     {
+      "id": "syndicate of law",
+      "name": "Syndicate Of Law",
+      "tracks": [
+        {
+          "key": "right on time|syndicate of law",
+          "title": "Right On Time",
+          "credit": "Syndicate Of Law",
+          "firstKey": "2000-26",
+          "firstDate": "26/06/2000",
+          "lastKey": "2004-14",
+          "lastDate": "29/03/2004",
+          "weeks": 49,
+          "peak": 25,
+          "peakKey": "2003-47",
+          "peakDate": "17/11/2003"
+        },
+        {
+          "key": "ccelerator|syndicate of law",
+          "title": "@ccelerator",
+          "credit": "Syndicate Of Law",
+          "firstKey": "2004-22",
+          "firstDate": "24/05/2004",
+          "lastKey": "2004-36",
+          "lastDate": "30/08/2004",
+          "weeks": 14,
+          "peak": 34,
+          "peakKey": "2004-23",
+          "peakDate": "31/05/2004"
+        },
+        {
+          "key": "got it like that|syndicate of law",
+          "title": "Got it like that",
+          "credit": "Syndicate of Law",
+          "firstKey": "2014-28",
+          "firstDate": "07/07/2014",
+          "lastKey": "2014-30",
+          "lastDate": "21/07/2014",
+          "weeks": 2,
+          "peak": 48,
+          "peakKey": "2014-28",
+          "peakDate": "07/07/2014"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 65,
+      "bestPeak": 25,
+      "firstYear": 2000,
+      "lastYear": 2014,
+      "firstKey": "2000-26",
+      "firstDate": "26/06/2000",
+      "lastKey": "2014-30",
+      "lastDate": "21/07/2014"
+    },
+    {
       "id": "arcadian",
       "name": "Arcadian",
       "tracks": [
@@ -83865,60 +83997,6 @@
       "lastDate": "18/06/2018"
     },
     {
-      "id": "syndicate of law",
-      "name": "Syndicate Of Law",
-      "tracks": [
-        {
-          "key": "right on time|syndicate of law",
-          "title": "Right On Time",
-          "credit": "Syndicate Of Law",
-          "firstKey": "2000-26",
-          "firstDate": "26/06/2000",
-          "lastKey": "2004-14",
-          "lastDate": "29/03/2004",
-          "weeks": 48,
-          "peak": 25,
-          "peakKey": "2003-47",
-          "peakDate": "17/11/2003"
-        },
-        {
-          "key": "ccelerator|syndicate of law",
-          "title": "@ccelerator",
-          "credit": "Syndicate Of Law",
-          "firstKey": "2004-22",
-          "firstDate": "24/05/2004",
-          "lastKey": "2004-36",
-          "lastDate": "30/08/2004",
-          "weeks": 14,
-          "peak": 34,
-          "peakKey": "2004-23",
-          "peakDate": "31/05/2004"
-        },
-        {
-          "key": "got it like that|syndicate of law",
-          "title": "Got it like that",
-          "credit": "Syndicate of Law",
-          "firstKey": "2014-28",
-          "firstDate": "07/07/2014",
-          "lastKey": "2014-30",
-          "lastDate": "21/07/2014",
-          "weeks": 2,
-          "peak": 48,
-          "peakKey": "2014-28",
-          "peakDate": "07/07/2014"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 64,
-      "bestPeak": 25,
-      "firstYear": 2000,
-      "lastYear": 2014,
-      "firstKey": "2000-26",
-      "firstDate": "26/06/2000",
-      "lastKey": "2014-30",
-      "lastDate": "21/07/2014"
-    },
-    {
       "id": "j p audin and diego modena",
       "name": "J.P. Audin & Diego Modena",
       "tracks": [
@@ -83971,6 +84049,60 @@
       "firstDate": "06/10/1991",
       "lastKey": "1993-53",
       "lastDate": "03/01/1994"
+    },
+    {
+      "id": "star academy 4",
+      "name": "Star Academy 4",
+      "tracks": [
+        {
+          "key": "laissez moi danser|star academy 4",
+          "title": "Laissez-moi danser",
+          "credit": "Star Academy 4",
+          "firstKey": "2004-39",
+          "firstDate": "20/09/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 27,
+          "peak": 1,
+          "peakKey": "2004-39",
+          "peakDate": "20/09/2004"
+        },
+        {
+          "key": "adieu monsieur le professeur|star academy 4",
+          "title": "Adieu Monsieur le professeur",
+          "credit": "Star Academy 4",
+          "firstKey": "2004-49",
+          "firstDate": "29/11/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 18,
+          "peak": 1,
+          "peakKey": "2004-52",
+          "peakDate": "20/12/2004"
+        },
+        {
+          "key": "en chantant|star academy 4",
+          "title": "En chantant",
+          "credit": "Star Academy 4",
+          "firstKey": "2004-45",
+          "firstDate": "01/11/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 18,
+          "peak": 4,
+          "peakKey": "2004-45",
+          "peakDate": "01/11/2004"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 63,
+      "bestPeak": 1,
+      "firstYear": 2004,
+      "lastYear": 2005,
+      "firstKey": "2004-39",
+      "firstDate": "20/09/2004",
+      "lastKey": "2005-53",
+      "lastDate": "02/01/2006"
     },
     {
       "id": "tribal king",
@@ -84133,60 +84265,6 @@
       "firstDate": "13/01/2025",
       "lastKey": "2026-37",
       "lastDate": "07/09/2026"
-    },
-    {
-      "id": "star academy 4",
-      "name": "Star Academy 4",
-      "tracks": [
-        {
-          "key": "laissez moi danser|star academy 4",
-          "title": "Laissez-moi danser",
-          "credit": "Star Academy 4",
-          "firstKey": "2004-39",
-          "firstDate": "20/09/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 26,
-          "peak": 1,
-          "peakKey": "2004-39",
-          "peakDate": "20/09/2004"
-        },
-        {
-          "key": "adieu monsieur le professeur|star academy 4",
-          "title": "Adieu Monsieur le professeur",
-          "credit": "Star Academy 4",
-          "firstKey": "2004-49",
-          "firstDate": "29/11/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 18,
-          "peak": 1,
-          "peakKey": "2004-52",
-          "peakDate": "20/12/2004"
-        },
-        {
-          "key": "en chantant|star academy 4",
-          "title": "En chantant",
-          "credit": "Star Academy 4",
-          "firstKey": "2004-45",
-          "firstDate": "01/11/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 18,
-          "peak": 4,
-          "peakKey": "2004-45",
-          "peakDate": "01/11/2004"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 62,
-      "bestPeak": 1,
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "firstKey": "2004-39",
-      "firstDate": "20/09/2004",
-      "lastKey": "2005-53",
-      "lastDate": "02/01/2006"
     },
     {
       "id": "camelia jordana",
@@ -89967,60 +90045,6 @@
       "lastDate": "06/12/2021"
     },
     {
-      "id": "eddy wata",
-      "name": "Eddy Wata",
-      "tracks": [
-        {
-          "key": "jam|eddy wata",
-          "title": "Jam (Say Oh! Oh! Oh! Oh...)",
-          "credit": "Eddy Wata",
-          "firstKey": "2004-25",
-          "firstDate": "14/06/2004",
-          "lastKey": "2004-43",
-          "lastDate": "18/10/2004",
-          "weeks": 19,
-          "peak": 16,
-          "peakKey": "2004-30",
-          "peakDate": "19/07/2004"
-        },
-        {
-          "key": "in your mind|eddy wata",
-          "title": "In Your Mind",
-          "credit": "Eddy Wata",
-          "firstKey": "2004-42",
-          "firstDate": "11/10/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 14,
-          "peak": 34,
-          "peakKey": "2004-42",
-          "peakDate": "11/10/2004"
-        },
-        {
-          "key": "la bomba|eddy wata",
-          "title": "La Bomba",
-          "credit": "Eddy Wata",
-          "firstKey": "2005-27",
-          "firstDate": "04/07/2005",
-          "lastKey": "2005-34",
-          "lastDate": "22/08/2005",
-          "weeks": 7,
-          "peak": 59,
-          "peakKey": "2005-27",
-          "peakDate": "04/07/2005"
-        }
-      ],
-      "trackCount": 3,
-      "totalWeeks": 40,
-      "bestPeak": 16,
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "firstKey": "2004-25",
-      "firstDate": "14/06/2004",
-      "lastKey": "2005-53",
-      "lastDate": "02/01/2006"
-    },
-    {
       "id": "green day",
       "name": "Green Day",
       "tracks": [
@@ -90181,6 +90205,60 @@
       "firstDate": "25/04/2016",
       "lastKey": "2017-15",
       "lastDate": "10/04/2017"
+    },
+    {
+      "id": "eddy wata",
+      "name": "Eddy Wata",
+      "tracks": [
+        {
+          "key": "jam|eddy wata",
+          "title": "Jam (Say Oh! Oh! Oh! Oh...)",
+          "credit": "Eddy Wata",
+          "firstKey": "2004-25",
+          "firstDate": "14/06/2004",
+          "lastKey": "2004-43",
+          "lastDate": "18/10/2004",
+          "weeks": 18,
+          "peak": 16,
+          "peakKey": "2004-30",
+          "peakDate": "19/07/2004"
+        },
+        {
+          "key": "in your mind|eddy wata",
+          "title": "In Your Mind",
+          "credit": "Eddy Wata",
+          "firstKey": "2004-42",
+          "firstDate": "11/10/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 14,
+          "peak": 34,
+          "peakKey": "2004-42",
+          "peakDate": "11/10/2004"
+        },
+        {
+          "key": "la bomba|eddy wata",
+          "title": "La Bomba",
+          "credit": "Eddy Wata",
+          "firstKey": "2005-27",
+          "firstDate": "04/07/2005",
+          "lastKey": "2005-34",
+          "lastDate": "22/08/2005",
+          "weeks": 7,
+          "peak": 59,
+          "peakKey": "2005-27",
+          "peakDate": "04/07/2005"
+        }
+      ],
+      "trackCount": 3,
+      "totalWeeks": 39,
+      "bestPeak": 16,
+      "firstYear": 2004,
+      "lastYear": 2005,
+      "firstKey": "2004-25",
+      "firstDate": "14/06/2004",
+      "lastKey": "2005-53",
+      "lastDate": "02/01/2006"
     },
     {
       "id": "cephaz",
@@ -99931,6 +100009,47 @@
       "lastDate": "22/03/1987"
     },
     {
+      "id": "sofia essaidi",
+      "name": "Sofia Essaïdi",
+      "tracks": [
+        {
+          "key": "femme d aujourd hui|sofia essaidi",
+          "title": "Femme d'aujourd'hui",
+          "credit": "Sofia Essaïdi",
+          "firstKey": "2008-17",
+          "firstDate": "21/04/2008",
+          "lastKey": "2009-04",
+          "lastDate": "19/01/2009",
+          "weeks": 34,
+          "peak": 8,
+          "peakKey": "2008-17",
+          "peakDate": "21/04/2008"
+        },
+        {
+          "key": "roxanne|sofia essaidi",
+          "title": "Roxanne",
+          "credit": "Sofia Essaïdi",
+          "firstKey": "2004-11",
+          "firstDate": "08/03/2004",
+          "lastKey": "2004-23",
+          "lastDate": "31/05/2004",
+          "weeks": 13,
+          "peak": 20,
+          "peakKey": "2004-11",
+          "peakDate": "08/03/2004"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 47,
+      "bestPeak": 8,
+      "firstYear": 2004,
+      "lastYear": 2009,
+      "firstKey": "2004-11",
+      "firstDate": "08/03/2004",
+      "lastKey": "2009-04",
+      "lastDate": "19/01/2009"
+    },
+    {
       "id": "upa dance",
       "name": "Upa Dance",
       "tracks": [
@@ -100134,47 +100253,6 @@
       "firstDate": "09/10/2023",
       "lastKey": "2026-15",
       "lastDate": "06/04/2026"
-    },
-    {
-      "id": "sofia essaidi",
-      "name": "Sofia Essaïdi",
-      "tracks": [
-        {
-          "key": "femme d aujourd hui|sofia essaidi",
-          "title": "Femme d'aujourd'hui",
-          "credit": "Sofia Essaïdi",
-          "firstKey": "2008-17",
-          "firstDate": "21/04/2008",
-          "lastKey": "2009-04",
-          "lastDate": "19/01/2009",
-          "weeks": 34,
-          "peak": 8,
-          "peakKey": "2008-17",
-          "peakDate": "21/04/2008"
-        },
-        {
-          "key": "roxanne|sofia essaidi",
-          "title": "Roxanne",
-          "credit": "Sofia Essaïdi",
-          "firstKey": "2004-11",
-          "firstDate": "08/03/2004",
-          "lastKey": "2004-23",
-          "lastDate": "31/05/2004",
-          "weeks": 12,
-          "peak": 20,
-          "peakKey": "2004-11",
-          "peakDate": "08/03/2004"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 46,
-      "bestPeak": 8,
-      "firstYear": 2004,
-      "lastYear": 2009,
-      "firstKey": "2004-11",
-      "firstDate": "08/03/2004",
-      "lastKey": "2009-04",
-      "lastDate": "19/01/2009"
     },
     {
       "id": "gregory porter",
@@ -101284,47 +101362,6 @@
       "lastDate": "13/03/2000"
     },
     {
-      "id": "outkast",
-      "name": "Outkast",
-      "tracks": [
-        {
-          "key": "ms jackson|outkast",
-          "title": "Ms. Jackson",
-          "credit": "Outkast",
-          "firstKey": "2001-03",
-          "firstDate": "15/01/2001",
-          "lastKey": "2001-24",
-          "lastDate": "11/06/2001",
-          "weeks": 22,
-          "peak": 5,
-          "peakKey": "2001-08",
-          "peakDate": "19/02/2001"
-        },
-        {
-          "key": "hey ya|outkast",
-          "title": "Hey Ya !",
-          "credit": "Outkast",
-          "firstKey": "2004-02",
-          "firstDate": "05/01/2004",
-          "lastKey": "2004-21",
-          "lastDate": "17/05/2004",
-          "weeks": 20,
-          "peak": 7,
-          "peakKey": "2004-06",
-          "peakDate": "02/02/2004"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 42,
-      "bestPeak": 5,
-      "firstYear": 2001,
-      "lastYear": 2004,
-      "firstKey": "2001-03",
-      "firstDate": "15/01/2001",
-      "lastKey": "2004-21",
-      "lastDate": "17/05/2004"
-    },
-    {
       "id": "mythos n dj cosmo",
       "name": "Mythos 'N DJ Cosmo",
       "tracks": [
@@ -101692,6 +101729,47 @@
       "firstDate": "14/10/2013",
       "lastKey": "2014-36",
       "lastDate": "01/09/2014"
+    },
+    {
+      "id": "outkast",
+      "name": "Outkast",
+      "tracks": [
+        {
+          "key": "ms jackson|outkast",
+          "title": "Ms. Jackson",
+          "credit": "Outkast",
+          "firstKey": "2001-03",
+          "firstDate": "15/01/2001",
+          "lastKey": "2001-24",
+          "lastDate": "11/06/2001",
+          "weeks": 22,
+          "peak": 5,
+          "peakKey": "2001-08",
+          "peakDate": "19/02/2001"
+        },
+        {
+          "key": "hey ya|outkast",
+          "title": "Hey Ya !",
+          "credit": "Outkast",
+          "firstKey": "2004-02",
+          "firstDate": "05/01/2004",
+          "lastKey": "2004-21",
+          "lastDate": "17/05/2004",
+          "weeks": 19,
+          "peak": 7,
+          "peakKey": "2004-06",
+          "peakDate": "02/02/2004"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 41,
+      "bestPeak": 5,
+      "firstYear": 2001,
+      "lastYear": 2004,
+      "firstKey": "2001-03",
+      "firstDate": "15/01/2001",
+      "lastKey": "2004-21",
+      "lastDate": "17/05/2004"
     },
     {
       "id": "shanna",
@@ -102965,47 +103043,6 @@
       "lastDate": "04/12/1988"
     },
     {
-      "id": "royal gigolos",
-      "name": "Royal Gigolos",
-      "tracks": [
-        {
-          "key": "california dreamin|royal gigolos",
-          "title": "California Dreamin'",
-          "credit": "Royal Gigolos",
-          "firstKey": "2004-15",
-          "firstDate": "05/04/2004",
-          "lastKey": "2004-35",
-          "lastDate": "23/08/2004",
-          "weeks": 21,
-          "peak": 2,
-          "peakKey": "2004-19",
-          "peakDate": "03/05/2004"
-        },
-        {
-          "key": "no milk today|royal gigolos",
-          "title": "No Milk Today",
-          "credit": "Royal Gigolos",
-          "firstKey": "2004-38",
-          "firstDate": "13/09/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 16,
-          "peak": 15,
-          "peakKey": "2004-39",
-          "peakDate": "20/09/2004"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 37,
-      "bestPeak": 2,
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "firstKey": "2004-15",
-      "firstDate": "05/04/2004",
-      "lastKey": "2005-53",
-      "lastDate": "02/01/2006"
-    },
-    {
       "id": "soldat louis",
       "name": "Soldat Louis",
       "tracks": [
@@ -103703,6 +103740,47 @@
       "lastDate": "01/09/2008"
     },
     {
+      "id": "royal gigolos",
+      "name": "Royal Gigolos",
+      "tracks": [
+        {
+          "key": "california dreamin|royal gigolos",
+          "title": "California Dreamin'",
+          "credit": "Royal Gigolos",
+          "firstKey": "2004-15",
+          "firstDate": "05/04/2004",
+          "lastKey": "2004-35",
+          "lastDate": "23/08/2004",
+          "weeks": 21,
+          "peak": 2,
+          "peakKey": "2004-19",
+          "peakDate": "03/05/2004"
+        },
+        {
+          "key": "no milk today|royal gigolos",
+          "title": "No Milk Today",
+          "credit": "Royal Gigolos",
+          "firstKey": "2004-38",
+          "firstDate": "13/09/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 15,
+          "peak": 15,
+          "peakKey": "2004-39",
+          "peakDate": "20/09/2004"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 36,
+      "bestPeak": 2,
+      "firstYear": 2004,
+      "lastYear": 2005,
+      "firstKey": "2004-15",
+      "firstDate": "05/04/2004",
+      "lastKey": "2005-53",
+      "lastDate": "02/01/2006"
+    },
+    {
       "id": "froggy mix",
       "name": "Froggy Mix",
       "tracks": [
@@ -103824,6 +103902,47 @@
       "firstDate": "23/02/1998",
       "lastKey": "1998-38",
       "lastDate": "14/09/1998"
+    },
+    {
+      "id": "the rasmus",
+      "name": "The Rasmus",
+      "tracks": [
+        {
+          "key": "in the shadows|the rasmus",
+          "title": "In The Shadows",
+          "credit": "The Rasmus",
+          "firstKey": "2003-50",
+          "firstDate": "08/12/2003",
+          "lastKey": "2004-22",
+          "lastDate": "24/05/2004",
+          "weeks": 25,
+          "peak": 6,
+          "peakKey": "2004-05",
+          "peakDate": "26/01/2004"
+        },
+        {
+          "key": "no fear|the rasmus",
+          "title": "No Fear",
+          "credit": "The Rasmus",
+          "firstKey": "2005-39",
+          "firstDate": "26/09/2005",
+          "lastKey": "2005-49",
+          "lastDate": "05/12/2005",
+          "weeks": 11,
+          "peak": 41,
+          "peakKey": "2005-39",
+          "peakDate": "26/09/2005"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 36,
+      "bestPeak": 6,
+      "firstYear": 2003,
+      "lastYear": 2005,
+      "firstKey": "2003-50",
+      "firstDate": "08/12/2003",
+      "lastKey": "2005-49",
+      "lastDate": "05/12/2005"
     },
     {
       "id": "jeck",
@@ -104113,6 +104232,47 @@
       "lastDate": "24/08/2009"
     },
     {
+      "id": "admiral t",
+      "name": "Admiral T",
+      "tracks": [
+        {
+          "key": "les mains en l air|admiral t",
+          "title": "Les mains en l'air",
+          "credit": "Admiral T feat. Diam's",
+          "firstKey": "2006-33",
+          "firstDate": "14/08/2006",
+          "lastKey": "2007-16",
+          "lastDate": "16/04/2007",
+          "weeks": 26,
+          "peak": 29,
+          "peakKey": "2006-34",
+          "peakDate": "21/08/2006"
+        },
+        {
+          "key": "dancehall x plosion|admiral t",
+          "title": "Dancehall X-plosion",
+          "credit": "Admiral T feat. Pearl",
+          "firstKey": "2004-38",
+          "firstDate": "13/09/2004",
+          "lastKey": "2004-47",
+          "lastDate": "15/11/2004",
+          "weeks": 10,
+          "peak": 56,
+          "peakKey": "2004-38",
+          "peakDate": "13/09/2004"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 36,
+      "bestPeak": 29,
+      "firstYear": 2004,
+      "lastYear": 2007,
+      "firstKey": "2004-38",
+      "firstDate": "13/09/2004",
+      "lastKey": "2007-16",
+      "lastDate": "16/04/2007"
+    },
+    {
       "id": "lorna",
       "name": "Lorna",
       "tracks": [
@@ -104359,47 +104519,6 @@
       "lastDate": "06/04/2009"
     },
     {
-      "id": "the rasmus",
-      "name": "The Rasmus",
-      "tracks": [
-        {
-          "key": "in the shadows|the rasmus",
-          "title": "In The Shadows",
-          "credit": "The Rasmus",
-          "firstKey": "2003-50",
-          "firstDate": "08/12/2003",
-          "lastKey": "2004-22",
-          "lastDate": "24/05/2004",
-          "weeks": 24,
-          "peak": 6,
-          "peakKey": "2004-05",
-          "peakDate": "26/01/2004"
-        },
-        {
-          "key": "no fear|the rasmus",
-          "title": "No Fear",
-          "credit": "The Rasmus",
-          "firstKey": "2005-39",
-          "firstDate": "26/09/2005",
-          "lastKey": "2005-49",
-          "lastDate": "05/12/2005",
-          "weeks": 11,
-          "peak": 41,
-          "peakKey": "2005-39",
-          "peakDate": "26/09/2005"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 35,
-      "bestPeak": 6,
-      "firstYear": 2003,
-      "lastYear": 2005,
-      "firstKey": "2003-50",
-      "firstDate": "08/12/2003",
-      "lastKey": "2005-49",
-      "lastDate": "05/12/2005"
-    },
-    {
       "id": "bb brunes",
       "name": "BB Brunes",
       "tracks": [
@@ -104644,47 +104763,6 @@
       "firstDate": "08/04/2002",
       "lastKey": "2003-03",
       "lastDate": "13/01/2003"
-    },
-    {
-      "id": "admiral t",
-      "name": "Admiral T",
-      "tracks": [
-        {
-          "key": "les mains en l air|admiral t",
-          "title": "Les mains en l'air",
-          "credit": "Admiral T feat. Diam's",
-          "firstKey": "2006-33",
-          "firstDate": "14/08/2006",
-          "lastKey": "2007-16",
-          "lastDate": "16/04/2007",
-          "weeks": 26,
-          "peak": 29,
-          "peakKey": "2006-34",
-          "peakDate": "21/08/2006"
-        },
-        {
-          "key": "dancehall x plosion|admiral t",
-          "title": "Dancehall X-plosion",
-          "credit": "Admiral T feat. Pearl",
-          "firstKey": "2004-38",
-          "firstDate": "13/09/2004",
-          "lastKey": "2004-47",
-          "lastDate": "15/11/2004",
-          "weeks": 9,
-          "peak": 56,
-          "peakKey": "2004-38",
-          "peakDate": "13/09/2004"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 35,
-      "bestPeak": 29,
-      "firstYear": 2004,
-      "lastYear": 2007,
-      "firstKey": "2004-38",
-      "firstDate": "13/09/2004",
-      "lastKey": "2007-16",
-      "lastDate": "16/04/2007"
     },
     {
       "id": "emilia",
@@ -105220,47 +105298,6 @@
       "lastDate": "26/02/1989"
     },
     {
-      "id": "t rio",
-      "name": "T-Rio",
-      "tracks": [
-        {
-          "key": "mamae eu quero|t rio",
-          "title": "(Choopeta) Mamãe eu quero",
-          "credit": "T-Rio",
-          "firstKey": "2004-27",
-          "firstDate": "28/06/2004",
-          "lastKey": "2004-45",
-          "lastDate": "01/11/2004",
-          "weeks": 19,
-          "peak": 2,
-          "peakKey": "2004-31",
-          "peakDate": "26/07/2004"
-        },
-        {
-          "key": "if you leave me now|t rio",
-          "title": "If You Leave Me Now",
-          "credit": "T-Rio feat. 3T",
-          "firstKey": "2004-48",
-          "firstDate": "22/11/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 14,
-          "peak": 51,
-          "peakKey": "2005-53",
-          "peakDate": "02/01/2006"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 33,
-      "bestPeak": 2,
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "firstKey": "2004-27",
-      "firstDate": "28/06/2004",
-      "lastKey": "2005-53",
-      "lastDate": "02/01/2006"
-    },
-    {
       "id": "dht",
       "name": "DHT",
       "tracks": [
@@ -105341,47 +105378,6 @@
       "firstDate": "19/05/2003",
       "lastKey": "2004-24",
       "lastDate": "07/06/2004"
-    },
-    {
-      "id": "gomez and dubois",
-      "name": "Gomez & Dubois",
-      "tracks": [
-        {
-          "key": "ronde de nuit|gomez and dubois",
-          "title": "Ronde de nuit",
-          "credit": "Gomez & Dubois",
-          "firstKey": "2003-44",
-          "firstDate": "27/10/2003",
-          "lastKey": "2004-10",
-          "lastDate": "01/03/2004",
-          "weeks": 19,
-          "peak": 8,
-          "peakKey": "2003-47",
-          "peakDate": "17/11/2003"
-        },
-        {
-          "key": "hotel commissariat|gomez and dubois",
-          "title": "Hôtel Commissariat",
-          "credit": "Gomez & Dubois",
-          "firstKey": "2003-16",
-          "firstDate": "14/04/2003",
-          "lastKey": "2003-29",
-          "lastDate": "14/07/2003",
-          "weeks": 14,
-          "peak": 10,
-          "peakKey": "2003-17",
-          "peakDate": "21/04/2003"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 33,
-      "bestPeak": 8,
-      "firstYear": 2003,
-      "lastYear": 2004,
-      "firstKey": "2003-16",
-      "firstDate": "14/04/2003",
-      "lastKey": "2004-10",
-      "lastDate": "01/03/2004"
     },
     {
       "id": "atc",
@@ -105794,6 +105790,47 @@
       "lastDate": "05/03/2018"
     },
     {
+      "id": "t rio",
+      "name": "T-Rio",
+      "tracks": [
+        {
+          "key": "mamae eu quero|t rio",
+          "title": "(Choopeta) Mamãe eu quero",
+          "credit": "T-Rio",
+          "firstKey": "2004-27",
+          "firstDate": "28/06/2004",
+          "lastKey": "2004-45",
+          "lastDate": "01/11/2004",
+          "weeks": 18,
+          "peak": 2,
+          "peakKey": "2004-31",
+          "peakDate": "26/07/2004"
+        },
+        {
+          "key": "if you leave me now|t rio",
+          "title": "If You Leave Me Now",
+          "credit": "T-Rio feat. 3T",
+          "firstKey": "2004-48",
+          "firstDate": "22/11/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 14,
+          "peak": 51,
+          "peakKey": "2005-53",
+          "peakDate": "02/01/2006"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 32,
+      "bestPeak": 2,
+      "firstYear": 2004,
+      "lastYear": 2005,
+      "firstKey": "2004-27",
+      "firstDate": "28/06/2004",
+      "lastKey": "2005-53",
+      "lastDate": "02/01/2006"
+    },
+    {
       "id": "tina charles",
       "name": "Tina Charles",
       "tracks": [
@@ -105874,6 +105911,47 @@
       "firstDate": "08/02/2016",
       "lastKey": "2021-07",
       "lastDate": "15/02/2021"
+    },
+    {
+      "id": "gomez and dubois",
+      "name": "Gomez & Dubois",
+      "tracks": [
+        {
+          "key": "ronde de nuit|gomez and dubois",
+          "title": "Ronde de nuit",
+          "credit": "Gomez & Dubois",
+          "firstKey": "2003-44",
+          "firstDate": "27/10/2003",
+          "lastKey": "2004-10",
+          "lastDate": "01/03/2004",
+          "weeks": 18,
+          "peak": 8,
+          "peakKey": "2003-47",
+          "peakDate": "17/11/2003"
+        },
+        {
+          "key": "hotel commissariat|gomez and dubois",
+          "title": "Hôtel Commissariat",
+          "credit": "Gomez & Dubois",
+          "firstKey": "2003-16",
+          "firstDate": "14/04/2003",
+          "lastKey": "2003-29",
+          "lastDate": "14/07/2003",
+          "weeks": 14,
+          "peak": 10,
+          "peakKey": "2003-17",
+          "peakDate": "21/04/2003"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 32,
+      "bestPeak": 8,
+      "firstYear": 2003,
+      "lastYear": 2004,
+      "firstKey": "2003-16",
+      "firstDate": "14/04/2003",
+      "lastKey": "2004-10",
+      "lastDate": "01/03/2004"
     },
     {
       "id": "gabrielle",
@@ -107680,6 +107758,47 @@
       "lastDate": "03/01/2000"
     },
     {
+      "id": "relic",
+      "name": "Relic",
+      "tracks": [
+        {
+          "key": "banana style|relic",
+          "title": "Banana Style",
+          "credit": "Relic",
+          "firstKey": "2004-20",
+          "firstDate": "10/05/2004",
+          "lastKey": "2004-33",
+          "lastDate": "09/08/2004",
+          "weeks": 13,
+          "peak": 20,
+          "peakKey": "2004-21",
+          "peakDate": "17/05/2004"
+        },
+        {
+          "key": "just married|relic",
+          "title": "Just Married",
+          "credit": "Relic feat. Amine",
+          "firstKey": "2004-38",
+          "firstDate": "13/09/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 17,
+          "peak": 28,
+          "peakKey": "2004-41",
+          "peakDate": "04/10/2004"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 30,
+      "bestPeak": 20,
+      "firstYear": 2004,
+      "lastYear": 2005,
+      "firstKey": "2004-20",
+      "firstDate": "10/05/2004",
+      "lastKey": "2005-53",
+      "lastDate": "02/01/2006"
+    },
+    {
       "id": "ze pequeno",
       "name": "Ze Pequeño",
       "tracks": [
@@ -108580,47 +108699,6 @@
       "firstDate": "10/03/1985",
       "lastKey": "1985-38",
       "lastDate": "22/09/1985"
-    },
-    {
-      "id": "relic",
-      "name": "Relic",
-      "tracks": [
-        {
-          "key": "just married|relic",
-          "title": "Just Married",
-          "credit": "Relic feat. Amine",
-          "firstKey": "2004-38",
-          "firstDate": "13/09/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 17,
-          "peak": 28,
-          "peakKey": "2004-41",
-          "peakDate": "04/10/2004"
-        },
-        {
-          "key": "banana style|relic",
-          "title": "Banana Style",
-          "credit": "Relic",
-          "firstKey": "2004-20",
-          "firstDate": "10/05/2004",
-          "lastKey": "2004-33",
-          "lastDate": "09/08/2004",
-          "weeks": 12,
-          "peak": 34,
-          "peakKey": "2004-22",
-          "peakDate": "24/05/2004"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 29,
-      "bestPeak": 28,
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "firstKey": "2004-20",
-      "firstDate": "10/05/2004",
-      "lastKey": "2005-53",
-      "lastDate": "02/01/2006"
     },
     {
       "id": "kendrick lamar",
@@ -109566,6 +109644,47 @@
       "lastDate": "07/12/1998"
     },
     {
+      "id": "les filles",
+      "name": "Les Filles",
+      "tracks": [
+        {
+          "key": "j attendrai|les filles",
+          "title": "J'attendrai",
+          "credit": "Les Filles",
+          "firstKey": "2003-39",
+          "firstDate": "22/09/2003",
+          "lastKey": "2004-06",
+          "lastDate": "02/02/2004",
+          "weeks": 20,
+          "peak": 15,
+          "peakKey": "2003-42",
+          "peakDate": "13/10/2003"
+        },
+        {
+          "key": "comme d habitude|les filles",
+          "title": "Comme d'habitude",
+          "credit": "Les Filles",
+          "firstKey": "2004-04",
+          "firstDate": "19/01/2004",
+          "lastKey": "2004-10",
+          "lastDate": "01/03/2004",
+          "weeks": 7,
+          "peak": 50,
+          "peakKey": "2004-05",
+          "peakDate": "26/01/2004"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 27,
+      "bestPeak": 15,
+      "firstYear": 2003,
+      "lastYear": 2004,
+      "firstKey": "2003-39",
+      "firstDate": "22/09/2003",
+      "lastKey": "2004-10",
+      "lastDate": "01/03/2004"
+    },
+    {
       "id": "princess erika",
       "name": "Princess Erika",
       "tracks": [
@@ -110220,47 +110339,6 @@
       "firstDate": "11/09/2000",
       "lastKey": "2001-13",
       "lastDate": "26/03/2001"
-    },
-    {
-      "id": "les filles",
-      "name": "Les Filles",
-      "tracks": [
-        {
-          "key": "j attendrai|les filles",
-          "title": "J'attendrai",
-          "credit": "Les Filles",
-          "firstKey": "2003-39",
-          "firstDate": "22/09/2003",
-          "lastKey": "2004-06",
-          "lastDate": "02/02/2004",
-          "weeks": 19,
-          "peak": 15,
-          "peakKey": "2003-42",
-          "peakDate": "13/10/2003"
-        },
-        {
-          "key": "comme d habitude|les filles",
-          "title": "Comme d'habitude",
-          "credit": "Les Filles",
-          "firstKey": "2004-04",
-          "firstDate": "19/01/2004",
-          "lastKey": "2004-10",
-          "lastDate": "01/03/2004",
-          "weeks": 7,
-          "peak": 50,
-          "peakKey": "2004-05",
-          "peakDate": "26/01/2004"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 26,
-      "bestPeak": 15,
-      "firstYear": 2003,
-      "lastYear": 2004,
-      "firstKey": "2003-39",
-      "firstDate": "22/09/2003",
-      "lastKey": "2004-10",
-      "lastDate": "01/03/2004"
     },
     {
       "id": "spiller",
@@ -111083,6 +111161,47 @@
       "lastDate": "29/11/2004"
     },
     {
+      "id": "yu gi oh",
+      "name": "Yu-Gi-Oh !",
+      "tracks": [
+        {
+          "key": "le duel|yu gi oh",
+          "title": "Le duel",
+          "credit": "Yu-Gi-Oh !",
+          "firstKey": "2004-21",
+          "firstDate": "17/05/2004",
+          "lastKey": "2009-12",
+          "lastDate": "16/03/2009",
+          "weeks": 14,
+          "peak": 43,
+          "peakKey": "2004-21",
+          "peakDate": "17/05/2004"
+        },
+        {
+          "key": "a toi de jouer|yu gi oh",
+          "title": "À toi de jouer !",
+          "credit": "Yu-Gi-Oh !",
+          "firstKey": "2004-46",
+          "firstDate": "08/11/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 11,
+          "peak": 68,
+          "peakKey": "2004-47",
+          "peakDate": "15/11/2004"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 25,
+      "bestPeak": 43,
+      "firstYear": 2004,
+      "lastYear": 2009,
+      "firstKey": "2004-21",
+      "firstDate": "17/05/2004",
+      "lastKey": "2009-12",
+      "lastDate": "16/03/2009"
+    },
+    {
       "id": "jarabe de palo",
       "name": "Jarabe De Palo",
       "tracks": [
@@ -111901,47 +112020,6 @@
       "firstDate": "15/03/2004",
       "lastKey": "2005-53",
       "lastDate": "02/01/2006"
-    },
-    {
-      "id": "yu gi oh",
-      "name": "Yu-Gi-Oh !",
-      "tracks": [
-        {
-          "key": "le duel|yu gi oh",
-          "title": "Le duel",
-          "credit": "Yu-Gi-Oh !",
-          "firstKey": "2004-21",
-          "firstDate": "17/05/2004",
-          "lastKey": "2009-12",
-          "lastDate": "16/03/2009",
-          "weeks": 14,
-          "peak": 43,
-          "peakKey": "2004-21",
-          "peakDate": "17/05/2004"
-        },
-        {
-          "key": "a toi de jouer|yu gi oh",
-          "title": "À toi de jouer !",
-          "credit": "Yu-Gi-Oh !",
-          "firstKey": "2004-46",
-          "firstDate": "08/11/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 10,
-          "peak": 68,
-          "peakKey": "2004-47",
-          "peakDate": "15/11/2004"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 24,
-      "bestPeak": 43,
-      "firstYear": 2004,
-      "lastYear": 2009,
-      "firstKey": "2004-21",
-      "firstDate": "17/05/2004",
-      "lastKey": "2009-12",
-      "lastDate": "16/03/2009"
     },
     {
       "id": "dj fou",
@@ -116823,6 +116901,47 @@
       "lastDate": "16/06/2025"
     },
     {
+      "id": "chingy",
+      "name": "Chingy",
+      "tracks": [
+        {
+          "key": "one call away|chingy",
+          "title": "One Call Away",
+          "credit": "Chingy feat. J. Weav",
+          "firstKey": "2004-21",
+          "firstDate": "17/05/2004",
+          "lastKey": "2004-27",
+          "lastDate": "28/06/2004",
+          "weeks": 7,
+          "peak": 51,
+          "peakKey": "2004-21",
+          "peakDate": "17/05/2004"
+        },
+        {
+          "key": "right thurr|chingy",
+          "title": "Right Thurr",
+          "credit": "Chingy",
+          "firstKey": "2003-36",
+          "firstDate": "01/09/2003",
+          "lastKey": "2003-45",
+          "lastDate": "03/11/2003",
+          "weeks": 10,
+          "peak": 65,
+          "peakKey": "2003-39",
+          "peakDate": "22/09/2003"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 17,
+      "bestPeak": 51,
+      "firstYear": 2003,
+      "lastYear": 2004,
+      "firstKey": "2003-36",
+      "firstDate": "01/09/2003",
+      "lastKey": "2004-27",
+      "lastDate": "28/06/2004"
+    },
+    {
       "id": "cali",
       "name": "Cali",
       "tracks": [
@@ -117231,47 +117350,6 @@
       "firstDate": "30/11/2009",
       "lastKey": "2010-18",
       "lastDate": "03/05/2010"
-    },
-    {
-      "id": "chingy",
-      "name": "Chingy",
-      "tracks": [
-        {
-          "key": "one call away|chingy",
-          "title": "One Call Away",
-          "credit": "Chingy feat. J. Weav",
-          "firstKey": "2004-21",
-          "firstDate": "17/05/2004",
-          "lastKey": "2004-27",
-          "lastDate": "28/06/2004",
-          "weeks": 6,
-          "peak": 51,
-          "peakKey": "2004-21",
-          "peakDate": "17/05/2004"
-        },
-        {
-          "key": "right thurr|chingy",
-          "title": "Right Thurr",
-          "credit": "Chingy",
-          "firstKey": "2003-36",
-          "firstDate": "01/09/2003",
-          "lastKey": "2003-45",
-          "lastDate": "03/11/2003",
-          "weeks": 10,
-          "peak": 65,
-          "peakKey": "2003-39",
-          "peakDate": "22/09/2003"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 16,
-      "bestPeak": 51,
-      "firstYear": 2003,
-      "lastYear": 2004,
-      "firstKey": "2003-36",
-      "firstDate": "01/09/2003",
-      "lastKey": "2004-27",
-      "lastDate": "28/06/2004"
     },
     {
       "id": "mickael winter",
@@ -118463,6 +118541,47 @@
       "lastDate": "27/09/1993"
     },
     {
+      "id": "ludovic delamoga",
+      "name": "Ludovic Delamoga",
+      "tracks": [
+        {
+          "key": "c est toi|ludovic delamoga",
+          "title": "C'est toi",
+          "credit": "Ludovic Delamoga",
+          "firstKey": "2004-39",
+          "firstDate": "20/09/2004",
+          "lastKey": "2004-48",
+          "lastDate": "22/11/2004",
+          "weeks": 10,
+          "peak": 32,
+          "peakKey": "2004-39",
+          "peakDate": "20/09/2004"
+        },
+        {
+          "key": "fragiles|ludovic delamoga",
+          "title": "Fragiles",
+          "credit": "Ludovic Delamoga",
+          "firstKey": "2005-13",
+          "firstDate": "28/03/2005",
+          "lastKey": "2005-15",
+          "lastDate": "11/04/2005",
+          "weeks": 3,
+          "peak": 88,
+          "peakKey": "2005-14",
+          "peakDate": "04/04/2005"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 13,
+      "bestPeak": 32,
+      "firstYear": 2004,
+      "lastYear": 2005,
+      "firstKey": "2004-39",
+      "firstDate": "20/09/2004",
+      "lastKey": "2005-15",
+      "lastDate": "11/04/2005"
+    },
+    {
       "id": "zhane",
       "name": "Zhané",
       "tracks": [
@@ -118789,47 +118908,6 @@
       "firstDate": "22/07/1990",
       "lastKey": "1991-02",
       "lastDate": "13/01/1991"
-    },
-    {
-      "id": "ludovic delamoga",
-      "name": "Ludovic Delamoga",
-      "tracks": [
-        {
-          "key": "c est toi|ludovic delamoga",
-          "title": "C'est toi",
-          "credit": "Ludovic Delamoga",
-          "firstKey": "2004-39",
-          "firstDate": "20/09/2004",
-          "lastKey": "2004-48",
-          "lastDate": "22/11/2004",
-          "weeks": 9,
-          "peak": 32,
-          "peakKey": "2004-39",
-          "peakDate": "20/09/2004"
-        },
-        {
-          "key": "fragiles|ludovic delamoga",
-          "title": "Fragiles",
-          "credit": "Ludovic Delamoga",
-          "firstKey": "2005-13",
-          "firstDate": "28/03/2005",
-          "lastKey": "2005-15",
-          "lastDate": "11/04/2005",
-          "weeks": 3,
-          "peak": 88,
-          "peakKey": "2005-14",
-          "peakDate": "04/04/2005"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 12,
-      "bestPeak": 32,
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "firstKey": "2004-39",
-      "firstDate": "20/09/2004",
-      "lastKey": "2005-15",
-      "lastDate": "11/04/2005"
     },
     {
       "id": "triple x",
@@ -122481,6 +122559,47 @@
       "lastDate": "31/12/2001"
     },
     {
+      "id": "la bamba",
+      "name": "La bamba",
+      "tracks": [
+        {
+          "key": "6|la bamba",
+          "title": "6",
+          "credit": "La bamba",
+          "firstKey": "2004-01",
+          "firstDate": "29/12/2003",
+          "lastKey": "2004-01",
+          "lastDate": "29/12/2003",
+          "weeks": 1,
+          "peak": 14,
+          "peakKey": "2004-01",
+          "peakDate": "29/12/2003"
+        },
+        {
+          "key": "4|la bamba",
+          "title": "4",
+          "credit": "La bamba",
+          "firstKey": "2003-48",
+          "firstDate": "24/11/2003",
+          "lastKey": "2003-48",
+          "lastDate": "24/11/2003",
+          "weeks": 1,
+          "peak": 74,
+          "peakKey": "2003-48",
+          "peakDate": "24/11/2003"
+        }
+      ],
+      "trackCount": 2,
+      "totalWeeks": 2,
+      "bestPeak": 14,
+      "firstYear": 2003,
+      "lastYear": 2004,
+      "firstKey": "2003-48",
+      "firstDate": "24/11/2003",
+      "lastKey": "2004-01",
+      "lastDate": "29/12/2003"
+    },
+    {
       "id": "summer son",
       "name": "Summer Son",
       "tracks": [
@@ -122520,47 +122639,6 @@
       "firstDate": "10/01/2000",
       "lastKey": "2000-52",
       "lastDate": "25/12/2000"
-    },
-    {
-      "id": "arrow_top",
-      "name": "arrow_top",
-      "tracks": [
-        {
-          "key": "ultra lights feat steph b|arrow_top",
-          "title": "Ultra Lights feat. Steph B.",
-          "credit": "arrow_top",
-          "firstKey": "2005-18",
-          "firstDate": "02/05/2005",
-          "lastKey": "2005-18",
-          "lastDate": "02/05/2005",
-          "weeks": 1,
-          "peak": 18,
-          "peakKey": "2005-18",
-          "peakDate": "02/05/2005"
-        },
-        {
-          "key": "rohff|arrow_top",
-          "title": "Rohff",
-          "credit": "arrow_top",
-          "firstKey": "2004-17",
-          "firstDate": "19/04/2004",
-          "lastKey": "2004-17",
-          "lastDate": "19/04/2004",
-          "weeks": 1,
-          "peak": 94,
-          "peakKey": "2004-17",
-          "peakDate": "19/04/2004"
-        }
-      ],
-      "trackCount": 2,
-      "totalWeeks": 2,
-      "bestPeak": 18,
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "firstKey": "2004-17",
-      "firstDate": "19/04/2004",
-      "lastKey": "2005-18",
-      "lastDate": "02/05/2005"
     },
     {
       "id": "pourquoi",
@@ -130863,6 +130941,34 @@
       "lastDate": "08/01/1989"
     },
     {
+      "id": "garou and michel sardou",
+      "name": "Garou & Michel Sardou",
+      "tracks": [
+        {
+          "key": "la riviere de notre enfance|garou and michel sardou",
+          "title": "La rivière de notre enfance",
+          "credit": "Garou & Michel Sardou",
+          "firstKey": "2004-46",
+          "firstDate": "08/11/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 25,
+          "peak": 1,
+          "peakKey": "2004-47",
+          "peakDate": "15/11/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 25,
+      "bestPeak": 1,
+      "firstYear": 2004,
+      "lastYear": 2005,
+      "firstKey": "2004-46",
+      "firstDate": "08/11/2004",
+      "lastKey": "2005-53",
+      "lastDate": "02/01/2006"
+    },
+    {
       "id": "george michael and elton john",
       "name": "George Michael & Elton John",
       "tracks": [
@@ -131843,6 +131949,34 @@
       "lastDate": "29/01/2024"
     },
     {
+      "id": "andreas johnson",
+      "name": "Andreas Johnson",
+      "tracks": [
+        {
+          "key": "glorious|andreas johnson",
+          "title": "Glorious",
+          "credit": "Andreas Johnson",
+          "firstKey": "2000-17",
+          "firstDate": "24/04/2000",
+          "lastKey": "2004-19",
+          "lastDate": "03/05/2004",
+          "weeks": 25,
+          "peak": 16,
+          "peakKey": "2004-03",
+          "peakDate": "12/01/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 25,
+      "bestPeak": 16,
+      "firstYear": 2000,
+      "lastYear": 2004,
+      "firstKey": "2000-17",
+      "firstDate": "24/04/2000",
+      "lastKey": "2004-19",
+      "lastDate": "03/05/2004"
+    },
+    {
       "id": "shalya",
       "name": "Shalya",
       "tracks": [
@@ -132121,34 +132255,6 @@
       "firstDate": "06/01/2003",
       "lastKey": "2003-25",
       "lastDate": "16/06/2003"
-    },
-    {
-      "id": "garou and michel sardou",
-      "name": "Garou & Michel Sardou",
-      "tracks": [
-        {
-          "key": "la riviere de notre enfance|garou and michel sardou",
-          "title": "La rivière de notre enfance",
-          "credit": "Garou & Michel Sardou",
-          "firstKey": "2004-47",
-          "firstDate": "15/11/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 24,
-          "peak": 1,
-          "peakKey": "2004-47",
-          "peakDate": "15/11/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 24,
-      "bestPeak": 1,
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "firstKey": "2004-47",
-      "firstDate": "15/11/2004",
-      "lastKey": "2005-53",
-      "lastDate": "02/01/2006"
     },
     {
       "id": "mike perry",
@@ -133185,34 +133291,6 @@
       "firstDate": "20/07/1998",
       "lastKey": "1999-53",
       "lastDate": "03/01/2000"
-    },
-    {
-      "id": "andreas johnson",
-      "name": "Andreas Johnson",
-      "tracks": [
-        {
-          "key": "glorious|andreas johnson",
-          "title": "Glorious",
-          "credit": "Andreas Johnson",
-          "firstKey": "2000-17",
-          "firstDate": "24/04/2000",
-          "lastKey": "2004-19",
-          "lastDate": "03/05/2004",
-          "weeks": 24,
-          "peak": 16,
-          "peakKey": "2004-03",
-          "peakDate": "12/01/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 24,
-      "bestPeak": 16,
-      "firstYear": 2000,
-      "lastYear": 2004,
-      "firstKey": "2000-17",
-      "firstDate": "24/04/2000",
-      "lastKey": "2004-19",
-      "lastDate": "03/05/2004"
     },
     {
       "id": "kelly joyce",
@@ -137975,6 +138053,34 @@
       "lastDate": "06/11/2006"
     },
     {
+      "id": "dj casper",
+      "name": "DJ Casper",
+      "tracks": [
+        {
+          "key": "cha cha slide|dj casper",
+          "title": "Cha Cha Slide",
+          "credit": "DJ Casper",
+          "firstKey": "2004-20",
+          "firstDate": "10/05/2004",
+          "lastKey": "2004-40",
+          "lastDate": "27/09/2004",
+          "weeks": 21,
+          "peak": 14,
+          "peakKey": "2004-21",
+          "peakDate": "17/05/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 21,
+      "bestPeak": 14,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-20",
+      "firstDate": "10/05/2004",
+      "lastKey": "2004-40",
+      "lastDate": "27/09/2004"
+    },
+    {
       "id": "demon vs heartbreaker",
       "name": "Demon vs. Heartbreaker",
       "tracks": [
@@ -139543,34 +139649,6 @@
       "lastDate": "31/08/2020"
     },
     {
-      "id": "dj casper",
-      "name": "DJ Casper",
-      "tracks": [
-        {
-          "key": "cha cha slide|dj casper",
-          "title": "Cha Cha Slide",
-          "credit": "DJ Casper",
-          "firstKey": "2004-20",
-          "firstDate": "10/05/2004",
-          "lastKey": "2004-40",
-          "lastDate": "27/09/2004",
-          "weeks": 20,
-          "peak": 14,
-          "peakKey": "2004-21",
-          "peakDate": "17/05/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 20,
-      "bestPeak": 14,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-20",
-      "firstDate": "10/05/2004",
-      "lastKey": "2004-40",
-      "lastDate": "27/09/2004"
-    },
-    {
       "id": "kungs and stargate",
       "name": "Kungs & Stargate",
       "tracks": [
@@ -140493,34 +140571,6 @@
       "firstDate": "06/07/2026",
       "lastKey": "2026-46",
       "lastDate": "09/11/2026"
-    },
-    {
-      "id": "aventura",
-      "name": "Aventura",
-      "tracks": [
-        {
-          "key": "obsesion|aventura",
-          "title": "Obsesión",
-          "credit": "Aventura",
-          "firstKey": "2004-31",
-          "firstDate": "26/07/2004",
-          "lastKey": "2004-49",
-          "lastDate": "29/11/2004",
-          "weeks": 19,
-          "peak": 1,
-          "peakKey": "2004-32",
-          "peakDate": "02/08/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 19,
-      "bestPeak": 1,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-31",
-      "firstDate": "26/07/2004",
-      "lastKey": "2004-49",
-      "lastDate": "29/11/2004"
     },
     {
       "id": "babylon zoo",
@@ -142845,6 +142895,34 @@
       "firstDate": "22/02/2010",
       "lastKey": "2011-46",
       "lastDate": "14/11/2011"
+    },
+    {
+      "id": "aventura",
+      "name": "Aventura",
+      "tracks": [
+        {
+          "key": "obsesion|aventura",
+          "title": "Obsesión",
+          "credit": "Aventura",
+          "firstKey": "2004-31",
+          "firstDate": "26/07/2004",
+          "lastKey": "2004-49",
+          "lastDate": "29/11/2004",
+          "weeks": 18,
+          "peak": 1,
+          "peakKey": "2004-32",
+          "peakDate": "02/08/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 18,
+      "bestPeak": 1,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-31",
+      "firstDate": "26/07/2004",
+      "lastKey": "2004-49",
+      "lastDate": "29/11/2004"
     },
     {
       "id": "gusttavo lima",
@@ -149567,6 +149645,34 @@
       "lastDate": "17/02/2003"
     },
     {
+      "id": "jean francois breau",
+      "name": "Jean-François Breau",
+      "tracks": [
+        {
+          "key": "du plaisir|jean francois breau",
+          "title": "Du plaisir",
+          "credit": "Jean-François Breau",
+          "firstKey": "2004-27",
+          "firstDate": "28/06/2004",
+          "lastKey": "2004-42",
+          "lastDate": "11/10/2004",
+          "weeks": 16,
+          "peak": 49,
+          "peakKey": "2004-28",
+          "peakDate": "05/07/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 16,
+      "bestPeak": 49,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-27",
+      "firstDate": "28/06/2004",
+      "lastKey": "2004-42",
+      "lastDate": "11/10/2004"
+    },
+    {
       "id": "davina",
       "name": "Davina",
       "tracks": [
@@ -149649,34 +149755,6 @@
       "firstDate": "15/01/2007",
       "lastKey": "2007-19",
       "lastDate": "07/05/2007"
-    },
-    {
-      "id": "shirel and leyla doriane",
-      "name": "Shirel & Leyla Doriane",
-      "tracks": [
-        {
-          "key": "o marseille|shirel and leyla doriane",
-          "title": "Ô Marseille",
-          "credit": "Shirel & Leyla Doriane",
-          "firstKey": "2004-38",
-          "firstDate": "13/09/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 16,
-          "peak": 52,
-          "peakKey": "2004-39",
-          "peakDate": "20/09/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 16,
-      "bestPeak": 52,
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "firstKey": "2004-38",
-      "firstDate": "13/09/2004",
-      "lastKey": "2005-53",
-      "lastDate": "02/01/2006"
     },
     {
       "id": "mousse t vs hot n juicy",
@@ -151359,6 +151437,34 @@
       "lastDate": "05/06/2000"
     },
     {
+      "id": "tupac",
+      "name": "Tupac",
+      "tracks": [
+        {
+          "key": "runnin|tupac",
+          "title": "Runnin' (Dying To Live)",
+          "credit": "Tupac feat. The Notorious B.I.G.",
+          "firstKey": "2004-05",
+          "firstDate": "26/01/2004",
+          "lastKey": "2004-20",
+          "lastDate": "10/05/2004",
+          "weeks": 15,
+          "peak": 28,
+          "peakKey": "2004-06",
+          "peakDate": "02/02/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 15,
+      "bestPeak": 28,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-05",
+      "firstDate": "26/01/2004",
+      "lastKey": "2004-20",
+      "lastDate": "10/05/2004"
+    },
+    {
       "id": "brigitte",
       "name": "Brigitte",
       "tracks": [
@@ -152003,34 +152109,6 @@
       "lastDate": "14/01/2002"
     },
     {
-      "id": "jean francois breau",
-      "name": "Jean-François Breau",
-      "tracks": [
-        {
-          "key": "du plaisir|jean francois breau",
-          "title": "Du plaisir",
-          "credit": "Jean-François Breau",
-          "firstKey": "2004-27",
-          "firstDate": "28/06/2004",
-          "lastKey": "2004-42",
-          "lastDate": "11/10/2004",
-          "weeks": 15,
-          "peak": 49,
-          "peakKey": "2004-28",
-          "peakDate": "05/07/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 15,
-      "bestPeak": 49,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-27",
-      "firstDate": "28/06/2004",
-      "lastKey": "2004-42",
-      "lastDate": "11/10/2004"
-    },
-    {
       "id": "rayman contre les lapins encore cretins",
       "name": "Rayman Contre Les Lapins Encore + Crétins",
       "tracks": [
@@ -152085,6 +152163,34 @@
       "firstDate": "19/11/2001",
       "lastKey": "2002-11",
       "lastDate": "11/03/2002"
+    },
+    {
+      "id": "shirel and leyla doriane",
+      "name": "Shirel & Leyla Doriane",
+      "tracks": [
+        {
+          "key": "o marseille|shirel and leyla doriane",
+          "title": "Ô Marseille",
+          "credit": "Shirel & Leyla Doriane",
+          "firstKey": "2004-38",
+          "firstDate": "13/09/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 15,
+          "peak": 52,
+          "peakKey": "2004-39",
+          "peakDate": "20/09/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 15,
+      "bestPeak": 52,
+      "firstYear": 2004,
+      "lastYear": 2005,
+      "firstKey": "2004-38",
+      "firstDate": "13/09/2004",
+      "lastKey": "2005-53",
+      "lastDate": "02/01/2006"
     },
     {
       "id": "caissy and dijay",
@@ -153907,34 +154013,6 @@
       "lastDate": "06/07/2009"
     },
     {
-      "id": "tupac",
-      "name": "Tupac",
-      "tracks": [
-        {
-          "key": "runnin|tupac",
-          "title": "Runnin' (Dying To Live)",
-          "credit": "Tupac feat. The Notorious B.I.G.",
-          "firstKey": "2004-05",
-          "firstDate": "26/01/2004",
-          "lastKey": "2004-20",
-          "lastDate": "10/05/2004",
-          "weeks": 14,
-          "peak": 28,
-          "peakKey": "2004-06",
-          "peakDate": "02/02/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 14,
-      "bestPeak": 28,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-05",
-      "firstDate": "26/01/2004",
-      "lastKey": "2004-20",
-      "lastDate": "10/05/2004"
-    },
-    {
       "id": "dave and tiakola",
       "name": "Dave & Tiakola",
       "tracks": [
@@ -154801,6 +154879,34 @@
       "firstDate": "06/08/2007",
       "lastKey": "2007-45",
       "lastDate": "05/11/2007"
+    },
+    {
+      "id": "cool t",
+      "name": "Cool-T",
+      "tracks": [
+        {
+          "key": "kamasutra|cool t",
+          "title": "Kamasutra",
+          "credit": "Cool-T",
+          "firstKey": "2004-46",
+          "firstDate": "08/11/2004",
+          "lastKey": "2005-53",
+          "lastDate": "02/01/2006",
+          "weeks": 14,
+          "peak": 40,
+          "peakKey": "2004-46",
+          "peakDate": "08/11/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 14,
+      "bestPeak": 40,
+      "firstYear": 2004,
+      "lastYear": 2005,
+      "firstKey": "2004-46",
+      "firstDate": "08/11/2004",
+      "lastKey": "2005-53",
+      "lastDate": "02/01/2006"
     },
     {
       "id": "steve n king",
@@ -155977,6 +156083,34 @@
       "firstDate": "27/10/1985",
       "lastKey": "1986-03",
       "lastDate": "19/01/1986"
+    },
+    {
+      "id": "dis l heure 2 ragga",
+      "name": "Dis L'heure 2 Ragga",
+      "tracks": [
+        {
+          "key": "elle veut|dis l heure 2 ragga",
+          "title": "Elle veut",
+          "credit": "Dis L'heure 2 Ragga",
+          "firstKey": "2004-35",
+          "firstDate": "23/08/2004",
+          "lastKey": "2004-47",
+          "lastDate": "15/11/2004",
+          "weeks": 13,
+          "peak": 15,
+          "peakKey": "2004-36",
+          "peakDate": "30/08/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 13,
+      "bestPeak": 15,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-35",
+      "firstDate": "23/08/2004",
+      "lastKey": "2004-47",
+      "lastDate": "15/11/2004"
     },
     {
       "id": "solidays",
@@ -157771,34 +157905,6 @@
       "lastDate": "30/12/2002"
     },
     {
-      "id": "cool t",
-      "name": "Cool-T",
-      "tracks": [
-        {
-          "key": "kamasutra|cool t",
-          "title": "Kamasutra",
-          "credit": "Cool-T",
-          "firstKey": "2004-47",
-          "firstDate": "15/11/2004",
-          "lastKey": "2005-53",
-          "lastDate": "02/01/2006",
-          "weeks": 13,
-          "peak": 42,
-          "peakKey": "2004-47",
-          "peakDate": "15/11/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 13,
-      "bestPeak": 42,
-      "firstYear": 2004,
-      "lastYear": 2005,
-      "firstKey": "2004-47",
-      "firstDate": "15/11/2004",
-      "lastKey": "2005-53",
-      "lastDate": "02/01/2006"
-    },
-    {
       "id": "disco kings",
       "name": "Disco Kings",
       "tracks": [
@@ -158807,34 +158913,6 @@
       "lastDate": "28/03/2016"
     },
     {
-      "id": "dis l heure 2 ragga",
-      "name": "Dis L'heure 2 Ragga",
-      "tracks": [
-        {
-          "key": "elle veut|dis l heure 2 ragga",
-          "title": "Elle veut",
-          "credit": "Dis L'heure 2 Ragga",
-          "firstKey": "2004-35",
-          "firstDate": "23/08/2004",
-          "lastKey": "2004-47",
-          "lastDate": "15/11/2004",
-          "weeks": 12,
-          "peak": 15,
-          "peakKey": "2004-36",
-          "peakDate": "30/08/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 12,
-      "bestPeak": 15,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-35",
-      "firstDate": "23/08/2004",
-      "lastKey": "2004-47",
-      "lastDate": "15/11/2004"
-    },
-    {
       "id": "dj sakin and friends",
       "name": "DJ Sakin & Friends",
       "tracks": [
@@ -159673,6 +159751,34 @@
       "firstDate": "28/06/1999",
       "lastKey": "1999-38",
       "lastDate": "20/09/1999"
+    },
+    {
+      "id": "morganne matis",
+      "name": "Morganne Matis",
+      "tracks": [
+        {
+          "key": "duel|morganne matis",
+          "title": "Duel",
+          "credit": "Morganne Matis",
+          "firstKey": "2004-10",
+          "firstDate": "01/03/2004",
+          "lastKey": "2004-21",
+          "lastDate": "17/05/2004",
+          "weeks": 12,
+          "peak": 23,
+          "peakKey": "2004-10",
+          "peakDate": "01/03/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 12,
+      "bestPeak": 23,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-10",
+      "firstDate": "01/03/2004",
+      "lastKey": "2004-21",
+      "lastDate": "17/05/2004"
     },
     {
       "id": "alannah myles",
@@ -160933,6 +161039,34 @@
       "firstDate": "08/04/2002",
       "lastKey": "2002-26",
       "lastDate": "24/06/2002"
+    },
+    {
+      "id": "daho and gainsbourg",
+      "name": "Daho & Gainsbourg",
+      "tracks": [
+        {
+          "key": "if|daho and gainsbourg",
+          "title": "If",
+          "credit": "Daho & Gainsbourg",
+          "firstKey": "2004-13",
+          "firstDate": "22/03/2004",
+          "lastKey": "2004-25",
+          "lastDate": "14/06/2004",
+          "weeks": 12,
+          "peak": 42,
+          "peakKey": "2004-13",
+          "peakDate": "22/03/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 12,
+      "bestPeak": 42,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-13",
+      "firstDate": "22/03/2004",
+      "lastKey": "2004-25",
+      "lastDate": "14/06/2004"
     },
     {
       "id": "kore and ninho",
@@ -165611,34 +165745,6 @@
       "lastDate": "19/06/1995"
     },
     {
-      "id": "morganne matis",
-      "name": "Morganne Matis",
-      "tracks": [
-        {
-          "key": "duel|morganne matis",
-          "title": "Duel",
-          "credit": "Morganne Matis",
-          "firstKey": "2004-10",
-          "firstDate": "01/03/2004",
-          "lastKey": "2004-21",
-          "lastDate": "17/05/2004",
-          "weeks": 10,
-          "peak": 23,
-          "peakKey": "2004-10",
-          "peakDate": "01/03/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 10,
-      "bestPeak": 23,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-10",
-      "firstDate": "01/03/2004",
-      "lastKey": "2004-21",
-      "lastDate": "17/05/2004"
-    },
-    {
       "id": "terra nuna",
       "name": "Terra Nuna",
       "tracks": [
@@ -168803,6 +168909,34 @@
       "lastDate": "04/04/1994"
     },
     {
+      "id": "mag",
+      "name": "Mag",
+      "tracks": [
+        {
+          "key": "oooh la|mag",
+          "title": "Oooh la !!!",
+          "credit": "Mag",
+          "firstKey": "2004-37",
+          "firstDate": "06/09/2004",
+          "lastKey": "2004-45",
+          "lastDate": "01/11/2004",
+          "weeks": 9,
+          "peak": 28,
+          "peakKey": "2004-37",
+          "peakDate": "06/09/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 9,
+      "bestPeak": 28,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-37",
+      "firstDate": "06/09/2004",
+      "lastKey": "2004-45",
+      "lastDate": "01/11/2004"
+    },
+    {
       "id": "sarah thery",
       "name": "Sarah Thery",
       "tracks": [
@@ -170567,6 +170701,34 @@
       "lastDate": "25/12/2000"
     },
     {
+      "id": "ceansay",
+      "name": "Ceansay",
+      "tracks": [
+        {
+          "key": "bouge ton bool|ceansay",
+          "title": "Bouge ton bool",
+          "credit": "Ceansay",
+          "firstKey": "2004-28",
+          "firstDate": "05/07/2004",
+          "lastKey": "2004-37",
+          "lastDate": "06/09/2004",
+          "weeks": 9,
+          "peak": 62,
+          "peakKey": "2004-28",
+          "peakDate": "05/07/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 9,
+      "bestPeak": 62,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-28",
+      "firstDate": "05/07/2004",
+      "lastKey": "2004-37",
+      "lastDate": "06/09/2004"
+    },
+    {
       "id": "erick morillo",
       "name": "Erick Morillo",
       "tracks": [
@@ -171573,34 +171735,6 @@
       "firstDate": "02/02/1992",
       "lastKey": "1992-12",
       "lastDate": "22/03/1992"
-    },
-    {
-      "id": "mag",
-      "name": "Mag",
-      "tracks": [
-        {
-          "key": "oooh la|mag",
-          "title": "Oooh la !!!",
-          "credit": "Mag",
-          "firstKey": "2004-37",
-          "firstDate": "06/09/2004",
-          "lastKey": "2004-45",
-          "lastDate": "01/11/2004",
-          "weeks": 8,
-          "peak": 28,
-          "peakKey": "2004-37",
-          "peakDate": "06/09/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 8,
-      "bestPeak": 28,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-37",
-      "firstDate": "06/09/2004",
-      "lastKey": "2004-45",
-      "lastDate": "01/11/2004"
     },
     {
       "id": "sasha",
@@ -173115,6 +173249,34 @@
       "lastDate": "16/06/2003"
     },
     {
+      "id": "shifty",
+      "name": "Shifty",
+      "tracks": [
+        {
+          "key": "slide along side|shifty",
+          "title": "Slide Along Side",
+          "credit": "Shifty",
+          "firstKey": "2004-40",
+          "firstDate": "27/09/2004",
+          "lastKey": "2004-47",
+          "lastDate": "15/11/2004",
+          "weeks": 8,
+          "peak": 45,
+          "peakKey": "2004-40",
+          "peakDate": "27/09/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 8,
+      "bestPeak": 45,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-40",
+      "firstDate": "27/09/2004",
+      "lastKey": "2004-47",
+      "lastDate": "15/11/2004"
+    },
+    {
       "id": "capitaine flam",
       "name": "Capitaine Flam",
       "tracks": [
@@ -173729,34 +173891,6 @@
       "firstDate": "17/06/2002",
       "lastKey": "2002-32",
       "lastDate": "05/08/2002"
-    },
-    {
-      "id": "ceansay",
-      "name": "Ceansay",
-      "tracks": [
-        {
-          "key": "bouge ton bool|ceansay",
-          "title": "Bouge ton bool",
-          "credit": "Ceansay",
-          "firstKey": "2004-28",
-          "firstDate": "05/07/2004",
-          "lastKey": "2004-37",
-          "lastDate": "06/09/2004",
-          "weeks": 8,
-          "peak": 62,
-          "peakKey": "2004-28",
-          "peakDate": "05/07/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 8,
-      "bestPeak": 62,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-28",
-      "firstDate": "05/07/2004",
-      "lastKey": "2004-37",
-      "lastDate": "06/09/2004"
     },
     {
       "id": "goog and commuter and lowkey and kardinal",
@@ -175997,34 +176131,6 @@
       "firstDate": "21/02/2005",
       "lastKey": "2005-15",
       "lastDate": "11/04/2005"
-    },
-    {
-      "id": "shifty",
-      "name": "Shifty",
-      "tracks": [
-        {
-          "key": "slide along side|shifty",
-          "title": "Slide Along Side",
-          "credit": "Shifty",
-          "firstKey": "2004-40",
-          "firstDate": "27/09/2004",
-          "lastKey": "2004-47",
-          "lastDate": "15/11/2004",
-          "weeks": 7,
-          "peak": 45,
-          "peakKey": "2004-40",
-          "peakDate": "27/09/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 7,
-      "bestPeak": 45,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-40",
-      "firstDate": "27/09/2004",
-      "lastKey": "2004-47",
-      "lastDate": "15/11/2004"
     },
     {
       "id": "chris biggin",
@@ -179723,6 +179829,34 @@
       "lastDate": "29/03/2021"
     },
     {
+      "id": "douty",
+      "name": "Douty",
+      "tracks": [
+        {
+          "key": "tout le monde dit|douty",
+          "title": "Tout le monde dit",
+          "credit": "Douty",
+          "firstKey": "2004-10",
+          "firstDate": "01/03/2004",
+          "lastKey": "2004-15",
+          "lastDate": "05/04/2004",
+          "weeks": 6,
+          "peak": 54,
+          "peakKey": "2004-10",
+          "peakDate": "01/03/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 6,
+      "bestPeak": 54,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-10",
+      "firstDate": "01/03/2004",
+      "lastKey": "2004-15",
+      "lastDate": "05/04/2004"
+    },
+    {
       "id": "jey brownie",
       "name": "Jey Brownie",
       "tracks": [
@@ -183167,34 +183301,6 @@
       "lastDate": "16/10/2017"
     },
     {
-      "id": "douty",
-      "name": "Douty",
-      "tracks": [
-        {
-          "key": "tout le monde dit|douty",
-          "title": "Tout le monde dit",
-          "credit": "Douty",
-          "firstKey": "2004-10",
-          "firstDate": "01/03/2004",
-          "lastKey": "2004-15",
-          "lastDate": "05/04/2004",
-          "weeks": 5,
-          "peak": 54,
-          "peakKey": "2004-10",
-          "peakDate": "01/03/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 5,
-      "bestPeak": 54,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-10",
-      "firstDate": "01/03/2004",
-      "lastKey": "2004-15",
-      "lastDate": "05/04/2004"
-    },
-    {
       "id": "seba",
       "name": "Seba",
       "tracks": [
@@ -184957,6 +185063,34 @@
       "firstDate": "10/03/1997",
       "lastKey": "1997-16",
       "lastDate": "14/04/1997"
+    },
+    {
+      "id": "2",
+      "name": "2",
+      "tracks": [
+        {
+          "key": "1|2",
+          "title": "1",
+          "credit": "2",
+          "firstKey": "1998-11",
+          "firstDate": "09/03/1998",
+          "lastKey": "2004-48",
+          "lastDate": "22/11/2004",
+          "weeks": 4,
+          "peak": 35,
+          "peakKey": "1999-28",
+          "peakDate": "12/07/1999"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 4,
+      "bestPeak": 35,
+      "firstYear": 1998,
+      "lastYear": 2004,
+      "firstKey": "1998-11",
+      "firstDate": "09/03/1998",
+      "lastKey": "2004-48",
+      "lastDate": "22/11/2004"
     },
     {
       "id": "toto",
@@ -188485,34 +188619,6 @@
       "firstDate": "04/03/1996",
       "lastKey": "1996-12",
       "lastDate": "18/03/1996"
-    },
-    {
-      "id": "2",
-      "name": "2",
-      "tracks": [
-        {
-          "key": "1|2",
-          "title": "1",
-          "credit": "2",
-          "firstKey": "1998-11",
-          "firstDate": "09/03/1998",
-          "lastKey": "1999-28",
-          "lastDate": "12/07/1999",
-          "weeks": 3,
-          "peak": 35,
-          "peakKey": "1999-28",
-          "peakDate": "12/07/1999"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 3,
-      "bestPeak": 35,
-      "firstYear": 1998,
-      "lastYear": 1999,
-      "firstKey": "1998-11",
-      "firstDate": "09/03/1998",
-      "lastKey": "1999-28",
-      "lastDate": "12/07/1999"
     },
     {
       "id": "calvin harris and the weeknd",
@@ -192433,34 +192539,6 @@
       "firstDate": "18/03/2002",
       "lastKey": "2002-14",
       "lastDate": "01/04/2002"
-    },
-    {
-      "id": "arrow_bot",
-      "name": "arrow_bot",
-      "tracks": [
-        {
-          "key": "rohff|arrow_bot",
-          "title": "Rohff",
-          "credit": "arrow_bot",
-          "firstKey": "2004-18",
-          "firstDate": "26/04/2004",
-          "lastKey": "2004-20",
-          "lastDate": "10/05/2004",
-          "weeks": 3,
-          "peak": 94,
-          "peakKey": "2004-18",
-          "peakDate": "26/04/2004"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 3,
-      "bestPeak": 94,
-      "firstYear": 2004,
-      "lastYear": 2004,
-      "firstKey": "2004-18",
-      "firstDate": "26/04/2004",
-      "lastKey": "2004-20",
-      "lastDate": "10/05/2004"
     },
     {
       "id": "nathalie fauran",
@@ -198119,6 +198197,62 @@
       "lastDate": "04/12/1995"
     },
     {
+      "id": "shut up",
+      "name": "Shut Up",
+      "tracks": [
+        {
+          "key": "2|shut up",
+          "title": "2",
+          "credit": "Shut Up",
+          "firstKey": "2004-03",
+          "firstDate": "12/01/2004",
+          "lastKey": "2004-03",
+          "lastDate": "12/01/2004",
+          "weeks": 1,
+          "peak": 3,
+          "peakKey": "2004-03",
+          "peakDate": "12/01/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 3,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-03",
+      "firstDate": "12/01/2004",
+      "lastKey": "2004-03",
+      "lastDate": "12/01/2004"
+    },
+    {
+      "id": "si demain",
+      "name": "Si demain...",
+      "tracks": [
+        {
+          "key": "2|si demain",
+          "title": "2",
+          "credit": "Si demain... (Turn Around)",
+          "firstKey": "2004-12",
+          "firstDate": "15/03/2004",
+          "lastKey": "2004-12",
+          "lastDate": "15/03/2004",
+          "weeks": 1,
+          "peak": 3,
+          "peakKey": "2004-12",
+          "peakDate": "15/03/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 3,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-12",
+      "firstDate": "15/03/2004",
+      "lastKey": "2004-12",
+      "lastDate": "15/03/2004"
+    },
+    {
       "id": "stach stach",
       "name": "Stach Stach",
       "tracks": [
@@ -198287,6 +198421,34 @@
       "lastDate": "21/02/2000"
     },
     {
+      "id": "comme des conards",
+      "name": "Comme des conards",
+      "tracks": [
+        {
+          "key": "4|comme des conards",
+          "title": "4",
+          "credit": "Comme des conards",
+          "firstKey": "2004-04",
+          "firstDate": "19/01/2004",
+          "lastKey": "2004-04",
+          "lastDate": "19/01/2004",
+          "weeks": 1,
+          "peak": 5,
+          "peakKey": "2004-04",
+          "peakDate": "19/01/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 5,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-04",
+      "firstDate": "19/01/2004",
+      "lastKey": "2004-04",
+      "lastDate": "19/01/2004"
+    },
+    {
       "id": "alt j",
       "name": "Alt-j",
       "tracks": [
@@ -198341,6 +198503,34 @@
       "firstDate": "09/09/2002",
       "lastKey": "2002-37",
       "lastDate": "09/09/2002"
+    },
+    {
+      "id": "everytime",
+      "name": "Everytime",
+      "tracks": [
+        {
+          "key": "6|everytime",
+          "title": "6",
+          "credit": "Everytime",
+          "firstKey": "2004-41",
+          "firstDate": "04/10/2004",
+          "lastKey": "2004-41",
+          "lastDate": "04/10/2004",
+          "weeks": 1,
+          "peak": 6,
+          "peakKey": "2004-41",
+          "peakDate": "04/10/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 6,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-41",
+      "firstDate": "04/10/2004",
+      "lastKey": "2004-41",
+      "lastDate": "04/10/2004"
     },
     {
       "id": "i d do anything for love b",
@@ -198621,6 +198811,34 @@
       "firstDate": "28/05/2001",
       "lastKey": "2001-22",
       "lastDate": "28/05/2001"
+    },
+    {
+      "id": "tant pis",
+      "name": "Tant pis",
+      "tracks": [
+        {
+          "key": "8|tant pis",
+          "title": "8",
+          "credit": "Tant pis",
+          "firstKey": "2004-10",
+          "firstDate": "01/03/2004",
+          "lastKey": "2004-10",
+          "lastDate": "01/03/2004",
+          "weeks": 1,
+          "peak": 8,
+          "peakKey": "2004-10",
+          "peakDate": "01/03/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 8,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-10",
+      "firstDate": "01/03/2004",
+      "lastKey": "2004-10",
+      "lastDate": "01/03/2004"
     },
     {
       "id": "xxl",
@@ -199155,6 +199373,34 @@
       "lastDate": "01/09/1997"
     },
     {
+      "id": "le souvenir de ce jour",
+      "name": "Le souvenir de ce jour",
+      "tracks": [
+        {
+          "key": "9|le souvenir de ce jour",
+          "title": "9",
+          "credit": "Le souvenir de ce jour",
+          "firstKey": "2004-41",
+          "firstDate": "04/10/2004",
+          "lastKey": "2004-41",
+          "lastDate": "04/10/2004",
+          "weeks": 1,
+          "peak": 14,
+          "peakKey": "2004-41",
+          "peakDate": "04/10/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 14,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-41",
+      "firstDate": "04/10/2004",
+      "lastKey": "2004-41",
+      "lastDate": "04/10/2004"
+    },
+    {
       "id": "can we talk about it",
       "name": "Can We Talk About It",
       "tracks": [
@@ -199293,6 +199539,34 @@
       "firstDate": "27/01/1997",
       "lastKey": "1997-05",
       "lastDate": "27/01/1997"
+    },
+    {
+      "id": "arrow_top",
+      "name": "arrow_top",
+      "tracks": [
+        {
+          "key": "ultra lights feat steph b|arrow_top",
+          "title": "Ultra Lights feat. Steph B.",
+          "credit": "arrow_top",
+          "firstKey": "2005-18",
+          "firstDate": "02/05/2005",
+          "lastKey": "2005-18",
+          "lastDate": "02/05/2005",
+          "weeks": 1,
+          "peak": 18,
+          "peakKey": "2005-18",
+          "peakDate": "02/05/2005"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 18,
+      "firstYear": 2005,
+      "lastYear": 2005,
+      "firstKey": "2005-18",
+      "firstDate": "02/05/2005",
+      "lastKey": "2005-18",
+      "lastDate": "02/05/2005"
     },
     {
       "id": "cobra starship",
@@ -201115,6 +201389,34 @@
       "lastDate": "08/07/2002"
     },
     {
+      "id": "dragostea din tei",
+      "name": "Dragostea din teï",
+      "tracks": [
+        {
+          "key": "3|dragostea din tei",
+          "title": "3",
+          "credit": "Dragostea din teï",
+          "firstKey": "2004-15",
+          "firstDate": "05/04/2004",
+          "lastKey": "2004-15",
+          "lastDate": "05/04/2004",
+          "weeks": 1,
+          "peak": 44,
+          "peakKey": "2004-15",
+          "peakDate": "05/04/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 44,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-15",
+      "firstDate": "05/04/2004",
+      "lastKey": "2004-15",
+      "lastDate": "05/04/2004"
+    },
+    {
       "id": "fabio concato",
       "name": "Fabio Concato",
       "tracks": [
@@ -201591,6 +201893,34 @@
       "lastDate": "24/06/2002"
     },
     {
+      "id": "garde moi",
+      "name": "Garde-moi",
+      "tracks": [
+        {
+          "key": "4|garde moi",
+          "title": "4",
+          "credit": "Garde-moi",
+          "firstKey": "2004-22",
+          "firstDate": "24/05/2004",
+          "lastKey": "2004-22",
+          "lastDate": "24/05/2004",
+          "weeks": 1,
+          "peak": 47,
+          "peakKey": "2004-22",
+          "peakDate": "24/05/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 47,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-22",
+      "firstDate": "24/05/2004",
+      "lastKey": "2004-22",
+      "lastDate": "24/05/2004"
+    },
+    {
       "id": "lighthouse family",
       "name": "Lighthouse Family",
       "tracks": [
@@ -201813,6 +202143,34 @@
       "firstDate": "16/02/1992",
       "lastKey": "1992-07",
       "lastDate": "16/02/1992"
+    },
+    {
+      "id": "ragga string",
+      "name": "Ragga String",
+      "tracks": [
+        {
+          "key": "20|ragga string",
+          "title": "20",
+          "credit": "Ragga String",
+          "firstKey": "2004-38",
+          "firstDate": "13/09/2004",
+          "lastKey": "2004-38",
+          "lastDate": "13/09/2004",
+          "weeks": 1,
+          "peak": 49,
+          "peakKey": "2004-38",
+          "peakDate": "13/09/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 49,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-38",
+      "firstDate": "13/09/2004",
+      "lastKey": "2004-38",
+      "lastDate": "13/09/2004"
     },
     {
       "id": "reiner hugues and europe orchestre",
@@ -204195,6 +204553,34 @@
       "lastDate": "18/04/2011"
     },
     {
+      "id": "i don t wanna know",
+      "name": "I Don't Wanna Know",
+      "tracks": [
+        {
+          "key": "6|i don t wanna know",
+          "title": "6",
+          "credit": "I Don't Wanna Know",
+          "firstKey": "2004-19",
+          "firstDate": "03/05/2004",
+          "lastKey": "2004-19",
+          "lastDate": "03/05/2004",
+          "weeks": 1,
+          "peak": 64,
+          "peakKey": "2004-19",
+          "peakDate": "03/05/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 64,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-19",
+      "firstDate": "03/05/2004",
+      "lastKey": "2004-19",
+      "lastDate": "03/05/2004"
+    },
+    {
       "id": "swell",
       "name": "Swell",
       "tracks": [
@@ -204503,34 +204889,6 @@
       "lastDate": "11/02/2008"
     },
     {
-      "id": "la bamba",
-      "name": "La bamba",
-      "tracks": [
-        {
-          "key": "4|la bamba",
-          "title": "4",
-          "credit": "La bamba",
-          "firstKey": "2003-48",
-          "firstDate": "24/11/2003",
-          "lastKey": "2003-48",
-          "lastDate": "24/11/2003",
-          "weeks": 1,
-          "peak": 74,
-          "peakKey": "2003-48",
-          "peakDate": "24/11/2003"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 1,
-      "bestPeak": 74,
-      "firstYear": 2003,
-      "lastYear": 2003,
-      "firstKey": "2003-48",
-      "firstDate": "24/11/2003",
-      "lastKey": "2003-48",
-      "lastDate": "24/11/2003"
-    },
-    {
       "id": "solovyev",
       "name": "Solovyev",
       "tracks": [
@@ -204585,6 +204943,34 @@
       "firstDate": "16/11/2009",
       "lastKey": "2009-47",
       "lastDate": "16/11/2009"
+    },
+    {
+      "id": "sientelo",
+      "name": "Sientelo",
+      "tracks": [
+        {
+          "key": "10|sientelo",
+          "title": "10",
+          "credit": "Sientelo",
+          "firstKey": "2004-48",
+          "firstDate": "22/11/2004",
+          "lastKey": "2004-48",
+          "lastDate": "22/11/2004",
+          "weeks": 1,
+          "peak": 76,
+          "peakKey": "2004-48",
+          "peakDate": "22/11/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 76,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-48",
+      "firstDate": "22/11/2004",
+      "lastKey": "2004-48",
+      "lastDate": "22/11/2004"
     },
     {
       "id": "je veux vivre",
@@ -204669,6 +205055,34 @@
       "firstDate": "16/05/2011",
       "lastKey": "2011-20",
       "lastDate": "16/05/2011"
+    },
+    {
+      "id": "just lose it",
+      "name": "Just Lose It",
+      "tracks": [
+        {
+          "key": "11|just lose it",
+          "title": "11",
+          "credit": "Just Lose It",
+          "firstKey": "2004-46",
+          "firstDate": "08/11/2004",
+          "lastKey": "2004-46",
+          "lastDate": "08/11/2004",
+          "weeks": 1,
+          "peak": 80,
+          "peakKey": "2004-46",
+          "peakDate": "08/11/2004"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 1,
+      "bestPeak": 80,
+      "firstYear": 2004,
+      "lastYear": 2004,
+      "firstKey": "2004-46",
+      "firstDate": "08/11/2004",
+      "lastKey": "2004-46",
+      "lastDate": "08/11/2004"
     },
     {
       "id": "the tunes",
