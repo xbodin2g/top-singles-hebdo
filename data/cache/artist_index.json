@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T21:42:08.632022+00:00",
+  "generatedAt": "2026-11-14T21:45:56.132011+00:00",
   "archiveCount": 2198,
   "artistCount": 4669,
   "trackCount": 10800,
@@ -131480,6 +131480,34 @@
       "lastDate": "10/07/2000"
     },
     {
+      "id": "r2",
+      "name": "R2",
+      "tracks": [
+        {
+          "key": "ruinart|r2",
+          "title": "Ruinart",
+          "credit": "R2",
+          "firstKey": "2025-28",
+          "firstDate": "07/07/2025",
+          "lastKey": "2025-53",
+          "lastDate": "29/12/2025",
+          "weeks": 26,
+          "peak": 30,
+          "peakKey": "2025-50",
+          "peakDate": "08/12/2025"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 26,
+      "bestPeak": 30,
+      "firstYear": 2025,
+      "lastYear": 2025,
+      "firstKey": "2025-28",
+      "firstDate": "07/07/2025",
+      "lastKey": "2025-53",
+      "lastDate": "29/12/2025"
+    },
+    {
       "id": "mauss charlie",
       "name": "Mauss + Charlie",
       "tracks": [
@@ -202150,34 +202178,6 @@
       "firstDate": "13/03/2017",
       "lastKey": "2017-11",
       "lastDate": "13/03/2017"
-    },
-    {
-      "id": "r2",
-      "name": "R2",
-      "tracks": [
-        {
-          "key": "ruinart|r2",
-          "title": "Ruinart",
-          "credit": "R2 (Rap)",
-          "firstKey": "2025-46",
-          "firstDate": "10/11/2025",
-          "lastKey": "2025-46",
-          "lastDate": "10/11/2025",
-          "weeks": 1,
-          "peak": 41,
-          "peakKey": "2025-46",
-          "peakDate": "10/11/2025"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 1,
-      "bestPeak": 41,
-      "firstYear": 2025,
-      "lastYear": 2025,
-      "firstKey": "2025-46",
-      "firstDate": "10/11/2025",
-      "lastKey": "2025-46",
-      "lastDate": "10/11/2025"
     },
     {
       "id": "alegria",
