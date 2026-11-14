@@ -1,5 +1,289 @@
 [
   {
+    "key": "1999-27",
+    "inferred": [],
+    "non_inferable": [
+      {
+        "hole": 67,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      }
+    ],
+    "no_next": []
+  },
+  {
+    "key": "1999-33",
+    "inferred": [],
+    "non_inferable": [
+      {
+        "hole": 51,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      }
+    ],
+    "no_next": []
+  },
+  {
+    "key": "2004-16",
+    "inferred": [
+      {
+        "hole": 2,
+        "status": "inferable",
+        "next_key": "2004-17",
+        "next_position": 2,
+        "artist": "Usher",
+        "title": "Yeah",
+        "label": null,
+        "movement": "same"
+      },
+      {
+        "hole": 8,
+        "status": "inferable",
+        "next_key": "2004-17",
+        "next_position": 10,
+        "artist": "Britney Spears",
+        "title": "Toxic",
+        "label": null,
+        "movement": "down"
+      },
+      {
+        "hole": 52,
+        "status": "inferable",
+        "next_key": "2004-17",
+        "next_position": 53,
+        "artist": "Daho & Gainsbourg",
+        "title": "If",
+        "label": null,
+        "movement": "down"
+      },
+      {
+        "hole": 56,
+        "status": "inferable",
+        "next_key": "2004-17",
+        "next_position": 63,
+        "artist": "3T",
+        "title": "Sex Appeal",
+        "label": null,
+        "movement": "down"
+      },
+      {
+        "hole": 72,
+        "status": "inferable",
+        "next_key": "2004-17",
+        "next_position": 68,
+        "artist": "Rohff",
+        "title": "94",
+        "label": null,
+        "movement": "up"
+      }
+    ],
+    "non_inferable": [
+      {
+        "hole": 91,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      }
+    ],
+    "no_next": []
+  },
+  {
+    "key": "2005-18",
+    "inferred": [],
+    "non_inferable": [
+      {
+        "hole": 52,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      }
+    ],
+    "no_next": []
+  },
+  {
+    "key": "2005-19",
+    "inferred": [],
+    "non_inferable": [
+      {
+        "hole": 55,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      }
+    ],
+    "no_next": []
+  },
+  {
+    "key": "2005-20",
+    "inferred": [],
+    "non_inferable": [
+      {
+        "hole": 62,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      }
+    ],
+    "no_next": []
+  },
+  {
+    "key": "2005-21",
+    "inferred": [
+      {
+        "hole": 70,
+        "status": "inferable",
+        "next_key": "2005-22",
+        "next_position": 75,
+        "artist": "Écris l'histoire",
+        "title": "14",
+        "label": null,
+        "movement": "down"
+      }
+    ],
+    "non_inferable": [],
+    "no_next": []
+  },
+  {
+    "key": "2005-22",
+    "inferred": [],
+    "non_inferable": [
+      {
+        "hole": 70,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      }
+    ],
+    "no_next": []
+  },
+  {
+    "key": "2005-23",
+    "inferred": [
+      {
+        "hole": 31,
+        "status": "inferable",
+        "next_key": "2005-24",
+        "next_position": 32,
+        "artist": "L5",
+        "title": "À ta liberté",
+        "label": null,
+        "movement": "down"
+      },
+      {
+        "hole": 36,
+        "status": "inferable",
+        "next_key": "2005-24",
+        "next_position": 46,
+        "artist": "Ultra Lights feat. Steph B.",
+        "title": "18",
+        "label": null,
+        "movement": "down"
+      },
+      {
+        "hole": 63,
+        "status": "inferable",
+        "next_key": "2005-24",
+        "next_position": 63,
+        "artist": "M",
+        "title": "La bonne étoile",
+        "label": null,
+        "movement": "same"
+      },
+      {
+        "hole": 73,
+        "status": "inferable",
+        "next_key": "2005-24",
+        "next_position": 77,
+        "artist": "U2",
+        "title": "Sometimes You Can't Make It...",
+        "label": null,
+        "movement": "down"
+      },
+      {
+        "hole": 75,
+        "status": "inferable",
+        "next_key": "2005-24",
+        "next_position": 98,
+        "artist": "Stellar Project feat. Brandi Emma",
+        "title": "Get Up Stand Up",
+        "label": null,
+        "movement": "down"
+      }
+    ],
+    "non_inferable": [
+      {
+        "hole": 89,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      }
+    ],
+    "no_next": []
+  },
+  {
+    "key": "2005-24",
+    "inferred": [],
+    "non_inferable": [
+      {
+        "hole": 84,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      }
+    ],
+    "no_next": []
+  },
+  {
+    "key": "2005-25",
+    "inferred": [
+      {
+        "hole": 40,
+        "status": "inferable",
+        "next_key": "2005-26",
+        "next_position": 47,
+        "artist": "L5",
+        "title": "À ta liberté",
+        "label": null,
+        "movement": "down"
+      },
+      {
+        "hole": 54,
+        "status": "inferable",
+        "next_key": "2005-26",
+        "next_position": 60,
+        "artist": "Ultra Lights feat. Steph B.",
+        "title": "18",
+        "label": null,
+        "movement": "down"
+      },
+      {
+        "hole": 68,
+        "status": "inferable",
+        "next_key": "2005-26",
+        "next_position": 73,
+        "artist": "Hot Vibes Baby feat. Still T/D",
+        "title": "Hot",
+        "label": null,
+        "movement": "down"
+      },
+      {
+        "hole": 78,
+        "status": "inferable",
+        "next_key": "2005-26",
+        "next_position": 82,
+        "artist": "M",
+        "title": "La bonne étoile",
+        "label": null,
+        "movement": "down"
+      },
+      {
+        "hole": 86,
+        "status": "inferable",
+        "next_key": "2005-26",
+        "next_position": 91,
+        "artist": "U2",
+        "title": "Sometimes You Can't Make It...",
+        "label": null,
+        "movement": "down"
+      }
+    ],
+    "non_inferable": [],
+    "no_next": []
+  },
+  {
     "key": "2010-17",
     "inferred": [
       {
@@ -11,6 +295,220 @@
         "title": "TiK ToK",
         "label": null,
         "movement": "down"
+      }
+    ],
+    "non_inferable": [],
+    "no_next": []
+  },
+  {
+    "key": "2010-20",
+    "inferred": [
+      {
+        "hole": 53,
+        "status": "inferable",
+        "next_key": "2010-21",
+        "next_position": 54,
+        "artist": "Divers",
+        "title": "Hymne Brésil",
+        "label": null,
+        "movement": "down"
+      }
+    ],
+    "non_inferable": [],
+    "no_next": []
+  },
+  {
+    "key": "2012-16",
+    "inferred": [],
+    "non_inferable": [
+      {
+        "hole": 26,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 27,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 28,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 29,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 30,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 31,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      }
+    ],
+    "no_next": []
+  },
+  {
+    "key": "2014-09",
+    "inferred": [
+      {
+        "hole": 29,
+        "status": "inferable",
+        "next_key": "2014-10",
+        "next_position": 19,
+        "artist": "Cris Cab",
+        "title": "Liar Liar",
+        "label": null,
+        "movement": "up"
+      },
+      {
+        "hole": 30,
+        "status": "inferable",
+        "next_key": "2014-10",
+        "next_position": 13,
+        "artist": "Clean Bandit",
+        "title": "Rather Be",
+        "label": null,
+        "movement": "up"
+      },
+      {
+        "hole": 38,
+        "status": "inferable",
+        "next_key": "2014-10",
+        "next_position": 23,
+        "artist": "Milky Chance",
+        "title": "Stolen Dance",
+        "label": null,
+        "movement": "up"
+      }
+    ],
+    "non_inferable": [
+      {
+        "hole": 26,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 27,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 28,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 31,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 32,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 33,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 34,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 35,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 36,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 37,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 39,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 40,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 41,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 42,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 43,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 44,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 45,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 46,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 47,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 48,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      },
+      {
+        "hole": 49,
+        "status": "non_inferable",
+        "reason": "aucune_entree_en_S+1_avec_previousPosition_correspondant"
+      }
+    ],
+    "no_next": []
+  },
+  {
+    "key": "2024-36",
+    "inferred": [
+      {
+        "hole": 56,
+        "status": "inferable",
+        "next_key": "2024-37",
+        "next_position": 47,
+        "artist": "Gims",
+        "title": "Saint-Tropez",
+        "label": null,
+        "movement": "up"
       }
     ],
     "non_inferable": [],
