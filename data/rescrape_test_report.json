@@ -1,100 +1,26 @@
 [
   {
-    "key": "1999-01",
+    "key": "2000-01",
     "status": "ok",
-    "entries_before": 99,
+    "entries_before": 96,
     "entries_after": 100,
     "gaps_before": [
-      99
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "99": "U2 — Sweetest Thing"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-02",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      3,
-      98
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Daniel Lavoie, Patrick Fiori & Garou — Belle",
-      "98": "U2 — Sweetest Thing"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-03",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      3,
-      49
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Larusso — Tu m'oublieras",
-      "49": "Cleopatra — I Want You Back"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-04",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      2
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "2": "Cher — Believe"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-06",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      33,
-      34,
-      39
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "33": "Sandy Valentino — Encore",
-      "34": "Isabelle Boulay — Je t'oublierai, je t'oublierai",
-      "39": "Matmatah — Lambé an dro"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-07",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
+      6,
+      8,
       10,
-      36
+      14
     ],
     "gaps_after": [],
     "recovered": {
-      "10": "Mariah Carey & Whitney Houston — When You Believe",
-      "36": "Shelby — 1 + 1"
+      "6": "Hélène Segara — Il y a trop de gens qui t'a...",
+      "8": "Tina Arena — Aller plus haut",
+      "10": "Céline Dion — That's The Way It Is",
+      "14": "Christina Aguilera — Genie In A Bottle"
     },
     "still_missing": []
   },
   {
-    "key": "1999-08",
+    "key": "2000-02",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
@@ -103,367 +29,186 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "13": "Kim 'Kay — Lilali"
+      "13": "Céline Dion — That's The Way It Is"
     },
     "still_missing": []
   },
   {
-    "key": "1999-09",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      47
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "47": "George Michael & Mary J Blige — As"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-10",
+    "key": "2000-03",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      30,
-      59
+      4,
+      56
     ],
     "gaps_after": [],
     "recovered": {
-      "30": "George Michael & Mary J Blige — As",
-      "59": "Tina Arena & Marc Anthony — I Want To Spend My Lifetime..."
+      "4": "Hélène Segara — Il y a trop de gens qui t'a...",
+      "56": "MJ — C'est écrit"
     },
     "still_missing": []
   },
   {
-    "key": "1999-11",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      27
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "27": "George Michael & Mary J Blige — As"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-12",
+    "key": "2000-04",
     "status": "ok",
     "entries_before": 97,
     "entries_after": 100,
     "gaps_before": [
-      31,
-      69,
-      85
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "31": "George Michael & Mary J Blige — As",
-      "69": "Mickaël Winter — Toi qui me sais",
-      "85": "TQ — Westside"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-13",
-    "status": "ok",
-    "entries_before": 96,
-    "entries_after": 100,
-    "gaps_before": [
-      21,
-      31,
-      40,
-      59
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "21": "Manau — Mais qui est la belette ?",
-      "31": "George Michael & Mary J Blige — As",
-      "40": "Hélène Segara — Les vallées d'Irlande",
-      "59": "TQ — Westside"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-14",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      31,
-      36,
-      72
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "31": "George Michael & Mary J Blige — As",
-      "36": "A+ — Enjoy Yourself",
-      "72": "TQ — Westside"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-15",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      29,
-      37,
-      84
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "29": "A+ — Enjoy Yourself",
-      "37": "George Michael & Mary J Blige — As",
-      "84": "TQ — Westside"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-16",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      17,
-      33,
-      38
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "17": "Tina Arena — I Want To Know What Love Is",
-      "33": "A+ — Enjoy Yourself",
-      "38": "George Michael & Mary J Blige — As"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-17",
-    "status": "ok",
-    "entries_before": 96,
-    "entries_after": 100,
-    "gaps_before": [
+      3,
       15,
-      34,
-      36,
-      50
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "15": "Cheb Mami & K-Mel — Parisien du nord",
-      "34": "A+ — Enjoy Yourself",
-      "36": "George Michael & Mary J Blige — As",
-      "50": "Lara Fabian — La différence"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-18",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      27,
       41
     ],
     "gaps_after": [],
     "recovered": {
-      "27": "A+ — Enjoy Yourself",
-      "41": "George Michael & Mary J Blige — As"
+      "3": "Superfunk feat. Ron Carroll — Lucky Star",
+      "15": "Lââm — Les enfants de l'an 2000",
+      "41": "MJ — C'est écrit"
     },
     "still_missing": []
   },
   {
-    "key": "1999-19",
+    "key": "2000-05",
     "status": "ok",
-    "entries_before": 98,
+    "entries_before": 99,
     "entries_after": 100,
     "gaps_before": [
-      27,
-      48
+      49
     ],
     "gaps_after": [],
     "recovered": {
-      "27": "A+ — Enjoy Yourself",
-      "48": "George Michael & Mary J Blige — As"
+      "49": "MJ — C'est écrit"
     },
     "still_missing": []
   },
   {
-    "key": "1999-20",
+    "key": "2000-06",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
-    "gaps_before": [
-      32,
-      53
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "32": "A+ — Enjoy Yourself",
-      "53": "George Michael & Mary J Blige — As"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-21",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      33,
-      53
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "33": "A+ — Enjoy Yourself",
-      "53": "George Michael & Mary J Blige — As"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-22",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      45,
-      78
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "45": "A+ — Enjoy Yourself",
-      "78": "George Michael & Mary J Blige — As"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-23",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      34,
-      81
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "34": "A+ — Enjoy Yourself",
-      "81": "George Michael & Mary J Blige — As"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-24",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      35,
-      92
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "35": "A+ — Enjoy Yourself",
-      "92": "George Michael & Mary J Blige — As"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-25",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      34,
-      35
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "34": "Charly & Lulu feat. Ben J — Les Marseillais",
-      "35": "A+ — Enjoy Yourself"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-26",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      40,
-      65
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "40": "A+ — Enjoy Yourself",
-      "65": "Mustafa Sandal — Araba"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-27",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 99,
     "gaps_before": [
       13,
-      52,
-      67
-    ],
-    "gaps_after": [
-      67
-    ],
-    "recovered": {
-      "13": "Larusso — Tu m'oublieras",
-      "52": "A+ — Enjoy Yourself"
-    },
-    "still_missing": [
-      67
-    ]
-  },
-  {
-    "key": "1999-28",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      23,
-      48,
-      62
+      56
     ],
     "gaps_after": [],
     "recovered": {
-      "23": "Shankara — Indian Love",
-      "48": "The Offspring — Why Don't You Get A Job ?",
-      "62": "A+ — Enjoy Yourself"
+      "13": "Britney Spears — (You Drive Me) Crazy",
+      "56": "MJ — C'est écrit"
     },
     "still_missing": []
   },
   {
-    "key": "1999-29",
+    "key": "2000-07",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      54,
-      69
+      45,
+      64
     ],
     "gaps_after": [],
     "recovered": {
-      "54": "Backstreet Boys — I Want It That Way",
-      "69": "A+ — Enjoy Yourself"
+      "45": "Lene Marlin — Where I'm Headed",
+      "64": "MJ — C'est écrit"
     },
     "still_missing": []
   },
   {
-    "key": "1999-30",
+    "key": "2000-08",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      90
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "90": "MJ — C'est écrit"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-09",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      11,
+      88
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "11": "Shola Ama — Still Believe",
+      "88": "MJ — C'est écrit"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-10",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      11,
+      86
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "11": "Christina Aguilera — What A Girl Wants",
+      "86": "MJ — C'est écrit"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-11",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      4,
+      56
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Superfunk feat. Ron Carroll — Lucky Star",
+      "56": "M — Onde sensuelle / Je dis aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-12",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      50
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "50": "M — Onde sensuelle / Je dis aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-13",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      10,
+      20,
+      51
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "10": "113 — Tonton du bled",
+      "20": "Johnny Hallyday — Partie de cartes",
+      "51": "M — Onde sensuelle / Je dis aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-14",
     "status": "ok",
     "entries_before": 99,
     "entries_after": 100,
@@ -472,220 +217,415 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "65": "A+ — Enjoy Yourself"
+      "65": "M — Onde sensuelle / Je dis aime"
     },
     "still_missing": []
   },
   {
-    "key": "1999-31",
+    "key": "2000-15",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      72,
-      76
+      19,
+      65
     ],
     "gaps_after": [],
     "recovered": {
-      "72": "2 Pac — Changes",
-      "76": "A+ — Enjoy Yourself"
+      "19": "Pit Baccardi — Si loin de toi",
+      "65": "M — Onde sensuelle / Je dis aime"
     },
     "still_missing": []
   },
   {
-    "key": "1999-33",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 99,
-    "gaps_before": [
-      18,
-      51
-    ],
-    "gaps_after": [
-      51
-    ],
-    "recovered": {
-      "18": "Moos — Au nom de la rose"
-    },
-    "still_missing": [
-      51
-    ]
-  },
-  {
-    "key": "1999-34",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      3
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "Zebda — Tomber la chemise"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-36",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      14
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "14": "La Clinique — La playa"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-38",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      36
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "36": "Charly & Lulu feat. Ben J — Les Marseillais"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-41",
-    "status": "ok",
-    "entries_before": 97,
-    "entries_after": 100,
-    "gaps_before": [
-      45,
-      67,
-      84
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "45": "Ofasia — Saté San",
-      "67": "D.J Xam feat. \"Boris\" — T'es zinzin",
-      "84": "Norma Ray — Emporte-moi"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-42",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      22
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "22": "Mylène Farmer — Souviens-toi du jour"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-43",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      18
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "18": "Enrique Iglesias — Bailamos"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-46",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      23
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "23": "Puff Daddy feat. R. Kelly — Satisfy You"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-47",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      5
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "5": "Lene Marlin — Where I'm Headed"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-48",
-    "status": "ok",
-    "entries_before": 98,
-    "entries_after": 100,
-    "gaps_before": [
-      16,
-      53
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "16": "Florent Pagny — Jolie môme",
-      "53": "Phil Collins — Strangers Like Me"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-49",
-    "status": "ok",
-    "entries_before": 99,
-    "entries_after": 100,
-    "gaps_before": [
-      21
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "21": "Shania Twain — Man ! I Feel Like A Woman !"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "1999-50",
+    "key": "2000-16",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
       10,
-      21
+      59
     ],
     "gaps_after": [],
     "recovered": {
-      "10": "Christina Aguilera — Genie In A Bottle",
-      "21": "Florent Pagny — Jolie môme"
+      "10": "Sting feat. Cheb Mami — Desert Rose",
+      "59": "M — Onde sensuelle / Je dis aime"
     },
     "still_missing": []
   },
   {
-    "key": "1999-53",
+    "key": "2000-17",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      29,
+      35,
+      57
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "29": "Khaled feat. Amar — El harba wine",
+      "35": "Mystik feat. K-Reen — Le fruit défendu",
+      "57": "M — Onde sensuelle / Je dis aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-18",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      51
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "51": "M — Onde sensuelle / Je dis aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-19",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      55
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "55": "M — Onde sensuelle / Je dis aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-20",
     "status": "ok",
     "entries_before": 98,
     "entries_after": 100,
     "gaps_before": [
-      47,
-      100
+      46,
+      91
     ],
     "gaps_after": [],
     "recovered": {
-      "47": "Les Minikeums — Nonoel",
-      "100": "U2 — Sweetest Thing"
+      "46": "M — Onde sensuelle / Je dis aime",
+      "91": "Puff Daddy feat. Mario Winans — Best Friend"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-21",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      57
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "57": "M — Onde sensuelle / Je dis aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-22",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      77
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "77": "M — Onde sensuelle / Je dis aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-23",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      60,
+      83
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "60": "Organiz' — Like Dis & Like Dat",
+      "83": "M — Onde sensuelle / Je dis aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-24",
+    "status": "ok",
+    "entries_before": 97,
+    "entries_after": 100,
+    "gaps_before": [
+      57,
+      61,
+      99
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "57": "Embargo ! — Blackout",
+      "61": "Pit Baccardi — Si loin de toi",
+      "99": "M — Onde sensuelle / Je dis aime"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-25",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      51
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "51": "Eagle-Eye Cherry — Are You Still Having Fun ?"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-26",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      77
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "77": "Montell Jordan — Get It On Tonite"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-28",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      46
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "46": "Superfunk — The Young MC"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-36",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      80
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "80": "Alessandro Safina — Luna"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-40",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      58
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "58": "Shania Twain — That Don't Impress Me Much"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-41",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      17,
+      60
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "17": "U2 — Beautiful Day",
+      "60": "Master Mood — Come And Fly"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-42",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      28
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "28": "U2 — Beautiful Day"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-43",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      35
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "35": "U2 — Beautiful Day"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-44",
+    "status": "ok",
+    "entries_before": 96,
+    "entries_after": 98,
+    "gaps_before": [
+      8,
+      45,
+      99,
+      100
+    ],
+    "gaps_after": [
+      99,
+      100
+    ],
+    "recovered": {
+      "8": "Sonique — It Feels So Good",
+      "45": "U2 — Beautiful Day"
+    },
+    "still_missing": [
+      99,
+      100
+    ]
+  },
+  {
+    "key": "2000-45",
+    "status": "ok",
+    "entries_before": 98,
+    "entries_after": 100,
+    "gaps_before": [
+      4,
+      50
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Eve Angeli — Avant de partir",
+      "50": "U2 — Beautiful Day"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-46",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      50
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "50": "U2 — Beautiful Day"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-47",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      62
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "62": "U2 — Beautiful Day"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-48",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      74
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "74": "U2 — Beautiful Day"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-49",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      87
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "87": "U2 — Beautiful Day"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-50",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      76
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "76": "U2 — Beautiful Day"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-51",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      78
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "78": "U2 — Beautiful Day"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2000-52",
+    "status": "ok",
+    "entries_before": 99,
+    "entries_after": 100,
+    "gaps_before": [
+      13
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "13": "Céline Dion — That's The Way It Is"
     },
     "still_missing": []
   }
