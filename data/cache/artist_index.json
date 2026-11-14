@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T20:06:56.928485+00:00",
+  "generatedAt": "2026-11-14T20:54:54.853950+00:00",
   "archiveCount": 2198,
   "artistCount": 4667,
-  "trackCount": 10780,
+  "trackCount": 10783,
   "artists": [
     {
       "id": "johnny hallyday",
@@ -3228,6 +3228,19 @@
           "peakDate": "12/09/2011"
         },
         {
+          "key": "2u|david guetta",
+          "title": "2U",
+          "credit": "David Guetta feat. Justin Bieber",
+          "firstKey": "2017-24",
+          "firstDate": "12/06/2017",
+          "lastKey": "2017-44",
+          "lastDate": "30/10/2017",
+          "weeks": 21,
+          "peak": 4,
+          "peakKey": "2017-32",
+          "peakDate": "07/08/2017"
+        },
+        {
           "key": "she wolf|david guetta",
           "title": "She Wolf (Falling To Pieces)",
           "credit": "David Guetta",
@@ -3670,8 +3683,8 @@
           "peakDate": "31/05/2004"
         }
       ],
-      "trackCount": 48,
-      "totalWeeks": 994,
+      "trackCount": 49,
+      "totalWeeks": 1015,
       "bestPeak": 1,
       "firstYear": 2001,
       "lastYear": 2026,
@@ -8034,6 +8047,19 @@
           "peakDate": "09/10/2000"
         },
         {
+          "key": "you re the best thing about me|u2",
+          "title": "You're the best thing about me",
+          "credit": "U2",
+          "firstKey": "2017-40",
+          "firstDate": "02/10/2017",
+          "lastKey": "2017-53",
+          "lastDate": "01/01/2018",
+          "weeks": 13,
+          "peak": 17,
+          "peakKey": "2017-49",
+          "peakDate": "04/12/2017"
+        },
+        {
           "key": "stay|u2",
           "title": "Stay (Faraway, So Close!)",
           "credit": "U2",
@@ -8255,15 +8281,15 @@
           "peakDate": "27/06/2005"
         }
       ],
-      "trackCount": 27,
-      "totalWeeks": 357,
+      "trackCount": 28,
+      "totalWeeks": 370,
       "bestPeak": 6,
       "firstYear": 1987,
-      "lastYear": 2015,
+      "lastYear": 2017,
       "firstKey": "1987-20",
       "firstDate": "17/05/1987",
-      "lastKey": "2015-46",
-      "lastDate": "09/11/2015"
+      "lastKey": "2017-53",
+      "lastDate": "01/01/2018"
     },
     {
       "id": "maitre gims",
@@ -37047,6 +37073,151 @@
       "lastDate": "30/01/2023"
     },
     {
+      "id": "robin schulz",
+      "name": "Robin Schulz",
+      "tracks": [
+        {
+          "key": "ok|robin schulz",
+          "title": "OK",
+          "credit": "Robin Schulz feat. James Blunt",
+          "firstKey": "2017-25",
+          "firstDate": "19/06/2017",
+          "lastKey": "2017-48",
+          "lastDate": "27/11/2017",
+          "weeks": 23,
+          "peak": 2,
+          "peakKey": "2017-31",
+          "peakDate": "31/07/2017"
+        },
+        {
+          "key": "sugar|robin schulz",
+          "title": "Sugar",
+          "credit": "Robin Schulz",
+          "firstKey": "2015-33",
+          "firstDate": "10/08/2015",
+          "lastKey": "2016-02",
+          "lastDate": "11/01/2016",
+          "weeks": 23,
+          "peak": 2,
+          "peakKey": "2015-39",
+          "peakDate": "21/09/2015"
+        },
+        {
+          "key": "alane|robin schulz",
+          "title": "Alane",
+          "credit": "Robin Schulz feat. Wes",
+          "firstKey": "2020-29",
+          "firstDate": "13/07/2020",
+          "lastKey": "2020-44",
+          "lastDate": "26/10/2020",
+          "weeks": 16,
+          "peak": 3,
+          "peakKey": "2020-32",
+          "peakDate": "03/08/2020"
+        },
+        {
+          "key": "speechless|robin schulz",
+          "title": "Speechless",
+          "credit": "Robin Schulz",
+          "firstKey": "2019-03",
+          "firstDate": "14/01/2019",
+          "lastKey": "2019-32",
+          "lastDate": "05/08/2019",
+          "weeks": 26,
+          "peak": 4,
+          "peakKey": "2019-13",
+          "peakDate": "25/03/2019"
+        },
+        {
+          "key": "sun goes down|robin schulz",
+          "title": "Sun goes down",
+          "credit": "Robin Schulz",
+          "firstKey": "2014-50",
+          "firstDate": "08/12/2014",
+          "lastKey": "2015-12",
+          "lastDate": "16/03/2015",
+          "weeks": 16,
+          "peak": 4,
+          "peakKey": "2015-05",
+          "peakDate": "26/01/2015"
+        },
+        {
+          "key": "somewhere over the rainbow what a wonderful world|robin schulz",
+          "title": "Somewhere over the rainbow / What a wonderful world",
+          "credit": "Robin Schulz",
+          "firstKey": "2021-31",
+          "firstDate": "02/08/2021",
+          "lastKey": "2021-44",
+          "lastDate": "01/11/2021",
+          "weeks": 14,
+          "peak": 4,
+          "peakKey": "2021-38",
+          "peakDate": "20/09/2021"
+        },
+        {
+          "key": "all we got|robin schulz",
+          "title": "All we got",
+          "credit": "Robin Schulz feat. Kiddo",
+          "firstKey": "2020-48",
+          "firstDate": "23/11/2020",
+          "lastKey": "2021-15",
+          "lastDate": "12/04/2021",
+          "weeks": 21,
+          "peak": 6,
+          "peakKey": "2021-01",
+          "peakDate": "04/01/2021"
+        },
+        {
+          "key": "in your eyes|robin schulz",
+          "title": "In your eyes",
+          "credit": "Robin Schulz",
+          "firstKey": "2020-12",
+          "firstDate": "16/03/2020",
+          "lastKey": "2020-29",
+          "lastDate": "13/07/2020",
+          "weeks": 18,
+          "peak": 6,
+          "peakKey": "2020-25",
+          "peakDate": "15/06/2020"
+        },
+        {
+          "key": "show me love|robin schulz",
+          "title": "Show me love",
+          "credit": "Robin Schulz",
+          "firstKey": "2016-01",
+          "firstDate": "04/01/2016",
+          "lastKey": "2016-13",
+          "lastDate": "28/03/2016",
+          "weeks": 12,
+          "peak": 21,
+          "peakKey": "2016-07",
+          "peakDate": "15/02/2016"
+        },
+        {
+          "key": "headlights|robin schulz",
+          "title": "Headlights",
+          "credit": "Robin Schulz",
+          "firstKey": "2015-26",
+          "firstDate": "22/06/2015",
+          "lastKey": "2015-29",
+          "lastDate": "13/07/2015",
+          "weeks": 4,
+          "peak": 41,
+          "peakKey": "2015-28",
+          "peakDate": "06/07/2015"
+        }
+      ],
+      "trackCount": 10,
+      "totalWeeks": 173,
+      "bestPeak": 2,
+      "firstYear": 2014,
+      "lastYear": 2021,
+      "firstKey": "2014-50",
+      "firstDate": "08/12/2014",
+      "lastKey": "2021-44",
+      "lastDate": "01/11/2021"
+    },
+    {
       "id": "modern talking",
       "name": "Modern Talking",
       "tracks": [
@@ -40923,138 +41094,6 @@
       "firstDate": "11/07/2016",
       "lastKey": "2026-46",
       "lastDate": "09/11/2026"
-    },
-    {
-      "id": "robin schulz",
-      "name": "Robin Schulz",
-      "tracks": [
-        {
-          "key": "sugar|robin schulz",
-          "title": "Sugar",
-          "credit": "Robin Schulz",
-          "firstKey": "2015-33",
-          "firstDate": "10/08/2015",
-          "lastKey": "2016-02",
-          "lastDate": "11/01/2016",
-          "weeks": 23,
-          "peak": 2,
-          "peakKey": "2015-39",
-          "peakDate": "21/09/2015"
-        },
-        {
-          "key": "alane|robin schulz",
-          "title": "Alane",
-          "credit": "Robin Schulz feat. Wes",
-          "firstKey": "2020-29",
-          "firstDate": "13/07/2020",
-          "lastKey": "2020-44",
-          "lastDate": "26/10/2020",
-          "weeks": 16,
-          "peak": 3,
-          "peakKey": "2020-32",
-          "peakDate": "03/08/2020"
-        },
-        {
-          "key": "speechless|robin schulz",
-          "title": "Speechless",
-          "credit": "Robin Schulz",
-          "firstKey": "2019-03",
-          "firstDate": "14/01/2019",
-          "lastKey": "2019-32",
-          "lastDate": "05/08/2019",
-          "weeks": 26,
-          "peak": 4,
-          "peakKey": "2019-13",
-          "peakDate": "25/03/2019"
-        },
-        {
-          "key": "sun goes down|robin schulz",
-          "title": "Sun goes down",
-          "credit": "Robin Schulz",
-          "firstKey": "2014-50",
-          "firstDate": "08/12/2014",
-          "lastKey": "2015-12",
-          "lastDate": "16/03/2015",
-          "weeks": 16,
-          "peak": 4,
-          "peakKey": "2015-05",
-          "peakDate": "26/01/2015"
-        },
-        {
-          "key": "somewhere over the rainbow what a wonderful world|robin schulz",
-          "title": "Somewhere over the rainbow / What a wonderful world",
-          "credit": "Robin Schulz",
-          "firstKey": "2021-31",
-          "firstDate": "02/08/2021",
-          "lastKey": "2021-44",
-          "lastDate": "01/11/2021",
-          "weeks": 14,
-          "peak": 4,
-          "peakKey": "2021-38",
-          "peakDate": "20/09/2021"
-        },
-        {
-          "key": "all we got|robin schulz",
-          "title": "All we got",
-          "credit": "Robin Schulz feat. Kiddo",
-          "firstKey": "2020-48",
-          "firstDate": "23/11/2020",
-          "lastKey": "2021-15",
-          "lastDate": "12/04/2021",
-          "weeks": 21,
-          "peak": 6,
-          "peakKey": "2021-01",
-          "peakDate": "04/01/2021"
-        },
-        {
-          "key": "in your eyes|robin schulz",
-          "title": "In your eyes",
-          "credit": "Robin Schulz",
-          "firstKey": "2020-12",
-          "firstDate": "16/03/2020",
-          "lastKey": "2020-29",
-          "lastDate": "13/07/2020",
-          "weeks": 18,
-          "peak": 6,
-          "peakKey": "2020-25",
-          "peakDate": "15/06/2020"
-        },
-        {
-          "key": "show me love|robin schulz",
-          "title": "Show me love",
-          "credit": "Robin Schulz",
-          "firstKey": "2016-01",
-          "firstDate": "04/01/2016",
-          "lastKey": "2016-13",
-          "lastDate": "28/03/2016",
-          "weeks": 12,
-          "peak": 21,
-          "peakKey": "2016-07",
-          "peakDate": "15/02/2016"
-        },
-        {
-          "key": "headlights|robin schulz",
-          "title": "Headlights",
-          "credit": "Robin Schulz",
-          "firstKey": "2015-26",
-          "firstDate": "22/06/2015",
-          "lastKey": "2015-29",
-          "lastDate": "13/07/2015",
-          "weeks": 4,
-          "peak": 41,
-          "peakKey": "2015-28",
-          "peakDate": "06/07/2015"
-        }
-      ],
-      "trackCount": 9,
-      "totalWeeks": 150,
-      "bestPeak": 2,
-      "firstYear": 2014,
-      "lastYear": 2021,
-      "firstKey": "2014-50",
-      "firstDate": "08/12/2014",
-      "lastKey": "2021-44",
-      "lastDate": "01/11/2021"
     },
     {
       "id": "orelsan",
@@ -125618,6 +125657,34 @@
       "lastDate": "07/04/2025"
     },
     {
+      "id": "lp",
+      "name": "LP",
+      "tracks": [
+        {
+          "key": "lost on you|lp",
+          "title": "Lost on you",
+          "credit": "LP",
+          "firstKey": "2016-31",
+          "firstDate": "01/08/2016",
+          "lastKey": "2017-12",
+          "lastDate": "20/03/2017",
+          "weeks": 35,
+          "peak": 3,
+          "peakKey": "2016-39",
+          "peakDate": "26/09/2016"
+        }
+      ],
+      "trackCount": 1,
+      "totalWeeks": 35,
+      "bestPeak": 3,
+      "firstYear": 2016,
+      "lastYear": 2017,
+      "firstKey": "2016-31",
+      "firstDate": "01/08/2016",
+      "lastKey": "2017-12",
+      "lastDate": "20/03/2017"
+    },
+    {
       "id": "sinsemilia",
       "name": "Sinsemilia",
       "tracks": [
@@ -134268,34 +134335,6 @@
       "firstDate": "12/04/1987",
       "lastKey": "1987-37",
       "lastDate": "13/09/1987"
-    },
-    {
-      "id": "lp",
-      "name": "LP",
-      "tracks": [
-        {
-          "key": "lost on you|lp",
-          "title": "Lost on you",
-          "credit": "LP",
-          "firstKey": "2016-31",
-          "firstDate": "01/08/2016",
-          "lastKey": "2016-53",
-          "lastDate": "02/01/2017",
-          "weeks": 23,
-          "peak": 3,
-          "peakKey": "2016-39",
-          "peakDate": "26/09/2016"
-        }
-      ],
-      "trackCount": 1,
-      "totalWeeks": 23,
-      "bestPeak": 3,
-      "firstYear": 2016,
-      "lastYear": 2016,
-      "firstKey": "2016-31",
-      "firstDate": "01/08/2016",
-      "lastKey": "2016-53",
-      "lastDate": "02/01/2017"
     },
     {
       "id": "booka",

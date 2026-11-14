@@ -1,141 +1,6 @@
 [
   {
-    "key": "2016-31",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      30
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "30": "LP — Lost on you"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2016-32",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      28
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "28": "LP — Lost on you"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2016-33",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      26
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "26": "LP — Lost on you"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2016-34",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      23
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "23": "LP — Lost on you"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2016-35",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      22
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "22": "LP — Lost on you"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2016-36",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      20
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "20": "LP — Lost on you"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2016-37",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      16
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "16": "LP — Lost on you"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2016-38",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      5
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "5": "LP — Lost on you"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2016-39",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      3
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "3": "LP — Lost on you"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2016-40",
+    "key": "2017-01",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
@@ -150,37 +15,7 @@
     "still_missing": []
   },
   {
-    "key": "2016-41",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      12
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "12": "LP — Lost on you"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2016-42",
-    "status": "ok",
-    "entries_before": 59,
-    "entries_after": 60,
-    "reference": 60,
-    "gaps_before": [
-      8
-    ],
-    "gaps_after": [],
-    "recovered": {
-      "8": "LP — Lost on you"
-    },
-    "still_missing": []
-  },
-  {
-    "key": "2016-43",
+    "key": "2017-02",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
@@ -195,112 +30,573 @@
     "still_missing": []
   },
   {
-    "key": "2016-44",
+    "key": "2017-03",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
+      16
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "16": "LP — Lost on you"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-04",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      16
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "16": "LP — Lost on you"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-05",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      16
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "16": "LP — Lost on you"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-06",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      29
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "29": "LP — Lost on you"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-07",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      24
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "24": "LP — Lost on you"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-08",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      21
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "21": "LP — Lost on you"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-09",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      30
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "30": "LP — Lost on you"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-10",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      35
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "35": "LP — Lost on you"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-11",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      57
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "57": "LP — Lost on you"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-12",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      59
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "59": "LP — Lost on you"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-24",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      28
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "28": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-25",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      39,
+      51
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "39": "Robin Schulz feat. James Blunt — OK",
+      "51": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-26",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      29,
+      39
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "29": "Robin Schulz feat. James Blunt — OK",
+      "39": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-27",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      13,
+      37
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "13": "Robin Schulz feat. James Blunt — OK",
+      "37": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-28",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      3,
+      29
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Robin Schulz feat. James Blunt — OK",
+      "29": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-29",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      3,
+      8
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "3": "Robin Schulz feat. James Blunt — OK",
+      "8": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-30",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      3,
       7
     ],
     "gaps_after": [],
     "recovered": {
-      "7": "LP — Lost on you"
+      "3": "Robin Schulz feat. James Blunt — OK",
+      "7": "David Guetta feat. Justin Bieber — 2U"
     },
     "still_missing": []
   },
   {
-    "key": "2016-45",
+    "key": "2017-31",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      11
+      2,
+      6
     ],
     "gaps_after": [],
     "recovered": {
-      "11": "LP — Lost on you"
+      "2": "Robin Schulz feat. James Blunt — OK",
+      "6": "David Guetta feat. Justin Bieber — 2U"
     },
     "still_missing": []
   },
   {
-    "key": "2016-46",
+    "key": "2017-32",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
+      2,
+      4
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "2": "Robin Schulz feat. James Blunt — OK",
+      "4": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-33",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      2,
+      5
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "2": "Robin Schulz feat. James Blunt — OK",
+      "5": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-34",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      4,
+      5
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Robin Schulz feat. James Blunt — OK",
+      "5": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-35",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      4,
+      8
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "4": "Robin Schulz feat. James Blunt — OK",
+      "8": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-36",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      8,
+      10
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "8": "Robin Schulz feat. James Blunt — OK",
+      "10": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-37",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      9,
       12
     ],
     "gaps_after": [],
     "recovered": {
-      "12": "LP — Lost on you"
+      "9": "Robin Schulz feat. James Blunt — OK",
+      "12": "David Guetta feat. Justin Bieber — 2U"
     },
     "still_missing": []
   },
   {
-    "key": "2016-47",
+    "key": "2017-38",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      12
+      13,
+      18
     ],
     "gaps_after": [],
     "recovered": {
-      "12": "LP — Lost on you"
+      "13": "Robin Schulz feat. James Blunt — OK",
+      "18": "David Guetta feat. Justin Bieber — 2U"
     },
     "still_missing": []
   },
   {
-    "key": "2016-48",
+    "key": "2017-39",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 58,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      14
+      14,
+      29
     ],
     "gaps_after": [],
     "recovered": {
-      "14": "LP — Lost on you"
+      "14": "Robin Schulz feat. James Blunt — OK",
+      "29": "David Guetta feat. Justin Bieber — 2U"
     },
     "still_missing": []
   },
   {
-    "key": "2016-49",
+    "key": "2017-40",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 57,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      13
+      14,
+      34,
+      45
     ],
     "gaps_after": [],
     "recovered": {
-      "13": "LP — Lost on you"
+      "14": "Robin Schulz feat. James Blunt — OK",
+      "34": "David Guetta feat. Justin Bieber — 2U",
+      "45": "U2 — You're the best thing about me"
     },
     "still_missing": []
   },
   {
-    "key": "2016-50",
+    "key": "2017-41",
     "status": "ok",
-    "entries_before": 59,
+    "entries_before": 57,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      11
+      19,
+      42,
+      45
     ],
     "gaps_after": [],
     "recovered": {
-      "11": "LP — Lost on you"
+      "19": "Robin Schulz feat. James Blunt — OK",
+      "42": "U2 — You're the best thing about me",
+      "45": "David Guetta feat. Justin Bieber — 2U"
     },
     "still_missing": []
   },
   {
-    "key": "2016-51",
+    "key": "2017-42",
+    "status": "ok",
+    "entries_before": 57,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      22,
+      37,
+      44
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "22": "U2 — You're the best thing about me",
+      "37": "Robin Schulz feat. James Blunt — OK",
+      "44": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-43",
+    "status": "ok",
+    "entries_before": 57,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      23,
+      38,
+      52
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "23": "U2 — You're the best thing about me",
+      "38": "Robin Schulz feat. James Blunt — OK",
+      "52": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-44",
+    "status": "ok",
+    "entries_before": 57,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      29,
+      41,
+      57
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "29": "U2 — You're the best thing about me",
+      "41": "Robin Schulz feat. James Blunt — OK",
+      "57": "David Guetta feat. Justin Bieber — 2U"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-45",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      21,
+      48
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "21": "U2 — You're the best thing about me",
+      "48": "Robin Schulz feat. James Blunt — OK"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-46",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      19,
+      47
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "19": "U2 — You're the best thing about me",
+      "47": "Robin Schulz feat. James Blunt — OK"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-48",
+    "status": "ok",
+    "entries_before": 58,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      26,
+      56
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "26": "U2 — You're the best thing about me",
+      "56": "Robin Schulz feat. James Blunt — OK"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-49",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
@@ -310,37 +606,67 @@
     ],
     "gaps_after": [],
     "recovered": {
-      "17": "LP — Lost on you"
+      "17": "U2 — You're the best thing about me"
     },
     "still_missing": []
   },
   {
-    "key": "2016-52",
+    "key": "2017-50",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      12
+      26
     ],
     "gaps_after": [],
     "recovered": {
-      "12": "LP — Lost on you"
+      "26": "U2 — You're the best thing about me"
     },
     "still_missing": []
   },
   {
-    "key": "2016-53",
+    "key": "2017-51",
     "status": "ok",
     "entries_before": 59,
     "entries_after": 60,
     "reference": 60,
     "gaps_before": [
-      9
+      25
     ],
     "gaps_after": [],
     "recovered": {
-      "9": "LP — Lost on you"
+      "25": "U2 — You're the best thing about me"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-52",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      20
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "20": "U2 — You're the best thing about me"
+    },
+    "still_missing": []
+  },
+  {
+    "key": "2017-53",
+    "status": "ok",
+    "entries_before": 59,
+    "entries_after": 60,
+    "reference": 60,
+    "gaps_before": [
+      22
+    ],
+    "gaps_after": [],
+    "recovered": {
+      "22": "U2 — You're the best thing about me"
     },
     "still_missing": []
   }
