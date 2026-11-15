@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Top Singles — V2.2.1</title>
-<!-- V2.2.1 : YouTube + Dailymotion (liens directs) + Deezer + Apple Music en boutons principaux. Spotify/Amazon dans ＋. -->
+<!-- V2.2.1 : les IDs de streaming du JSON (fetch_charts.py) sont prioritaires sur le localStorage -->
 <style>
 :root{--bg:#f5f7ff;--panel:rgba(255,255,255,.82);--panel-solid:#fff;--overlay:rgba(255,255,255,.72);--chip-bg:rgba(255,255,255,.72);--text:#0f172a;--muted:#64748b;--border:rgba(15,23,42,.09);--accent:#6366f1;--accent-2:#a855f7;--success:#16a34a;--danger:#dc2626;--warning:#d97706;--shadow:0 20px 60px rgba(15,23,42,.12);--focus:rgba(99,102,241,.18);--success-bg:rgba(22,163,74,.12);--danger-bg:rgba(220,38,38,.12);--warning-bg:rgba(217,119,6,.14);--accent-bg:rgba(99,102,241,.14)}
 [data-theme="dark"]{--bg:#0b1020;--panel:rgba(15,23,42,.82);--panel-solid:#0f172a;--overlay:rgba(15,23,42,.72);--chip-bg:rgba(15,23,42,.72);--text:#e5e7eb;--muted:#94a3b8;--border:rgba(255,255,255,.09);--accent:#818cf8;--accent-2:#c084fc;--success:#4ade80;--danger:#fb7185;--warning:#fbbf24;--shadow:0 18px 60px rgba(0,0,0,.35);--focus:rgba(129,140,248,.2);--success-bg:rgba(74,222,128,.14);--danger-bg:rgba(251,113,133,.14);--warning-bg:rgba(251,191,36,.14);--accent-bg:rgba(129,140,248,.16)}
@@ -211,7 +211,7 @@ code{background:var(--overlay);padding:2px 6px;border-radius:4px;font-family:mon
 <details class="tool-panel panel">
 <summary>🔍 Enrichissement streaming</summary>
 <div class="tool-content">
-<p style="margin:0 0 14px;color:var(--muted);font-size:14px;line-height:1.5">Recherche les IDs YouTube, Dailymotion, Deezer et Apple Music pour l'archive affichée. Résultats mis en cache localement.</p>
+<p style="margin:0 0 14px;color:var(--muted);font-size:14px;line-height:1.5">Recherche les IDs YouTube, Dailymotion, Deezer et Apple Music pour l'archive affichée. Les semaines récentes (2014+) sont déjà enrichies automatiquement par le workflow hebdo.</p>
 <div class="platform-checkboxes">
 <label><input type="checkbox" id="enrichYouTube" checked> ▶️ YouTube</label>
 <label><input type="checkbox" id="enrichDailymotion" checked> 📺 Dailymotion</label>
@@ -267,7 +267,7 @@ code{background:var(--overlay);padding:2px 6px;border-radius:4px;font-family:mon
 </div>
 <div class="drawer-section">
 <h4>🔑 API YouTube</h4>
-<p>Nécessaire uniquement pour YouTube. Dailymotion, Deezer et Apple Music n'ont pas besoin de clé.</p>
+<p>Nécessaire uniquement pour l'enrichissement YouTube. Dailymotion, Deezer et Apple Music n'ont pas besoin de clé.</p>
 <div class="control-group" style="margin-bottom:12px"><label for="youtubeApiKey">Clé API YouTube Data v3</label><input type="password" id="youtubeApiKey" placeholder="AIzaSy..." autocomplete="off"></div>
 <div class="drawer-actions"><button class="button button-primary" type="button" data-action="save-api-key">💾 Sauvegarder</button><button class="button" type="button" data-action="clear-api-key">🗑️ Effacer</button></div>
 </div>
@@ -276,7 +276,7 @@ code{background:var(--overlay);padding:2px 6px;border-radius:4px;font-family:mon
 <div class="drawer-actions"><button class="button" type="button" data-action="refresh-hebdo">📊 Hebdo</button><button class="button" type="button" data-action="refresh-retro">📼 Rétro</button><button class="button" type="button" data-action="refresh-artists">🎤 Artistes</button></div>
 </div>
 <div class="drawer-section">
-<h4>🧹 Cache streaming rétro</h4><p>Stocke les IDs trouvés lors des enrichissements.</p>
+<h4>🧹 Cache streaming rétro</h4><p>Cache navigateur complémentaire au JSON. Les IDs du JSON sont prioritaires.</p>
 <div class="drawer-actions"><button class="button button-danger" type="button" data-action="clear-retro-stream">🗑️ Vider le cache streaming</button></div>
 </div>
 <div class="drawer-section">
@@ -294,7 +294,7 @@ let activeView="hebdo",playlistReverse=true;
 let retroInitialized=false,retroInitPromise=null,retroLoading=false,currentRetroArchive=null;
 let ARTIST_INDEX=null,ARTIST_ARRAY=[],ARTIST_MAP={},ARTIST_NAME_MAP={},artistInitialized=false,artistInitPromise=null,currentArtistId=null;
 const RETRO_STREAM_CACHE_KEY="retroStreamingIds";
-const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
+const $=s=>document.querySelector(s),$$=s=>Array.from(document.querySelectorAll(s));
 const regionSelect=$("#regionSelect"),countrySelect=$("#countrySelect"),viewMode=$("#viewMode"),searchInput=$("#searchInput");
 const chartTitle=$("#chartTitle"),chartSubtitle=$("#chartSubtitle"),chartContent=$("#chartContent"),statsBar=$("#statsBar");
 const weekBadge=$("#weekBadge"),sourceNote=$("#sourceNote"),themeToggle=$("#themeToggle"),countryGroup=$("#countryGroup");
@@ -644,10 +644,12 @@ function displayRetroArchive(a){
  entries.forEach(e=>{
   const c=sc[getRetroStreamCacheKey(e.track?.artist||"",e.track?.title||"")];
   if(!c)return;
-  if(c.youtube_id){e.youtube_id=c.youtube_id;e.youtube_url=c.youtube_url}
-  if(c.dailymotion_id){e.dailymotion_id=c.dailymotion_id;e.dailymotion_url=c.dailymotion_url}
-  if(c.deezer_id){e.deezer_id=c.deezer_id;e.deezer_url=c.deezer_url;if(c.artwork)e.track.artwork=c.artwork}
-  if(c.apple_id){e.apple_id=c.apple_id;e.apple_url=c.apple_url;if(c.apple_artwork&&!e.track.artwork)e.track.artwork=c.apple_artwork}
+  // PRIORITÉ AUX IDs DÉJÀ DANS LE JSON (venant de fetch_charts.py)
+  // Le localStorage sert de fallback pour les semaines anciennes
+  if(!e.youtube_id&&c.youtube_id){e.youtube_id=c.youtube_id;e.youtube_url=c.youtube_url}
+  if(!e.dailymotion_id&&c.dailymotion_id){e.dailymotion_id=c.dailymotion_id;e.dailymotion_url=c.dailymotion_url}
+  if(!e.deezer_id&&c.deezer_id){e.deezer_id=c.deezer_id;e.deezer_url=c.deezer_url;if(c.artwork&&!e.track.artwork)e.track.artwork=c.artwork}
+  if(!e.apple_id&&c.apple_id){e.apple_id=c.apple_id;e.apple_url=c.apple_url;if(c.apple_artwork&&!e.track.artwork)e.track.artwork=c.apple_artwork}
  });
  RETRO_ENTRIES=entries;
  if(!entries.length){retroContent.innerHTML=`<div class="empty">Aucune entrée dans cette archive.</div>`;updateDrawerContext();return}
@@ -721,7 +723,7 @@ async function fetchAppleMusicTrackIdRetro(artist,title){
  return null;
 }
 
-// ===== DAILYMOTION (API legacy publique) =====
+// ===== DAILYMOTION =====
 function pickBestDailymotion(items){
  if(!items||!items.length)return null;
  const excl=["lyrics","lyric","paroles","karaoke","karaoké","cover","remix","instrumental","tutorial","tuto"];
@@ -782,34 +784,35 @@ async function enrichRetroArchive(a,pl){
  for(let i=0;i<total;i++){
   const e=a.entries[i];const artist=e.track?.artist||"",title=e.track?.title||"";
   const ck=getRetroStreamCacheKey(artist,title);
+  const alreadyHasYt=!!e.youtube_id,alreadyHasDm=!!e.dailymotion_id,alreadyHasDz=!!e.deezer_id,alreadyHasAp=!!e.apple_id;
   if(cache[ck]){
    const c=cache[ck];
-   if(c.youtube_id&&doYt){e.youtube_id=c.youtube_id;e.youtube_url=c.youtube_url;enriched++}
-   if(c.dailymotion_id&&doDm){e.dailymotion_id=c.dailymotion_id;e.dailymotion_url=c.dailymotion_url;enriched++}
-   if(c.deezer_id&&doDz){e.deezer_id=c.deezer_id;e.deezer_url=c.deezer_url;if(c.artwork)e.track.artwork=c.artwork;enriched++}
-   if(c.apple_id&&doAp){e.apple_id=c.apple_id;e.apple_url=c.apple_url;if(c.apple_artwork&&!e.track.artwork)e.track.artwork=c.apple_artwork;enriched++}
+   if(!alreadyHasYt&&c.youtube_id&&doYt){e.youtube_id=c.youtube_id;e.youtube_url=c.youtube_url;enriched++}
+   if(!alreadyHasDm&&c.dailymotion_id&&doDm){e.dailymotion_id=c.dailymotion_id;e.dailymotion_url=c.dailymotion_url;enriched++}
+   if(!alreadyHasDz&&c.deezer_id&&doDz){e.deezer_id=c.deezer_id;e.deezer_url=c.deezer_url;if(c.artwork&&!e.track.artwork)e.track.artwork=c.artwork;enriched++}
+   if(!alreadyHasAp&&c.apple_id&&doAp){e.apple_id=c.apple_id;e.apple_url=c.apple_url;if(c.apple_artwork&&!e.track.artwork)e.track.artwork=c.apple_artwork;enriched++}
    fromCache++;
   }else{
    const ec={artist,title};
-   if(doDz){
+   if(doDz&&!alreadyHasDz){
     enrichmentStatus.textContent=`🎧 Deezer : ${i+1}/${total} — ${artist} - ${title}`;
     const r=await fetchDeezerTrackIdRetro(artist,title);
-    if(r){e.deezer_id=r.deezer_id;e.deezer_url=r.deezer_url;if(r.artwork)e.track.artwork=r.artwork;ec.deezer_id=r.deezer_id;ec.deezer_url=r.deezer_url;ec.artwork=r.artwork;enriched++}
+    if(r){e.deezer_id=r.deezer_id;e.deezer_url=r.deezer_url;if(r.artwork&&!e.track.artwork)e.track.artwork=r.artwork;ec.deezer_id=r.deezer_id;ec.deezer_url=r.deezer_url;ec.artwork=r.artwork;enriched++}
     await sleep(200);
    }
-   if(doAp){
+   if(doAp&&!alreadyHasAp){
     enrichmentStatus.textContent=`🍎 Apple Music : ${i+1}/${total} — ${artist} - ${title}`;
     const r=await fetchAppleMusicTrackIdRetro(artist,title);
     if(r){e.apple_id=r.apple_id;e.apple_url=r.apple_url;if(r.artwork&&!e.track.artwork)e.track.artwork=r.artwork;ec.apple_id=r.apple_id;ec.apple_url=r.apple_url;ec.apple_artwork=r.artwork;enriched++}
     await sleep(500);
    }
-   if(doDm){
+   if(doDm&&!alreadyHasDm){
     enrichmentStatus.textContent=`📺 Dailymotion : ${i+1}/${total} — ${artist} - ${title}`;
     const r=await fetchDailymotionVideoIdRetro(artist,title);
     if(r){e.dailymotion_id=r.dailymotion_id;e.dailymotion_url=r.dailymotion_url;ec.dailymotion_id=r.dailymotion_id;ec.dailymotion_url=r.dailymotion_url;enriched++}
     await sleep(400);
    }
-   if(doYt){
+   if(doYt&&!alreadyHasYt){
     enrichmentStatus.textContent=`▶️ YouTube : ${i+1}/${total} — ${artist} - ${title}`;
     const r=await fetchYouTubeVideoIdRetro(artist,title);
     if(r){e.youtube_id=r.youtube_id;e.youtube_url=r.youtube_url;ec.youtube_id=r.youtube_id;ec.youtube_url=r.youtube_url;enriched++}
