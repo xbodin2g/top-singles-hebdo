@@ -3,10 +3,10 @@
     "weekLabel": "Semaine 46/2026",
     "week": 46,
     "year": 2026,
-    "updatedAt": "2026-11-14",
+    "updatedAt": "2026-11-15",
     "sourceNote": "✅ Toutes les sources : 8 tops collectés.",
     "hasStreamingIds": true,
-    "cacheSize": 948
+    "cacheSize": 979
   },
   "countries": {
     "us": {
@@ -1079,7 +1079,9 @@
           "deezer_id": 3812467942,
           "deezer_url": "https://www.deezer.com/track/3812467942",
           "apple_id": 1871609753,
-          "apple_url": "https://music.apple.com/us/album/get-to-drinkin/1871609743?i=1871609753&uo=4"
+          "apple_url": "https://music.apple.com/us/album/get-to-drinkin/1871609743?i=1871609753&uo=4",
+          "dailymotion_id": "xa87eqi",
+          "dailymotion_url": "https://www.dailymotion.com/video/xa87eqi"
         },
         {
           "position": 55,
@@ -1096,7 +1098,11 @@
           "youtube_id": "M4qX5wzx-wY",
           "youtube_url": "https://www.youtube.com/watch?v=M4qX5wzx-wY",
           "deezer_id": 3881984701,
-          "deezer_url": "https://www.deezer.com/track/3881984701"
+          "deezer_url": "https://www.deezer.com/track/3881984701",
+          "apple_id": 1870984045,
+          "apple_url": "https://music.apple.com/us/album/coming-up-roses/1870984032?i=1870984045&uo=4",
+          "dailymotion_id": "xbrl1om",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbrl1om"
         },
         {
           "position": 56,
@@ -1134,7 +1140,11 @@
           "youtube_id": "I-5e_J3LWS8",
           "youtube_url": "https://www.youtube.com/watch?v=I-5e_J3LWS8",
           "deezer_id": 4198445322,
-          "deezer_url": "https://www.deezer.com/track/4198445322"
+          "deezer_url": "https://www.deezer.com/track/4198445322",
+          "apple_id": 6796433834,
+          "apple_url": "https://music.apple.com/us/album/ah-ha/6796433825?i=6796433834&uo=4",
+          "dailymotion_id": "x72pg1h",
+          "dailymotion_url": "https://www.dailymotion.com/video/x72pg1h"
         },
         {
           "position": 58,
@@ -1151,7 +1161,11 @@
           "youtube_id": "FOJ4A4wixDg",
           "youtube_url": "https://www.youtube.com/watch?v=FOJ4A4wixDg",
           "deezer_id": 4095687781,
-          "deezer_url": "https://www.deezer.com/track/4095687781"
+          "deezer_url": "https://www.deezer.com/track/4095687781",
+          "apple_id": 6783576167,
+          "apple_url": "https://music.apple.com/us/album/bloodstream/6783576156?i=6783576167&uo=4",
+          "dailymotion_id": "x7ztqoz",
+          "dailymotion_url": "https://www.dailymotion.com/video/x7ztqoz"
         },
         {
           "position": 59,
@@ -1168,7 +1182,11 @@
           "youtube_id": "Sf73y9GrJ4I",
           "youtube_url": "https://www.youtube.com/watch?v=Sf73y9GrJ4I",
           "deezer_id": 3880025181,
-          "deezer_url": "https://www.deezer.com/track/3880025181"
+          "deezer_url": "https://www.deezer.com/track/3880025181",
+          "apple_id": 1879596115,
+          "apple_url": "https://music.apple.com/us/album/freakin-out/1879596114?i=1879596115&uo=4",
+          "dailymotion_id": "x9z3cy8",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9z3cy8"
         },
         {
           "position": 60,
@@ -1185,7 +1203,11 @@
           "youtube_id": "qA3QXxIipV8",
           "youtube_url": "https://www.youtube.com/watch?v=qA3QXxIipV8",
           "deezer_id": 4321519912,
-          "deezer_url": "https://www.deezer.com/track/4321519912"
+          "deezer_url": "https://www.deezer.com/track/4321519912",
+          "apple_id": 6818059600,
+          "apple_url": "https://music.apple.com/us/album/cold-shoulder/6818059268?i=6818059600&uo=4",
+          "dailymotion_id": "x8o1m64",
+          "dailymotion_url": "https://www.dailymotion.com/video/x8o1m64"
         },
         {
           "position": 61,
@@ -1202,7 +1224,11 @@
           "youtube_id": "PbD5tyvPycw",
           "youtube_url": "https://www.youtube.com/watch?v=PbD5tyvPycw",
           "deezer_id": 4151325432,
-          "deezer_url": "https://www.deezer.com/track/4151325432"
+          "deezer_url": "https://www.deezer.com/track/4151325432",
+          "apple_id": 6773775304,
+          "apple_url": "https://music.apple.com/us/album/nothing/6773775032?i=6773775304&uo=4",
+          "dailymotion_id": "xtkvy",
+          "dailymotion_url": "https://www.dailymotion.com/video/xtkvy"
         },
         {
           "position": 62,
@@ -1219,7 +1245,11 @@
           "youtube_id": "vWD8_Ie4Aic",
           "youtube_url": "https://www.youtube.com/watch?v=vWD8_Ie4Aic",
           "deezer_id": 4321519902,
-          "deezer_url": "https://www.deezer.com/track/4321519902"
+          "deezer_url": "https://www.deezer.com/track/4321519902",
+          "apple_id": 6818059598,
+          "apple_url": "https://music.apple.com/us/album/quebec/6818059268?i=6818059598&uo=4",
+          "dailymotion_id": "xklo8b",
+          "dailymotion_url": "https://www.dailymotion.com/video/xklo8b"
         },
         {
           "position": 63,
@@ -1236,7 +1266,11 @@
           "youtube_id": "zHlzvcv3oyk",
           "youtube_url": "https://www.youtube.com/watch?v=zHlzvcv3oyk",
           "deezer_id": 3911920921,
-          "deezer_url": "https://www.deezer.com/track/3911920921"
+          "deezer_url": "https://www.deezer.com/track/3911920921",
+          "apple_id": 1882890988,
+          "apple_url": "https://music.apple.com/us/album/country-and-she-knows-it/1882890986?i=1882890988&uo=4",
+          "dailymotion_id": "x6b45uy",
+          "dailymotion_url": "https://www.dailymotion.com/video/x6b45uy"
         },
         {
           "position": 64,
@@ -1253,7 +1287,11 @@
           "youtube_id": "9ofUM-_3uQ4",
           "youtube_url": "https://www.youtube.com/watch?v=9ofUM-_3uQ4",
           "deezer_id": 4368888701,
-          "deezer_url": "https://www.deezer.com/track/4368888701"
+          "deezer_url": "https://www.deezer.com/track/4368888701",
+          "apple_id": 6827195451,
+          "apple_url": "https://music.apple.com/us/album/thin-ice/6827195439?i=6827195451&uo=4",
+          "dailymotion_id": "xbwireq",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbwireq"
         },
         {
           "position": 65,
@@ -1270,7 +1308,11 @@
           "youtube_id": "u0g8elvennQ",
           "youtube_url": "https://www.youtube.com/watch?v=u0g8elvennQ",
           "deezer_id": 4057986201,
-          "deezer_url": "https://www.deezer.com/track/4057986201"
+          "deezer_url": "https://www.deezer.com/track/4057986201",
+          "apple_id": 6776926215,
+          "apple_url": "https://music.apple.com/us/album/cowgirl/6776926206?i=6776926215&uo=4",
+          "dailymotion_id": "xadi8kq",
+          "dailymotion_url": "https://www.dailymotion.com/video/xadi8kq"
         },
         {
           "position": 66,
@@ -1287,7 +1329,11 @@
           "youtube_id": "YuF6eZROXIw",
           "youtube_url": "https://www.youtube.com/watch?v=YuF6eZROXIw",
           "deezer_id": 4031003581,
-          "deezer_url": "https://www.deezer.com/track/4031003581"
+          "deezer_url": "https://www.deezer.com/track/4031003581",
+          "apple_id": 1888326036,
+          "apple_url": "https://music.apple.com/us/album/say-so/1888325785?i=1888326036&uo=4",
+          "dailymotion_id": "xa46mvq",
+          "dailymotion_url": "https://www.dailymotion.com/video/xa46mvq"
         },
         {
           "position": 67,
@@ -1304,7 +1350,11 @@
           "youtube_id": "Qw20tg1v7Fc",
           "youtube_url": "https://www.youtube.com/watch?v=Qw20tg1v7Fc",
           "deezer_id": 4151325392,
-          "deezer_url": "https://www.deezer.com/track/4151325392"
+          "deezer_url": "https://www.deezer.com/track/4151325392",
+          "apple_id": 6773775304,
+          "apple_url": "https://music.apple.com/us/album/nothing/6773775032?i=6773775304&uo=4",
+          "dailymotion_id": "xadndau",
+          "dailymotion_url": "https://www.dailymotion.com/video/xadndau"
         },
         {
           "position": 68,
@@ -1321,7 +1371,11 @@
           "youtube_id": "5i7lrVrvykI",
           "youtube_url": "https://www.youtube.com/watch?v=5i7lrVrvykI",
           "deezer_id": 3371384741,
-          "deezer_url": "https://www.deezer.com/track/3371384741"
+          "deezer_url": "https://www.deezer.com/track/3371384741",
+          "apple_id": 1814944725,
+          "apple_url": "https://music.apple.com/us/album/painted-you-pretty/1814944527?i=1814944725&uo=4",
+          "dailymotion_id": "x17oboq",
+          "dailymotion_url": "https://www.dailymotion.com/video/x17oboq"
         },
         {
           "position": 69,
@@ -1338,7 +1392,11 @@
           "youtube_id": "I8PAiMr0aIM",
           "youtube_url": "https://www.youtube.com/watch?v=I8PAiMr0aIM",
           "deezer_id": 4304962762,
-          "deezer_url": "https://www.deezer.com/track/4304962762"
+          "deezer_url": "https://www.deezer.com/track/4304962762",
+          "apple_id": 6775919764,
+          "apple_url": "https://music.apple.com/us/album/snakeskin-boots/6775919538?i=6775919764&uo=4",
+          "dailymotion_id": "xb6sefq",
+          "dailymotion_url": "https://www.dailymotion.com/video/xb6sefq"
         },
         {
           "position": 70,
@@ -1355,7 +1413,11 @@
           "youtube_id": "vLLdKVYJUzs",
           "youtube_url": "https://www.youtube.com/watch?v=vLLdKVYJUzs",
           "deezer_id": 4306586472,
-          "deezer_url": "https://www.deezer.com/track/4306586472"
+          "deezer_url": "https://www.deezer.com/track/4306586472",
+          "apple_id": 6818244563,
+          "apple_url": "https://music.apple.com/us/album/burn/6818244562?i=6818244563&uo=4",
+          "dailymotion_id": "x7wc4mr",
+          "dailymotion_url": "https://www.dailymotion.com/video/x7wc4mr"
         },
         {
           "position": 71,
@@ -1372,7 +1434,11 @@
           "youtube_id": "8dhAgxUhc1s",
           "youtube_url": "https://www.youtube.com/watch?v=8dhAgxUhc1s",
           "deezer_id": 4072004711,
-          "deezer_url": "https://www.deezer.com/track/4072004711"
+          "deezer_url": "https://www.deezer.com/track/4072004711",
+          "apple_id": 6804864950,
+          "apple_url": "https://music.apple.com/us/album/ghetto-love-story/6804864942?i=6804864950&uo=4",
+          "dailymotion_id": "x4vw4l",
+          "dailymotion_url": "https://www.dailymotion.com/video/x4vw4l"
         },
         {
           "position": 72,
@@ -1387,7 +1453,11 @@
           "peakPosition": 58,
           "source": "acharts",
           "deezer_id": 4305706802,
-          "deezer_url": "https://www.deezer.com/track/4305706802"
+          "deezer_url": "https://www.deezer.com/track/4305706802",
+          "apple_id": 6815839551,
+          "apple_url": "https://music.apple.com/us/album/pink-blush-remix/6815839538?i=6815839551&uo=4",
+          "dailymotion_id": "xbphjm6",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbphjm6"
         },
         {
           "position": 73,
@@ -1404,7 +1474,11 @@
           "youtube_id": "TOrvSefxrNg",
           "youtube_url": "https://www.youtube.com/watch?v=TOrvSefxrNg",
           "deezer_id": 4374766031,
-          "deezer_url": "https://www.deezer.com/track/4374766031"
+          "deezer_url": "https://www.deezer.com/track/4374766031",
+          "apple_id": 6827357438,
+          "apple_url": "https://music.apple.com/us/album/here-you-come-there-you-go/6827357170?i=6827357438&uo=4",
+          "dailymotion_id": "xbs0aaq",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbs0aaq"
         },
         {
           "position": 74,
@@ -1421,7 +1495,11 @@
           "youtube_id": "GDp3q59ZWZE",
           "youtube_url": "https://www.youtube.com/watch?v=GDp3q59ZWZE",
           "deezer_id": 4092439181,
-          "deezer_url": "https://www.deezer.com/track/4092439181"
+          "deezer_url": "https://www.deezer.com/track/4092439181",
+          "apple_id": 6780661946,
+          "apple_url": "https://music.apple.com/us/album/hands-up/6780661818?i=6780661946&uo=4",
+          "dailymotion_id": "xapvcjq",
+          "dailymotion_url": "https://www.dailymotion.com/video/xapvcjq"
         },
         {
           "position": 75,
@@ -1436,7 +1514,11 @@
           "peakPosition": 75,
           "source": "acharts",
           "deezer_id": 4302331542,
-          "deezer_url": "https://www.deezer.com/track/4302331542"
+          "deezer_url": "https://www.deezer.com/track/4302331542",
+          "apple_id": 6827700676,
+          "apple_url": "https://music.apple.com/us/album/i-like-it/6827700544?i=6827700676&uo=4",
+          "dailymotion_id": "xbbzlka",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbbzlka"
         },
         {
           "position": 76,
@@ -1453,7 +1535,11 @@
           "youtube_id": "tC3Fnl1SBFs",
           "youtube_url": "https://www.youtube.com/watch?v=tC3Fnl1SBFs",
           "deezer_id": 3697436932,
-          "deezer_url": "https://www.deezer.com/track/3697436932"
+          "deezer_url": "https://www.deezer.com/track/3697436932",
+          "apple_id": 1786450277,
+          "apple_url": "https://music.apple.com/us/album/kid-myself/1786449460?i=1786450277&uo=4",
+          "dailymotion_id": "xa7lub6",
+          "dailymotion_url": "https://www.dailymotion.com/video/xa7lub6"
         },
         {
           "position": 77,
@@ -1470,7 +1556,11 @@
           "youtube_id": "UQsFdPzhQjA",
           "youtube_url": "https://www.youtube.com/watch?v=UQsFdPzhQjA",
           "deezer_id": 4342358342,
-          "deezer_url": "https://www.deezer.com/track/4342358342"
+          "deezer_url": "https://www.deezer.com/track/4342358342",
+          "apple_id": 6819802968,
+          "apple_url": "https://music.apple.com/us/album/flower-in-a-hurricane-from-gtavi-original-score/6819802963?i=6819802968&uo=4",
+          "dailymotion_id": "xbrj21a",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbrj21a"
         },
         {
           "position": 78,
@@ -1487,7 +1577,9 @@
           "youtube_id": "ZqgKKbg2Ja8",
           "youtube_url": "https://www.youtube.com/watch?v=ZqgKKbg2Ja8",
           "deezer_id": 3503343941,
-          "deezer_url": "https://www.deezer.com/track/3503343941"
+          "deezer_url": "https://www.deezer.com/track/3503343941",
+          "apple_id": 1831598182,
+          "apple_url": "https://music.apple.com/us/album/sue-me/1831597802?i=1831598182&uo=4"
         },
         {
           "position": 79,
@@ -2822,7 +2914,11 @@
           "youtube_id": "RTrZtuLe5zI",
           "youtube_url": "https://www.youtube.com/watch?v=RTrZtuLe5zI",
           "deezer_id": 3898660811,
-          "deezer_url": "https://www.deezer.com/track/3898660811"
+          "deezer_url": "https://www.deezer.com/track/3898660811",
+          "apple_id": 1884874661,
+          "apple_url": "https://music.apple.com/us/album/fr%C3%A9rot/1884874286?i=1884874661&uo=4",
+          "dailymotion_id": "x8y8kru",
+          "dailymotion_url": "https://www.dailymotion.com/video/x8y8kru"
         },
         {
           "position": 45,
@@ -2862,7 +2958,9 @@
           "youtube_id": "hfZNuoY7rqE",
           "youtube_url": "https://www.youtube.com/watch?v=hfZNuoY7rqE",
           "deezer_id": 4094311121,
-          "deezer_url": "https://www.deezer.com/track/4094311121"
+          "deezer_url": "https://www.deezer.com/track/4094311121",
+          "dailymotion_id": "x3sqaw",
+          "dailymotion_url": "https://www.dailymotion.com/video/x3sqaw"
         },
         {
           "position": 47,
@@ -2880,7 +2978,11 @@
           "youtube_id": "xYSXKiBMVEM",
           "youtube_url": "https://www.youtube.com/watch?v=xYSXKiBMVEM",
           "deezer_id": 3940644351,
-          "deezer_url": "https://www.deezer.com/track/3940644351"
+          "deezer_url": "https://www.deezer.com/track/3940644351",
+          "apple_id": 1890501765,
+          "apple_url": "https://music.apple.com/us/album/chaussures-roses/1890501759?i=1890501765&uo=4",
+          "dailymotion_id": "xbkfxsy",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbkfxsy"
         },
         {
           "position": 48,
@@ -2898,7 +3000,11 @@
           "youtube_id": "8mPQkkYn7Wg",
           "youtube_url": "https://www.youtube.com/watch?v=8mPQkkYn7Wg",
           "deezer_id": 4048535481,
-          "deezer_url": "https://www.deezer.com/track/4048535481"
+          "deezer_url": "https://www.deezer.com/track/4048535481",
+          "apple_id": 6764794375,
+          "apple_url": "https://music.apple.com/us/album/sexy-nana/6764794374?i=6764794375&uo=4",
+          "dailymotion_id": "xbq5vy6",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbq5vy6"
         },
         {
           "position": 49,
@@ -2916,7 +3022,11 @@
           "youtube_id": "9eCuEIUNRjc",
           "youtube_url": "https://www.youtube.com/watch?v=9eCuEIUNRjc",
           "deezer_id": 1814246247,
-          "deezer_url": "https://www.deezer.com/track/1814246247"
+          "deezer_url": "https://www.deezer.com/track/1814246247",
+          "apple_id": 1661065361,
+          "apple_url": "https://music.apple.com/us/album/la-nocturne/1661064750?i=1661065361&uo=4",
+          "dailymotion_id": "x84oxgh",
+          "dailymotion_url": "https://www.dailymotion.com/video/x84oxgh"
         },
         {
           "position": 50,
@@ -2934,7 +3044,11 @@
           "youtube_id": "QAJGWSM6Z-w",
           "youtube_url": "https://www.youtube.com/watch?v=QAJGWSM6Z-w",
           "deezer_id": 3935276381,
-          "deezer_url": "https://www.deezer.com/track/3935276381"
+          "deezer_url": "https://www.deezer.com/track/3935276381",
+          "apple_id": 1889860646,
+          "apple_url": "https://music.apple.com/us/album/soleil/1889860434?i=1889860646&uo=4",
+          "dailymotion_id": "x5c7v5w",
+          "dailymotion_url": "https://www.dailymotion.com/video/x5c7v5w"
         },
         {
           "position": 51,
@@ -2952,7 +3066,11 @@
           "youtube_id": "3yv8C_QgdZY",
           "youtube_url": "https://www.youtube.com/watch?v=3yv8C_QgdZY",
           "deezer_id": 4228778002,
-          "deezer_url": "https://www.deezer.com/track/4228778002"
+          "deezer_url": "https://www.deezer.com/track/4228778002",
+          "apple_id": 6804661660,
+          "apple_url": "https://music.apple.com/us/album/une-seule-vie/6804661401?i=6804661660&uo=4",
+          "dailymotion_id": "x5rpmb",
+          "dailymotion_url": "https://www.dailymotion.com/video/x5rpmb"
         },
         {
           "position": 52,
@@ -2992,7 +3110,11 @@
           "youtube_id": "CrtAQWDSPco",
           "youtube_url": "https://www.youtube.com/watch?v=CrtAQWDSPco",
           "deezer_id": 4034363911,
-          "deezer_url": "https://www.deezer.com/track/4034363911"
+          "deezer_url": "https://www.deezer.com/track/4034363911",
+          "apple_id": 1698583772,
+          "apple_url": "https://music.apple.com/us/album/s%C3%A9minaire/1698583769?i=1698583772&uo=4",
+          "dailymotion_id": "xah0inq",
+          "dailymotion_url": "https://www.dailymotion.com/video/xah0inq"
         },
         {
           "position": 54,
@@ -3010,7 +3132,11 @@
           "youtube_id": "hkUSnrHQJHg",
           "youtube_url": "https://www.youtube.com/watch?v=hkUSnrHQJHg",
           "deezer_id": 3869647201,
-          "deezer_url": "https://www.deezer.com/track/3869647201"
+          "deezer_url": "https://www.deezer.com/track/3869647201",
+          "apple_id": 1879983789,
+          "apple_url": "https://music.apple.com/us/album/fever-dream/1879983782?i=1879983789&uo=4",
+          "dailymotion_id": "xb6edk2",
+          "dailymotion_url": "https://www.dailymotion.com/video/xb6edk2"
         },
         {
           "position": 55,
@@ -3028,13 +3154,18 @@
           "youtube_id": "30YwZ26WY5Q",
           "youtube_url": "https://www.youtube.com/watch?v=30YwZ26WY5Q",
           "deezer_id": 3420336041,
-          "deezer_url": "https://www.deezer.com/track/3420336041"
+          "deezer_url": "https://www.deezer.com/track/3420336041",
+          "apple_id": 6817184695,
+          "apple_url": "https://music.apple.com/us/album/cote-a-la-hausse/6817184692?i=6817184695&uo=4",
+          "dailymotion_id": "x2emf63",
+          "dailymotion_url": "https://www.dailymotion.com/video/x2emf63"
         },
         {
           "position": 56,
           "track": {
             "title": "You and I, me and you",
-            "artist": "David Guetta x Hypaton"
+            "artist": "David Guetta x Hypaton",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/81/f4/ce/81f4ce8e-4ee2-64f4-aa3e-4001daa667f8/1200220041756.jpg/300x300bb.jpg"
           },
           "label": "WARNER MUSIC",
           "previousPosition": 68,
@@ -3043,7 +3174,11 @@
           "peakPosition": 56,
           "source": "snep",
           "youtube_id": "LsDFL27v5Ps",
-          "youtube_url": "https://www.youtube.com/watch?v=LsDFL27v5Ps"
+          "youtube_url": "https://www.youtube.com/watch?v=LsDFL27v5Ps",
+          "apple_id": 6807503334,
+          "apple_url": "https://music.apple.com/us/album/you-and-i-me-and-you/6807502910?i=6807503334&uo=4",
+          "dailymotion_id": "xo1op0",
+          "dailymotion_url": "https://www.dailymotion.com/video/xo1op0"
         },
         {
           "position": 57,
@@ -3061,7 +3196,11 @@
           "youtube_id": "PhxPYdBRgYs",
           "youtube_url": "https://www.youtube.com/watch?v=PhxPYdBRgYs",
           "deezer_id": 3650665212,
-          "deezer_url": "https://www.deezer.com/track/3650665212"
+          "deezer_url": "https://www.deezer.com/track/3650665212",
+          "apple_id": 1852358425,
+          "apple_url": "https://music.apple.com/us/album/one-track-mind/1852358411?i=1852358425&uo=4",
+          "dailymotion_id": "xbmd5t6",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbmd5t6"
         },
         {
           "position": 58,
@@ -3079,7 +3218,11 @@
           "youtube_id": "RTmjMQCuKsY",
           "youtube_url": "https://www.youtube.com/watch?v=RTmjMQCuKsY",
           "deezer_id": 2402734225,
-          "deezer_url": "https://www.deezer.com/track/2402734225"
+          "deezer_url": "https://www.deezer.com/track/2402734225",
+          "apple_id": 6820598754,
+          "apple_url": "https://music.apple.com/us/album/memories-souvenirs/6820598682?i=6820598754&uo=4",
+          "dailymotion_id": "xbnp0fu",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbnp0fu"
         },
         {
           "position": 59,
@@ -3097,7 +3240,11 @@
           "youtube_id": "_0RRXkJBX4k",
           "youtube_url": "https://www.youtube.com/watch?v=_0RRXkJBX4k",
           "deezer_id": 3711016002,
-          "deezer_url": "https://www.deezer.com/track/3711016002"
+          "deezer_url": "https://www.deezer.com/track/3711016002",
+          "apple_id": 1891393670,
+          "apple_url": "https://music.apple.com/us/album/slimane-premi%C3%A8re-fois-rmx/1891393668?i=1891393670&uo=4",
+          "dailymotion_id": "x6jxm4z",
+          "dailymotion_url": "https://www.dailymotion.com/video/x6jxm4z"
         },
         {
           "position": 60,
@@ -3115,7 +3262,11 @@
           "youtube_id": "w-7MbI4zYKc",
           "youtube_url": "https://www.youtube.com/watch?v=w-7MbI4zYKc",
           "deezer_id": 4294454742,
-          "deezer_url": "https://www.deezer.com/track/4294454742"
+          "deezer_url": "https://www.deezer.com/track/4294454742",
+          "apple_id": 1547263849,
+          "apple_url": "https://music.apple.com/us/album/bir-hakeim/1547263845?i=1547263849&uo=4",
+          "dailymotion_id": "x7au1oy",
+          "dailymotion_url": "https://www.dailymotion.com/video/x7au1oy"
         }
       ],
       "sourceType": "snep"
@@ -4440,7 +4591,11 @@
           "youtube_id": "VI0NDsh2b8k",
           "youtube_url": "https://www.youtube.com/watch?v=VI0NDsh2b8k",
           "deezer_id": 3380570801,
-          "deezer_url": "https://www.deezer.com/track/3380570801"
+          "deezer_url": "https://www.deezer.com/track/3380570801",
+          "apple_id": 1814620247,
+          "apple_url": "https://music.apple.com/us/album/nice-to-each-other/1814620245?i=1814620247&uo=4",
+          "dailymotion_id": "x9vj6ko",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9vj6ko"
         },
         {
           "position": 68,
@@ -4457,7 +4612,11 @@
           "youtube_id": "Vpn2w7w8j3c",
           "youtube_url": "https://www.youtube.com/watch?v=Vpn2w7w8j3c",
           "deezer_id": 4154740742,
-          "deezer_url": "https://www.deezer.com/track/4154740742"
+          "deezer_url": "https://www.deezer.com/track/4154740742",
+          "apple_id": 1847992612,
+          "apple_url": "https://music.apple.com/us/album/raindance/1847992481?i=1847992612&uo=4",
+          "dailymotion_id": "x9xzdgg",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9xzdgg"
         },
         {
           "position": 69,
@@ -4474,7 +4633,11 @@
           "youtube_id": "Y3ywicffOj4",
           "youtube_url": "https://www.youtube.com/watch?v=Y3ywicffOj4",
           "deezer_id": 63480987,
-          "deezer_url": "https://www.deezer.com/track/63480987"
+          "deezer_url": "https://www.deezer.com/track/63480987",
+          "apple_id": 202272624,
+          "apple_url": "https://music.apple.com/us/album/dreams/202271826?i=202272624&uo=4",
+          "dailymotion_id": "x3bq3c",
+          "dailymotion_url": "https://www.dailymotion.com/video/x3bq3c"
         },
         {
           "position": 70,
@@ -4533,7 +4696,11 @@
           "youtube_id": "3ZKq2ptu7qw",
           "youtube_url": "https://www.youtube.com/watch?v=3ZKq2ptu7qw",
           "deezer_id": 4285683222,
-          "deezer_url": "https://www.deezer.com/track/4285683222"
+          "deezer_url": "https://www.deezer.com/track/4285683222",
+          "apple_id": 6811941086,
+          "apple_url": "https://music.apple.com/us/album/fancy-footwork/6811941081?i=6811941086&uo=4",
+          "dailymotion_id": "x5lb0x",
+          "dailymotion_url": "https://www.dailymotion.com/video/x5lb0x"
         },
         {
           "position": 73,
@@ -4592,7 +4759,11 @@
           "youtube_id": "gJYjbDnyx-o",
           "youtube_url": "https://www.youtube.com/watch?v=gJYjbDnyx-o",
           "deezer_id": 3896566861,
-          "deezer_url": "https://www.deezer.com/track/3896566861"
+          "deezer_url": "https://www.deezer.com/track/3896566861",
+          "apple_id": 1884730735,
+          "apple_url": "https://music.apple.com/us/album/free-your-mind/1884730177?i=1884730735&uo=4",
+          "dailymotion_id": "xh37n6",
+          "dailymotion_url": "https://www.dailymotion.com/video/xh37n6"
         }
       ],
       "sourceType": "acharts"
@@ -5518,7 +5689,11 @@
           "youtube_id": "x34icYC8zA0",
           "youtube_url": "https://www.youtube.com/watch?v=x34icYC8zA0",
           "deezer_id": 2535199421,
-          "deezer_url": "https://www.deezer.com/track/2535199421"
+          "deezer_url": "https://www.deezer.com/track/2535199421",
+          "apple_id": 332852764,
+          "apple_url": "https://music.apple.com/us/album/a-little-respect/332852548?i=332852764&uo=4",
+          "dailymotion_id": "xmoeub",
+          "dailymotion_url": "https://www.dailymotion.com/video/xmoeub"
         },
         {
           "position": 45,
@@ -5535,7 +5710,11 @@
           "youtube_id": "sElE_BfQ67s",
           "youtube_url": "https://www.youtube.com/watch?v=sElE_BfQ67s",
           "deezer_id": 144010758,
-          "deezer_url": "https://www.deezer.com/track/144010758"
+          "deezer_url": "https://www.deezer.com/track/144010758",
+          "apple_id": 1217977755,
+          "apple_url": "https://music.apple.com/us/album/apocalypse/1217977525?i=1217977755&uo=4",
+          "dailymotion_id": "x6etzx3",
+          "dailymotion_url": "https://www.dailymotion.com/video/x6etzx3"
         },
         {
           "position": 46,
@@ -5552,7 +5731,11 @@
           "youtube_id": "6366dxFf-Os",
           "youtube_url": "https://www.youtube.com/watch?v=6366dxFf-Os",
           "deezer_id": 70322139,
-          "deezer_url": "https://www.deezer.com/track/70322139"
+          "deezer_url": "https://www.deezer.com/track/70322139",
+          "apple_id": 663098056,
+          "apple_url": "https://music.apple.com/us/album/whyd-you-only-call-me-when-youre-high/663097964?i=663098056&uo=4",
+          "dailymotion_id": "x2ixd2z",
+          "dailymotion_url": "https://www.dailymotion.com/video/x2ixd2z"
         },
         {
           "position": 47,
@@ -5569,7 +5752,11 @@
           "youtube_id": "aBpYk9vuneE",
           "youtube_url": "https://www.youtube.com/watch?v=aBpYk9vuneE",
           "deezer_id": 3059583721,
-          "deezer_url": "https://www.deezer.com/track/3059583721"
+          "deezer_url": "https://www.deezer.com/track/3059583721",
+          "apple_id": 1775877096,
+          "apple_url": "https://music.apple.com/us/album/merry-christmas-please-dont-call/1775877095?i=1775877096&uo=4",
+          "dailymotion_id": "x325oye",
+          "dailymotion_url": "https://www.dailymotion.com/video/x325oye"
         },
         {
           "position": 48,
@@ -5586,7 +5773,11 @@
           "youtube_id": "1twUUM0KxDg",
           "youtube_url": "https://www.youtube.com/watch?v=1twUUM0KxDg",
           "deezer_id": 3221394331,
-          "deezer_url": "https://www.deezer.com/track/3221394331"
+          "deezer_url": "https://www.deezer.com/track/3221394331",
+          "apple_id": 1544491988,
+          "apple_url": "https://music.apple.com/us/album/set-fire-to-the-rain/1544491232?i=1544491988&uo=4",
+          "dailymotion_id": "x2h8tsw",
+          "dailymotion_url": "https://www.dailymotion.com/video/x2h8tsw"
         },
         {
           "position": 49,
@@ -5603,7 +5794,11 @@
           "youtube_id": "9cXJp5RgpaM",
           "youtube_url": "https://www.youtube.com/watch?v=9cXJp5RgpaM",
           "deezer_id": 4058034531,
-          "deezer_url": "https://www.deezer.com/track/4058034531"
+          "deezer_url": "https://www.deezer.com/track/4058034531",
+          "apple_id": 6776035576,
+          "apple_url": "https://music.apple.com/us/album/can-i-ride/6776035575?i=6776035576&uo=4",
+          "dailymotion_id": "x5ut7m8",
+          "dailymotion_url": "https://www.dailymotion.com/video/x5ut7m8"
         },
         {
           "position": 50,
@@ -5620,7 +5815,11 @@
           "youtube_id": "gXWtGLz2rEM",
           "youtube_url": "https://www.youtube.com/watch?v=gXWtGLz2rEM",
           "deezer_id": 3025869951,
-          "deezer_url": "https://www.deezer.com/track/3025869951"
+          "deezer_url": "https://www.deezer.com/track/3025869951",
+          "apple_id": 1771711274,
+          "apple_url": "https://music.apple.com/us/album/what-you-know/1771710760?i=1771711274&uo=4",
+          "dailymotion_id": "xgk7vd",
+          "dailymotion_url": "https://www.dailymotion.com/video/xgk7vd"
         }
       ],
       "sourceType": "official_charts"
@@ -5658,8 +5857,8 @@
             "artist": "Kimo Sounds",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/3759a7754f009f8c30b3fcaa4748220a/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 3,
-          "movement": "up",
+          "previousPosition": 2,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 2,
           "source": "kworb_itunes",
@@ -5719,7 +5918,7 @@
             "artist": "U2",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/5c288ebd50b3cc02b666d9979dde5420/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 9,
+          "previousPosition": 8,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 5,
@@ -5803,7 +6002,7 @@
             "artist": "Druckluft",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/506635109e1da2358233687ad7200ded/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 15,
+          "previousPosition": 19,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 9,
@@ -5845,7 +6044,7 @@
             "artist": "Bjorn Bonebreaker",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/844a20e64edf83ac7e727edfa20e84d8/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 8,
+          "previousPosition": 9,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 11,
@@ -5887,7 +6086,7 @@
             "artist": "Helene Fischer",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/42bf7a581df912ae81ab2f4fd7ae00c1/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 19,
+          "previousPosition": 16,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 13,
@@ -5908,8 +6107,8 @@
             "artist": "SK.music",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/e8e0f519968b9d1f531ee76ffd54bab5/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 14,
-          "movement": "same",
+          "previousPosition": 13,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 14,
           "source": "kworb_itunes",
@@ -5929,8 +6128,8 @@
             "artist": "Imael Angel & Cali Bee",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/f94359a059bf55ba8ad7069a045ed733/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 18,
-          "movement": "up",
+          "previousPosition": 14,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 15,
           "source": "kworb_itunes",
@@ -5971,7 +6170,7 @@
             "artist": "Tate McRae",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/0717657c0f9540946fb9813d3383a500/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 43,
+          "previousPosition": 44,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 17,
@@ -5992,7 +6191,7 @@
             "artist": "U2",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/5c288ebd50b3cc02b666d9979dde5420/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 13,
+          "previousPosition": 15,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 18,
@@ -6013,7 +6212,7 @@
             "artist": "Shakira & Burna Boy",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/a7f9bae0243c512059298a68d09f45a1/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 50,
+          "previousPosition": 51,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 19,
@@ -6034,7 +6233,7 @@
             "artist": "Bernhard SchÃ¤fer",
             "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/c7/09/6bc709b9-5dc3-6d6b-d6e6-83690b3259c4/cover.jpg/300x300bb.jpg"
           },
-          "previousPosition": 2,
+          "previousPosition": 3,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 20,
@@ -6049,7 +6248,7 @@
             "artist": "DJ Goja",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/86a2dbf1f380e706c3f49aaf36e4e0a0/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 24,
+          "previousPosition": 23,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 21,
@@ -6112,7 +6311,7 @@
             "artist": "DjElynzoo",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/f8d7c5741eb6845e2031c0eb49e88720/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 20,
+          "previousPosition": 18,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 24,
@@ -6133,7 +6332,7 @@
             "artist": "IDK, Eminem & J Dilla",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/338750331f2d19a4ffd707016060de9a/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 47,
+          "previousPosition": 48,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 25,
@@ -6142,10 +6341,10 @@
           "youtube_url": "https://www.youtube.com/watch?v=zT104EktdOc",
           "deezer_id": 4406638071,
           "deezer_url": "https://www.deezer.com/track/4406638071",
-          "dailymotion_id": "x38fs0x",
-          "dailymotion_url": "https://www.dailymotion.com/video/x38fs0x",
           "apple_id": 6828647871,
-          "apple_url": "https://music.apple.com/us/album/welcome/6828647858?i=6828647871&uo=4"
+          "apple_url": "https://music.apple.com/us/album/welcome/6828647858?i=6828647871&uo=4",
+          "dailymotion_id": "x38fs0x",
+          "dailymotion_url": "https://www.dailymotion.com/video/x38fs0x"
         },
         {
           "position": 26,
@@ -6154,7 +6353,7 @@
             "artist": "Imael Angel & Cali Bee",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/f94359a059bf55ba8ad7069a045ed733/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 29,
+          "previousPosition": 30,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 26,
@@ -6175,7 +6374,7 @@
             "artist": "The Bausa",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/a9f10b9adc9d762a545a3b98d4a9edef/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 77,
+          "previousPosition": 91,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 27,
@@ -6196,7 +6395,7 @@
             "artist": "Ashe",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/556af4b24a45d8fd6912014d706ff7d4/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 41,
+          "previousPosition": 43,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 28,
@@ -6217,7 +6416,7 @@
             "artist": "Jaxson Blue",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/7cc06ac71c7209d37144c2c63558f68a/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 36,
+          "previousPosition": 31,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 29,
@@ -6238,7 +6437,7 @@
             "artist": "Helene Fischer",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/b69863fc7366aa31f897289fd1af0aa9/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 42,
+          "previousPosition": 38,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 30,
@@ -6259,7 +6458,7 @@
             "artist": "HUGEL & SOLTO (FR)",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/48508c979e3b80e675c0f90ee052a43d/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 48,
+          "previousPosition": 49,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 31,
@@ -6280,7 +6479,7 @@
             "artist": "Hozier & Jessie Buckley",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/b09ed0588d17b1262b829529d48a11db/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 73,
+          "previousPosition": 52,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 32,
@@ -6301,7 +6500,7 @@
             "artist": "Gregor HÃ¤gele",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/474ab0eea3c233ce4aea67ed28fb3bbe/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 16,
+          "previousPosition": 20,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 33,
@@ -6320,7 +6519,7 @@
             "artist": "Mira Mova Music",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/0cf31fcf76270b1fd39fe206df28a881/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 85,
+          "previousPosition": 80,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 34,
@@ -6341,8 +6540,8 @@
             "artist": "Kimo Sounds",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/7953737ddeaac4a31dd9c590e0171112/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 31,
-          "movement": "down",
+          "previousPosition": 37,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 35,
           "source": "kworb_itunes",
@@ -6362,7 +6561,7 @@
             "artist": "Miley Cyrus",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/00118eb3dccc7678a7c5e66569a40eeb/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 30,
+          "previousPosition": 33,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 36,
@@ -6383,7 +6582,7 @@
             "artist": "Bebe Rexha & Faithless",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/44fcf0e5b0e84a25c0dd7969ce63ecca/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 54,
+          "previousPosition": 55,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 37,
@@ -6404,7 +6603,7 @@
             "artist": "Bryan Adams",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/a633a295b2425837436186d88e64fd9f/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 23,
+          "previousPosition": 26,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 38,
@@ -6425,8 +6624,8 @@
             "artist": "Kerstin Ott & Maite Kelly",
             "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f3/18/1e/f3181e62-dab4-1ba4-b862-499127cd0f84/cover_4099885313899.jpg/300x300bb.jpg"
           },
-          "previousPosition": 51,
-          "movement": "up",
+          "previousPosition": 39,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 39,
           "source": "kworb_itunes",
@@ -6444,8 +6643,8 @@
             "artist": "Nickelback",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/c703df579523d56edef50b19c0715c59/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 40,
-          "movement": "same",
+          "previousPosition": 42,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 40,
           "source": "kworb_itunes",
@@ -6465,7 +6664,7 @@
             "artist": "Teddy Swims",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/ae84b07e7cc79189d9f54948789633ac/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 53,
+          "previousPosition": 57,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 41,
@@ -6486,7 +6685,7 @@
             "artist": "Mark Forster",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/20fc3b12d153e8b40b90e8455ab91f1f/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 60,
+          "previousPosition": 61,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 42,
@@ -6507,7 +6706,7 @@
             "artist": "DJ Goja, Jason Derulo & Melody",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/20e5e541bd783267b7a48761882ff827/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 83,
+          "previousPosition": 75,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 43,
@@ -6528,7 +6727,7 @@
             "artist": "Take That & Michael Patrick Kelly",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/3c72b07a6d460af5908560e4daab7a78/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 66,
+          "previousPosition": 72,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 44,
@@ -6549,7 +6748,7 @@
             "artist": "U2",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/5c288ebd50b3cc02b666d9979dde5420/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 33,
+          "previousPosition": 28,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 45,
@@ -6570,7 +6769,7 @@
             "artist": "Ski Aggu & Ericson",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/378cb928c933b4a734823c6cf6a8ebe0/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 28,
+          "previousPosition": 29,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 46,
@@ -6589,7 +6788,7 @@
             "artist": "Schnappnot",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/ffd1488187c02bcf5cbe0971102e0f2b/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 21,
+          "previousPosition": 24,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 47,
@@ -6609,7 +6808,7 @@
             "title": "KÃ¶lsche Maid",
             "artist": "Calvin Kleinen, Ikke HÃ¼ftgold & Rabaue"
           },
-          "previousPosition": 69,
+          "previousPosition": 63,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 48,
@@ -6624,7 +6823,7 @@
             "artist": "Bullet for My Valentine, Will Ramos & Lorna Shore",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/be80e88cb61787781894474f56df53ca/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 27,
+          "previousPosition": 25,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 49,
@@ -6645,7 +6844,7 @@
             "artist": "Simple Minds",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/3f604583f7884091a98c01529a14f22c/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 26,
+          "previousPosition": 21,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 50,
@@ -6655,7 +6854,9 @@
           "deezer_id": 4394755581,
           "deezer_url": "https://www.deezer.com/track/4394755581",
           "apple_id": 6803466728,
-          "apple_url": "https://music.apple.com/us/album/elysium/6803466727?i=6803466728&uo=4"
+          "apple_url": "https://music.apple.com/us/album/elysium/6803466727?i=6803466728&uo=4",
+          "dailymotion_id": "x59co7",
+          "dailymotion_url": "https://www.dailymotion.com/video/x59co7"
         },
         {
           "position": 51,
@@ -6672,7 +6873,11 @@
           "youtube_id": "hjzxs4Jhing",
           "youtube_url": "https://www.youtube.com/watch?v=hjzxs4Jhing",
           "deezer_id": 4406896701,
-          "deezer_url": "https://www.deezer.com/track/4406896701"
+          "deezer_url": "https://www.deezer.com/track/4406896701",
+          "apple_id": 6826227338,
+          "apple_url": "https://music.apple.com/us/album/my-life-my-rules/6826227337?i=6826227338&uo=4",
+          "dailymotion_id": "xbs0ofy",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbs0ofy"
         },
         {
           "position": 52,
@@ -6681,7 +6886,7 @@
             "artist": "STELLA LEFTY",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/66d6baca9df5092af22a710ce10d39cf/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 75,
+          "previousPosition": 65,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 52,
@@ -6702,7 +6907,7 @@
             "artist": "Voltage X",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/215a1dd713b55af71746bb6d9c94de81/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 39,
+          "previousPosition": 34,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 53,
@@ -6710,7 +6915,11 @@
           "youtube_id": "Yk8ZKUrhFtQ",
           "youtube_url": "https://www.youtube.com/watch?v=Yk8ZKUrhFtQ",
           "deezer_id": 4282987242,
-          "deezer_url": "https://www.deezer.com/track/4282987242"
+          "deezer_url": "https://www.deezer.com/track/4282987242",
+          "apple_id": 6811503148,
+          "apple_url": "https://music.apple.com/us/album/why-dont-you-spend-the-night/6811503147?i=6811503148&uo=4",
+          "dailymotion_id": "x2oraa7",
+          "dailymotion_url": "https://www.dailymotion.com/video/x2oraa7"
         },
         {
           "position": 54,
@@ -6727,7 +6936,11 @@
           "youtube_id": "t1mI9gvMocg",
           "youtube_url": "https://www.youtube.com/watch?v=t1mI9gvMocg",
           "deezer_id": 4236793372,
-          "deezer_url": "https://www.deezer.com/track/4236793372"
+          "deezer_url": "https://www.deezer.com/track/4236793372",
+          "apple_id": 6798920629,
+          "apple_url": "https://music.apple.com/us/album/find-me/6798920628?i=6798920629&uo=4",
+          "dailymotion_id": "xa09u1w",
+          "dailymotion_url": "https://www.dailymotion.com/video/xa09u1w"
         },
         {
           "position": 55,
@@ -6757,7 +6970,7 @@
             "artist": "Sido",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/318fe0882f23f7f15a26d4e14923da94/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 35,
+          "previousPosition": 36,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 56,
@@ -6765,7 +6978,11 @@
           "youtube_id": "NBZ30B8VYqo",
           "youtube_url": "https://www.youtube.com/watch?v=NBZ30B8VYqo",
           "deezer_id": 4231654522,
-          "deezer_url": "https://www.deezer.com/track/4231654522"
+          "deezer_url": "https://www.deezer.com/track/4231654522",
+          "apple_id": 724291241,
+          "apple_url": "https://music.apple.com/us/album/la-troca-del-mo%C3%B1o-negro/724289900?i=724291241&uo=4",
+          "dailymotion_id": "x66wdzg",
+          "dailymotion_url": "https://www.dailymotion.com/video/x66wdzg"
         },
         {
           "position": 57,
@@ -6774,7 +6991,7 @@
             "artist": "Kimo Sounds",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/519321994b3314c1c1b55b926f3f1d1e/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 72,
+          "previousPosition": 67,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 57,
@@ -6782,7 +6999,11 @@
           "youtube_id": "upSzgdQl4s8",
           "youtube_url": "https://www.youtube.com/watch?v=upSzgdQl4s8",
           "deezer_id": 4408780711,
-          "deezer_url": "https://www.deezer.com/track/4408780711"
+          "deezer_url": "https://www.deezer.com/track/4408780711",
+          "apple_id": 6833789793,
+          "apple_url": "https://music.apple.com/us/album/quiet-proof/6833789792?i=6833789793&uo=4",
+          "dailymotion_id": "xaeick2",
+          "dailymotion_url": "https://www.dailymotion.com/video/xaeick2"
         },
         {
           "position": 58,
@@ -6791,7 +7012,7 @@
             "artist": "The Killers",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/0690d69d27f0d718fcc95f23af702286/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 49,
+          "previousPosition": 50,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 58,
@@ -6812,7 +7033,7 @@
             "artist": "Bjorn Bonebreaker",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/3ed1add50d9e1a5db947d52112b0ce62/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 98,
+          "previousPosition": 88,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 59,
@@ -6820,19 +7041,28 @@
           "youtube_id": "8LMx_EpcYOE",
           "youtube_url": "https://www.youtube.com/watch?v=8LMx_EpcYOE",
           "deezer_id": 4351054902,
-          "deezer_url": "https://www.deezer.com/track/4351054902"
+          "deezer_url": "https://www.deezer.com/track/4351054902",
+          "apple_id": 6779117587,
+          "apple_url": "https://music.apple.com/us/album/fire-in-the-bone/6779117585?i=6779117587&uo=4",
+          "dailymotion_id": "x9z6geo",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9z6geo"
         },
         {
           "position": 60,
           "track": {
             "title": "Wo sind die Freaks?",
-            "artist": "PlanschemalÃ¶Ã¶r"
+            "artist": "PlanschemalÃ¶Ã¶r",
+            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/2f/b3/0c/mzi.gvmdvewo.jpg/300x300bb.jpg"
           },
-          "previousPosition": 55,
-          "movement": "down",
+          "previousPosition": 60,
+          "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 60,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "apple_id": 270150933,
+          "apple_url": "https://music.apple.com/us/album/pipis-und-popos/270150925?i=270150933&uo=4",
+          "dailymotion_id": "x1z2nkb",
+          "dailymotion_url": "https://www.dailymotion.com/video/x1z2nkb"
         },
         {
           "position": 61,
@@ -6841,7 +7071,7 @@
             "artist": "Bryan Adams",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/a633a295b2425837436186d88e64fd9f/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 34,
+          "previousPosition": 35,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 61,
@@ -6849,7 +7079,11 @@
           "youtube_id": "upUdfgVR2NQ",
           "youtube_url": "https://www.youtube.com/watch?v=upUdfgVR2NQ",
           "deezer_id": 4360439911,
-          "deezer_url": "https://www.deezer.com/track/4360439911"
+          "deezer_url": "https://www.deezer.com/track/4360439911",
+          "apple_id": 6802858645,
+          "apple_url": "https://music.apple.com/us/album/the-ballad-of-terry-fox/6802858643?i=6802858645&uo=4",
+          "dailymotion_id": "x8lf181",
+          "dailymotion_url": "https://www.dailymotion.com/video/x8lf181"
         },
         {
           "position": 62,
@@ -6866,7 +7100,11 @@
           "youtube_id": "CxJu0bncG0k",
           "youtube_url": "https://www.youtube.com/watch?v=CxJu0bncG0k",
           "deezer_id": 3966512921,
-          "deezer_url": "https://www.deezer.com/track/3966512921"
+          "deezer_url": "https://www.deezer.com/track/3966512921",
+          "apple_id": 1893925803,
+          "apple_url": "https://music.apple.com/us/album/sorry-papi/1893925801?i=1893925803&uo=4",
+          "dailymotion_id": "x54yd1r",
+          "dailymotion_url": "https://www.dailymotion.com/video/x54yd1r"
         },
         {
           "position": 63,
@@ -6875,7 +7113,7 @@
             "artist": "Kimo Sounds",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/3759a7754f009f8c30b3fcaa4748220a/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 82,
+          "previousPosition": 73,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 63,
@@ -6896,7 +7134,7 @@
             "artist": "Bob Dominator",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/3ad734831132a784cff92a79fa1630fb/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 135,
+          "previousPosition": 136,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 64,
@@ -6904,7 +7142,11 @@
           "youtube_id": "v-HlExpRbQg",
           "youtube_url": "https://www.youtube.com/watch?v=v-HlExpRbQg",
           "deezer_id": 4011424701,
-          "deezer_url": "https://www.deezer.com/track/4011424701"
+          "deezer_url": "https://www.deezer.com/track/4011424701",
+          "apple_id": 6796089314,
+          "apple_url": "https://music.apple.com/us/album/in-my-soul/6796089312?i=6796089314&uo=4",
+          "dailymotion_id": "xb74346",
+          "dailymotion_url": "https://www.dailymotion.com/video/xb74346"
         },
         {
           "position": 65,
@@ -6913,7 +7155,7 @@
             "artist": "King Loui",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/95506bda86dfa0a1c07bb34e51721ee9/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 74,
+          "previousPosition": 85,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 65,
@@ -6921,7 +7163,11 @@
           "youtube_id": "eDq9LS2176k",
           "youtube_url": "https://www.youtube.com/watch?v=eDq9LS2176k",
           "deezer_id": 4335617532,
-          "deezer_url": "https://www.deezer.com/track/4335617532"
+          "deezer_url": "https://www.deezer.com/track/4335617532",
+          "apple_id": 6807446748,
+          "apple_url": "https://music.apple.com/us/album/jenny-us-marienburg/6807446747?i=6807446748&uo=4",
+          "dailymotion_id": "xa7todg",
+          "dailymotion_url": "https://www.dailymotion.com/video/xa7todg"
         },
         {
           "position": 66,
@@ -6951,7 +7197,7 @@
             "artist": "The xx",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/7037869230e2fbf86b91ec1b4c7e8b8d/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 137,
+          "previousPosition": 138,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 67,
@@ -6959,7 +7205,11 @@
           "youtube_id": "9ehkgnqd35Y",
           "youtube_url": "https://www.youtube.com/watch?v=9ehkgnqd35Y",
           "deezer_id": 3787855,
-          "deezer_url": "https://www.deezer.com/track/3787855"
+          "deezer_url": "https://www.deezer.com/track/3787855",
+          "apple_id": 1850810463,
+          "apple_url": "https://music.apple.com/us/album/intro/1850810462?i=1850810463&uo=4",
+          "dailymotion_id": "x303w4y",
+          "dailymotion_url": "https://www.dailymotion.com/video/x303w4y"
         },
         {
           "position": 68,
@@ -6968,7 +7218,7 @@
             "artist": "Dua Lipa",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/d2d717350a1f2fcc7ef9fb01eb84163f/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 141,
+          "previousPosition": 142,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 68,
@@ -6976,7 +7226,11 @@
           "youtube_id": "ZjBZ8MUnB0E",
           "youtube_url": "https://www.youtube.com/watch?v=ZjBZ8MUnB0E",
           "deezer_id": 2661514912,
-          "deezer_url": "https://www.deezer.com/track/2661514912"
+          "deezer_url": "https://www.deezer.com/track/2661514912",
+          "apple_id": 1727526894,
+          "apple_url": "https://music.apple.com/us/album/training-season/1727526670?i=1727526894&uo=4",
+          "dailymotion_id": "x9k45d2",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9k45d2"
         },
         {
           "position": 69,
@@ -6985,7 +7239,7 @@
             "artist": "Florian KÃ¼nstler",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/6a48001b71604b9fa4c0afd239947006/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 37,
+          "previousPosition": 41,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 69,
@@ -6993,7 +7247,9 @@
           "youtube_id": "fd-NNd3WV7U",
           "youtube_url": "https://www.youtube.com/watch?v=fd-NNd3WV7U",
           "deezer_id": 4222891642,
-          "deezer_url": "https://www.deezer.com/track/4222891642"
+          "deezer_url": "https://www.deezer.com/track/4222891642",
+          "dailymotion_id": "x4amotv",
+          "dailymotion_url": "https://www.dailymotion.com/video/x4amotv"
         },
         {
           "position": 70,
@@ -7002,7 +7258,7 @@
             "artist": "Dj Ozzi Hawk",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/6cd38cc615e8a775da60fd036d5b17ad/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 159,
+          "previousPosition": 160,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 70,
@@ -7010,7 +7266,11 @@
           "youtube_id": "1hWUaDS19BY",
           "youtube_url": "https://www.youtube.com/watch?v=1hWUaDS19BY",
           "deezer_id": 3918748831,
-          "deezer_url": "https://www.deezer.com/track/3918748831"
+          "deezer_url": "https://www.deezer.com/track/3918748831",
+          "apple_id": 6831799363,
+          "apple_url": "https://music.apple.com/us/album/my-own-rules/6831799362?i=6831799363&uo=4",
+          "dailymotion_id": "x9osefy",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9osefy"
         },
         {
           "position": 71,
@@ -7027,7 +7287,11 @@
           "youtube_id": "76WFkKp8Tjs",
           "youtube_url": "https://www.youtube.com/watch?v=76WFkKp8Tjs",
           "deezer_id": 571386662,
-          "deezer_url": "https://www.deezer.com/track/571386662"
+          "deezer_url": "https://www.deezer.com/track/571386662",
+          "apple_id": 299701862,
+          "apple_url": "https://music.apple.com/us/album/santa-claus-is-comin-to-town-live-at-c-w-post-college/299701857?i=299701862&uo=4",
+          "dailymotion_id": "x6ds6e",
+          "dailymotion_url": "https://www.dailymotion.com/video/x6ds6e"
         },
         {
           "position": 72,
@@ -7036,7 +7300,7 @@
             "artist": "Pur",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/902e88fabcc8df4fad8ac2cb8321959f/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 101,
+          "previousPosition": 98,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 72,
@@ -7044,7 +7308,9 @@
           "youtube_id": "aYBsKw7_Pwo",
           "youtube_url": "https://www.youtube.com/watch?v=aYBsKw7_Pwo",
           "deezer_id": 4366096661,
-          "deezer_url": "https://www.deezer.com/track/4366096661"
+          "deezer_url": "https://www.deezer.com/track/4366096661",
+          "dailymotion_id": "x3svyu9",
+          "dailymotion_url": "https://www.dailymotion.com/video/x3svyu9"
         },
         {
           "position": 73,
@@ -7053,15 +7319,19 @@
             "artist": "ClockClock",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/af05b2c58a77cd1d10d66f3d27ba0610/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 67,
-          "movement": "down",
+          "previousPosition": 76,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 73,
           "source": "kworb_itunes",
           "youtube_id": "BOwTjdQ9pZY",
           "youtube_url": "https://www.youtube.com/watch?v=BOwTjdQ9pZY",
           "deezer_id": 4265272142,
-          "deezer_url": "https://www.deezer.com/track/4265272142"
+          "deezer_url": "https://www.deezer.com/track/4265272142",
+          "apple_id": 6807077438,
+          "apple_url": "https://music.apple.com/us/album/skeletons/6807077435?i=6807077438&uo=4",
+          "dailymotion_id": "x87rhv2",
+          "dailymotion_url": "https://www.dailymotion.com/video/x87rhv2"
         },
         {
           "position": 74,
@@ -7070,7 +7340,7 @@
             "artist": "MAINVIBE",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/fa75a714bf74ec1e12ca5414e5c291ce/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 96,
+          "previousPosition": 97,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 74,
@@ -7078,7 +7348,11 @@
           "youtube_id": "9VAFU492-Dk",
           "youtube_url": "https://www.youtube.com/watch?v=9VAFU492-Dk",
           "deezer_id": 1118025282,
-          "deezer_url": "https://www.deezer.com/track/1118025282"
+          "deezer_url": "https://www.deezer.com/track/1118025282",
+          "apple_id": 6828491222,
+          "apple_url": "https://music.apple.com/us/album/mit-dir/6828491221?i=6828491222&uo=4",
+          "dailymotion_id": "x9leioy",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9leioy"
         },
         {
           "position": 75,
@@ -7095,7 +7369,11 @@
           "youtube_id": "tsAOrr254pM",
           "youtube_url": "https://www.youtube.com/watch?v=tsAOrr254pM",
           "deezer_id": 4344639022,
-          "deezer_url": "https://www.deezer.com/track/4344639022"
+          "deezer_url": "https://www.deezer.com/track/4344639022",
+          "apple_id": 1612052142,
+          "apple_url": "https://music.apple.com/us/album/zeit/1612051984?i=1612052142&uo=4",
+          "dailymotion_id": "x7xd889",
+          "dailymotion_url": "https://www.dailymotion.com/video/x7xd889"
         },
         {
           "position": 76,
@@ -7104,7 +7382,7 @@
             "artist": "Rea Garvey & Imran",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/bf05b0e8400495aecdda89b77942b42a/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 86,
+          "previousPosition": 99,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 76,
@@ -7112,7 +7390,11 @@
           "youtube_id": "9850qGeRCf4",
           "youtube_url": "https://www.youtube.com/watch?v=9850qGeRCf4",
           "deezer_id": 4192900942,
-          "deezer_url": "https://www.deezer.com/track/4192900942"
+          "deezer_url": "https://www.deezer.com/track/4192900942",
+          "apple_id": 1079234243,
+          "apple_url": "https://music.apple.com/us/album/river/1079234232?i=1079234243&uo=4",
+          "dailymotion_id": "x6eewqm",
+          "dailymotion_url": "https://www.dailymotion.com/video/x6eewqm"
         },
         {
           "position": 77,
@@ -7121,7 +7403,7 @@
             "artist": "Marc Eggers, Aditotoro & Paul Frege",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/c6b7b5f44e90aeb8fcf9498e973f179c/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 105,
+          "previousPosition": 110,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 77,
@@ -7138,7 +7420,7 @@
             "artist": "Kimo Sounds",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/415378f7b2e6c18d4fdb3274050fc70d/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 61,
+          "previousPosition": 58,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 78,
@@ -7146,7 +7428,9 @@
           "youtube_id": "3eNxfpeeHbE",
           "youtube_url": "https://www.youtube.com/watch?v=3eNxfpeeHbE",
           "deezer_id": 4288386582,
-          "deezer_url": "https://www.deezer.com/track/4288386582"
+          "deezer_url": "https://www.deezer.com/track/4288386582",
+          "apple_id": 6812456469,
+          "apple_url": "https://music.apple.com/us/album/not-for-everyone/6812456468?i=6812456469&uo=4"
         },
         {
           "position": 79,
@@ -7155,13 +7439,15 @@
             "artist": "Imael Angel",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/ea200fa7773eab2e6e43531793fdc79c/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 132,
+          "previousPosition": 133,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 79,
           "source": "kworb_itunes",
           "deezer_id": 4040949101,
-          "deezer_url": "https://www.deezer.com/track/4040949101"
+          "deezer_url": "https://www.deezer.com/track/4040949101",
+          "apple_id": 6772596606,
+          "apple_url": "https://music.apple.com/us/album/im-alive/6772596605?i=6772596606&uo=4"
         },
         {
           "position": 80,
@@ -7178,7 +7464,9 @@
           "youtube_id": "j-_1-uJ6Ml4",
           "youtube_url": "https://www.youtube.com/watch?v=j-_1-uJ6Ml4",
           "deezer_id": 72435416,
-          "deezer_url": "https://www.deezer.com/track/72435416"
+          "deezer_url": "https://www.deezer.com/track/72435416",
+          "apple_id": 6826994302,
+          "apple_url": "https://music.apple.com/us/album/one-more-sleep/6826994300?i=6826994302&uo=4"
         },
         {
           "position": 81,
@@ -7187,7 +7475,7 @@
             "artist": "KAROL G, Judeline & rusowsky",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/f794dd1931dac42fc13f938850b686c6/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 57,
+          "previousPosition": 54,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 81,
@@ -7195,7 +7483,9 @@
           "youtube_id": "fRIhCiUVaKs",
           "youtube_url": "https://www.youtube.com/watch?v=fRIhCiUVaKs",
           "deezer_id": 4208859922,
-          "deezer_url": "https://www.deezer.com/track/4208859922"
+          "deezer_url": "https://www.deezer.com/track/4208859922",
+          "dailymotion_id": "xbo6n5q",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbo6n5q"
         },
         {
           "position": 82,
@@ -7221,7 +7511,7 @@
             "artist": "LEA",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/8a37a0035dd41c7febf66204e985947c/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 62,
+          "previousPosition": 68,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 83,
@@ -7238,8 +7528,8 @@
             "artist": "DJ Herzbeat & Nicki",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/8fd374fe8f512aa8b8dcae607772fa00/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 87,
-          "movement": "up",
+          "previousPosition": 81,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 84,
           "source": "kworb_itunes",
@@ -7272,8 +7562,8 @@
             "artist": "Sido & Montez",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/a9332e6596a8cf36d5254e95f86a650b/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 97,
-          "movement": "up",
+          "previousPosition": 74,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 86,
           "source": "kworb_itunes",
@@ -7305,7 +7595,7 @@
             "title": "The Hunger Games, Depeche Mode & KÃRYYN - Survive (Arena Mix",
             "artist": "KÃRYYN Rework)"
           },
-          "previousPosition": 52,
+          "previousPosition": 53,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 88,
@@ -7330,7 +7620,7 @@
             "artist": "Purple Disco Machine & MEEK",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/c5ff203cb718a8b16f6d17b5a3ddb503/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 71,
+          "previousPosition": 66,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 90,
@@ -7347,7 +7637,7 @@
             "artist": "Olivia Rodrigo",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/b755e304f6639c3a231f9f67832850a2/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 58,
+          "previousPosition": 62,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 91,
@@ -7393,7 +7683,7 @@
             "title": "DANZE",
             "artist": "Malle Anja & KÃ¶lle Anja"
           },
-          "previousPosition": 138,
+          "previousPosition": 139,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 94,
@@ -7406,8 +7696,8 @@
             "artist": "Glockenbach & Calum Scott",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/9e731efb9bd50e003ac79c359b044998/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 100,
-          "movement": "up",
+          "previousPosition": 89,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 95,
           "source": "kworb_itunes",
@@ -7440,7 +7730,7 @@
             "artist": "Chuck Berry",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/f3d66e855e15ac75c9e3a085aa6697b6/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 70,
+          "previousPosition": 79,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 97,
@@ -7465,7 +7755,11 @@
           "youtube_id": "aAkMkVFwAoo",
           "youtube_url": "https://www.youtube.com/watch?v=aAkMkVFwAoo",
           "deezer_id": 62710442,
-          "deezer_url": "https://www.deezer.com/track/62710442"
+          "deezer_url": "https://www.deezer.com/track/62710442",
+          "apple_id": 585972803,
+          "apple_url": "https://music.apple.com/us/album/all-i-want-for-christmas-is-you/585972750?i=585972803&uo=4",
+          "dailymotion_id": "x7xud0e",
+          "dailymotion_url": "https://www.dailymotion.com/video/x7xud0e"
         },
         {
           "position": 99,
@@ -7491,7 +7785,7 @@
             "artist": "David Guetta, Alok & Stick Figure",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/f56db44b2cde33b0925931446106e391/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 68,
+          "previousPosition": 77,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 100,
@@ -7525,7 +7819,7 @@
             "artist": "Kygo",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/8704a3d688494ad4febb6376504f8949/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 157,
+          "previousPosition": 158,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 102,
@@ -7590,8 +7884,8 @@
             "artist": "HÃ¶hner",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/e13cbded5b087a7a290c0b8f22467179/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 106,
-          "movement": "same",
+          "previousPosition": 111,
+          "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 106,
           "source": "kworb_itunes",
@@ -7607,7 +7901,7 @@
             "artist": "Ella Langley",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/749ad2ad7609ec768e342bec41078095/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 78,
+          "previousPosition": 82,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 107,
@@ -7628,7 +7922,7 @@
             "artist": "Justin Bieber",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/0354bd17ccf674f4c04311aa445b0c2d/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 79,
+          "previousPosition": 83,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 108,
@@ -7645,8 +7939,8 @@
             "artist": "ORDA",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/8917a6104e7b8996081da3be5ca38112/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 111,
-          "movement": "up",
+          "previousPosition": 84,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 109,
           "source": "kworb_itunes",
@@ -7693,7 +7987,7 @@
             "artist": "Kimo Sounds",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/37c0a87f259d28869f7b7f758db80581/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 142,
+          "previousPosition": 143,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 112,
@@ -7709,7 +8003,7 @@
             "title": "immer fÃ¶r immer",
             "artist": "Brings & Cat Ballou"
           },
-          "previousPosition": 112,
+          "previousPosition": 94,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 113,
@@ -7722,7 +8016,7 @@
             "artist": "Sia",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/41213c7f0cc443663830556afdfda846/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 136,
+          "previousPosition": 137,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 114,
@@ -7790,7 +8084,7 @@
             "artist": "DA TI",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/3776b22e483a6fc6dc357f8d6008f9f5/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 127,
+          "previousPosition": 128,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 118,
@@ -7807,7 +8101,7 @@
             "artist": "Benson Boone",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/71ca8c4c88fdb45381c4291bd4233ff6/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 80,
+          "previousPosition": 70,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 119,
@@ -7862,15 +8156,19 @@
             "artist": "Fleetwood Mac",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/9732751ce91d786dcf30069853697078/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 124,
-          "movement": "up",
+          "previousPosition": 100,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 122,
           "source": "kworb_itunes",
           "youtube_id": "Y3ywicffOj4",
           "youtube_url": "https://www.youtube.com/watch?v=Y3ywicffOj4",
           "deezer_id": 63480987,
-          "deezer_url": "https://www.deezer.com/track/63480987"
+          "deezer_url": "https://www.deezer.com/track/63480987",
+          "apple_id": 202272624,
+          "apple_url": "https://music.apple.com/us/album/dreams/202271826?i=202272624&uo=4",
+          "dailymotion_id": "x3bq3c",
+          "dailymotion_url": "https://www.dailymotion.com/video/x3bq3c"
         },
         {
           "position": 123,
@@ -7879,7 +8177,7 @@
             "artist": "Kimo Sounds",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/5eba00148db3cc4f8c5b3b42bd917a42/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 91,
+          "previousPosition": 102,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 123,
@@ -7896,7 +8194,7 @@
             "artist": "Nico Santos",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/3a9d3397a508fec6da98ef4d07ff101d/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 84,
+          "previousPosition": 90,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 124,
@@ -7947,7 +8245,7 @@
             "artist": "Lost Frequencies, Gryffin & Michael Marcagi",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/b1367c597b625f75485dc67ac192fe6d/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 93,
+          "previousPosition": 86,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 127,
@@ -7964,7 +8262,7 @@
             "artist": "Harry Styles",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/fee004942feff253f7bbca63740ab519/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 122,
+          "previousPosition": 124,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 128,
@@ -7981,7 +8279,7 @@
             "artist": "shockfactor",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/c8a32bd04d2d78ea59fbaa1607d9ec57/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 149,
+          "previousPosition": 150,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 129,
@@ -7998,7 +8296,7 @@
             "artist": "Sido & Fler",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/acc683a3295ab31fc70f0fbacfe095df/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 88,
+          "previousPosition": 92,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 130,
@@ -8015,8 +8313,8 @@
             "artist": "U2",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/5c288ebd50b3cc02b666d9979dde5420/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 160,
-          "movement": "up",
+          "previousPosition": 87,
+          "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 131,
           "source": "kworb_itunes",
@@ -8053,13 +8351,15 @@
             "artist": "@47_kÃ¶11sch",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/15591dcc03a4d7880b0ef30d9b65470d/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 144,
+          "previousPosition": 145,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 133,
           "source": "kworb_itunes",
           "deezer_id": 4337354862,
-          "deezer_url": "https://www.deezer.com/track/4337354862"
+          "deezer_url": "https://www.deezer.com/track/4337354862",
+          "youtube_id": "_URL44fnZ_s",
+          "youtube_url": "https://www.youtube.com/watch?v=_URL44fnZ_s"
         },
         {
           "position": 134,
@@ -8085,7 +8385,7 @@
             "artist": "SDP & JazzDP",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/1aa7a82b5f1888fef2821553b2a4922b/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 99,
+          "previousPosition": 106,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 135,
@@ -8130,7 +8430,7 @@
             "artist": "T Seven",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/85e8950988de19339fe287ea0568f3c1/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 103,
+          "previousPosition": 108,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 138,
@@ -8164,7 +8464,7 @@
             "artist": "Ragal Ironbull",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/d016fad5ff0f573d9b649473dd8312e7/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 76,
+          "previousPosition": 78,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 140,
@@ -8181,7 +8481,7 @@
             "artist": "The Rolling Stones",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/8f2a139906a313300bffad67e4e3f7fe/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 92,
+          "previousPosition": 103,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 141,
@@ -8195,15 +8495,18 @@
           "position": 142,
           "track": {
             "title": "UNA CANZONE PER TE",
-            "artist": "Andreas Gabalier & Pietro Basile"
+            "artist": "Andreas Gabalier & Pietro Basile",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/61c51bb9f2091b41cd7872f904e1b6aa/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 63,
+          "previousPosition": 69,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 142,
           "source": "kworb_itunes",
           "youtube_id": "A7xqN9W8nOA",
-          "youtube_url": "https://www.youtube.com/watch?v=A7xqN9W8nOA"
+          "youtube_url": "https://www.youtube.com/watch?v=A7xqN9W8nOA",
+          "deezer_id": 4048287331,
+          "deezer_url": "https://www.deezer.com/track/4048287331"
         },
         {
           "position": 143,
@@ -8226,13 +8529,18 @@
           "position": 144,
           "track": {
             "title": "Jericho",
-            "artist": "Yearboox"
+            "artist": "Yearboox",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/c0bf004e7dcc2f6d14db2746bec118c0/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 144,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 144,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "C8BP8K-ZuL0",
+          "youtube_url": "https://www.youtube.com/watch?v=C8BP8K-ZuL0",
+          "deezer_id": 4293660652,
+          "deezer_url": "https://www.deezer.com/track/4293660652"
         },
         {
           "position": 145,
@@ -8252,7 +8560,7 @@
             "title": "Die Nacht der NÃ¤chte - Bella Ciao",
             "artist": "Steffen Sturm"
           },
-          "previousPosition": 25,
+          "previousPosition": 27,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 146,
@@ -8262,13 +8570,18 @@
           "position": 147,
           "track": {
             "title": "Carol Of The Bells",
-            "artist": "Safri Duo"
+            "artist": "Safri Duo",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/f6ac3f1e0fcbf62a35f7a77cb0ee34d1/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 147,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 147,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "oY6OenvCDqw",
+          "youtube_url": "https://www.youtube.com/watch?v=oY6OenvCDqw",
+          "deezer_id": 3630358832,
+          "deezer_url": "https://www.deezer.com/track/3630358832"
         },
         {
           "position": 148,
@@ -8289,25 +8602,35 @@
           "position": 149,
           "track": {
             "title": "VoilÃ",
-            "artist": "Barbara Pravi"
+            "artist": "Barbara Pravi",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/cdf40cf53c8a0a8d9efbfdfe03bc693e/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 149,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 149,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "VJuD7AnV-uw",
+          "youtube_url": "https://www.youtube.com/watch?v=VJuD7AnV-uw",
+          "deezer_id": 1125778602,
+          "deezer_url": "https://www.deezer.com/track/1125778602"
         },
         {
           "position": 150,
           "track": {
             "title": "Heartbreak im Wedding",
-            "artist": "Wanda"
+            "artist": "Wanda",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/f86cf964581b48fb04240cce0d386386/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 38,
+          "previousPosition": 40,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 150,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "HAjMYh2WC9g",
+          "youtube_url": "https://www.youtube.com/watch?v=HAjMYh2WC9g",
+          "deezer_id": 4394869971,
+          "deezer_url": "https://www.deezer.com/track/4394869971"
         },
         {
           "position": 151,
@@ -8325,13 +8648,18 @@
           "position": 152,
           "track": {
             "title": "Sunday to monday",
-            "artist": "Jpretrick"
+            "artist": "Jpretrick",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/520bb4c1bf08d8a6a7fbafed83561dcb/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 165,
           "movement": "up",
           "weeksOnChart": 1,
           "peakPosition": 152,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "iwjNPec0WV8",
+          "youtube_url": "https://www.youtube.com/watch?v=iwjNPec0WV8",
+          "deezer_id": 4398359341,
+          "deezer_url": "https://www.deezer.com/track/4398359341"
         },
         {
           "position": 153,
@@ -8340,7 +8668,7 @@
             "artist": "Michael Schulte",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/eb8b3c5795f6b160e83335284bc203fe/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 126,
+          "previousPosition": 127,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 153,
@@ -8371,25 +8699,35 @@
           "position": 155,
           "track": {
             "title": "Jeck im Kopp",
-            "artist": "Eldorado"
+            "artist": "Eldorado",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/4887e9270e988ae472c83badc75a7a3f/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 155,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 155,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "g636nSv8AE0",
+          "youtube_url": "https://www.youtube.com/watch?v=g636nSv8AE0",
+          "deezer_id": 4204530272,
+          "deezer_url": "https://www.deezer.com/track/4204530272"
         },
         {
           "position": 156,
           "track": {
             "title": "Blood In Your Eyes (from GTAVI: The Album)",
-            "artist": "Tove Lo"
+            "artist": "Tove Lo",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/dc492b8d028525c713a52713b9bb005d/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 156,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 156,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "UqdOZmMQfSk",
+          "youtube_url": "https://www.youtube.com/watch?v=UqdOZmMQfSk",
+          "deezer_id": 4396721031,
+          "deezer_url": "https://www.deezer.com/track/4396721031"
         },
         {
           "position": 157,
@@ -8398,7 +8736,7 @@
             "artist": "James Blunt",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/1bec306df441b91cdb6877f982e4519a/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 116,
+          "previousPosition": 118,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 157,
@@ -8415,7 +8753,7 @@
             "artist": "Kimo Sounds",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/3e11a3b34548c5ee9101f3645e9ce686/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 117,
+          "previousPosition": 119,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 158,
@@ -8477,13 +8815,18 @@
           "position": 162,
           "track": {
             "title": "Same Old Sky (feat. Mae Stephens)",
-            "artist": "Alle Farben"
+            "artist": "Alle Farben",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/f7d14fd7120f09adf97f98c1b53cecfc/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 162,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 162,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "_trHZh7aF48",
+          "youtube_url": "https://www.youtube.com/watch?v=_trHZh7aF48",
+          "deezer_id": 4236642732,
+          "deezer_url": "https://www.deezer.com/track/4236642732"
         },
         {
           "position": 163,
@@ -8528,19 +8871,26 @@
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 165,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "WGj2RBRltEM",
+          "youtube_url": "https://www.youtube.com/watch?v=WGj2RBRltEM"
         },
         {
           "position": 166,
           "track": {
             "title": "Holding Out for a Hero",
-            "artist": "Bonnie Tyler"
+            "artist": "Bonnie Tyler",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/444736f0448461d5db34cb2f35ec8ff1/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 166,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 166,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "bWcASV2sey0",
+          "youtube_url": "https://www.youtube.com/watch?v=bWcASV2sey0",
+          "deezer_id": 911462792,
+          "deezer_url": "https://www.deezer.com/track/911462792"
         },
         {
           "position": 167,
@@ -8549,7 +8899,7 @@
             "artist": "James Blunt",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/2c77b7e0b162a5129bf3b9d7af0307e8/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 152,
+          "previousPosition": 153,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 167,
@@ -8574,19 +8924,26 @@
           "youtube_id": "FTQbiNvZqaY",
           "youtube_url": "https://www.youtube.com/watch?v=FTQbiNvZqaY",
           "deezer_id": 1079668,
-          "deezer_url": "https://www.deezer.com/track/1079668"
+          "deezer_url": "https://www.deezer.com/track/1079668",
+          "apple_id": 185717604,
+          "apple_url": "https://music.apple.com/us/album/africa/185716551?i=185717604&uo=4",
+          "dailymotion_id": "x17t5i",
+          "dailymotion_url": "https://www.dailymotion.com/video/x17t5i"
         },
         {
           "position": 169,
           "track": {
             "title": "Party With The Boys",
-            "artist": "Don Toliver"
+            "artist": "Don Toliver",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/3fa3e9b0941823c16a5203f70ceaba2b/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 158,
+          "previousPosition": 159,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 169,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "deezer_id": 4411282281,
+          "deezer_url": "https://www.deezer.com/track/4411282281"
         },
         {
           "position": 170,
@@ -8598,7 +8955,9 @@
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 170,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "3wxyN3z9PL4",
+          "youtube_url": "https://www.youtube.com/watch?v=3wxyN3z9PL4"
         },
         {
           "position": 171,
@@ -8655,13 +9014,18 @@
           "position": 174,
           "track": {
             "title": "Kristallnaach",
-            "artist": "Die Toten Hosen, Wolfgang Niedecken & BAP"
+            "artist": "Die Toten Hosen, Wolfgang Niedecken & BAP",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/abf6ccd6c1194ccd49d26db91b9b5cfa/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 90,
+          "previousPosition": 93,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 174,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "GKUCoGaUFes",
+          "youtube_url": "https://www.youtube.com/watch?v=GKUCoGaUFes",
+          "deezer_id": 3892371751,
+          "deezer_url": "https://www.deezer.com/track/3892371751"
         },
         {
           "position": 175,
@@ -8670,7 +9034,7 @@
             "artist": "Mazzy Star",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/5d3703e81301662626cc06a8b2843c78/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 139,
+          "previousPosition": 140,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 175,
@@ -8718,13 +9082,18 @@
           "position": 178,
           "track": {
             "title": "Once In a Lifetime",
-            "artist": "Talking Heads"
+            "artist": "Talking Heads",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/1f829d18efbdb8a54fbca7701d5098a9/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 178,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 178,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "5IsSpAOD6K8",
+          "youtube_url": "https://www.youtube.com/watch?v=5IsSpAOD6K8",
+          "deezer_id": 5093672,
+          "deezer_url": "https://www.deezer.com/track/5093672"
         },
         {
           "position": 179,
@@ -8802,13 +9171,18 @@
           "position": 183,
           "track": {
             "title": "Silbermond & Sternenfeuer",
-            "artist": "Gregor Le Dahl"
+            "artist": "Gregor Le Dahl",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/80d17a9d7a1df7afec6818b95b6dcc33/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 65,
+          "previousPosition": 71,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 183,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "E350mGFRIlM",
+          "youtube_url": "https://www.youtube.com/watch?v=E350mGFRIlM",
+          "deezer_id": 557211,
+          "deezer_url": "https://www.deezer.com/track/557211"
         },
         {
           "position": 184,
@@ -8835,13 +9209,18 @@
           "position": 185,
           "track": {
             "title": "Mouse in a Maze (Radio Edit)",
-            "artist": "Roberto Bates"
+            "artist": "Roberto Bates",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/e46237315eaa2d3171145642b52f792a/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 185,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 185,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "qn1VM3NthGs",
+          "youtube_url": "https://www.youtube.com/watch?v=qn1VM3NthGs",
+          "deezer_id": 4319984552,
+          "deezer_url": "https://www.deezer.com/track/4319984552"
         },
         {
           "position": 186,
@@ -8864,25 +9243,35 @@
           "position": 187,
           "track": {
             "title": "Y QuÃ© Fue?",
-            "artist": "Don Miguelo"
+            "artist": "Don Miguelo",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/c11c34a8fd2eb17d0ccdd3a77487c483/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 187,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 187,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "MD_GclD50QU",
+          "youtube_url": "https://www.youtube.com/watch?v=MD_GclD50QU",
+          "deezer_id": 2463676415,
+          "deezer_url": "https://www.deezer.com/track/2463676415"
         },
         {
           "position": 188,
           "track": {
             "title": "This Must Be the Place (Naive Melody)",
-            "artist": "Talking Heads"
+            "artist": "Talking Heads",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/70db13b9aec041ca74d0ec2b815846e9/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 188,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 188,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "Fb2q141rMNE",
+          "youtube_url": "https://www.youtube.com/watch?v=Fb2q141rMNE",
+          "deezer_id": 3614317,
+          "deezer_url": "https://www.deezer.com/track/3614317"
         },
         {
           "position": 189,
@@ -8905,25 +9294,35 @@
           "position": 190,
           "track": {
             "title": "Next to me",
-            "artist": "Dj 9.8 SA"
+            "artist": "Dj 9.8 SA",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/4ac2691466d3ef853a7a724c30214edf/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 190,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 190,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "-nwdjQmc_N8",
+          "youtube_url": "https://www.youtube.com/watch?v=-nwdjQmc_N8",
+          "deezer_id": 3905978351,
+          "deezer_url": "https://www.deezer.com/track/3905978351"
         },
         {
           "position": 191,
           "track": {
             "title": "Ich trink immer noch (Wie damals)",
-            "artist": "Der Zipfelbube, Almklausi & Carolina"
+            "artist": "Der Zipfelbube, Almklausi & Carolina",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/21453118baf56d8be17296624e79e72e/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 191,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 191,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "youtube_id": "CDUDdJ4dn9I",
+          "youtube_url": "https://www.youtube.com/watch?v=CDUDdJ4dn9I",
+          "deezer_id": 4301378942,
+          "deezer_url": "https://www.deezer.com/track/4301378942"
         },
         {
           "position": 192,
@@ -8932,7 +9331,7 @@
             "artist": "ANOTR",
             "artwork": "https://cdn-images.dzcdn.net/images/cover/ab1abe2d073bf5a55943ccc6dff8bcdc/250x250-000000-80-0-0.jpg"
           },
-          "previousPosition": 147,
+          "previousPosition": 148,
           "movement": "down",
           "weeksOnChart": 1,
           "peakPosition": 192,
@@ -8946,13 +9345,16 @@
           "position": 193,
           "track": {
             "title": "Du kannst es immer noch",
-            "artist": "Sonia Liebing & Bernhard Brink"
+            "artist": "Sonia Liebing & Bernhard Brink",
+            "artwork": "https://cdn-images.dzcdn.net/images/cover/a30320c9e4ab9c3dc7bfd44ff2975fc2/250x250-000000-80-0-0.jpg"
           },
           "previousPosition": 193,
           "movement": "same",
           "weeksOnChart": 1,
           "peakPosition": 193,
-          "source": "kworb_itunes"
+          "source": "kworb_itunes",
+          "deezer_id": 4306903572,
+          "deezer_url": "https://www.deezer.com/track/4306903572"
         },
         {
           "position": 194,
@@ -10574,7 +10976,11 @@
           "youtube_id": "aGSKrC7dGcY",
           "youtube_url": "https://www.youtube.com/watch?v=aGSKrC7dGcY",
           "deezer_id": 68515055,
-          "deezer_url": "https://www.deezer.com/track/68515055"
+          "deezer_url": "https://www.deezer.com/track/68515055",
+          "apple_id": 1612544004,
+          "apple_url": "https://music.apple.com/us/album/enjoy-the-silence/1612543823?i=1612544004&uo=4",
+          "dailymotion_id": "x6mvg",
+          "dailymotion_url": "https://www.dailymotion.com/video/x6mvg"
         },
         {
           "position": 77,
@@ -10591,7 +10997,11 @@
           "youtube_id": "6hzrDeceEKc",
           "youtube_url": "https://www.youtube.com/watch?v=6hzrDeceEKc",
           "deezer_id": 985745702,
-          "deezer_url": "https://www.deezer.com/track/985745702"
+          "deezer_url": "https://www.deezer.com/track/985745702",
+          "apple_id": 1517447333,
+          "apple_url": "https://music.apple.com/us/album/wonderwall/1517447039?i=1517447333&uo=4",
+          "dailymotion_id": "xe65i",
+          "dailymotion_url": "https://www.dailymotion.com/video/xe65i"
         },
         {
           "position": 78,
@@ -10608,7 +11018,11 @@
           "youtube_id": "iHLsnHMVXck",
           "youtube_url": "https://www.youtube.com/watch?v=iHLsnHMVXck",
           "deezer_id": 3812245472,
-          "deezer_url": "https://www.deezer.com/track/3812245472"
+          "deezer_url": "https://www.deezer.com/track/3812245472",
+          "apple_id": 1873328285,
+          "apple_url": "https://music.apple.com/us/album/secondhand-feat-rema/1873328276?i=1873328285&uo=4",
+          "dailymotion_id": "x8lbmww",
+          "dailymotion_url": "https://www.dailymotion.com/video/x8lbmww"
         },
         {
           "position": 79,
@@ -10625,7 +11039,11 @@
           "youtube_id": "DR7YTz79Gr4",
           "youtube_url": "https://www.youtube.com/watch?v=DR7YTz79Gr4",
           "deezer_id": 682065132,
-          "deezer_url": "https://www.deezer.com/track/682065132"
+          "deezer_url": "https://www.deezer.com/track/682065132",
+          "apple_id": 1440636498,
+          "apple_url": "https://music.apple.com/us/album/danza-kuduro-feat-lucenzo/1440636324?i=1440636498&uo=4",
+          "dailymotion_id": "x4xug6h",
+          "dailymotion_url": "https://www.dailymotion.com/video/x4xug6h"
         },
         {
           "position": 80,
@@ -10642,7 +11060,11 @@
           "youtube_id": "t4H_Zoh7G5A",
           "youtube_url": "https://www.youtube.com/watch?v=t4H_Zoh7G5A",
           "deezer_id": 9964441,
-          "deezer_url": "https://www.deezer.com/track/9964441"
+          "deezer_url": "https://www.deezer.com/track/9964441",
+          "apple_id": 1440622264,
+          "apple_url": "https://music.apple.com/us/album/on-the-floor-feat-pitbull/1440622252?i=1440622264&uo=4",
+          "dailymotion_id": "x8rq5jp",
+          "dailymotion_url": "https://www.dailymotion.com/video/x8rq5jp"
         },
         {
           "position": 81,
@@ -10659,7 +11081,11 @@
           "youtube_id": "OMOGaugKpzs",
           "youtube_url": "https://www.youtube.com/watch?v=OMOGaugKpzs",
           "deezer_id": 2525864,
-          "deezer_url": "https://www.deezer.com/track/2525864"
+          "deezer_url": "https://www.deezer.com/track/2525864",
+          "apple_id": 1440882897,
+          "apple_url": "https://music.apple.com/us/album/every-breath-you-take/1440882817?i=1440882897&uo=4",
+          "dailymotion_id": "xgshg",
+          "dailymotion_url": "https://www.dailymotion.com/video/xgshg"
         },
         {
           "position": 82,
@@ -10697,7 +11123,11 @@
           "youtube_id": "yKNxeF4KMsY",
           "youtube_url": "https://www.youtube.com/watch?v=yKNxeF4KMsY",
           "deezer_id": 3128096,
-          "deezer_url": "https://www.deezer.com/track/3128096"
+          "deezer_url": "https://www.deezer.com/track/3128096",
+          "apple_id": 1122782283,
+          "apple_url": "https://music.apple.com/us/album/yellow/1122782080?i=1122782283&uo=4",
+          "dailymotion_id": "x9f3o7a",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9f3o7a"
         },
         {
           "position": 84,
@@ -10714,7 +11144,11 @@
           "youtube_id": "SRXH9AbT280",
           "youtube_url": "https://www.youtube.com/watch?v=SRXH9AbT280",
           "deezer_id": 2978105041,
-          "deezer_url": "https://www.deezer.com/track/2978105041"
+          "deezer_url": "https://www.deezer.com/track/2978105041",
+          "apple_id": 1870502581,
+          "apple_url": "https://music.apple.com/us/album/the-emptiness-machine/1870502580?i=1870502581&uo=4",
+          "dailymotion_id": "xausobe",
+          "dailymotion_url": "https://www.dailymotion.com/video/xausobe"
         },
         {
           "position": 85,
@@ -10731,7 +11165,11 @@
           "youtube_id": "KdS6HFQ_LUc",
           "youtube_url": "https://www.youtube.com/watch?v=KdS6HFQ_LUc",
           "deezer_id": 13529559,
-          "deezer_url": "https://www.deezer.com/track/13529559"
+          "deezer_url": "https://www.deezer.com/track/13529559",
+          "apple_id": 1445311857,
+          "apple_url": "https://music.apple.com/us/album/s-m-remix-feat-britney-spears/1445311845?i=1445311857&uo=4",
+          "dailymotion_id": "x5mmil1",
+          "dailymotion_url": "https://www.dailymotion.com/video/x5mmil1"
         },
         {
           "position": 86,
@@ -10748,7 +11186,11 @@
           "youtube_id": "7InTkBxPtK4",
           "youtube_url": "https://www.youtube.com/watch?v=7InTkBxPtK4",
           "deezer_id": 3196460531,
-          "deezer_url": "https://www.deezer.com/track/3196460531"
+          "deezer_url": "https://www.deezer.com/track/3196460531",
+          "apple_id": 1779319634,
+          "apple_url": "https://music.apple.com/us/album/sports-car/1779319620?i=1779319634&uo=4",
+          "dailymotion_id": "x9h5004",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9h5004"
         },
         {
           "position": 87,
@@ -10786,7 +11228,11 @@
           "youtube_id": "hkUSnrHQJHg",
           "youtube_url": "https://www.youtube.com/watch?v=hkUSnrHQJHg",
           "deezer_id": 3869647201,
-          "deezer_url": "https://www.deezer.com/track/3869647201"
+          "deezer_url": "https://www.deezer.com/track/3869647201",
+          "apple_id": 1879983789,
+          "apple_url": "https://music.apple.com/us/album/fever-dream/1879983782?i=1879983789&uo=4",
+          "dailymotion_id": "xb6edk2",
+          "dailymotion_url": "https://www.dailymotion.com/video/xb6edk2"
         },
         {
           "position": 89,
@@ -10845,7 +11291,11 @@
           "youtube_id": "9gWIIIr2Asw",
           "youtube_url": "https://www.youtube.com/watch?v=9gWIIIr2Asw",
           "deezer_id": 2319265555,
-          "deezer_url": "https://www.deezer.com/track/2319265555"
+          "deezer_url": "https://www.deezer.com/track/2319265555",
+          "apple_id": 1691699836,
+          "apple_url": "https://music.apple.com/us/album/lose-control/1691699589?i=1691699836&uo=4",
+          "dailymotion_id": "x9ahoyc",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9ahoyc"
         },
         {
           "position": 92,
@@ -10862,7 +11312,11 @@
           "youtube_id": "mh4AQkw4Jjc",
           "youtube_url": "https://www.youtube.com/watch?v=mh4AQkw4Jjc",
           "deezer_id": 4034010621,
-          "deezer_url": "https://www.deezer.com/track/4034010621"
+          "deezer_url": "https://www.deezer.com/track/4034010621",
+          "apple_id": 6771415268,
+          "apple_url": "https://music.apple.com/us/album/self-aware-remix/6771415267?i=6771415268&uo=4",
+          "dailymotion_id": "x9j2gho",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9j2gho"
         },
         {
           "position": 93,
@@ -10879,7 +11333,11 @@
           "youtube_id": "qwpXVBChVs4",
           "youtube_url": "https://www.youtube.com/watch?v=qwpXVBChVs4",
           "deezer_id": 71645432,
-          "deezer_url": "https://www.deezer.com/track/71645432"
+          "deezer_url": "https://www.deezer.com/track/71645432",
+          "apple_id": 1440818912,
+          "apple_url": "https://music.apple.com/us/album/legendary-lovers/1440818542?i=1440818912&uo=4",
+          "dailymotion_id": "x8aiykk",
+          "dailymotion_url": "https://www.dailymotion.com/video/x8aiykk"
         },
         {
           "position": 94,
@@ -10896,7 +11354,11 @@
           "youtube_id": "dpvQqmX6SUI",
           "youtube_url": "https://www.youtube.com/watch?v=dpvQqmX6SUI",
           "deezer_id": 3387508461,
-          "deezer_url": "https://www.deezer.com/track/3387508461"
+          "deezer_url": "https://www.deezer.com/track/3387508461",
+          "apple_id": 1810796703,
+          "apple_url": "https://music.apple.com/us/album/just-keep-watching/1810796698?i=1810796703&uo=4",
+          "dailymotion_id": "x9w8bgi",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9w8bgi"
         },
         {
           "position": 95,
@@ -10913,7 +11375,11 @@
           "youtube_id": "SenovvZlWIA",
           "youtube_url": "https://www.youtube.com/watch?v=SenovvZlWIA",
           "deezer_id": 3410229851,
-          "deezer_url": "https://www.deezer.com/track/3410229851"
+          "deezer_url": "https://www.deezer.com/track/3410229851",
+          "apple_id": 1653012712,
+          "apple_url": "https://music.apple.com/us/album/broke-boys/1653012564?i=1653012712&uo=4",
+          "dailymotion_id": "x9w88ga",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9w88ga"
         },
         {
           "position": 97,
@@ -10930,7 +11396,11 @@
           "youtube_id": "2An67RbHxi4",
           "youtube_url": "https://www.youtube.com/watch?v=2An67RbHxi4",
           "deezer_id": 3837291721,
-          "deezer_url": "https://www.deezer.com/track/3837291721"
+          "deezer_url": "https://www.deezer.com/track/3837291721",
+          "apple_id": 1078993514,
+          "apple_url": "https://music.apple.com/us/album/argent-sale/1078993326?i=1078993514&uo=4",
+          "dailymotion_id": "x9o9ira",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9o9ira"
         },
         {
           "position": 98,
@@ -10947,7 +11417,11 @@
           "youtube_id": "JRfuAukYTKg",
           "youtube_url": "https://www.youtube.com/watch?v=JRfuAukYTKg",
           "deezer_id": 62847142,
-          "deezer_url": "https://www.deezer.com/track/62847142"
+          "deezer_url": "https://www.deezer.com/track/62847142",
+          "apple_id": 693226464,
+          "apple_url": "https://music.apple.com/us/album/titanium-feat-sia/693225996?i=693226464&uo=4",
+          "dailymotion_id": "x2uyzp3",
+          "dailymotion_url": "https://www.dailymotion.com/video/x2uyzp3"
         },
         {
           "position": 99,
@@ -10964,7 +11438,11 @@
           "youtube_id": "mIMMZQJ1H6E",
           "youtube_url": "https://www.youtube.com/watch?v=mIMMZQJ1H6E",
           "deezer_id": 3323906481,
-          "deezer_url": "https://www.deezer.com/track/3323906481"
+          "deezer_url": "https://www.deezer.com/track/3323906481",
+          "apple_id": 513473337,
+          "apple_url": "https://music.apple.com/us/album/disparate-youth/513473335?i=513473337&uo=4",
+          "dailymotion_id": "x1ll7bc",
+          "dailymotion_url": "https://www.dailymotion.com/video/x1ll7bc"
         },
         {
           "position": 100,
@@ -10981,7 +11459,11 @@
           "youtube_id": "u7I5duvX8Ag",
           "youtube_url": "https://www.youtube.com/watch?v=u7I5duvX8Ag",
           "deezer_id": 3339052271,
-          "deezer_url": "https://www.deezer.com/track/3339052271"
+          "deezer_url": "https://www.deezer.com/track/3339052271",
+          "apple_id": 1824152785,
+          "apple_url": "https://music.apple.com/us/album/mon-amour/1824152421?i=1824152785&uo=4",
+          "dailymotion_id": "xfejll",
+          "dailymotion_url": "https://www.dailymotion.com/video/xfejll"
         }
       ],
       "sourceType": "acharts"
@@ -11842,7 +12324,11 @@
           "youtube_id": "3KkCoYA40Ck",
           "youtube_url": "https://www.youtube.com/watch?v=3KkCoYA40Ck",
           "deezer_id": 4008581661,
-          "deezer_url": "https://www.deezer.com/track/4008581661"
+          "deezer_url": "https://www.deezer.com/track/4008581661",
+          "apple_id": 1460071215,
+          "apple_url": "https://music.apple.com/us/album/maturidade-feat-matheus-kauan/1460071212?i=1460071215&uo=4",
+          "dailymotion_id": "x5hp6vg",
+          "dailymotion_url": "https://www.dailymotion.com/video/x5hp6vg"
         },
         {
           "position": 42,
@@ -11859,7 +12345,11 @@
           "youtube_id": "ODijwjs8Qvc",
           "youtube_url": "https://www.youtube.com/watch?v=ODijwjs8Qvc",
           "deezer_id": 3837322301,
-          "deezer_url": "https://www.deezer.com/track/3837322301"
+          "deezer_url": "https://www.deezer.com/track/3837322301",
+          "apple_id": 1876549886,
+          "apple_url": "https://music.apple.com/us/album/famoso-%C3%ADm%C3%A3-o-poderoso-chat%C3%A3o/1876549885?i=1876549886&uo=4",
+          "dailymotion_id": "x8wonda",
+          "dailymotion_url": "https://www.dailymotion.com/video/x8wonda"
         },
         {
           "position": 43,
@@ -11876,7 +12366,11 @@
           "youtube_id": "HD2sMiAwpCQ",
           "youtube_url": "https://www.youtube.com/watch?v=HD2sMiAwpCQ",
           "deezer_id": 3240320441,
-          "deezer_url": "https://www.deezer.com/track/3240320441"
+          "deezer_url": "https://www.deezer.com/track/3240320441",
+          "apple_id": 1797216722,
+          "apple_url": "https://music.apple.com/us/album/eu-me-apaixonei/1797216721?i=1797216722&uo=4",
+          "dailymotion_id": "xbuwfbq",
+          "dailymotion_url": "https://www.dailymotion.com/video/xbuwfbq"
         },
         {
           "position": 44,
@@ -11893,7 +12387,11 @@
           "youtube_id": "WQHYbOy7H2g",
           "youtube_url": "https://www.youtube.com/watch?v=WQHYbOy7H2g",
           "deezer_id": 3640608352,
-          "deezer_url": "https://www.deezer.com/track/3640608352"
+          "deezer_url": "https://www.deezer.com/track/3640608352",
+          "apple_id": 1884538922,
+          "apple_url": "https://music.apple.com/us/album/mega-funk-di%C3%A1rio-de-um-cafajeste/1884538912?i=1884538922&uo=4",
+          "dailymotion_id": "x87gakf",
+          "dailymotion_url": "https://www.dailymotion.com/video/x87gakf"
         },
         {
           "position": 45,
@@ -11910,7 +12408,11 @@
           "youtube_id": "Y4nJWY4FXd0",
           "youtube_url": "https://www.youtube.com/watch?v=Y4nJWY4FXd0",
           "deezer_id": 4323836632,
-          "deezer_url": "https://www.deezer.com/track/4323836632"
+          "deezer_url": "https://www.deezer.com/track/4323836632",
+          "apple_id": 1846801568,
+          "apple_url": "https://music.apple.com/us/album/geme-baixo/1846801567?i=1846801568&uo=4",
+          "dailymotion_id": "x2ww9cz",
+          "dailymotion_url": "https://www.dailymotion.com/video/x2ww9cz"
         },
         {
           "position": 46,
@@ -11927,7 +12429,11 @@
           "youtube_id": "n5wxZ_OBUXk",
           "youtube_url": "https://www.youtube.com/watch?v=n5wxZ_OBUXk",
           "deezer_id": 2954217391,
-          "deezer_url": "https://www.deezer.com/track/2954217391"
+          "deezer_url": "https://www.deezer.com/track/2954217391",
+          "apple_id": 1763712155,
+          "apple_url": "https://music.apple.com/us/album/cora%C3%A7%C3%A3o-partido-coraz%C3%B3n-part%C3%ADo-ao-vivo/1763712154?i=1763712155&uo=4",
+          "dailymotion_id": "x9y14g6",
+          "dailymotion_url": "https://www.dailymotion.com/video/x9y14g6"
         },
         {
           "position": 47,
@@ -11944,7 +12450,11 @@
           "youtube_id": "SiLkvmg9WRo",
           "youtube_url": "https://www.youtube.com/watch?v=SiLkvmg9WRo",
           "deezer_id": 3625745552,
-          "deezer_url": "https://www.deezer.com/track/3625745552"
+          "deezer_url": "https://www.deezer.com/track/3625745552",
+          "apple_id": 1849483657,
+          "apple_url": "https://music.apple.com/us/album/flash-ao-vivo/1849483656?i=1849483657&uo=4",
+          "dailymotion_id": "xaorpdi",
+          "dailymotion_url": "https://www.dailymotion.com/video/xaorpdi"
         },
         {
           "position": 48,
@@ -11961,7 +12471,11 @@
           "youtube_id": "ZdvSXUb48dc",
           "youtube_url": "https://www.youtube.com/watch?v=ZdvSXUb48dc",
           "deezer_id": 3135700161,
-          "deezer_url": "https://www.deezer.com/track/3135700161"
+          "deezer_url": "https://www.deezer.com/track/3135700161",
+          "apple_id": 1784480460,
+          "apple_url": "https://music.apple.com/us/album/baqueado-ao-vivo/1784480459?i=1784480460&uo=4",
+          "dailymotion_id": "x86lua3",
+          "dailymotion_url": "https://www.dailymotion.com/video/x86lua3"
         },
         {
           "position": 49,
@@ -11978,7 +12492,11 @@
           "youtube_id": "3Y3P8xqgqXE",
           "youtube_url": "https://www.youtube.com/watch?v=3Y3P8xqgqXE",
           "deezer_id": 3794010892,
-          "deezer_url": "https://www.deezer.com/track/3794010892"
+          "deezer_url": "https://www.deezer.com/track/3794010892",
+          "apple_id": 1883841136,
+          "apple_url": "https://music.apple.com/us/album/me-fala-qual-necessidade-ao-vivo/1883841134?i=1883841136&uo=4",
+          "dailymotion_id": "x7wid5r",
+          "dailymotion_url": "https://www.dailymotion.com/video/x7wid5r"
         },
         {
           "position": 50,
@@ -11995,7 +12513,11 @@
           "youtube_id": "sp1ubzi3Yiw",
           "youtube_url": "https://www.youtube.com/watch?v=sp1ubzi3Yiw",
           "deezer_id": 3779252122,
-          "deezer_url": "https://www.deezer.com/track/3779252122"
+          "deezer_url": "https://www.deezer.com/track/3779252122",
+          "apple_id": 1869749089,
+          "apple_url": "https://music.apple.com/us/album/n%C3%A3o-mexe-nas-minhas-gavetas-ao-vivo/1869749088?i=1869749089&uo=4",
+          "dailymotion_id": "x6j4d36",
+          "dailymotion_url": "https://www.dailymotion.com/video/x6j4d36"
         }
       ],
       "sourceType": "billboard_brasil"
@@ -13033,7 +13555,9 @@
           "youtube_id": "BH9IOx6xPgE",
           "youtube_url": "https://www.youtube.com/watch?v=BH9IOx6xPgE",
           "deezer_id": 3940529761,
-          "deezer_url": "https://www.deezer.com/track/3940529761"
+          "deezer_url": "https://www.deezer.com/track/3940529761",
+          "dailymotion_id": "xafas36",
+          "dailymotion_url": "https://www.dailymotion.com/video/xafas36"
         }
       ],
       "sourceType": "itunes_rss"
